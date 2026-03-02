@@ -1,0 +1,1035 @@
+.grid_sostenible 
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: repeat(2, auto);  
+    gap: 20px;                              
+    justify-items: center;                 
+    padding: 20px 10px;
+}
+.icono-sostenible    
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.icono-circular-sostenible
+{
+    width: 450px;
+    height: 300px;
+    border-radius: 15%;
+    object-fit: cover;
+    background-color: #ecf0f1;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.5   s ease;
+}
+.icono-circular-sostenible:hover 
+{
+    transform: scale(1.3);
+}
+.titulo-icono-sostenible
+{
+    margin-bottom: 100px;
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--primary);
+}
+.sostenible 
+{
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+}
+.sostenible_texto 
+{
+    max-width: 1000px;
+    padding: 0 20px;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 5px rgb(255, 255, 255);
+    color: var(--secundary);
+    
+}
+.tx1_sostenible
+{
+    color: #000000;
+}
+.hr_3
+{
+    height: 5px;
+    margin-left: 20%; 
+    margin-right: 20%;
+    margin-top: 4%;
+    background-color: #eb5a00; 
+    border: none;
+}
+.tx2_sostenible
+{
+    color: #000000;
+    font-size: 1.5rem;
+    font-style:oblique;
+}
+
+/*RESPONSIVE*/
+
+/* Variables de colores */
+:root 
+{
+    --primary: #2c3e50;
+    --secondary: #eb5a00;
+    --accent: #3498db;
+    --light: #ecf0f1;
+    --dark: #000000;
+    --text: #000000;
+    --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Reset y estilos base */
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.8;
+    color: var(--text);
+    background-color: #f9f9f9;
+}
+
+a 
+{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul 
+{
+    list-style: none;
+}
+
+/* Header */
+header 
+{
+    background-color: white;
+    box-shadow: var(--shadow);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 3;
+}
+
+.header-container 
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.logo 
+{
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--primary);
+}
+
+.logo span 
+{
+    color: var(--secondary);
+}
+
+nav ul 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li 
+{
+    margin-left: 25px;
+}
+
+nav ul li a 
+{
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+nav ul li a:hover 
+{
+    color: var(--secondary);
+}
+
+.bt_header
+{
+    cursor: pointer;
+    transition: background-color 0.3s;
+    overflow: hidden;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    min-width: auto;
+    margin-left: 15px;
+    color: var(--secondary);
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    border: none;
+    border-radius: 50px;
+}
+
+.bt_header:hover 
+{
+    background-color: #f3ccb4;
+}
+
+.eslogan 
+{
+    height: 50vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../src/img/ciutat.jpg") no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    margin-top: 70px;
+}
+
+.title_eslogan 
+{
+    max-width: 900px;
+    padding: 0 20px;
+    font-size: 3rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.esencial 
+{
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+}
+
+.esencial_texto 
+{
+    max-width: 1000px;
+    padding: 0 20px;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 5px rgb(255, 255, 255);
+    color: var(--secondary);
+}
+
+.tx1_esencial
+{
+    color: #000000;
+}
+
+.hr
+{
+    height: 5px;
+    margin-left: 20%; 
+    margin-right: 20%;
+    margin-top: 4%;
+    background-color: #eb5a00; 
+    border: none;
+}
+
+.tx2_esencial
+{
+    color: #000000;
+    font-size: 1.5rem;
+    font-style: oblique;
+}
+
+/* ============================================
+   MEDIA QUERIES - RESPONSIVE DESIGN
+   ============================================ */
+
+/* Tablets grandes y pantallas pequeñas (hasta 1024px) */
+@media (max-width: 1024px) 
+{
+    .header-container 
+    {
+        justify-content: space-between;
+        padding: 15px 30px;
+    }
+
+    nav ul li 
+    {
+        margin-left: 15px;
+    }
+
+    .title_eslogan 
+    {
+        font-size: 2.5rem;
+    }
+
+    .esencial_texto 
+    {
+        font-size: 2rem;
+    }
+
+    .tx2_esencial 
+    {
+        font-size: 1.3rem;
+    }
+}
+
+/* Tablets (hasta 768px) */
+@media (max-width: 768px) 
+{
+    .header-container 
+    {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .logo 
+    {
+        font-size: 1.5rem;
+    }
+
+    nav ul 
+    {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    nav ul li 
+    {
+        margin-left: 0;
+    }
+
+    .bt_header 
+    {
+        margin-left: 0;
+        margin-top: 10px;
+        padding: 8px 20px;
+        font-size: 14px;
+    }
+
+    .eslogan 
+    {
+        height: 40vh;
+        margin-top: 120px;
+    }
+
+    .title_eslogan 
+    {
+        font-size: 2rem;
+        padding: 0 15px;
+    }
+
+    .esencial 
+    {
+        height: auto;
+        min-height: 20vh;
+        margin-top: 30px;
+        padding: 20px 0;
+    }
+
+    .esencial_texto 
+    {
+        font-size: 1.8rem;
+    }
+
+    .tx2_esencial 
+    {
+        font-size: 1.2rem;
+    }
+
+    .hr 
+    {
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 6%;
+    }
+}
+
+/* Móviles (hasta 480px) */
+@media (max-width: 480px) 
+{
+    .header-container 
+    {
+        padding: 10px 15px;
+    }
+
+    .logo 
+    {
+        font-size: 1.3rem;
+    }
+
+    nav ul 
+    {
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+    }
+
+    nav ul li a 
+    {
+        font-size: 14px;
+    }
+
+    .bt_header 
+    {
+        padding: 8px 16px;
+        font-size: 13px;
+    }
+
+    .eslogan 
+    {
+        height: 35vh;
+        margin-top: 180px;
+    }
+
+    .title_eslogan 
+    {
+        font-size: 1.5rem;
+        padding: 0 10px;
+    }
+
+    .esencial 
+    {
+        margin-top: 20px;
+    }
+
+    .esencial_texto 
+    {
+        font-size: 1.5rem;
+        padding: 0 15px;
+    }
+
+    .tx2_esencial 
+    {
+        font-size: 1rem;
+        padding: 0 10px;
+    }
+
+    .hr 
+    {
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 8%;
+        height: 3px;
+    }
+}
+
+/* Móviles muy pequeños (hasta 360px) */
+@media (max-width: 360px) 
+{
+    .logo 
+    {
+        font-size: 1.1rem;
+    }
+
+    .title_eslogan 
+    {
+        font-size: 1.3rem;
+    }
+
+    .esencial_texto 
+    {
+        font-size: 1.3rem;
+    }
+
+    .tx2_esencial 
+    {
+        font-size: 0.9rem;
+    }
+}
+
+/* Grid Esencial - Estilos base */
+.grid-esencial 
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: repeat(3, auto);  
+    gap: 20px;                              
+    justify-items: center;                 
+    padding: 20px 10px;
+}
+
+.icono-esencial 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.icono-circular-esencial
+{
+    width: 450px;
+    height: 300px;
+    border-radius: 15%;
+    object-fit: cover;
+    background-color: #ecf0f1;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.5s ease;
+}
+
+.icono-circular-esencial:hover 
+{
+    transform: scale(1.3);
+}
+
+.titulo-icono-esencial
+{
+    margin-bottom: 100px;
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--primary);
+}
+
+/* ============================================
+   RESPONSIVE - GRID ESENCIAL
+   ============================================ */
+
+/* Tablets grandes (hasta 1200px) */
+@media (max-width: 1200px) 
+{
+    .icono-circular-esencial
+    {
+        width: 350px;
+        height: 250px;
+    }
+
+    .titulo-icono-esencial
+    {
+        font-size: 1.8rem;
+        margin-bottom: 80px;
+    }
+}
+
+/* Tablets y pantallas medianas (hasta 1024px) */
+@media (max-width: 1024px) 
+{
+    .grid-esencial 
+    {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        padding: 20px 15px;
+    }
+
+    .icono-circular-esencial
+    {
+        width: 320px;
+        height: 220px;
+    }
+
+    .icono-circular-esencial:hover 
+    {
+        transform: scale(1.15);
+    }
+
+    .titulo-icono-esencial
+    {
+        font-size: 1.6rem;
+        margin-bottom: 60px;
+    }
+}
+
+/* Tablets (hasta 768px) */
+@media (max-width: 768px) 
+{
+    .grid-esencial 
+    {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+        padding: 20px 10px;
+    }
+
+    .icono-circular-esencial
+    {
+        width: 280px;
+        height: 200px;
+        border-radius: 12%;
+    }
+
+    .titulo-icono-esencial
+    {
+        font-size: 1.4rem;
+        margin-bottom: 50px;
+    }
+}
+
+/* Móviles grandes (hasta 640px) */
+@media (max-width: 640px) 
+{
+    .grid-esencial 
+    {
+        grid-template-columns: 1fr;
+        gap: 40px;
+        padding: 30px 15px;
+    }
+
+    .icono-circular-esencial
+    {
+        width: 100%;
+        max-width: 400px;
+        height: 250px;
+    }
+
+    .icono-circular-esencial:hover 
+    {
+        transform: scale(1.05);
+    }
+
+    .titulo-icono-esencial
+    {
+        font-size: 1.5rem;
+        margin-bottom: 40px;
+    }
+}
+
+/* Móviles (hasta 480px) */
+@media (max-width: 480px) 
+{
+    .grid-esencial 
+    {
+        gap: 30px;
+        padding: 20px 10px;
+    }
+
+    .icono-circular-esencial
+    {
+        height: 220px;
+        border-radius: 10%;
+    }
+
+    .titulo-icono-esencial
+    {
+        font-size: 1.3rem;
+        margin-bottom: 30px;
+    }
+}
+
+/* Móviles pequeños (hasta 360px) */
+@media (max-width: 360px) 
+{
+    .grid-esencial 
+    {
+        gap: 25px;
+        padding: 15px 8px;
+    }
+
+    .icono-circular-esencial
+    {
+        height: 200px;
+    }
+
+    .titulo-icono-esencial
+    {
+        font-size: 1.2rem;
+        margin-bottom: 25px;
+    }
+}
+
+/* Grid Planes - Estilos base */
+.grid_planes 
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: repeat(2, auto);  
+    gap: 20px;                              
+    justify-items: center;                 
+    padding: 20px 10px;
+}
+
+.icono-planes    
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.icono-circular-planes
+{
+    width: 450px;
+    height: 300px;
+    border-radius: 15%;
+    object-fit: cover;
+    background-color: #ecf0f1;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.5s ease;
+}
+
+.icono-circular-planes:hover 
+{
+    transform: scale(1.3);
+}
+
+.titulo-icono-planes
+{
+    margin-bottom: 100px;
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--primary);
+}
+
+.planes 
+{
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+}
+
+.planes_texto 
+{
+    max-width: 1000px;
+    padding: 0 20px;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 5px rgb(255, 255, 255);
+    color: var(--secondary);
+}
+
+.tx1_planes
+{
+    color: #000000;
+}
+
+.hr_2
+{
+    height: 5px;
+    margin-left: 20%; 
+    margin-right: 20%;
+    margin-top: 4%;
+    background-color: #eb5a00; 
+    border: none;
+}
+
+.tx2_planes
+{
+    color: #000000;
+    font-size: 1.5rem;
+    font-style: oblique;
+}
+
+/* ============================================
+   RESPONSIVE - GRID PLANES
+   ============================================ */
+
+/* Tablets grandes (hasta 1200px) */
+@media (max-width: 1200px) 
+{
+    .icono-circular-planes
+    {
+        width: 350px;
+        height: 250px;
+    }
+
+    .titulo-icono-planes
+    {
+        font-size: 1.8rem;
+        margin-bottom: 80px;
+    }
+
+    .planes_texto 
+    {
+        font-size: 2rem;
+    }
+
+    .tx2_planes 
+    {
+        font-size: 1.3rem;
+    }
+}
+
+/* Tablets y pantallas medianas (hasta 1024px) */
+@media (max-width: 1024px) 
+{
+    .grid_planes 
+    {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        padding: 20px 15px;
+    }
+
+    .icono-circular-planes
+    {
+        width: 320px;
+        height: 220px;
+    }
+
+    .icono-circular-planes:hover 
+    {
+        transform: scale(1.15);
+    }
+
+    .titulo-icono-planes
+    {
+        font-size: 1.6rem;
+        margin-bottom: 60px;
+    }
+
+    .planes 
+    {
+        height: auto;
+        min-height: 20vh;
+        margin-top: 30px;
+        padding: 20px 0;
+    }
+
+    .planes_texto 
+    {
+        font-size: 1.8rem;
+    }
+}
+
+/* Tablets (hasta 768px) */
+@media (max-width: 768px) 
+{
+    .grid_planes 
+    {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+        padding: 20px 10px;
+    }
+
+    .icono-circular-planes
+    {
+        width: 280px;
+        height: 200px;
+        border-radius: 12%;
+    }
+
+    .titulo-icono-planes
+    {
+        font-size: 1.4rem;
+        margin-bottom: 50px;
+    }
+
+    .planes_texto 
+    {
+        font-size: 1.6rem;
+    }
+
+    .tx2_planes 
+    {
+        font-size: 1.2rem;
+    }
+
+    .hr_2 
+    {
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 6%;
+    }
+}
+
+/* Móviles grandes (hasta 640px) */
+@media (max-width: 640px) 
+{
+    .grid_planes 
+    {
+        grid-template-columns: 1fr;
+        gap: 40px;
+        padding: 30px 15px;
+    }
+
+    .icono-circular-planes
+    {
+        width: 100%;
+        max-width: 400px;
+        height: 250px;
+    }
+
+    .icono-circular-planes:hover 
+    {
+        transform: scale(1.05);
+    }
+
+    .titulo-icono-planes
+    {
+        font-size: 1.5rem;
+        margin-bottom: 40px;
+    }
+
+    .planes_texto 
+    {
+        font-size: 1.5rem;
+        padding: 0 15px;
+    }
+}
+
+/* Móviles (hasta 480px) */
+@media (max-width: 480px) 
+{
+    .grid_planes 
+    {
+        gap: 30px;
+        padding: 20px 10px;
+    }
+
+    .icono-circular-planes
+    {
+        height: 220px;
+        border-radius: 10%;
+    }
+
+    .titulo-icono-planes
+    {
+        font-size: 1.3rem;
+        margin-bottom: 30px;
+    }
+
+    .planes 
+    {
+        margin-top: 20px;
+    }
+
+    .planes_texto 
+    {
+        font-size: 1.3rem;
+    }
+
+    .tx2_planes 
+    {
+        font-size: 1rem;
+        padding: 0 10px;
+    }
+
+    .hr_2 
+    {
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 8%;
+        height: 3px;
+    }
+}
+
+/* Móviles pequeños (hasta 360px) */
+@media (max-width: 360px) 
+{
+    .grid_planes 
+    {
+        gap: 25px;
+        padding: 15px 8px;
+    }
+
+    .icono-circular-planes
+    {
+        height: 200px;
+    }
+
+    .titulo-icono-planes
+    {
+        font-size: 1.2rem;
+        margin-bottom: 25px;
+    }
+
+    .planes_texto 
+    {
+        font-size: 1.2rem;
+    }
+
+    .tx2_planes 
+    {
+        font-size: 0.9rem;
+    }
+}
+
+/* Grid Sostenible - Estilos base */
+.grid_sostenible 
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: repeat(2, auto);  
+    gap: 20px;                              
+    justify-items: center;                 
+    padding: 20px 10px;
+}
+
+.icono-sostenible    
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.icono-circular-sostenible
+{
+    width: 450px;
+    height: 300px;
+    border-radius: 15%;
+    object-fit: cover;
+    background-color: #ecf0f1;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.5s ease;
+}
+
+.icono-circular-sostenible:hover 
+{
+    transform: scale(1.3);
+}
+
+.titulo-icono-sostenible
+{
+    margin-bottom: 100px;
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--primary);
+}
+
+.sostenible 
+{
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+}
+
+.sostenible_texto 
+{
+    max-width: 1000px;
+    padding: 0 20px;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 5px rgb(255, 255, 255);
+    color: var(--secondary);
+}
+
+.tx1_sostenible
+{
+    color: #000000;
+}
+
+.hr_3
+{
+    height: 5px;
+    margin-left: 20%; 
+    margin-right: 20%;
+    margin-top: 4%;
+    background-color: #eb5a00; 
+    border: none;
+}
+
+.tx2_sostenible
+{
+    color: #000000;
+    font-size: 1.5rem;
+    font-style: oblique;
+}
+
+
