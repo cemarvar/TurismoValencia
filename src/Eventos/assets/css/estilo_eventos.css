@@ -22,7 +22,7 @@
     object-fit: cover;
     background-color: #ecf0f1;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    transition: transform 0.5   s ease;
+    transition: transform 0.5s ease;
 }
 .icono-circular-destacados:hover 
 {
