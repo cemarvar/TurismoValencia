@@ -20,7 +20,7 @@ export default function Footer()
 {
   return (
 
-    <div className="container">
+    <div className="container" id="contacto">
       <section className="Map">
         <Map />
       </section>

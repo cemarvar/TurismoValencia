@@ -1,5 +1,6 @@
 import "../../assets/css/estilo.css";
 import {Link} from  'react-router-dom'; 
+import { HashLink } from 'react-router-hash-link';
 export default function Header() 
 {
     return (
@@ -18,7 +19,28 @@ export default function Header()
                                     <li><Link to="/Eventos">Eventos</Link></li>
                                     <li><Link to="/Gastronomia">Gastronomia</Link></li>
                                     <li><Link to="/Alojamientos">Alojamientos</Link></li>
-                                    <li>Contacto</li>
+                                    <li>
+                                    {location.pathname === '/Inicio' ? (
+                                        <span
+                                            style={{ cursor: 'pointer' }}
+                                            onClick={() => {
+                                                const el = document.getElementById('contacto');
+                                                if (el) el.scrollIntoView({ behavior: 'smooth' });
+                                            }}
+                                        >
+                                            Contacto
+                                        </span>
+                                    ) : (
+                                        <HashLink
+                                            smooth
+                                            to="/#contacto"
+                                            scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'start' })}
+                                            className="nav-link"
+                                        >
+                                            Contacto
+                                        </HashLink>
+                                    )}
+                                </li>
                                     <li>
                                         <button className="bt_header">
                                         <Link to="/Entradas"> TICKETS <br />& <br /> TOURS</Link>
