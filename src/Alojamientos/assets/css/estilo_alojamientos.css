@@ -1,0 +1,79 @@
+.grid-estancia
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: repeat(3, auto);  
+    gap: 20px;                              
+    justify-items: center;                 
+    padding: 20px 10px;
+}
+.icono-estancia 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.icono-circular-estancia
+{
+    width: 450px;
+    height: 300px;
+    border-radius: 15%;
+    object-fit: cover;
+    background-color: #ecf0f1;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.5s ease;
+}
+.icono-circular-estancia:hover 
+{
+    transform: scale(1.3);
+}
+.titulo-icono-estancia
+{
+    margin-bottom: 100px;
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--primary);
+}
+
+.estancia
+{
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    margin-top: 18vh;
+}
+.estancia_texto 
+{
+    max-width: 1000px;
+    padding: 0 20px;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 5px rgb(255, 255, 255);
+    color: var(--secundary);
+    
+}
+.txt1_estancia
+{
+    color: #000000;
+}
+.txt2_estancia
+{
+    color: #000000;
+    font-size: 1.5rem;
+    font-style:oblique;
+}
+.hr_estancia
+{
+    height: 5px;
+    margin-left: 20%; 
+    margin-right: 20%;
+    margin-top: 4%;
+    background-color: #eb5a00; 
+    border: none;
+}
+
+
+/*RESPONSIVE*/
+

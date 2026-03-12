@@ -17,7 +17,7 @@ export default function Header()
                                     <li><Link to="/Que_Ver">Que ver</Link></li>
                                     <li><Link to="/Eventos">Eventos</Link></li>
                                     <li><Link to="/Gastronomia">Gastronomia</Link></li>
-                                    <li>Alojamiento</li>
+                                    <li><Link to="/Alojamientos">Alojamientos</Link></li>
                                     <li>Contacto</li>
                                     <li>
                                         <button className="bt_header">

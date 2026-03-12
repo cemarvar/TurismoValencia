@@ -19,7 +19,7 @@ export default function Map() {
 
       <MapContainer
         center={[39.4698, -0.3774]}
-        zoom={15}
+        zoom={16}
         scrollWheelZoom={true}
         style={{ height: "400px", width: "100%" }}
       >
