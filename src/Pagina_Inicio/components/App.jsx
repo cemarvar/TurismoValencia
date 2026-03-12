@@ -3,6 +3,7 @@ import Header from './HEADER/Header';
 import Ver from '../../Que_Ver/Ver';
 import Inicio from '../Inicio';
 import Eventos from '../../Eventos/Eventos';
+import Gastronomia from '../../Gastronomia/Gastronomia';
 import Scroll from './SCROLL/Scroll';
 
 export default function App()
@@ -16,6 +17,7 @@ export default function App()
                     <Route path='/Inicio' element={<Inicio/>}/>
                     <Route path="/Que_Ver" element={<Ver />} />
                     <Route path="/Eventos" element={<Eventos />} />
+                    <Route path="/Gastronomia" element={<Gastronomia />} />
                 </Routes>
         </BrowserRouter>
     );

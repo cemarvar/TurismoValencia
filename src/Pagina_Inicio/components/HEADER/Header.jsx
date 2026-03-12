@@ -16,7 +16,7 @@ export default function Header()
                                     <li><Link to="/Inicio">Inicio</Link></li>
                                     <li><Link to="/Que_Ver">Que ver</Link></li>
                                     <li><Link to="/Eventos">Eventos</Link></li>
-                                    <li>Gastronomía</li>
+                                    <li><Link to="/Gastronomia">Gastronomia</Link></li>
                                     <li>Alojamiento</li>
                                     <li>Contacto</li>
                                     <li>
