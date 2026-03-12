@@ -13,10 +13,10 @@ export default function Header()
                 <div className="container_header">
                     <header>
                         <div className="container header-container">
-                            <a href="#" className="logo">
+                            <Link to="/Inicio" className="logo">
                                 <img src="/img/TURISMO (3).png" alt="Valencia" className="logo-img" />
                                 <span>Valencia</span> Mejor esta vida
-                            </a>
+                            </Link>
                             <nav>
                                 <ul>
                                     <li><Link to="/Inicio">Inicio</Link></li>
