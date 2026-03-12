@@ -21,7 +21,7 @@ export default function Header()
                                     <li>Contacto</li>
                                     <li>
                                         <button className="bt_header">
-                                            TICKETS <br />& <br /> TOURS
+                                        <Link to="/Entradas"> TICKETS <br />& <br /> TOURS</Link>
                                         </button>
                                     </li>
                                 </ul>

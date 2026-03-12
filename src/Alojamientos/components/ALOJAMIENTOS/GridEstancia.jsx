@@ -1,6 +1,5 @@
 import '../../assets/css/estilo_alojamientos.css';
 import Estancia from '..//ALOJAMIENTOS/Estancia';
-import Culinaria from '..//ALOJAMIENTOS/Estancia';
 
 export default function GridEstancia() {
     var elementos = [

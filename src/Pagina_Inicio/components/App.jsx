@@ -6,6 +6,7 @@ import Eventos from '../../Eventos/Eventos';
 import Gastronomia from '../../Gastronomia/Gastronomia';
 import Alojamientos from '../../Alojamientos/Alojamientos';
 import Scroll from './SCROLL/Scroll';
+import Entradas from '../../Entradas/Entradas';
 
 export default function App()
 {
@@ -20,6 +21,7 @@ export default function App()
                     <Route path="/Eventos" element={<Eventos />} />
                     <Route path="/Gastronomia" element={<Gastronomia />} />
                     <Route path="/Alojamientos" element={<Alojamientos />} />
+                    <Route path="/Entradas" element={<Entradas />} />
                 </Routes>
         </BrowserRouter>
     );
