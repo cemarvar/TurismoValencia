@@ -30,9 +30,9 @@ export default function Header()
                                 </span>
                             </li>
                                     <li>
-                                        <button className="bt_header">
-                                        <Link to="/Entradas"> TICKETS <br />& <br /> TOURS</Link>
-                                        </button>
+                                        <Link to="/Entradas" className="bt_header">
+                                            TICKETS & TOURS
+                                        </Link>
                                     </li>
                                 </ul>
                             </nav>

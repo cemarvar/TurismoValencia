@@ -1,77 +1,115 @@
-.grid_planes 
-{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); 
-    grid-template-rows: repeat(2, auto);  
-    gap: 20px;                              
-    justify-items: center;                 
-    padding: 20px 10px;
+/* ── Sección título ── */
+.container_planes {
+    background: linear-gradient(135deg, #f8f4f0 0%, #fff5ee 100%);
 }
-.icono-planes    
-{
+
+/* ── Sección título ── */
+.planes {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 60px 20px 40px;
+    margin-top: 0;
+}
+
+.planes_texto {
+    max-width: 800px;
+    padding: 0 20px;
+}
+
+.tx1_planes {
+    font-size: 3rem;
+    font-weight: 800;
+    color: #1a1a1a;
+    letter-spacing: -1px;
+    margin-bottom: 12px;
+}
+
+.tx2_planes {
+    color: #555;
+    font-size: 1.2rem;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.hr_2 {
+    height: 4px;
+    width: 80px;
+    margin: 20px auto 0;
+    background: linear-gradient(90deg, #eb5a00, #ff8c42);
+    border: none;
+    border-radius: 2px;
+}
+
+/* ── Grid ── */
+.grid_planes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding: 40px 60px 60px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/* ── Tarjeta ── */
+.icono-planes {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    background: #fff;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
 }
-.icono-circular-planes
-{
-    width: 450px;
-    height: 300px;
-    border-radius: 15%;
+
+.icono-planes:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 35px rgba(235, 90, 0, 0.2);
+}
+
+.icono-circular-planes {
+    width: 100%;
+    height: 220px;
     object-fit: cover;
-    background-color: #ecf0f1;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    transition: transform 0.5   s ease;
+    border-radius: 0;
+    transition: transform 0.5s ease;
 }
-.icono-circular-planes:hover 
-{
-    transform: scale(1.3);
+
+.icono-planes:hover .icono-circular-planes {
+    transform: scale(1.05);
 }
-.titulo-icono-planes
-{
-    margin-bottom: 100px;
-    font-size: 2rem;
+
+.titulo-icono-planes {
+    margin: 14px 16px 18px;
+    font-size: 1.1rem;
     font-weight: 600;
-    color: var(--primary);
-}
-.planes 
-{
-    height: 25vh;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    color: white;
-    margin-top: 40px;
-}
-.planes_texto 
-{
-    max-width: 1000px;
-    padding: 0 20px;
-    font-size: 2.5rem;
-    text-shadow: 2px 2px 5px rgb(255, 255, 255);
-    color: var(--secundary);
-    
-}
-.tx1_planes
-{
-    color: #000000;
-}
-.hr_2
-{
-    height: 5px;
-    margin-left: 20%; 
-    margin-right: 20%;
-    margin-top: 4%;
-    background-color: #eb5a00; 
-    border: none;
-}
-.tx2_planes
-{
-    color: #000000;
-    font-size: 1.5rem;
-    font-style:oblique;
+    color: #1a1a1a;
 }
 
-/*RESPONSIVE*/
+/* ── RESPONSIVE ── */
+@media (max-width: 1024px) {
+    .grid_planes {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 30px 30px 50px;
+    }
+}
 
+@media (max-width: 600px) {
+    .grid_planes {
+        grid-template-columns: 1fr;
+        padding: 20px 16px 40px;
+        gap: 20px;
+    }
+
+    .tx1_planes {
+        font-size: 2rem;
+    }
+
+    .icono-circular-planes {
+        height: 200px;
+    }
+}
