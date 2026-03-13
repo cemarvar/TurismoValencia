@@ -1,22 +1,36 @@
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import L from "leaflet";
+import { useEffect, useRef } from "react";
 
-// Fix para el icono por defecto de Leaflet en React
 delete L.Icon.Default.prototype._getIconUrl;
 L.Icon.Default.mergeOptions({
-  iconRetinaUrl:
-    "https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon-2x.png",
-  iconUrl:
-    "https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon.png",
-  shadowUrl:
-    "https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png",
+  iconRetinaUrl: "https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon-2x.png",
+  iconUrl: "https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon.png",
+  shadowUrl: "https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png",
 });
+
+function AutoOpenPopup() {
+  const markerRef = useRef(null);
+
+  useEffect(() => {
+    if (markerRef.current) {
+      markerRef.current.openPopup();
+    }
+  }, []);
+
+  return (
+    <Marker position={[39.4698, -0.3774]} ref={markerRef}>
+      <Popup autoClose={false} closeOnClick={false} closeButton={false}>
+        <strong> Ayuntamiento de Valencia</strong>
+      </Popup>
+    </Marker>
+  );
+}
 
 export default function Map() {
   return (
     <div>
-
       <MapContainer
         center={[39.4698, -0.3774]}
         zoom={16}
@@ -27,10 +41,7 @@ export default function Map() {
           url="https://tile.openstreetmap.org/{z}/{x}/{y}.png"
           attribution='&copy; OpenStreetMap contributors'
         />
-
-        <Marker position={[39.4698, -0.3774]}>
-          <Popup>Centro de Valencia</Popup>
-        </Marker>
+        <AutoOpenPopup />
       </MapContainer>
     </div>
   );
