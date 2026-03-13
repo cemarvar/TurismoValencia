@@ -2,6 +2,7 @@
 {
   height: 800px;
   width: 100%;
+  border-top: 2px solid #eb5a00;
 }
 /* Tablets grandes (hasta 1024px) */
 @media (max-width: 1024px) 
