@@ -7,6 +7,8 @@ import Gastronomia from '../../Gastronomia/Gastronomia';
 import Alojamientos from '../../Alojamientos/Alojamientos';
 import Scroll from './SCROLL/Scroll';
 import Entradas from '../../Entradas/Entradas';
+import Navidad from '../pages/esencial/Navidad';
+
 
 export default function App()
 {
@@ -22,6 +24,7 @@ export default function App()
                     <Route path="/Gastronomia" element={<Gastronomia />} />
                     <Route path="/Alojamientos" element={<Alojamientos />} />
                     <Route path="/Entradas" element={<Entradas />} />
+                    <Route path="/Navidad" element={<Navidad />} />
                 </Routes>
         </BrowserRouter>
     );
