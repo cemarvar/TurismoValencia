@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import '../../assets/cssEsencial/Navidad.css';
+import Footer from '../../FOOTER/Footer';
 
 var planes = [
   {
@@ -8,8 +9,7 @@ var planes = [
     titulo: 'El gran árbol de Navidad y el mercado tradicional',
     desc: 'El corazón de la Navidad valenciana. El árbol monumental ilumina la plaza junto a decenas de puestos con artesanía, turrones, figuritas de belén y productos típicos de temporada.',
     tags: [{ label: 'Gratuito', type: 'free' }, { label: 'Todas las edades' }, { label: 'Mercado' }, { label: 'Dic–Ene' }],
-    emoji: '🎄',
-    imgClass: 'img-navidad',
+    imgClass: 'img-navidad'
   },
   {
     num: '02',
@@ -17,8 +17,7 @@ var planes = [
     titulo: 'Ruta de las luces: Valencia iluminada',
     desc: 'Más de 800.000 luces adornan las calles del centro histórico. Un paseo nocturno por Colón, Paz y Xàtiva para disfrutar del espectáculo de luz y color en familia.',
     tags: [{ label: 'Gratuito', type: 'free' }, { label: 'Familia' }, { label: 'Nocturno' }, { label: 'Todo diciembre' }],
-    emoji: '✨',
-    imgClass: 'img-luces',
+    imgClass: 'img-luces'
   },
   {
     num: '03',
@@ -26,8 +25,7 @@ var planes = [
     titulo: 'Belén monumental y exposición de ciencia navideña',
     desc: 'El Museu de les Ciències acoge cada año un belén de grandes dimensiones y una exposición interactiva sobre los fenómenos físicos detrás de la magia navideña.',
     tags: [{ label: '5 €' }, { label: '4–14 años' }, { label: 'Exposición' }, { label: 'Sáb–Dom' }],
-    emoji: '🔭',
-    imgClass: 'img-museum',
+    imgClass: 'img-museum'
   },
   {
     num: '04',
@@ -35,8 +33,7 @@ var planes = [
     titulo: 'Navidad en el Bioparc: Safari de Papá Noel',
     desc: 'Los animales del Bioparc se visten de fiesta. Papá Noel recorre el parque en un safari especial, los niños pueden entregarle su carta y participar en talleres de animales.',
     tags: [{ label: '18 €' }, { label: '2–10 años' }, { label: 'Animales' }, { label: 'Fines de semana' }],
-    emoji: '🦁',
-    imgClass: 'img-bioparc',
+    imgClass: 'img-bioparc'
   },
   {
     num: '05',
@@ -44,8 +41,7 @@ var planes = [
     titulo: 'Taller de turrones y dulces navideños valencianos',
     desc: 'Aprende a elaborar turrones de Xixona, peladillas y mantecados con maestros artesanos del Mercado Central. Una experiencia gastronómica para llevarse el sabor de la Navidad a casa.',
     tags: [{ label: '12 €' }, { label: '8+ años' }, { label: 'Gastronomía' }, { label: 'Jueves–Sábado' }],
-    emoji: '🍬',
-    imgClass: 'img-food',
+    imgClass: 'img-food'
   },
   {
     num: '06',
@@ -53,18 +49,17 @@ var planes = [
     titulo: 'Concierto de Navidad: Coral Infantil de Valencia',
     desc: 'La Coral Infantil de la Generalitat Valenciana ofrece su concierto anual de Navidad con villancicos tradicionales y piezas clásicas en el emblemático Palau de la Música.',
     tags: [{ label: '8 €' }, { label: 'Todas las edades' }, { label: 'Música' }, { label: '22 Dic' }],
-    emoji: '🎶',
-    imgClass: 'img-musica',
+    imgClass: 'img-musica'
   },
 ];
 
-const filtros = ['Todos', 'Gratuitos', 'Con niños', 'Gastronomía', 'Música', 'Mercados', 'Luces', 'Deportes'];
+var filtros = ['Todos', 'Gratuitos', 'Con niños', 'Gastronomía', 'Música', 'Mercados', 'Luces', 'Deportes'];
 
-const fechas = [
+var fechas = [
   { rango: '1 — 7 Dic', titulo: 'Encendido de luces', count: '12 eventos' },
   { rango: '8 — 22 Dic', titulo: 'Mercados y talleres', count: '31 eventos' },
   { rango: '23 — 26 Dic', titulo: 'Navidad y Belenes', count: '18 eventos' },
-  { rango: '31 Dic — 6 Ene', titulo: 'Fin de año y Reyes', count: '24 eventos' },
+  { rango: '31 Dic — 6 Ene', titulo: 'Fin de año y Reyes', count: '24 eventos' }
 ];
 
 
@@ -79,24 +74,14 @@ export default function Navidad() {
 
       {/* Hero */}
       <div className="nv-hero">
-        <div className="nv-snow">
-          {[...Array(30)].map((_, i) => (
-            <div key={i} className="nv-flake" style={{
-              left: `${Math.random() * 100}%`,
-              animationDelay: `${Math.random() * 5}s`,
-              animationDuration: `${4 + Math.random() * 4}s`,
-              fontSize: `${8 + Math.random() * 14}px`,
-              opacity: 0.6 + Math.random() * 0.4
-            }}>❄</div>
-          ))}
-        </div>
+        
         <div className="nv-hero-overlay" />
         <div className="nv-hero-content">
           <div className="nv-eyebrow">Navidad · Valencia · Diciembre 2025</div>
           <h1>La Navidad<br />más luminosa</h1>
           <p>Mercados, belenes, conciertos y miles de luces. Descubre todo lo que Valencia tiene preparado para las fiestas.</p>
         </div>
-        <div className="nv-hero-deco">🎄</div>
+        <div className="nv-hero-deco"></div>
       </div>
 
       {/* Intro */}
@@ -142,7 +127,7 @@ export default function Navidad() {
         </ul>
       </div>
 
-
+      <Footer />
 
 
 

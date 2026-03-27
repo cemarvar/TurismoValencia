@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
+
+.imprescindibles-page {
+    font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
+    color: #1a1a1a;
+    margin-top: 70px;
+}
+
+/* ── Breadcrumb ── */
+.imp-breadcrumb {
+    padding: 14px 48px;
+    font-size: 12px;
+    color: #777;
+    border-bottom: 1px solid #e5e5e5;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    letter-spacing: 0.02em;
+}
+
+.imp-breadcrumb a {
+    color: #777;
+    text-decoration: none;
+}
+
+.imp-breadcrumb a:hover {
+    color: #1a1a1a;
+    text-decoration: underline;
+}
+
+.imp-sep {
+    color: #bbb;
+    font-size: 10px;
+}
+
+/* ── Hero ── */
+.imp-hero {
+    position: relative;
+    height: 520px;
+    background-image: url('public/img/img-esencial/VisitasImprescindibles/VisitasImprescindibles.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-end;
+}
+
+.imp-hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.1) 55%, transparent 100%);
+}
+
+.imp-hero-content {
+    position: relative;
+    z-index: 2;
+    padding: 0 48px 52px;
+    color: #fff;
+    max-width: 680px;
+}
+
+.imp-eyebrow {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #f0c040;
+    margin-bottom: 12px;
+}
+
+.imp-hero-content h1 {
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 1.05;
+    margin-bottom: 16px;
+    letter-spacing: -0.02em;
+}
+
+.imp-hero-content p {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.85);
+    max-width: 480px;
+}
+
+/* ── Intro ── */
+.imp-intro {
+    max-width: 740px;
+    margin: 52px auto;
+    padding: 0 48px;
+}
+
+.imp-intro p {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.75;
+    color: #333;
+    margin-bottom: 18px;
+}
+
+.imp-intro strong {
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+/* ── Filtros ── */
+.imp-filter-bar {
+    padding: 0 48px 40px;
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.imp-pill {
+    padding: 7px 20px;
+    border: 1.5px solid #ccc;
+    background: #fff;
+    color: #1a1a1a;
+    font-size: 13px;
+    font-family: inherit;
+    cursor: pointer;
+    border-radius: 2px;
+    transition: all 0.15s;
+}
+
+.imp-pill:hover {
+    border-color: #1a2a4a;
+}
+
+.imp-pill.active {
+    background: #1a2a4a;
+    color: #f0c040;
+    border-color: #1a2a4a;
+}
+
+/* ── Planes ── */
+.imp-routes {
+    padding: 0 48px;
+}
+
+.imp-route-item {
+    display: grid;
+    grid-template-columns: 56px 1fr 380px;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 48px 0;
+    align-items: start;
+}
+
+.imp-route-num {
+    font-size: 13px;
+    font-weight: 600;
+    color: #999;
+    letter-spacing: 0.05em;
+    padding-top: 4px;
+}
+
+.imp-route-text {
+    padding-right: 48px;
+}
+
+.imp-region {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #c0392b;
+    margin-bottom: 8px;
+}
+
+.imp-route-text h2 {
+    font-size: 26px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 12px;
+    letter-spacing: -0.01em;
+    line-height: 1.2;
+}
+
+.imp-route-text p {
+    font-size: 15px;
+    font-weight: 300;
+    color: #555;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+.imp-tags {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.imp-tag {
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #555;
+    border: 1px solid #ddd;
+    padding: 4px 10px;
+    border-radius: 2px;
+}
+
+.imp-tag.free {
+    color: #2e7d32;
+    border-color: #a5d6a7;
+    background: #f1f8e9;
+}
+
+.imp-link {
+    font-size: 14px;
+    font-weight: 600;
+    color: #1a1a1a;
+    text-decoration: none;
+    border-bottom: 2px solid #c0392b;
+    padding-bottom: 1px;
+    display: inline-block;
+}
+
+.imp-link:hover {
+    color: #c0392b;
+}
+
+.imp-route-img {
+    border-radius: 2px;
+    overflow: hidden;
+    height: 240px;
+}
+
+.imp-route-img-inner {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* ── Imágenes de cada plan ── */
+.img-cac {
+    background-image: url('public/img/img-esencial/VisitasImprescindibles/ctac.jpg');
+}
+
+.img-catedral {
+    background-image: url('public/img/img-esencial/VisitasImprescindibles/catedral.jpg');
+}
+
+.img-sannicolas {
+    background-image: url('public/img/img-esencial/VisitasImprescindibles/capilla.jpg');
+}
+
+.img-lonja {
+    background-image: url('public/img/img-esencial/VisitasImprescindibles/lonjaseda.jpg');
+}
+
+.img-mercado {
+    background-image: url('public/img/img-esencial/VisitasImprescindibles/mercado.jpg');
+}
+
+.img-plazaredonda {
+    background-image: url('public/img/img-esencial/VisitasImprescindibles/redonda.jpg');
+}
+
+.img-carmen {
+    background-image: url('public/img/img-esencial/VisitasImprescindibles/carmen.jpg');
+}
+
+.img-turia {
+    background-image: url('public/img/img-esencial/VisitasImprescindibles/turia.jpg');
+}
+
+.img-cabanyal {
+    background-image: url('public/img/img-esencial/VisitasImprescindibles/cabanyal.jpg');
+}
+
+.img-albufera {
+    background-image: url('public/img/img-esencial/VisitasImprescindibles/albufera.jpg');
+}
+
+/* ── Info box ── */
+.imp-info-box {
+    margin: 48px 48px 60px;
+    border: 1.5px solid #1a2a4a;
+    padding: 32px 36px;
+    background: #f8f9fc;
+}
+
+.imp-info-box h3 {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    color: #1a2a4a;
+}
+
+.imp-info-list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px 32px;
+}
+
+.imp-info-list li {
+    font-size: 14px;
+    font-weight: 300;
+    color: #444;
+    padding-left: 16px;
+    position: relative;
+}
+
+.imp-info-list li::before {
+    content: '—';
+    position: absolute;
+    left: 0;
+    color: #999;
+    font-size: 12px;
+}
+
+/* ── RESPONSIVE ── */
+@media (max-width: 1024px) {
+    .imp-route-item {
+        grid-template-columns: 40px 1fr 280px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .imp-breadcrumb,
+    .imp-intro,
+    .imp-filter-bar,
+    .imp-routes,
+    .imp-info-box {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .imp-hero-content {
+        padding: 0 20px 36px;
+    }
+
+    .imp-hero-content h1 {
+        font-size: 34px;
+    }
+
+    .imp-route-item {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .imp-route-num {
+        display: none;
+    }
+
+    .imp-route-text {
+        padding-right: 0;
+    }
+
+    .imp-route-img {
+        height: 200px;
+    }
+
+    .imp-info-list {
+        grid-template-columns: 1fr;
+    }
+
+    .imp-info-box {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .imp-hero {
+        height: 400px;
+    }
+
+    .imp-hero-content h1 {
+        font-size: 28px;
+    }
+}

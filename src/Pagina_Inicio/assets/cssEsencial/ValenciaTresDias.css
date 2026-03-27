@@ -1,0 +1,410 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
+
+.vtd-page {
+    font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
+    color: #1a1a1a;
+    margin-top: 70px;
+}
+
+/* ── Hero ── */
+.vtd-hero {
+    position: relative;
+    height: 520px;
+    background-image: url('public/img/img-esencial/TresDias/vlc3.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-end;
+}
+
+.vtd-hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.68) 0%, rgba(0, 0, 0, 0.15) 55%, transparent 100%);
+}
+
+.vtd-hero-content {
+    position: relative;
+    z-index: 2;
+    padding: 0 48px 52px;
+    color: #fff;
+    max-width: 680px;
+}
+
+.vtd-eyebrow {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #f0c040;
+    margin-bottom: 12px;
+}
+
+.vtd-hero-content h1 {
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 1.05;
+    margin-bottom: 16px;
+    letter-spacing: -0.02em;
+}
+
+.vtd-hero-content p {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.85);
+    max-width: 480px;
+}
+
+/* Badge de horas */
+.vtd-dias-badge {
+    position: absolute;
+    right: 48px;
+    bottom: 52px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 88px;
+    height: 88px;
+    border: 2px solid rgba(240, 192, 64, 0.7);
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+}
+
+.vtd-dias-badge span {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.vtd-dias-badge small {
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #f0c040;
+}
+
+/* ── Intro ── */
+.vtd-intro {
+    max-width: 740px;
+    margin: 52px auto;
+    padding: 0 48px;
+}
+
+.vtd-intro p {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.75;
+    color: #333;
+    margin-bottom: 18px;
+}
+
+/* ── Itinerario ── */
+.vtd-routes {
+    padding: 0 48px;
+}
+
+.vtd-route-item {
+    display: grid;
+    grid-template-columns: 56px 1fr 380px;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 52px 0;
+    align-items: start;
+}
+
+.vtd-route-num {
+    font-size: 13px;
+    font-weight: 600;
+    color: #999;
+    letter-spacing: 0.05em;
+    padding-top: 4px;
+}
+
+.vtd-route-text {
+    padding-right: 48px;
+}
+
+.vtd-dia-label {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #1a2a4a;
+    margin-bottom: 4px;
+}
+
+.vtd-region {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #c0392b;
+    margin-bottom: 10px;
+}
+
+.vtd-route-text h2 {
+    font-size: 26px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 14px;
+    letter-spacing: -0.01em;
+    line-height: 1.2;
+}
+
+.vtd-route-text > p {
+    font-size: 15px;
+    font-weight: 300;
+    color: #555;
+    line-height: 1.7;
+    margin-bottom: 24px;
+}
+
+/* Lista de lugares del día */
+.vtd-lugares {
+    list-style: none;
+    margin: 0 0 24px 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.vtd-lugares li {
+    display: flex;
+    flex-direction: column;
+    padding-left: 14px;
+    border-left: 2px solid #e0e0e0;
+    gap: 2px;
+}
+
+.vtd-lugar-nombre {
+    font-size: 14px;
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+.vtd-lugar-detalle {
+    font-size: 13px;
+    font-weight: 300;
+    color: #777;
+    line-height: 1.5;
+}
+
+/* Consejo del día */
+.vtd-consejo {
+    font-size: 13px;
+    font-weight: 400;
+    color: #444;
+    background: #f8f9fc;
+    border-left: 3px solid #1a2a4a;
+    padding: 12px 16px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+.vtd-consejo-icon {
+    font-size: 14px;
+    color: #1a2a4a;
+    flex-shrink: 0;
+    margin-top: 1px;
+}
+
+/* Tags */
+.vtd-tags {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.vtd-tag {
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #555;
+    border: 1px solid #ddd;
+    padding: 4px 10px;
+    border-radius: 2px;
+}
+
+.vtd-tag.highlight {
+    color: #1a2a4a;
+    border-color: #1a2a4a;
+    background: #eef1f8;
+}
+
+.vtd-link {
+    font-size: 14px;
+    font-weight: 600;
+    color: #1a1a1a;
+    text-decoration: none;
+    border-bottom: 2px solid #c0392b;
+    padding-bottom: 1px;
+    display: inline-block;
+}
+
+.vtd-link:hover {
+    color: #c0392b;
+}
+
+/* Imagen del día */
+.vtd-route-img {
+    border-radius: 2px;
+    overflow: hidden;
+    height: 320px;
+    position: sticky;
+    top: 90px
+}
+
+.vtd-route-img-inner {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-dia1 {
+    background-image: url('public/img/img-esencial/TresDias/dia1.jpg');
+}
+
+.img-dia2 {
+    background-image: url('public/img/img-esencial/TresDias/dia2.jpg');
+}
+
+.img-dia3 {
+    background-image: url('public/img/img-esencial/TresDias/dia3.jpg');
+}
+
+/* ── Info box ── */
+.vtd-info-box {
+    margin: 48px 48px 60px;
+    border: 1.5px solid #1a2a4a;
+    padding: 32px 36px;
+    background: #f8f9fc;
+}
+
+.vtd-info-box h3 {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    color: #1a2a4a;
+}
+
+.vtd-info-list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px 32px;
+}
+
+.vtd-info-list li {
+    font-size: 14px;
+    font-weight: 300;
+    color: #444;
+    padding-left: 16px;
+    position: relative;
+    line-height: 1.5;
+}
+
+.vtd-info-list li::before {
+    content: '—';
+    position: absolute;
+    left: 0;
+    color: #999;
+    font-size: 12px;
+}
+
+/* ── RESPONSIVE ── */
+@media (max-width: 1024px) {
+    .vtd-route-item {
+        grid-template-columns: 40px 1fr 280px;
+    }
+
+    .vtd-route-img {
+        height: 260px;
+        position: static;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .vtd-intro,
+    .vtd-routes,
+    .vtd-info-box {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .vtd-hero-content {
+        padding: 0 20px 36px;
+    }
+
+    .vtd-hero-content h1 {
+        font-size: 34px;
+    }
+
+    .vtd-dias-badge {
+        right: 20px;
+        bottom: 36px;
+        width: 72px;
+        height: 72px;
+    }
+
+    .vtd-dias-badge span {
+        font-size: 26px;
+    }
+
+    .vtd-route-item {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .vtd-route-num {
+        display: none;
+    }
+
+    .vtd-route-text {
+        padding-right: 0;
+    }
+
+    .vtd-route-img {
+        height: 220px;
+        position: static;
+    }
+
+    .vtd-info-list {
+        grid-template-columns: 1fr;
+    }
+
+    .vtd-info-box {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .vtd-hero {
+        height: 400px;
+    }
+
+    .vtd-hero-content h1 {
+        font-size: 28px;
+    }
+
+    .vtd-dias-badge {
+        display: none;
+    }
+}

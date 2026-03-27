@@ -17,23 +17,38 @@
     gap: 6px;
     letter-spacing: 0.02em;
 }
-.nv-breadcrumb a { color: #777; text-decoration: none; }
-.nv-breadcrumb a:hover { color: #1a1a1a; text-decoration: underline; }
-.nv-sep { color: #bbb; font-size: 10px; }
+
+.nv-breadcrumb a {
+    color: #777;
+    text-decoration: none;
+}
+
+.nv-breadcrumb a:hover {
+    color: #1a1a1a;
+    text-decoration: underline;
+}
+
+.nv-sep {
+    color: #bbb;
+    font-size: 10px;
+}
 
 /* ── Hero ── */
 .nv-hero {
     position: relative;
     height: 520px;
-    background: linear-gradient(160deg, #0a1628 0%, #1a2a4a 30%, #1e3a6e 55%, #2d5a8e 80%, #1a3a5c 100%);
+    background-image: url('public/img/img-esencial/Navidad/nv.jpg');
     overflow: hidden;
     display: flex;
     align-items: flex-end;
 }
+
 .nv-hero-overlay {
-    position: absolute; inset: 0;
-    background: linear-gradient(to top, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0.1) 55%, transparent 100%);
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.1) 55%, transparent 100%);
 }
+
 .nv-hero-deco {
     position: absolute;
     right: 80px;
@@ -41,8 +56,9 @@
     font-size: 140px;
     opacity: 0.18;
     z-index: 1;
-    filter: drop-shadow(0 0 40px rgba(255,200,50,0.4));
+    filter: drop-shadow(0 0 40px rgba(255, 200, 50, 0.4));
 }
+
 .nv-hero-content {
     position: relative;
     z-index: 2;
@@ -50,6 +66,7 @@
     color: #fff;
     max-width: 680px;
 }
+
 .nv-eyebrow {
     font-size: 11px;
     font-weight: 600;
@@ -58,6 +75,7 @@
     color: #f0c040;
     margin-bottom: 12px;
 }
+
 .nv-hero-content h1 {
     font-size: 52px;
     font-weight: 700;
@@ -65,31 +83,26 @@
     margin-bottom: 16px;
     letter-spacing: -0.02em;
 }
+
 .nv-hero-content p {
     font-size: 17px;
     font-weight: 300;
     line-height: 1.6;
-    color: rgba(255,255,255,0.85);
+    color: rgba(255, 255, 255, 0.85);
     max-width: 480px;
 }
 
-/* ── Nieve ── */
-.nv-snow {
-    position: absolute;
-    inset: 0;
-    z-index: 1;
-    pointer-events: none;
-    overflow: hidden;
-}
-.nv-flake {
-    position: absolute;
-    top: -20px;
-    color: white;
-    animation: snowfall linear infinite;
-}
+
 @keyframes snowfall {
-    0%   { transform: translateY(-20px) rotate(0deg); opacity: 1; }
-    100% { transform: translateY(540px) rotate(360deg); opacity: 0.2; }
+    0% {
+        transform: translateY(-20px) rotate(0deg);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateY(540px) rotate(360deg);
+        opacity: 0.2;
+    }
 }
 
 /* ── Intro ── */
@@ -98,6 +111,7 @@
     margin: 52px auto;
     padding: 0 48px;
 }
+
 .nv-intro p {
     font-size: 17px;
     font-weight: 300;
@@ -105,7 +119,11 @@
     color: #333;
     margin-bottom: 18px;
 }
-.nv-intro strong { font-weight: 600; color: #1a1a1a; }
+
+.nv-intro strong {
+    font-weight: 600;
+    color: #1a1a1a;
+}
 
 /* ── Filtros ── */
 .nv-filter-bar {
@@ -115,6 +133,7 @@
     flex-wrap: wrap;
     border-bottom: 1px solid #e5e5e5;
 }
+
 .nv-pill {
     padding: 7px 20px;
     border: 1.5px solid #ccc;
@@ -126,11 +145,21 @@
     border-radius: 2px;
     transition: all 0.15s;
 }
-.nv-pill:hover { border-color: #1a2a4a; }
-.nv-pill.active { background: #1a2a4a; color: #f0c040; border-color: #1a2a4a; }
+
+.nv-pill:hover {
+    border-color: #1a2a4a;
+}
+
+.nv-pill.active {
+    background: #1a2a4a;
+    color: #f0c040;
+    border-color: #1a2a4a;
+}
 
 /* ── Planes ── */
-.nv-routes { padding: 0 48px; }
+.nv-routes {
+    padding: 0 48px;
+}
 
 .nv-route-item {
     display: grid;
@@ -139,6 +168,7 @@
     padding: 48px 0;
     align-items: start;
 }
+
 .nv-route-num {
     font-size: 13px;
     font-weight: 600;
@@ -146,7 +176,11 @@
     letter-spacing: 0.05em;
     padding-top: 4px;
 }
-.nv-route-text { padding-right: 48px; }
+
+.nv-route-text {
+    padding-right: 48px;
+}
+
 .nv-region {
     font-size: 11px;
     font-weight: 600;
@@ -155,6 +189,7 @@
     color: #c0392b;
     margin-bottom: 8px;
 }
+
 .nv-route-text h2 {
     font-size: 26px;
     font-weight: 700;
@@ -163,6 +198,7 @@
     letter-spacing: -0.01em;
     line-height: 1.2;
 }
+
 .nv-route-text p {
     font-size: 15px;
     font-weight: 300;
@@ -170,7 +206,14 @@
     line-height: 1.7;
     margin-bottom: 20px;
 }
-.nv-tags { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 20px; }
+
+.nv-tags {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
 .nv-tag {
     font-size: 12px;
     font-weight: 600;
@@ -181,7 +224,13 @@
     padding: 4px 10px;
     border-radius: 2px;
 }
-.nv-tag.free { color: #2e7d32; border-color: #a5d6a7; background: #f1f8e9; }
+
+.nv-tag.free {
+    color: #2e7d32;
+    border-color: #a5d6a7;
+    background: #f1f8e9;
+}
+
 .nv-link {
     font-size: 14px;
     font-weight: 600;
@@ -191,28 +240,89 @@
     padding-bottom: 1px;
     display: inline-block;
 }
-.nv-link:hover { color: #c0392b; }
 
-.nv-route-img { border-radius: 2px; overflow: hidden; height: 240px; }
+.nv-link:hover {
+    color: #c0392b;
+}
+
+.nv-route-img {
+    border-radius: 2px;
+    overflow: hidden;
+    height: 240px;
+}
+
 .nv-route-img-inner {
-    width: 100%; height: 100%;
-    display: flex; align-items: center; justify-content: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-size: 64px;
 }
-.img-navidad { background: linear-gradient(135deg, #1a3a1a, #2d6a2d, #c0392b); }
-.img-luces   { background: linear-gradient(135deg, #1a1a4a, #2d2d8e, #f0c040); }
-.img-museum  { background: linear-gradient(135deg, #1a3a6e, #2d6a9e, #4a8fc0); }
-.img-bioparc { background: linear-gradient(135deg, #1c5c3a, #2e8a5c, #4ab87c); }
-.img-food    { background: linear-gradient(135deg, #5c3a1a, #9e6230, #d49050); }
-.img-musica  { background: linear-gradient(135deg, #3a1a5c, #6a2d9e, #a04ac0); }
+
+.img-navidad {
+    background-image: url('public/img/img-esencial/Navidad/arbol.jpg');
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+}
+
+.img-luces {
+    background-image: url('public/img/img-esencial/Navidad/luces.jpg');
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+    background-size: cover;}
+
+.img-museum {
+    background-image: url('public/img/img-esencial/Navidad/belen.jpg');
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+    background-size: cover;}
+
+.img-bioparc {
+    background-image: url('public/img/img-esencial/Navidad/bionavidad.jpg');
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+    background-size: cover;}
+
+.img-food {
+    background-image: url('public/img/img-esencial/Navidad/turron.jpg');
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+    background-size: cover;}
+
+.img-musica {
+    background-image: url('public/img/img-esencial/Navidad/conci.jpeg');
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+    background-size: cover;}
 
 /* ── Info box ── */
 .nv-info-box {
-    margin: 48px 48px 20px;
+    margin: 48px 48px 60px;
     border: 1.5px solid #1a2a4a;
     padding: 32px 36px;
     background: #f8f9fc;
 }
+
 .nv-info-box h3 {
     font-size: 16px;
     font-weight: 700;
@@ -221,12 +331,14 @@
     margin-bottom: 16px;
     color: #1a2a4a;
 }
+
 .nv-info-list {
     list-style: none;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 8px 32px;
 }
+
 .nv-info-list li {
     font-size: 14px;
     font-weight: 300;
@@ -234,6 +346,7 @@
     padding-left: 16px;
     position: relative;
 }
+
 .nv-info-list li::before {
     content: '—';
     position: absolute;
@@ -246,33 +359,91 @@
 
 /* ── RESPONSIVE ── */
 @media (max-width: 1024px) {
-    .nv-route-item { grid-template-columns: 40px 1fr 280px; }
-    .nv-date-grid { grid-template-columns: repeat(2, 1fr); }
+    .nv-route-item {
+        grid-template-columns: 40px 1fr 280px;
+    }
+
+    .nv-date-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media (max-width: 768px) {
-    .nv-breadcrumb, .nv-intro, .nv-filter-bar,
-    .nv-routes, .nv-info-box, .nv-section-block,
-    .nv-more-section { padding-left: 20px; padding-right: 20px; }
 
-    .nv-hero-content { padding: 0 20px 36px; }
-    .nv-hero-content h1 { font-size: 34px; }
-    .nv-hero-deco { font-size: 80px; right: 20px; bottom: 40px; }
+    .nv-breadcrumb,
+    .nv-intro,
+    .nv-filter-bar,
+    .nv-routes,
+    .nv-info-box,
+    .nv-section-block,
+    .nv-more-section {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 
-    .nv-route-item { grid-template-columns: 1fr; gap: 20px; }
-    .nv-route-num { display: none; }
-    .nv-route-text { padding-right: 0; }
-    .nv-route-img { height: 200px; }
+    .nv-hero-content {
+        padding: 0 20px 36px;
+    }
 
-    .nv-info-list { grid-template-columns: 1fr; }
-    .nv-date-grid { grid-template-columns: repeat(2, 1fr); }
-    .nv-more-grid { grid-template-columns: 1fr; }
-    .nv-info-box { margin-left: 20px; margin-right: 20px; }
+    .nv-hero-content h1 {
+        font-size: 34px;
+    }
+
+    .nv-hero-deco {
+        font-size: 80px;
+        right: 20px;
+        bottom: 40px;
+    }
+
+    .nv-route-item {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .nv-route-num {
+        display: none;
+    }
+
+    .nv-route-text {
+        padding-right: 0;
+    }
+
+    .nv-route-img {
+        height: 200px;
+    }
+
+    .nv-info-list {
+        grid-template-columns: 1fr;
+    }
+
+    .nv-date-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .nv-more-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .nv-info-box {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
 }
 
 @media (max-width: 480px) {
-    .nv-hero { height: 400px; }
-    .nv-hero-content h1 { font-size: 28px; }
-    .nv-date-grid { grid-template-columns: 1fr; }
-    .nv-hero-deco { display: none; }
+    .nv-hero {
+        height: 400px;
+    }
+
+    .nv-hero-content h1 {
+        font-size: 28px;
+    }
+
+    .nv-date-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .nv-hero-deco {
+        display: none;
+    }
 }

@@ -8,6 +8,9 @@ import Alojamientos from '../../Alojamientos/Alojamientos';
 import Scroll from './SCROLL/Scroll';
 import Entradas from '../../Entradas/Entradas';
 import Navidad from '../pages/esencial/Navidad';
+import VisitasImprescindibles from '../pages/esencial/VisitasImprescindibles';
+import ValenciaTresDias from '../pages/esencial/ValenciaTresDias';
+
 
 
 export default function App()
@@ -25,6 +28,8 @@ export default function App()
                     <Route path="/Alojamientos" element={<Alojamientos />} />
                     <Route path="/Entradas" element={<Entradas />} />
                     <Route path="/Navidad" element={<Navidad />} />
+                    <Route path="/VisitasImprescindibles" element={<VisitasImprescindibles />} />
+                    <Route path="/ValenciaTresDias" element={<ValenciaTresDias />} />
                 </Routes>
         </BrowserRouter>
     );
