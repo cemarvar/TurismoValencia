@@ -10,8 +10,11 @@ import Entradas from '../../Entradas/Entradas';
 import Navidad from '../pages/esencial/Navidad';
 import VisitasImprescindibles from '../pages/esencial/VisitasImprescindibles';
 import ValenciaTresDias from '../pages/esencial/ValenciaTresDias';
-
-
+import CiudadAmurallada from '../pages/esencial/CiudadAmurallada';
+import PatrimonioHumanidad from '../pages/esencial/PatrimonioHumanidad';
+import MonumentosMuseos from '../pages/esencial/MonumentosMuseos';
+import CAC from '../pages/esencial/CAC';
+import Bioparc from '../pages/esencial/Bioparc';
 
 export default function App()
 {
@@ -30,6 +33,11 @@ export default function App()
                     <Route path="/Navidad" element={<Navidad />} />
                     <Route path="/VisitasImprescindibles" element={<VisitasImprescindibles />} />
                     <Route path="/ValenciaTresDias" element={<ValenciaTresDias />} />
+                    <Route path="/CiudadAmurallada" element={<CiudadAmurallada />} />
+                    <Route path="/PatrimonioHumanidad" element={<PatrimonioHumanidad />} />
+                    <Route path="/MonumentosMuseos" element={<MonumentosMuseos />} />
+                    <Route path="/CAC" element={<CAC />} />
+                    <Route path="/Bioparc" element={<Bioparc />} />
                 </Routes>
         </BrowserRouter>
     );

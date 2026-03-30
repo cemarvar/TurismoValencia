@@ -37,7 +37,7 @@
 .imp-hero {
     position: relative;
     height: 520px;
-    background-image: url('public/img/img-esencial/VisitasImprescindibles/VisitasImprescindibles.jpg');
+    background-image: url('/img/img-esencial/VisitasImprescindibles/VisitasImprescindibles.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -241,43 +241,43 @@
 
 /* ── Imágenes de cada plan ── */
 .img-cac {
-    background-image: url('public/img/img-esencial/VisitasImprescindibles/ctac.jpg');
+    background-image: url('/img/img-esencial/VisitasImprescindibles/ctac.jpg');
 }
 
 .img-catedral {
-    background-image: url('public/img/img-esencial/VisitasImprescindibles/catedral.jpg');
+    background-image: url('/img/img-esencial/VisitasImprescindibles/catedral.jpg');
 }
 
 .img-sannicolas {
-    background-image: url('public/img/img-esencial/VisitasImprescindibles/capilla.jpg');
+    background-image: url('/img/img-esencial/VisitasImprescindibles/capilla.jpg');
 }
 
 .img-lonja {
-    background-image: url('public/img/img-esencial/VisitasImprescindibles/lonjaseda.jpg');
+    background-image: url('/img/img-esencial/VisitasImprescindibles/lonjaseda.jpg');
 }
 
 .img-mercado {
-    background-image: url('public/img/img-esencial/VisitasImprescindibles/mercado.jpg');
+    background-image: url('/img/img-esencial/VisitasImprescindibles/mercado.jpg');
 }
 
 .img-plazaredonda {
-    background-image: url('public/img/img-esencial/VisitasImprescindibles/redonda.jpg');
+    background-image: url('/img/img-esencial/VisitasImprescindibles/redonda.jpg');
 }
 
 .img-carmen {
-    background-image: url('public/img/img-esencial/VisitasImprescindibles/carmen.jpg');
+    background-image: url('/img/img-esencial/VisitasImprescindibles/carmen.jpg');
 }
 
 .img-turia {
-    background-image: url('public/img/img-esencial/VisitasImprescindibles/turia.jpg');
+    background-image: url('/img/img-esencial/VisitasImprescindibles/turia.jpg');
 }
 
 .img-cabanyal {
-    background-image: url('public/img/img-esencial/VisitasImprescindibles/cabanyal.jpg');
+    background-image: url('/img/img-esencial/VisitasImprescindibles/cabanyal.jpg');
 }
 
 .img-albufera {
-    background-image: url('public/img/img-esencial/VisitasImprescindibles/albufera.jpg');
+    background-image: url('/img/img-esencial/VisitasImprescindibles/albufera.jpg');
 }
 
 /* ── Info box ── */

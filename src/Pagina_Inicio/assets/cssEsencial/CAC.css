@@ -1,0 +1,664 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
+
+.cac-page {
+    font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
+    color: #1a1a1a;
+    margin-top: 70px;
+}
+
+/* ── Hero ── */
+.cac-hero {
+    position: relative;
+    height: 560px;
+    background-image: url('public/img/img-esencial/CiudadArtsCiencies/hero.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.cac-hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.72) 0%, rgba(0, 0, 0, 0.1) 60%, transparent 100%);
+}
+
+.cac-hero-content {
+    position: relative;
+    z-index: 2;
+    padding: 0 48px 20px;
+    color: #fff;
+    max-width: 700px;
+}
+
+.cac-eyebrow {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #f0c040;
+    margin-bottom: 12px;
+}
+
+.cac-hero-content h1 {
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 1.05;
+    margin-bottom: 14px;
+    letter-spacing: -0.02em;
+}
+
+.cac-hero-content p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.85);
+    max-width: 540px;
+}
+
+/* Stats en el hero */
+.cac-hero-stats {
+    position: relative;
+    z-index: 2;
+    padding: 20px 48px 44px;
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+.cac-stat {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.cac-stat-num {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1;
+    color: #f0c040;
+}
+
+.cac-stat-label {
+    font-size: 11px;
+    font-weight: 300;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 3px;
+}
+
+.cac-stat-sep {
+    width: 1px;
+    height: 36px;
+    background: rgba(255, 255, 255, 0.25);
+}
+
+/* ── Intro ── */
+.cac-intro {
+    max-width: 740px;
+    margin: 52px auto;
+    padding: 0 48px;
+}
+
+.cac-intro p {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.75;
+    color: #333;
+    margin-bottom: 18px;
+}
+
+.cac-intro strong {
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+/* ── Recintos ── */
+.cac-routes {
+    padding: 0 48px;
+}
+
+.cac-route-item {
+    display: grid;
+    grid-template-columns: 56px 1fr 360px;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 52px 0;
+    align-items: start;
+}
+
+.cac-route-num {
+    font-size: 13px;
+    font-weight: 600;
+    color: #bbb;
+    letter-spacing: 0.05em;
+    padding-top: 4px;
+}
+
+.cac-route-text {
+    padding-right: 48px;
+}
+
+.cac-arquitecto {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #c0392b;
+    margin-bottom: 6px;
+}
+
+.cac-route-text h2 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 4px;
+    letter-spacing: -0.02em;
+    line-height: 1.1;
+}
+
+.cac-subtitulo {
+    font-size: 15px;
+    font-weight: 300;
+    font-style: italic;
+    color: #888;
+    margin-bottom: 18px;
+}
+
+.cac-desc {
+    font-size: 15px;
+    font-weight: 300;
+    color: #444;
+    line-height: 1.75;
+    margin-bottom: 24px;
+}
+
+/* Destacados */
+.cac-destacados-titulo {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #999;
+    margin-bottom: 10px;
+}
+
+.cac-destacados {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 24px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.cac-destacados li {
+    font-size: 14px;
+    line-height: 1.5;
+    padding-left: 14px;
+    border-left: 2px solid #e0e0e0;
+    color: #444;
+}
+
+.cac-dest-item {
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+.cac-dest-desc {
+    font-weight: 300;
+}
+
+/* Info row */
+.cac-info-row {
+    display: flex;
+    gap: 32px;
+    margin-bottom: 14px;
+    flex-wrap: wrap;
+}
+
+.cac-info-dato {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.cac-info-label {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #999;
+}
+
+.cac-info-val {
+    font-size: 13px;
+    font-weight: 400;
+    color: #333;
+}
+
+/* Visita / horario */
+.cac-visita {
+    font-size: 13px;
+    color: #444;
+    background: #f8f9fc;
+    border-left: 3px solid #1a2a4a;
+    padding: 10px 14px;
+    margin-bottom: 18px;
+    line-height: 1.5;
+    display: flex;
+    gap: 8px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.cac-visita-icon {
+    flex-shrink: 0;
+}
+
+.cac-visita-sep {
+    color: #bbb;
+}
+
+.cac-visita-precio {
+    font-weight: 600;
+    color: #1a2a4a;
+}
+
+/* Tags */
+.cac-tags {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-bottom: 18px;
+}
+
+.cac-tag {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #555;
+    border: 1px solid #ddd;
+    padding: 3px 9px;
+    border-radius: 2px;
+}
+
+.cac-tag.free {
+    color: #2e7d32;
+    border-color: #a5d6a7;
+    background: #f1f8e9;
+}
+
+.cac-link {
+    font-size: 13px;
+    font-weight: 600;
+    color: #1a1a1a;
+    text-decoration: none;
+    border-bottom: 2px solid #c0392b;
+    padding-bottom: 1px;
+    display: inline-block;
+}
+
+.cac-link:hover {
+    color: #c0392b;
+}
+
+/* Imagen del recinto */
+.cac-route-img {
+    border-radius: 2px;
+    overflow: hidden;
+    height: 280px;
+    position: sticky;
+    top: 90px;
+}
+
+.cac-route-img-inner {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-oceanografic { background-image: url('public/img/img-esencial/CiudadArtsCiencies/oceanografic.jpg'); }
+.img-hemisferic   { background-image: url('public/img/img-esencial/CiudadArtsCiencies/hemisferic.jpg'); }
+.img-museu        { background-image: url('public/img/img-esencial/CiudadArtsCiencies/museu.jpg'); }
+.img-palau        { background-image: url('public/img/img-esencial/CiudadArtsCiencies/palau.jpg'); }
+.img-umbracle     { background-image: url('public/img/img-esencial/CiudadArtsCiencies/umbracle.jpg'); }
+.img-agora        { background-image: url('public/img/img-esencial/CiudadArtsCiencies/agora.jpg'); }
+
+/* ── Tabla de entradas ── */
+.cac-entradas-section {
+    margin: 56px 48px 0;
+    padding-top: 48px;
+    border-top: 1.5px solid #e5e5e5;
+}
+
+.cac-entradas-section h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 8px;
+    letter-spacing: -0.01em;
+}
+
+.cac-entradas-nota {
+    font-size: 14px;
+    font-weight: 300;
+    color: #777;
+    margin-bottom: 24px;
+    line-height: 1.5;
+}
+
+.cac-entradas-tabla {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #e5e5e5;
+    overflow: hidden;
+}
+
+.cac-entrada-fila {
+    display: grid;
+    grid-template-columns: 1fr auto 220px;
+    align-items: center;
+    padding: 16px 20px;
+    border-bottom: 1px solid #e5e5e5;
+    gap: 16px;
+    transition: background 0.1s;
+}
+
+.cac-entrada-fila:last-child {
+    border-bottom: none;
+}
+
+.cac-entrada-fila:hover {
+    background: #f8f9fc;
+}
+
+.cac-entrada-fila.destacada {
+    background: #1a2a4a;
+    color: #fff;
+}
+
+.cac-entrada-fila.destacada:hover {
+    background: #1a2a4a;
+}
+
+.cac-entrada-tipo {
+    font-size: 14px;
+    font-weight: 600;
+    color: #1a1a1a;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    line-height: 1.3;
+}
+
+.cac-entrada-fila.destacada .cac-entrada-tipo {
+    color: #fff;
+}
+
+.cac-entrada-badge {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    background: #f0c040;
+    color: #1a2a4a;
+    padding: 2px 8px;
+    border-radius: 2px;
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+
+.cac-entrada-precios {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 2px;
+    flex-shrink: 0;
+}
+
+.cac-entrada-precio {
+    font-size: 15px;
+    font-weight: 700;
+    color: #1a1a1a;
+    white-space: nowrap;
+}
+
+.cac-entrada-fila.destacada .cac-entrada-precio {
+    color: #f0c040;
+}
+
+.cac-entrada-reducida {
+    font-size: 12px;
+    font-weight: 300;
+    color: #888;
+    white-space: nowrap;
+}
+
+.cac-entrada-fila.destacada .cac-entrada-reducida {
+    color: rgba(255,255,255,0.6);
+}
+
+.cac-entrada-nota {
+    font-size: 12px;
+    font-weight: 300;
+    color: #999;
+    line-height: 1.4;
+}
+
+.cac-entrada-fila.destacada .cac-entrada-nota {
+    color: rgba(255,255,255,0.6);
+}
+
+/* ── Cómo llegar ── */
+.cac-llegar-section {
+    margin: 48px 48px 0;
+    padding-top: 48px;
+    border-top: 1.5px solid #e5e5e5;
+}
+
+.cac-llegar-section h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 24px;
+    letter-spacing: -0.01em;
+}
+
+.cac-llegar-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1px;
+    background: #e5e5e5;
+    border: 1px solid #e5e5e5;
+    margin-bottom: 20px;
+}
+
+.cac-llegar-item {
+    background: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.cac-llegar-medio {
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #1a2a4a;
+}
+
+.cac-llegar-detalle {
+    font-size: 13px;
+    font-weight: 300;
+    color: #555;
+    line-height: 1.55;
+}
+
+.cac-direccion {
+    font-size: 13px;
+    font-weight: 400;
+    color: #666;
+    padding: 12px 0;
+    line-height: 1.5;
+}
+
+/* ── Info box ── */
+.cac-info-box {
+    margin: 48px 48px 60px;
+    border: 1.5px solid #1a2a4a;
+    padding: 32px 36px;
+    background: #f8f9fc;
+}
+
+.cac-info-box h3 {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    color: #1a2a4a;
+}
+
+.cac-info-list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px 32px;
+}
+
+.cac-info-list li {
+    font-size: 14px;
+    font-weight: 300;
+    color: #444;
+    padding-left: 16px;
+    position: relative;
+    line-height: 1.5;
+}
+
+.cac-info-list li strong {
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+.cac-info-list li::before {
+    content: '—';
+    position: absolute;
+    left: 0;
+    color: #999;
+    font-size: 12px;
+}
+
+/* ── RESPONSIVE ── */
+@media (max-width: 1100px) {
+    .cac-route-item {
+        grid-template-columns: 40px 1fr 280px;
+    }
+
+    .cac-llegar-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .cac-entrada-fila {
+        grid-template-columns: 1fr auto;
+    }
+
+    .cac-entrada-nota {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .cac-intro,
+    .cac-routes,
+    .cac-entradas-section,
+    .cac-llegar-section,
+    .cac-info-box {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .cac-hero-content {
+        padding: 0 20px 12px;
+    }
+
+    .cac-hero-content h1 {
+        font-size: 34px;
+    }
+
+    .cac-hero-stats {
+        padding: 12px 20px 36px;
+        gap: 18px;
+    }
+
+    .cac-stat-num {
+        font-size: 22px;
+    }
+
+    .cac-route-item {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+
+    .cac-route-num {
+        display: none;
+    }
+
+    .cac-route-text {
+        padding-right: 0;
+    }
+
+    .cac-route-img {
+        height: 220px;
+        position: static;
+    }
+
+    .cac-llegar-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .cac-entrada-fila {
+        grid-template-columns: 1fr;
+        gap: 8px;
+    }
+
+    .cac-entrada-precios {
+        align-items: flex-start;
+        flex-direction: row;
+        gap: 12px;
+    }
+
+    .cac-info-list {
+        grid-template-columns: 1fr;
+    }
+
+    .cac-info-box {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .cac-hero {
+        height: 480px;
+    }
+
+    .cac-hero-content h1 {
+        font-size: 28px;
+    }
+
+    .cac-llegar-grid {
+        grid-template-columns: 1fr;
+    }
+}

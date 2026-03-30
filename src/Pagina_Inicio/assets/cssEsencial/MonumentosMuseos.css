@@ -1,0 +1,518 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
+
+.mm-page {
+    font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
+    color: #1a1a1a;
+    margin-top: 70px;
+}
+
+/* ── Hero ── */
+.mm-hero {
+    position: relative;
+    height: 520px;
+    background-image: url('/img/img-esencial/MonumentosMuseos/monumentos-museos.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.mm-hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.70) 0%, rgba(0, 0, 0, 0.15) 55%, transparent 100%);
+}
+
+.mm-hero-content {
+    position: relative;
+    z-index: 2;
+    padding: 0 48px 52px;
+    color: #fff;
+    max-width: 620px;
+}
+
+.mm-eyebrow {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #f0c040;
+    margin-bottom: 12px;
+}
+
+.mm-hero-content h1 {
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 1.05;
+    margin-bottom: 16px;
+    letter-spacing: -0.02em;
+}
+
+.mm-hero-content p {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.85);
+    max-width: 480px;
+}
+
+/* Stats en el hero */
+.mm-hero-stats {
+    position: relative;
+    z-index: 2;
+    padding: 0 48px 52px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    flex-shrink: 0;
+}
+
+.mm-stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+
+.mm-stat-num {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1;
+    color: #f0c040;
+}
+
+.mm-stat-label {
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.75);
+    margin-top: 4px;
+}
+
+.mm-stat-sep {
+    width: 1px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+/* ── Intro ── */
+.mm-intro {
+    max-width: 740px;
+    margin: 52px auto;
+    padding: 0 48px;
+}
+
+.mm-intro p {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.75;
+    color: #333;
+    margin-bottom: 18px;
+}
+
+.mm-intro strong {
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+/* ── Títulos de sección ── */
+.mm-section-title {
+    padding: 0 48px 32px;
+    border-bottom: 1px solid #e5e5e5;
+    margin-bottom: 0;
+}
+
+.mm-section-title h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1a1a1a;
+    letter-spacing: -0.01em;
+    margin-bottom: 6px;
+}
+
+.mm-section-title p {
+    font-size: 15px;
+    font-weight: 300;
+    color: #777;
+}
+
+/* ── Monumentos ── */
+.mm-routes {
+    padding: 0 48px;
+}
+
+.mm-route-item {
+    display: grid;
+    grid-template-columns: 56px 1fr 340px;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 44px 0;
+    align-items: start;
+}
+
+.mm-route-num {
+    font-size: 13px;
+    font-weight: 600;
+    color: #bbb;
+    letter-spacing: 0.05em;
+    padding-top: 4px;
+}
+
+.mm-route-text {
+    padding-right: 48px;
+}
+
+.mm-tipo {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #c0392b;
+    margin-bottom: 6px;
+}
+
+.mm-route-text h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 4px;
+    letter-spacing: -0.01em;
+    line-height: 1.15;
+}
+
+.mm-ubicacion {
+    font-size: 13px;
+    font-weight: 300;
+    color: #999;
+    margin-bottom: 12px;
+}
+
+.mm-route-text p {
+    font-size: 14px;
+    font-weight: 300;
+    color: #555;
+    line-height: 1.7;
+    margin-bottom: 14px;
+}
+
+.mm-horario-row {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 14px;
+    flex-wrap: wrap;
+}
+
+.mm-horario-icon {
+    font-size: 13px;
+}
+
+.mm-horario {
+    font-size: 13px;
+    font-weight: 400;
+    color: #444;
+}
+
+.mm-precio-sep {
+    color: #bbb;
+    font-size: 12px;
+}
+
+.mm-precio {
+    font-size: 13px;
+    font-weight: 600;
+    color: #1a2a4a;
+}
+
+.mm-tags {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-bottom: 16px;
+}
+
+.mm-tag {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #555;
+    border: 1px solid #ddd;
+    padding: 3px 9px;
+    border-radius: 2px;
+}
+
+.mm-tag.free {
+    color: #2e7d32;
+    border-color: #a5d6a7;
+    background: #f1f8e9;
+}
+
+.mm-link {
+    font-size: 13px;
+    font-weight: 600;
+    color: #1a1a1a;
+    text-decoration: none;
+    border-bottom: 2px solid #c0392b;
+    padding-bottom: 1px;
+    display: inline-block;
+}
+
+.mm-link:hover {
+    color: #c0392b;
+}
+
+.mm-route-img {
+    border-radius: 2px;
+    overflow: hidden;
+    height: 220px;
+}
+
+.mm-route-img-inner {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Imágenes de monumentos */
+.img-lonja    { background-image: url('/img/img-esencial/MonumentosMuseos/lonja-seda.jpg'); }
+.img-catedral { background-image: url('/img/img-esencial/MonumentosMuseos/catedral.jpg'); }
+.img-sannicolas { background-image: url('/img/img-esencial/MonumentosMuseos/san-nicolas.jpg'); }
+.img-serranos { background-image: url('/img/img-esencial/MonumentosMuseos/torres-serrano.jpg'); }
+.img-mercado  { background-image: url('/img/img-esencial/MonumentosMuseos/mercado.jpg'); }
+.img-cac      { background-image: url('/img/img-esencial/MonumentosMuseos/cac.jpg'); }
+
+/* ── Sección museos ── */
+.mm-museos-section {
+    padding: 52px 0 0;
+    border-top: 2px solid #1a2a4a;
+    margin-top: 52px;
+}
+
+/* Filtros */
+.mm-filter-bar {
+    padding: 0 48px 36px;
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.mm-pill {
+    padding: 7px 20px;
+    border: 1.5px solid #ccc;
+    background: #fff;
+    color: #1a1a1a;
+    font-size: 13px;
+    font-family: inherit;
+    cursor: pointer;
+    border-radius: 2px;
+    transition: all 0.15s;
+}
+
+.mm-pill:hover {
+    border-color: #1a2a4a;
+}
+
+.mm-pill.active {
+    background: #1a2a4a;
+    color: #f0c040;
+    border-color: #1a2a4a;
+}
+
+/* Categorías de museos */
+.mm-categoria {
+    padding: 0 48px 48px;
+    border-bottom: 1px solid #e5e5e5;
+    margin-bottom: 0;
+}
+
+.mm-categoria:last-child {
+    border-bottom: none;
+}
+
+.mm-categoria-titulo {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #1a2a4a;
+    margin-bottom: 20px;
+    padding-top: 36px;
+}
+
+.mm-museo-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1px;
+    background: #e5e5e5;
+    border: 1px solid #e5e5e5;
+}
+
+.mm-museo-card {
+    background: #fff;
+    padding: 18px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    transition: background 0.1s;
+}
+
+.mm-museo-card:hover {
+    background: #f8f9fc;
+}
+
+.mm-museo-nombre {
+    font-size: 14px;
+    font-weight: 600;
+    color: #1a1a1a;
+    line-height: 1.3;
+}
+
+.mm-museo-nota {
+    font-size: 13px;
+    font-weight: 300;
+    color: #777;
+    line-height: 1.45;
+}
+
+.mm-museo-free {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #2e7d32;
+    border: 1px solid #a5d6a7;
+    background: #f1f8e9;
+    padding: 2px 7px;
+    border-radius: 2px;
+    align-self: flex-start;
+    margin-top: 4px;
+}
+
+/* ── Info box ── */
+.mm-info-box {
+    margin: 52px 48px 60px;
+    border: 1.5px solid #1a2a4a;
+    padding: 32px 36px;
+    background: #f8f9fc;
+}
+
+.mm-info-box h3 {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    color: #1a2a4a;
+}
+
+.mm-info-list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px 32px;
+}
+
+.mm-info-list li {
+    font-size: 14px;
+    font-weight: 300;
+    color: #444;
+    padding-left: 16px;
+    position: relative;
+    line-height: 1.5;
+}
+
+.mm-info-list li strong {
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+.mm-info-list li::before {
+    content: '—';
+    position: absolute;
+    left: 0;
+    color: #999;
+    font-size: 12px;
+}
+
+/* ── RESPONSIVE ── */
+@media (max-width: 1100px) {
+    .mm-route-item {
+        grid-template-columns: 40px 1fr 260px;
+    }
+
+    .mm-museo-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+
+    .mm-intro,
+    .mm-routes,
+    .mm-section-title,
+    .mm-info-box,
+    .mm-filter-bar,
+    .mm-categoria {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .mm-hero-content {
+        padding: 0 20px 36px;
+    }
+
+    .mm-hero-content h1 {
+        font-size: 34px;
+    }
+
+    .mm-hero-stats {
+        display: none;
+    }
+
+    .mm-route-item {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .mm-route-num {
+        display: none;
+    }
+
+    .mm-route-text {
+        padding-right: 0;
+    }
+
+    .mm-route-img {
+        height: 200px;
+    }
+
+    .mm-museo-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .mm-info-list {
+        grid-template-columns: 1fr;
+    }
+
+    .mm-info-box {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .mm-hero {
+        height: 400px;
+    }
+
+    .mm-hero-content h1 {
+        font-size: 28px;
+    }
+}

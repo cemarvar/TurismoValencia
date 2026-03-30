@@ -1,0 +1,648 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
+
+.bp-page {
+    font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
+    color: #1a1a1a;
+    margin-top: 70px;
+}
+
+/* ── Hero ── */
+.bp-hero {
+    position: relative;
+    height: 560px;
+    background-image: url('public/img/img-esencial/Bioparc/hero.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.bp-hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.72) 0%, rgba(0, 0, 0, 0.1) 60%, transparent 100%);
+}
+
+.bp-hero-content {
+    position: relative;
+    z-index: 2;
+    padding: 0 48px 20px;
+    color: #fff;
+    max-width: 680px;
+}
+
+.bp-eyebrow {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #f0c040;
+    margin-bottom: 12px;
+}
+
+.bp-hero-content h1 {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.0;
+    margin-bottom: 14px;
+    letter-spacing: -0.02em;
+}
+
+.bp-hero-content p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.85);
+    max-width: 520px;
+}
+
+/* Stats */
+.bp-hero-stats {
+    position: relative;
+    z-index: 2;
+    padding: 20px 48px 44px;
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+.bp-stat {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.bp-stat-num {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1;
+    color: #f0c040;
+}
+
+.bp-stat-label {
+    font-size: 11px;
+    font-weight: 300;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 3px;
+}
+
+.bp-stat-sep {
+    width: 1px;
+    height: 36px;
+    background: rgba(255, 255, 255, 0.25);
+}
+
+/* ── Intro ── */
+.bp-intro {
+    max-width: 740px;
+    margin: 52px auto;
+    padding: 0 48px;
+}
+
+.bp-intro p {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.75;
+    color: #333;
+    margin-bottom: 18px;
+}
+
+.bp-intro strong {
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+/* ── Título de sección ── */
+.bp-section-title {
+    padding: 0 48px 32px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.bp-section-title h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1a1a1a;
+    letter-spacing: -0.01em;
+    margin-bottom: 6px;
+}
+
+.bp-section-title p {
+    font-size: 15px;
+    font-weight: 300;
+    color: #777;
+}
+
+/* ── Hábitats ── */
+.bp-routes {
+    padding: 0 48px;
+}
+
+.bp-route-item {
+    display: grid;
+    grid-template-columns: 56px 1fr 360px;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 52px 0;
+    align-items: start;
+}
+
+.bp-route-num {
+    font-size: 13px;
+    font-weight: 600;
+    color: #bbb;
+    letter-spacing: 0.05em;
+    padding-top: 4px;
+}
+
+.bp-route-text {
+    padding-right: 48px;
+}
+
+.bp-route-text h2 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 4px;
+    letter-spacing: -0.02em;
+    line-height: 1.1;
+}
+
+.bp-subtitulo {
+    font-size: 15px;
+    font-weight: 300;
+    font-style: italic;
+    color: #888;
+    margin-bottom: 18px;
+}
+
+.bp-desc {
+    font-size: 15px;
+    font-weight: 300;
+    color: #444;
+    line-height: 1.75;
+    margin-bottom: 24px;
+}
+
+/* Animales */
+.bp-animales-titulo {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #999;
+    margin-bottom: 10px;
+}
+
+.bp-animales {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 24px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.bp-animales li {
+    font-size: 14px;
+    line-height: 1.5;
+    padding-left: 14px;
+    border-left: 2px solid #e0e0e0;
+    color: #444;
+}
+
+.bp-animal-nombre {
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+.bp-animal-desc {
+    font-weight: 300;
+}
+
+/* Tags */
+.bp-tags {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.bp-tag {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #555;
+    border: 1px solid #ddd;
+    padding: 3px 9px;
+    border-radius: 2px;
+}
+
+/* Imagen del hábitat */
+.bp-route-img {
+    border-radius: 2px;
+    overflow: hidden;
+    height: 280px;
+    position: sticky;
+    top: 90px;
+}
+
+.bp-route-img-inner {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-sabana      { background-image: url('public/img/img-esencial/Bioparc/sabana.jpg'); }
+.img-ecuatorial  { background-image: url('public/img/img-esencial/Bioparc/ecuatorial.jpg'); }
+.img-humedales   { background-image: url('public/img/img-esencial/Bioparc/humedales.jpg'); }
+.img-madagascar  { background-image: url('public/img/img-esencial/Bioparc/madagascar.jpg'); }
+
+/* ── Actividades ── */
+.bp-actividades-section {
+    padding-top: 52px;
+    margin-top: 52px;
+    border-top: 2px solid #1a2a4a;
+}
+
+.bp-actividades-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1px;
+    background: #e5e5e5;
+    border: 1px solid #e5e5e5;
+    margin: 0 48px;
+}
+
+.bp-actividad-card {
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.bp-actividad-img {
+    height: 160px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #1a2a4a;
+}
+
+.img-vr           { background-image: url('public/img/img-esencial/Bioparc/vr.jpg'); }
+.img-madagascar-act { background-image: url('public/img/img-esencial/Bioparc/madagascar-act.jpg'); }
+.img-cuidadores   { background-image: url('public/img/img-esencial/Bioparc/cuidadores.jpg'); }
+.img-talleres     { background-image: url('public/img/img-esencial/Bioparc/talleres.jpg'); }
+
+.bp-actividad-body {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    flex: 1;
+}
+
+.bp-actividad-tipo {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #c0392b;
+}
+
+.bp-actividad-nombre {
+    font-size: 15px;
+    font-weight: 700;
+    color: #1a1a1a;
+    line-height: 1.2;
+}
+
+.bp-actividad-desc {
+    font-size: 13px;
+    font-weight: 300;
+    color: #666;
+    line-height: 1.55;
+    margin: 0;
+    flex: 1;
+}
+
+.bp-actividad-precio {
+    font-size: 12px;
+    font-weight: 600;
+    color: #1a2a4a;
+    margin-top: 6px;
+    padding-top: 10px;
+    border-top: 1px solid #f0f0f0;
+}
+
+/* ── Entradas ── */
+.bp-entradas-section {
+    margin: 52px 48px 0;
+    padding-top: 48px;
+    border-top: 1.5px solid #e5e5e5;
+}
+
+.bp-entradas-section h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 8px;
+    letter-spacing: -0.01em;
+}
+
+.bp-entradas-nota {
+    font-size: 14px;
+    font-weight: 300;
+    color: #777;
+    margin-bottom: 24px;
+    line-height: 1.55;
+}
+
+.bp-entradas-tabla {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #e5e5e5;
+    overflow: hidden;
+}
+
+.bp-entrada-fila {
+    display: grid;
+    grid-template-columns: 1fr 140px 1fr;
+    align-items: center;
+    padding: 16px 20px;
+    border-bottom: 1px solid #e5e5e5;
+    gap: 16px;
+    transition: background 0.1s;
+}
+
+.bp-entrada-fila:last-child {
+    border-bottom: none;
+}
+
+.bp-entrada-fila:hover {
+    background: #f8f9fc;
+}
+
+.bp-entrada-fila.destacada {
+    background: #1a2a4a;
+}
+
+.bp-entrada-fila.destacada:hover {
+    background: #1a2a4a;
+}
+
+.bp-entrada-tipo {
+    font-size: 14px;
+    font-weight: 600;
+    color: #1a1a1a;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    line-height: 1.3;
+}
+
+.bp-entrada-fila.destacada .bp-entrada-tipo {
+    color: #fff;
+}
+
+.bp-entrada-badge {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    background: #f0c040;
+    color: #1a2a4a;
+    padding: 2px 8px;
+    border-radius: 2px;
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+
+.bp-entrada-precio {
+    font-size: 16px;
+    font-weight: 700;
+    color: #1a1a1a;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.bp-entrada-fila.destacada .bp-entrada-precio {
+    color: #f0c040;
+}
+
+.bp-entrada-nota {
+    font-size: 13px;
+    font-weight: 300;
+    color: #888;
+    line-height: 1.4;
+}
+
+.bp-entrada-fila.destacada .bp-entrada-nota {
+    color: rgba(255,255,255,0.6);
+}
+
+/* ── Cómo llegar ── */
+.bp-llegar-section {
+    margin: 48px 48px 0;
+    padding-top: 48px;
+    border-top: 1.5px solid #e5e5e5;
+}
+
+.bp-llegar-section h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 24px;
+    letter-spacing: -0.01em;
+}
+
+.bp-llegar-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1px;
+    background: #e5e5e5;
+    border: 1px solid #e5e5e5;
+    margin-bottom: 20px;
+}
+
+.bp-llegar-item {
+    background: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.bp-llegar-medio {
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #1a2a4a;
+}
+
+.bp-llegar-detalle {
+    font-size: 13px;
+    font-weight: 300;
+    color: #555;
+    line-height: 1.55;
+}
+
+.bp-direccion {
+    font-size: 13px;
+    font-weight: 400;
+    color: #666;
+    padding: 12px 0;
+    line-height: 1.5;
+}
+
+/* ── Info box ── */
+.bp-info-box {
+    margin: 48px 48px 60px;
+    border: 1.5px solid #1a2a4a;
+    padding: 32px 36px;
+    background: #f8f9fc;
+}
+
+.bp-info-box h3 {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    color: #1a2a4a;
+}
+
+.bp-info-list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px 32px;
+}
+
+.bp-info-list li {
+    font-size: 14px;
+    font-weight: 300;
+    color: #444;
+    padding-left: 16px;
+    position: relative;
+    line-height: 1.5;
+}
+
+.bp-info-list li strong {
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+.bp-info-list li::before {
+    content: '—';
+    position: absolute;
+    left: 0;
+    color: #999;
+    font-size: 12px;
+}
+
+/* ── RESPONSIVE ── */
+@media (max-width: 1100px) {
+    .bp-route-item {
+        grid-template-columns: 40px 1fr 280px;
+    }
+
+    .bp-actividades-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .bp-llegar-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+
+    .bp-intro,
+    .bp-routes,
+    .bp-section-title,
+    .bp-entradas-section,
+    .bp-llegar-section,
+    .bp-info-box {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .bp-hero-content {
+        padding: 0 20px 12px;
+    }
+
+    .bp-hero-content h1 {
+        font-size: 38px;
+    }
+
+    .bp-hero-stats {
+        padding: 12px 20px 36px;
+        gap: 18px;
+    }
+
+    .bp-stat-num {
+        font-size: 20px;
+    }
+
+    .bp-route-item {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+
+    .bp-route-num {
+        display: none;
+    }
+
+    .bp-route-text {
+        padding-right: 0;
+    }
+
+    .bp-route-img {
+        height: 220px;
+        position: static;
+    }
+
+    .bp-actividades-grid {
+        grid-template-columns: 1fr;
+        margin: 0 20px;
+    }
+
+    .bp-llegar-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .bp-entrada-fila {
+        grid-template-columns: 1fr auto;
+    }
+
+    .bp-entrada-nota {
+        display: none;
+    }
+
+    .bp-info-list {
+        grid-template-columns: 1fr;
+    }
+
+    .bp-info-box {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .bp-hero {
+        height: 480px;
+    }
+
+    .bp-hero-content h1 {
+        font-size: 32px;
+    }
+}

@@ -37,7 +37,7 @@
 .nv-hero {
     position: relative;
     height: 520px;
-    background-image: url('public/img/img-esencial/Navidad/nv.jpg');
+    background-image: url('/img/img-esencial/Navidad/nv.jpg');
     overflow: hidden;
     display: flex;
     align-items: flex-end;
@@ -261,7 +261,7 @@
 }
 
 .img-navidad {
-    background-image: url('public/img/img-esencial/Navidad/arbol.jpg');
+    background-image: url('/img/img-esencial/Navidad/arbol.jpg');
 
     background-position: center;
 
@@ -271,7 +271,7 @@
 }
 
 .img-luces {
-    background-image: url('public/img/img-esencial/Navidad/luces.jpg');
+    background-image: url('/img/img-esencial/Navidad/luces.jpg');
 
     background-position: center;
 
@@ -280,7 +280,7 @@
     background-size: cover;}
 
 .img-museum {
-    background-image: url('public/img/img-esencial/Navidad/belen.jpg');
+    background-image: url('/img/img-esencial/Navidad/belen.jpg');
 
     background-position: center;
 
@@ -289,7 +289,7 @@
     background-size: cover;}
 
 .img-bioparc {
-    background-image: url('public/img/img-esencial/Navidad/bionavidad.jpg');
+    background-image: url('/img/img-esencial/Navidad/bionavidad.jpg');
 
     background-position: center;
 
@@ -298,7 +298,7 @@
     background-size: cover;}
 
 .img-food {
-    background-image: url('public/img/img-esencial/Navidad/turron.jpg');
+    background-image: url('/img/img-esencial/Navidad/turron.jpg');
 
     background-position: center;
 
@@ -307,7 +307,7 @@
     background-size: cover;}
 
 .img-musica {
-    background-image: url('public/img/img-esencial/Navidad/conci.jpeg');
+    background-image: url('/img/img-esencial/Navidad/conci.jpeg');
 
     background-position: center;
 

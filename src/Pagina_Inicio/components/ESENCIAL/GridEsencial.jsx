@@ -9,8 +9,8 @@ export default function GridEsencial() {
         { imagen: "/img/img-esencial/amurallada.jpg",             titulo: "Valencia la ciudad amurallada",        ruta: "/CiudadAmurallada" },
         { imagen: "/img/img-esencial/patrimonio_humanidad.jpg",   titulo: "Patrimonio de la humanidad",          ruta: "/PatrimonioHumanidad" },
         { imagen: "/img/img-esencial/monumentos_museos.jpg",      titulo: "Monumentos y Museos",                 ruta: "/MonumentosMuseos" },
-        { imagen: "/img/img-esencial/MAC.jpg",                    titulo: "Ciudad de las Artes y las Ciencias",  ruta: "/CiudadArteCiencias" },
-        { imagen: "/img/img-esencial/VT.jpg",                     titulo: "Visitas y tours",                     ruta: "/VisitasTous" },
+        { imagen: "/img/img-esencial/MAC.jpg",                    titulo: "Ciudad de las Artes y las Ciencias",  ruta: "/CAC" },
+        { imagen: "/img/img-esencial/VT.jpg",                     titulo: "Visitas y tours",                     ruta: "/Entradas" },
         { imagen: "/img/img-esencial/bioparc.jpg",                titulo: "Bioparc",                             ruta: "/Bioparc" },
     ];
 

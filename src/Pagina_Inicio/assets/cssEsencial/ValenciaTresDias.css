@@ -10,7 +10,7 @@
 .vtd-hero {
     position: relative;
     height: 520px;
-    background-image: url('public/img/img-esencial/TresDias/vlc3.jpg');
+    background-image: url('/img/img-esencial/TresDias/vlc3.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -275,15 +275,15 @@
 }
 
 .img-dia1 {
-    background-image: url('public/img/img-esencial/TresDias/dia1.jpg');
+    background-image: url('/img/img-esencial/TresDias/dia1.jpg');
 }
 
 .img-dia2 {
-    background-image: url('public/img/img-esencial/TresDias/dia2.jpg');
+    background-image: url('/img/img-esencial/TresDias/dia2.jpg');
 }
 
 .img-dia3 {
-    background-image: url('public/img/img-esencial/TresDias/dia3.jpg');
+    background-image: url('/img/img-esencial/TresDias/dia3.jpg');
 }
 
 /* ── Info box ── */
