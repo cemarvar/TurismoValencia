@@ -33,7 +33,7 @@ var planes = [
     titulo: 'Navidad en el Bioparc: Safari de Papá Noel',
     desc: 'Los animales del Bioparc se visten de fiesta. Papá Noel recorre el parque en un safari especial, los niños pueden entregarle su carta y participar en talleres de animales.',
     tags: [{ label: '18 €' }, { label: '2–10 años' }, { label: 'Animales' }, { label: 'Fines de semana' }],
-    imgClass: 'img-bioparc'
+    imgClass: 'img-bionavidad'
   },
   {
     num: '05',

@@ -65,7 +65,7 @@ var planes = [
     titulo: 'Jardín del Turia: 9 km de parque urbano',
     desc: 'El pulmón verde de Valencia discurre por el antiguo cauce del río durante nueve kilómetros, libre de coches. Puentes históricos, zonas deportivas, el Bioparc y el parque de Gulliver convierten este espacio en un paseo imprescindible a pie o en bici.',
     tags: [{ label: 'Gratuito', type: 'free' }, { label: 'Naturaleza' }, { label: 'Bici' }, { label: 'Todo el año' }],
-    imgClass: 'img-turia'
+    imgClass: 'img-jturia'
   },
   {
     num: '09',
@@ -81,7 +81,7 @@ var planes = [
     titulo: 'Parque Natural de l\'Albufera: paella y atardecer sobre el lago',
     desc: 'Uno de los humedales más importantes de la Península Ibérica, a solo diez kilómetros del centro. Arrozales, dunas vírgenes, bosques de pinos y el gran lago donde descubrir el origen de la paella valenciana a bordo de una barca tradicional albuferenca.',
     tags: [{ label: 'Gratuito', type: 'free' }, { label: 'Naturaleza' }, { label: 'Gastronomía' }, { label: 'Todo el año' }],
-    imgClass: 'img-albufera'
+    imgClass: 'img-palbufera'
   },
 ];
 

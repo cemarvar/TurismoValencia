@@ -20,7 +20,7 @@ var recintos = [
     horario: 'Temporada alta 10:00–20:00 h · Temporada baja 10:00–18:00 h',
     recomendado: 'Todas las edades · Especial familias',
     tags: [{ label: 'Familia' }, { label: 'Naturaleza' }, { label: 'Ciencia' }, { label: '3–4 h' }],
-    imgClass: 'img-oceanografic',
+    imgClass: 'img-ogf',
   },
   {
     num: '02',
@@ -58,7 +58,7 @@ var recintos = [
     horario: 'Temporada alta 10:00–21:00 h · Temporada baja 10:00–19:00 h',
     recomendado: 'Todas las edades · Especial niños y jóvenes',
     tags: [{ label: 'Interactivo' }, { label: 'Familia' }, { label: '2–3 h' }, { label: 'Talleres' }],
-    imgClass: 'img-museu',
+    imgClass: 'img-mdlc',
   },
   {
     num: '04',

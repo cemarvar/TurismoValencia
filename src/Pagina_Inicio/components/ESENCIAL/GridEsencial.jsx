@@ -1,7 +1,8 @@
 import '../../assets/css/estilo_esencial.css';
 import Esencial from '../ESENCIAL/Esencial';
 
-export default function GridEsencial() {
+export default function GridEsencial() 
+{
     var elementos = [
         { imagen: "/img/img-esencial/Navidad.jpg",               titulo: "Navidad",                              ruta: "/Navidad" },
         { imagen: "/img/img-esencial/planes_imprescindibles.jpeg",titulo: "10 visitas imprescindibles",           ruta: "/VisitasImprescindibles" },

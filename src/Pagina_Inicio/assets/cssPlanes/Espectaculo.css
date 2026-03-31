@@ -1,0 +1,535 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
+
+.esp-page {
+    font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
+    color: #1a1a1a;
+    margin-top: 70px;
+}
+
+/* ── Hero ── */
+.esp-hero {
+    position: relative;
+    height: 520px;
+    background-image: url('/img/img-planes/Espectaculo/teatre.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-end;
+}
+
+.esp-hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.70) 0%, rgba(0, 0, 0, 0.15) 55%, transparent 100%);
+}
+
+.esp-hero-content {
+    position: relative;
+    z-index: 2;
+    padding: 0 48px 52px;
+    color: #fff;
+    max-width: 680px;
+}
+
+.esp-eyebrow {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #f0c040;
+    margin-bottom: 12px;
+}
+
+.esp-hero-content h1 {
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 1.05;
+    margin-bottom: 16px;
+    letter-spacing: -0.02em;
+}
+
+.esp-hero-content p {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.85);
+    max-width: 500px;
+}
+
+/* ── Intro ── */
+.esp-intro {
+    max-width: 740px;
+    margin: 52px auto;
+    padding: 0 48px;
+}
+
+.esp-intro p {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.75;
+    color: #333;
+    margin-bottom: 18px;
+}
+
+.esp-intro strong {
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+/* ── Filtros ── */
+.esp-filter-bar {
+    padding: 0 48px 36px;
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.esp-pill {
+    padding: 7px 20px;
+    border: 1.5px solid #ccc;
+    background: #fff;
+    color: #1a1a1a;
+    font-size: 13px;
+    font-family: inherit;
+    cursor: pointer;
+    border-radius: 2px;
+    transition: all 0.15s;
+}
+
+.esp-pill:hover {
+    border-color: #1a2a4a;
+}
+
+.esp-pill.active {
+    background: #1a2a4a;
+    color: #f0c040;
+    border-color: #1a2a4a;
+}
+
+/* ── Venues ── */
+.esp-routes {
+    padding: 0 48px;
+}
+
+.esp-route-item {
+    display: grid;
+    grid-template-columns: 56px 1fr 340px;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 52px 0;
+    align-items: start;
+}
+
+.esp-route-num {
+    font-size: 13px;
+    font-weight: 600;
+    color: #bbb;
+    letter-spacing: 0.05em;
+    padding-top: 4px;
+}
+
+.esp-route-text {
+    padding-right: 48px;
+}
+
+.esp-ubicacion {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #c0392b;
+    margin-bottom: 8px;
+}
+
+.esp-tipo-row {
+    margin-bottom: 10px;
+}
+
+/* Badges de tipo por color */
+.esp-tipo-badge {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    padding: 4px 10px;
+    border-radius: 2px;
+    white-space: nowrap;
+}
+
+.esp-tipo-badge.opera {
+    background: #1a2a4a;
+    color: #f0c040;
+}
+
+.esp-tipo-badge.musica {
+    background: #2e4d7b;
+    color: #fff;
+}
+
+.esp-tipo-badge.teatro {
+    background: #c0392b;
+    color: #fff;
+}
+
+.esp-tipo-badge.alternativo {
+    background: #444;
+    color: #fff;
+}
+
+.esp-route-text h2 {
+    font-size: 26px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 12px;
+    letter-spacing: -0.01em;
+    line-height: 1.15;
+}
+
+.esp-desc {
+    font-size: 15px;
+    font-weight: 300;
+    color: #444;
+    line-height: 1.75;
+    margin-bottom: 24px;
+}
+
+/* Programación */
+.esp-prog-titulo {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #999;
+    margin-bottom: 10px;
+}
+
+.esp-prog-lista {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 22px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.esp-prog-lista li {
+    font-size: 14px;
+    line-height: 1.5;
+    padding-left: 14px;
+    border-left: 2px solid #e0e0e0;
+    color: #444;
+}
+
+.esp-prog-cat {
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+.esp-prog-desc {
+    font-weight: 300;
+}
+
+/* Horario / precio */
+.esp-visita {
+    font-size: 13px;
+    color: #444;
+    background: #f8f9fc;
+    border-left: 3px solid #1a2a4a;
+    padding: 10px 14px;
+    margin-bottom: 18px;
+    line-height: 1.5;
+    display: flex;
+    gap: 8px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.esp-visita-icon {
+    flex-shrink: 0;
+}
+
+.esp-visita-sep {
+    color: #bbb;
+}
+
+.esp-visita-precio {
+    font-weight: 600;
+    color: #1a2a4a;
+}
+
+/* Tags */
+.esp-tags {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-bottom: 18px;
+}
+
+.esp-tag {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #555;
+    border: 1px solid #ddd;
+    padding: 3px 9px;
+    border-radius: 2px;
+}
+
+.esp-link {
+    font-size: 13px;
+    font-weight: 600;
+    color: #1a1a1a;
+    text-decoration: none;
+    border-bottom: 2px solid #c0392b;
+    padding-bottom: 1px;
+    display: inline-block;
+}
+
+.esp-link:hover {
+    color: #c0392b;
+}
+
+/* Imagen con web overlay */
+.esp-route-img {
+    position: relative;
+    border-radius: 2px;
+    overflow: hidden;
+    height: 260px;
+    top: 90px;
+}
+
+.esp-route-img-inner {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.esp-web-overlay {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: rgba(26, 42, 74, 0.88);
+    color: #f0c040;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    padding: 6px 12px;
+}
+
+/* Imágenes */
+.img-parf    { background-image: url('/img/img-planes/Espectaculo/parf.jpg'); }
+.img-palaumusica { background-image: url('/img/img-planes/Espectaculo/palaumusica.jpeg'); }
+.img-olympia    { background-image: url('/img/img-planes/Espectaculo/teatroolympia.jpg'); }
+.img-talia      { background-image: url('/img/img-planes/Espectaculo/talia.jpg'); }
+.img-russafa    { background-image: url('/img/img-planes/Espectaculo/salarussafa.jpg'); }
+
+/* ── Otras opciones ── */
+.esp-otras-section {
+    padding-top: 52px;
+    margin-top: 52px;
+    border-top: 2px solid #1a2a4a;
+}
+
+.esp-section-title {
+    padding: 0 48px 32px;
+}
+
+.esp-section-title h2 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #1a1a1a;
+    letter-spacing: -0.01em;
+    margin-bottom: 6px;
+}
+
+.esp-section-title p {
+    font-size: 15px;
+    font-weight: 300;
+    color: #777;
+}
+
+.esp-otras-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1px;
+    background: #e5e5e5;
+    border: 1px solid #e5e5e5;
+    margin: 0 48px;
+}
+
+.esp-otra-card {
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.esp-otra-img {
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #1a2a4a;
+}
+
+.img-candlelight { background-image: url('/img/img-planes/Espectaculo/candlelight.jpg'); }
+.img-roig      { background-image: url('/img/img-planes/Espectaculo/roig-arenae.jpeg'); }
+.img-marina      { background-image: url('/img/img-planes/Espectaculo/marina-concert.jpg'); }
+.img-lococclub   { background-image: url('/img/img-planes/Espectaculo/lococlub.jpg'); }
+
+.esp-otra-body {
+    padding: 18px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    flex: 1;
+}
+
+.esp-otra-nombre {
+    font-size: 15px;
+    font-weight: 700;
+    color: #1a1a1a;
+    line-height: 1.2;
+}
+
+.esp-otra-desc {
+    font-size: 13px;
+    font-weight: 300;
+    color: #666;
+    line-height: 1.55;
+    margin: 0;
+    flex: 1;
+}
+
+.esp-otra-precio {
+    font-size: 13px;
+    font-weight: 700;
+    color: #1a2a4a;
+    margin-top: 6px;
+    padding-top: 10px;
+    border-top: 1px solid #f0f0f0;
+}
+
+/* ── Info box ── */
+.esp-info-box {
+    margin: 52px 48px 60px;
+    border: 1.5px solid #1a2a4a;
+    padding: 32px 36px;
+    background: #f8f9fc;
+}
+
+.esp-info-box h3 {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    color: #1a2a4a;
+}
+
+.esp-info-list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px 32px;
+}
+
+.esp-info-list li {
+    font-size: 14px;
+    font-weight: 300;
+    color: #444;
+    padding-left: 16px;
+    position: relative;
+    line-height: 1.5;
+}
+
+.esp-info-list li strong {
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+.esp-info-list li::before {
+    content: '—';
+    position: absolute;
+    left: 0;
+    color: #999;
+    font-size: 12px;
+}
+
+/* ── RESPONSIVE ── */
+@media (max-width: 1100px) {
+    .esp-route-item {
+        grid-template-columns: 40px 1fr 280px;
+    }
+
+    .esp-otras-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+
+    .esp-intro,
+    .esp-routes,
+    .esp-filter-bar,
+    .esp-section-title,
+    .esp-info-box {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .esp-hero-content {
+        padding: 0 20px 36px;
+    }
+
+    .esp-hero-content h1 {
+        font-size: 34px;
+    }
+
+    .esp-route-item {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+
+    .esp-route-num {
+        display: none;
+    }
+
+    .esp-route-text {
+        padding-right: 0;
+    }
+
+    .esp-route-img {
+        height: 220px;
+        position: static;
+    }
+
+    .esp-otras-grid {
+        grid-template-columns: 1fr;
+        margin: 0 20px;
+    }
+
+    .esp-info-list {
+        grid-template-columns: 1fr;
+    }
+
+    .esp-info-box {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .esp-hero {
+        height: 400px;
+    }
+
+    .esp-hero-content h1 {
+        font-size: 28px;
+    }
+}

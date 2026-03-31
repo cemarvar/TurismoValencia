@@ -67,7 +67,7 @@ var monumentos = [
     horario: 'Abre todos los días del año',
     precio: 'Desde 10 € por espacio',
     tags: [{ label: 'Familia' }, { label: 'Arquitectura' }, { label: 'Ciencia' }],
-    imgClass: 'img-cac',
+    imgClass: 'img-mcac',
   },
 ];
 

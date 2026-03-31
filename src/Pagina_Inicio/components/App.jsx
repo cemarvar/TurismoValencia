@@ -15,6 +15,8 @@ import PatrimonioHumanidad from '../pages/esencial/PatrimonioHumanidad';
 import MonumentosMuseos from '../pages/esencial/MonumentosMuseos';
 import CAC from '../pages/esencial/CAC';
 import Bioparc from '../pages/esencial/Bioparc';
+import Espectaculo from '../pages/planes/Espectaculo';
+import Familia from '../pages/planes/Familia';
 
 export default function App()
 {
@@ -38,6 +40,8 @@ export default function App()
                     <Route path="/MonumentosMuseos" element={<MonumentosMuseos />} />
                     <Route path="/CAC" element={<CAC />} />
                     <Route path="/Bioparc" element={<Bioparc />} />
+                    <Route path="/Espectaculo" element={<Espectaculo />} />
+                    <Route path="/Familia" element={<Familia />} />
                 </Routes>
         </BrowserRouter>
     );

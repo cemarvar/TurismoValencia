@@ -10,7 +10,7 @@
 .bp-hero {
     position: relative;
     height: 560px;
-    background-image: url('public/img/img-esencial/Bioparc/hero.jpg');
+    background-image: url('/img/img-esencial/Bioparc/bpc.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -246,7 +246,6 @@
     border-radius: 2px;
     overflow: hidden;
     height: 280px;
-    position: sticky;
     top: 90px;
 }
 
@@ -258,10 +257,10 @@
     background-size: cover;
 }
 
-.img-sabana      { background-image: url('public/img/img-esencial/Bioparc/sabana.jpg'); }
-.img-ecuatorial  { background-image: url('public/img/img-esencial/Bioparc/ecuatorial.jpg'); }
-.img-humedales   { background-image: url('public/img/img-esencial/Bioparc/humedales.jpg'); }
-.img-madagascar  { background-image: url('public/img/img-esencial/Bioparc/madagascar.jpg'); }
+.img-sabana      { background-image: url('/img/img-esencial/Bioparc/sabana.jpg'); }
+.img-ecuatorial  { background-image: url('/img/img-esencial/Bioparc/ecuatorial.jpg'); }
+.img-humedales   { background-image: url('/img/img-esencial/Bioparc/humedales.jpg'); }
+.img-madagascar  { background-image: url('/img/img-esencial/Bioparc/madagascar.jpg'); }
 
 /* ── Actividades ── */
 .bp-actividades-section {
@@ -293,10 +292,10 @@
     background-color: #1a2a4a;
 }
 
-.img-vr           { background-image: url('public/img/img-esencial/Bioparc/vr.jpg'); }
-.img-madagascar-act { background-image: url('public/img/img-esencial/Bioparc/madagascar-act.jpg'); }
-.img-cuidadores   { background-image: url('public/img/img-esencial/Bioparc/cuidadores.jpg'); }
-.img-talleres     { background-image: url('public/img/img-esencial/Bioparc/talleres.jpg'); }
+.img-vr           { background-image: url('/img/img-esencial/Bioparc/bpcvr.jpg'); }
+.img-madagascar-act { background-image: url('/img/img-esencial/Bioparc/mdgvisitas.jpg'); }
+.img-cuidadores   { background-image: url('/img/img-esencial/Bioparc/encuentro-cuidadores.jpg'); }
+.img-talleres     { background-image: url('/img/img-esencial/Bioparc/talleres.jpg'); }
 
 .bp-actividad-body {
     padding: 20px;
