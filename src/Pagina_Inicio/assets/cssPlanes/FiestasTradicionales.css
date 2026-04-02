@@ -1,0 +1,546 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
+
+.ft-page {
+    font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
+    color: #1a1a1a;
+    margin-top: 70px;
+}
+
+/* ── Hero ── */
+.ft-hero {
+    position: relative;
+    height: 540px;
+    background-image: url('/img/img-planes/FiestasTradicionales/FT.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.ft-hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(0,0,0,0.72) 0%, rgba(0,0,0,0.1) 58%, transparent 100%);
+}
+
+.ft-hero-content {
+    position: relative;
+    z-index: 2;
+    padding: 0 48px 18px;
+    color: #fff;
+    max-width: 680px;
+}
+
+.ft-eyebrow {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #f0c040;
+    margin-bottom: 12px;
+}
+
+.ft-hero-content h1 {
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 1.05;
+    margin-bottom: 14px;
+    letter-spacing: -0.02em;
+}
+
+.ft-hero-content p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.6;
+    color: rgba(255,255,255,0.85);
+    max-width: 520px;
+}
+
+/* Stats hero */
+.ft-hero-stats {
+    position: relative;
+    z-index: 2;
+    padding: 18px 48px 44px;
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+.ft-stat {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.ft-stat-num {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1;
+    color: #f0c040;
+}
+
+.ft-stat-label {
+    font-size: 11px;
+    font-weight: 300;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.7);
+    margin-top: 3px;
+}
+
+.ft-stat-sep {
+    width: 1px;
+    height: 34px;
+    background: rgba(255,255,255,0.25);
+}
+
+/* ── Timeline anual ── */
+.ft-timeline {
+    padding: 40px 48px 36px;
+    background: #1a2a4a;
+}
+
+.ft-timeline-titulo {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #f0c040;
+    margin-bottom: 20px;
+}
+
+.ft-timeline-grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 4px;
+}
+
+.ft-timeline-mes {
+    background: rgba(255,255,255,0.07);
+    border-top: 3px solid var(--mes-color, #555);
+    padding: 10px 8px;
+    border-radius: 0 0 2px 2px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    transition: background 0.15s;
+}
+
+.ft-timeline-mes.highlight {
+    background: rgba(255,255,255,0.13);
+}
+
+.ft-timeline-mes-nombre {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.6);
+}
+
+.ft-timeline-mes-fiesta {
+    font-size: 11px;
+    font-weight: 300;
+    color: rgba(255,255,255,0.85);
+    line-height: 1.35;
+}
+
+.ft-timeline-mes.highlight .ft-timeline-mes-fiesta {
+    font-weight: 600;
+    color: #fff;
+}
+
+/* ── Intro ── */
+.ft-intro {
+    max-width: 740px;
+    margin: 52px auto;
+    padding: 0 48px;
+}
+
+.ft-intro p {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.75;
+    color: #333;
+    margin-bottom: 18px;
+}
+
+.ft-intro strong {
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+/* ── Filtros ── */
+.ft-filter-bar {
+    padding: 0 48px 36px;
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.ft-pill {
+    padding: 7px 20px;
+    border: 1.5px solid #ccc;
+    background: #fff;
+    color: #1a1a1a;
+    font-size: 13px;
+    font-family: inherit;
+    cursor: pointer;
+    border-radius: 2px;
+    transition: all 0.15s;
+}
+
+.ft-pill:hover {
+    border-color: #c0392b;
+}
+
+.ft-pill.active {
+    background: #c0392b;
+    color: #fff;
+    border-color: #c0392b;
+}
+
+/* ── Fichas ── */
+.ft-routes {
+    padding: 0 48px;
+}
+
+.ft-route-item {
+    display: grid;
+    grid-template-columns: 56px 1fr 200px;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 48px 0;
+    align-items: start;
+}
+
+.ft-route-num {
+    font-size: 13px;
+    font-weight: 600;
+    color: #bbb;
+    letter-spacing: 0.05em;
+    padding-top: 4px;
+}
+
+.ft-route-text {
+    padding-right: 40px;
+}
+
+/* Meta row */
+.ft-meta-row {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+}
+
+/* Badges por tipo */
+.ft-tipo-badge {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    padding: 4px 10px;
+    border-radius: 2px;
+    white-space: nowrap;
+}
+
+.ft-tipo-badge.religiosa {
+    background: #6c3483;
+    color: #fff;
+}
+
+.ft-tipo-badge.unesco {
+    background: #c0392b;
+    color: #fff;
+}
+
+.ft-tipo-badge.popular {
+    background: #e67e22;
+    color: #fff;
+}
+
+.ft-fecha {
+    font-size: 12px;
+    font-weight: 600;
+    color: #888;
+}
+
+.ft-route-text h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 12px;
+    letter-spacing: -0.01em;
+    line-height: 1.2;
+}
+
+.ft-desc {
+    font-size: 15px;
+    font-weight: 300;
+    color: #444;
+    line-height: 1.75;
+    margin-bottom: 22px;
+}
+
+/* Momentos clave */
+.ft-momentos-titulo {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #999;
+    margin-bottom: 10px;
+}
+
+.ft-momentos {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 22px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.ft-momentos li {
+    font-size: 14px;
+    line-height: 1.5;
+    padding-left: 14px;
+    border-left: 2px solid #e0e0e0;
+    color: #444;
+}
+
+.ft-momento-nombre {
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+.ft-momento-desc {
+    font-weight: 300;
+}
+
+/* Tags */
+.ft-tags {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-bottom: 18px;
+}
+
+.ft-tag {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #555;
+    border: 1px solid #ddd;
+    padding: 3px 9px;
+    border-radius: 2px;
+}
+
+.ft-tag.free {
+    color: #2e7d32;
+    border-color: #a5d6a7;
+    background: #f1f8e9;
+}
+
+.ft-link {
+    font-size: 13px;
+    font-weight: 600;
+    color: #1a1a1a;
+    text-decoration: none;
+    border-bottom: 2px solid #c0392b;
+    padding-bottom: 1px;
+    display: inline-block;
+}
+
+.ft-link:hover {
+    color: #c0392b;
+}
+
+/* Columna derecha: mes + imagen */
+.ft-route-col {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    align-items: stretch;
+}
+
+.ft-mes-label {
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #fff;
+    background: #1a2a4a;
+    padding: 10px 16px;
+    text-align: center;
+}
+
+.ft-route-img {
+    overflow: hidden;
+    height: 220px;
+    border-radius: 0 0 2px 2px;
+}
+
+.ft-route-img-inner {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Imágenes */
+.img-FTreyes      { background-image: url('/img/img-planes/FiestasTradicionales/sanantonio.jpg'); }
+.img-FTsanvicente { background-image: url('/img/img-planes/FiestasTradicionales/vicente.jpg'); }
+.img-FTfallas     { background-image: url('/img/img-planes/FiestasTradicionales/fallas.jpg'); }
+.img-FTsemanasanta { background-image: url('/img/img-planes/FiestasTradicionales/santamaria.jpeg'); }
+.img-FTvirgen     { background-image: url('/img/img-planes/FiestasTradicionales/virgend.jpg'); }
+.img-FTcorpus     { background-image: url('/img/img-planes/FiestasTradicionales/corpus.jpg'); }
+.img-FTferia      { background-image: url('/img/img-planes/FiestasTradicionales/granferia.jpg'); }
+.img-FT9octubre   { background-image: url('/img/img-planes/FiestasTradicionales/nouoctubre.jpg'); }
+.img-FTnavidad    { background-image: url('/img/img-planes/FiestasTradicionales/navidadvalencia.jpg'); }
+
+/* ── Info box ── */
+.ft-info-box {
+    margin: 52px 48px 60px;
+    border: 1.5px solid #1a2a4a;
+    padding: 32px 36px;
+    background: #f8f9fc;
+}
+
+.ft-info-box h3 {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    color: #1a2a4a;
+}
+
+.ft-info-list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px 32px;
+}
+
+.ft-info-list li {
+    font-size: 14px;
+    font-weight: 300;
+    color: #444;
+    padding-left: 16px;
+    position: relative;
+    line-height: 1.5;
+}
+
+.ft-info-list li strong {
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+.ft-info-list li::before {
+    content: '—';
+    position: absolute;
+    left: 0;
+    color: #999;
+    font-size: 12px;
+}
+
+/* ── RESPONSIVE ── */
+@media (max-width: 1100px) {
+    .ft-route-item {
+        grid-template-columns: 40px 1fr 160px;
+    }
+}
+
+@media (max-width: 900px) {
+    .ft-timeline-grid {
+        grid-template-columns: repeat(6, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+
+    .ft-intro,
+    .ft-routes,
+    .ft-filter-bar,
+    .ft-timeline,
+    .ft-info-box {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .ft-hero-content {
+        padding: 0 20px 12px;
+    }
+
+    .ft-hero-content h1 {
+        font-size: 34px;
+    }
+
+    .ft-hero-stats {
+        padding: 12px 20px 36px;
+        gap: 18px;
+    }
+
+    .ft-stat-num {
+        font-size: 22px;
+    }
+
+    .ft-timeline-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .ft-route-item {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .ft-route-num {
+        display: none;
+    }
+
+    .ft-route-text {
+        padding-right: 0;
+    }
+
+    .ft-route-col {
+        order: -1;
+    }
+
+    .ft-route-img {
+        height: 200px;
+    }
+
+    .ft-info-list {
+        grid-template-columns: 1fr;
+    }
+
+    .ft-info-box {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .ft-hero {
+        height: 420px;
+    }
+
+    .ft-hero-content h1 {
+        font-size: 28px;
+    }
+
+    .ft-timeline-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

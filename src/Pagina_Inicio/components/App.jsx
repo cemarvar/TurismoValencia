@@ -17,6 +17,12 @@ import CAC from '../pages/esencial/CAC';
 import Bioparc from '../pages/esencial/Bioparc';
 import Espectaculo from '../pages/planes/Espectaculo';
 import Familia from '../pages/planes/Familia';
+import Naturaleza from '../pages/planes/Naturaleza';
+import FiestasTradicionales from '../pages/planes/FiestasTradicionales';
+import Deportes from '../pages/planes/Deportes';
+import Exposicion from '../pages/planes/Exposicion';
+import MueveteValencia from '../pages/sostenible/MueveteValencia';
+
 
 export default function App()
 {
@@ -42,6 +48,12 @@ export default function App()
                     <Route path="/Bioparc" element={<Bioparc />} />
                     <Route path="/Espectaculo" element={<Espectaculo />} />
                     <Route path="/Familia" element={<Familia />} />
+                    <Route path="/Naturaleza" element={<Naturaleza />} />
+                    <Route path="/FiestasTradicionales" element={<FiestasTradicionales />} />
+                    <Route path="/Deportes" element={<Deportes />} />
+                    <Route path="/Exposicion" element={<Exposicion />} />
+                    <Route path="/MueveteValencia" element={<MueveteValencia />} />
+                    
                 </Routes>
         </BrowserRouter>
     );

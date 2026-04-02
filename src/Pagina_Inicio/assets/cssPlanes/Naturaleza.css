@@ -1,0 +1,574 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
+
+.nat-page {
+    font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
+    color: #1a1a1a;
+    margin-top: 70px;
+}
+
+/* ── Hero ── */
+.nat-hero {
+    position: relative;
+    height: 560px;
+    background-image: url('/img/img-planes/Naturaleza/natu.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.nat-hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.68) 0%, rgba(0, 0, 0, 0.08) 58%, transparent 100%);
+}
+
+.nat-hero-content {
+    position: relative;
+    z-index: 2;
+    padding: 0 48px 18px;
+    color: #fff;
+    max-width: 680px;
+}
+
+.nat-eyebrow {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #f0c040;
+    margin-bottom: 12px;
+}
+
+.nat-hero-content h1 {
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 1.05;
+    margin-bottom: 14px;
+    letter-spacing: -0.02em;
+}
+
+.nat-hero-content p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.85);
+    max-width: 520px;
+}
+
+/* Stats hero */
+.nat-hero-stats {
+    position: relative;
+    z-index: 2;
+    padding: 18px 48px 44px;
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+.nat-stat {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.nat-stat-num {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1;
+    color: #f0c040;
+}
+
+.nat-stat-label {
+    font-size: 11px;
+    font-weight: 300;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 3px;
+}
+
+.nat-stat-sep {
+    width: 1px;
+    height: 34px;
+    background: rgba(255, 255, 255, 0.25);
+}
+
+/* ── Intro ── */
+.nat-intro {
+    max-width: 740px;
+    margin: 52px auto;
+    padding: 0 48px;
+}
+
+.nat-intro p {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.75;
+    color: #333;
+    margin-bottom: 18px;
+}
+
+.nat-intro strong {
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+/* ── Filtros ── */
+.nat-filter-bar {
+    padding: 0 48px 36px;
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.nat-pill {
+    padding: 7px 20px;
+    border: 1.5px solid #ccc;
+    background: #fff;
+    color: #1a1a1a;
+    font-size: 13px;
+    font-family: inherit;
+    cursor: pointer;
+    border-radius: 2px;
+    transition: all 0.15s;
+}
+
+.nat-pill:hover {
+    border-color: #2d6a2d;
+}
+
+.nat-pill.active {
+    background: #2d6a2d;
+    color: #fff;
+    border-color: #2d6a2d;
+}
+
+/* ── Section header ── */
+.nat-section-header {
+    padding: 48px 48px 28px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.nat-section-header h2 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #1a1a1a;
+    letter-spacing: -0.01em;
+    margin-bottom: 6px;
+}
+
+.nat-section-header p {
+    font-size: 15px;
+    font-weight: 300;
+    color: #777;
+}
+
+.nat-section-header--dark {
+    background: #f0f5f0;
+    border-top: 2px solid #2d6a2d;
+    border-bottom: 1px solid #c8ddc8;
+    margin-top: 16px;
+}
+
+.nat-section-header--dark h2 {
+    color: #1a3a1a;
+}
+
+/* ── Rutas ── */
+.nat-routes {
+    padding: 0 48px;
+}
+
+.nat-route-item {
+    display: grid;
+    grid-template-columns: 56px 1fr 360px;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 48px 0;
+    align-items: start;
+}
+
+.nat-route-num {
+    font-size: 13px;
+    font-weight: 600;
+    color: #bbb;
+    letter-spacing: 0.05em;
+    padding-top: 4px;
+}
+
+.nat-route-text {
+    padding-right: 48px;
+}
+
+/* Meta row */
+.nat-meta-row {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+}
+
+/* Badges de tipo */
+.nat-tipo-badge {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    padding: 4px 10px;
+    border-radius: 2px;
+    white-space: nowrap;
+}
+
+.nat-tipo-badge.urbano {
+    background: #2d6a2d;
+    color: #fff;
+}
+
+.nat-tipo-badge.huerta {
+    background: #5a8a2d;
+    color: #fff;
+}
+
+.nat-tipo-badge.natural {
+    background: #1a2a4a;
+    color: #f0c040;
+}
+
+.nat-distancia {
+    font-size: 12px;
+    font-weight: 400;
+    color: #888;
+}
+
+.nat-route-text h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 12px;
+    letter-spacing: -0.01em;
+    line-height: 1.2;
+}
+
+.nat-desc {
+    font-size: 15px;
+    font-weight: 300;
+    color: #444;
+    line-height: 1.75;
+    margin-bottom: 22px;
+}
+
+/* Actividades */
+.nat-actividades-titulo {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #999;
+    margin-bottom: 10px;
+}
+
+.nat-actividades {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.nat-actividades li {
+    font-size: 14px;
+    line-height: 1.5;
+    padding-left: 14px;
+    border-left: 2px solid #c8ddc8;
+    color: #444;
+}
+
+.nat-act-nombre {
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+.nat-act-desc {
+    font-weight: 300;
+}
+
+/* Precio row */
+.nat-precio-row {
+    display: flex;
+    gap: 8px;
+    align-items: flex-start;
+    margin-bottom: 16px;
+    font-size: 13px;
+    color: #444;
+    background: #f0f5f0;
+    border-left: 3px solid #2d6a2d;
+    padding: 9px 13px;
+    line-height: 1.5;
+}
+
+.nat-precio-icon {
+    color: #2d6a2d;
+    flex-shrink: 0;
+    font-weight: 700;
+}
+
+.nat-precio {
+    font-weight: 400;
+}
+
+/* Tags */
+.nat-tags {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.nat-tag {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #555;
+    border: 1px solid #ddd;
+    padding: 3px 9px;
+    border-radius: 2px;
+}
+
+.nat-tag.free {
+    color: #2e7d32;
+    border-color: #a5d6a7;
+    background: #f1f8e9;
+}
+
+/* Imagen */
+.nat-route-img {
+    border-radius: 2px;
+    overflow: hidden;
+    height: 270px;
+    top: 90px;
+}
+
+.nat-route-img-inner {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Imágenes espacios verdes */
+.img-natuturia      { background-image: url('/img/img-planes/Naturaleza/natuturia.jpg'); }
+.img-natuhuerta     { background-image: url('/img/img-planes/Naturaleza/natuhuerta.jpg'); }
+.img-natubotanico   { background-image: url('/img/img-planes/Naturaleza/natubotanic.jpg'); }
+.img-natuparques    { background-image: url('/img/img-planes/Naturaleza/natujardines.jpg'); }
+
+/* Imágenes parques naturales */
+.img-natualbufera    { background-image: url('/img/img-planes/Naturaleza/natualbufera.jpg'); }
+.img-natucalderona   { background-image: url('/img/img-planes/Naturaleza/natucalderona.jpg'); }
+.img-natuparqueturia { background-image: url('/img/img-planes/Naturaleza/natuparqueturia.jpg'); }
+.img-natucabriel     { background-image: url('/img/img-planes/Naturaleza/natucabriel.jpg'); }
+
+/* ── Planes al aire libre ── */
+.nat-planes-section {
+    padding-top: 16px;
+    margin-top: 16px;
+}
+
+.nat-planes-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1px;
+    background: #e5e5e5;
+    border: 1px solid #e5e5e5;
+    margin: 0 48px;
+}
+
+.nat-plan-card {
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.nat-plan-img {
+    height: 170px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #2d6a2d;
+}
+
+/* Imágenes planes */
+.img-natuplayas    { background-image: url('/img/img-planes/Naturaleza/natuplayas.jpg'); }
+.img-natubici      { background-image: url('/img/img-planes/Naturaleza/natubici.jpg'); }
+.img-natusenderismo { background-image: url('/img/img-planes/Naturaleza/natusenderismo.jpg'); }
+.img-natuastro     { background-image: url('/img/img-planes/Naturaleza/natuastro.jpg'); }
+.img-natuaventura  { background-image: url('/img/img-planes/Naturaleza/natuaventura.jpeg'); }
+.img-natubiosfera  { background-image: url('/img/img-planes/Naturaleza/natubiosfera.jpg'); }
+
+.nat-plan-body {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    flex: 1;
+}
+
+.nat-plan-nombre {
+    font-size: 15px;
+    font-weight: 700;
+    color: #1a1a1a;
+    line-height: 1.2;
+}
+
+.nat-plan-desc {
+    font-size: 13px;
+    font-weight: 300;
+    color: #666;
+    line-height: 1.55;
+    margin: 0;
+    flex: 1;
+}
+
+.nat-plan-tags {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    margin-top: 4px;
+}
+
+/* ── Info box ── */
+.nat-info-box {
+    margin: 52px 48px 60px;
+    border: 1.5px solid #2d6a2d;
+    padding: 32px 36px;
+    background: #f0f5f0;
+}
+
+.nat-info-box h3 {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    color: #1a3a1a;
+}
+
+.nat-info-list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px 32px;
+}
+
+.nat-info-list li {
+    font-size: 14px;
+    font-weight: 300;
+    color: #444;
+    padding-left: 16px;
+    position: relative;
+    line-height: 1.5;
+}
+
+.nat-info-list li strong {
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+.nat-info-list li::before {
+    content: '—';
+    position: absolute;
+    left: 0;
+    color: #2d6a2d;
+    font-size: 12px;
+}
+
+/* ── RESPONSIVE ── */
+@media (max-width: 1100px) {
+    .nat-route-item {
+        grid-template-columns: 40px 1fr 280px;
+    }
+
+    .nat-planes-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+
+    .nat-intro,
+    .nat-routes,
+    .nat-filter-bar,
+    .nat-section-header,
+    .nat-info-box {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .nat-hero-content {
+        padding: 0 20px 12px;
+    }
+
+    .nat-hero-content h1 {
+        font-size: 34px;
+    }
+
+    .nat-hero-stats {
+        padding: 12px 20px 36px;
+        gap: 18px;
+    }
+
+    .nat-stat-num {
+        font-size: 20px;
+    }
+
+    .nat-route-item {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .nat-route-num {
+        display: none;
+    }
+
+    .nat-route-text {
+        padding-right: 0;
+    }
+
+    .nat-route-img {
+        height: 220px;
+        position: static;
+    }
+
+    .nat-planes-grid {
+        grid-template-columns: 1fr;
+        margin: 0 20px;
+    }
+
+    .nat-info-list {
+        grid-template-columns: 1fr;
+    }
+
+    .nat-info-box {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .nat-hero {
+        height: 460px;
+    }
+
+    .nat-hero-content h1 {
+        font-size: 28px;
+    }
+}

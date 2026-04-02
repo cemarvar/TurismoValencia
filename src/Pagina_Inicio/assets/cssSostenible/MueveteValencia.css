@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
 
-.dep-page {
+.mv-page {
     font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
     color: #1a1a1a;
     margin-top: 70px;
 }
 
 /* ── Hero ── */
-.dep-hero {
+.mv-hero {
     position: relative;
-    height: 540px;
-    background-image: url('/img/img-planes/Deportes/hero.jpg');
+    height: 520px;
+    background-image: url('/img/img-planes/MueveteValencia/hero.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -20,13 +20,13 @@
     justify-content: flex-end;
 }
 
-.dep-hero-overlay {
+.mv-hero-overlay {
     position: absolute;
     inset: 0;
     background: linear-gradient(to top, rgba(0,0,0,0.70) 0%, rgba(0,0,0,0.08) 58%, transparent 100%);
 }
 
-.dep-hero-content {
+.mv-hero-content {
     position: relative;
     z-index: 2;
     padding: 0 48px 18px;
@@ -34,7 +34,7 @@
     max-width: 680px;
 }
 
-.dep-eyebrow {
+.mv-eyebrow {
     font-size: 11px;
     font-weight: 600;
     letter-spacing: 0.14em;
@@ -43,7 +43,7 @@
     margin-bottom: 12px;
 }
 
-.dep-hero-content h1 {
+.mv-hero-content h1 {
     font-size: 52px;
     font-weight: 700;
     line-height: 1.05;
@@ -51,7 +51,7 @@
     letter-spacing: -0.02em;
 }
 
-.dep-hero-content p {
+.mv-hero-content p {
     font-size: 16px;
     font-weight: 300;
     line-height: 1.6;
@@ -60,7 +60,7 @@
 }
 
 /* Stats hero */
-.dep-hero-stats {
+.mv-hero-stats {
     position: relative;
     z-index: 2;
     padding: 18px 48px 44px;
@@ -69,20 +69,20 @@
     gap: 28px;
 }
 
-.dep-stat {
+.mv-stat {
     display: flex;
     flex-direction: column;
     color: #fff;
 }
 
-.dep-stat-num {
+.mv-stat-num {
     font-size: 28px;
     font-weight: 700;
     line-height: 1;
     color: #f0c040;
 }
 
-.dep-stat-label {
+.mv-stat-label {
     font-size: 11px;
     font-weight: 300;
     letter-spacing: 0.06em;
@@ -91,20 +91,20 @@
     margin-top: 3px;
 }
 
-.dep-stat-sep {
+.mv-stat-sep {
     width: 1px;
     height: 34px;
     background: rgba(255,255,255,0.25);
 }
 
 /* ── Intro ── */
-.dep-intro {
+.mv-intro {
     max-width: 740px;
     margin: 52px auto;
     padding: 0 48px;
 }
 
-.dep-intro p {
+.mv-intro p {
     font-size: 17px;
     font-weight: 300;
     line-height: 1.75;
@@ -112,21 +112,79 @@
     margin-bottom: 18px;
 }
 
-.dep-intro strong {
+.mv-intro strong {
     font-weight: 600;
     color: #1a1a1a;
 }
 
+/* ── Tabla resumen de tarifas ── */
+.mv-tarifas-section {
+    padding: 0 48px 40px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.mv-tarifas-titulo {
+    font-size: 16px;
+    font-weight: 700;
+    color: #1a1a1a;
+    letter-spacing: -0.01em;
+    margin-bottom: 16px;
+}
+
+.mv-tarifas-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1px;
+    background: #e5e5e5;
+    border: 1px solid #e5e5e5;
+}
+
+.mv-tarifa-item {
+    background: #fff;
+    padding: 14px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    border-top: 3px solid #ddd;
+}
+
+.mv-tarifa-publico   { border-top-color: #1565c0; }
+.mv-tarifa-bici      { border-top-color: #2d6a2d; }
+.mv-tarifa-turistico { border-top-color: #c0392b; }
+.mv-tarifa-electrico { border-top-color: #e67e22; }
+.mv-tarifa-especial  { border-top-color: #f0c040; background: #fffbf0; }
+
+.mv-tarifa-medio {
+    font-size: 12px;
+    font-weight: 600;
+    color: #444;
+    line-height: 1.3;
+}
+
+.mv-tarifa-precio {
+    font-size: 18px;
+    font-weight: 700;
+    color: #1a1a1a;
+    line-height: 1;
+}
+
+.mv-tarifa-tipo {
+    font-size: 11px;
+    font-weight: 300;
+    color: #888;
+    line-height: 1.3;
+}
+
 /* ── Filtros ── */
-.dep-filter-bar {
-    padding: 0 48px 36px;
+.mv-filter-bar {
+    padding: 36px 48px 36px;
     display: flex;
     gap: 8px;
     flex-wrap: wrap;
     border-bottom: 1px solid #e5e5e5;
 }
 
-.dep-pill {
+.mv-pill {
     padding: 7px 20px;
     border: 1.5px solid #ccc;
     background: #fff;
@@ -138,30 +196,30 @@
     transition: all 0.15s;
 }
 
-.dep-pill:hover {
+.mv-pill:hover {
     border-color: #1a2a4a;
 }
 
-.dep-pill.active {
+.mv-pill.active {
     background: #1a2a4a;
     color: #f0c040;
     border-color: #1a2a4a;
 }
 
-/* ── Deportes ── */
-.dep-routes {
+/* ── Medios de transporte ── */
+.mv-routes {
     padding: 0 48px;
 }
 
-.dep-route-item {
+.mv-route-item {
     display: grid;
-    grid-template-columns: 56px 1fr 340px;
+    grid-template-columns: 56px 1fr 320px;
     border-bottom: 1px solid #e5e5e5;
     padding: 48px 0;
     align-items: start;
 }
 
-.dep-route-num {
+.mv-route-num {
     font-size: 13px;
     font-weight: 600;
     color: #bbb;
@@ -169,21 +227,26 @@
     padding-top: 4px;
 }
 
-.dep-route-text {
+.mv-route-text {
     padding-right: 48px;
 }
 
 /* Meta row */
-.dep-meta-row {
+.mv-meta-row {
     display: flex;
     align-items: center;
-    gap: 14px;
+    gap: 10px;
     margin-bottom: 10px;
     flex-wrap: wrap;
 }
 
-/* Badges por categoría */
-.dep-cat-badge {
+.mv-icono {
+    font-size: 20px;
+    flex-shrink: 0;
+}
+
+/* Badges por tipo */
+.mv-tipo-badge {
     display: inline-block;
     font-size: 11px;
     font-weight: 700;
@@ -194,28 +257,18 @@
     white-space: nowrap;
 }
 
-.dep-cat-badge.tierra {
-    background: #2d6a2d;
-    color: #fff;
-}
+.mv-tipo-badge.publico    { background: #1565c0; color: #fff; }
+.mv-tipo-badge.bici       { background: #2d6a2d; color: #fff; }
+.mv-tipo-badge.turistico  { background: #c0392b; color: #fff; }
+.mv-tipo-badge.electrico  { background: #e67e22; color: #fff; }
 
-.dep-cat-badge.agua {
-    background: #1565c0;
-    color: #fff;
-}
-
-.dep-cat-badge.espectador {
-    background: #c0392b;
-    color: #fff;
-}
-
-.dep-ubicacion {
+.mv-cobertura {
     font-size: 12px;
     font-weight: 400;
     color: #888;
 }
 
-.dep-route-text h2 {
+.mv-route-text h2 {
     font-size: 24px;
     font-weight: 700;
     color: #1a1a1a;
@@ -224,16 +277,16 @@
     line-height: 1.2;
 }
 
-.dep-desc {
+.mv-desc {
     font-size: 15px;
     font-weight: 300;
     color: #444;
     line-height: 1.75;
-    margin-bottom: 22px;
+    margin-bottom: 20px;
 }
 
-/* Puntos */
-.dep-puntos-titulo {
+/* Grid de detalles */
+.mv-detalles-titulo {
     font-size: 11px;
     font-weight: 700;
     letter-spacing: 0.1em;
@@ -242,69 +295,64 @@
     margin-bottom: 10px;
 }
 
-.dep-puntos {
-    list-style: none;
-    padding: 0;
-    margin: 0 0 20px 0;
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-}
-
-.dep-puntos li {
-    font-size: 14px;
-    line-height: 1.5;
-    padding-left: 14px;
-    border-left: 2px solid #e0e0e0;
-    color: #444;
-}
-
-.dep-punto-nombre {
-    font-weight: 600;
-    color: #1a1a1a;
-}
-
-.dep-punto-desc {
-    font-weight: 300;
-}
-
-/* Info row */
-.dep-info-row {
-    display: flex;
-    gap: 28px;
-    margin-bottom: 16px;
-    flex-wrap: wrap;
-}
-
-.dep-info-dato {
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
-}
-
-.dep-info-label {
-    font-size: 10px;
-    font-weight: 700;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    color: #999;
-}
-
-.dep-info-val {
-    font-size: 13px;
-    font-weight: 400;
-    color: #333;
-}
-
-/* Tags */
-.dep-tags {
-    display: flex;
-    gap: 8px;
-    flex-wrap: wrap;
+.mv-detalles-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6px 16px;
     margin-bottom: 18px;
 }
 
-.dep-tag {
+.mv-detalle-fila {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    padding: 8px 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.mv-detalle-label {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #aaa;
+}
+
+.mv-detalle-valor {
+    font-size: 13px;
+    font-weight: 400;
+    color: #333;
+    line-height: 1.4;
+}
+
+/* Consejo */
+.mv-consejo {
+    font-size: 13px;
+    font-weight: 400;
+    color: #444;
+    background: #fffbf0;
+    border-left: 3px solid #f0c040;
+    padding: 10px 14px;
+    margin-bottom: 18px;
+    line-height: 1.55;
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+.mv-consejo-icon {
+    flex-shrink: 0;
+    font-size: 15px;
+}
+
+/* Tags */
+.mv-tags {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.mv-tag {
     font-size: 11px;
     font-weight: 600;
     letter-spacing: 0.05em;
@@ -315,36 +363,16 @@
     border-radius: 2px;
 }
 
-.dep-tag.free {
-    color: #2e7d32;
-    border-color: #a5d6a7;
-    background: #f1f8e9;
-}
-
-.dep-link {
-    font-size: 13px;
-    font-weight: 600;
-    color: #1a1a1a;
-    text-decoration: none;
-    border-bottom: 2px solid #c0392b;
-    padding-bottom: 1px;
-    display: inline-block;
-}
-
-.dep-link:hover {
-    color: #c0392b;
-}
-
 /* Imagen */
-.dep-route-img {
+.mv-route-img {
     border-radius: 2px;
     overflow: hidden;
-    height: 260px;
+    height: 280px;
     position: sticky;
     top: 90px;
 }
 
-.dep-route-img-inner {
+.mv-route-img-inner {
     width: 100%;
     height: 100%;
     background-position: center;
@@ -353,88 +381,23 @@
 }
 
 /* Imágenes */
-.img-running   { background-image: url('/img/img-planes/Deportes/running.jpg'); }
-.img-ciclismo  { background-image: url('/img/img-planes/Deportes/ciclismo.jpg'); }
-.img-nautica   { background-image: url('/img/img-planes/Deportes/nautica.jpg'); }
-.img-surf      { background-image: url('/img/img-planes/Deportes/surf.jpg'); }
-.img-futbol    { background-image: url('/img/img-planes/Deportes/futbol.jpg'); }
-.img-basket    { background-image: url('/img/img-planes/Deportes/basket.jpg'); }
-.img-golf      { background-image: url('/img/img-planes/Deportes/golf.jpg'); }
-.img-triatlon  { background-image: url('/img/img-planes/Deportes/triatlon.jpg'); }
-
-/* ── Calendario de eventos ── */
-.dep-calendario-section {
-    padding-top: 52px;
-    margin-top: 52px;
-    border-top: 2px solid #1a2a4a;
-}
-
-.dep-section-title {
-    padding: 0 48px 28px;
-}
-
-.dep-section-title h2 {
-    font-size: 22px;
-    font-weight: 700;
-    color: #1a1a1a;
-    letter-spacing: -0.01em;
-    margin-bottom: 6px;
-}
-
-.dep-section-title p {
-    font-size: 15px;
-    font-weight: 300;
-    color: #777;
-}
-
-.dep-calendario-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1px;
-    background: #e5e5e5;
-    border: 1px solid #e5e5e5;
-    margin: 0 48px;
-}
-
-.dep-cal-item {
-    background: #fff;
-    padding: 18px 20px;
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    border-top: 3px solid #ddd;
-}
-
-.dep-cal-running   { border-top-color: #c0392b; }
-.dep-cal-triatlon  { border-top-color: #1565c0; }
-.dep-cal-ciclismo  { border-top-color: #2d6a2d; }
-.dep-cal-nautica   { border-top-color: #0097a7; }
-.dep-cal-motor     { border-top-color: #e67e22; }
-
-.dep-cal-mes {
-    font-size: 11px;
-    font-weight: 700;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    color: #999;
-}
-
-.dep-cal-nombre {
-    font-size: 13px;
-    font-weight: 600;
-    color: #1a1a1a;
-    line-height: 1.35;
-}
+.img-emt          { background-image: url('/img/img-planes/MueveteValencia/emt.jpg'); }
+.img-metro        { background-image: url('/img/img-planes/MueveteValencia/metro.jpg'); }
+.img-valenbisi    { background-image: url('/img/img-planes/MueveteValencia/valenbisi.jpg'); }
+.img-bici         { background-image: url('/img/img-planes/MueveteValencia/bici.jpg'); }
+.img-busturistico { background-image: url('/img/img-planes/MueveteValencia/busturistico.jpg'); }
+.img-segway       { background-image: url('/img/img-planes/MueveteValencia/segway.jpg'); }
+.img-patinete     { background-image: url('/img/img-planes/MueveteValencia/patinete.jpg'); }
 
 /* ── Info box ── */
-.dep-info-box {
+.mv-info-box {
     margin: 52px 48px 60px;
     border: 1.5px solid #1a2a4a;
     padding: 32px 36px;
     background: #f8f9fc;
 }
 
-.dep-info-box h3 {
+.mv-info-box h3 {
     font-size: 16px;
     font-weight: 700;
     letter-spacing: 0.02em;
@@ -443,14 +406,14 @@
     color: #1a2a4a;
 }
 
-.dep-info-list {
+.mv-info-list {
     list-style: none;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 8px 32px;
 }
 
-.dep-info-list li {
+.mv-info-list li {
     font-size: 14px;
     font-weight: 300;
     color: #444;
@@ -459,12 +422,12 @@
     line-height: 1.5;
 }
 
-.dep-info-list li strong {
+.mv-info-list li strong {
     font-weight: 600;
     color: #1a1a1a;
 }
 
-.dep-info-list li::before {
+.mv-info-list li::before {
     content: '—';
     position: absolute;
     left: 0;
@@ -474,86 +437,91 @@
 
 /* ── RESPONSIVE ── */
 @media (max-width: 1100px) {
-    .dep-route-item {
-        grid-template-columns: 40px 1fr 280px;
+    .mv-route-item {
+        grid-template-columns: 40px 1fr 260px;
     }
 
-    .dep-calendario-grid {
+    .mv-tarifas-grid {
         grid-template-columns: repeat(3, 1fr);
     }
 }
 
 @media (max-width: 768px) {
 
-    .dep-intro,
-    .dep-routes,
-    .dep-filter-bar,
-    .dep-section-title,
-    .dep-info-box {
+    .mv-intro,
+    .mv-routes,
+    .mv-filter-bar,
+    .mv-tarifas-section,
+    .mv-info-box {
         padding-left: 20px;
         padding-right: 20px;
+        margin-left: 0;
+        margin-right: 0;
     }
 
-    .dep-hero-content {
+    .mv-hero-content {
         padding: 0 20px 12px;
     }
 
-    .dep-hero-content h1 {
+    .mv-hero-content h1 {
         font-size: 34px;
     }
 
-    .dep-hero-stats {
+    .mv-hero-stats {
         padding: 12px 20px 36px;
         gap: 18px;
     }
 
-    .dep-stat-num {
+    .mv-stat-num {
         font-size: 22px;
     }
 
-    .dep-route-item {
+    .mv-tarifas-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .mv-route-item {
         grid-template-columns: 1fr;
         gap: 20px;
     }
 
-    .dep-route-num {
+    .mv-route-num {
         display: none;
     }
 
-    .dep-route-text {
+    .mv-route-text {
         padding-right: 0;
     }
 
-    .dep-route-img {
+    .mv-route-img {
         height: 220px;
         position: static;
     }
 
-    .dep-calendario-grid {
-        grid-template-columns: repeat(2, 1fr);
-        margin: 0 20px;
-    }
-
-    .dep-info-list {
+    .mv-detalles-grid {
         grid-template-columns: 1fr;
     }
 
-    .dep-info-box {
+    .mv-info-list {
+        grid-template-columns: 1fr;
+    }
+
+    .mv-info-box {
         margin-left: 20px;
         margin-right: 20px;
     }
 }
 
 @media (max-width: 480px) {
-    .dep-hero {
-        height: 440px;
+    .mv-hero {
+        height: 420px;
     }
 
-    .dep-hero-content h1 {
+    .mv-hero-content h1 {
         font-size: 28px;
     }
 
-    .dep-calendario-grid {
-        grid-template-columns: repeat(2, 1fr);
+    .mv-tarifas-grid {
+        grid-template-columns: 1fr 1fr;
     }
 }

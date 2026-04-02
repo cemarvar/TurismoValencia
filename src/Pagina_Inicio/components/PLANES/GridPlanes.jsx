@@ -9,7 +9,7 @@ export default function GridPlanes()
         { imagen: "/img/img-planes/naturaleza.jpg",     titulo: "Naturaleza" ,           ruta: "/Naturaleza"},
         { imagen: "/img/img-planes/tradicionales.jpg",  titulo: "Fiestas Tradicionales", ruta: "/FiestasTradicionales"},
         { imagen: "/img/img-planes/deporte.jpg",        titulo: "Deportes",              ruta: "/Deportes"},
-        { imagen: "/img/img-planes/expo.jpg",           titulo: "Exposición",            ruta: "/Exposición"}
+        { imagen: "/img/img-planes/expo.jpg",           titulo: "Exposición",            ruta: "/Exposicion"}
     ];
 
     return (
