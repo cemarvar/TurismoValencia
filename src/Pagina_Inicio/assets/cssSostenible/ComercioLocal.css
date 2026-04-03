@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
 
-.ex-page {
+.cl-page {
     font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
     color: #1a1a1a;
     margin-top: 70px;
 }
 
 /* ── Hero ── */
-.ex-hero {
+.cl-hero {
     position: relative;
     height: 520px;
-    background-image: url('/img/img-planes/Exposicion/hero.jpg');
+    background-image: url('/img/img-sostenible/comercio_local.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -20,13 +20,13 @@
     justify-content: flex-end;
 }
 
-.ex-hero-overlay {
+.cl-hero-overlay {
     position: absolute;
     inset: 0;
-    background: linear-gradient(to top, rgba(0,0,0,0.70) 0%, rgba(0,0,0,0.1) 56%, transparent 100%);
+    background: linear-gradient(to top, rgba(0,0,0,0.70) 0%, rgba(0,0,0,0.08) 58%, transparent 100%);
 }
 
-.ex-hero-content {
+.cl-hero-content {
     position: relative;
     z-index: 2;
     padding: 0 48px 18px;
@@ -34,7 +34,7 @@
     max-width: 680px;
 }
 
-.ex-eyebrow {
+.cl-eyebrow {
     font-size: 11px;
     font-weight: 600;
     letter-spacing: 0.14em;
@@ -43,7 +43,7 @@
     margin-bottom: 12px;
 }
 
-.ex-hero-content h1 {
+.cl-hero-content h1 {
     font-size: 52px;
     font-weight: 700;
     line-height: 1.05;
@@ -51,7 +51,7 @@
     letter-spacing: -0.02em;
 }
 
-.ex-hero-content p {
+.cl-hero-content p {
     font-size: 16px;
     font-weight: 300;
     line-height: 1.6;
@@ -59,8 +59,8 @@
     max-width: 520px;
 }
 
-/* Stats hero */
-.ex-hero-stats {
+/* Stats */
+.cl-hero-stats {
     position: relative;
     z-index: 2;
     padding: 18px 48px 44px;
@@ -69,20 +69,20 @@
     gap: 28px;
 }
 
-.ex-stat {
+.cl-stat {
     display: flex;
     flex-direction: column;
     color: #fff;
 }
 
-.ex-stat-num {
-    font-size: 28px;
+.cl-stat-num {
+    font-size: 26px;
     font-weight: 700;
     line-height: 1;
     color: #f0c040;
 }
 
-.ex-stat-label {
+.cl-stat-label {
     font-size: 11px;
     font-weight: 300;
     letter-spacing: 0.06em;
@@ -91,20 +91,20 @@
     margin-top: 3px;
 }
 
-.ex-stat-sep {
+.cl-stat-sep {
     width: 1px;
     height: 34px;
     background: rgba(255,255,255,0.25);
 }
 
 /* ── Intro ── */
-.ex-intro {
+.cl-intro {
     max-width: 740px;
     margin: 52px auto;
     padding: 0 48px;
 }
 
-.ex-intro p {
+.cl-intro p {
     font-size: 17px;
     font-weight: 300;
     line-height: 1.75;
@@ -112,22 +112,68 @@
     margin-bottom: 18px;
 }
 
-.ex-intro strong {
-    font-weight: 600;
+/* ── Calendario semanal de mercadillos ── */
+.cl-calendario-section {
+    padding: 0 48px 40px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.cl-calendario-titulo {
+    font-size: 16px;
+    font-weight: 700;
     color: #1a1a1a;
+    margin-bottom: 16px;
+    letter-spacing: -0.01em;
+}
+
+.cl-calendario-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 1px;
+    background: #e5e5e5;
+    border: 1px solid #e5e5e5;
+}
+
+.cl-cal-item {
+    background: #fff;
+    padding: 14px 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    border-top: 3px solid #c0392b;
+    transition: background 0.1s;
+}
+
+.cl-cal-item:hover {
+    background: #fafafa;
+}
+
+.cl-cal-dia {
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    color: #c0392b;
+    text-transform: uppercase;
+}
+
+.cl-cal-mercados {
+    font-size: 12px;
+    font-weight: 300;
+    color: #555;
+    line-height: 1.45;
 }
 
 /* ── Filtros ── */
-.ex-filter-bar {
-    padding: 0 48px 36px;
+.cl-filter-bar {
+    padding: 36px 48px 36px;
     display: flex;
     gap: 8px;
     flex-wrap: wrap;
     border-bottom: 1px solid #e5e5e5;
 }
 
-.ex-pill {
-    padding: 7px 18px;
+.cl-pill {
+    padding: 7px 20px;
     border: 1.5px solid #ccc;
     background: #fff;
     color: #1a1a1a;
@@ -138,30 +184,30 @@
     transition: all 0.15s;
 }
 
-.ex-pill:hover {
+.cl-pill:hover {
     border-color: #1a2a4a;
 }
 
-.ex-pill.active {
+.cl-pill.active {
     background: #1a2a4a;
     color: #f0c040;
     border-color: #1a2a4a;
 }
 
-/* ── Espacios ── */
-.ex-routes {
+/* ── Mercados ── */
+.cl-routes {
     padding: 0 48px;
 }
 
-.ex-route-item {
+.cl-route-item {
     display: grid;
-    grid-template-columns: 56px 1fr 320px;
+    grid-template-columns: 56px 1fr 340px;
     border-bottom: 1px solid #e5e5e5;
     padding: 48px 0;
     align-items: start;
 }
 
-.ex-route-num {
+.cl-route-num {
     font-size: 13px;
     font-weight: 600;
     color: #bbb;
@@ -169,21 +215,20 @@
     padding-top: 4px;
 }
 
-.ex-route-text {
+.cl-route-text {
     padding-right: 48px;
 }
 
 /* Meta row */
-.ex-meta-row {
+.cl-meta-row {
     display: flex;
     align-items: center;
-    gap: 14px;
-    margin-bottom: 10px;
+    gap: 12px;
+    margin-bottom: 8px;
     flex-wrap: wrap;
 }
 
-/* Badges por tipo de arte */
-.ex-tipo-badge {
+.cl-barrio-badge {
     display: inline-block;
     font-size: 11px;
     font-weight: 700;
@@ -191,41 +236,18 @@
     text-transform: uppercase;
     padding: 4px 10px;
     border-radius: 2px;
+    background: #1a2a4a;
+    color: #f0c040;
     white-space: nowrap;
 }
 
-.ex-tipo-badge.moderno {
-    background: #1a2a4a;
-    color: #f0c040;
-}
-
-.ex-tipo-badge.contemporaneo {
-    background: #6c3483;
-    color: #fff;
-}
-
-.ex-tipo-badge.clasico {
-    background: #7d4a00;
-    color: #fff;
-}
-
-.ex-tipo-badge.temporal {
-    background: #c0392b;
-    color: #fff;
-}
-
-.ex-tipo-badge.historia {
-    background: #2d6a2d;
-    color: #fff;
-}
-
-.ex-ubicacion {
+.cl-ubicacion {
     font-size: 12px;
     font-weight: 400;
     color: #888;
 }
 
-.ex-route-text h2 {
+.cl-route-text h2 {
     font-size: 24px;
     font-weight: 700;
     color: #1a1a1a;
@@ -234,7 +256,7 @@
     line-height: 1.2;
 }
 
-.ex-subtitulo {
+.cl-subtitulo {
     font-size: 14px;
     font-weight: 300;
     font-style: italic;
@@ -242,7 +264,7 @@
     margin-bottom: 14px;
 }
 
-.ex-desc {
+.cl-desc {
     font-size: 15px;
     font-weight: 300;
     color: #444;
@@ -250,8 +272,8 @@
     margin-bottom: 20px;
 }
 
-/* Colección */
-.ex-coleccion-titulo {
+/* Especialidades */
+.cl-especialidades-titulo {
     font-size: 11px;
     font-weight: 700;
     letter-spacing: 0.1em;
@@ -260,16 +282,16 @@
     margin-bottom: 10px;
 }
 
-.ex-coleccion {
+.cl-especialidades {
     list-style: none;
     padding: 0;
-    margin: 0 0 20px 0;
+    margin: 0 0 18px 0;
     display: flex;
     flex-direction: column;
     gap: 8px;
 }
 
-.ex-coleccion li {
+.cl-especialidades li {
     font-size: 14px;
     line-height: 1.5;
     padding-left: 14px;
@@ -277,56 +299,42 @@
     color: #444;
 }
 
-.ex-col-nombre {
+.cl-esp-nombre {
     font-weight: 600;
     color: #1a1a1a;
 }
 
-.ex-col-desc {
+.cl-esp-desc {
     font-weight: 300;
 }
 
-/* Horarios y entrada */
-.ex-horarios-row {
+/* Horario */
+.cl-horario-row {
     display: flex;
-    gap: 24px;
-    margin-bottom: 16px;
-    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #1a2a4a;
     background: #f8f9fc;
     border-left: 3px solid #1a2a4a;
-    padding: 10px 14px;
+    padding: 9px 13px;
+    margin-bottom: 16px;
 }
 
-.ex-horario-dato {
-    display: flex;
-    flex-direction: column;
-    gap: 3px;
-}
-
-.ex-h-label {
-    font-size: 11px;
-    font-weight: 700;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    color: #999;
-}
-
-.ex-h-val {
-    font-size: 13px;
-    font-weight: 400;
-    color: #333;
-    line-height: 1.4;
+.cl-horario-icon {
+    flex-shrink: 0;
 }
 
 /* Tags */
-.ex-tags {
+.cl-tags {
     display: flex;
     gap: 8px;
     flex-wrap: wrap;
     margin-bottom: 18px;
 }
 
-.ex-tag {
+.cl-tag {
     font-size: 11px;
     font-weight: 600;
     letter-spacing: 0.05em;
@@ -337,13 +345,7 @@
     border-radius: 2px;
 }
 
-.ex-tag.free {
-    color: #2e7d32;
-    border-color: #a5d6a7;
-    background: #f1f8e9;
-}
-
-.ex-link {
+.cl-link {
     font-size: 13px;
     font-weight: 600;
     color: #1a1a1a;
@@ -353,12 +355,12 @@
     display: inline-block;
 }
 
-.ex-link:hover {
+.cl-link:hover {
     color: #c0392b;
 }
 
 /* Imagen */
-.ex-route-img {
+.cl-route-img {
     border-radius: 2px;
     overflow: hidden;
     height: 260px;
@@ -366,7 +368,7 @@
     top: 90px;
 }
 
-.ex-route-img-inner {
+.cl-route-img-inner {
     width: 100%;
     height: 100%;
     background-position: center;
@@ -374,28 +376,26 @@
     background-size: cover;
 }
 
-/* Imágenes */
-.img-ivam       { background-image: url('/img/img-planes/Exposicion/ivam.jpg'); }
-.img-bbaa       { background-image: url('/img/img-planes/Exposicion/bbaa.jpg'); }
-.img-carme      { background-image: url('/img/img-planes/Exposicion/carme.jpg'); }
-.img-hortensia  { background-image: url('/img/img-planes/Exposicion/hortensia.jpg'); }
-.img-bancaja    { background-image: url('/img/img-planes/Exposicion/bancaja.jpg'); }
-.img-caixaforum { background-image: url('/img/img-planes/Exposicion/caixaforum.jpg'); }
-.img-muvim      { background-image: url('/img/img-planes/Exposicion/muvim.jpg'); }
-.img-ceramica   { background-image: url('/img/img-planes/Exposicion/ceramica.jpg'); }
+/* Imágenes mercados */
+.img-central   { background-image: url('/img/img-sostenible/mercado_central.jpg'); }
+.img-colon     { background-image: url('/img/img-sostenible/mercado_colon.jpg'); }
+.img-ruzafa    { background-image: url('/img/img-sostenible/mercado_ruzafa.jpg'); }
+.img-cabanyal  { background-image: url('/img/img-sostenible/mercado_cabanyal.jpg'); }
+.img-sorell    { background-image: url('/img/img-sostenible/mercado_sorell.jpg'); }
+.img-grao      { background-image: url('/img/img-sostenible/mercado_grao.jpg'); }
 
-/* ── Exposiciones especiales ── */
-.ex-especiales-section {
+/* ── Artesanía ── */
+.cl-artesania-section {
     padding-top: 52px;
     margin-top: 52px;
     border-top: 2px solid #1a2a4a;
 }
 
-.ex-section-title {
+.cl-section-title {
     padding: 0 48px 28px;
 }
 
-.ex-section-title h2 {
+.cl-section-title h2 {
     font-size: 22px;
     font-weight: 700;
     color: #1a1a1a;
@@ -403,28 +403,28 @@
     margin-bottom: 6px;
 }
 
-.ex-section-title p {
+.cl-section-title p {
     font-size: 15px;
     font-weight: 300;
     color: #777;
 }
 
-.ex-especiales-grid {
+.cl-artesania-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 1px;
     background: #e5e5e5;
     border: 1px solid #e5e5e5;
     margin: 0 48px;
 }
 
-.ex-especial-card {
+.cl-artesania-card {
     background: #fff;
     display: flex;
     flex-direction: column;
 }
 
-.ex-especial-img {
+.cl-artesania-img {
     height: 160px;
     background-position: center;
     background-size: cover;
@@ -432,42 +432,36 @@
     background-color: #1a2a4a;
 }
 
-.img-titanic    { background-image: url('/img/img-planes/Exposicion/titanic.jpg'); }
-.img-ruta       { background-image: url('/img/img-planes/Exposicion/ruta.jpg'); }
-.img-leonardo   { background-image: url('/img/img-planes/Exposicion/leonardo.jpg'); }
-.img-ivam-temp  { background-image: url('/img/img-planes/Exposicion/ivam-temp.jpg'); }
+/* Imágenes artesanía — reutiliza las existentes del proyecto */
+.img-ceramica  { background-image: url('/img/img-sostenible/ceramica.jpg'); }
+.img-seda      { background-image: url('/img/img-sostenible/seda.jpg'); }
+.img-abanicos  { background-image: url('/img/img-sostenible/abanicos.jpg'); }
+.img-lladro    { background-image: url('/img/img-sostenible/lladro.jpg'); }
+.img-joyeria   { background-image: url('/img/img-sostenible/joyeria.jpg'); }
+.img-naranja   { background-image: url('/img/img-sostenible/naranja.jpg'); }
 
-.ex-especial-body {
-    padding: 18px 20px;
+.cl-artesania-body {
+    padding: 20px;
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 6px;
     flex: 1;
 }
 
-.ex-especial-tipo {
-    font-size: 10px;
-    font-weight: 700;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    color: #c0392b;
+.cl-artesania-icono {
+    font-size: 20px;
+    line-height: 1;
+    margin-bottom: 2px;
 }
 
-.ex-especial-nombre {
-    font-size: 14px;
+.cl-artesania-nombre {
+    font-size: 15px;
     font-weight: 700;
     color: #1a1a1a;
-    line-height: 1.3;
+    line-height: 1.2;
 }
 
-.ex-especial-espacio {
-    font-size: 12px;
-    font-weight: 400;
-    color: #888;
-    margin-bottom: 4px;
-}
-
-.ex-especial-desc {
+.cl-artesania-desc {
     font-size: 13px;
     font-weight: 300;
     color: #666;
@@ -476,15 +470,38 @@
     flex: 1;
 }
 
+.cl-artesania-donde {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    margin-top: 8px;
+    padding-top: 10px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.cl-donde-label {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #aaa;
+}
+
+.cl-donde-val {
+    font-size: 12px;
+    font-weight: 400;
+    color: #444;
+}
+
 /* ── Info box ── */
-.ex-info-box {
+.cl-info-box {
     margin: 52px 48px 60px;
     border: 1.5px solid #1a2a4a;
     padding: 32px 36px;
     background: #f8f9fc;
 }
 
-.ex-info-box h3 {
+.cl-info-box h3 {
     font-size: 16px;
     font-weight: 700;
     letter-spacing: 0.02em;
@@ -493,14 +510,14 @@
     color: #1a2a4a;
 }
 
-.ex-info-list {
+.cl-info-list {
     list-style: none;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 8px 32px;
 }
 
-.ex-info-list li {
+.cl-info-list li {
     font-size: 14px;
     font-weight: 300;
     color: #444;
@@ -509,12 +526,12 @@
     line-height: 1.5;
 }
 
-.ex-info-list li strong {
+.cl-info-list li strong {
     font-weight: 600;
     color: #1a1a1a;
 }
 
-.ex-info-list li::before {
+.cl-info-list li::before {
     content: '—';
     position: absolute;
     left: 0;
@@ -524,87 +541,97 @@
 
 /* ── RESPONSIVE ── */
 @media (max-width: 1100px) {
-    .ex-route-item {
-        grid-template-columns: 40px 1fr 260px;
+    .cl-route-item {
+        grid-template-columns: 40px 1fr 270px;
     }
 
-    .ex-especiales-grid {
+    .cl-calendario-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .cl-artesania-grid {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
 @media (max-width: 768px) {
 
-    .ex-intro,
-    .ex-routes,
-    .ex-filter-bar,
-    .ex-section-title,
-    .ex-info-box {
+    .cl-intro,
+    .cl-routes,
+    .cl-filter-bar,
+    .cl-calendario-section,
+    .cl-section-title,
+    .cl-info-box {
         padding-left: 20px;
         padding-right: 20px;
+        margin-left: 0;
+        margin-right: 0;
     }
 
-    .ex-hero-content {
+    .cl-hero-content {
         padding: 0 20px 12px;
     }
 
-    .ex-hero-content h1 {
+    .cl-hero-content h1 {
         font-size: 34px;
     }
 
-    .ex-hero-stats {
+    .cl-hero-stats {
         padding: 12px 20px 36px;
         gap: 18px;
     }
 
-    .ex-stat-num {
-        font-size: 22px;
+    .cl-stat-num {
+        font-size: 20px;
     }
 
-    .ex-route-item {
+    .cl-calendario-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .cl-route-item {
         grid-template-columns: 1fr;
         gap: 20px;
     }
 
-    .ex-route-num {
+    .cl-route-num {
         display: none;
     }
 
-    .ex-route-text {
+    .cl-route-text {
         padding-right: 0;
     }
 
-    .ex-route-img {
+    .cl-route-img {
         height: 220px;
         position: static;
     }
 
-    .ex-horarios-row {
-        flex-direction: column;
-        gap: 12px;
-    }
-
-    .ex-especiales-grid {
+    .cl-artesania-grid {
         grid-template-columns: 1fr;
         margin: 0 20px;
     }
 
-    .ex-info-list {
+    .cl-info-list {
         grid-template-columns: 1fr;
     }
 
-    .ex-info-box {
+    .cl-info-box {
         margin-left: 20px;
         margin-right: 20px;
     }
 }
 
 @media (max-width: 480px) {
-    .ex-hero {
+    .cl-hero {
         height: 420px;
     }
 
-    .ex-hero-content h1 {
+    .cl-hero-content h1 {
         font-size: 28px;
+    }
+
+    .cl-calendario-grid {
+        grid-template-columns: 1fr 1fr;
     }
 }

@@ -22,6 +22,8 @@ import FiestasTradicionales from '../pages/planes/FiestasTradicionales';
 import Deportes from '../pages/planes/Deportes';
 import Exposicion from '../pages/planes/Exposicion';
 import MueveteValencia from '../pages/sostenible/MueveteValencia';
+import Ecoturismo from '../pages/sostenible/Ecoturismo';
+import ComercioLocal from '../pages/sostenible/ComercioLocal';
 
 
 export default function App()
@@ -53,7 +55,8 @@ export default function App()
                     <Route path="/Deportes" element={<Deportes />} />
                     <Route path="/Exposicion" element={<Exposicion />} />
                     <Route path="/MueveteValencia" element={<MueveteValencia />} />
-                    
+                    <Route path="/Ecoturismo" element={<Ecoturismo />} />
+                    <Route path="/ComercioLocal" element={<ComercioLocal />} />
                 </Routes>
         </BrowserRouter>
     );

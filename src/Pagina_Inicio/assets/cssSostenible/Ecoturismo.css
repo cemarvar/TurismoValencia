@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
 
-.mv-page {
+.eco-page {
     font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
     color: #1a1a1a;
     margin-top: 70px;
 }
 
 /* ── Hero ── */
-.mv-hero {
+.eco-hero {
     position: relative;
-    height: 520px;
-    background-image: url('/img/img-sostenible/MueveteValencia/hero.jpg');
+    height: 540px;
+    background-image: url('/img/img-sostenible/Ecoturismo/hero.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -20,13 +20,13 @@
     justify-content: flex-end;
 }
 
-.mv-hero-overlay {
+.eco-hero-overlay {
     position: absolute;
     inset: 0;
-    background: linear-gradient(to top, rgba(0,0,0,0.70) 0%, rgba(0,0,0,0.08) 58%, transparent 100%);
+    background: linear-gradient(to top, rgba(0,0,0,0.68) 0%, rgba(0,0,0,0.08) 55%, transparent 100%);
 }
 
-.mv-hero-content {
+.eco-hero-content {
     position: relative;
     z-index: 2;
     padding: 0 48px 18px;
@@ -34,16 +34,16 @@
     max-width: 680px;
 }
 
-.mv-eyebrow {
+.eco-eyebrow {
     font-size: 11px;
     font-weight: 600;
     letter-spacing: 0.14em;
     text-transform: uppercase;
-    color: #f0c040;
+    color: #a8d5a2;
     margin-bottom: 12px;
 }
 
-.mv-hero-content h1 {
+.eco-hero-content h1 {
     font-size: 52px;
     font-weight: 700;
     line-height: 1.05;
@@ -51,7 +51,7 @@
     letter-spacing: -0.02em;
 }
 
-.mv-hero-content p {
+.eco-hero-content p {
     font-size: 16px;
     font-weight: 300;
     line-height: 1.6;
@@ -60,7 +60,7 @@
 }
 
 /* Stats hero */
-.mv-hero-stats {
+.eco-hero-stats {
     position: relative;
     z-index: 2;
     padding: 18px 48px 44px;
@@ -69,20 +69,20 @@
     gap: 28px;
 }
 
-.mv-stat {
+.eco-stat {
     display: flex;
     flex-direction: column;
     color: #fff;
 }
 
-.mv-stat-num {
-    font-size: 28px;
+.eco-stat-num {
+    font-size: 26px;
     font-weight: 700;
     line-height: 1;
-    color: #f0c040;
+    color: #a8d5a2;
 }
 
-.mv-stat-label {
+.eco-stat-label {
     font-size: 11px;
     font-weight: 300;
     letter-spacing: 0.06em;
@@ -91,20 +91,57 @@
     margin-top: 3px;
 }
 
-.mv-stat-sep {
+.eco-stat-sep {
     width: 1px;
     height: 34px;
     background: rgba(255,255,255,0.25);
 }
 
+/* ── Principios ── */
+.eco-principios {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1px;
+    background: #c8ddc8;
+    border-bottom: 2px solid #2d6a2d;
+}
+
+.eco-principio {
+    background: #f0f7ee;
+    padding: 28px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.eco-principio-icono {
+    font-size: 24px;
+    line-height: 1;
+}
+
+.eco-principio-titulo {
+    font-size: 14px;
+    font-weight: 700;
+    color: #1a3a1a;
+    letter-spacing: 0.01em;
+}
+
+.eco-principio-desc {
+    font-size: 13px;
+    font-weight: 300;
+    color: #444;
+    line-height: 1.55;
+    margin: 0;
+}
+
 /* ── Intro ── */
-.mv-intro {
+.eco-intro {
     max-width: 740px;
     margin: 52px auto;
     padding: 0 48px;
 }
 
-.mv-intro p {
+.eco-intro p {
     font-size: 17px;
     font-weight: 300;
     line-height: 1.75;
@@ -112,79 +149,21 @@
     margin-bottom: 18px;
 }
 
-.mv-intro strong {
+.eco-intro strong {
     font-weight: 600;
     color: #1a1a1a;
-}
-
-/* ── Tabla resumen de tarifas ── */
-.mv-tarifas-section {
-    padding: 0 48px 40px;
-    border-bottom: 1px solid #e5e5e5;
-}
-
-.mv-tarifas-titulo {
-    font-size: 16px;
-    font-weight: 700;
-    color: #1a1a1a;
-    letter-spacing: -0.01em;
-    margin-bottom: 16px;
-}
-
-.mv-tarifas-grid {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 1px;
-    background: #e5e5e5;
-    border: 1px solid #e5e5e5;
-}
-
-.mv-tarifa-item {
-    background: #fff;
-    padding: 14px 16px;
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
-    border-top: 3px solid #ddd;
-}
-
-.mv-tarifa-publico   { border-top-color: #1565c0; }
-.mv-tarifa-bici      { border-top-color: #2d6a2d; }
-.mv-tarifa-turistico { border-top-color: #c0392b; }
-.mv-tarifa-electrico { border-top-color: #e67e22; }
-.mv-tarifa-especial  { border-top-color: #f0c040; background: #fffbf0; }
-
-.mv-tarifa-medio {
-    font-size: 12px;
-    font-weight: 600;
-    color: #444;
-    line-height: 1.3;
-}
-
-.mv-tarifa-precio {
-    font-size: 18px;
-    font-weight: 700;
-    color: #1a1a1a;
-    line-height: 1;
-}
-
-.mv-tarifa-tipo {
-    font-size: 11px;
-    font-weight: 300;
-    color: #888;
-    line-height: 1.3;
 }
 
 /* ── Filtros ── */
-.mv-filter-bar {
-    padding: 36px 48px 36px;
+.eco-filter-bar {
+    padding: 0 48px 36px;
     display: flex;
     gap: 8px;
     flex-wrap: wrap;
     border-bottom: 1px solid #e5e5e5;
 }
 
-.mv-pill {
+.eco-pill {
     padding: 7px 20px;
     border: 1.5px solid #ccc;
     background: #fff;
@@ -196,30 +175,30 @@
     transition: all 0.15s;
 }
 
-.mv-pill:hover {
-    border-color: #1a2a4a;
+.eco-pill:hover {
+    border-color: #2d6a2d;
 }
 
-.mv-pill.active {
-    background: #1a2a4a;
-    color: #f0c040;
-    border-color: #1a2a4a;
+.eco-pill.active {
+    background: #2d6a2d;
+    color: #fff;
+    border-color: #2d6a2d;
 }
 
-/* ── Medios de transporte ── */
-.mv-routes {
+/* ── Actividades ── */
+.eco-routes {
     padding: 0 48px;
 }
 
-.mv-route-item {
+.eco-route-item {
     display: grid;
-    grid-template-columns: 56px 1fr 320px;
+    grid-template-columns: 56px 1fr 340px;
     border-bottom: 1px solid #e5e5e5;
     padding: 48px 0;
     align-items: start;
 }
 
-.mv-route-num {
+.eco-route-num {
     font-size: 13px;
     font-weight: 600;
     color: #bbb;
@@ -227,12 +206,12 @@
     padding-top: 4px;
 }
 
-.mv-route-text {
+.eco-route-text {
     padding-right: 48px;
 }
 
 /* Meta row */
-.mv-meta-row {
+.eco-meta-row {
     display: flex;
     align-items: center;
     gap: 10px;
@@ -240,13 +219,13 @@
     flex-wrap: wrap;
 }
 
-.mv-icono {
+.eco-icono {
     font-size: 20px;
     flex-shrink: 0;
 }
 
-/* Badges por tipo */
-.mv-tipo-badge {
+/* Badges por categoría */
+.eco-cat-badge {
     display: inline-block;
     font-size: 11px;
     font-weight: 700;
@@ -257,18 +236,18 @@
     white-space: nowrap;
 }
 
-.mv-tipo-badge.publico    { background: #1565c0; color: #fff; }
-.mv-tipo-badge.bici       { background: #2d6a2d; color: #fff; }
-.mv-tipo-badge.turistico  { background: #c0392b; color: #fff; }
-.mv-tipo-badge.electrico  { background: #e67e22; color: #fff; }
+.eco-cat-badge.agua    { background: #0277bd; color: #fff; }
+.eco-cat-badge.tierra  { background: #5a8a2d; color: #fff; }
+.eco-cat-badge.fauna   { background: #e67e22; color: #fff; }
+.eco-cat-badge.ciudad  { background: #2d6a2d; color: #fff; }
 
-.mv-cobertura {
+.eco-ubicacion {
     font-size: 12px;
     font-weight: 400;
     color: #888;
 }
 
-.mv-route-text h2 {
+.eco-route-text h2 {
     font-size: 24px;
     font-weight: 700;
     color: #1a1a1a;
@@ -277,7 +256,7 @@
     line-height: 1.2;
 }
 
-.mv-desc {
+.eco-desc {
     font-size: 15px;
     font-weight: 300;
     color: #444;
@@ -285,8 +264,8 @@
     margin-bottom: 20px;
 }
 
-/* Grid de detalles */
-.mv-detalles-titulo {
+/* Puntos */
+.eco-puntos-titulo {
     font-size: 11px;
     font-weight: 700;
     letter-spacing: 0.1em;
@@ -295,64 +274,83 @@
     margin-bottom: 10px;
 }
 
-.mv-detalles-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 6px 16px;
-    margin-bottom: 18px;
-}
-
-.mv-detalle-fila {
+.eco-puntos {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 18px 0;
     display: flex;
     flex-direction: column;
-    gap: 2px;
-    padding: 8px 0;
-    border-bottom: 1px solid #f0f0f0;
+    gap: 8px;
 }
 
-.mv-detalle-label {
-    font-size: 11px;
-    font-weight: 700;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: #aaa;
-}
-
-.mv-detalle-valor {
-    font-size: 13px;
-    font-weight: 400;
-    color: #333;
-    line-height: 1.4;
-}
-
-/* Consejo */
-.mv-consejo {
-    font-size: 13px;
-    font-weight: 400;
+.eco-puntos li {
+    font-size: 14px;
+    line-height: 1.5;
+    padding-left: 14px;
+    border-left: 2px solid #c8ddc8;
     color: #444;
-    background: #fffbf0;
-    border-left: 3px solid #f0c040;
+}
+
+.eco-punto-nombre {
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+.eco-punto-desc {
+    font-weight: 300;
+}
+
+/* Impacto ambiental */
+.eco-impacto {
+    font-size: 13px;
+    font-weight: 400;
+    color: #1a3a1a;
+    background: #f0f7ee;
+    border-left: 3px solid #2d6a2d;
     padding: 10px 14px;
-    margin-bottom: 18px;
+    margin-bottom: 14px;
     line-height: 1.55;
     display: flex;
     gap: 10px;
     align-items: flex-start;
 }
 
-.mv-consejo-icon {
+.eco-impacto-icon {
     flex-shrink: 0;
-    font-size: 15px;
+    font-size: 14px;
+}
+
+/* Precio row */
+.eco-precio-row {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    margin-bottom: 16px;
+}
+
+.eco-precio-label {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #aaa;
+}
+
+.eco-precio-val {
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
 }
 
 /* Tags */
-.mv-tags {
+.eco-tags {
     display: flex;
     gap: 8px;
     flex-wrap: wrap;
+    margin-bottom: 16px;
 }
 
-.mv-tag {
+.eco-tag {
     font-size: 11px;
     font-weight: 600;
     letter-spacing: 0.05em;
@@ -363,16 +361,36 @@
     border-radius: 2px;
 }
 
+.eco-tag.free {
+    color: #2e7d32;
+    border-color: #a5d6a7;
+    background: #f1f8e9;
+}
+
+.eco-link {
+    font-size: 13px;
+    font-weight: 600;
+    color: #1a1a1a;
+    text-decoration: none;
+    border-bottom: 2px solid #2d6a2d;
+    padding-bottom: 1px;
+    display: inline-block;
+}
+
+.eco-link:hover {
+    color: #2d6a2d;
+}
+
 /* Imagen */
-.mv-route-img {
+.eco-route-img {
     border-radius: 2px;
     overflow: hidden;
-    height: 280px;
+    height: 270px;
     position: sticky;
     top: 90px;
 }
 
-.mv-route-img-inner {
+.eco-route-img-inner {
     width: 100%;
     height: 100%;
     background-position: center;
@@ -381,39 +399,40 @@
 }
 
 /* Imágenes */
-.img-emt          { background-image: url('/img/img-sostenible/MueveteValencia/emt.jpg'); }
-.img-metro        { background-image: url('/img/img-sostenible/MueveteValencia/metro.jpg'); }
-.img-valenbisi    { background-image: url('/img/img-sostenible/MueveteValencia/valenbisi.jpg'); }
-.img-bici         { background-image: url('/img/img-sostenible/MueveteValencia/bici.jpg'); }
-.img-busturistico { background-image: url('/img/img-sostenible/MueveteValencia/busturistico.jpg'); }
-.img-segway       { background-image: url('/img/img-sostenible/MueveteValencia/segway.jpg'); }
-.img-patinete     { background-image: url('/img/img-sostenible/MueveteValencia/patinete.jpg'); }
+.img-albufera   { background-image: url('/img/img-sostenible/Ecoturismo/albufera.jpg'); }
+.img-aves       { background-image: url('/img/img-sostenible/Ecoturismo/aves.jpg'); }
+.img-huerta     { background-image: url('/img/img-sostenible/Ecoturismo/huerta.jpg'); }
+.img-centro     { background-image: url('/img/img-sostenible/Ecoturismo/centro.jpg'); }
+.img-goleta     { background-image: url('/img/img-sostenible/Ecoturismo/goleta.jpg'); }
+.img-arboles    { background-image: url('/img/img-sostenible/Ecoturismo/arboles.jpg'); }
+.img-senderismo { background-image: url('/img/img-sostenible/Ecoturismo/senderismo.jpg'); }
+.img-playas     { background-image: url('/img/img-sostenible/Ecoturismo/playas.jpg'); }
 
 /* ── Info box ── */
-.mv-info-box {
+.eco-info-box {
     margin: 52px 48px 60px;
-    border: 1.5px solid #1a2a4a;
+    border: 1.5px solid #2d6a2d;
     padding: 32px 36px;
-    background: #f8f9fc;
+    background: #f0f7ee;
 }
 
-.mv-info-box h3 {
+.eco-info-box h3 {
     font-size: 16px;
     font-weight: 700;
     letter-spacing: 0.02em;
     text-transform: uppercase;
     margin-bottom: 16px;
-    color: #1a2a4a;
+    color: #1a3a1a;
 }
 
-.mv-info-list {
+.eco-info-list {
     list-style: none;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 8px 32px;
 }
 
-.mv-info-list li {
+.eco-info-list li {
     font-size: 14px;
     font-weight: 300;
     color: #444;
@@ -422,106 +441,96 @@
     line-height: 1.5;
 }
 
-.mv-info-list li strong {
+.eco-info-list li strong {
     font-weight: 600;
     color: #1a1a1a;
 }
 
-.mv-info-list li::before {
+.eco-info-list li::before {
     content: '—';
     position: absolute;
     left: 0;
-    color: #999;
+    color: #2d6a2d;
     font-size: 12px;
 }
 
 /* ── RESPONSIVE ── */
 @media (max-width: 1100px) {
-    .mv-route-item {
-        grid-template-columns: 40px 1fr 260px;
+    .eco-route-item {
+        grid-template-columns: 40px 1fr 280px;
     }
 
-    .mv-tarifas-grid {
-        grid-template-columns: repeat(3, 1fr);
+    .eco-principios {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
 @media (max-width: 768px) {
 
-    .mv-intro,
-    .mv-routes,
-    .mv-filter-bar,
-    .mv-tarifas-section,
-    .mv-info-box {
+    .eco-intro,
+    .eco-routes,
+    .eco-filter-bar,
+    .eco-info-box {
         padding-left: 20px;
         padding-right: 20px;
         margin-left: 0;
         margin-right: 0;
     }
 
-    .mv-hero-content {
+    .eco-hero-content {
         padding: 0 20px 12px;
     }
 
-    .mv-hero-content h1 {
+    .eco-hero-content h1 {
         font-size: 34px;
     }
 
-    .mv-hero-stats {
+    .eco-hero-stats {
         padding: 12px 20px 36px;
         gap: 18px;
     }
 
-    .mv-stat-num {
-        font-size: 22px;
+    .eco-stat-num {
+        font-size: 20px;
     }
 
-    .mv-tarifas-grid {
-        grid-template-columns: repeat(2, 1fr);
+    .eco-principios {
+        grid-template-columns: 1fr 1fr;
     }
 
-    .mv-route-item {
+    .eco-route-item {
         grid-template-columns: 1fr;
         gap: 20px;
     }
 
-    .mv-route-num {
+    .eco-route-num {
         display: none;
     }
 
-    .mv-route-text {
+    .eco-route-text {
         padding-right: 0;
     }
 
-    .mv-route-img {
+    .eco-route-img {
         height: 220px;
         position: static;
     }
 
-    .mv-detalles-grid {
+    .eco-info-list {
         grid-template-columns: 1fr;
-    }
-
-    .mv-info-list {
-        grid-template-columns: 1fr;
-    }
-
-    .mv-info-box {
-        margin-left: 20px;
-        margin-right: 20px;
     }
 }
 
 @media (max-width: 480px) {
-    .mv-hero {
-        height: 420px;
+    .eco-hero {
+        height: 440px;
     }
 
-    .mv-hero-content h1 {
+    .eco-hero-content h1 {
         font-size: 28px;
     }
 
-    .mv-tarifas-grid {
-        grid-template-columns: 1fr 1fr;
+    .eco-principios {
+        grid-template-columns: 1fr;
     }
 }
