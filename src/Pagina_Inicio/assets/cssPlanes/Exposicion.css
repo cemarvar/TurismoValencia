@@ -10,7 +10,7 @@
 .ex-hero {
     position: relative;
     height: 520px;
-    background-image: url('/img/img-planes/Exposicion/hero.jpg');
+    background-image: url('/img/img-planes/Exposicion/hero-exposicion.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -362,7 +362,6 @@
     border-radius: 2px;
     overflow: hidden;
     height: 260px;
-    position: sticky;
     top: 90px;
 }
 
@@ -375,14 +374,14 @@
 }
 
 /* Imágenes */
-.img-ivam       { background-image: url('/img/img-planes/Exposicion/ivam.jpg'); }
-.img-bbaa       { background-image: url('/img/img-planes/Exposicion/bbaa.jpg'); }
-.img-carme      { background-image: url('/img/img-planes/Exposicion/carme.jpg'); }
-.img-hortensia  { background-image: url('/img/img-planes/Exposicion/hortensia.jpg'); }
-.img-bancaja    { background-image: url('/img/img-planes/Exposicion/bancaja.jpg'); }
-.img-caixaforum { background-image: url('/img/img-planes/Exposicion/caixaforum.jpg'); }
-.img-muvim      { background-image: url('/img/img-planes/Exposicion/muvim.jpg'); }
-.img-ceramica   { background-image: url('/img/img-planes/Exposicion/ceramica.jpg'); }
+.img-ivamexp       { background-image: url('/img/img-planes/Exposicion/ivamexp.jpg'); }
+.img-bbaaexp       { background-image: url('/img/img-planes/Exposicion/bbaaexp.jpg'); }
+.img-carmeexp      { background-image: url('/img/img-planes/Exposicion/carmeexp.jpg'); }
+.img-hortensiaexp  { background-image: url('/img/img-planes/Exposicion/hortensiaexp.jpg'); }
+.img-bancajaexp    { background-image: url('/img/img-planes/Exposicion/bancajaexp.jpg'); }
+.img-caixaforumexp { background-image: url('/img/img-planes/Exposicion/caixaforumexp.jpg'); }
+.img-muvimexp      { background-image: url('/img/img-planes/Exposicion/muvimexp.jpg'); }
+.img-ceramicaexp   { background-image: url('/img/img-planes/Exposicion/ceramicaexp.jpg'); }
 
 /* ── Exposiciones especiales ── */
 .ex-especiales-section {
@@ -432,10 +431,10 @@
     background-color: #1a2a4a;
 }
 
-.img-titanic    { background-image: url('/img/img-planes/Exposicion/titanic.jpg'); }
-.img-ruta       { background-image: url('/img/img-planes/Exposicion/ruta.jpg'); }
-.img-leonardo   { background-image: url('/img/img-planes/Exposicion/leonardo.jpg'); }
-.img-ivam-temp  { background-image: url('/img/img-planes/Exposicion/ivam-temp.jpg'); }
+.img-titanicexp    { background-image: url('/img/img-planes/Exposicion/titanicexp.jpg'); }
+.img-rutaexp       { background-image: url('/img/img-planes/Exposicion/rutaexp.jpg'); }
+.img-leonardoexp   { background-image: url('/img/img-planes/Exposicion/leonardoexp.jpg'); }
+.img-ivam-tempexp  { background-image: url('/img/img-planes/Exposicion/ivam-tempexp.jpg'); }
 
 .ex-especial-body {
     padding: 18px 20px;

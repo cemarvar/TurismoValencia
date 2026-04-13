@@ -10,7 +10,7 @@
 .mv-hero {
     position: relative;
     height: 520px;
-    background-image: url('/img/img-sostenible/MueveteValencia/hero.jpg');
+    background-image: url('/img/img-sostenible/MueveteValencia/hero-muevetevalencia.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -381,13 +381,13 @@
 }
 
 /* Imágenes */
-.img-emt          { background-image: url('/img/img-sostenible/MueveteValencia/emt.jpg'); }
-.img-metro        { background-image: url('/img/img-sostenible/MueveteValencia/metro.jpg'); }
-.img-valenbisi    { background-image: url('/img/img-sostenible/MueveteValencia/valenbisi.jpg'); }
-.img-bici         { background-image: url('/img/img-sostenible/MueveteValencia/bici.jpg'); }
-.img-busturistico { background-image: url('/img/img-sostenible/MueveteValencia/busturistico.jpg'); }
-.img-segway       { background-image: url('/img/img-sostenible/MueveteValencia/segway.jpg'); }
-.img-patinete     { background-image: url('/img/img-sostenible/MueveteValencia/patinete.jpg'); }
+.img-emtmue          { background-image: url('/img/img-sostenible/MueveteValencia/emtmue.jpg'); }
+.img-metromue        { background-image: url('/img/img-sostenible/MueveteValencia/metromue.jpg'); }
+.img-valenbisimue    { background-image: url('/img/img-sostenible/MueveteValencia/valenbisimue.jpg'); }
+.img-bicimue         { background-image: url('/img/img-sostenible/MueveteValencia/bicimue.jpg'); }
+.img-busturisticomue { background-image: url('/img/img-sostenible/MueveteValencia/busturisticomue.jpg'); }
+.img-segwaymue       { background-image: url('/img/img-sostenible/MueveteValencia/segwaymue.jpg'); }
+.img-patinetemue     { background-image: url('/img/img-sostenible/MueveteValencia/patinetemue.jpg'); }
 
 /* ── Info box ── */
 .mv-info-box {

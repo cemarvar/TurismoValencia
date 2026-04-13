@@ -19,7 +19,7 @@ var espacios = [
       { c: 'Arte contemporáneo', d: 'Exposiciones temporales con artistas de la escena actual internacional' },
     ],
     tags: [{ label: 'Gratuito domingos', type: 'free' }, { label: 'Arte moderno' }, { label: 'Siglo XX-XXI' }],
-    imgClass: 'img-ivam',
+    imgClass: 'img-ivamexp',
   },
   {
     num: '02',
@@ -37,7 +37,7 @@ var espacios = [
       { c: 'Francisco Ribalta', d: 'El maestro del tenebrismo valenciano en su contexto histórico completo' },
     ],
     tags: [{ label: 'Gratuito', type: 'free' }, { label: 'Sorolla' }, { label: 'Pintura española' }],
-    imgClass: 'img-bbaa',
+    imgClass: 'img-bbaaexp',
   },
   {
     num: '03',
@@ -55,7 +55,7 @@ var espacios = [
       { c: 'Claustros góticos', d: 'El espacio en sí mismo es patrimonio: claustro del siglo XIII con exposiciones integradas' },
     ],
     tags: [{ label: 'Gratuito', type: 'free' }, { label: 'Arte contemporáneo' }, { label: 'Barrio del Carmen' }],
-    imgClass: 'img-carme',
+    imgClass: 'img-carmeexp',
   },
   {
     num: '04',
@@ -73,7 +73,7 @@ var espacios = [
       { c: 'Exposiciones temporales', d: 'Propuestas de artistas internacionales de primer nivel en rotación constante' },
     ],
     tags: [{ label: 'Arte internacional' }, { label: 'Palacio histórico' }, { label: 'Arqueología' }],
-    imgClass: 'img-hortensia',
+    imgClass: 'img-hortensiaexp',
   },
   {
     num: '05',
@@ -91,7 +91,7 @@ var espacios = [
       { c: 'Talleres y conferencias', d: 'Programa educativo y de actividades culturales paralelas a cada exposición' },
     ],
     tags: [{ label: 'Exposiciones top' }, { label: 'Inmersivo' }, { label: 'Plaza Tetuán' }],
-    imgClass: 'img-bancaja',
+    imgClass: 'img-bancajaexp',
   },
   {
     num: '06',
@@ -109,7 +109,7 @@ var espacios = [
       { c: 'Actividades familiares', d: 'Talleres educativos para niños y familias todos los fines de semana' },
     ],
     tags: [{ label: 'Acceso libre', type: 'free' }, { label: 'CAC' }, { label: 'Familia' }, { label: 'Abierto 365 días' }],
-    imgClass: 'img-caixaforum',
+    imgClass: 'img-caixaforumexp',
   },
   {
     num: '07',
@@ -127,7 +127,7 @@ var espacios = [
       { c: 'Cultura valenciana', d: 'Muestras sobre las tradiciones, fiestas y patrimonio inmaterial de Valencia' },
     ],
     tags: [{ label: 'Gratuito', type: 'free' }, { label: 'Historia' }, { label: 'Diseño' }, { label: 'Arte urbano' }],
-    imgClass: 'img-muvim',
+    imgClass: 'img-muvimexp',
   },
   {
     num: '08',
@@ -145,7 +145,7 @@ var espacios = [
       { c: 'Artes decorativas', d: 'Mobiliario, textiles y objetos suntuarios de distintas épocas históricas' },
     ],
     tags: [{ label: 'Gratuito domingos', type: 'free' }, { label: 'Barroco' }, { label: 'Cerámica' }, { label: 'Palacio histórico' }],
-    imgClass: 'img-ceramica',
+    imgClass: 'img-ceramicaexp',
   },
 ];
 
@@ -155,28 +155,28 @@ var exposicionesEspeciales = [
     espacio: 'Itinerante · Valencia 2026',
     desc: 'Objetos de época, historia real y arte inmersivo para sentirse pasajero del transatlántico más famoso de la historia.',
     tipo: 'Inmersiva',
-    imgClass: 'img-titanic',
+    imgClass: 'img-titanicexp',
   },
   {
     nombre: 'La Ruta · Modernidad, cultura y descontrol',
     espacio: 'Bombas Gens Centre d\'Arts Digitals',
     desc: 'La «Ruta del Bakalao» valenciana revisitada como fenómeno cultural: arte, fotografía, moda y música con elementos interactivos.',
     tipo: 'Interactiva',
-    imgClass: 'img-ruta',
+    imgClass: 'img-rutaexp',
   },
   {
     nombre: 'Leonardo. 500 años de genio',
     espacio: 'Museu de les Ciències · CAC',
     desc: 'Las máquinas e inventos de Leonardo da Vinci en formato expositivo en el Museu de les Ciències hasta abril de 2026.',
     tipo: 'Ciencia y arte',
-    imgClass: 'img-leonardo',
+    imgClass: 'img-leonardoexp',
   },
   {
     nombre: 'Exposiciones IVAM temporales',
     espacio: 'IVAM · Barrio del Carmen',
     desc: 'El IVAM programa al año 8-10 exposiciones temporales de artistas internacionales. Consultar programación actualizada en ivam.es.',
     tipo: 'Arte moderno',
-    imgClass: 'img-ivam-temp',
+    imgClass: 'img-ivam-tempexp',
   },
 ];
 

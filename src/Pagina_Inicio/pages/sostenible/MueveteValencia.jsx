@@ -20,7 +20,7 @@ var medios = [
       { d: 'App oficial', v: 'EMT Valencia: tiempo real en cada parada' },
     ],
     consejo: 'La tarjeta Móbilis integra el autobús, el metro y Valenbisi en un único soporte. Evita pagar suelto.',
-    imgClass: 'img-emt',
+    imgClass: 'img-emtmue',
     tags: [{ label: 'Toda la ciudad' }, { label: 'Nocturno' }, { label: 'Accesible' }],
   },
   {
@@ -40,7 +40,7 @@ var medios = [
       { d: 'Playa Malvarrosa', v: 'Tranvía L4 · Parada La Marina o Las Arenas' },
     ],
     consejo: 'Las líneas L3 y L5 pasan por el aeropuerto. Es la forma más rápida y económica de llegar al centro desde el aeropuerto: 25 min por 1,50 €.',
-    imgClass: 'img-metro',
+    imgClass: 'img-metromue',
     tags: [{ label: 'Aeropuerto' }, { label: 'Área metropolitana' }, { label: '9 líneas' }],
   },
   {
@@ -60,7 +60,7 @@ var medios = [
       { d: 'App oficial', v: 'Valenbisi (iOS/Android) · Disponibilidad en tiempo real' },
     ],
     consejo: 'Si tu trayecto es de menos de 30 minutos, Valenbisi es completamente gratuito con cualquier abono. Devuelve la bici en una estación y vuelve a sacarla para trayectos más largos sin coste adicional.',
-    imgClass: 'img-valenbisi',
+    imgClass: 'img-valenbisimue',
     tags: [{ label: 'Desde 13,30 €/semana' }, { label: '30 min gratis' }, { label: '276 estaciones' }],
   },
   {
@@ -80,7 +80,7 @@ var medios = [
       { d: 'Horario', v: 'Según empresa · Generalmente 09:00–20:00 h' },
     ],
     consejo: 'Si vas a pasar más de un día en Valencia y quieres libertad total, el alquiler privado es más cómodo que Valenbisi para itinerarios largos o con paradas sin estaciones cercanas.',
-    imgClass: 'img-bici',
+    imgClass: 'img-bicimue',
     tags: [{ label: 'Desde 10 €/día' }, { label: 'Sin estaciones' }, { label: 'Eléctrica disponible' }],
   },
   {
@@ -100,7 +100,7 @@ var medios = [
       { d: 'Billete 48 h', v: '30 € aprox · Acceso ilimitado durante dos días' },
     ],
     consejo: 'El primer día en Valencia, el Bus Turístico es la manera más eficiente de orientarse en la ciudad. Coge el billete de 24h y úsalo para decidir qué lugares quieres visitar con más calma al día siguiente.',
-    imgClass: 'img-busturistico',
+    imgClass: 'img-busturisticomue',
     tags: [{ label: 'Sube y baja' }, { label: 'Familia' }, { label: '24/48 h' }, { label: 'Audio-guía' }],
   },
   {
@@ -120,7 +120,7 @@ var medios = [
       { d: 'Reserva', v: 'Imprescindible reserva previa online' },
     ],
     consejo: 'Los tours en Segway por el casco histórico y las Torres de Serranos son especialmente populares al atardecer. Reserva con al menos un día de antelación.',
-    imgClass: 'img-segway',
+    imgClass: 'img-segwaymue',
     tags: [{ label: 'Desde 30 €' }, { label: 'Guiado' }, { label: 'Sin experiencia' }],
   },
   {
@@ -140,7 +140,7 @@ var medios = [
       { d: 'Motos eléctricas', v: 'Acciona, Yego y Cooltra: motosharing por minutos' },
     ],
     consejo: 'Los patinetes eléctricos están prohibidos en aceras y zonas peatonales. El Jardín del Turia tiene carril bici continuo de 9 km ideal para recorridos en patinete.',
-    imgClass: 'img-patinete',
+    imgClass: 'img-patinetemue',
     tags: [{ label: 'Sostenible' }, { label: 'Desde 10 €/h' }, { label: 'Tour disponible' }],
   },
 ];

@@ -18,7 +18,7 @@ var deportes = [
     precio: 'Gratuito · Inscripciones a carreras según prueba',
     mejor_epoca: 'Todo el año · Mejor de octubre a mayo',
     tags: [{ label: 'Gratuito', type: 'free' }, { label: 'Todos los niveles' }, { label: '30+ carreras/año' }],
-    imgClass: 'img-running',
+    imgClass: 'img-runningdep',
   },
   {
     num: '02',
@@ -35,7 +35,7 @@ var deportes = [
     precio: 'Valenbisi desde 3 €/día · Alquiler privado desde 10 €/día',
     mejor_epoca: 'Todo el año',
     tags: [{ label: 'Bici' }, { label: 'Ciudad' }, { label: 'Montaña' }, { label: '160 km carril' }],
-    imgClass: 'img-ciclismo',
+    imgClass: 'img-ciclismodep',
   },
   {
     num: '03',
@@ -52,7 +52,7 @@ var deportes = [
     precio: 'Clases desde 30 € · Alquiler desde 15 €/h',
     mejor_epoca: 'Abril a octubre',
     tags: [{ label: 'Agua' }, { label: 'Vela' }, { label: 'Paddle' }, { label: 'Marina' }],
-    imgClass: 'img-nautica',
+    imgClass: 'img-nauticadep',
   },
   {
     num: '04',
@@ -69,7 +69,7 @@ var deportes = [
     precio: 'Clases de surf desde 30 € · Playa gratuita',
     mejor_epoca: 'Mayo a octubre',
     tags: [{ label: 'Playa' }, { label: 'Surf' }, { label: 'Verano' }, { label: 'Vóley' }],
-    imgClass: 'img-surf',
+    imgClass: 'img-surfdep',
   },
   {
     num: '05',
@@ -86,7 +86,7 @@ var deportes = [
     precio: 'Entradas desde 15 € · Tour desde 16 €',
     mejor_epoca: 'Agosto a mayo (temporada)',
     tags: [{ label: 'Fútbol' }, { label: 'Valencia CF' }, { label: 'Levante UD' }, { label: 'Tour' }],
-    imgClass: 'img-futbol',
+    imgClass: 'img-futboldep',
   },
   {
     num: '06',
@@ -103,7 +103,7 @@ var deportes = [
     precio: 'Entradas desde 10 €',
     mejor_epoca: 'Septiembre a junio (temporada)',
     tags: [{ label: 'Baloncesto' }, { label: 'Euroliga' }, { label: 'Roig Arena' }],
-    imgClass: 'img-basket',
+    imgClass: 'img-basketdep',
   },
   {
     num: '07',
@@ -120,7 +120,7 @@ var deportes = [
     precio: 'El Saler desde 60 € green fee',
     mejor_epoca: 'Todo el año · Mejor de octubre a mayo',
     tags: [{ label: 'Golf' }, { label: '15+ campos' }, { label: 'Todo el año' }],
-    imgClass: 'img-golf',
+    imgClass: 'img-golfdep',
   },
   {
     num: '08',
@@ -137,7 +137,7 @@ var deportes = [
     precio: 'Inscripciones desde 100 €',
     mejor_epoca: 'Febrero a junio',
     tags: [{ label: 'IRONMAN' }, { label: 'Triatlón' }, { label: 'Avanzado' }, { label: 'Natación' }],
-    imgClass: 'img-triatlon',
+    imgClass: 'img-triatlondep',
   },
 ];
 

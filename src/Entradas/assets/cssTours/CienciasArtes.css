@@ -1,0 +1,658 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
+
+.ca-page {
+    font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
+    color: #1a1a1a;
+    margin-top: 70px;
+}
+
+/* ── Hero ── */
+.ca-hero {
+    position: relative;
+    height: 560px;
+    background-image: url('/img/img-tours/CienciasArtes/hero.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.ca-hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(0,10,26,0.90) 0%, rgba(0,10,26,0.10) 60%, transparent 100%);
+}
+
+.ca-hero-content {
+    position: relative;
+    z-index: 2;
+    padding: 0 48px 20px;
+    color: #fff;
+    max-width: 680px;
+}
+
+.ca-eyebrow {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #7ecfea;
+    margin-bottom: 12px;
+}
+
+.ca-hero-content h1 {
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 1.0;
+    margin-bottom: 14px;
+    letter-spacing: -0.02em;
+}
+
+.ca-hero-content p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.6;
+    color: rgba(255,255,255,0.88);
+    max-width: 540px;
+}
+
+/* Stats */
+.ca-hero-stats {
+    position: relative;
+    z-index: 2;
+    padding: 18px 48px 44px;
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+.ca-stat {
+    display: flex;
+    flex-direction: column;
+}
+
+.ca-stat-num {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1;
+    color: #7ecfea;
+}
+
+.ca-stat-label {
+    font-size: 11px;
+    font-weight: 300;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.65);
+    margin-top: 3px;
+}
+
+.ca-stat-sep {
+    width: 1px;
+    height: 34px;
+    background: rgba(255,255,255,0.22);
+}
+
+/* ── Intro box ── */
+.ca-intro-box {
+    margin: 0 48px;
+    background: #00090f;
+    padding: 28px 32px;
+    display: flex;
+    gap: 24px;
+    align-items: flex-start;
+}
+
+.ca-intro-icono {
+    font-size: 30px;
+    flex-shrink: 0;
+}
+
+.ca-intro-titulo {
+    font-size: 15px;
+    font-weight: 700;
+    color: #7ecfea;
+    margin-bottom: 10px;
+}
+
+.ca-intro-content p {
+    font-size: 14px;
+    font-weight: 300;
+    color: rgba(255,255,255,0.84);
+    line-height: 1.65;
+    margin: 0;
+}
+
+.ca-intro-content strong {
+    font-weight: 600;
+    color: #fff;
+}
+
+/* ── Recintos chips ── */
+.ca-recintos-wrap {
+    margin: 0 48px 48px;
+    padding: 28px 32px;
+    background: #eaf6fb;
+    border: 1.5px solid #7ecfea;
+}
+
+.ca-recintos-titulo {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #0a5570;
+    margin-bottom: 16px;
+}
+
+.ca-recintos-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+}
+
+.ca-recinto-chip {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    background: #fff;
+    border: 1px solid #b0e0f0;
+    padding: 10px 14px;
+    transition: background 0.12s;
+}
+
+.ca-recinto-chip:hover {
+    background: #eaf6fb;
+}
+
+.ca-recinto-icono {
+    font-size: 20px;
+    flex-shrink: 0;
+    line-height: 1.3;
+}
+
+.ca-recinto-nombre {
+    display: block;
+    font-size: 13px;
+    font-weight: 600;
+    color: #1a1a1a;
+    line-height: 1.3;
+    margin-bottom: 2px;
+}
+
+.ca-recinto-detalle {
+    display: block;
+    font-size: 11px;
+    font-weight: 300;
+    color: #888;
+    line-height: 1.3;
+}
+
+/* ── Section title ── */
+.ca-section-title {
+    padding: 0 48px 32px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.ca-section-title h2 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #1a1a1a;
+    letter-spacing: -0.01em;
+    margin-bottom: 6px;
+}
+
+.ca-section-title p {
+    font-size: 15px;
+    font-weight: 300;
+    color: #777;
+}
+
+/* ── Visitas oficiales ── */
+.ca-routes {
+    padding: 0 48px;
+}
+
+.ca-route-item {
+    display: grid;
+    grid-template-columns: 56px 1fr 340px;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 52px 0;
+    align-items: start;
+}
+
+.ca-route-num {
+    font-size: 13px;
+    font-weight: 600;
+    color: #bbb;
+    letter-spacing: 0.05em;
+    padding-top: 4px;
+}
+
+.ca-route-text {
+    padding-right: 48px;
+}
+
+.ca-tipo {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #0a6888;
+    margin-bottom: 6px;
+}
+
+.ca-route-text h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 4px;
+    letter-spacing: -0.01em;
+    line-height: 1.2;
+}
+
+.ca-subtitulo {
+    font-size: 13px;
+    font-weight: 300;
+    font-style: italic;
+    color: #888;
+    margin-bottom: 16px;
+    line-height: 1.4;
+}
+
+.ca-desc {
+    font-size: 15px;
+    font-weight: 300;
+    color: #444;
+    line-height: 1.75;
+    margin-bottom: 16px;
+}
+
+/* Itinerarios */
+.ca-itinerarios {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-bottom: 16px;
+    background: #eaf6fb;
+    border: 1px solid #b0e0f0;
+    padding: 12px 16px;
+}
+
+.ca-itinerario {
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.ca-itinerario-label {
+    font-weight: 700;
+    color: #0a6888;
+}
+
+.ca-itinerario-val {
+    font-weight: 300;
+    color: #444;
+}
+
+.ca-datos-titulo {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #999;
+    margin-bottom: 10px;
+}
+
+.ca-datos {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 16px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.ca-datos li {
+    font-size: 14px;
+    line-height: 1.5;
+    padding-left: 14px;
+    border-left: 2px solid #7ecfea;
+    color: #444;
+}
+
+.ca-dato-label {
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+.ca-dato-val {
+    font-weight: 300;
+}
+
+/* Tags */
+.ca-tags {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-bottom: 16px;
+}
+
+.ca-tag {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #0a5570;
+    border: 1px solid #7ecfea;
+    background: #eaf6fb;
+    padding: 3px 9px;
+    border-radius: 2px;
+}
+
+/* Botón */
+.ca-comprar-btn {
+    display: inline-block;
+    background: #0a6888;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    padding: 10px 22px;
+    text-decoration: none;
+    border-radius: 2px;
+    transition: background 0.15s;
+}
+
+.ca-comprar-btn:hover {
+    background: #074a60;
+}
+
+/* Imagen */
+.ca-route-img {
+    border-radius: 2px;
+    overflow: hidden;
+    height: 300px;
+    position: sticky;
+    top: 90px;
+}
+
+.ca-route-img-inner {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #00090f;
+}
+
+.img-ca-arquitectonica { background-image: url('/img/img-tours/CienciasArtes/arquitectonica.jpg'); }
+.img-ca-museu          { background-image: url('/img/img-tours/CienciasArtes/museu.jpg'); }
+.img-ca-marte          { background-image: url('/img/img-tours/CienciasArtes/marte.jpg'); }
+.img-ca-leonardo       { background-image: url('/img/img-tours/CienciasArtes/leonardo.jpg'); }
+
+/* ── La Ciencia a Escena ── */
+.ca-escena-section {
+    margin: 52px 48px 0;
+    padding-top: 48px;
+    border-top: 1.5px solid #e5e5e5;
+}
+
+.ca-escena-section h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 8px;
+}
+
+.ca-escena-desc {
+    font-size: 14px;
+    font-weight: 300;
+    color: #666;
+    margin-bottom: 28px;
+    line-height: 1.6;
+}
+
+.ca-escena-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 14px;
+}
+
+.ca-escena-card {
+    border: 1.5px solid #b0e0f0;
+    padding: 18px 18px;
+    background: #eaf6fb;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.ca-escena-nombre {
+    font-size: 14px;
+    font-weight: 700;
+    color: #1a1a1a;
+    line-height: 1.3;
+}
+
+.ca-escena-edad {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #0a6888;
+    margin-bottom: 4px;
+}
+
+.ca-escena-desc-text {
+    font-size: 13px;
+    font-weight: 300;
+    color: #555;
+    line-height: 1.5;
+    margin: 0;
+}
+
+/* ── Simulador Espacial ── */
+.ca-simulador-box {
+    margin: 28px 48px 0;
+    background: #00090f;
+    padding: 24px 30px;
+    display: flex;
+    gap: 22px;
+    align-items: flex-start;
+}
+
+.ca-simulador-icono {
+    font-size: 28px;
+    flex-shrink: 0;
+}
+
+.ca-simulador-titulo {
+    font-size: 15px;
+    font-weight: 700;
+    color: #7ecfea;
+    margin-bottom: 8px;
+}
+
+.ca-simulador-content p {
+    font-size: 14px;
+    font-weight: 300;
+    color: rgba(255,255,255,0.82);
+    line-height: 1.6;
+    margin: 0 0 14px 0;
+}
+
+.ca-simulador-btn {
+    display: inline-block;
+    background: #0a6888;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 8px 18px;
+    text-decoration: none;
+    border-radius: 2px;
+    transition: background 0.15s;
+}
+
+.ca-simulador-btn:hover {
+    background: #074a60;
+}
+
+/* ── Tabla info práctica ── */
+.ca-info-practica {
+    margin: 40px 48px 0;
+    padding-top: 40px;
+    border-top: 1.5px solid #e5e5e5;
+}
+
+.ca-info-practica h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 20px;
+}
+
+.ca-tabla {
+    display: flex;
+    flex-direction: column;
+    border: 1.5px solid #e5e5e5;
+    overflow: hidden;
+}
+
+.ca-tabla-fila {
+    display: grid;
+    grid-template-columns: 180px 1fr;
+    border-bottom: 1px solid #e5e5e5;
+    min-height: 44px;
+}
+
+.ca-tabla-fila:last-child { border-bottom: none; }
+.ca-tabla-fila:nth-child(even) { background: #eaf6fb; }
+
+.ca-tabla-label {
+    padding: 12px 20px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #0a5570;
+    border-right: 1px solid #e5e5e5;
+    display: flex;
+    align-items: center;
+}
+
+.ca-tabla-val {
+    padding: 12px 20px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #333;
+    line-height: 1.55;
+    display: flex;
+    align-items: center;
+}
+
+/* ── Info box ── */
+.ca-info-box {
+    margin: 32px 48px 60px;
+    border: 1.5px solid #0a6888;
+    padding: 32px 36px;
+    background: #eaf6fb;
+}
+
+.ca-info-box h3 {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    color: #0a5570;
+}
+
+.ca-info-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px 32px;
+}
+
+.ca-info-list li {
+    font-size: 14px;
+    font-weight: 300;
+    color: #444;
+    padding-left: 16px;
+    position: relative;
+    line-height: 1.5;
+}
+
+.ca-info-list li strong {
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+.ca-info-list li::before {
+    content: '—';
+    position: absolute;
+    left: 0;
+    color: #0a6888;
+    font-size: 12px;
+}
+
+/* ── RESPONSIVE ── */
+@media (max-width: 1100px) {
+    .ca-route-item {
+        grid-template-columns: 40px 1fr 270px;
+    }
+    .ca-recintos-grid { grid-template-columns: 1fr 1fr; }
+    .ca-escena-grid   { grid-template-columns: 1fr 1fr; }
+}
+
+@media (max-width: 768px) {
+
+    .ca-intro-box,
+    .ca-recintos-wrap,
+    .ca-routes,
+    .ca-section-title,
+    .ca-escena-section,
+    .ca-simulador-box,
+    .ca-info-practica,
+    .ca-info-box {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .ca-hero-content { padding: 0 20px 12px; }
+    .ca-hero-content h1 { font-size: 34px; }
+    .ca-hero-stats { padding: 12px 20px 36px; gap: 18px; }
+    .ca-stat-num { font-size: 18px; }
+
+    .ca-intro-box,
+    .ca-simulador-box { flex-direction: column; gap: 14px; }
+
+    .ca-recintos-grid { grid-template-columns: 1fr 1fr; }
+
+    .ca-route-item { grid-template-columns: 1fr; gap: 24px; }
+    .ca-route-num  { display: none; }
+    .ca-route-text { padding-right: 0; }
+    .ca-route-img  { height: 220px; position: static; }
+
+    .ca-escena-grid { grid-template-columns: 1fr 1fr; }
+
+    .ca-tabla-fila { grid-template-columns: 140px 1fr; }
+    .ca-info-list  { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 480px) {
+    .ca-hero { height: 480px; }
+    .ca-hero-content h1 { font-size: 28px; }
+    .ca-recintos-grid { grid-template-columns: 1fr; }
+    .ca-escena-grid   { grid-template-columns: 1fr; }
+    .ca-tabla-fila    { grid-template-columns: 1fr; }
+    .ca-tabla-label   { border-right: none; border-bottom: 1px solid #e5e5e5; padding-bottom: 6px; padding-top: 14px; }
+    .ca-tabla-val     { padding-top: 6px; padding-bottom: 14px; }
+}

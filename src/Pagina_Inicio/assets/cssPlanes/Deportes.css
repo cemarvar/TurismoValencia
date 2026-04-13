@@ -10,7 +10,7 @@
 .dep-hero {
     position: relative;
     height: 540px;
-    background-image: url('/img/img-planes/Deportes/hero.jpg');
+    background-image: url('/img/img-planes/Deportes/hero-deporte.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -340,7 +340,6 @@
     border-radius: 2px;
     overflow: hidden;
     height: 260px;
-    position: sticky;
     top: 90px;
 }
 
@@ -353,14 +352,14 @@
 }
 
 /* Imágenes */
-.img-running   { background-image: url('/img/img-planes/Deportes/running.jpg'); }
-.img-ciclismo  { background-image: url('/img/img-planes/Deportes/ciclismo.jpg'); }
-.img-nautica   { background-image: url('/img/img-planes/Deportes/nautica.jpg'); }
-.img-surf      { background-image: url('/img/img-planes/Deportes/surf.jpg'); }
-.img-futbol    { background-image: url('/img/img-planes/Deportes/futbol.jpg'); }
-.img-basket    { background-image: url('/img/img-planes/Deportes/basket.jpg'); }
-.img-golf      { background-image: url('/img/img-planes/Deportes/golf.jpg'); }
-.img-triatlon  { background-image: url('/img/img-planes/Deportes/triatlon.jpg'); }
+.img-runningdep   { background-image: url('/img/img-planes/Deportes/runningdep.jpg'); }
+.img-ciclismodep  { background-image: url('/img/img-planes/Deportes/ciclismodep.jpg'); }
+.img-nauticadep   { background-image: url('/img/img-planes/Deportes/nauticadep.jpg'); }
+.img-surfdep      { background-image: url('/img/img-planes/Deportes/surfdep.jpg'); }
+.img-futboldep    { background-image: url('/img/img-planes/Deportes/futboldep.jpg'); }
+.img-basketdep   { background-image: url('/img/img-planes/Deportes/basketdep.jpg'); }
+.img-golfdep     { background-image: url('/img/img-planes/Deportes/golfdep.jpg'); }
+.img-triatlondep  { background-image: url('/img/img-planes/Deportes/triatlondep.jpg'); }
 
 /* ── Calendario de eventos ── */
 .dep-calendario-section {

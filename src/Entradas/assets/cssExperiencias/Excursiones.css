@@ -1,0 +1,519 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
+
+.exc-page {
+    font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
+    color: #1a1a1a;
+    margin-top: 70px;
+}
+
+/* ── Hero ── */
+.exc-hero {
+    position: relative;
+    height: 560px;
+    background-image: url('/img/img-experiencias/Excursiones/hero.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.exc-hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(4,12,4,0.88) 0%, rgba(4,12,4,0.10) 60%, transparent 100%);
+}
+
+.exc-hero-content {
+    position: relative;
+    z-index: 2;
+    padding: 0 48px 20px;
+    color: #fff;
+    max-width: 680px;
+}
+
+.exc-eyebrow {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #7ecb6a;
+    margin-bottom: 12px;
+}
+
+.exc-hero-content h1 {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.0;
+    margin-bottom: 14px;
+    letter-spacing: -0.02em;
+}
+
+.exc-hero-content p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.65;
+    color: rgba(255,255,255,0.88);
+    max-width: 560px;
+}
+
+/* Stats */
+.exc-hero-stats {
+    position: relative;
+    z-index: 2;
+    padding: 18px 48px 44px;
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+.exc-stat {
+    display: flex;
+    flex-direction: column;
+}
+
+.exc-stat-num {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1;
+    color: #7ecb6a;
+}
+
+.exc-stat-label {
+    font-size: 11px;
+    font-weight: 300;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.65);
+    margin-top: 3px;
+}
+
+.exc-stat-sep {
+    width: 1px;
+    height: 34px;
+    background: rgba(255,255,255,0.22);
+}
+
+/* ── Intro box ── */
+.exc-intro-box {
+    margin: 0 48px;
+    background: #040e04;
+    padding: 28px 32px;
+    display: flex;
+    gap: 24px;
+    align-items: flex-start;
+}
+
+.exc-intro-icono {
+    font-size: 30px;
+    flex-shrink: 0;
+}
+
+.exc-intro-titulo {
+    font-size: 15px;
+    font-weight: 700;
+    color: #7ecb6a;
+    margin-bottom: 10px;
+}
+
+.exc-intro-content p {
+    font-size: 14px;
+    font-weight: 300;
+    color: rgba(255,255,255,0.84);
+    line-height: 1.65;
+    margin: 0;
+}
+
+.exc-intro-content strong {
+    font-weight: 600;
+    color: #fff;
+}
+
+/* ── Chips destinos ── */
+.exc-destinos-wrap {
+    margin: 0 48px 48px;
+    padding: 28px 32px;
+    background: #f0f8ee;
+    border: 1.5px solid #8ed07a;
+}
+
+.exc-destinos-titulo {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #2a6018;
+    margin-bottom: 16px;
+}
+
+.exc-destinos-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 8px;
+}
+
+.exc-destino-chip {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    background: #fff;
+    border: 1px solid #b8e0a8;
+    padding: 10px 12px;
+    transition: background 0.12s;
+}
+
+.exc-destino-chip:hover {
+    background: #f0f8ee;
+}
+
+.exc-destino-icono {
+    font-size: 20px;
+    flex-shrink: 0;
+    line-height: 1.3;
+}
+
+.exc-destino-nombre {
+    display: block;
+    font-size: 13px;
+    font-weight: 700;
+    color: #1a1a1a;
+    line-height: 1.3;
+    margin-bottom: 2px;
+}
+
+.exc-destino-detalle {
+    display: block;
+    font-size: 11px;
+    font-weight: 300;
+    color: #777;
+    line-height: 1.3;
+}
+
+/* ── Section title ── */
+.exc-section-title {
+    padding: 0 48px 32px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.exc-section-title h2 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #1a1a1a;
+    letter-spacing: -0.01em;
+    margin-bottom: 6px;
+}
+
+.exc-section-title p {
+    font-size: 15px;
+    font-weight: 300;
+    color: #777;
+}
+
+/* ── Excursiones (routes) ── */
+.exc-routes {
+    padding: 0 48px;
+}
+
+.exc-route-item {
+    display: grid;
+    grid-template-columns: 56px 1fr 340px;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 52px 0;
+    align-items: start;
+}
+
+.exc-route-num {
+    font-size: 13px;
+    font-weight: 600;
+    color: #bbb;
+    letter-spacing: 0.05em;
+    padding-top: 4px;
+}
+
+.exc-route-text {
+    padding-right: 48px;
+}
+
+.exc-tipo {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #2a7a18;
+    margin-bottom: 6px;
+}
+
+.exc-route-text h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 4px;
+    letter-spacing: -0.01em;
+    line-height: 1.2;
+}
+
+.exc-subtitulo {
+    font-size: 13px;
+    font-weight: 300;
+    font-style: italic;
+    color: #888;
+    margin-bottom: 16px;
+    line-height: 1.4;
+}
+
+.exc-desc {
+    font-size: 15px;
+    font-weight: 300;
+    color: #444;
+    line-height: 1.75;
+    margin-bottom: 20px;
+}
+
+.exc-datos-titulo {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #999;
+    margin-bottom: 10px;
+}
+
+.exc-datos {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 16px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.exc-datos li {
+    font-size: 14px;
+    line-height: 1.5;
+    padding-left: 14px;
+    border-left: 2px solid #8ed07a;
+    color: #444;
+}
+
+.exc-dato-label {
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+.exc-dato-val {
+    font-weight: 300;
+}
+
+/* Tags */
+.exc-tags {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-bottom: 16px;
+}
+
+.exc-tag {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #1a5c0a;
+    border: 1px solid #8ed07a;
+    background: #f0f8ee;
+    padding: 3px 9px;
+    border-radius: 2px;
+}
+
+/* Botón reservar */
+.exc-comprar-btn {
+    display: inline-block;
+    background: #2a7a18;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    padding: 10px 22px;
+    text-decoration: none;
+    border-radius: 2px;
+    transition: background 0.15s;
+}
+
+.exc-comprar-btn:hover {
+    background: #1a5c0a;
+}
+
+/* Imagen */
+.exc-route-img {
+    border-radius: 2px;
+    overflow: hidden;
+    height: 300px;
+    position: sticky;
+    top: 90px;
+}
+
+.exc-route-img-inner {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #040e04;
+}
+
+.img-exc-cuevas     { background-image: url('/img/img-experiencias/Excursiones/cuevas.jpg'); }
+.img-exc-montanejos { background-image: url('/img/img-experiencias/Excursiones/montanejos.jpg'); }
+.img-exc-sagunto    { background-image: url('/img/img-experiencias/Excursiones/sagunto.jpg'); }
+.img-exc-peniscola  { background-image: url('/img/img-experiencias/Excursiones/peniscola.jpg'); }
+.img-exc-requena    { background-image: url('/img/img-experiencias/Excursiones/requena.jpg'); }
+
+/* ── Tabla info útil ── */
+.exc-info-practica {
+    margin: 52px 48px 0;
+    padding-top: 48px;
+    border-top: 1.5px solid #e5e5e5;
+}
+
+.exc-info-practica h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 20px;
+}
+
+.exc-tabla {
+    display: flex;
+    flex-direction: column;
+    border: 1.5px solid #e5e5e5;
+    overflow: hidden;
+}
+
+.exc-tabla-fila {
+    display: grid;
+    grid-template-columns: 180px 1fr;
+    border-bottom: 1px solid #e5e5e5;
+    min-height: 44px;
+}
+
+.exc-tabla-fila:last-child { border-bottom: none; }
+.exc-tabla-fila:nth-child(even) { background: #f0f8ee; }
+
+.exc-tabla-label {
+    padding: 12px 20px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #1a5c0a;
+    border-right: 1px solid #e5e5e5;
+    display: flex;
+    align-items: center;
+}
+
+.exc-tabla-val {
+    padding: 12px 20px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #333;
+    line-height: 1.55;
+    display: flex;
+    align-items: center;
+}
+
+/* ── Info box ── */
+.exc-info-box {
+    margin: 32px 48px 60px;
+    border: 1.5px solid #2a7a18;
+    padding: 32px 36px;
+    background: #f0f8ee;
+}
+
+.exc-info-box h3 {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    color: #1a5c0a;
+}
+
+.exc-info-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px 32px;
+}
+
+.exc-info-list li {
+    font-size: 14px;
+    font-weight: 300;
+    color: #444;
+    padding-left: 16px;
+    position: relative;
+    line-height: 1.5;
+}
+
+.exc-info-list li strong {
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+.exc-info-list li::before {
+    content: '—';
+    position: absolute;
+    left: 0;
+    color: #2a7a18;
+    font-size: 12px;
+}
+
+/* ── RESPONSIVE ── */
+@media (max-width: 1100px) {
+    .exc-route-item {
+        grid-template-columns: 40px 1fr 270px;
+    }
+    .exc-destinos-grid { grid-template-columns: repeat(3, 1fr); }
+}
+
+@media (max-width: 768px) {
+
+    .exc-intro-box,
+    .exc-destinos-wrap,
+    .exc-routes,
+    .exc-section-title,
+    .exc-info-practica,
+    .exc-info-box {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .exc-hero-content { padding: 0 20px 12px; }
+    .exc-hero-content h1 { font-size: 36px; }
+    .exc-hero-stats { padding: 12px 20px 36px; gap: 18px; }
+    .exc-stat-num { font-size: 18px; }
+
+    .exc-intro-box { flex-direction: column; gap: 14px; }
+
+    .exc-destinos-grid { grid-template-columns: 1fr 1fr; }
+
+    .exc-route-item { grid-template-columns: 1fr; gap: 24px; }
+    .exc-route-num  { display: none; }
+    .exc-route-text { padding-right: 0; }
+    .exc-route-img  { height: 220px; position: static; }
+
+    .exc-tabla-fila { grid-template-columns: 140px 1fr; }
+    .exc-info-list  { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 480px) {
+    .exc-hero { height: 480px; }
+    .exc-hero-content h1 { font-size: 30px; }
+    .exc-destinos-grid { grid-template-columns: 1fr; }
+    .exc-tabla-fila    { grid-template-columns: 1fr; }
+    .exc-tabla-label   { border-right: none; border-bottom: 1px solid #e5e5e5; padding-bottom: 6px; padding-top: 14px; }
+    .exc-tabla-val     { padding-top: 6px; padding-bottom: 14px; }
+}

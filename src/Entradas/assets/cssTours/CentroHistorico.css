@@ -1,0 +1,756 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
+
+.ch-page {
+    font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
+    color: #1a1a1a;
+    margin-top: 70px;
+}
+
+/* ── Hero ── */
+.ch-hero {
+    position: relative;
+    height: 560px;
+    background-image: url('/img/img-tours/CentroHistorico/hero.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.ch-hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(12,7,0,0.88) 0%, rgba(12,7,0,0.10) 60%, transparent 100%);
+}
+
+.ch-hero-content {
+    position: relative;
+    z-index: 2;
+    padding: 0 48px 20px;
+    color: #fff;
+    max-width: 680px;
+}
+
+.ch-eyebrow {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #d4a84a;
+    margin-bottom: 12px;
+}
+
+.ch-hero-content h1 {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.0;
+    margin-bottom: 14px;
+    letter-spacing: -0.02em;
+}
+
+.ch-hero-content p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.6;
+    color: rgba(255,255,255,0.88);
+    max-width: 540px;
+}
+
+/* Stats */
+.ch-hero-stats {
+    position: relative;
+    z-index: 2;
+    padding: 18px 48px 44px;
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+.ch-stat {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.ch-stat-num {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1;
+    color: #d4a84a;
+}
+
+.ch-stat-label {
+    font-size: 11px;
+    font-weight: 300;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.7);
+    margin-top: 3px;
+}
+
+.ch-stat-sep {
+    width: 1px;
+    height: 34px;
+    background: rgba(255,255,255,0.25);
+}
+
+/* ── Intro box ── */
+.ch-intro-box {
+    margin: 0 48px;
+    background: #12090000;
+    background: #120900;
+    padding: 28px 32px;
+    display: flex;
+    gap: 24px;
+    align-items: flex-start;
+}
+
+.ch-intro-icono {
+    font-size: 32px;
+    flex-shrink: 0;
+}
+
+.ch-intro-titulo {
+    font-size: 15px;
+    font-weight: 700;
+    color: #d4a84a;
+    margin-bottom: 10px;
+}
+
+.ch-intro-content p {
+    font-size: 14px;
+    font-weight: 300;
+    color: rgba(255,255,255,0.85);
+    line-height: 1.65;
+    margin: 0;
+}
+
+.ch-intro-content strong {
+    font-weight: 600;
+    color: #fff;
+}
+
+.ch-intro-content em {
+    font-style: italic;
+    color: rgba(255,255,255,0.75);
+}
+
+/* ── Recorrido chips ── */
+.ch-recorrido-wrap {
+    margin: 0 48px 48px;
+    padding: 28px 32px;
+    background: #fdf8ec;
+    border: 1.5px solid #d4b060;
+}
+
+.ch-recorrido-titulo {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #7a4e00;
+    margin-bottom: 16px;
+}
+
+.ch-recorrido-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+}
+
+.ch-recorrido-chip {
+    background: #fff;
+    border: 1px solid #d4b060;
+    padding: 10px 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    transition: background 0.12s;
+}
+
+.ch-recorrido-chip:hover {
+    background: #fff8e8;
+}
+
+.ch-recorrido-nombre {
+    font-size: 13px;
+    font-weight: 600;
+    color: #1a1a1a;
+    line-height: 1.3;
+}
+
+.ch-recorrido-detalle {
+    font-size: 11px;
+    font-weight: 300;
+    color: #888;
+    line-height: 1.3;
+}
+
+/* ── Section title ── */
+.ch-section-title {
+    padding: 0 48px 32px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.ch-section-title h2 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #1a1a1a;
+    letter-spacing: -0.01em;
+    margin-bottom: 6px;
+}
+
+.ch-section-title p {
+    font-size: 15px;
+    font-weight: 300;
+    color: #777;
+}
+
+/* ── Tours esenciales ── */
+.ch-routes {
+    padding: 0 48px;
+}
+
+.ch-route-item {
+    display: grid;
+    grid-template-columns: 56px 1fr 340px;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 52px 0;
+    align-items: start;
+}
+
+.ch-route-num {
+    font-size: 13px;
+    font-weight: 600;
+    color: #bbb;
+    letter-spacing: 0.05em;
+    padding-top: 4px;
+}
+
+.ch-route-text {
+    padding-right: 48px;
+}
+
+.ch-tipo {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #a06a00;
+    margin-bottom: 6px;
+}
+
+.ch-route-text h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 4px;
+    letter-spacing: -0.01em;
+    line-height: 1.2;
+}
+
+.ch-subtitulo {
+    font-size: 13px;
+    font-weight: 300;
+    font-style: italic;
+    color: #888;
+    margin-bottom: 16px;
+    line-height: 1.4;
+}
+
+.ch-desc {
+    font-size: 15px;
+    font-weight: 300;
+    color: #444;
+    line-height: 1.75;
+    margin-bottom: 20px;
+}
+
+.ch-datos-titulo {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #999;
+    margin-bottom: 10px;
+}
+
+.ch-datos {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 16px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.ch-datos li {
+    font-size: 14px;
+    line-height: 1.5;
+    padding-left: 14px;
+    border-left: 2px solid #d4b060;
+    color: #444;
+}
+
+.ch-dato-label {
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+.ch-dato-val {
+    font-weight: 300;
+}
+
+/* Tags */
+.ch-tags {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-bottom: 16px;
+}
+
+.ch-tag {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #7a4e00;
+    border: 1px solid #d4b060;
+    background: #fdf8ec;
+    padding: 3px 9px;
+    border-radius: 2px;
+}
+
+/* Botón reservar */
+.ch-comprar-btn {
+    display: inline-block;
+    background: #a06a00;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    padding: 10px 22px;
+    text-decoration: none;
+    border-radius: 2px;
+    transition: background 0.15s;
+}
+
+.ch-comprar-btn:hover {
+    background: #7a4e00;
+}
+
+/* Imagen */
+.ch-route-img {
+    border-radius: 2px;
+    overflow: hidden;
+    height: 300px;
+    position: sticky;
+    top: 90px;
+}
+
+.ch-route-img-inner {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #120900;
+}
+
+.img-ch-esencial { background-image: url('/img/img-tours/CentroHistorico/esencial.jpg'); }
+.img-ch-lonja    { background-image: url('/img/img-tours/CentroHistorico/lonja.jpg'); }
+.img-ch-arte     { background-image: url('/img/img-tours/CentroHistorico/arte.jpg'); }
+
+/* ── Tours temáticos ── */
+.ch-tematicos-section {
+    margin: 52px 48px 0;
+    padding-top: 48px;
+    border-top: 1.5px solid #e5e5e5;
+}
+
+.ch-tematicos-section h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 8px;
+}
+
+.ch-tematicos-desc {
+    font-size: 14px;
+    font-weight: 300;
+    color: #666;
+    margin-bottom: 28px;
+}
+
+.ch-tematicos-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+}
+
+.ch-tematico-card {
+    border: 1.5px solid #e5e5e5;
+    padding: 20px 22px;
+    background: #fafafa;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.ch-tematico-nombre {
+    font-size: 14px;
+    font-weight: 700;
+    color: #1a1a1a;
+    line-height: 1.4;
+}
+
+.ch-tematico-subtitulo {
+    font-size: 12px;
+    font-weight: 300;
+    color: #888;
+    font-style: italic;
+}
+
+.ch-tematico-desc-text {
+    font-size: 13px;
+    font-weight: 300;
+    color: #555;
+    line-height: 1.55;
+    margin: 4px 0;
+}
+
+.ch-tematico-footer {
+    display: flex;
+    gap: 12px;
+    align-items: baseline;
+    flex-wrap: wrap;
+    margin-top: 4px;
+}
+
+.ch-tematico-precio {
+    font-size: 15px;
+    font-weight: 700;
+    color: #a06a00;
+}
+
+.ch-tematico-detalle {
+    font-size: 11px;
+    font-weight: 300;
+    color: #888;
+}
+
+.ch-tematico-link {
+    font-size: 12px;
+    font-weight: 600;
+    color: #a06a00;
+    text-decoration: none;
+    letter-spacing: 0.04em;
+    margin-top: 4px;
+}
+
+.ch-tematico-link:hover {
+    color: #7a4e00;
+}
+
+/* ── Iglesias ── */
+.ch-iglesias-section {
+    margin: 40px 48px 0;
+    padding-top: 40px;
+    border-top: 1.5px solid #e5e5e5;
+}
+
+.ch-iglesias-section h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 8px;
+}
+
+.ch-iglesias-desc {
+    font-size: 14px;
+    font-weight: 300;
+    color: #666;
+    margin-bottom: 28px;
+}
+
+.ch-iglesias-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+}
+
+.ch-iglesia-card {
+    border: 1.5px solid #d4b060;
+    padding: 22px 24px;
+    background: #fdf8ec;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.ch-iglesia-nombre {
+    font-size: 14px;
+    font-weight: 700;
+    color: #1a1a1a;
+    line-height: 1.4;
+}
+
+.ch-iglesia-subtitulo {
+    font-size: 12px;
+    font-weight: 300;
+    color: #888;
+    font-style: italic;
+}
+
+.ch-iglesia-desc-text {
+    font-size: 13px;
+    font-weight: 300;
+    color: #555;
+    line-height: 1.55;
+    margin: 4px 0;
+}
+
+.ch-iglesia-footer {
+    display: flex;
+    gap: 12px;
+    align-items: baseline;
+    flex-wrap: wrap;
+    margin-top: 4px;
+}
+
+.ch-iglesia-precio {
+    font-size: 15px;
+    font-weight: 700;
+    color: #a06a00;
+}
+
+.ch-iglesia-detalle {
+    font-size: 11px;
+    font-weight: 300;
+    color: #888;
+}
+
+.ch-iglesia-link {
+    font-size: 12px;
+    font-weight: 600;
+    color: #a06a00;
+    text-decoration: none;
+    letter-spacing: 0.04em;
+    margin-top: 4px;
+}
+
+.ch-iglesia-link:hover {
+    color: #7a4e00;
+}
+
+/* ── Box Discovering Valencia ── */
+.ch-discovering-box {
+    margin: 40px 48px 0;
+    background: #120900;
+    padding: 28px 32px;
+    display: flex;
+    gap: 24px;
+    align-items: flex-start;
+}
+
+.ch-discovering-icono {
+    font-size: 30px;
+    flex-shrink: 0;
+}
+
+.ch-discovering-titulo {
+    font-size: 15px;
+    font-weight: 700;
+    color: #d4a84a;
+    margin-bottom: 10px;
+}
+
+.ch-discovering-content p {
+    font-size: 14px;
+    font-weight: 300;
+    color: rgba(255,255,255,0.85);
+    line-height: 1.65;
+    margin: 0 0 14px 0;
+}
+
+.ch-discovering-content strong {
+    font-weight: 600;
+    color: #fff;
+}
+
+.ch-discovering-datos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 24px;
+    margin-bottom: 16px;
+}
+
+.ch-discovering-datos span {
+    font-size: 13px;
+    font-weight: 300;
+    color: rgba(255,255,255,0.75);
+}
+
+.ch-discovering-btn {
+    display: inline-block;
+    background: #a06a00;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 10px 22px;
+    text-decoration: none;
+    border-radius: 2px;
+    transition: background 0.15s;
+}
+
+.ch-discovering-btn:hover {
+    background: #7a4e00;
+}
+
+/* ── Info box ── */
+.ch-info-box {
+    margin: 32px 48px 60px;
+    border: 1.5px solid #a06a00;
+    padding: 32px 36px;
+    background: #fdf8ec;
+}
+
+.ch-info-box h3 {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    color: #7a4e00;
+}
+
+.ch-info-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px 32px;
+}
+
+.ch-info-list li {
+    font-size: 14px;
+    font-weight: 300;
+    color: #444;
+    padding-left: 16px;
+    position: relative;
+    line-height: 1.5;
+}
+
+.ch-info-list li strong {
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+.ch-info-list li::before {
+    content: '—';
+    position: absolute;
+    left: 0;
+    color: #a06a00;
+    font-size: 12px;
+}
+
+/* ── RESPONSIVE ── */
+@media (max-width: 1100px) {
+    .ch-route-item {
+        grid-template-columns: 40px 1fr 270px;
+    }
+    .ch-recorrido-grid,
+    .ch-tematicos-grid,
+    .ch-iglesias-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .ch-intro-box,
+    .ch-recorrido-wrap,
+    .ch-routes,
+    .ch-section-title,
+    .ch-tematicos-section,
+    .ch-iglesias-section,
+    .ch-discovering-box,
+    .ch-info-box {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .ch-hero-content {
+        padding: 0 20px 12px;
+    }
+
+    .ch-hero-content h1 {
+        font-size: 36px;
+    }
+
+    .ch-hero-stats {
+        padding: 12px 20px 36px;
+        gap: 18px;
+    }
+
+    .ch-stat-num {
+        font-size: 18px;
+    }
+
+    .ch-intro-box,
+    .ch-discovering-box {
+        flex-direction: column;
+        gap: 14px;
+    }
+
+    .ch-recorrido-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .ch-route-item {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+
+    .ch-route-num {
+        display: none;
+    }
+
+    .ch-route-text {
+        padding-right: 0;
+    }
+
+    .ch-route-img {
+        height: 220px;
+        position: static;
+    }
+
+    .ch-tematicos-grid,
+    .ch-iglesias-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .ch-info-list {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .ch-hero {
+        height: 480px;
+    }
+
+    .ch-hero-content h1 {
+        font-size: 30px;
+    }
+
+    .ch-recorrido-grid {
+        grid-template-columns: 1fr;
+    }
+}

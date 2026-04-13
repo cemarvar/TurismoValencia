@@ -1,0 +1,460 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
+
+.nau-page {
+    font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
+    color: #1a1a1a;
+    margin-top: 70px;
+}
+
+/* ── Hero ── */
+.nau-hero {
+    position: relative;
+    height: 560px;
+    background-image: url('/img/img-experiencias/Nauticas/hero.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.nau-hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(0,12,36,0.90) 0%, rgba(0,12,36,0.10) 60%, transparent 100%);
+}
+
+.nau-hero-content {
+    position: relative;
+    z-index: 2;
+    padding: 0 48px 20px;
+    color: #fff;
+    max-width: 680px;
+}
+
+.nau-eyebrow {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #4dc8f0;
+    margin-bottom: 12px;
+}
+
+.nau-hero-content h1 {
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 1.0;
+    margin-bottom: 14px;
+    letter-spacing: -0.02em;
+}
+
+.nau-hero-content p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.65;
+    color: rgba(255,255,255,0.88);
+    max-width: 560px;
+}
+
+/* Stats */
+.nau-hero-stats {
+    position: relative;
+    z-index: 2;
+    padding: 18px 48px 44px;
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+.nau-stat {
+    display: flex;
+    flex-direction: column;
+}
+
+.nau-stat-num {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1;
+    color: #4dc8f0;
+}
+
+.nau-stat-label {
+    font-size: 11px;
+    font-weight: 300;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.65);
+    margin-top: 3px;
+}
+
+.nau-stat-sep {
+    width: 1px;
+    height: 34px;
+    background: rgba(255,255,255,0.22);
+}
+
+/* ── Intro box ── */
+.nau-intro-box {
+    margin: 0 48px;
+    background: #000c24;
+    padding: 28px 32px;
+    display: flex;
+    gap: 24px;
+    align-items: flex-start;
+}
+
+.nau-intro-icono {
+    font-size: 30px;
+    flex-shrink: 0;
+}
+
+.nau-intro-titulo {
+    font-size: 15px;
+    font-weight: 700;
+    color: #4dc8f0;
+    margin-bottom: 10px;
+}
+
+.nau-intro-content p {
+    font-size: 14px;
+    font-weight: 300;
+    color: rgba(255,255,255,0.84);
+    line-height: 1.65;
+    margin: 0;
+}
+
+.nau-intro-content strong {
+    font-weight: 600;
+    color: #fff;
+}
+
+/* ── Section titles ── */
+.nau-section-title {
+    padding: 52px 48px 32px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.nau-section-title--paseos {
+    padding-top: 56px;
+}
+
+.nau-section-title h2 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #1a1a1a;
+    letter-spacing: -0.01em;
+    margin-bottom: 6px;
+}
+
+.nau-section-title p {
+    font-size: 15px;
+    font-weight: 300;
+    color: #777;
+}
+
+/* ── Routes ── */
+.nau-routes {
+    padding: 0 48px;
+}
+
+.nau-route-item {
+    display: grid;
+    grid-template-columns: 56px 1fr 340px;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 52px 0;
+    align-items: start;
+}
+
+.nau-route-num {
+    font-size: 13px;
+    font-weight: 600;
+    color: #bbb;
+    letter-spacing: 0.05em;
+    padding-top: 4px;
+}
+
+.nau-route-text {
+    padding-right: 48px;
+}
+
+.nau-tipo {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #0068a0;
+    margin-bottom: 6px;
+}
+
+.nau-route-text h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 4px;
+    letter-spacing: -0.01em;
+    line-height: 1.2;
+}
+
+.nau-subtitulo {
+    font-size: 13px;
+    font-weight: 300;
+    font-style: italic;
+    color: #888;
+    margin-bottom: 16px;
+    line-height: 1.4;
+}
+
+.nau-desc {
+    font-size: 15px;
+    font-weight: 300;
+    color: #444;
+    line-height: 1.75;
+    margin-bottom: 20px;
+}
+
+.nau-datos-titulo {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #999;
+    margin-bottom: 10px;
+}
+
+.nau-datos {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 16px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.nau-datos li {
+    font-size: 14px;
+    line-height: 1.5;
+    padding-left: 14px;
+    border-left: 2px solid #4dc8f0;
+    color: #444;
+}
+
+.nau-dato-label {
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+.nau-dato-val {
+    font-weight: 300;
+}
+
+/* Tags */
+.nau-tags {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-bottom: 16px;
+}
+
+.nau-tag {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #004878;
+    border: 1px solid #4dc8f0;
+    background: #e6f7fd;
+    padding: 3px 9px;
+    border-radius: 2px;
+}
+
+/* Botón */
+.nau-comprar-btn {
+    display: inline-block;
+    background: #0068a0;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    padding: 10px 22px;
+    text-decoration: none;
+    border-radius: 2px;
+    transition: background 0.15s;
+}
+
+.nau-comprar-btn:hover {
+    background: #004878;
+}
+
+/* Imágenes */
+.nau-route-img {
+    border-radius: 2px;
+    overflow: hidden;
+    height: 300px;
+    position: sticky;
+    top: 90px;
+}
+
+.nau-route-img-inner {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #000c24;
+}
+
+.img-nau-paddle  { background-image: url('/img/img-experiencias/Nauticas/paddle.jpg'); }
+.img-nau-windsurf{ background-image: url('/img/img-experiencias/Nauticas/windsurf.jpg'); }
+.img-nau-banana  { background-image: url('/img/img-experiencias/Nauticas/banana.jpg'); }
+.img-nau-vela    { background-image: url('/img/img-experiencias/Nauticas/vela.jpg'); }
+.img-nau-sunset1 { background-image: url('/img/img-experiencias/Nauticas/sunset1.jpg'); }
+.img-nau-sunset2 { background-image: url('/img/img-experiencias/Nauticas/sunset2.jpg'); }
+.img-nau-crucero { background-image: url('/img/img-experiencias/Nauticas/crucero.jpg'); }
+
+/* ── Tabla info útil ── */
+.nau-info-practica {
+    margin: 52px 48px 0;
+    padding-top: 48px;
+    border-top: 1.5px solid #e5e5e5;
+}
+
+.nau-info-practica h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 20px;
+}
+
+.nau-tabla {
+    display: flex;
+    flex-direction: column;
+    border: 1.5px solid #e5e5e5;
+    overflow: hidden;
+}
+
+.nau-tabla-fila {
+    display: grid;
+    grid-template-columns: 180px 1fr;
+    border-bottom: 1px solid #e5e5e5;
+    min-height: 44px;
+}
+
+.nau-tabla-fila:last-child { border-bottom: none; }
+.nau-tabla-fila:nth-child(even) { background: #e6f7fd; }
+
+.nau-tabla-label {
+    padding: 12px 20px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #004878;
+    border-right: 1px solid #e5e5e5;
+    display: flex;
+    align-items: center;
+}
+
+.nau-tabla-val {
+    padding: 12px 20px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #333;
+    line-height: 1.55;
+    display: flex;
+    align-items: center;
+}
+
+/* ── Info box ── */
+.nau-info-box {
+    margin: 32px 48px 60px;
+    border: 1.5px solid #0068a0;
+    padding: 32px 36px;
+    background: #e6f7fd;
+}
+
+.nau-info-box h3 {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    color: #004878;
+}
+
+.nau-info-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px 32px;
+}
+
+.nau-info-list li {
+    font-size: 14px;
+    font-weight: 300;
+    color: #444;
+    padding-left: 16px;
+    position: relative;
+    line-height: 1.5;
+}
+
+.nau-info-list li strong {
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+.nau-info-list li::before {
+    content: '—';
+    position: absolute;
+    left: 0;
+    color: #0068a0;
+    font-size: 12px;
+}
+
+/* ── RESPONSIVE ── */
+@media (max-width: 1100px) {
+    .nau-route-item {
+        grid-template-columns: 40px 1fr 270px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .nau-intro-box,
+    .nau-routes,
+    .nau-section-title,
+    .nau-info-practica,
+    .nau-info-box {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .nau-hero-content { padding: 0 20px 12px; }
+    .nau-hero-content h1 { font-size: 34px; }
+    .nau-hero-stats { padding: 12px 20px 36px; gap: 18px; }
+    .nau-stat-num { font-size: 18px; }
+
+    .nau-intro-box { flex-direction: column; gap: 14px; }
+
+    .nau-route-item { grid-template-columns: 1fr; gap: 24px; }
+    .nau-route-num  { display: none; }
+    .nau-route-text { padding-right: 0; }
+    .nau-route-img  { height: 220px; position: static; }
+
+    .nau-tabla-fila { grid-template-columns: 140px 1fr; }
+    .nau-info-list  { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 480px) {
+    .nau-hero { height: 480px; }
+    .nau-hero-content h1 { font-size: 28px; }
+    .nau-tabla-fila    { grid-template-columns: 1fr; }
+    .nau-tabla-label   { border-right: none; border-bottom: 1px solid #e5e5e5; padding-bottom: 6px; padding-top: 14px; }
+    .nau-tabla-val     { padding-top: 6px; padding-bottom: 14px; }
+}

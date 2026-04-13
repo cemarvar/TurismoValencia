@@ -57,9 +57,19 @@ import Horchata from '../../Gastronomia/pages/Horchata';
 import Centro from '../../Alojamientos/pages/Centro';
 import CiudadArtesCienciasAloj from '../../Alojamientos/pages/CiudadArtesCienciasAloj';
 import BarrioRuzada from '../../Alojamientos/pages/BarrioRuzada';
-/*import BarrioGranVia from '../../Alojamientos/pages/BarrioGranVia';
+import BarrioGranVia from '../../Alojamientos/pages/BarrioGranVia';
 import ZonaPlayaPaseoMaritimo from '../../Alojamientos/pages/ZonaPlayaPaseoMaritimo';
-import BaratoExclusivo from '../../Alojamientos/pages/BaratoExclusivo';*/
+import BaratoExclusivo from '../../Alojamientos/pages/BaratoExclusivo';
+import ValenciaCard from '../../Entradas/pages/Entradas/ValenciaCard';
+import BusTuristico from '../../Entradas/pages/Entradas/BusTuristico';
+import CentroHistorico from '../../Entradas/pages/Tours/CentroHistorico';
+import CienciasArtes from '../../Entradas/pages/Tours/CienciasArtes';
+import Bici from '../../Entradas/pages/Tours/Bici';
+import PrivadoGrupo from '../../Entradas/pages/Tours/PrivadoGrupo';
+import PaseoMaritimo from '../../Entradas/pages/Tours/PaseoMaritimo';
+import Excursiones from '../../Entradas/pages/Experiencias/Excursiones';
+import ActividadesGastronomicas from '../../Entradas/pages/Experiencias/ActividadesGastronomicas';
+import Nauticas from '../../Entradas/pages/Experiencias/Nauticas';
 
 export default function App()
 {
@@ -125,9 +135,19 @@ export default function App()
                     <Route path="/Centro" element={<Centro />} />
                     <Route path="/CiudadArtesCienciasAloj" element={<CiudadArtesCienciasAloj />} />
                     <Route path="/BarrioRuzada" element={<BarrioRuzada />} />
-                    {/*<Route path="/BarrioGranVia" element={<BarrioGranVia />} />
+                    <Route path="/BarrioGranVia" element={<BarrioGranVia />} />
                     <Route path="/ZonaPlayaPaseoMaritimo" element={<ZonaPlayaPaseoMaritimo />} />
-                    <Route path="/BaratoExclusivo" element={<BaratoExclusivo />} />*/}
+                    <Route path="/BaratoExclusivo" element={<BaratoExclusivo />} />
+                    <Route path="/ValenciaCard" element={<ValenciaCard />} />
+                    <Route path="/BusTuristico" element={<BusTuristico />} />
+                    <Route path="/CentroHistorico" element={<CentroHistorico />} />
+                    <Route path="/CienciasArtes" element={<CienciasArtes />} />
+                    <Route path="/Bici" element={<Bici />} />
+                    <Route path="/PrivadoGrupo" element={<PrivadoGrupo />} />
+                    <Route path="/PaseoMaritimo" element={<PaseoMaritimo />} />
+                    <Route path="/Excursiones" element={<Excursiones />} />
+                    <Route path="/ActividadesGastronomicas" element={<ActividadesGastronomicas />} />
+                    <Route path="/Nauticas" element={<Nauticas />} />
                 </Routes>
         </BrowserRouter>
     );

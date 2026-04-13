@@ -1,0 +1,549 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
+
+.pm-page {
+    font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
+    color: #1a1a1a;
+    margin-top: 70px;
+}
+
+/* ── Hero ── */
+.pm-hero {
+    position: relative;
+    height: 580px;
+    background-image: url('/img/img-tours/PaseoMaritimo/hero.jpg');
+    background-position: center 60%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.pm-hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(0,18,38,0.88) 0%, rgba(0,18,38,0.08) 55%, transparent 100%);
+}
+
+.pm-hero-content {
+    position: relative;
+    z-index: 2;
+    padding: 0 48px 20px;
+    color: #fff;
+    max-width: 700px;
+}
+
+.pm-eyebrow {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #5ec8f0;
+    margin-bottom: 12px;
+}
+
+.pm-hero-content h1 {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.0;
+    margin-bottom: 14px;
+    letter-spacing: -0.02em;
+}
+
+.pm-hero-content p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.65;
+    color: rgba(255,255,255,0.88);
+    max-width: 580px;
+}
+
+/* Stats */
+.pm-hero-stats {
+    position: relative;
+    z-index: 2;
+    padding: 18px 48px 44px;
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+.pm-stat {
+    display: flex;
+    flex-direction: column;
+}
+
+.pm-stat-num {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1;
+    color: #5ec8f0;
+}
+
+.pm-stat-label {
+    font-size: 11px;
+    font-weight: 300;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.65);
+    margin-top: 3px;
+}
+
+.pm-stat-sep {
+    width: 1px;
+    height: 34px;
+    background: rgba(255,255,255,0.22);
+}
+
+/* ── Intro box ── */
+.pm-intro-box {
+    margin: 0 48px;
+    background: #001626;
+    padding: 28px 32px;
+    display: flex;
+    gap: 24px;
+    align-items: flex-start;
+}
+
+.pm-intro-icono {
+    font-size: 32px;
+    flex-shrink: 0;
+}
+
+.pm-intro-titulo {
+    font-size: 15px;
+    font-weight: 700;
+    color: #5ec8f0;
+    margin-bottom: 10px;
+}
+
+.pm-intro-content p {
+    font-size: 14px;
+    font-weight: 300;
+    color: rgba(255,255,255,0.85);
+    line-height: 1.7;
+    margin: 0;
+}
+
+.pm-intro-content strong {
+    font-weight: 600;
+    color: #fff;
+}
+
+/* ── Section title ── */
+.pm-section-title {
+    padding: 52px 48px 32px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.pm-section-title h2 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #1a1a1a;
+    letter-spacing: -0.01em;
+    margin-bottom: 6px;
+}
+
+.pm-section-title p {
+    font-size: 15px;
+    font-weight: 300;
+    color: #777;
+}
+
+/* ── Playas ── */
+.pm-routes {
+    padding: 0 48px;
+}
+
+.pm-route-item {
+    display: grid;
+    grid-template-columns: 56px 1fr 360px;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 52px 0;
+    align-items: start;
+}
+
+.pm-route-num {
+    font-size: 13px;
+    font-weight: 600;
+    color: #bbb;
+    letter-spacing: 0.05em;
+    padding-top: 4px;
+}
+
+.pm-route-text {
+    padding-right: 48px;
+}
+
+.pm-tipo {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #0060a0;
+    margin-bottom: 6px;
+}
+
+.pm-route-text h2 {
+    font-size: 26px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 4px;
+    letter-spacing: -0.01em;
+    line-height: 1.2;
+}
+
+.pm-subtitulo {
+    font-size: 13px;
+    font-weight: 300;
+    font-style: italic;
+    color: #888;
+    margin-bottom: 16px;
+    line-height: 1.4;
+}
+
+.pm-desc {
+    font-size: 15px;
+    font-weight: 300;
+    color: #444;
+    line-height: 1.75;
+    margin-bottom: 20px;
+}
+
+.pm-datos-titulo {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #999;
+    margin-bottom: 10px;
+}
+
+.pm-datos {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 16px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.pm-datos li {
+    font-size: 14px;
+    line-height: 1.5;
+    padding-left: 14px;
+    border-left: 2px solid #5ec8f0;
+    color: #444;
+}
+
+.pm-dato-label {
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+.pm-dato-val {
+    font-weight: 300;
+}
+
+/* Tags */
+.pm-tags {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.pm-tag {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #004878;
+    border: 1px solid #5ec8f0;
+    background: #e8f6fc;
+    padding: 3px 9px;
+    border-radius: 2px;
+}
+
+/* Imágenes */
+.pm-route-img {
+    border-radius: 2px;
+    overflow: hidden;
+    height: 320px;
+    position: sticky;
+    top: 90px;
+}
+
+.pm-route-img-inner {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #001626;
+}
+
+.img-pm-arenas     { background-image: url('/img/img-tours/PaseoMaritimo/arenas.jpg'); }
+.img-pm-malvarrosa { background-image: url('/img/img-tours/PaseoMaritimo/malvarrosa.jpg'); }
+.img-pm-patacona   { background-image: url('/img/img-tours/PaseoMaritimo/patacona.jpg'); }
+
+/* ── Actividades ── */
+.pm-actividades-section {
+    margin: 56px 48px 0;
+    padding-top: 48px;
+    border-top: 1.5px solid #e5e5e5;
+}
+
+.pm-actividades-section h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 8px;
+}
+
+.pm-actividades-desc {
+    font-size: 14px;
+    font-weight: 300;
+    color: #666;
+    margin-bottom: 28px;
+}
+
+.pm-actividades-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px;
+}
+
+.pm-actividad-card {
+    border: 1.5px solid #b8e6f8;
+    background: #e8f6fc;
+    padding: 18px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.pm-actividad-icono {
+    font-size: 24px;
+    line-height: 1;
+    margin-bottom: 2px;
+}
+
+.pm-actividad-nombre {
+    font-size: 14px;
+    font-weight: 700;
+    color: #1a1a1a;
+    line-height: 1.3;
+}
+
+.pm-actividad-desc {
+    font-size: 13px;
+    font-weight: 300;
+    color: #555;
+    line-height: 1.55;
+    margin: 0;
+}
+
+/* ── Gastronomía ── */
+.pm-gastro-section {
+    margin: 40px 48px 0;
+    padding-top: 40px;
+    border-top: 1.5px solid #e5e5e5;
+}
+
+.pm-gastro-section h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 8px;
+}
+
+.pm-gastro-desc {
+    font-size: 14px;
+    font-weight: 300;
+    color: #666;
+    margin-bottom: 28px;
+}
+
+.pm-gastro-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px;
+}
+
+.pm-gastro-card {
+    border: 1.5px solid #e5e5e5;
+    padding: 20px 22px;
+    background: #fafafa;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.pm-gastro-nombre {
+    font-size: 14px;
+    font-weight: 700;
+    color: #1a1a1a;
+    line-height: 1.3;
+}
+
+.pm-gastro-desc-text {
+    font-size: 13px;
+    font-weight: 300;
+    color: #555;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* ── Tabla info práctica ── */
+.pm-info-practica {
+    margin: 40px 48px 0;
+    padding-top: 40px;
+    border-top: 1.5px solid #e5e5e5;
+}
+
+.pm-info-practica h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 20px;
+}
+
+.pm-tabla {
+    display: flex;
+    flex-direction: column;
+    border: 1.5px solid #e5e5e5;
+    overflow: hidden;
+}
+
+.pm-tabla-fila {
+    display: grid;
+    grid-template-columns: 180px 1fr;
+    border-bottom: 1px solid #e5e5e5;
+    min-height: 44px;
+}
+
+.pm-tabla-fila:last-child { border-bottom: none; }
+.pm-tabla-fila:nth-child(even) { background: #e8f6fc; }
+
+.pm-tabla-label {
+    padding: 12px 20px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #004878;
+    border-right: 1px solid #e5e5e5;
+    display: flex;
+    align-items: center;
+}
+
+.pm-tabla-val {
+    padding: 12px 20px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #333;
+    line-height: 1.55;
+    display: flex;
+    align-items: center;
+}
+
+/* ── Info box ── */
+.pm-info-box {
+    margin: 32px 48px 60px;
+    border: 1.5px solid #0060a0;
+    padding: 32px 36px;
+    background: #e8f6fc;
+}
+
+.pm-info-box h3 {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    color: #004878;
+}
+
+.pm-info-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px 32px;
+}
+
+.pm-info-list li {
+    font-size: 14px;
+    font-weight: 300;
+    color: #444;
+    padding-left: 16px;
+    position: relative;
+    line-height: 1.5;
+}
+
+.pm-info-list li strong {
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+.pm-info-list li::before {
+    content: '—';
+    position: absolute;
+    left: 0;
+    color: #0060a0;
+    font-size: 12px;
+}
+
+/* ── RESPONSIVE ── */
+@media (max-width: 1100px) {
+    .pm-route-item {
+        grid-template-columns: 40px 1fr 280px;
+    }
+    .pm-actividades-grid { grid-template-columns: 1fr 1fr; }
+    .pm-gastro-grid      { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 768px) {
+
+    .pm-intro-box,
+    .pm-routes,
+    .pm-section-title,
+    .pm-actividades-section,
+    .pm-gastro-section,
+    .pm-info-practica,
+    .pm-info-box {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .pm-hero-content { padding: 0 20px 12px; }
+    .pm-hero-content h1 { font-size: 36px; }
+    .pm-hero-stats { padding: 12px 20px 36px; gap: 18px; }
+    .pm-stat-num { font-size: 18px; }
+
+    .pm-intro-box { flex-direction: column; gap: 14px; }
+
+    .pm-route-item { grid-template-columns: 1fr; gap: 24px; }
+    .pm-route-num  { display: none; }
+    .pm-route-text { padding-right: 0; }
+    .pm-route-img  { height: 240px; position: static; }
+
+    .pm-actividades-grid { grid-template-columns: 1fr 1fr; }
+    .pm-gastro-grid      { grid-template-columns: 1fr; }
+
+    .pm-tabla-fila { grid-template-columns: 140px 1fr; }
+    .pm-info-list  { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 480px) {
+    .pm-hero { height: 500px; }
+    .pm-hero-content h1 { font-size: 30px; }
+    .pm-actividades-grid { grid-template-columns: 1fr; }
+    .pm-tabla-fila { grid-template-columns: 1fr; }
+    .pm-tabla-label { border-right: none; border-bottom: 1px solid #e5e5e5; padding-bottom: 6px; padding-top: 14px; }
+    .pm-tabla-val   { padding-top: 6px; padding-bottom: 14px; }
+}

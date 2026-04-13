@@ -3,12 +3,12 @@ import Tours from '../TOURS/Tours';
 
 export default function GridTours() {
     var elementos = [
-        { imagen: "/img/img-tours/centro.jpg", titulo: "Centro Histórico" },
-        { imagen: "/img/img-tours/arts-ciencies.jpg", titulo: "Ciudad de las Artes y las Ciencias" },
-        { imagen: "/img/img-tours/bici.jpg", titulo: "Bici" },
-        { imagen: "/img/img-tours/grup.jpg", titulo: "Privados o en grupo" },
-        { imagen: "/img/img-tours/paseo.jpg", titulo: "Zona de playa y Paseo Marítimo" },
-        { imagen: "/img/img-tours/mestalla.jpg", titulo: "Mestalla" }
+        { imagen: "/img/img-tours/centro.jpg",              titulo: "Centro Histórico",                            ruta: "/CentroHistorico"  },
+        { imagen: "/img/img-tours/arts-ciencies.jpg",       titulo: "Ciudad de las Artes y las Ciencias",          ruta: "/CienciasArtes"  },
+        { imagen: "/img/img-tours/bici.jpg",                titulo: "Bici",                                        ruta: "/Bici"  },
+        { imagen: "/img/img-tours/grup.jpg",                titulo: "Privados o en grupo",                         ruta: "/PrivadoGrupo"  },
+        { imagen: "/img/img-tours/paseo.jpg",               titulo: "Zona de playa y Paseo Marítimo",              ruta: "/PaseoMaritimo"  },
+        { imagen: "/img/img-tours/mestalla.jpg",            titulo: "Mestalla",                                    ruta: "/Mestalla"  }
     ];
 
     return (
@@ -23,7 +23,7 @@ export default function GridTours() {
             </div>
             <section className="grid-tours">
                 {elementos.map((item, index) => (
-                    <Tours key={index} imagen={item.imagen} titulo={item.titulo} />
+                    <Tours key={index} imagen={item.imagen} titulo={item.titulo} ruta={item.ruta} />
                 ))}
             </section>
         </>

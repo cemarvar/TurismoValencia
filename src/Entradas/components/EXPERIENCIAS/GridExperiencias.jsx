@@ -3,9 +3,9 @@ import Experiencias from '../EXPERIENCIAS/Experiencias';
 
 export default function GridExperiencias() {
     var elementos = [
-        { imagen: "/img/img-experiencias/excursiones.jpg", titulo: " Excursiones" },
-        { imagen: "/img/img-experiencias/act-gastronomicas.jpg", titulo: "Actividades Gastrónomicas" },
-        { imagen: "/img/img-experiencias/nauticas.jpg", titulo: "Náuticas" }
+        { imagen: "/img/img-experiencias/excursiones.jpg",          titulo: "Excursiones",                    ruta: "/Excursiones" },
+        { imagen: "/img/img-experiencias/act-gastronomicas.jpg",    titulo: "Actividades Gastrónomicas",      ruta: "/ActividadesGastronomicas" },
+        { imagen: "/img/img-experiencias/nauticas.jpg",             titulo: "Náuticas",                       ruta: "/Nauticas" }
     ];
 
     return (
@@ -20,7 +20,7 @@ export default function GridExperiencias() {
             </div>
             <section className="grid-experiencias">
                 {elementos.map((item, index) => (
-                    <Experiencias key={index} imagen={item.imagen} titulo={item.titulo} />
+                    <Experiencias key={index} imagen={item.imagen} titulo={item.titulo} ruta={item.ruta} />
                 ))}
             </section>
         </>

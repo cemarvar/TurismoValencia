@@ -1,0 +1,427 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
+
+.bex-page {
+    font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
+    color: #1a1a1a;
+    margin-top: 70px;
+}
+
+/* ══════════════════════════════════════════
+   HEROES
+══════════════════════════════════════════ */
+
+.bex-hero {
+    position: relative;
+    height: 520px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.bex-hero--exclusivo {
+    background-image: url('/img/img-alojamientos/BaratoExclusivo/hero-exclusivo.jpg');
+}
+
+.bex-hero--barato {
+    background-image: url('/img/img-alojamientos/BaratoExclusivo/hero-barato.jpg');
+}
+
+.bex-hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(15,8,0,0.88) 0%, rgba(15,8,0,0.08) 60%, transparent 100%);
+}
+
+.bex-hero-overlay--barato {
+    background: linear-gradient(to top, rgba(0,15,8,0.88) 0%, rgba(0,15,8,0.08) 60%, transparent 100%);
+}
+
+.bex-hero-content {
+    position: relative;
+    z-index: 2;
+    padding: 0 48px 20px;
+    color: #fff;
+    max-width: 680px;
+}
+
+.bex-eyebrow {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+
+.bex-eyebrow--exclusivo { color: #d4a840; }
+.bex-eyebrow--barato    { color: #6abe60; }
+
+.bex-hero-content h1 {
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 1.0;
+    margin-bottom: 14px;
+    letter-spacing: -0.02em;
+}
+
+.bex-hero-content p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.6;
+    color: rgba(255,255,255,0.88);
+    max-width: 540px;
+}
+
+/* Stats */
+.bex-hero-stats {
+    position: relative;
+    z-index: 2;
+    padding: 16px 48px 40px;
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+.bex-stat {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.bex-stat-num {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.bex-stat-num--exclusivo { color: #d4a840; }
+.bex-stat-num--barato    { color: #6abe60; }
+
+.bex-stat-label {
+    font-size: 11px;
+    font-weight: 300;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.7);
+    margin-top: 3px;
+}
+
+.bex-stat-sep {
+    width: 1px;
+    height: 32px;
+    background: rgba(255,255,255,0.25);
+}
+
+/* ══════════════════════════════════════════
+   SECTION INTROS
+══════════════════════════════════════════ */
+
+.bex-section-intro {
+    margin: 0 48px;
+    padding: 28px 32px;
+    display: flex;
+    gap: 24px;
+    align-items: flex-start;
+}
+
+.bex-section-intro--exclusivo { background: #110d00; }
+.bex-section-intro--barato    { background: #051408; }
+
+.bex-intro-icono {
+    font-size: 30px;
+    flex-shrink: 0;
+}
+
+.bex-intro-titulo {
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.bex-intro-titulo--exclusivo { color: #d4a840; }
+.bex-intro-titulo--barato    { color: #6abe60; }
+
+.bex-intro-content p {
+    font-size: 14px;
+    font-weight: 300;
+    color: rgba(255,255,255,0.85);
+    line-height: 1.65;
+    margin: 0;
+}
+
+.bex-intro-content strong {
+    font-weight: 600;
+    color: #fff;
+}
+
+/* ══════════════════════════════════════════
+   SECTION LABELS
+══════════════════════════════════════════ */
+
+.bex-section-label {
+    padding: 28px 48px 24px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.bex-section-label::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: #e5e5e5;
+}
+
+.bex-section-label span {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.bex-section-label--exclusivo span { color: #a07820; }
+.bex-section-label--barato span    { color: #2a7a20; }
+
+/* ══════════════════════════════════════════
+   ROUTES (shared)
+══════════════════════════════════════════ */
+
+.bex-routes {
+    padding: 0 48px;
+}
+
+.bex-route-item {
+    display: grid;
+    grid-template-columns: 56px 1fr 340px;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 48px 0;
+    align-items: start;
+}
+
+.bex-route-num {
+    font-size: 13px;
+    font-weight: 600;
+    color: #bbb;
+    letter-spacing: 0.05em;
+    padding-top: 4px;
+}
+
+.bex-route-text {
+    padding-right: 48px;
+}
+
+.bex-tipo {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+}
+
+.bex-tipo--exclusivo { color: #a07820; }
+.bex-tipo--barato    { color: #2a7a20; }
+
+.bex-route-text h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 4px;
+    letter-spacing: -0.01em;
+    line-height: 1.2;
+}
+
+.bex-subtitulo {
+    font-size: 13px;
+    font-weight: 300;
+    font-style: italic;
+    color: #888;
+    margin-bottom: 16px;
+    line-height: 1.4;
+}
+
+.bex-desc {
+    font-size: 15px;
+    font-weight: 300;
+    color: #444;
+    line-height: 1.75;
+    margin-bottom: 20px;
+}
+
+.bex-datos-titulo {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #999;
+    margin-bottom: 10px;
+}
+
+.bex-datos {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 16px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.bex-datos li {
+    font-size: 14px;
+    line-height: 1.5;
+    padding-left: 14px;
+    color: #444;
+}
+
+.bex-datos--exclusivo li { border-left: 2px solid #d4b870; }
+.bex-datos--barato li    { border-left: 2px solid #8ed8a0; }
+
+.bex-dato-label {
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+.bex-dato-val {
+    font-weight: 300;
+}
+
+/* Tags */
+.bex-tags {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.bex-tag {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    padding: 3px 9px;
+    border-radius: 2px;
+}
+
+.bex-tag--exclusivo {
+    color: #7a5010;
+    border: 1px solid #d4b870;
+    background: #fdf8ec;
+}
+
+.bex-tag--barato {
+    color: #114d28;
+    border: 1px solid #8ed8a0;
+    background: #edf8f2;
+}
+
+/* Imagen */
+.bex-route-img {
+    border-radius: 2px;
+    overflow: hidden;
+    height: 260px;
+    position: sticky;
+    top: 90px;
+}
+
+.bex-route-img-inner {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #1a1208;
+}
+
+/* ── Imágenes exclusivos ── */
+.img-ex-lasarenas { background-image: url('/img/img-alojamientos/BaratoExclusivo/lasarenas.jpg'); }
+.img-ex-westin    { background-image: url('/img/img-alojamientos/BaratoExclusivo/westin.jpg'); }
+
+/* ── Imágenes baratos ── */
+.img-bar-travelodge  { background-image: url('/img/img-alojamientos/BaratoExclusivo/travelodge.jpg'); }
+.img-bar-adhoc       { background-image: url('/img/img-alojamientos/BaratoExclusivo/adhoc.jpg'); }
+.img-bar-villacarlos { background-image: url('/img/img-alojamientos/BaratoExclusivo/villacarlos.jpg'); }
+.img-bar-venecia     { background-image: url('/img/img-alojamientos/BaratoExclusivo/venecia.jpg'); }
+
+/* ══════════════════════════════════════════
+   DIVISOR entre secciones
+══════════════════════════════════════════ */
+
+.bex-divisor {
+    height: 6px;
+    background: linear-gradient(to right, #d4a840, #c8903a);
+    margin: 0;
+}
+
+/* ══════════════════════════════════════════
+   RESPONSIVE
+══════════════════════════════════════════ */
+
+@media (max-width: 1100px) {
+    .bex-route-item {
+        grid-template-columns: 40px 1fr 270px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .bex-routes,
+    .bex-section-intro,
+    .bex-section-label {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .bex-hero-content {
+        padding: 0 20px 12px;
+    }
+
+    .bex-hero-content h1 {
+        font-size: 34px;
+    }
+
+    .bex-hero-stats {
+        padding: 12px 20px 32px;
+        gap: 18px;
+    }
+
+    .bex-stat-num {
+        font-size: 17px;
+    }
+
+    .bex-section-intro {
+        flex-direction: column;
+        gap: 14px;
+    }
+
+    .bex-route-item {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+
+    .bex-route-num {
+        display: none;
+    }
+
+    .bex-route-text {
+        padding-right: 0;
+    }
+
+    .bex-route-img {
+        height: 220px;
+        position: static;
+    }
+}
+
+@media (max-width: 480px) {
+    .bex-hero {
+        height: 460px;
+    }
+
+    .bex-hero-content h1 {
+        font-size: 28px;
+    }
+}

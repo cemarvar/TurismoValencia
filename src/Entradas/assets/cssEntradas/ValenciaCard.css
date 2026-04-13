@@ -1,0 +1,702 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
+
+.vtc-page {
+    font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
+    color: #1a1a1a;
+    margin-top: 70px;
+}
+
+/* ── Hero ── */
+.vtc-hero {
+    position: relative;
+    height: 560px;
+    background-image: url('/img/img-entradas/ValenciaCard/hero.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.vtc-hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(18,5,0,0.88) 0%, rgba(18,5,0,0.10) 60%, transparent 100%);
+}
+
+.vtc-hero-content {
+    position: relative;
+    z-index: 2;
+    padding: 0 48px 20px;
+    color: #fff;
+    max-width: 680px;
+}
+
+.vtc-eyebrow {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #ff8c2a;
+    margin-bottom: 12px;
+}
+
+.vtc-hero-content h1 {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.0;
+    margin-bottom: 14px;
+    letter-spacing: -0.02em;
+}
+
+.vtc-hero-content p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.6;
+    color: rgba(255,255,255,0.88);
+    max-width: 540px;
+}
+
+/* Stats */
+.vtc-hero-stats {
+    position: relative;
+    z-index: 2;
+    padding: 18px 48px 44px;
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+.vtc-stat {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.vtc-stat-num {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1;
+    color: #ff8c2a;
+}
+
+.vtc-stat-label {
+    font-size: 11px;
+    font-weight: 300;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.7);
+    margin-top: 3px;
+}
+
+.vtc-stat-sep {
+    width: 1px;
+    height: 34px;
+    background: rgba(255,255,255,0.25);
+}
+
+/* ── Intro box ── */
+.vtc-intro-box {
+    margin: 0 48px;
+    background: #1a0c00;
+    padding: 28px 32px;
+    display: flex;
+    gap: 24px;
+    align-items: flex-start;
+}
+
+.vtc-intro-icono {
+    font-size: 32px;
+    flex-shrink: 0;
+}
+
+.vtc-intro-titulo {
+    font-size: 15px;
+    font-weight: 700;
+    color: #ff8c2a;
+    margin-bottom: 10px;
+}
+
+.vtc-intro-content p {
+    font-size: 14px;
+    font-weight: 300;
+    color: rgba(255,255,255,0.85);
+    line-height: 1.65;
+    margin: 0;
+}
+
+.vtc-intro-content strong {
+    font-weight: 600;
+    color: #fff;
+}
+
+/* ── Chips de museos ── */
+.vtc-museos-wrap {
+    margin: 0 48px 52px;
+    padding: 28px 32px;
+    background: #fff8f0;
+    border: 1.5px solid #f0b870;
+}
+
+.vtc-museos-titulo {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #8a4a00;
+    margin-bottom: 16px;
+}
+
+.vtc-museos-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.vtc-museo-chip {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background: #fff;
+    border: 1px solid #f0b870;
+    padding: 6px 12px;
+    border-radius: 2px;
+    font-size: 13px;
+    color: #6a3800;
+    transition: background 0.12s;
+}
+
+.vtc-museo-chip:hover {
+    background: #fff0dc;
+}
+
+.vtc-museo-icono {
+    font-size: 15px;
+    line-height: 1;
+}
+
+/* ── Section title ── */
+.vtc-section-title {
+    padding: 0 48px 32px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.vtc-section-title h2 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #1a1a1a;
+    letter-spacing: -0.01em;
+    margin-bottom: 6px;
+}
+
+.vtc-section-title p {
+    font-size: 15px;
+    font-weight: 300;
+    color: #777;
+}
+
+/* ── Modalidades ── */
+.vtc-routes {
+    padding: 0 48px;
+}
+
+.vtc-route-item {
+    display: grid;
+    grid-template-columns: 56px 1fr 340px;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 52px 0;
+    align-items: start;
+}
+
+.vtc-route-num {
+    font-size: 13px;
+    font-weight: 600;
+    color: #bbb;
+    letter-spacing: 0.05em;
+    padding-top: 4px;
+}
+
+.vtc-route-text {
+    padding-right: 48px;
+}
+
+.vtc-tipo {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #c05a00;
+    margin-bottom: 6px;
+}
+
+.vtc-route-text h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 4px;
+    letter-spacing: -0.01em;
+    line-height: 1.2;
+}
+
+.vtc-subtitulo {
+    font-size: 13px;
+    font-weight: 300;
+    font-style: italic;
+    color: #888;
+    margin-bottom: 16px;
+    line-height: 1.4;
+}
+
+.vtc-desc {
+    font-size: 15px;
+    font-weight: 300;
+    color: #444;
+    line-height: 1.75;
+    margin-bottom: 20px;
+}
+
+.vtc-datos-titulo {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #999;
+    margin-bottom: 10px;
+}
+
+/* Lista incluye/no incluye */
+.vtc-incluye {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.vtc-incluye li {
+    font-size: 14px;
+    font-weight: 300;
+    color: #444;
+    line-height: 1.5;
+    padding-left: 4px;
+}
+
+.vtc-no-incluye {
+    color: #999 !important;
+    text-decoration-color: #ccc;
+}
+
+/* Precio */
+.vtc-precio-wrap {
+    background: #fff8f0;
+    border: 1.5px solid #f0b870;
+    padding: 14px 18px;
+    margin-bottom: 16px;
+}
+
+.vtc-precio-label {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #8a4a00;
+    margin-bottom: 4px;
+}
+
+.vtc-precio {
+    font-size: 15px;
+    font-weight: 600;
+    color: #c05a00;
+    margin-bottom: 2px;
+}
+
+.vtc-duracion {
+    font-size: 13px;
+    font-weight: 300;
+    color: #666;
+}
+
+/* Tags */
+.vtc-tags {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-bottom: 16px;
+}
+
+.vtc-tag {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #7a3800;
+    border: 1px solid #f0b870;
+    background: #fff8f0;
+    padding: 3px 9px;
+    border-radius: 2px;
+}
+
+/* Botón comprar */
+.vtc-comprar-btn {
+    display: inline-block;
+    background: #e05a00;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    padding: 10px 22px;
+    text-decoration: none;
+    border-radius: 2px;
+    transition: background 0.15s;
+}
+
+.vtc-comprar-btn:hover {
+    background: #c04a00;
+}
+
+/* Imagen */
+.vtc-route-img {
+    border-radius: 2px;
+    overflow: hidden;
+    height: 300px;
+    position: sticky;
+    top: 90px;
+}
+
+.vtc-route-img-inner {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #1a0c00;
+}
+
+.img-vtc-247272 { background-image: url('/img/img-entradas/ValenciaCard/vtc-247272.jpg'); }
+.img-vtc-7dias  { background-image: url('/img/img-entradas/ValenciaCard/vtc-7dias.jpg'); }
+
+/* ── Packs con entradas ── */
+.vtc-packs-section {
+    margin: 52px 48px 0;
+    padding-top: 48px;
+    border-top: 1.5px solid #e5e5e5;
+}
+
+.vtc-packs-section h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 8px;
+}
+
+.vtc-packs-desc {
+    font-size: 14px;
+    font-weight: 300;
+    color: #666;
+    margin-bottom: 24px;
+}
+
+.vtc-packs-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+}
+
+.vtc-pack-card {
+    border: 1.5px solid #e5e5e5;
+    padding: 20px 22px;
+    background: #fafafa;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.vtc-pack-nombre {
+    font-size: 14px;
+    font-weight: 600;
+    color: #1a1a1a;
+    line-height: 1.4;
+}
+
+.vtc-pack-precio {
+    font-size: 14px;
+    font-weight: 300;
+    color: #c05a00;
+}
+
+.vtc-pack-link {
+    font-size: 12px;
+    font-weight: 600;
+    color: #e05a00;
+    text-decoration: none;
+    letter-spacing: 0.04em;
+    margin-top: auto;
+}
+
+.vtc-pack-link:hover {
+    color: #c04a00;
+}
+
+/* ── Tabla dónde comprar ── */
+.vtc-compra-box {
+    margin: 40px 48px 0;
+    padding-top: 40px;
+    border-top: 1.5px solid #e5e5e5;
+}
+
+.vtc-compra-box h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 20px;
+}
+
+.vtc-compra-tabla {
+    display: flex;
+    flex-direction: column;
+    border: 1.5px solid #e5e5e5;
+    overflow: hidden;
+}
+
+.vtc-compra-fila {
+    display: grid;
+    grid-template-columns: 180px 1fr;
+    border-bottom: 1px solid #e5e5e5;
+    min-height: 44px;
+}
+
+.vtc-compra-fila:last-child {
+    border-bottom: none;
+}
+
+.vtc-compra-fila:nth-child(even) {
+    background: #fff8f0;
+}
+
+.vtc-compra-label {
+    padding: 12px 20px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #8a4a00;
+    border-right: 1px solid #e5e5e5;
+    display: flex;
+    align-items: center;
+}
+
+.vtc-compra-val {
+    padding: 12px 20px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #333;
+    line-height: 1.55;
+    display: flex;
+    align-items: center;
+}
+
+/* ── FAQ ── */
+.vtc-faq-section {
+    margin: 40px 48px 0;
+    padding-top: 40px;
+    border-top: 1.5px solid #e5e5e5;
+}
+
+.vtc-faq-section h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 24px;
+}
+
+.vtc-faq-lista {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    border: 1.5px solid #e5e5e5;
+    overflow: hidden;
+}
+
+.vtc-faq-item {
+    padding: 20px 24px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.vtc-faq-item:last-child {
+    border-bottom: none;
+}
+
+.vtc-faq-item:nth-child(even) {
+    background: #fff8f0;
+}
+
+.vtc-faq-q {
+    font-size: 14px;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin-bottom: 8px;
+}
+
+.vtc-faq-a {
+    font-size: 14px;
+    font-weight: 300;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* ── Info box ── */
+.vtc-info-box {
+    margin: 32px 48px 60px;
+    border: 1.5px solid #c05a00;
+    padding: 32px 36px;
+    background: #fff8f0;
+}
+
+.vtc-info-box h3 {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    color: #8a4a00;
+}
+
+.vtc-info-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px 32px;
+}
+
+.vtc-info-list li {
+    font-size: 14px;
+    font-weight: 300;
+    color: #444;
+    padding-left: 16px;
+    position: relative;
+    line-height: 1.5;
+}
+
+.vtc-info-list li strong {
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+.vtc-info-list li::before {
+    content: '—';
+    position: absolute;
+    left: 0;
+    color: #c05a00;
+    font-size: 12px;
+}
+
+/* ── RESPONSIVE ── */
+@media (max-width: 1100px) {
+    .vtc-route-item {
+        grid-template-columns: 40px 1fr 270px;
+    }
+
+    .vtc-packs-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .vtc-intro-box,
+    .vtc-museos-wrap,
+    .vtc-routes,
+    .vtc-section-title,
+    .vtc-packs-section,
+    .vtc-compra-box,
+    .vtc-faq-section,
+    .vtc-info-box {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .vtc-hero-content {
+        padding: 0 20px 12px;
+    }
+
+    .vtc-hero-content h1 {
+        font-size: 36px;
+    }
+
+    .vtc-hero-stats {
+        padding: 12px 20px 36px;
+        gap: 18px;
+    }
+
+    .vtc-stat-num {
+        font-size: 18px;
+    }
+
+    .vtc-intro-box {
+        flex-direction: column;
+        gap: 14px;
+    }
+
+    .vtc-route-item {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+
+    .vtc-route-num {
+        display: none;
+    }
+
+    .vtc-route-text {
+        padding-right: 0;
+    }
+
+    .vtc-route-img {
+        height: 220px;
+        position: static;
+    }
+
+    .vtc-compra-fila {
+        grid-template-columns: 130px 1fr;
+    }
+
+    .vtc-info-list {
+        grid-template-columns: 1fr;
+    }
+
+    .vtc-packs-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .vtc-hero {
+        height: 480px;
+    }
+
+    .vtc-hero-content h1 {
+        font-size: 30px;
+    }
+
+    .vtc-compra-fila {
+        grid-template-columns: 1fr;
+    }
+
+    .vtc-compra-label {
+        border-right: none;
+        border-bottom: 1px solid #e5e5e5;
+        padding-bottom: 6px;
+        padding-top: 14px;
+    }
+
+    .vtc-compra-val {
+        padding-top: 6px;
+        padding-bottom: 14px;
+    }
+}
