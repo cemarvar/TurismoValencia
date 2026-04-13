@@ -1,0 +1,519 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
+
+.playa-page {
+    font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
+    color: #1a1a1a;
+    margin-top: 70px;
+}
+
+/* ── Hero ── */
+.playa-hero {
+    position: relative;
+    height: 560px;
+    background-image: url('/img/img-quever/Playes/hero.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.playa-hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(0,20,50,0.82) 0%, rgba(0,20,50,0.08) 58%, transparent 100%);
+}
+
+.playa-hero-content {
+    position: relative;
+    z-index: 2;
+    padding: 0 48px 20px;
+    color: #fff;
+    max-width: 680px;
+}
+
+.playa-eyebrow {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #7ec8e3;
+    margin-bottom: 12px;
+}
+
+.playa-hero-content h1 {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.02;
+    margin-bottom: 14px;
+    letter-spacing: -0.02em;
+}
+
+.playa-hero-content p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.6;
+    color: rgba(255,255,255,0.85);
+    max-width: 540px;
+}
+
+/* Stats */
+.playa-hero-stats {
+    position: relative;
+    z-index: 2;
+    padding: 18px 48px 44px;
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+.playa-stat {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.playa-stat-num {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1;
+    color: #7ec8e3;
+}
+
+.playa-stat-label {
+    font-size: 11px;
+    font-weight: 300;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.7);
+    margin-top: 3px;
+}
+
+.playa-stat-sep {
+    width: 1px;
+    height: 34px;
+    background: rgba(255,255,255,0.25);
+}
+
+/* ── Intro ── */
+.playa-intro {
+    max-width: 740px;
+    margin: 52px auto;
+    padding: 0 48px;
+}
+
+.playa-intro p {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.75;
+    color: #333;
+    margin-bottom: 18px;
+}
+
+.playa-intro strong {
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+/* ── Chips de servicios ── */
+.playa-servicios-wrap {
+    margin: 0 48px 52px;
+    padding: 28px 32px;
+    background: #e8f4fb;
+    border: 1.5px solid #b8d8ea;
+}
+
+.playa-servicios-titulo {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #003d5c;
+    margin-bottom: 16px;
+}
+
+.playa-servicios-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.playa-servicio-chip {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background: #fff;
+    border: 1px solid #b8d8ea;
+    padding: 6px 12px;
+    border-radius: 2px;
+    font-size: 13px;
+    color: #003d5c;
+    transition: background 0.12s;
+}
+
+.playa-servicio-chip:hover {
+    background: #d0eaf6;
+}
+
+.playa-servicio-icono {
+    font-size: 15px;
+    line-height: 1;
+}
+
+/* ── Section title ── */
+.playa-section-title {
+    padding: 0 48px 32px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.playa-section-title h2 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #1a1a1a;
+    letter-spacing: -0.01em;
+    margin-bottom: 6px;
+}
+
+.playa-section-title p {
+    font-size: 15px;
+    font-weight: 300;
+    color: #777;
+}
+
+/* ── Playas ── */
+.playa-routes {
+    padding: 0 48px;
+}
+
+.playa-route-item {
+    display: grid;
+    grid-template-columns: 56px 1fr 340px;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 52px 0;
+    align-items: start;
+}
+
+.playa-route-num {
+    font-size: 13px;
+    font-weight: 600;
+    color: #bbb;
+    letter-spacing: 0.05em;
+    padding-top: 4px;
+}
+
+.playa-route-text {
+    padding-right: 48px;
+}
+
+.playa-tipo {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #0077aa;
+    margin-bottom: 6px;
+}
+
+.playa-route-text h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 4px;
+    letter-spacing: -0.01em;
+    line-height: 1.2;
+}
+
+.playa-subtitulo {
+    font-size: 13px;
+    font-weight: 300;
+    font-style: italic;
+    color: #888;
+    margin-bottom: 16px;
+    line-height: 1.4;
+}
+
+.playa-desc {
+    font-size: 15px;
+    font-weight: 300;
+    color: #444;
+    line-height: 1.75;
+    margin-bottom: 20px;
+}
+
+.playa-datos-titulo {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #999;
+    margin-bottom: 10px;
+}
+
+.playa-datos {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 16px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.playa-datos li {
+    font-size: 14px;
+    line-height: 1.5;
+    padding-left: 14px;
+    border-left: 2px solid #b8d8ea;
+    color: #444;
+}
+
+.playa-dato-label {
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+.playa-dato-val {
+    font-weight: 300;
+}
+
+/* Tags */
+.playa-tags {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.playa-tag {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #003d5c;
+    border: 1px solid #b8d8ea;
+    background: #e8f4fb;
+    padding: 3px 9px;
+    border-radius: 2px;
+}
+
+/* Imagen */
+.playa-route-img {
+    border-radius: 2px;
+    overflow: hidden;
+    height: 280px;
+    position: sticky;
+    top: 90px;
+}
+
+.playa-route-img-inner {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #003d5c;
+}
+
+/* Imágenes */
+.img-cabanyal   { background-image: url('/img/img-quever/Playes/cabanyal.jpg'); }
+.img-malvarrosa { background-image: url('/img/img-quever/Playes/malvarrosa.jpg'); }
+.img-patacona   { background-image: url('/img/img-quever/Playes/patacona.jpg'); }
+.img-saler      { background-image: url('/img/img-quever/Playes/saler.jpg'); }
+.img-pinedo     { background-image: url('/img/img-quever/Playes/pinedo.jpg'); }
+.img-devesa     { background-image: url('/img/img-quever/Playes/devesa.jpg'); }
+
+/* ── Tabla información práctica ── */
+.playa-info-practica {
+    margin: 52px 48px 0;
+    padding-top: 48px;
+    border-top: 1.5px solid #e5e5e5;
+}
+
+.playa-info-practica h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #1a1a1a;
+    letter-spacing: -0.01em;
+    margin-bottom: 20px;
+}
+
+.playa-tabla {
+    display: flex;
+    flex-direction: column;
+    border: 1.5px solid #e5e5e5;
+    overflow: hidden;
+}
+
+.playa-tabla-fila {
+    display: grid;
+    grid-template-columns: 180px 1fr;
+    border-bottom: 1px solid #e5e5e5;
+    min-height: 44px;
+}
+
+.playa-tabla-fila:last-child {
+    border-bottom: none;
+}
+
+.playa-tabla-fila:nth-child(even) {
+    background: #e8f4fb;
+}
+
+.playa-tabla-label {
+    padding: 12px 20px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #003d5c;
+    border-right: 1px solid #e5e5e5;
+    display: flex;
+    align-items: center;
+}
+
+.playa-tabla-val {
+    padding: 12px 20px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #333;
+    line-height: 1.55;
+    display: flex;
+    align-items: center;
+}
+
+/* ── Info box ── */
+.playa-info-box {
+    margin: 32px 48px 60px;
+    border: 1.5px solid #003d5c;
+    padding: 32px 36px;
+    background: #e8f4fb;
+}
+
+.playa-info-box h3 {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    color: #003d5c;
+}
+
+.playa-info-list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px 32px;
+}
+
+.playa-info-list li {
+    font-size: 14px;
+    font-weight: 300;
+    color: #444;
+    padding-left: 16px;
+    position: relative;
+    line-height: 1.5;
+}
+
+.playa-info-list li strong {
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+.playa-info-list li::before {
+    content: '—';
+    position: absolute;
+    left: 0;
+    color: #0077aa;
+    font-size: 12px;
+}
+
+/* ── RESPONSIVE ── */
+@media (max-width: 1100px) {
+    .playa-route-item {
+        grid-template-columns: 40px 1fr 270px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .playa-intro,
+    .playa-routes,
+    .playa-section-title,
+    .playa-servicios-wrap,
+    .playa-info-practica,
+    .playa-info-box {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .playa-hero-content {
+        padding: 0 20px 12px;
+    }
+
+    .playa-hero-content h1 {
+        font-size: 36px;
+    }
+
+    .playa-hero-stats {
+        padding: 12px 20px 36px;
+        gap: 16px;
+    }
+
+    .playa-stat-num {
+        font-size: 18px;
+    }
+
+    .playa-route-item {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+
+    .playa-route-num {
+        display: none;
+    }
+
+    .playa-route-text {
+        padding-right: 0;
+    }
+
+    .playa-route-img {
+        height: 220px;
+        position: static;
+    }
+
+    .playa-tabla-fila {
+        grid-template-columns: 140px 1fr;
+    }
+
+    .playa-info-list {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .playa-hero {
+        height: 480px;
+    }
+
+    .playa-hero-content h1 {
+        font-size: 30px;
+    }
+
+    .playa-tabla-fila {
+        grid-template-columns: 1fr;
+    }
+
+    .playa-tabla-label {
+        border-right: none;
+        border-bottom: 1px solid #e5e5e5;
+        padding-bottom: 6px;
+        padding-top: 14px;
+    }
+
+    .playa-tabla-val {
+        padding-top: 6px;
+        padding-bottom: 14px;
+    }
+}

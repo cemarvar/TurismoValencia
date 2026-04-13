@@ -1,0 +1,480 @@
+    @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
+
+.vr-page {
+    font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
+    color: #1a1a1a;
+    margin-top: 70px;
+}
+
+/* ── Hero ── */
+.vr-hero {
+    position: relative;
+    min-height: 480px;
+    background-image: url('public/img/img-sostenible/viaje_responsable.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.vr-hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(0,0,0,0.80) 0%, rgba(0,0,0,0.2) 60%, transparent 100%);
+}
+
+.vr-hero-content {
+    position: relative;
+    z-index: 2;
+    padding: 0 48px 24px;
+    color: #fff;
+    max-width: 680px;
+}
+
+.vr-eyebrow {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #a8d5a2;
+    margin-bottom: 12px;
+}
+
+.vr-hero-content h1 {
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 1.05;
+    margin-bottom: 14px;
+    letter-spacing: -0.02em;
+}
+
+.vr-hero-content p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.6;
+    color: rgba(255,255,255,0.85);
+    max-width: 540px;
+}
+
+/* Cita */
+.vr-hero-cita {
+    position: relative;
+    z-index: 2;
+    padding: 20px 48px 44px;
+}
+
+.vr-hero-cita blockquote {
+    font-size: 15px;
+    font-weight: 300;
+    font-style: italic;
+    color: rgba(255,255,255,0.75);
+    border-left: 3px solid #a8d5a2;
+    padding-left: 20px;
+    margin: 0;
+    max-width: 520px;
+    line-height: 1.65;
+}
+
+.vr-hero-cita cite {
+    display: block;
+    font-size: 12px;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #a8d5a2;
+    margin-top: 8px;
+}
+
+/* ── Intro ── */
+.vr-intro {
+    max-width: 740px;
+    margin: 52px auto;
+    padding: 0 48px;
+}
+
+.vr-intro p {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.75;
+    color: #333;
+}
+
+/* ── Manifiesto ── */
+.vr-manifiesto-section {
+    background: #1a2a4a;
+    padding: 40px 48px;
+}
+
+.vr-manifiesto-titulo {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #a8d5a2;
+    margin-bottom: 20px;
+}
+
+.vr-manifiesto-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1px;
+    background: rgba(255,255,255,0.08);
+}
+
+.vr-manifiesto-item {
+    background: rgba(255,255,255,0.05);
+    padding: 18px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-start;
+    transition: background 0.15s;
+}
+
+.vr-manifiesto-item:hover {
+    background: rgba(255,255,255,0.12);
+}
+
+.vr-manifiesto-icono {
+    font-size: 20px;
+    line-height: 1;
+}
+
+.vr-manifiesto-texto {
+    font-size: 13px;
+    font-weight: 300;
+    color: rgba(255,255,255,0.85);
+    line-height: 1.45;
+}
+
+/* ── Section header ── */
+.vr-section-header {
+    padding: 52px 48px 28px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.vr-section-header h2 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #1a1a1a;
+    letter-spacing: -0.01em;
+    margin-bottom: 6px;
+}
+
+.vr-section-header p {
+    font-size: 15px;
+    font-weight: 300;
+    color: #777;
+}
+
+/* ── Compromisos ── */
+.vr-compromisos {
+    padding: 0 48px;
+}
+
+.vr-compromiso-item {
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 44px 0;
+    align-items: start;
+    gap: 40px;
+}
+
+/* Columna lateral izquierda */
+.vr-compromiso-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 8px;
+    padding-top: 4px;
+    border-right: 1px solid #f0f0f0;
+    padding-right: 20px;
+    align-self: stretch;
+    justify-content: flex-start;
+    padding-top: 8px;
+}
+
+.vr-compromiso-num {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1;
+    color: #e8e8e8;
+    letter-spacing: -0.02em;
+}
+
+.vr-compromiso-icono {
+    font-size: 28px;
+    line-height: 1;
+}
+
+.vr-compromiso-area {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #aaa;
+    line-height: 1.3;
+}
+
+/* Color por área */
+.vr-color-azul .vr-compromiso-num    { color: #cce0f5; }
+.vr-color-azul .vr-compromiso-area   { color: #1565c0; }
+.vr-color-verde .vr-compromiso-num   { color: #c8ddc8; }
+.vr-color-verde .vr-compromiso-area  { color: #2d6a2d; }
+.vr-color-naranja .vr-compromiso-num { color: #fde8c8; }
+.vr-color-naranja .vr-compromiso-area { color: #c0392b; }
+
+/* Body del compromiso */
+.vr-compromiso-body h2 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 12px;
+    letter-spacing: -0.01em;
+    line-height: 1.2;
+}
+
+.vr-desc {
+    font-size: 15px;
+    font-weight: 300;
+    color: #444;
+    line-height: 1.75;
+    margin-bottom: 20px;
+    max-width: 720px;
+}
+
+/* Acciones */
+.vr-acciones-titulo {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #999;
+    margin-bottom: 10px;
+}
+
+.vr-acciones {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px 20px;
+}
+
+.vr-acciones li {
+    font-size: 14px;
+    font-weight: 300;
+    color: #444;
+    line-height: 1.5;
+    display: flex;
+    gap: 8px;
+    align-items: flex-start;
+}
+
+.vr-check {
+    color: #2d6a2d;
+    font-weight: 700;
+    font-size: 14px;
+    flex-shrink: 0;
+    margin-top: 1px;
+}
+
+/* Color del check por área */
+.vr-color-azul    .vr-check { color: #1565c0; }
+.vr-color-verde   .vr-check { color: #2d6a2d; }
+.vr-color-naranja .vr-check { color: #c0392b; }
+
+/* ── Caja emergencia 112 ── */
+.vr-emergencia-box {
+    margin: 52px 48px 0;
+    background: #1a2a4a;
+    padding: 28px 32px;
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.vr-emergencia-icono {
+    font-size: 36px;
+    flex-shrink: 0;
+}
+
+.vr-emergencia-content {
+    flex: 1;
+}
+
+.vr-emergencia-titulo {
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 8px;
+}
+
+.vr-emergencia-desc {
+    font-size: 14px;
+    font-weight: 300;
+    color: rgba(255,255,255,0.8);
+    line-height: 1.6;
+    margin: 0;
+}
+
+.vr-emergencia-desc strong {
+    color: #fff;
+    font-weight: 700;
+}
+
+.vr-emergencia-num {
+    font-size: 48px;
+    font-weight: 700;
+    color: #a8d5a2;
+    letter-spacing: -0.02em;
+    flex-shrink: 0;
+    line-height: 1;
+}
+
+/* ── Info box ── */
+.vr-info-box {
+    margin: 32px 48px 60px;
+    border: 1.5px solid #2d6a2d;
+    padding: 32px 36px;
+    background: #f0f7ee;
+}
+
+.vr-info-box h3 {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    color: #1a3a1a;
+}
+
+.vr-info-list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px 32px;
+}
+
+.vr-info-list li {
+    font-size: 14px;
+    font-weight: 300;
+    color: #444;
+    padding-left: 16px;
+    position: relative;
+    line-height: 1.5;
+}
+
+.vr-info-list li strong {
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+.vr-info-list li::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: #2d6a2d;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+/* ── RESPONSIVE ── */
+@media (max-width: 1100px) {
+    .vr-manifiesto-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+
+    .vr-intro,
+    .vr-compromisos,
+    .vr-section-header {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .vr-hero-content {
+        padding: 0 20px 16px;
+    }
+
+    .vr-hero-cita {
+        padding: 12px 20px 36px;
+    }
+
+    .vr-hero-content h1 {
+        font-size: 34px;
+    }
+
+    .vr-manifiesto-section {
+        padding: 32px 20px;
+    }
+
+    .vr-manifiesto-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .vr-compromiso-item {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+
+    .vr-compromiso-left {
+        flex-direction: row;
+        align-items: center;
+        text-align: left;
+        border-right: none;
+        border-bottom: 1px solid #f0f0f0;
+        padding-right: 0;
+        padding-bottom: 12px;
+        gap: 16px;
+    }
+
+    .vr-compromiso-num {
+        font-size: 28px;
+    }
+
+    .vr-acciones {
+        grid-template-columns: 1fr;
+    }
+
+    .vr-emergencia-box {
+        margin: 32px 20px 0;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .vr-info-box {
+        margin: 28px 20px 52px;
+    }
+
+    .vr-info-list {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .vr-hero {
+        min-height: 400px;
+    }
+
+    .vr-hero-content h1 {
+        font-size: 28px;
+    }
+
+    .vr-manifiesto-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .vr-emergencia-num {
+        font-size: 36px;
+    }
+}   

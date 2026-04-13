@@ -1,0 +1,514 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
+
+.cac-page {
+    font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
+    color: #1a1a1a;
+    margin-top: 70px;
+}
+
+/* ── Hero ── */
+.cac-hero {
+    position: relative;
+    height: 560px;
+    background-image: url('/img/img-alojamientos/CiudadArtesCiencias/hero.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.cac-hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(0,10,25,0.86) 0%, rgba(0,10,25,0.12) 60%, transparent 100%);
+}
+
+.cac-hero-content {
+    position: relative;
+    z-index: 2;
+    padding: 0 48px 20px;
+    color: #fff;
+    max-width: 680px;
+}
+
+.cac-eyebrow {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #60c8e8;
+    margin-bottom: 12px;
+}
+
+.cac-hero-content h1 {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.0;
+    margin-bottom: 14px;
+    letter-spacing: -0.02em;
+}
+
+.cac-hero-content p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.6;
+    color: rgba(255,255,255,0.88);
+    max-width: 540px;
+}
+
+/* Stats */
+.cac-hero-stats {
+    position: relative;
+    z-index: 2;
+    padding: 18px 48px 44px;
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+.cac-stat {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.cac-stat-num {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1;
+    color: #60c8e8;
+}
+
+.cac-stat-label {
+    font-size: 11px;
+    font-weight: 300;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.7);
+    margin-top: 3px;
+}
+
+.cac-stat-sep {
+    width: 1px;
+    height: 34px;
+    background: rgba(255,255,255,0.25);
+}
+
+/* ── Intro box ── */
+.cac-intro-box {
+    margin: 0 48px;
+    background: #040e1e;
+    padding: 28px 32px;
+    display: flex;
+    gap: 24px;
+    align-items: flex-start;
+}
+
+.cac-intro-icono {
+    font-size: 32px;
+    flex-shrink: 0;
+}
+
+.cac-intro-titulo {
+    font-size: 15px;
+    font-weight: 700;
+    color: #60c8e8;
+    margin-bottom: 10px;
+}
+
+.cac-intro-content p {
+    font-size: 14px;
+    font-weight: 300;
+    color: rgba(255,255,255,0.85);
+    line-height: 1.65;
+    margin: 0;
+}
+
+.cac-intro-content strong {
+    font-weight: 600;
+    color: #fff;
+}
+
+/* ── Intro ── */
+.cac-intro {
+    max-width: 740px;
+    margin: 52px auto;
+    padding: 0 48px;
+}
+
+.cac-intro p {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.75;
+    color: #333;
+    margin-bottom: 18px;
+}
+
+.cac-intro strong {
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+/* ── Section title ── */
+.cac-section-title {
+    padding: 0 48px 32px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.cac-section-title h2 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #1a1a1a;
+    letter-spacing: -0.01em;
+    margin-bottom: 6px;
+}
+
+.cac-section-title p {
+    font-size: 15px;
+    font-weight: 300;
+    color: #777;
+}
+
+/* ── Hoteles ── */
+.cac-routes {
+    padding: 0 48px;
+}
+
+.cac-route-item {
+    display: grid;
+    grid-template-columns: 56px 1fr 340px;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 52px 0;
+    align-items: start;
+}
+
+.cac-route-num {
+    font-size: 13px;
+    font-weight: 600;
+    color: #bbb;
+    letter-spacing: 0.05em;
+    padding-top: 4px;
+}
+
+.cac-route-text {
+    padding-right: 48px;
+}
+
+.cac-tipo {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #1870a0;
+    margin-bottom: 6px;
+}
+
+.cac-route-text h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 4px;
+    letter-spacing: -0.01em;
+    line-height: 1.2;
+}
+
+.cac-subtitulo {
+    font-size: 13px;
+    font-weight: 300;
+    font-style: italic;
+    color: #888;
+    margin-bottom: 16px;
+    line-height: 1.4;
+}
+
+.cac-desc {
+    font-size: 15px;
+    font-weight: 300;
+    color: #444;
+    line-height: 1.75;
+    margin-bottom: 20px;
+}
+
+.cac-datos-titulo {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #999;
+    margin-bottom: 10px;
+}
+
+.cac-datos {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 16px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.cac-datos li {
+    font-size: 14px;
+    line-height: 1.5;
+    padding-left: 14px;
+    border-left: 2px solid #7dd4f0;
+    color: #444;
+}
+
+.cac-dato-label {
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+.cac-dato-val {
+    font-weight: 300;
+}
+
+/* Tags */
+.cac-tags {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.cac-tag {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #10567a;
+    border: 1px solid #7dd4f0;
+    background: #edf8fd;
+    padding: 3px 9px;
+    border-radius: 2px;
+}
+
+/* Imagen */
+.cac-route-img {
+    border-radius: 2px;
+    overflow: hidden;
+    height: 280px;
+    position: sticky;
+    top: 90px;
+}
+
+.cac-route-img-inner {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #040e1e;
+}
+
+/* Imágenes — rutas en /img/img-alojamientos/CiudadArtesCiencias/ */
+.img-reydonjaime { background-image: url('/img/img-alojamientos/CiudadArtesCiencias/reydonjaime.jpg'); }
+.img-primus      { background-image: url('/img/img-alojamientos/CiudadArtesCiencias/primus.jpg'); }
+.img-ilunion     { background-image: url('/img/img-alojamientos/CiudadArtesCiencias/ilunion.jpg'); }
+.img-barcelo     { background-image: url('/img/img-alojamientos/CiudadArtesCiencias/barcelo.jpg'); }
+
+/* ── Tabla información práctica ── */
+.cac-info-practica {
+    margin: 52px 48px 0;
+    padding-top: 48px;
+    border-top: 1.5px solid #e5e5e5;
+}
+
+.cac-info-practica h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #1a1a1a;
+    letter-spacing: -0.01em;
+    margin-bottom: 20px;
+}
+
+.cac-tabla {
+    display: flex;
+    flex-direction: column;
+    border: 1.5px solid #e5e5e5;
+    overflow: hidden;
+}
+
+.cac-tabla-fila {
+    display: grid;
+    grid-template-columns: 180px 1fr;
+    border-bottom: 1px solid #e5e5e5;
+    min-height: 44px;
+}
+
+.cac-tabla-fila:last-child {
+    border-bottom: none;
+}
+
+.cac-tabla-fila:nth-child(even) {
+    background: #edf8fd;
+}
+
+.cac-tabla-label {
+    padding: 12px 20px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #10567a;
+    border-right: 1px solid #e5e5e5;
+    display: flex;
+    align-items: center;
+}
+
+.cac-tabla-val {
+    padding: 12px 20px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #333;
+    line-height: 1.55;
+    display: flex;
+    align-items: center;
+}
+
+/* ── Info box ── */
+.cac-info-box {
+    margin: 32px 48px 60px;
+    border: 1.5px solid #1870a0;
+    padding: 32px 36px;
+    background: #edf8fd;
+}
+
+.cac-info-box h3 {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    color: #10567a;
+}
+
+.cac-info-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px 32px;
+}
+
+.cac-info-list li {
+    font-size: 14px;
+    font-weight: 300;
+    color: #444;
+    padding-left: 16px;
+    position: relative;
+    line-height: 1.5;
+}
+
+.cac-info-list li strong {
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+.cac-info-list li::before {
+    content: '—';
+    position: absolute;
+    left: 0;
+    color: #1870a0;
+    font-size: 12px;
+}
+
+/* ── RESPONSIVE ── */
+@media (max-width: 1100px) {
+    .cac-route-item {
+        grid-template-columns: 40px 1fr 270px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .cac-intro,
+    .cac-routes,
+    .cac-section-title,
+    .cac-intro-box,
+    .cac-info-practica,
+    .cac-info-box {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .cac-hero-content {
+        padding: 0 20px 12px;
+    }
+
+    .cac-hero-content h1 {
+        font-size: 36px;
+    }
+
+    .cac-hero-stats {
+        padding: 12px 20px 36px;
+        gap: 18px;
+    }
+
+    .cac-stat-num {
+        font-size: 18px;
+    }
+
+    .cac-intro-box {
+        flex-direction: column;
+        gap: 14px;
+    }
+
+    .cac-route-item {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+
+    .cac-route-num {
+        display: none;
+    }
+
+    .cac-route-text {
+        padding-right: 0;
+    }
+
+    .cac-route-img {
+        height: 220px;
+        position: static;
+    }
+
+    .cac-tabla-fila {
+        grid-template-columns: 140px 1fr;
+    }
+
+    .cac-info-list {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .cac-hero {
+        height: 480px;
+    }
+
+    .cac-hero-content h1 {
+        font-size: 30px;
+    }
+
+    .cac-tabla-fila {
+        grid-template-columns: 1fr;
+    }
+
+    .cac-tabla-label {
+        border-right: none;
+        border-bottom: 1px solid #e5e5e5;
+        padding-bottom: 6px;
+        padding-top: 14px;
+    }
+
+    .cac-tabla-val {
+        padding-top: 6px;
+        padding-bottom: 14px;
+    }
+}

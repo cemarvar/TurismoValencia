@@ -1,0 +1,513 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
+
+.fal-page {
+    font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
+    color: #1a1a1a;
+    margin-top: 70px;
+}
+
+/* ── Hero ── */
+.fal-hero {
+    position: relative;
+    height: 560px;
+    background-image: url('/img/img-eventos/fallas/hero.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: #200800;
+}
+
+.fal-hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(15,5,0,0.88) 0%, rgba(15,5,0,0.05) 60%, transparent 100%);
+}
+
+.fal-hero-content {
+    position: relative;
+    z-index: 2;
+    padding: 0 48px 20px;
+    color: #fff;
+    max-width: 680px;
+}
+
+.fal-eyebrow {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #f0c040;
+    margin-bottom: 12px;
+}
+
+.fal-hero-content h1 {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.0;
+    margin-bottom: 14px;
+    letter-spacing: -0.02em;
+}
+
+.fal-hero-content p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.6;
+    color: rgba(255,255,255,0.88);
+    max-width: 540px;
+}
+
+/* Stats */
+.fal-hero-stats {
+    position: relative;
+    z-index: 2;
+    padding: 18px 48px 44px;
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+.fal-stat {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.fal-stat-num {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1;
+    color: #f0c040;
+}
+
+.fal-stat-label {
+    font-size: 11px;
+    font-weight: 300;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.7);
+    margin-top: 3px;
+}
+
+.fal-stat-sep {
+    width: 1px;
+    height: 34px;
+    background: rgba(255,255,255,0.25);
+}
+
+/* ── Historia box ── */
+.fal-historia-box {
+    margin: 0 48px;
+    background: #1a0a00;
+    border-top: 3px solid #eb5a00;
+    padding: 28px 32px;
+    display: flex;
+    gap: 24px;
+    align-items: flex-start;
+}
+
+.fal-historia-icono {
+    font-size: 32px;
+    flex-shrink: 0;
+}
+
+.fal-historia-titulo {
+    font-size: 15px;
+    font-weight: 700;
+    color: #f0c040;
+    margin-bottom: 10px;
+}
+
+.fal-historia-content p {
+    font-size: 14px;
+    font-weight: 300;
+    color: rgba(255,255,255,0.85);
+    line-height: 1.65;
+    margin: 0;
+}
+
+.fal-historia-content strong {
+    font-weight: 600;
+    color: #fff;
+}
+
+/* ── Intro ── */
+.fal-intro {
+    max-width: 740px;
+    margin: 52px auto;
+    padding: 0 48px;
+}
+
+.fal-intro p {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.75;
+    color: #333;
+    margin-bottom: 18px;
+}
+
+.fal-intro strong {
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+/* ── Section title ── */
+.fal-section-title {
+    padding: 0 48px 32px;
+    border-bottom: 2px solid #eb5a00;
+}
+
+.fal-section-title h2 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #1a1a1a;
+    letter-spacing: -0.01em;
+    margin-bottom: 6px;
+}
+
+.fal-section-title p {
+    font-size: 15px;
+    font-weight: 300;
+    color: #777;
+}
+
+/* ── Actos ── */
+.fal-routes {
+    padding: 0 48px;
+}
+
+.fal-route-item {
+    display: grid;
+    grid-template-columns: 56px 1fr 340px;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 52px 0;
+    align-items: start;
+}
+
+.fal-route-num {
+    font-size: 13px;
+    font-weight: 600;
+    color: #bbb;
+    letter-spacing: 0.05em;
+    padding-top: 4px;
+}
+
+.fal-route-text {
+    padding-right: 48px;
+}
+
+/* Badge de fecha */
+.fal-fecha-badge {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #fff;
+    background: #eb5a00;
+    padding: 3px 10px;
+    margin-bottom: 10px;
+    border-radius: 2px;
+}
+
+.fal-route-text h2 {
+    font-size: 26px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 4px;
+    letter-spacing: -0.01em;
+    line-height: 1.15;
+}
+
+.fal-subtitulo {
+    font-size: 13px;
+    font-weight: 300;
+    font-style: italic;
+    color: #888;
+    margin-bottom: 16px;
+    line-height: 1.4;
+}
+
+.fal-desc {
+    font-size: 15px;
+    font-weight: 300;
+    color: #444;
+    line-height: 1.75;
+    margin-bottom: 18px;
+}
+
+/* Caja de dato con pin */
+.fal-dato-box {
+    font-size: 13px;
+    font-weight: 600;
+    color: #7a3000;
+    background: #fff4ec;
+    border-left: 3px solid #eb5a00;
+    padding: 9px 13px;
+    margin-bottom: 14px;
+    display: flex;
+    gap: 8px;
+    align-items: flex-start;
+    line-height: 1.5;
+}
+
+.fal-dato-icon {
+    flex-shrink: 0;
+}
+
+/* Tags */
+.fal-tags {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.fal-tag {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #555;
+    border: 1px solid #ddd;
+    background: #f5f5f5;
+    padding: 3px 9px;
+    border-radius: 2px;
+}
+
+.fal-tag.free {
+    color: #1b5e20;
+    background: #e8f5e9;
+    border-color: #66bb6a;
+    font-weight: 700;
+}
+
+/* Imagen */
+.fal-route-img {
+    border-radius: 2px;
+    overflow: hidden;
+    height: 280px;
+    position: sticky;
+    top: 90px;
+}
+
+.fal-route-img-inner {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #200800;
+}
+
+/* Imágenes */
+.img-crida   { background-image: url('/img/img-eventos/fallas/crida.jpg'); }
+.img-mascletà { background-image: url('/img/img-eventos/fallas/mascletà.jpg'); }
+.img-plantà  { background-image: url('/img/img-eventos/fallas/plantà.jpg'); }
+.img-ninot   { background-image: url('/img/img-eventos/fallas/ninot.jpg'); }
+.img-ofrenda { background-image: url('/img/img-eventos/fallas/ofrenda.jpg'); }
+.img-foc     { background-image: url('/img/img-eventos/fallas/foc.jpg'); }
+.img-cremà   { background-image: url('/img/img-eventos/fallas/cremà.jpg'); }
+
+/* ── Tabla datos útiles ── */
+.fal-info-practica {
+    margin: 52px 48px 0;
+    padding-top: 48px;
+    border-top: 1.5px solid #e5e5e5;
+}
+
+.fal-info-practica h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #1a1a1a;
+    letter-spacing: -0.01em;
+    margin-bottom: 20px;
+}
+
+.fal-tabla {
+    display: flex;
+    flex-direction: column;
+    border: 1.5px solid #e5e5e5;
+    overflow: hidden;
+}
+
+.fal-tabla-fila {
+    display: grid;
+    grid-template-columns: 180px 1fr;
+    border-bottom: 1px solid #e5e5e5;
+    min-height: 44px;
+}
+
+.fal-tabla-fila:last-child {
+    border-bottom: none;
+}
+
+.fal-tabla-fila:nth-child(even) {
+    background: #fff4ec;
+}
+
+.fal-tabla-label {
+    padding: 12px 20px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #7a3000;
+    border-right: 1px solid #e5e5e5;
+    display: flex;
+    align-items: center;
+}
+
+.fal-tabla-val {
+    padding: 12px 20px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #333;
+    line-height: 1.55;
+    display: flex;
+    align-items: center;
+}
+
+/* ── Info box ── */
+.fal-info-box {
+    margin: 32px 48px 60px;
+    border: 1.5px solid #eb5a00;
+    padding: 32px 36px;
+    background: #fff4ec;
+}
+
+.fal-info-box h3 {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    color: #7a3000;
+}
+
+.fal-info-list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px 32px;
+}
+
+.fal-info-list li {
+    font-size: 14px;
+    font-weight: 300;
+    color: #444;
+    padding-left: 16px;
+    position: relative;
+    line-height: 1.5;
+}
+
+.fal-info-list li strong {
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+.fal-info-list li::before {
+    content: '🔥';
+    position: absolute;
+    left: 0;
+    font-size: 11px;
+    top: 2px;
+}
+
+/* ── RESPONSIVE ── */
+@media (max-width: 1100px) {
+    .fal-route-item {
+        grid-template-columns: 40px 1fr 270px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .fal-intro,
+    .fal-routes,
+    .fal-section-title,
+    .fal-historia-box,
+    .fal-info-practica,
+    .fal-info-box {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .fal-hero-content {
+        padding: 0 20px 12px;
+    }
+
+    .fal-hero-content h1 {
+        font-size: 36px;
+    }
+
+    .fal-hero-stats {
+        padding: 12px 20px 36px;
+        gap: 18px;
+    }
+
+    .fal-stat-num {
+        font-size: 20px;
+    }
+
+    .fal-historia-box {
+        flex-direction: column;
+        gap: 14px;
+    }
+
+    .fal-route-item {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+
+    .fal-route-num {
+        display: none;
+    }
+
+    .fal-route-text {
+        padding-right: 0;
+    }
+
+    .fal-route-img {
+        height: 220px;
+        position: static;
+    }
+
+    .fal-tabla-fila {
+        grid-template-columns: 130px 1fr;
+    }
+
+    .fal-info-list {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .fal-hero {
+        height: 480px;
+    }
+
+    .fal-hero-content h1 {
+        font-size: 30px;
+    }
+
+    .fal-tabla-fila {
+        grid-template-columns: 1fr;
+    }
+
+    .fal-tabla-label {
+        border-right: none;
+        border-bottom: 1px solid #e5e5e5;
+        padding-bottom: 6px;
+        padding-top: 14px;
+    }
+
+    .fal-tabla-val {
+        padding-top: 6px;
+        padding-bottom: 14px;
+    }
+}

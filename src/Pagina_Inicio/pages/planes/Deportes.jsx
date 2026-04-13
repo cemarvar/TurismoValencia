@@ -259,7 +259,6 @@ export default function Deportes() {
                 ))}
               </div>
 
-              <a className="dep-link" href="#">Ver más →</a>
             </div>
 
             <div className="dep-route-img">

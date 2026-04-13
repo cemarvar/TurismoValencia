@@ -1,0 +1,603 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
+
+.esg-page {
+    font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
+    color: #1a1a1a;
+    margin-top: 70px;
+}
+
+/* ── Hero ── */
+.esg-hero {
+    position: relative;
+    height: 500px;
+    background-image: url('/img/img-gastronomia/esgarraet/hero.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: #2a0a00;
+}
+
+.esg-hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(20,4,0,0.90) 0%, rgba(20,4,0,0.06) 60%, transparent 100%);
+}
+
+.esg-hero-content {
+    position: relative;
+    z-index: 2;
+    padding: 0 48px 20px;
+    color: #fff;
+    max-width: 680px;
+}
+
+.esg-eyebrow {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #f08060;
+    margin-bottom: 12px;
+}
+
+.esg-hero-content h1 {
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 1.05;
+    margin-bottom: 14px;
+    letter-spacing: -0.02em;
+}
+
+.esg-hero-content p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.6;
+    color: rgba(255,255,255,0.88);
+    max-width: 540px;
+}
+
+/* Stats */
+.esg-hero-stats {
+    position: relative;
+    z-index: 2;
+    padding: 18px 48px 44px;
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+.esg-stat {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.esg-stat-num {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1;
+    color: #f08060;
+}
+
+.esg-stat-label {
+    font-size: 11px;
+    font-weight: 300;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.7);
+    margin-top: 3px;
+}
+
+.esg-stat-sep {
+    width: 1px;
+    height: 34px;
+    background: rgba(255,255,255,0.25);
+}
+
+/* ── Historia box ── */
+.esg-historia-box {
+    margin: 0 48px;
+    background: #1e0400;
+    border-top: 3px solid #c02800;
+    padding: 28px 32px;
+    display: flex;
+    gap: 24px;
+    align-items: flex-start;
+}
+
+.esg-historia-icono {
+    font-size: 32px;
+    flex-shrink: 0;
+}
+
+.esg-historia-titulo {
+    font-size: 15px;
+    font-weight: 700;
+    color: #f08060;
+    margin-bottom: 10px;
+}
+
+.esg-historia-content p {
+    font-size: 14px;
+    font-weight: 300;
+    color: rgba(255,255,255,0.85);
+    line-height: 1.65;
+    margin: 0;
+}
+
+.esg-historia-content strong {
+    font-weight: 600;
+    color: #fff;
+}
+
+.esg-historia-content em {
+    font-style: italic;
+    color: #f08060;
+}
+
+/* ── Ingredientes ── */
+.esg-ingredientes-wrap {
+    margin: 0 48px 52px;
+    padding: 28px 32px;
+    background: #fff8f5;
+    border: 1.5px solid #f08060;
+}
+
+.esg-ingredientes-titulo {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #8a1a00;
+    margin-bottom: 18px;
+}
+
+.esg-ingredientes-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1px;
+    background: #f08060;
+    border: 1px solid #f08060;
+}
+
+.esg-ing-card {
+    background: #fff;
+    padding: 16px 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    transition: background 0.1s;
+}
+
+.esg-ing-card:hover {
+    background: #fff8f5;
+}
+
+.esg-ing-icono {
+    font-size: 22px;
+    line-height: 1;
+    margin-bottom: 4px;
+}
+
+.esg-ing-nombre {
+    font-size: 13px;
+    font-weight: 700;
+    color: #1a1a1a;
+    line-height: 1.3;
+}
+
+.esg-ing-desc {
+    font-size: 12px;
+    font-weight: 300;
+    color: #777;
+    line-height: 1.4;
+}
+
+/* ── Intro ── */
+.esg-intro {
+    max-width: 740px;
+    margin: 52px auto;
+    padding: 0 48px;
+}
+
+.esg-intro p {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.75;
+    color: #333;
+    margin-bottom: 18px;
+}
+
+.esg-intro strong {
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+/* ── Section title ── */
+.esg-section-title {
+    padding: 0 48px 32px;
+    border-bottom: 2px solid #c02800;
+}
+
+.esg-section-title h2 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #1a1a1a;
+    letter-spacing: -0.01em;
+    margin-bottom: 6px;
+}
+
+.esg-section-title p {
+    font-size: 15px;
+    font-weight: 300;
+    color: #777;
+}
+
+/* ── Secciones ── */
+.esg-routes {
+    padding: 0 48px;
+}
+
+.esg-route-item {
+    display: grid;
+    grid-template-columns: 56px 1fr 340px;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 52px 0;
+    align-items: start;
+}
+
+.esg-route-num {
+    font-size: 13px;
+    font-weight: 600;
+    color: #bbb;
+    letter-spacing: 0.05em;
+    padding-top: 4px;
+}
+
+.esg-route-text {
+    padding-right: 48px;
+}
+
+.esg-route-text h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 4px;
+    letter-spacing: -0.01em;
+    line-height: 1.2;
+}
+
+.esg-subtitulo {
+    font-size: 13px;
+    font-weight: 300;
+    font-style: italic;
+    color: #888;
+    margin-bottom: 16px;
+    line-height: 1.4;
+}
+
+.esg-desc {
+    font-size: 15px;
+    font-weight: 300;
+    color: #444;
+    line-height: 1.75;
+    margin-bottom: 18px;
+}
+
+/* Dato box */
+.esg-dato-box {
+    font-size: 13px;
+    font-weight: 600;
+    color: #8a1a00;
+    background: #fff8f5;
+    border-left: 3px solid #c02800;
+    padding: 9px 13px;
+    margin-bottom: 14px;
+    display: flex;
+    gap: 8px;
+    align-items: flex-start;
+    line-height: 1.5;
+}
+
+.esg-dato-icon {
+    flex-shrink: 0;
+}
+
+/* Tags */
+.esg-tags {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.esg-tag {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #8a1a00;
+    border: 1px solid #f08060;
+    background: #fff8f5;
+    padding: 3px 9px;
+    border-radius: 2px;
+}
+
+/* Imagen */
+.esg-route-img {
+    border-radius: 2px;
+    overflow: hidden;
+    height: 270px;
+    position: sticky;
+    top: 90px;
+}
+
+.esg-route-img-inner {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #2a0a00;
+}
+
+/* Imágenes */
+.img-plato     { background-image: url('/img/img-gastronomia/esgarraet/plato.jpg'); }
+.img-bacalao   { background-image: url('/img/img-gastronomia/esgarraet/bacalao.jpg'); }
+.img-tecnica   { background-image: url('/img/img-gastronomia/esgarraet/tecnica.jpg'); }
+.img-sucar     { background-image: url('/img/img-gastronomia/esgarraet/sucar.jpg'); }
+.img-variantes { background-image: url('/img/img-gastronomia/esgarraet/variantes.jpg'); }
+
+/* ── Claves ── */
+.esg-claves-wrap {
+    margin: 52px 48px 0;
+    padding: 28px 36px;
+    border: 1.5px solid #e5e5e5;
+    background: #fdf9f7;
+}
+
+.esg-claves-wrap h3 {
+    font-size: 17px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 20px;
+    letter-spacing: -0.01em;
+}
+
+.esg-claves-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px 32px;
+}
+
+.esg-clave-item {
+    display: flex;
+    gap: 14px;
+    align-items: flex-start;
+}
+
+.esg-clave-num {
+    font-size: 24px;
+    font-weight: 700;
+    color: #f08060;
+    line-height: 1;
+    flex-shrink: 0;
+    min-width: 32px;
+}
+
+.esg-clave-titulo {
+    font-size: 14px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 3px;
+}
+
+.esg-clave-desc {
+    font-size: 13px;
+    font-weight: 300;
+    color: #555;
+    line-height: 1.5;
+}
+
+/* ── Dónde comerlo ── */
+.esg-donde-wrap {
+    margin: 32px 48px 0;
+}
+
+.esg-donde-wrap h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #1a1a1a;
+    letter-spacing: -0.01em;
+    margin-bottom: 20px;
+    padding-top: 32px;
+    border-top: 1.5px solid #e5e5e5;
+}
+
+.esg-donde-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1px;
+    background: #e5e5e5;
+    border: 1.5px solid #e5e5e5;
+    overflow: hidden;
+}
+
+.esg-donde-card {
+    background: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    transition: background 0.1s;
+}
+
+.esg-donde-card:hover {
+    background: #fff8f5;
+}
+
+.esg-donde-icono {
+    font-size: 24px;
+    line-height: 1;
+}
+
+.esg-donde-titulo {
+    font-size: 14px;
+    font-weight: 700;
+    color: #c02800;
+    line-height: 1.3;
+}
+
+.esg-donde-desc {
+    font-size: 13px;
+    font-weight: 300;
+    color: #555;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* ── Info box ── */
+.esg-info-box {
+    margin: 32px 48px 60px;
+    border: 1.5px solid #c02800;
+    padding: 32px 36px;
+    background: #fff8f5;
+}
+
+.esg-info-box h3 {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    color: #8a1a00;
+}
+
+.esg-info-list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px 32px;
+}
+
+.esg-info-list li {
+    font-size: 14px;
+    font-weight: 300;
+    color: #444;
+    padding-left: 20px;
+    position: relative;
+    line-height: 1.55;
+}
+
+.esg-info-list li strong {
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+.esg-info-list li::before {
+    content: '🫑';
+    position: absolute;
+    left: 0;
+    font-size: 11px;
+    top: 2px;
+}
+
+/* ── RESPONSIVE ── */
+@media (max-width: 1100px) {
+    .esg-route-item {
+        grid-template-columns: 40px 1fr 270px;
+    }
+    .esg-donde-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .esg-ingredientes-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+
+    .esg-intro,
+    .esg-routes,
+    .esg-section-title,
+    .esg-ingredientes-wrap,
+    .esg-historia-box,
+    .esg-claves-wrap,
+    .esg-donde-wrap,
+    .esg-info-box {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .esg-hero-content {
+        padding: 0 20px 12px;
+    }
+
+    .esg-hero-content h1 {
+        font-size: 34px;
+    }
+
+    .esg-hero-stats {
+        padding: 12px 20px 36px;
+        gap: 16px;
+    }
+
+    .esg-historia-box {
+        flex-direction: column;
+        gap: 14px;
+    }
+
+    .esg-ingredientes-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .esg-donde-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .esg-route-item {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+
+    .esg-route-num {
+        display: none;
+    }
+
+    .esg-route-text {
+        padding-right: 0;
+    }
+
+    .esg-route-img {
+        height: 220px;
+        position: static;
+    }
+
+    .esg-claves-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .esg-info-list {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .esg-hero {
+        height: 440px;
+    }
+
+    .esg-hero-content h1 {
+        font-size: 28px;
+    }
+
+    .esg-ingredientes-grid,
+    .esg-donde-grid {
+        grid-template-columns: 1fr;
+    }
+}

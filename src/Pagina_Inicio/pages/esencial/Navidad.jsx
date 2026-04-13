@@ -105,7 +105,6 @@ export default function Navidad() {
                   <span key={t.label} className={`nv-tag ${t.type === 'free' ? 'free' : ''}`}>{t.label}</span>
                 ))}
               </div>
-              <a className="nv-link" href="#">Ver detalles →</a>
             </div>
             <div className="nv-route-img">
               <div className={`nv-route-img-inner ${plan.imgClass}`}>{plan.emoji}</div>

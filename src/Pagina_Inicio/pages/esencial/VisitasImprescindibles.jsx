@@ -130,7 +130,6 @@ export default function VisitasImprescindibles() {
                   <span key={t.label} className={`imp-tag ${t.type === 'free' ? 'free' : ''}`}>{t.label}</span>
                 ))}
               </div>
-              <a className="imp-link" href="#">Ver detalles →</a>
             </div>
             <div className="imp-route-img">
               <div className={`imp-route-img-inner ${plan.imgClass}`} />

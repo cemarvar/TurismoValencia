@@ -1,0 +1,507 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
+
+.con-page {
+    font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
+    color: #1a1a1a;
+    margin-top: 70px;
+}
+
+/* ── Hero ── */
+.con-hero {
+    position: relative;
+    height: 520px;
+    background-image: url('public/img/img-sostenible/consejos.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.con-hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(0,0,0,0.72) 0%, rgba(0,0,0,0.08) 56%, transparent 100%);
+}
+
+.con-hero-content {
+    position: relative;
+    z-index: 2;
+    padding: 0 48px 18px;
+    color: #fff;
+    max-width: 680px;
+}
+
+.con-eyebrow {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #f0c040;
+    margin-bottom: 12px;
+}
+
+.con-hero-content h1 {
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 1.05;
+    margin-bottom: 14px;
+    letter-spacing: -0.02em;
+}
+
+.con-hero-content p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.6;
+    color: rgba(255,255,255,0.85);
+    max-width: 540px;
+}
+
+/* Stats */
+.con-hero-stats {
+    position: relative;
+    z-index: 2;
+    padding: 18px 48px 44px;
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+.con-stat {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.con-stat-num {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1;
+    color: #f0c040;
+}
+
+.con-stat-label {
+    font-size: 11px;
+    font-weight: 300;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.7);
+    margin-top: 3px;
+}
+
+.con-stat-sep {
+    width: 1px;
+    height: 34px;
+    background: rgba(255,255,255,0.25);
+}
+
+/* ── Intro ── */
+.con-intro {
+    max-width: 740px;
+    margin: 52px auto;
+    padding: 0 48px;
+}
+
+.con-intro p {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.75;
+    color: #333;
+    margin-bottom: 18px;
+}
+
+.con-intro strong {
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+/* ── Calendario de mejor época ── */
+.con-calendario-section {
+    padding: 0 48px 40px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.con-calendario-titulo {
+    font-size: 16px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 16px;
+    letter-spacing: -0.01em;
+}
+
+.con-calendario-grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 1px;
+    background: #e5e5e5;
+    border: 1px solid #e5e5e5;
+}
+
+.con-cal-mes {
+    background: #fff;
+    padding: 12px 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    text-align: center;
+    border-top: 3px solid #ddd;
+}
+
+.valoracion-5 { border-top-color: #2d6a2d; background: #f5fbf5; }
+.valoracion-4 { border-top-color: #5a8a2d; background: #f9fdf5; }
+.valoracion-3 { border-top-color: #c0392b; }
+.valoracion-2 { border-top-color: #888; background: #fafafa; }
+
+.con-cal-nombre {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #555;
+}
+
+.con-cal-temp {
+    font-size: 16px;
+    font-weight: 700;
+    color: #1a1a1a;
+    line-height: 1;
+}
+
+.con-cal-estrellas {
+    display: flex;
+    gap: 1px;
+}
+
+.con-estrella {
+    font-size: 10px;
+    color: #ddd;
+}
+
+.con-estrella.llena {
+    color: #f0c040;
+}
+
+.con-cal-nota {
+    font-size: 10px;
+    font-weight: 300;
+    color: #888;
+    line-height: 1.3;
+}
+
+/* ── Filtros ── */
+.con-filter-bar {
+    padding: 36px 48px 36px;
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.con-pill {
+    padding: 7px 18px;
+    border: 1.5px solid #ccc;
+    background: #fff;
+    color: #1a1a1a;
+    font-size: 13px;
+    font-family: inherit;
+    cursor: pointer;
+    border-radius: 2px;
+    transition: all 0.15s;
+}
+
+.con-pill:hover {
+    border-color: #1a2a4a;
+}
+
+.con-pill.active {
+    background: #1a2a4a;
+    color: #f0c040;
+    border-color: #1a2a4a;
+}
+
+/* ── Lista de consejos ── */
+.con-consejos-lista {
+    padding: 0 48px;
+}
+
+.con-consejo-item {
+    border-bottom: 1px solid #e5e5e5;
+    padding: 48px 0;
+}
+
+/* Header del consejo */
+.con-consejo-header {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 24px;
+    flex-wrap: wrap;
+}
+
+.con-consejo-num {
+    font-size: 48px;
+    font-weight: 700;
+    color: #f0f0f0;
+    line-height: 1;
+    flex-shrink: 0;
+    width: 60px;
+    letter-spacing: -0.03em;
+}
+
+.con-consejo-icono {
+    font-size: 26px;
+    flex-shrink: 0;
+}
+
+.con-consejo-titulo {
+    font-size: 22px;
+    font-weight: 700;
+    color: #1a1a1a;
+    letter-spacing: -0.01em;
+    line-height: 1.2;
+    flex: 1;
+    min-width: 200px;
+}
+
+/* Badges de categoría */
+.con-cat-badge {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding: 4px 10px;
+    border-radius: 2px;
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+
+.con-cat-badge.planificacion { background: #1a2a4a; color: #f0c040; }
+.con-cat-badge.movilidad     { background: #1565c0; color: #fff; }
+.con-cat-badge.alojamiento   { background: #6c3483; color: #fff; }
+.con-cat-badge.gastronomia   { background: #c0392b; color: #fff; }
+.con-cat-badge.naturaleza    { background: #2d6a2d; color: #fff; }
+.con-cat-badge.compras       { background: #e67e22; color: #fff; }
+
+/* Body */
+.con-consejo-body {
+    padding-left: 76px;
+}
+
+.con-desc {
+    font-size: 16px;
+    font-weight: 300;
+    color: #444;
+    line-height: 1.75;
+    margin-bottom: 22px;
+    max-width: 820px;
+}
+
+/* Grid de detalles */
+.con-detalles-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px 24px;
+    margin-bottom: 18px;
+    max-width: 680px;
+}
+
+.con-detalle {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    padding: 10px 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.con-detalle-label {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #aaa;
+}
+
+.con-detalle-val {
+    font-size: 13px;
+    font-weight: 400;
+    color: #333;
+    line-height: 1.4;
+}
+
+/* Consejo clave */
+.con-clave {
+    font-size: 14px;
+    font-weight: 400;
+    color: #1a2a4a;
+    background: #f0f5ff;
+    border-left: 3px solid #1a2a4a;
+    padding: 11px 16px;
+    margin-bottom: 16px;
+    line-height: 1.55;
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    max-width: 820px;
+}
+
+.con-clave-icon {
+    flex-shrink: 0;
+    font-size: 16px;
+}
+
+/* Tags */
+.con-tags {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.con-tag {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #555;
+    border: 1px solid #ddd;
+    padding: 3px 9px;
+    border-radius: 2px;
+}
+
+/* ── Info box ── */
+.con-info-box {
+    margin: 52px 48px 60px;
+    border: 1.5px solid #1a2a4a;
+    padding: 32px 36px;
+    background: #f8f9fc;
+}
+
+.con-info-box h3 {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    color: #1a2a4a;
+}
+
+.con-info-list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px 32px;
+}
+
+.con-info-list li {
+    font-size: 14px;
+    font-weight: 300;
+    color: #444;
+    padding-left: 16px;
+    position: relative;
+    line-height: 1.5;
+}
+
+.con-info-list li strong {
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+.con-info-list li::before {
+    content: '—';
+    position: absolute;
+    left: 0;
+    color: #999;
+    font-size: 12px;
+}
+
+/* ── RESPONSIVE ── */
+@media (max-width: 1100px) {
+    .con-calendario-grid {
+        grid-template-columns: repeat(6, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+
+    .con-intro,
+    .con-consejos-lista,
+    .con-filter-bar,
+    .con-calendario-section,
+    .con-info-box {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .con-hero-content {
+        padding: 0 20px 12px;
+    }
+
+    .con-hero-content h1 {
+        font-size: 34px;
+    }
+
+    .con-hero-stats {
+        padding: 12px 20px 36px;
+        gap: 18px;
+    }
+
+    .con-stat-num {
+        font-size: 20px;
+    }
+
+    .con-calendario-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .con-consejo-header {
+        gap: 10px;
+    }
+
+    .con-consejo-num {
+        font-size: 32px;
+        width: 44px;
+    }
+
+    .con-consejo-titulo {
+        font-size: 18px;
+    }
+
+    .con-consejo-body {
+        padding-left: 0;
+    }
+
+    .con-detalles-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .con-info-list {
+        grid-template-columns: 1fr;
+    }
+
+    .con-info-box {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .con-hero {
+        height: 440px;
+    }
+
+    .con-hero-content h1 {
+        font-size: 28px;
+    }
+
+    .con-calendario-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .con-consejo-titulo {
+        font-size: 16px;
+    }
+}

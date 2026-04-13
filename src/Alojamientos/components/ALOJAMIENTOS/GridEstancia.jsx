@@ -3,12 +3,12 @@ import Estancia from '..//ALOJAMIENTOS/Estancia';
 
 export default function GridEstancia() {
     var elementos = [
-        { imagen: "/img/img-alojamientos/centro.jpg", titulo: "Centro" },
-        { imagen: "/img/img-alojamientos/artes-ciencias.jpg", titulo: "Ciudad de las Artes y las Ciencias" },
-        { imagen: "/img/img-alojamientos/ruzafa.jpg", titulo: "Barrio Ruzafa" },
-        { imagen: "/img/img-alojamientos/gran-via.jpg", titulo: "Barrio Gran Vía" },
-        { imagen: "/img/img-alojamientos/arenas.jpg", titulo: "Zona de playa y Paseo Marítimo" },
-        { imagen: "/img/img-alojamientos/alojamiento.jpg", titulo: "Alojamiento Barato y Exclusivos" }
+        { imagen: "/img/img-alojamientos/centro.jpg",           titulo: "Centro",                                   ruta: "/Centro" },
+        { imagen: "/img/img-alojamientos/artes-ciencias.jpg",   titulo: "Ciudad de las Artes y las Ciencias",       ruta: "/CiudadArtesCienciasAloj" },
+        { imagen: "/img/img-alojamientos/ruzafa.jpg",           titulo: "Barrio Ruzafa",                            ruta: "/BarrioRuzada" },
+        { imagen: "/img/img-alojamientos/gran-via.jpg",         titulo: "Barrio Gran Vía",                          ruta: "/BarrioGranVia" },
+        { imagen: "/img/img-alojamientos/arenas.jpg",           titulo: "Zona de playa y Paseo Marítimo",           ruta: "/ZonaPlayaPaseoMaritimo" },
+        { imagen: "/img/img-alojamientos/alojamiento.jpg",      titulo: "Alojamiento Barato y Exclusivos",          ruta: "/BaratoExclusivo" }
     ];
 
     return (
@@ -24,7 +24,7 @@ export default function GridEstancia() {
             </div>
             <section className="grid-estancia">
                 {elementos.map((item, index) => (
-                    <Estancia key={index} imagen={item.imagen} titulo={item.titulo} />
+                    <Estancia key={index} imagen={item.imagen} titulo={item.titulo} ruta={item.ruta} />
                 ))}
             </section>
         </>

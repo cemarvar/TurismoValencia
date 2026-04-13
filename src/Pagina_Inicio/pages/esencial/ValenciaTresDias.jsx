@@ -124,7 +124,6 @@ export default function ValenciaTresDias() {
                 ))}
               </div>
 
-              <a className="vtd-link" href="#">Ver el día completo →</a>
             </div>
             <div className="vtd-route-img">
               <div className={`vtd-route-img-inner ${dia.imgClass}`} />

@@ -270,7 +270,6 @@ export default function Familia() {
                 ))}
               </div>
 
-              <a className="fam-link" href="#">Ver más →</a>
             </div>
 
             <div className="fam-route-img">

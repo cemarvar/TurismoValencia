@@ -221,7 +221,6 @@ export default function CAC() {
                 ))}
               </div>
 
-              <a className="cac-link" href="#">Comprar entradas →</a>
             </div>
 
             <div className="cac-route-img">

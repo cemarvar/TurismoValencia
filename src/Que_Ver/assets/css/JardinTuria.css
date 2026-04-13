@@ -1,0 +1,567 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
+
+.jt-page {
+    font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
+    color: #1a1a1a;
+    margin-top: 70px;
+}
+
+/* ── Hero ── */
+.jt-hero {
+    position: relative;
+    height: 560px;
+    background-image: url('/img/img-quever/JardinTuria/hero.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.jt-hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(0,20,10,0.78) 0%, rgba(0,20,10,0.08) 60%, transparent 100%);
+}
+
+.jt-hero-content {
+    position: relative;
+    z-index: 2;
+    padding: 0 48px 20px;
+    color: #fff;
+    max-width: 680px;
+}
+
+.jt-eyebrow {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #a8d5a2;
+    margin-bottom: 12px;
+}
+
+.jt-hero-content h1 {
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 1.05;
+    margin-bottom: 14px;
+    letter-spacing: -0.02em;
+}
+
+.jt-hero-content p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.6;
+    color: rgba(255,255,255,0.85);
+    max-width: 540px;
+}
+
+/* Stats */
+.jt-hero-stats {
+    position: relative;
+    z-index: 2;
+    padding: 18px 48px 44px;
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+.jt-stat {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.jt-stat-num {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1;
+    color: #a8d5a2;
+}
+
+.jt-stat-label {
+    font-size: 11px;
+    font-weight: 300;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.7);
+    margin-top: 3px;
+}
+
+.jt-stat-sep {
+    width: 1px;
+    height: 34px;
+    background: rgba(255,255,255,0.25);
+}
+
+/* ── Caja historia ── */
+.jt-historia-box {
+    margin: 0 48px;
+    background: #1a2a4a;
+    padding: 28px 32px;
+    display: flex;
+    gap: 24px;
+    align-items: flex-start;
+}
+
+.jt-historia-icono {
+    font-size: 32px;
+    flex-shrink: 0;
+}
+
+.jt-historia-titulo {
+    font-size: 15px;
+    font-weight: 700;
+    color: #a8d5a2;
+    margin-bottom: 10px;
+}
+
+.jt-historia-content p {
+    font-size: 14px;
+    font-weight: 300;
+    color: rgba(255,255,255,0.85);
+    line-height: 1.65;
+    margin: 0;
+}
+
+.jt-historia-content strong {
+    font-weight: 600;
+    color: #fff;
+}
+
+/* ── Intro ── */
+.jt-intro {
+    max-width: 740px;
+    margin: 52px auto;
+    padding: 0 48px;
+}
+
+.jt-intro p {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.75;
+    color: #333;
+    margin-bottom: 18px;
+}
+
+.jt-intro strong {
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+/* ── Chips actividades ── */
+.jt-actividades-wrap {
+    margin: 0 48px 52px;
+    padding: 28px 32px;
+    background: #f1f8e9;
+    border: 1.5px solid #a5d6a7;
+}
+
+.jt-actividades-titulo {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #2e7d32;
+    margin-bottom: 16px;
+}
+
+.jt-actividades-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.jt-actividad-chip {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background: #fff;
+    border: 1px solid #a5d6a7;
+    padding: 6px 12px;
+    border-radius: 2px;
+    font-size: 13px;
+    color: #2e7d32;
+    transition: background 0.12s;
+}
+
+.jt-actividad-chip:hover {
+    background: #e8f5e9;
+}
+
+.jt-actividad-icono {
+    font-size: 15px;
+    line-height: 1;
+}
+
+/* ── Section title ── */
+.jt-section-title {
+    padding: 0 48px 32px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.jt-section-title h2 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #1a1a1a;
+    letter-spacing: -0.01em;
+    margin-bottom: 6px;
+}
+
+.jt-section-title p {
+    font-size: 15px;
+    font-weight: 300;
+    color: #777;
+}
+
+/* ── Zonas ── */
+.jt-routes {
+    padding: 0 48px;
+}
+
+.jt-route-item {
+    display: grid;
+    grid-template-columns: 56px 1fr 340px;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 52px 0;
+    align-items: start;
+}
+
+.jt-route-num {
+    font-size: 13px;
+    font-weight: 600;
+    color: #bbb;
+    letter-spacing: 0.05em;
+    padding-top: 4px;
+}
+
+.jt-route-text {
+    padding-right: 48px;
+}
+
+.jt-tipo {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #2e7d32;
+    margin-bottom: 6px;
+}
+
+.jt-route-text h2 {
+    font-size: 26px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 4px;
+    letter-spacing: -0.01em;
+    line-height: 1.15;
+}
+
+.jt-subtitulo {
+    font-size: 13px;
+    font-weight: 300;
+    font-style: italic;
+    color: #888;
+    margin-bottom: 16px;
+    line-height: 1.4;
+}
+
+.jt-desc {
+    font-size: 15px;
+    font-weight: 300;
+    color: #444;
+    line-height: 1.75;
+    margin-bottom: 20px;
+}
+
+.jt-datos-titulo {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #999;
+    margin-bottom: 10px;
+}
+
+.jt-datos {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 16px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.jt-datos li {
+    font-size: 14px;
+    line-height: 1.5;
+    padding-left: 14px;
+    border-left: 2px solid #a5d6a7;
+    color: #444;
+}
+
+.jt-dato-label {
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+.jt-dato-val {
+    font-weight: 300;
+}
+
+/* Tags */
+.jt-tags {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.jt-tag {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #2e7d32;
+    border: 1px solid #a5d6a7;
+    background: #f1f8e9;
+    padding: 3px 9px;
+    border-radius: 2px;
+}
+
+.jt-tag.free {
+    background: #e8f5e9;
+    border-color: #66bb6a;
+    color: #1b5e20;
+    font-weight: 700;
+}
+
+/* Imagen */
+.jt-route-img {
+    border-radius: 2px;
+    overflow: hidden;
+    height: 280px;
+    position: sticky;
+    top: 90px;
+}
+
+.jt-route-img-inner {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #1a3a1a;
+}
+
+/* Imágenes */
+.img-cabecera  { background-image: url('/img/img-quever/JardinTuria/cabecera.jpg'); }
+.img-deportes  { background-image: url('/img/img-quever/JardinTuria/deportes.jpg'); }
+.img-musica    { background-image: url('/img/img-quever/JardinTuria/musica.jpg'); }
+.img-gulliver  { background-image: url('/img/img-quever/JardinTuria/gulliver.jpg'); }
+.img-cac       { background-image: url('/img/img-quever/JardinTuria/cac.jpg'); }
+.img-puentes   { background-image: url('/img/img-quever/JardinTuria/puentes.jpg'); }
+
+/* ── Tabla información práctica ── */
+.jt-info-practica {
+    margin: 52px 48px 0;
+    padding-top: 48px;
+    border-top: 1.5px solid #e5e5e5;
+}
+
+.jt-info-practica h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #1a1a1a;
+    letter-spacing: -0.01em;
+    margin-bottom: 20px;
+}
+
+.jt-tabla {
+    display: flex;
+    flex-direction: column;
+    border: 1.5px solid #e5e5e5;
+    overflow: hidden;
+}
+
+.jt-tabla-fila {
+    display: grid;
+    grid-template-columns: 180px 1fr;
+    border-bottom: 1px solid #e5e5e5;
+    min-height: 44px;
+}
+
+.jt-tabla-fila:last-child {
+    border-bottom: none;
+}
+
+.jt-tabla-fila:nth-child(even) {
+    background: #f1f8e9;
+}
+
+.jt-tabla-label {
+    padding: 12px 20px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #2e7d32;
+    border-right: 1px solid #e5e5e5;
+    display: flex;
+    align-items: center;
+}
+
+.jt-tabla-val {
+    padding: 12px 20px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #333;
+    line-height: 1.55;
+    display: flex;
+    align-items: center;
+}
+
+/* ── Info box ── */
+.jt-info-box {
+    margin: 32px 48px 60px;
+    border: 1.5px solid #2e7d32;
+    padding: 32px 36px;
+    background: #f1f8e9;
+}
+
+.jt-info-box h3 {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    color: #2e7d32;
+}
+
+.jt-info-list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px 32px;
+}
+
+.jt-info-list li {
+    font-size: 14px;
+    font-weight: 300;
+    color: #444;
+    padding-left: 16px;
+    position: relative;
+    line-height: 1.5;
+}
+
+.jt-info-list li strong {
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+.jt-info-list li::before {
+    content: '—';
+    position: absolute;
+    left: 0;
+    color: #a5d6a7;
+    font-size: 12px;
+}
+
+/* ── RESPONSIVE ── */
+@media (max-width: 1100px) {
+    .jt-route-item {
+        grid-template-columns: 40px 1fr 270px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .jt-intro,
+    .jt-routes,
+    .jt-section-title,
+    .jt-actividades-wrap,
+    .jt-historia-box,
+    .jt-info-practica,
+    .jt-info-box {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .jt-hero-content {
+        padding: 0 20px 12px;
+    }
+
+    .jt-hero-content h1 {
+        font-size: 34px;
+    }
+
+    .jt-hero-stats {
+        padding: 12px 20px 36px;
+        gap: 18px;
+    }
+
+    .jt-stat-num {
+        font-size: 20px;
+    }
+
+    .jt-historia-box {
+        flex-direction: column;
+        gap: 14px;
+    }
+
+    .jt-route-item {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+
+    .jt-route-num {
+        display: none;
+    }
+
+    .jt-route-text {
+        padding-right: 0;
+    }
+
+    .jt-route-img {
+        height: 220px;
+        position: static;
+    }
+
+    .jt-tabla-fila {
+        grid-template-columns: 140px 1fr;
+    }
+
+    .jt-info-list {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .jt-hero {
+        height: 480px;
+    }
+
+    .jt-hero-content h1 {
+        font-size: 28px;
+    }
+
+    .jt-tabla-fila {
+        grid-template-columns: 1fr;
+    }
+
+    .jt-tabla-label {
+        border-right: none;
+        border-bottom: 1px solid #e5e5e5;
+        padding-bottom: 6px;
+        padding-top: 14px;
+    }
+
+    .jt-tabla-val {
+        padding-top: 6px;
+        padding-bottom: 14px;
+    }
+}

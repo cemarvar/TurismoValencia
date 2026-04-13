@@ -3,15 +3,15 @@ import Culinaria from '../CULINARIA/Culinaria';
 
 export default function GridCulinaria() {
     var elementos = [
-        { imagen: "/img/img-gastronomia/paella.jpg", titulo: "Paella Valenciana" },
-        { imagen: "/img/img-gastronomia/fideua.jpeg", titulo: "Fideua" },
-        { imagen: "/img/img-gastronomia/arroz-al-horno.jpg", titulo: "Arroz al horno" },
-        { imagen: "/img/img-gastronomia/esgarraet.jpg", titulo: "Esgarraet" },
-        { imagen: "/img/img-gastronomia/Arroz-negro.jpg", titulo: "Arroz Negro" },
-        { imagen: "/img/img-gastronomia/allipebre.jpg", titulo: "All i pebre" },
-        { imagen: "/img/img-gastronomia/bunuelos.jpg", titulo: "Buñuelo de Calabaza" },
-        { imagen: "/img/img-gastronomia/arroz-senyoret.jpg", titulo: "Arroz del senyoret" },
-        { imagen: "/img/img-gastronomia/horchata.jpg", titulo: "Horchata" }
+        { imagen: "/img/img-gastronomia/paella.jpg",            titulo: "Paella Valenciana",        ruta: "/Paella" },
+        { imagen: "/img/img-gastronomia/fideua.jpeg",           titulo: "Fideua",                   ruta: "/Fideua"},
+        { imagen: "/img/img-gastronomia/arroz-al-horno.jpg",    titulo: "Arroz al horno",           ruta: "/ArrozHorno" },
+        { imagen: "/img/img-gastronomia/esgarraet.jpg",         titulo: "Esgarraet",                ruta: "/Esgarraet" },
+        { imagen: "/img/img-gastronomia/Arroz-negro.jpg",       titulo: "Arroz Negro",              ruta: "/ArrozNegro" },
+        { imagen: "/img/img-gastronomia/allipebre.jpg",         titulo: "All i pebre",              ruta: "/AllPebre" },
+        { imagen: "/img/img-gastronomia/bunuelos.jpg",          titulo: "Buñuelo de Calabaza",      ruta: "/Buenuelo" },
+        { imagen: "/img/img-gastronomia/arroz-senyoret.jpg",    titulo: "Arroz del senyoret",       ruta: "/ArrozSenyoret" },
+        { imagen: "/img/img-gastronomia/horchata.jpg",          titulo: "Horchata",                 ruta: "/Horchata" }
     ];
 
     return (
@@ -27,7 +27,7 @@ export default function GridCulinaria() {
             </div>
             <section className="grid-culinaria">
                 {elementos.map((item, index) => (
-                    <Culinaria key={index} imagen={item.imagen} titulo={item.titulo} />
+                    <Culinaria key={index} imagen={item.imagen} titulo={item.titulo} ruta={item.ruta} />
                 ))}
             </section>
         </>

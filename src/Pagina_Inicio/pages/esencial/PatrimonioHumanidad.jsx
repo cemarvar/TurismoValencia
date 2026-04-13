@@ -139,7 +139,6 @@ export default function PatrimonioHumanidad() {
                 ))}
               </div>
 
-              <a className="ph-link" href="#">Ver más detalles →</a>
             </div>
 
             <div className="ph-route-img">

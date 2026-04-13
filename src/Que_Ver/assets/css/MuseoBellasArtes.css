@@ -1,0 +1,556 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
+
+.mba-page {
+    font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
+    color: #1a1a1a;
+    margin-top: 70px;
+}
+
+/* ── Hero ── */
+.mba-hero {
+    position: relative;
+    height: 540px;
+    background-image: url('/img/img-quever/MuseoBellasArtes/hero.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.mba-hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(10,5,0,0.80) 0%, rgba(10,5,0,0.1) 58%, transparent 100%);
+}
+
+.mba-hero-content {
+    position: relative;
+    z-index: 2;
+    padding: 0 48px 20px;
+    color: #fff;
+    max-width: 680px;
+}
+
+.mba-eyebrow {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #f0c040;
+    margin-bottom: 12px;
+}
+
+.mba-hero-content h1 {
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 1.05;
+    margin-bottom: 14px;
+    letter-spacing: -0.02em;
+}
+
+.mba-hero-content p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.6;
+    color: rgba(255,255,255,0.85);
+    max-width: 540px;
+}
+
+/* Stats */
+.mba-hero-stats {
+    position: relative;
+    z-index: 2;
+    padding: 18px 48px 44px;
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+.mba-stat {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.mba-stat-num {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1;
+    color: #f0c040;
+}
+
+.mba-stat-label {
+    font-size: 11px;
+    font-weight: 300;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.7);
+    margin-top: 3px;
+}
+
+.mba-stat-sep {
+    width: 1px;
+    height: 34px;
+    background: rgba(255,255,255,0.25);
+}
+
+/* ── Intro ── */
+.mba-intro {
+    max-width: 740px;
+    margin: 52px auto;
+    padding: 0 48px;
+}
+
+.mba-intro p {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.75;
+    color: #333;
+    margin-bottom: 18px;
+}
+
+.mba-intro strong {
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+/* ── Grid de obras clave ── */
+.mba-obras-section {
+    margin: 0 48px 52px;
+    padding: 32px;
+    background: #fffbf0;
+    border: 1.5px solid #e8d87a;
+}
+
+.mba-obras-titulo {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #7a6010;
+    margin-bottom: 20px;
+}
+
+.mba-obras-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1px;
+    background: #e8d87a;
+    border: 1px solid #e8d87a;
+}
+
+.mba-obra-card {
+    background: #fff;
+    padding: 18px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    transition: background 0.12s;
+}
+
+.mba-obra-card:hover {
+    background: #fffbf0;
+}
+
+.mba-obra-titulo {
+    font-size: 13px;
+    font-weight: 700;
+    color: #1a1a1a;
+    line-height: 1.3;
+}
+
+.mba-obra-autor {
+    font-size: 12px;
+    font-weight: 600;
+    color: #7a6010;
+    letter-spacing: 0.03em;
+}
+
+.mba-obra-dato {
+    font-size: 12px;
+    font-weight: 300;
+    color: #666;
+    line-height: 1.5;
+    margin: 0;
+    flex: 1;
+}
+
+/* ── Section title ── */
+.mba-section-title {
+    padding: 0 48px 32px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.mba-section-title h2 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #1a1a1a;
+    letter-spacing: -0.01em;
+    margin-bottom: 6px;
+}
+
+.mba-section-title p {
+    font-size: 15px;
+    font-weight: 300;
+    color: #777;
+}
+
+/* ── Colecciones ── */
+.mba-routes {
+    padding: 0 48px;
+}
+
+.mba-route-item {
+    display: grid;
+    grid-template-columns: 56px 1fr 340px;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 52px 0;
+    align-items: start;
+}
+
+.mba-route-num {
+    font-size: 13px;
+    font-weight: 600;
+    color: #bbb;
+    letter-spacing: 0.05em;
+    padding-top: 4px;
+}
+
+.mba-route-text {
+    padding-right: 48px;
+}
+
+.mba-tipo {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #c0392b;
+    margin-bottom: 6px;
+}
+
+.mba-route-text h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 4px;
+    letter-spacing: -0.01em;
+    line-height: 1.2;
+}
+
+.mba-subtitulo {
+    font-size: 13px;
+    font-weight: 300;
+    font-style: italic;
+    color: #888;
+    margin-bottom: 16px;
+    line-height: 1.4;
+}
+
+.mba-desc {
+    font-size: 15px;
+    font-weight: 300;
+    color: #444;
+    line-height: 1.75;
+    margin-bottom: 18px;
+}
+
+/* Chips de artistas */
+.mba-artistas-titulo {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #999;
+    margin-bottom: 8px;
+}
+
+.mba-artistas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 14px;
+}
+
+.mba-artista {
+    font-size: 12px;
+    font-weight: 400;
+    color: #4a3500;
+    background: #fffbf0;
+    border: 1px solid #e8d87a;
+    padding: 3px 10px;
+    border-radius: 2px;
+    white-space: nowrap;
+}
+
+/* Obra destacada */
+.mba-obra-destac {
+    font-size: 13px;
+    font-weight: 600;
+    color: #7a6010;
+    background: #fffbf0;
+    border-left: 3px solid #f0c040;
+    padding: 9px 13px;
+    margin-bottom: 14px;
+    display: flex;
+    gap: 8px;
+    align-items: flex-start;
+    line-height: 1.5;
+}
+
+.mba-obra-destac-icon {
+    color: #f0c040;
+    flex-shrink: 0;
+    font-size: 14px;
+}
+
+/* Tags */
+.mba-tags {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.mba-tag {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #555;
+    border: 1px solid #ddd;
+    padding: 3px 9px;
+    border-radius: 2px;
+}
+
+/* Imagen */
+.mba-route-img {
+    border-radius: 2px;
+    overflow: hidden;
+    height: 280px;
+    position: sticky;
+    top: 90px;
+}
+
+.mba-route-img-inner {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #1a1a10;
+}
+
+/* Imágenes */
+.img-gotico       { background-image: url('/img/img-quever/MuseoBellasArtes/gotico.jpg'); }
+.img-renacimiento { background-image: url('/img/img-quever/MuseoBellasArtes/renacimiento.jpg'); }
+.img-barroco      { background-image: url('/img/img-quever/MuseoBellasArtes/barroco.jpg'); }
+.img-goya         { background-image: url('/img/img-quever/MuseoBellasArtes/goya.jpg'); }
+.img-sorolla      { background-image: url('/img/img-quever/MuseoBellasArtes/sorolla.jpg'); }
+.img-edificio     { background-image: url('/img/img-quever/MuseoBellasArtes/edificio.jpg'); }
+
+/* ── Tabla información práctica ── */
+.mba-info-practica {
+    margin: 52px 48px 0;
+    padding-top: 48px;
+    border-top: 1.5px solid #e5e5e5;
+}
+
+.mba-info-practica h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #1a1a1a;
+    letter-spacing: -0.01em;
+    margin-bottom: 20px;
+}
+
+.mba-tabla {
+    display: flex;
+    flex-direction: column;
+    border: 1.5px solid #e5e5e5;
+    overflow: hidden;
+}
+
+.mba-tabla-fila {
+    display: grid;
+    grid-template-columns: 180px 1fr;
+    border-bottom: 1px solid #e5e5e5;
+    min-height: 44px;
+}
+
+.mba-tabla-fila:last-child {
+    border-bottom: none;
+}
+
+.mba-tabla-fila:nth-child(even) {
+    background: #fffbf0;
+}
+
+.mba-tabla-label {
+    padding: 12px 20px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #7a6010;
+    border-right: 1px solid #e5e5e5;
+    display: flex;
+    align-items: center;
+}
+
+.mba-tabla-val {
+    padding: 12px 20px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #333;
+    line-height: 1.55;
+    display: flex;
+    align-items: center;
+}
+
+/* ── Info box ── */
+.mba-info-box {
+    margin: 32px 48px 60px;
+    border: 1.5px solid #1a2a4a;
+    padding: 32px 36px;
+    background: #f8f9fc;
+}
+
+.mba-info-box h3 {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    color: #1a2a4a;
+}
+
+.mba-info-list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px 32px;
+}
+
+.mba-info-list li {
+    font-size: 14px;
+    font-weight: 300;
+    color: #444;
+    padding-left: 16px;
+    position: relative;
+    line-height: 1.5;
+}
+
+.mba-info-list li strong {
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+.mba-info-list li::before {
+    content: '—';
+    position: absolute;
+    left: 0;
+    color: #f0c040;
+    font-size: 12px;
+}
+
+/* ── RESPONSIVE ── */
+@media (max-width: 1100px) {
+    .mba-route-item {
+        grid-template-columns: 40px 1fr 270px;
+    }
+
+    .mba-obras-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+
+    .mba-intro,
+    .mba-routes,
+    .mba-section-title,
+    .mba-obras-section,
+    .mba-info-practica,
+    .mba-info-box {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .mba-hero-content {
+        padding: 0 20px 12px;
+    }
+
+    .mba-hero-content h1 {
+        font-size: 34px;
+    }
+
+    .mba-hero-stats {
+        padding: 12px 20px 36px;
+        gap: 18px;
+    }
+
+    .mba-stat-num {
+        font-size: 18px;
+    }
+
+    .mba-route-item {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+
+    .mba-route-num {
+        display: none;
+    }
+
+    .mba-route-text {
+        padding-right: 0;
+    }
+
+    .mba-route-img {
+        height: 220px;
+        position: static;
+    }
+
+    .mba-obras-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .mba-tabla-fila {
+        grid-template-columns: 140px 1fr;
+    }
+
+    .mba-info-list {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .mba-hero {
+        height: 460px;
+    }
+
+    .mba-hero-content h1 {
+        font-size: 28px;
+    }
+
+    .mba-tabla-fila {
+        grid-template-columns: 1fr;
+    }
+
+    .mba-tabla-label {
+        border-right: none;
+        border-bottom: 1px solid #e5e5e5;
+        padding-bottom: 6px;
+        padding-top: 14px;
+    }
+
+    .mba-tabla-val {
+        padding-top: 6px;
+        padding-bottom: 14px;
+    }
+}

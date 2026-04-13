@@ -201,7 +201,6 @@ export default function Espectaculo() {
                 ))}
               </div>
 
-              <a className="esp-link" href="#">Ver programación →</a>
             </div>
 
             <div className="esp-route-img">

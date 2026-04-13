@@ -278,7 +278,6 @@ export default function ComercioLocal() {
                 ))}
               </div>
 
-              <a className="cl-link" href="#">Ver más →</a>
             </div>
 
             <div className="cl-route-img">

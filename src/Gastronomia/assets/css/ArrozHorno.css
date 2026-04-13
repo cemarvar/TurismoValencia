@@ -1,0 +1,628 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
+
+.ah-page {
+    font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
+    color: #1a1a1a;
+    margin-top: 70px;
+}
+
+/* ── Hero ── */
+.ah-hero {
+    position: relative;
+    height: 520px;
+    background-image: url('/img/img-gastronomia/arrozhorno/hero.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: #2a1000;
+}
+
+.ah-hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(18,6,0,0.90) 0%, rgba(18,6,0,0.06) 60%, transparent 100%);
+}
+
+.ah-hero-content {
+    position: relative;
+    z-index: 2;
+    padding: 0 48px 20px;
+    color: #fff;
+    max-width: 700px;
+}
+
+.ah-eyebrow {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #d4846a;
+    margin-bottom: 12px;
+}
+
+.ah-hero-content h1 {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.0;
+    margin-bottom: 14px;
+    letter-spacing: -0.02em;
+}
+
+.ah-hero-content p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.6;
+    color: rgba(255,255,255,0.88);
+    max-width: 560px;
+}
+
+/* Stats */
+.ah-hero-stats {
+    position: relative;
+    z-index: 2;
+    padding: 18px 48px 44px;
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+.ah-stat {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.ah-stat-num {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1;
+    color: #d4846a;
+}
+
+.ah-stat-label {
+    font-size: 11px;
+    font-weight: 300;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.7);
+    margin-top: 3px;
+}
+
+.ah-stat-sep {
+    width: 1px;
+    height: 34px;
+    background: rgba(255,255,255,0.25);
+}
+
+/* ── Historia box ── */
+.ah-historia-box {
+    margin: 0 48px;
+    background: #1e0c04;
+    border-top: 3px solid #a04020;
+    padding: 28px 32px;
+    display: flex;
+    gap: 24px;
+    align-items: flex-start;
+}
+
+.ah-historia-icono {
+    font-size: 32px;
+    flex-shrink: 0;
+}
+
+.ah-historia-titulo {
+    font-size: 15px;
+    font-weight: 700;
+    color: #d4846a;
+    margin-bottom: 10px;
+}
+
+.ah-historia-content p {
+    font-size: 14px;
+    font-weight: 300;
+    color: rgba(255,255,255,0.85);
+    line-height: 1.65;
+    margin: 0;
+}
+
+.ah-historia-content strong {
+    font-weight: 600;
+    color: #fff;
+}
+
+/* ── Ingredientes ── */
+.ah-ingredientes-wrap {
+    margin: 0 48px 52px;
+    padding: 28px 32px;
+    background: #fdf5f0;
+    border: 1.5px solid #d4846a;
+}
+
+.ah-ingredientes-titulo {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #7a3a1a;
+    margin-bottom: 18px;
+}
+
+.ah-ingredientes-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1px;
+    background: #d4846a;
+    border: 1px solid #d4846a;
+}
+
+.ah-ing-card {
+    background: #fff;
+    padding: 16px 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    transition: background 0.1s;
+}
+
+.ah-ing-card:hover {
+    background: #fdf5f0;
+}
+
+.ah-ing-icono {
+    font-size: 22px;
+    line-height: 1;
+    margin-bottom: 4px;
+}
+
+.ah-ing-nombre {
+    font-size: 13px;
+    font-weight: 700;
+    color: #1a1a1a;
+    line-height: 1.3;
+}
+
+.ah-ing-desc {
+    font-size: 12px;
+    font-weight: 300;
+    color: #777;
+    line-height: 1.4;
+}
+
+/* ── Intro ── */
+.ah-intro {
+    max-width: 740px;
+    margin: 52px auto;
+    padding: 0 48px;
+}
+
+.ah-intro p {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.75;
+    color: #333;
+    margin-bottom: 18px;
+}
+
+.ah-intro strong {
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+/* ── Section title ── */
+.ah-section-title {
+    padding: 0 48px 32px;
+    border-bottom: 2px solid #a04020;
+}
+
+.ah-section-title h2 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #1a1a1a;
+    letter-spacing: -0.01em;
+    margin-bottom: 6px;
+}
+
+.ah-section-title p {
+    font-size: 15px;
+    font-weight: 300;
+    color: #777;
+}
+
+/* ── Secciones ── */
+.ah-routes {
+    padding: 0 48px;
+}
+
+.ah-route-item {
+    display: grid;
+    grid-template-columns: 56px 1fr 340px;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 52px 0;
+    align-items: start;
+}
+
+.ah-route-num {
+    font-size: 13px;
+    font-weight: 600;
+    color: #bbb;
+    letter-spacing: 0.05em;
+    padding-top: 4px;
+}
+
+.ah-route-text {
+    padding-right: 48px;
+}
+
+.ah-route-text h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 4px;
+    letter-spacing: -0.01em;
+    line-height: 1.2;
+}
+
+.ah-subtitulo {
+    font-size: 13px;
+    font-weight: 300;
+    font-style: italic;
+    color: #888;
+    margin-bottom: 16px;
+    line-height: 1.4;
+}
+
+.ah-desc {
+    font-size: 15px;
+    font-weight: 300;
+    color: #444;
+    line-height: 1.75;
+    margin-bottom: 18px;
+}
+
+/* Dato box */
+.ah-dato-box {
+    font-size: 13px;
+    font-weight: 600;
+    color: #7a3a1a;
+    background: #fdf5f0;
+    border-left: 3px solid #a04020;
+    padding: 9px 13px;
+    margin-bottom: 14px;
+    display: flex;
+    gap: 8px;
+    align-items: flex-start;
+    line-height: 1.5;
+}
+
+.ah-dato-icon {
+    flex-shrink: 0;
+}
+
+/* Tags */
+.ah-tags {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.ah-tag {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #7a3a1a;
+    border: 1px solid #d4846a;
+    background: #fdf5f0;
+    padding: 3px 9px;
+    border-radius: 2px;
+}
+
+/* Imagen */
+.ah-route-img {
+    border-radius: 2px;
+    overflow: hidden;
+    height: 270px;
+    position: sticky;
+    top: 90px;
+}
+
+.ah-route-img-inner {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #2a1000;
+}
+
+/* Imágenes */
+.img-historia     { background-image: url('/img/img-gastronomia/arrozhorno/historia.jpg'); }
+.img-cazuela      { background-image: url('/img/img-gastronomia/arrozhorno/cazuela.jpg'); }
+.img-ingredientes { background-image: url('/img/img-gastronomia/arrozhorno/ingredientes.jpg'); }
+.img-variantes    { background-image: url('/img/img-gastronomia/arrozhorno/variantes.jpg'); }
+
+/* ── Claves ── */
+.ah-claves-wrap {
+    margin: 52px 48px 0;
+    padding: 28px 36px;
+    border: 1.5px solid #e5e5e5;
+    background: #fdf9f6;
+}
+
+.ah-claves-wrap h3 {
+    font-size: 17px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 20px;
+    letter-spacing: -0.01em;
+}
+
+.ah-claves-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px 32px;
+}
+
+.ah-clave-item {
+    display: flex;
+    gap: 14px;
+    align-items: flex-start;
+}
+
+.ah-clave-num {
+    font-size: 24px;
+    font-weight: 700;
+    color: #d4846a;
+    line-height: 1;
+    flex-shrink: 0;
+    min-width: 32px;
+}
+
+.ah-clave-titulo {
+    font-size: 14px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 3px;
+}
+
+.ah-clave-desc {
+    font-size: 13px;
+    font-weight: 300;
+    color: #555;
+    line-height: 1.5;
+}
+
+/* ── Restaurantes ── */
+.ah-rest-wrap {
+    margin: 32px 48px 0;
+}
+
+.ah-rest-wrap h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #1a1a1a;
+    letter-spacing: -0.01em;
+    margin-bottom: 20px;
+    padding-top: 32px;
+    border-top: 1.5px solid #e5e5e5;
+}
+
+.ah-rest-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1px;
+    background: #e5e5e5;
+    border: 1.5px solid #e5e5e5;
+    overflow: hidden;
+}
+
+.ah-rest-card {
+    background: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    transition: background 0.1s;
+}
+
+.ah-rest-card:hover {
+    background: #fdf5f0;
+}
+
+.ah-rest-nombre {
+    font-size: 14px;
+    font-weight: 700;
+    color: #a04020;
+    line-height: 1.3;
+}
+
+.ah-rest-meta {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.ah-rest-barrio {
+    font-size: 11px;
+    font-weight: 600;
+    color: #888;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+.ah-rest-precio {
+    font-size: 12px;
+    font-weight: 600;
+    color: #555;
+}
+
+.ah-rest-especialidad {
+    font-size: 12px;
+    font-weight: 600;
+    color: #7a3a1a;
+    background: #fdf5f0;
+    padding: 4px 8px;
+    border-left: 2px solid #a04020;
+    line-height: 1.4;
+}
+
+.ah-rest-desc {
+    font-size: 13px;
+    font-weight: 300;
+    color: #555;
+    line-height: 1.55;
+    margin: 0;
+}
+
+.ah-rest-dir {
+    font-size: 12px;
+    font-weight: 300;
+    color: #999;
+    font-style: italic;
+}
+
+/* ── Info box ── */
+.ah-info-box {
+    margin: 32px 48px 60px;
+    border: 1.5px solid #a04020;
+    padding: 32px 36px;
+    background: #fdf5f0;
+}
+
+.ah-info-box h3 {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    color: #7a3a1a;
+}
+
+.ah-info-list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px 32px;
+}
+
+.ah-info-list li {
+    font-size: 14px;
+    font-weight: 300;
+    color: #444;
+    padding-left: 20px;
+    position: relative;
+    line-height: 1.55;
+}
+
+.ah-info-list li strong {
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+.ah-info-list li::before {
+    content: '🏺';
+    position: absolute;
+    left: 0;
+    font-size: 11px;
+    top: 2px;
+}
+
+/* ── RESPONSIVE ── */
+@media (max-width: 1100px) {
+    .ah-route-item {
+        grid-template-columns: 40px 1fr 270px;
+    }
+    .ah-rest-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .ah-ingredientes-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+
+    .ah-intro,
+    .ah-routes,
+    .ah-section-title,
+    .ah-ingredientes-wrap,
+    .ah-historia-box,
+    .ah-claves-wrap,
+    .ah-rest-wrap,
+    .ah-info-box {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .ah-hero-content {
+        padding: 0 20px 12px;
+    }
+
+    .ah-hero-content h1 {
+        font-size: 36px;
+    }
+
+    .ah-hero-stats {
+        padding: 12px 20px 36px;
+        gap: 16px;
+    }
+
+    .ah-historia-box {
+        flex-direction: column;
+        gap: 14px;
+    }
+
+    .ah-ingredientes-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .ah-route-item {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+
+    .ah-route-num {
+        display: none;
+    }
+
+    .ah-route-text {
+        padding-right: 0;
+    }
+
+    .ah-route-img {
+        height: 220px;
+        position: static;
+    }
+
+    .ah-claves-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .ah-rest-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .ah-info-list {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .ah-hero {
+        height: 460px;
+    }
+
+    .ah-hero-content h1 {
+        font-size: 30px;
+    }
+
+    .ah-ingredientes-grid {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,513 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
+
+.gf-page {
+    font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
+    color: #1a1a1a;
+    margin-top: 70px;
+}
+
+/* ── Hero ── */
+.gf-hero {
+    position: relative;
+    height: 540px;
+    background-image: url('/img/img-eventos/granferia/hero.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: #003820;
+}
+
+.gf-hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(0,20,10,0.85) 0%, rgba(0,20,10,0.06) 60%, transparent 100%);
+}
+
+.gf-hero-content {
+    position: relative;
+    z-index: 2;
+    padding: 0 48px 20px;
+    color: #fff;
+    max-width: 680px;
+}
+
+.gf-eyebrow {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #a8d5a2;
+    margin-bottom: 12px;
+}
+
+.gf-hero-content h1 {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.0;
+    margin-bottom: 14px;
+    letter-spacing: -0.02em;
+}
+
+.gf-hero-content p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.6;
+    color: rgba(255,255,255,0.88);
+    max-width: 540px;
+}
+
+/* Stats */
+.gf-hero-stats {
+    position: relative;
+    z-index: 2;
+    padding: 18px 48px 44px;
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+.gf-stat {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.gf-stat-num {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1;
+    color: #a8d5a2;
+}
+
+.gf-stat-label {
+    font-size: 11px;
+    font-weight: 300;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.7);
+    margin-top: 3px;
+}
+
+.gf-stat-sep {
+    width: 1px;
+    height: 34px;
+    background: rgba(255,255,255,0.25);
+}
+
+/* ── Historia box ── */
+.gf-historia-box {
+    margin: 0 48px;
+    background: #0a2010;
+    border-top: 3px solid #4a9040;
+    padding: 28px 32px;
+    display: flex;
+    gap: 24px;
+    align-items: flex-start;
+}
+
+.gf-historia-icono {
+    font-size: 32px;
+    flex-shrink: 0;
+}
+
+.gf-historia-titulo {
+    font-size: 15px;
+    font-weight: 700;
+    color: #a8d5a2;
+    margin-bottom: 10px;
+}
+
+.gf-historia-content p {
+    font-size: 14px;
+    font-weight: 300;
+    color: rgba(255,255,255,0.85);
+    line-height: 1.65;
+    margin: 0;
+}
+
+.gf-historia-content strong {
+    font-weight: 600;
+    color: #fff;
+}
+
+/* ── Intro ── */
+.gf-intro {
+    max-width: 740px;
+    margin: 52px auto;
+    padding: 0 48px;
+}
+
+.gf-intro p {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.75;
+    color: #333;
+    margin-bottom: 18px;
+}
+
+.gf-intro strong {
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+/* ── Section title ── */
+.gf-section-title {
+    padding: 0 48px 32px;
+    border-bottom: 2px solid #4a9040;
+}
+
+.gf-section-title h2 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #1a1a1a;
+    letter-spacing: -0.01em;
+    margin-bottom: 6px;
+}
+
+.gf-section-title p {
+    font-size: 15px;
+    font-weight: 300;
+    color: #777;
+}
+
+/* ── Actos ── */
+.gf-routes {
+    padding: 0 48px;
+}
+
+.gf-route-item {
+    display: grid;
+    grid-template-columns: 56px 1fr 340px;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 52px 0;
+    align-items: start;
+}
+
+.gf-route-num {
+    font-size: 13px;
+    font-weight: 600;
+    color: #bbb;
+    letter-spacing: 0.05em;
+    padding-top: 4px;
+}
+
+.gf-route-text {
+    padding-right: 48px;
+}
+
+/* Badge de fecha */
+.gf-fecha-badge {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: #fff;
+    background: #4a9040;
+    padding: 3px 10px;
+    margin-bottom: 10px;
+    border-radius: 2px;
+}
+
+.gf-route-text h2 {
+    font-size: 26px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 4px;
+    letter-spacing: -0.01em;
+    line-height: 1.15;
+}
+
+.gf-subtitulo {
+    font-size: 13px;
+    font-weight: 300;
+    font-style: italic;
+    color: #888;
+    margin-bottom: 16px;
+    line-height: 1.4;
+}
+
+.gf-desc {
+    font-size: 15px;
+    font-weight: 300;
+    color: #444;
+    line-height: 1.75;
+    margin-bottom: 18px;
+}
+
+/* Caja de dato */
+.gf-dato-box {
+    font-size: 13px;
+    font-weight: 600;
+    color: #1a4a10;
+    background: #edf5e8;
+    border-left: 3px solid #4a9040;
+    padding: 9px 13px;
+    margin-bottom: 14px;
+    display: flex;
+    gap: 8px;
+    align-items: flex-start;
+    line-height: 1.5;
+}
+
+.gf-dato-icon {
+    flex-shrink: 0;
+}
+
+/* Tags */
+.gf-tags {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.gf-tag {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #555;
+    border: 1px solid #ddd;
+    background: #f5f5f5;
+    padding: 3px 9px;
+    border-radius: 2px;
+}
+
+.gf-tag.free {
+    color: #1b5e20;
+    background: #e8f5e9;
+    border-color: #66bb6a;
+    font-weight: 700;
+}
+
+/* Imagen */
+.gf-route-img {
+    border-radius: 2px;
+    overflow: hidden;
+    height: 280px;
+    position: sticky;
+    top: 90px;
+}
+
+.gf-route-img-inner {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #0a2010;
+}
+
+/* Imágenes */
+.img-viveros       { background-image: url('/img/img-eventos/granferia/viveros.jpg'); }
+.img-fuegos        { background-image: url('/img/img-eventos/granferia/fuegos.jpg'); }
+.img-jazz          { background-image: url('/img/img-eventos/granferia/jazz.jpg'); }
+.img-bandas        { background-image: url('/img/img-eventos/granferia/bandas.jpg'); }
+.img-nit           { background-image: url('/img/img-eventos/granferia/nit.jpg'); }
+.img-batallaflores { background-image: url('/img/img-eventos/granferia/batallaflores.jpg'); }
+.img-atracciones   { background-image: url('/img/img-eventos/granferia/atracciones.jpg'); }
+
+/* ── Tabla ── */
+.gf-info-practica {
+    margin: 52px 48px 0;
+    padding-top: 48px;
+    border-top: 1.5px solid #e5e5e5;
+}
+
+.gf-info-practica h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #1a1a1a;
+    letter-spacing: -0.01em;
+    margin-bottom: 20px;
+}
+
+.gf-tabla {
+    display: flex;
+    flex-direction: column;
+    border: 1.5px solid #e5e5e5;
+    overflow: hidden;
+}
+
+.gf-tabla-fila {
+    display: grid;
+    grid-template-columns: 180px 1fr;
+    border-bottom: 1px solid #e5e5e5;
+    min-height: 44px;
+}
+
+.gf-tabla-fila:last-child {
+    border-bottom: none;
+}
+
+.gf-tabla-fila:nth-child(even) {
+    background: #edf5e8;
+}
+
+.gf-tabla-label {
+    padding: 12px 20px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #1a4a10;
+    border-right: 1px solid #e5e5e5;
+    display: flex;
+    align-items: center;
+}
+
+.gf-tabla-val {
+    padding: 12px 20px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #333;
+    line-height: 1.55;
+    display: flex;
+    align-items: center;
+}
+
+/* ── Info box ── */
+.gf-info-box {
+    margin: 32px 48px 60px;
+    border: 1.5px solid #4a9040;
+    padding: 32px 36px;
+    background: #edf5e8;
+}
+
+.gf-info-box h3 {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    color: #1a4a10;
+}
+
+.gf-info-list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px 32px;
+}
+
+.gf-info-list li {
+    font-size: 14px;
+    font-weight: 300;
+    color: #444;
+    padding-left: 16px;
+    position: relative;
+    line-height: 1.5;
+}
+
+.gf-info-list li strong {
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+.gf-info-list li::before {
+    content: '🌺';
+    position: absolute;
+    left: 0;
+    font-size: 11px;
+    top: 2px;
+}
+
+/* ── RESPONSIVE ── */
+@media (max-width: 1100px) {
+    .gf-route-item {
+        grid-template-columns: 40px 1fr 270px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .gf-intro,
+    .gf-routes,
+    .gf-section-title,
+    .gf-historia-box,
+    .gf-info-practica,
+    .gf-info-box {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .gf-hero-content {
+        padding: 0 20px 12px;
+    }
+
+    .gf-hero-content h1 {
+        font-size: 36px;
+    }
+
+    .gf-hero-stats {
+        padding: 12px 20px 36px;
+        gap: 18px;
+    }
+
+    .gf-stat-num {
+        font-size: 20px;
+    }
+
+    .gf-historia-box {
+        flex-direction: column;
+        gap: 14px;
+    }
+
+    .gf-route-item {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+
+    .gf-route-num {
+        display: none;
+    }
+
+    .gf-route-text {
+        padding-right: 0;
+    }
+
+    .gf-route-img {
+        height: 220px;
+        position: static;
+    }
+
+    .gf-tabla-fila {
+        grid-template-columns: 130px 1fr;
+    }
+
+    .gf-info-list {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .gf-hero {
+        height: 460px;
+    }
+
+    .gf-hero-content h1 {
+        font-size: 30px;
+    }
+
+    .gf-tabla-fila {
+        grid-template-columns: 1fr;
+    }
+
+    .gf-tabla-label {
+        border-right: none;
+        border-bottom: 1px solid #e5e5e5;
+        padding-bottom: 6px;
+        padding-top: 14px;
+    }
+
+    .gf-tabla-val {
+        padding-top: 6px;
+        padding-bottom: 14px;
+    }
+}

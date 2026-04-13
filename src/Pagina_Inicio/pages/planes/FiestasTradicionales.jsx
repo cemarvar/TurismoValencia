@@ -290,7 +290,6 @@ export default function FiestasTradicionales() {
                 ))}
               </div>
 
-              <a className="ft-link" href="#">Ver más →</a>
             </div>
 
             <div className="ft-route-col">

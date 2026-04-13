@@ -194,7 +194,6 @@ export default function MonumentosMuseos() {
                   <span key={t.label} className={`mm-tag ${t.type === 'free' ? 'free' : ''}`}>{t.label}</span>
                 ))}
               </div>
-              <a className="mm-link" href="#">Ver detalles →</a>
             </div>
             <div className="mm-route-img">
               <div className={`mm-route-img-inner ${m.imgClass}`} />

@@ -1,0 +1,604 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
+
+.bun-page {
+    font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
+    color: #1a1a1a;
+    margin-top: 70px;
+}
+
+/* ── Hero ── */
+.bun-hero {
+    position: relative;
+    height: 520px;
+    background-image: url('/img/img-gastronomia/buenuelo/hero.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: #2a1000;
+}
+
+.bun-hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(16,7,0,0.91) 0%, rgba(16,7,0,0.05) 60%, transparent 100%);
+}
+
+.bun-hero-content {
+    position: relative;
+    z-index: 2;
+    padding: 0 48px 20px;
+    color: #fff;
+    max-width: 680px;
+}
+
+.bun-eyebrow {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #f5a033;
+    margin-bottom: 12px;
+}
+
+.bun-hero-content h1 {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.0;
+    margin-bottom: 14px;
+    letter-spacing: -0.02em;
+}
+
+.bun-hero-content p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.6;
+    color: rgba(255,255,255,0.88);
+    max-width: 540px;
+}
+
+/* Stats */
+.bun-hero-stats {
+    position: relative;
+    z-index: 2;
+    padding: 18px 48px 44px;
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+.bun-stat {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.bun-stat-num {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1;
+    color: #f5a033;
+}
+
+.bun-stat-label {
+    font-size: 11px;
+    font-weight: 300;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.65);
+    margin-top: 3px;
+}
+
+.bun-stat-sep {
+    width: 1px;
+    height: 34px;
+    background: rgba(255,255,255,0.22);
+}
+
+/* ── Historia box ── */
+.bun-historia-box {
+    margin: 0 48px;
+    background: #1a0a00;
+    border-top: 3px solid #c06800;
+    padding: 28px 32px;
+    display: flex;
+    gap: 24px;
+    align-items: flex-start;
+}
+
+.bun-historia-icono {
+    font-size: 32px;
+    flex-shrink: 0;
+}
+
+.bun-historia-titulo {
+    font-size: 15px;
+    font-weight: 700;
+    color: #f5a033;
+    margin-bottom: 10px;
+}
+
+.bun-historia-content p {
+    font-size: 14px;
+    font-weight: 300;
+    color: rgba(255,255,255,0.84);
+    line-height: 1.65;
+    margin: 0;
+}
+
+.bun-historia-content strong {
+    font-weight: 600;
+    color: #fff;
+}
+
+.bun-historia-content em {
+    font-style: italic;
+    color: #f5a033;
+}
+
+/* ── Ingredientes ── */
+.bun-ingredientes-wrap {
+    margin: 0 48px 52px;
+    padding: 28px 32px;
+    background: #fff8ee;
+    border: 1.5px solid #f5a033;
+}
+
+.bun-ingredientes-titulo {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #8a4a00;
+    margin-bottom: 18px;
+}
+
+.bun-ingredientes-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1px;
+    background: #f5a033;
+    border: 1px solid #f5a033;
+}
+
+.bun-ing-card {
+    background: #fff;
+    padding: 16px 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    transition: background 0.1s;
+}
+
+.bun-ing-card:hover {
+    background: #fff8ee;
+}
+
+.bun-ing-icono {
+    font-size: 22px;
+    line-height: 1;
+    margin-bottom: 4px;
+}
+
+.bun-ing-nombre {
+    font-size: 13px;
+    font-weight: 700;
+    color: #1a1a1a;
+    line-height: 1.3;
+}
+
+.bun-ing-desc {
+    font-size: 12px;
+    font-weight: 300;
+    color: #777;
+    line-height: 1.4;
+}
+
+/* ── Intro ── */
+.bun-intro {
+    max-width: 740px;
+    margin: 52px auto;
+    padding: 0 48px;
+}
+
+.bun-intro p {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.75;
+    color: #333;
+    margin-bottom: 18px;
+}
+
+.bun-intro strong {
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+/* ── Section title ── */
+.bun-section-title {
+    padding: 0 48px 32px;
+    border-bottom: 2px solid #c06800;
+}
+
+.bun-section-title h2 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #1a1a1a;
+    letter-spacing: -0.01em;
+    margin-bottom: 6px;
+}
+
+.bun-section-title p {
+    font-size: 15px;
+    font-weight: 300;
+    color: #777;
+}
+
+/* ── Secciones ── */
+.bun-routes {
+    padding: 0 48px;
+}
+
+.bun-route-item {
+    display: grid;
+    grid-template-columns: 56px 1fr 340px;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 52px 0;
+    align-items: start;
+}
+
+.bun-route-num {
+    font-size: 13px;
+    font-weight: 600;
+    color: #bbb;
+    letter-spacing: 0.05em;
+    padding-top: 4px;
+}
+
+.bun-route-text {
+    padding-right: 48px;
+}
+
+.bun-route-text h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 4px;
+    letter-spacing: -0.01em;
+    line-height: 1.2;
+}
+
+.bun-subtitulo {
+    font-size: 13px;
+    font-weight: 300;
+    font-style: italic;
+    color: #888;
+    margin-bottom: 16px;
+    line-height: 1.4;
+}
+
+.bun-desc {
+    font-size: 15px;
+    font-weight: 300;
+    color: #444;
+    line-height: 1.75;
+    margin-bottom: 18px;
+}
+
+/* Dato box */
+.bun-dato-box {
+    font-size: 13px;
+    font-weight: 600;
+    color: #8a4a00;
+    background: #fff8ee;
+    border-left: 3px solid #c06800;
+    padding: 9px 13px;
+    margin-bottom: 14px;
+    display: flex;
+    gap: 8px;
+    align-items: flex-start;
+    line-height: 1.5;
+}
+
+.bun-dato-icon {
+    flex-shrink: 0;
+}
+
+/* Tags */
+.bun-tags {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.bun-tag {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #8a4a00;
+    border: 1px solid #f5a033;
+    background: #fff8ee;
+    padding: 3px 9px;
+    border-radius: 2px;
+}
+
+/* Imagen */
+.bun-route-img {
+    border-radius: 2px;
+    overflow: hidden;
+    height: 270px;
+    position: sticky;
+    top: 90px;
+}
+
+.bun-route-img-inner {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #2a1000;
+}
+
+/* Imágenes */
+.img-bun-plato    { background-image: url('/img/img-gastronomia/buenuelo/plato.jpg'); }
+.img-bun-historia { background-image: url('/img/img-gastronomia/buenuelo/historia.jpg'); }
+.img-bun-masa     { background-image: url('/img/img-gastronomia/buenuelo/masa.jpg'); }
+.img-bun-foraet   { background-image: url('/img/img-gastronomia/buenuelo/foraet.jpg'); }
+.img-bun-variantes { background-image: url('/img/img-gastronomia/buenuelo/variantes.jpg'); }
+
+/* ── Claves ── */
+.bun-claves-wrap {
+    margin: 52px 48px 0;
+    padding: 28px 36px;
+    border: 1.5px solid #e5e5e5;
+    background: #fffaf4;
+}
+
+.bun-claves-wrap h3 {
+    font-size: 17px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 20px;
+    letter-spacing: -0.01em;
+}
+
+.bun-claves-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px 32px;
+}
+
+.bun-clave-item {
+    display: flex;
+    gap: 14px;
+    align-items: flex-start;
+}
+
+.bun-clave-num {
+    font-size: 24px;
+    font-weight: 700;
+    color: #f5a033;
+    line-height: 1;
+    flex-shrink: 0;
+    min-width: 32px;
+}
+
+.bun-clave-titulo {
+    font-size: 14px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 3px;
+}
+
+.bun-clave-desc {
+    font-size: 13px;
+    font-weight: 300;
+    color: #555;
+    line-height: 1.5;
+}
+
+/* ── Buñolerías ── */
+.bun-rest-wrap {
+    margin: 32px 48px 0;
+}
+
+.bun-rest-wrap h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #1a1a1a;
+    letter-spacing: -0.01em;
+    margin-bottom: 20px;
+    padding-top: 32px;
+    border-top: 1.5px solid #e5e5e5;
+}
+
+.bun-rest-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1px;
+    background: #e5e5e5;
+    border: 1.5px solid #e5e5e5;
+    overflow: hidden;
+}
+
+.bun-rest-card {
+    background: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    transition: background 0.1s;
+}
+
+.bun-rest-card:hover {
+    background: #fff8ee;
+}
+
+.bun-rest-nombre {
+    font-size: 14px;
+    font-weight: 700;
+    color: #c06800;
+    line-height: 1.3;
+}
+
+.bun-rest-dir {
+    font-size: 12px;
+    font-weight: 600;
+    color: #f5a033;
+    letter-spacing: 0.02em;
+}
+
+.bun-rest-desc {
+    font-size: 13px;
+    font-weight: 300;
+    color: #555;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* ── Info box ── */
+.bun-info-box {
+    margin: 32px 48px 60px;
+    border: 1.5px solid #c06800;
+    padding: 32px 36px;
+    background: #fff8ee;
+}
+
+.bun-info-box h3 {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    color: #8a4a00;
+}
+
+.bun-info-list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px 32px;
+}
+
+.bun-info-list li {
+    font-size: 14px;
+    font-weight: 300;
+    color: #444;
+    padding-left: 20px;
+    position: relative;
+    line-height: 1.55;
+}
+
+.bun-info-list li strong {
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+.bun-info-list li::before {
+    content: '🎃';
+    position: absolute;
+    left: 0;
+    font-size: 11px;
+    top: 2px;
+}
+
+/* ── RESPONSIVE ── */
+@media (max-width: 1100px) {
+    .bun-route-item {
+        grid-template-columns: 40px 1fr 270px;
+    }
+    .bun-rest-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .bun-ingredientes-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+
+    .bun-intro,
+    .bun-routes,
+    .bun-section-title,
+    .bun-ingredientes-wrap,
+    .bun-historia-box,
+    .bun-claves-wrap,
+    .bun-rest-wrap,
+    .bun-info-box {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .bun-hero-content {
+        padding: 0 20px 12px;
+    }
+
+    .bun-hero-content h1 {
+        font-size: 36px;
+    }
+
+    .bun-hero-stats {
+        padding: 12px 20px 36px;
+        gap: 16px;
+    }
+
+    .bun-historia-box {
+        flex-direction: column;
+        gap: 14px;
+    }
+
+    .bun-ingredientes-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .bun-route-item {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+
+    .bun-route-num {
+        display: none;
+    }
+
+    .bun-route-text {
+        padding-right: 0;
+    }
+
+    .bun-route-img {
+        height: 220px;
+        position: static;
+    }
+
+    .bun-claves-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .bun-rest-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .bun-info-list {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .bun-hero {
+        height: 460px;
+    }
+
+    .bun-hero-content h1 {
+        font-size: 30px;
+    }
+
+    .bun-ingredientes-grid {
+        grid-template-columns: 1fr;
+    }
+}

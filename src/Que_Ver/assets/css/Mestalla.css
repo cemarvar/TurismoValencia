@@ -1,0 +1,519 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
+
+.mest-page {
+    font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
+    color: #1a1a1a;
+    margin-top: 70px;
+}
+
+/* ── Hero ── */
+.mest-hero {
+    position: relative;
+    height: 560px;
+    background-image: url('/img/img-quever/Mestalla/hero.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.mest-hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(10,5,0,0.85) 0%, rgba(10,5,0,0.08) 58%, transparent 100%);
+}
+
+.mest-hero-content {
+    position: relative;
+    z-index: 2;
+    padding: 0 48px 20px;
+    color: #fff;
+    max-width: 700px;
+}
+
+.mest-eyebrow {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #eb5a00;
+    margin-bottom: 12px;
+}
+
+.mest-hero-content h1 {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.0;
+    margin-bottom: 14px;
+    letter-spacing: -0.02em;
+}
+
+.mest-hero-content p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.6;
+    color: rgba(255,255,255,0.88);
+    max-width: 560px;
+}
+
+/* Stats */
+.mest-hero-stats {
+    position: relative;
+    z-index: 2;
+    padding: 18px 48px 44px;
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+.mest-stat {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.mest-stat-num {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1;
+    color: #eb5a00;
+}
+
+.mest-stat-label {
+    font-size: 11px;
+    font-weight: 300;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.7);
+    margin-top: 3px;
+}
+
+.mest-stat-sep {
+    width: 1px;
+    height: 34px;
+    background: rgba(255,255,255,0.25);
+}
+
+/* ── Intro ── */
+.mest-intro {
+    max-width: 740px;
+    margin: 52px auto;
+    padding: 0 48px;
+}
+
+.mest-intro p {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.75;
+    color: #333;
+    margin-bottom: 18px;
+}
+
+.mest-intro strong {
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+/* ── Chips de palmarés ── */
+.mest-palmares-wrap {
+    margin: 0 48px 52px;
+    padding: 28px 32px;
+    background: #1a1a1a;
+    border-top: 3px solid #eb5a00;
+}
+
+.mest-palmares-titulo {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #eb5a00;
+    margin-bottom: 16px;
+}
+
+.mest-palmares-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.mest-titulo-chip {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background: #2a2a2a;
+    border: 1px solid #444;
+    padding: 7px 12px;
+    font-size: 13px;
+    color: #fff;
+    transition: background 0.12s, border-color 0.12s;
+}
+
+.mest-titulo-chip:hover {
+    background: #333;
+    border-color: #eb5a00;
+}
+
+.mest-titulo-icono {
+    font-size: 15px;
+    line-height: 1;
+}
+
+/* ── Section title ── */
+.mest-section-title {
+    padding: 0 48px 32px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.mest-section-title h2 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #1a1a1a;
+    letter-spacing: -0.01em;
+    margin-bottom: 6px;
+}
+
+.mest-section-title p {
+    font-size: 15px;
+    font-weight: 300;
+    color: #777;
+}
+
+/* ── Secciones ── */
+.mest-routes {
+    padding: 0 48px;
+}
+
+.mest-route-item {
+    display: grid;
+    grid-template-columns: 56px 1fr 340px;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 52px 0;
+    align-items: start;
+}
+
+.mest-route-num {
+    font-size: 13px;
+    font-weight: 600;
+    color: #bbb;
+    letter-spacing: 0.05em;
+    padding-top: 4px;
+}
+
+.mest-route-text {
+    padding-right: 48px;
+}
+
+.mest-tipo {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #eb5a00;
+    margin-bottom: 6px;
+}
+
+.mest-route-text h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 4px;
+    letter-spacing: -0.01em;
+    line-height: 1.2;
+}
+
+.mest-subtitulo {
+    font-size: 13px;
+    font-weight: 300;
+    font-style: italic;
+    color: #888;
+    margin-bottom: 16px;
+    line-height: 1.4;
+}
+
+.mest-desc {
+    font-size: 15px;
+    font-weight: 300;
+    color: #444;
+    line-height: 1.75;
+    margin-bottom: 20px;
+}
+
+.mest-datos-titulo {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #999;
+    margin-bottom: 10px;
+}
+
+.mest-datos {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 16px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.mest-datos li {
+    font-size: 14px;
+    line-height: 1.5;
+    padding-left: 14px;
+    border-left: 2px solid #eb5a00;
+    color: #444;
+}
+
+.mest-dato-label {
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+.mest-dato-val {
+    font-weight: 300;
+}
+
+/* Tags */
+.mest-tags {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.mest-tag {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #1a1a1a;
+    border: 1px solid #ddd;
+    background: #f5f5f5;
+    padding: 3px 9px;
+    border-radius: 2px;
+}
+
+/* Imagen */
+.mest-route-img {
+    border-radius: 2px;
+    overflow: hidden;
+    height: 280px;
+    position: sticky;
+    top: 90px;
+}
+
+.mest-route-img-inner {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #1a1a1a;
+}
+
+/* Imágenes */
+.img-estadio   { background-image: url('/img/img-quever/Mestalla/estadio.jpg'); }
+.img-tour      { background-image: url('/img/img-quever/Mestalla/tour.jpg'); }
+.img-palmares  { background-image: url('/img/img-quever/Mestalla/palmares.jpg'); }
+.img-gradona   { background-image: url('/img/img-quever/Mestalla/gradona.jpg'); }
+.img-historia  { background-image: url('/img/img-quever/Mestalla/historia.jpg'); }
+.img-nouveau   { background-image: url('/img/img-quever/Mestalla/nouveau.jpg'); }
+
+/* ── Tabla información práctica ── */
+.mest-info-practica {
+    margin: 52px 48px 0;
+    padding-top: 48px;
+    border-top: 1.5px solid #e5e5e5;
+}
+
+.mest-info-practica h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #1a1a1a;
+    letter-spacing: -0.01em;
+    margin-bottom: 20px;
+}
+
+.mest-tabla {
+    display: flex;
+    flex-direction: column;
+    border: 1.5px solid #e5e5e5;
+    overflow: hidden;
+}
+
+.mest-tabla-fila {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    border-bottom: 1px solid #e5e5e5;
+    min-height: 44px;
+}
+
+.mest-tabla-fila:last-child {
+    border-bottom: none;
+}
+
+.mest-tabla-fila:nth-child(even) {
+    background: #f8f5f2;
+}
+
+.mest-tabla-label {
+    padding: 12px 20px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #1a1a1a;
+    border-right: 1px solid #e5e5e5;
+    display: flex;
+    align-items: center;
+}
+
+.mest-tabla-val {
+    padding: 12px 20px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #333;
+    line-height: 1.55;
+    display: flex;
+    align-items: center;
+}
+
+/* ── Info box ── */
+.mest-info-box {
+    margin: 32px 48px 60px;
+    border: 1.5px solid #eb5a00;
+    padding: 32px 36px;
+    background: #fff8f4;
+}
+
+.mest-info-box h3 {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    color: #1a1a1a;
+}
+
+.mest-info-list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px 32px;
+}
+
+.mest-info-list li {
+    font-size: 14px;
+    font-weight: 300;
+    color: #444;
+    padding-left: 16px;
+    position: relative;
+    line-height: 1.5;
+}
+
+.mest-info-list li strong {
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+.mest-info-list li::before {
+    content: '—';
+    position: absolute;
+    left: 0;
+    color: #eb5a00;
+    font-size: 12px;
+}
+
+/* ── RESPONSIVE ── */
+@media (max-width: 1100px) {
+    .mest-route-item {
+        grid-template-columns: 40px 1fr 270px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .mest-intro,
+    .mest-routes,
+    .mest-section-title,
+    .mest-palmares-wrap,
+    .mest-info-practica,
+    .mest-info-box {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .mest-hero-content {
+        padding: 0 20px 12px;
+    }
+
+    .mest-hero-content h1 {
+        font-size: 36px;
+    }
+
+    .mest-hero-stats {
+        padding: 12px 20px 36px;
+        gap: 16px;
+    }
+
+    .mest-stat-num {
+        font-size: 18px;
+    }
+
+    .mest-route-item {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+
+    .mest-route-num {
+        display: none;
+    }
+
+    .mest-route-text {
+        padding-right: 0;
+    }
+
+    .mest-route-img {
+        height: 220px;
+        position: static;
+    }
+
+    .mest-tabla-fila {
+        grid-template-columns: 140px 1fr;
+    }
+
+    .mest-info-list {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .mest-hero {
+        height: 480px;
+    }
+
+    .mest-hero-content h1 {
+        font-size: 30px;
+    }
+
+    .mest-tabla-fila {
+        grid-template-columns: 1fr;
+    }
+
+    .mest-tabla-label {
+        border-right: none;
+        border-bottom: 1px solid #e5e5e5;
+        padding-bottom: 6px;
+        padding-top: 14px;
+    }
+
+    .mest-tabla-val {
+        padding-top: 6px;
+        padding-bottom: 14px;
+    }
+}

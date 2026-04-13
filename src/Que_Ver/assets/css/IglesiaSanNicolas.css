@@ -1,0 +1,521 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
+
+.sn-page {
+    font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
+    color: #1a1a1a;
+    margin-top: 70px;
+}
+
+/* ── Hero ── */
+.sn-hero {
+    position: relative;
+    height: 540px;
+    background-image: url('/img/img-quever/IglesiaSanNicolas/hero.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.sn-hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(5,0,20,0.85) 0%, rgba(5,0,20,0.1) 58%, transparent 100%);
+}
+
+.sn-hero-content {
+    position: relative;
+    z-index: 2;
+    padding: 0 48px 20px;
+    color: #fff;
+    max-width: 680px;
+}
+
+.sn-eyebrow {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #f0c040;
+    margin-bottom: 12px;
+}
+
+.sn-hero-content h1 {
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 1.05;
+    margin-bottom: 14px;
+    letter-spacing: -0.02em;
+}
+
+.sn-hero-content p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.6;
+    color: rgba(255,255,255,0.88);
+    max-width: 560px;
+}
+
+/* Stats */
+.sn-hero-stats {
+    position: relative;
+    z-index: 2;
+    padding: 18px 48px 44px;
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+.sn-stat {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.sn-stat-num {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1;
+    color: #f0c040;
+}
+
+.sn-stat-label {
+    font-size: 11px;
+    font-weight: 300;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.7);
+    margin-top: 3px;
+}
+
+.sn-stat-sep {
+    width: 1px;
+    height: 34px;
+    background: rgba(255,255,255,0.25);
+}
+
+/* ── Por qué visitar ── */
+.sn-porqué {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1px;
+    background: #e5e5e5;
+    border-bottom: 2px solid #1a2a4a;
+}
+
+.sn-porqué-item {
+    background: #fffbf0;
+    padding: 24px 20px;
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+}
+
+.sn-check {
+    color: #f0c040;
+    font-size: 18px;
+    font-weight: 700;
+    flex-shrink: 0;
+    margin-top: 1px;
+}
+
+.sn-porqué-titulo {
+    font-size: 13px;
+    font-weight: 700;
+    color: #1a2a4a;
+    margin-bottom: 5px;
+    line-height: 1.3;
+}
+
+.sn-porqué-desc {
+    font-size: 13px;
+    font-weight: 300;
+    color: #555;
+    line-height: 1.5;
+    margin: 0;
+}
+
+/* ── Intro ── */
+.sn-intro {
+    max-width: 740px;
+    margin: 52px auto;
+    padding: 0 48px;
+}
+
+.sn-intro p {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.75;
+    color: #333;
+    margin-bottom: 18px;
+}
+
+.sn-intro strong {
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+/* ── Section title ── */
+.sn-section-title {
+    padding: 0 48px 32px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.sn-section-title h2 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #1a1a1a;
+    letter-spacing: -0.01em;
+    margin-bottom: 6px;
+}
+
+.sn-section-title p {
+    font-size: 15px;
+    font-weight: 300;
+    color: #777;
+}
+
+/* ── Elementos ── */
+.sn-routes {
+    padding: 0 48px;
+}
+
+.sn-route-item {
+    display: grid;
+    grid-template-columns: 56px 1fr 340px;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 52px 0;
+    align-items: start;
+}
+
+.sn-route-num {
+    font-size: 13px;
+    font-weight: 600;
+    color: #bbb;
+    letter-spacing: 0.05em;
+    padding-top: 4px;
+}
+
+.sn-route-text {
+    padding-right: 48px;
+}
+
+.sn-tipo {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #c0392b;
+    margin-bottom: 6px;
+}
+
+.sn-route-text h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 4px;
+    letter-spacing: -0.01em;
+    line-height: 1.2;
+}
+
+.sn-subtitulo {
+    font-size: 13px;
+    font-weight: 300;
+    font-style: italic;
+    color: #888;
+    margin-bottom: 16px;
+    line-height: 1.4;
+}
+
+.sn-desc {
+    font-size: 15px;
+    font-weight: 300;
+    color: #444;
+    line-height: 1.75;
+    margin-bottom: 22px;
+}
+
+.sn-datos-titulo {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #999;
+    margin-bottom: 10px;
+}
+
+.sn-datos {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 16px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.sn-datos li {
+    font-size: 14px;
+    line-height: 1.5;
+    padding-left: 14px;
+    border-left: 2px solid #e0e0e0;
+    color: #444;
+}
+
+.sn-dato-label {
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+.sn-dato-val {
+    font-weight: 300;
+}
+
+/* Tags */
+.sn-tags {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.sn-tag {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #555;
+    border: 1px solid #ddd;
+    padding: 3px 9px;
+    border-radius: 2px;
+}
+
+/* Imagen */
+.sn-route-img {
+    border-radius: 2px;
+    overflow: hidden;
+    height: 270px;
+    position: sticky;
+    top: 90px;
+}
+
+.sn-route-img-inner {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #0a0520;
+}
+
+/* Imágenes */
+.img-boveda       { background-image: url('/img/img-quever/IglesiaSanNicolas/boveda.jpg'); }
+.img-arquitectura { background-image: url('/img/img-quever/IglesiaSanNicolas/arquitectura.jpg'); }
+.img-luz          { background-image: url('/img/img-quever/IglesiaSanNicolas/luz.jpg'); }
+.img-restauracion { background-image: url('/img/img-quever/IglesiaSanNicolas/restauracion.jpg'); }
+.img-coleccion    { background-image: url('/img/img-quever/IglesiaSanNicolas/coleccion.jpg'); }
+.img-devocion     { background-image: url('/img/img-quever/IglesiaSanNicolas/devocion.jpg'); }
+
+/* ── Tabla información práctica ── */
+.sn-info-practica {
+    margin: 52px 48px 0;
+    padding-top: 48px;
+    border-top: 1.5px solid #e5e5e5;
+}
+
+.sn-info-practica h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #1a1a1a;
+    letter-spacing: -0.01em;
+    margin-bottom: 20px;
+}
+
+.sn-tabla {
+    display: flex;
+    flex-direction: column;
+    border: 1.5px solid #e5e5e5;
+    overflow: hidden;
+}
+
+.sn-tabla-fila {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    border-bottom: 1px solid #e5e5e5;
+    min-height: 44px;
+}
+
+.sn-tabla-fila:last-child {
+    border-bottom: none;
+}
+
+.sn-tabla-fila:nth-child(even) {
+    background: #fffbf0;
+}
+
+.sn-tabla-label {
+    padding: 12px 20px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #1a2a4a;
+    border-right: 1px solid #e5e5e5;
+    display: flex;
+    align-items: center;
+}
+
+.sn-tabla-val {
+    padding: 12px 20px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #333;
+    line-height: 1.55;
+    display: flex;
+    align-items: center;
+}
+
+/* ── Info box ── */
+.sn-info-box {
+    margin: 32px 48px 60px;
+    border: 1.5px solid #1a2a4a;
+    padding: 32px 36px;
+    background: #fffbf0;
+}
+
+.sn-info-box h3 {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    color: #1a2a4a;
+}
+
+.sn-info-list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px 32px;
+}
+
+.sn-info-list li {
+    font-size: 14px;
+    font-weight: 300;
+    color: #444;
+    padding-left: 16px;
+    position: relative;
+    line-height: 1.5;
+}
+
+.sn-info-list li strong {
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+.sn-info-list li::before {
+    content: '—';
+    position: absolute;
+    left: 0;
+    color: #f0c040;
+    font-size: 12px;
+}
+
+/* ── RESPONSIVE ── */
+@media (max-width: 1100px) {
+    .sn-route-item {
+        grid-template-columns: 40px 1fr 270px;
+    }
+
+    .sn-porqué {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+
+    .sn-intro,
+    .sn-routes,
+    .sn-section-title,
+    .sn-info-practica,
+    .sn-info-box {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .sn-hero-content {
+        padding: 0 20px 12px;
+    }
+
+    .sn-hero-content h1 {
+        font-size: 34px;
+    }
+
+    .sn-hero-stats {
+        padding: 12px 20px 36px;
+        gap: 16px;
+    }
+
+    .sn-stat-num {
+        font-size: 16px;
+    }
+
+    .sn-porqué {
+        grid-template-columns: 1fr;
+    }
+
+    .sn-route-item {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+
+    .sn-route-num {
+        display: none;
+    }
+
+    .sn-route-text {
+        padding-right: 0;
+    }
+
+    .sn-route-img {
+        height: 220px;
+        position: static;
+    }
+
+    .sn-tabla-fila {
+        grid-template-columns: 140px 1fr;
+    }
+
+    .sn-info-list {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .sn-hero {
+        height: 460px;
+    }
+
+    .sn-hero-content h1 {
+        font-size: 28px;
+    }
+
+    .sn-tabla-fila {
+        grid-template-columns: 1fr;
+    }
+
+    .sn-tabla-label {
+        border-right: none;
+        border-bottom: 1px solid #e5e5e5;
+        padding-bottom: 6px;
+        padding-top: 14px;
+    }
+
+    .sn-tabla-val {
+        padding-top: 6px;
+        padding-bottom: 14px;
+    }
+}

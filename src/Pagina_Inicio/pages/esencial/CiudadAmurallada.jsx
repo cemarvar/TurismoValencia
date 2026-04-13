@@ -169,7 +169,6 @@ export default function CiudadAmurallada() {
                 {torre.info}
               </div>
 
-              <a className="cam-link" href="#">Ver en el mapa →</a>
             </div>
 
             <div className="cam-route-col-derecha">

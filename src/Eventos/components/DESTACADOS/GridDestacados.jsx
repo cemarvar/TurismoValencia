@@ -3,12 +3,12 @@ import Destacados from '../DESTACADOS/Destacados';
 
 export default function GridDestacados() {
     var elementos = [
-        { imagen: "/img/img-eventos/valencia-festivos.jpg", titulo: "Festivos" },
-        { imagen: "/img/img-eventos/fallas.jpg", titulo: "Fallas" },
-        { imagen: "/img/img-eventos/deportes.jpg", titulo: "Deportes" },
-        { imagen: "/img/img-eventos/feria.jpeg", titulo: "Gran Feria de Valencia" },
-        { imagen: "/img/img-eventos/festivales.jpg", titulo: "Festivales de Verano" },
-        { imagen: "/img/img-eventos/corpus.jpg", titulo: "Corpus Christi" }
+    { imagen: "/img/img-eventos/valencia-festivos.jpg",         titulo: "Festivos",                   ruta: "/Festivos"  },
+        { imagen: "/img/img-eventos/fallas.jpg",                titulo: "Fallas",                     ruta: "/Fallas"  },
+        { imagen: "/img/img-eventos/deportes.jpg",              titulo: "Deportes",                   ruta: "/Deportes"  },
+        { imagen: "/img/img-eventos/feria.jpeg",                titulo: "Gran Feria de Valencia",     ruta: "/GranFeria"  },
+        { imagen: "/img/img-eventos/festivales.jpg",            titulo: "Festivales de Verano",       ruta: "/FestivalesVerano"  },
+    { imagen: "/img/img-eventos/corpus.jpg",                    titulo: "Corpus Christi",             ruta: "/GranFeria"  }
     ];
 
     return (
@@ -24,7 +24,7 @@ export default function GridDestacados() {
             </div>
             <section className="grid-destacados">
                 {elementos.map((item, index) => (
-                    <Destacados key={index} imagen={item.imagen} titulo={item.titulo} />
+                    <Destacados key={index} imagen={item.imagen} titulo={item.titulo} ruta={item.ruta} />
                 ))}
             </section>
         </>

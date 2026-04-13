@@ -1,0 +1,513 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
+
+.ruz-page {
+    font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
+    color: #1a1a1a;
+    margin-top: 70px;
+}
+
+/* ── Hero ── */
+.ruz-hero {
+    position: relative;
+    height: 560px;
+    background-image: url('/img/img-alojamientos/BarrioRuzafa/hero.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.ruz-hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(20,5,0,0.86) 0%, rgba(20,5,0,0.10) 60%, transparent 100%);
+}
+
+.ruz-hero-content {
+    position: relative;
+    z-index: 2;
+    padding: 0 48px 20px;
+    color: #fff;
+    max-width: 680px;
+}
+
+.ruz-eyebrow {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #e8804a;
+    margin-bottom: 12px;
+}
+
+.ruz-hero-content h1 {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.0;
+    margin-bottom: 14px;
+    letter-spacing: -0.02em;
+}
+
+.ruz-hero-content p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.6;
+    color: rgba(255,255,255,0.88);
+    max-width: 540px;
+}
+
+/* Stats */
+.ruz-hero-stats {
+    position: relative;
+    z-index: 2;
+    padding: 18px 48px 44px;
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+.ruz-stat {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.ruz-stat-num {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1;
+    color: #e8804a;
+}
+
+.ruz-stat-label {
+    font-size: 11px;
+    font-weight: 300;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.7);
+    margin-top: 3px;
+}
+
+.ruz-stat-sep {
+    width: 1px;
+    height: 34px;
+    background: rgba(255,255,255,0.25);
+}
+
+/* ── Intro box ── */
+.ruz-intro-box {
+    margin: 0 48px;
+    background: #1a0a00;
+    padding: 28px 32px;
+    display: flex;
+    gap: 24px;
+    align-items: flex-start;
+}
+
+.ruz-intro-icono {
+    font-size: 32px;
+    flex-shrink: 0;
+}
+
+.ruz-intro-titulo {
+    font-size: 15px;
+    font-weight: 700;
+    color: #e8804a;
+    margin-bottom: 10px;
+}
+
+.ruz-intro-content p {
+    font-size: 14px;
+    font-weight: 300;
+    color: rgba(255,255,255,0.85);
+    line-height: 1.65;
+    margin: 0;
+}
+
+.ruz-intro-content strong {
+    font-weight: 600;
+    color: #fff;
+}
+
+/* ── Intro ── */
+.ruz-intro {
+    max-width: 740px;
+    margin: 52px auto;
+    padding: 0 48px;
+}
+
+.ruz-intro p {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.75;
+    color: #333;
+    margin-bottom: 18px;
+}
+
+.ruz-intro strong {
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+/* ── Section title ── */
+.ruz-section-title {
+    padding: 0 48px 32px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.ruz-section-title h2 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #1a1a1a;
+    letter-spacing: -0.01em;
+    margin-bottom: 6px;
+}
+
+.ruz-section-title p {
+    font-size: 15px;
+    font-weight: 300;
+    color: #777;
+}
+
+/* ── Hoteles ── */
+.ruz-routes {
+    padding: 0 48px;
+}
+
+.ruz-route-item {
+    display: grid;
+    grid-template-columns: 56px 1fr 340px;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 52px 0;
+    align-items: start;
+}
+
+.ruz-route-num {
+    font-size: 13px;
+    font-weight: 600;
+    color: #bbb;
+    letter-spacing: 0.05em;
+    padding-top: 4px;
+}
+
+.ruz-route-text {
+    padding-right: 48px;
+}
+
+.ruz-tipo {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #b85820;
+    margin-bottom: 6px;
+}
+
+.ruz-route-text h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 4px;
+    letter-spacing: -0.01em;
+    line-height: 1.2;
+}
+
+.ruz-subtitulo {
+    font-size: 13px;
+    font-weight: 300;
+    font-style: italic;
+    color: #888;
+    margin-bottom: 16px;
+    line-height: 1.4;
+}
+
+.ruz-desc {
+    font-size: 15px;
+    font-weight: 300;
+    color: #444;
+    line-height: 1.75;
+    margin-bottom: 20px;
+}
+
+.ruz-datos-titulo {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #999;
+    margin-bottom: 10px;
+}
+
+.ruz-datos {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 16px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.ruz-datos li {
+    font-size: 14px;
+    line-height: 1.5;
+    padding-left: 14px;
+    border-left: 2px solid #f0a878;
+    color: #444;
+}
+
+.ruz-dato-label {
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+.ruz-dato-val {
+    font-weight: 300;
+}
+
+/* Tags */
+.ruz-tags {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.ruz-tag {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #8a3010;
+    border: 1px solid #f0a878;
+    background: #fdf2ec;
+    padding: 3px 9px;
+    border-radius: 2px;
+}
+
+/* Imagen */
+.ruz-route-img {
+    border-radius: 2px;
+    overflow: hidden;
+    height: 280px;
+    position: sticky;
+    top: 90px;
+}
+
+.ruz-route-img-inner {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #1a0a00;
+}
+
+/* Imágenes — rutas en /img/img-alojamientos/BarrioRuzafa/ */
+.img-petitpalace   { background-image: url('/img/img-alojamientos/BarrioRuzafa/petitpalace.jpg'); }
+.img-citygarden    { background-image: url('/img/img-alojamientos/BarrioRuzafa/citygarden.jpg'); }
+.img-singularstays { background-image: url('/img/img-alojamientos/BarrioRuzafa/singularstays.jpg'); }
+
+/* ── Tabla información práctica ── */
+.ruz-info-practica {
+    margin: 52px 48px 0;
+    padding-top: 48px;
+    border-top: 1.5px solid #e5e5e5;
+}
+
+.ruz-info-practica h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #1a1a1a;
+    letter-spacing: -0.01em;
+    margin-bottom: 20px;
+}
+
+.ruz-tabla {
+    display: flex;
+    flex-direction: column;
+    border: 1.5px solid #e5e5e5;
+    overflow: hidden;
+}
+
+.ruz-tabla-fila {
+    display: grid;
+    grid-template-columns: 180px 1fr;
+    border-bottom: 1px solid #e5e5e5;
+    min-height: 44px;
+}
+
+.ruz-tabla-fila:last-child {
+    border-bottom: none;
+}
+
+.ruz-tabla-fila:nth-child(even) {
+    background: #fdf2ec;
+}
+
+.ruz-tabla-label {
+    padding: 12px 20px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #8a3010;
+    border-right: 1px solid #e5e5e5;
+    display: flex;
+    align-items: center;
+}
+
+.ruz-tabla-val {
+    padding: 12px 20px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #333;
+    line-height: 1.55;
+    display: flex;
+    align-items: center;
+}
+
+/* ── Info box ── */
+.ruz-info-box {
+    margin: 32px 48px 60px;
+    border: 1.5px solid #b85820;
+    padding: 32px 36px;
+    background: #fdf2ec;
+}
+
+.ruz-info-box h3 {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    color: #8a3010;
+}
+
+.ruz-info-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px 32px;
+}
+
+.ruz-info-list li {
+    font-size: 14px;
+    font-weight: 300;
+    color: #444;
+    padding-left: 16px;
+    position: relative;
+    line-height: 1.5;
+}
+
+.ruz-info-list li strong {
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+.ruz-info-list li::before {
+    content: '—';
+    position: absolute;
+    left: 0;
+    color: #b85820;
+    font-size: 12px;
+}
+
+/* ── RESPONSIVE ── */
+@media (max-width: 1100px) {
+    .ruz-route-item {
+        grid-template-columns: 40px 1fr 270px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .ruz-intro,
+    .ruz-routes,
+    .ruz-section-title,
+    .ruz-intro-box,
+    .ruz-info-practica,
+    .ruz-info-box {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .ruz-hero-content {
+        padding: 0 20px 12px;
+    }
+
+    .ruz-hero-content h1 {
+        font-size: 36px;
+    }
+
+    .ruz-hero-stats {
+        padding: 12px 20px 36px;
+        gap: 18px;
+    }
+
+    .ruz-stat-num {
+        font-size: 18px;
+    }
+
+    .ruz-intro-box {
+        flex-direction: column;
+        gap: 14px;
+    }
+
+    .ruz-route-item {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+
+    .ruz-route-num {
+        display: none;
+    }
+
+    .ruz-route-text {
+        padding-right: 0;
+    }
+
+    .ruz-route-img {
+        height: 220px;
+        position: static;
+    }
+
+    .ruz-tabla-fila {
+        grid-template-columns: 140px 1fr;
+    }
+
+    .ruz-info-list {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .ruz-hero {
+        height: 480px;
+    }
+
+    .ruz-hero-content h1 {
+        font-size: 30px;
+    }
+
+    .ruz-tabla-fila {
+        grid-template-columns: 1fr;
+    }
+
+    .ruz-tabla-label {
+        border-right: none;
+        border-bottom: 1px solid #e5e5e5;
+        padding-bottom: 6px;
+        padding-top: 14px;
+    }
+
+    .ruz-tabla-val {
+        padding-top: 6px;
+        padding-bottom: 14px;
+    }
+}

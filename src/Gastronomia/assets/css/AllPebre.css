@@ -1,0 +1,608 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
+
+.alp-page {
+    font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
+    color: #1a1a1a;
+    margin-top: 70px;
+}
+
+/* ── Hero ── */
+.alp-hero {
+    position: relative;
+    height: 520px;
+    background-image: url('/img/img-gastronomia/allpebre/hero.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: #0d1a08;
+}
+
+.alp-hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(6,12,4,0.92) 0%, rgba(6,12,4,0.06) 60%, transparent 100%);
+}
+
+.alp-hero-content {
+    position: relative;
+    z-index: 2;
+    padding: 0 48px 20px;
+    color: #fff;
+    max-width: 680px;
+}
+
+.alp-eyebrow {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #8fbc6a;
+    margin-bottom: 12px;
+}
+
+.alp-hero-content h1 {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.0;
+    margin-bottom: 14px;
+    letter-spacing: -0.02em;
+}
+
+.alp-hero-content p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.6;
+    color: rgba(255,255,255,0.88);
+    max-width: 540px;
+}
+
+/* Stats */
+.alp-hero-stats {
+    position: relative;
+    z-index: 2;
+    padding: 18px 48px 44px;
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+.alp-stat {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.alp-stat-num {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1;
+    color: #8fbc6a;
+}
+
+.alp-stat-label {
+    font-size: 11px;
+    font-weight: 300;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.65);
+    margin-top: 3px;
+}
+
+.alp-stat-sep {
+    width: 1px;
+    height: 34px;
+    background: rgba(255,255,255,0.22);
+}
+
+/* ── Historia box ── */
+.alp-historia-box {
+    margin: 0 48px;
+    background: #0d1a08;
+    border-top: 3px solid #4a7a28;
+    padding: 28px 32px;
+    display: flex;
+    gap: 24px;
+    align-items: flex-start;
+}
+
+.alp-historia-icono {
+    font-size: 32px;
+    flex-shrink: 0;
+}
+
+.alp-historia-titulo {
+    font-size: 15px;
+    font-weight: 700;
+    color: #8fbc6a;
+    margin-bottom: 10px;
+}
+
+.alp-historia-content p {
+    font-size: 14px;
+    font-weight: 300;
+    color: rgba(255,255,255,0.84);
+    line-height: 1.65;
+    margin: 0;
+}
+
+.alp-historia-content strong {
+    font-weight: 600;
+    color: #fff;
+}
+
+.alp-historia-content em {
+    font-style: italic;
+    color: #8fbc6a;
+}
+
+/* ── Ingredientes ── */
+.alp-ingredientes-wrap {
+    margin: 0 48px 52px;
+    padding: 28px 32px;
+    background: #f4f8f0;
+    border: 1.5px solid #8fbc6a;
+}
+
+.alp-ingredientes-titulo {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #2e5010;
+    margin-bottom: 18px;
+}
+
+.alp-ingredientes-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1px;
+    background: #8fbc6a;
+    border: 1px solid #8fbc6a;
+}
+
+.alp-ing-card {
+    background: #fff;
+    padding: 16px 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    transition: background 0.1s;
+}
+
+.alp-ing-card:hover {
+    background: #f4f8f0;
+}
+
+.alp-ing-icono {
+    font-size: 22px;
+    line-height: 1;
+    margin-bottom: 4px;
+}
+
+.alp-ing-nombre {
+    font-size: 13px;
+    font-weight: 700;
+    color: #1a1a1a;
+    line-height: 1.3;
+}
+
+.alp-ing-desc {
+    font-size: 12px;
+    font-weight: 300;
+    color: #777;
+    line-height: 1.4;
+}
+
+/* ── Intro ── */
+.alp-intro {
+    max-width: 740px;
+    margin: 52px auto;
+    padding: 0 48px;
+}
+
+.alp-intro p {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.75;
+    color: #333;
+    margin-bottom: 18px;
+}
+
+.alp-intro strong {
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+/* ── Section title ── */
+.alp-section-title {
+    padding: 0 48px 32px;
+    border-bottom: 2px solid #4a7a28;
+}
+
+.alp-section-title h2 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #1a1a1a;
+    letter-spacing: -0.01em;
+    margin-bottom: 6px;
+}
+
+.alp-section-title p {
+    font-size: 15px;
+    font-weight: 300;
+    color: #777;
+}
+
+/* ── Secciones ── */
+.alp-routes {
+    padding: 0 48px;
+}
+
+.alp-route-item {
+    display: grid;
+    grid-template-columns: 56px 1fr 340px;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 52px 0;
+    align-items: start;
+}
+
+.alp-route-num {
+    font-size: 13px;
+    font-weight: 600;
+    color: #bbb;
+    letter-spacing: 0.05em;
+    padding-top: 4px;
+}
+
+.alp-route-text {
+    padding-right: 48px;
+}
+
+.alp-route-text h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 4px;
+    letter-spacing: -0.01em;
+    line-height: 1.2;
+}
+
+.alp-subtitulo {
+    font-size: 13px;
+    font-weight: 300;
+    font-style: italic;
+    color: #888;
+    margin-bottom: 16px;
+    line-height: 1.4;
+}
+
+.alp-desc {
+    font-size: 15px;
+    font-weight: 300;
+    color: #444;
+    line-height: 1.75;
+    margin-bottom: 18px;
+}
+
+/* Dato box */
+.alp-dato-box {
+    font-size: 13px;
+    font-weight: 600;
+    color: #2e5010;
+    background: #f4f8f0;
+    border-left: 3px solid #4a7a28;
+    padding: 9px 13px;
+    margin-bottom: 14px;
+    display: flex;
+    gap: 8px;
+    align-items: flex-start;
+    line-height: 1.5;
+}
+
+.alp-dato-icon {
+    flex-shrink: 0;
+}
+
+/* Tags */
+.alp-tags {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.alp-tag {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #2e5010;
+    border: 1px solid #8fbc6a;
+    background: #f4f8f0;
+    padding: 3px 9px;
+    border-radius: 2px;
+}
+
+/* Imagen */
+.alp-route-img {
+    border-radius: 2px;
+    overflow: hidden;
+    height: 270px;
+    position: sticky;
+    top: 90px;
+}
+
+.alp-route-img-inner {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #0d1a08;
+}
+
+/* Imágenes */
+.img-alp-plato    { background-image: url('/img/img-gastronomia/allpebre/plato.jpg'); }
+.img-alp-anguila  { background-image: url('/img/img-gastronomia/allpebre/anguila.jpg'); }
+.img-alp-mortero  { background-image: url('/img/img-gastronomia/allpebre/mortero.jpg'); }
+.img-alp-suc      { background-image: url('/img/img-gastronomia/allpebre/suc.jpg'); }
+.img-alp-variantes { background-image: url('/img/img-gastronomia/allpebre/variantes.jpg'); }
+
+/* ── Claves ── */
+.alp-claves-wrap {
+    margin: 52px 48px 0;
+    padding: 28px 36px;
+    border: 1.5px solid #e5e5e5;
+    background: #f7fbf4;
+}
+
+.alp-claves-wrap h3 {
+    font-size: 17px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 20px;
+    letter-spacing: -0.01em;
+}
+
+.alp-claves-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px 32px;
+}
+
+.alp-clave-item {
+    display: flex;
+    gap: 14px;
+    align-items: flex-start;
+}
+
+.alp-clave-num {
+    font-size: 24px;
+    font-weight: 700;
+    color: #8fbc6a;
+    line-height: 1;
+    flex-shrink: 0;
+    min-width: 32px;
+}
+
+.alp-clave-titulo {
+    font-size: 14px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 3px;
+}
+
+.alp-clave-desc {
+    font-size: 13px;
+    font-weight: 300;
+    color: #555;
+    line-height: 1.5;
+}
+
+/* ── Restaurantes ── */
+.alp-rest-wrap {
+    margin: 32px 48px 0;
+}
+
+.alp-rest-wrap h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #1a1a1a;
+    letter-spacing: -0.01em;
+    margin-bottom: 20px;
+    padding-top: 32px;
+    border-top: 1.5px solid #e5e5e5;
+}
+
+.alp-rest-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1px;
+    background: #e5e5e5;
+    border: 1.5px solid #e5e5e5;
+    overflow: hidden;
+}
+
+.alp-rest-card {
+    background: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    transition: background 0.1s;
+}
+
+.alp-rest-card:hover {
+    background: #f4f8f0;
+}
+
+.alp-rest-nombre {
+    font-size: 14px;
+    font-weight: 700;
+    color: #2e5010;
+    line-height: 1.3;
+}
+
+.alp-rest-lugar {
+    font-size: 12px;
+    font-weight: 600;
+    color: #4a7a28;
+    letter-spacing: 0.03em;
+}
+
+.alp-rest-desc {
+    font-size: 13px;
+    font-weight: 300;
+    color: #555;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* ── Info box ── */
+.alp-info-box {
+    margin: 32px 48px 60px;
+    border: 1.5px solid #4a7a28;
+    padding: 32px 36px;
+    background: #f4f8f0;
+}
+
+.alp-info-box h3 {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    color: #2e5010;
+}
+
+.alp-info-list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px 32px;
+}
+
+.alp-info-list li {
+    font-size: 14px;
+    font-weight: 300;
+    color: #444;
+    padding-left: 20px;
+    position: relative;
+    line-height: 1.55;
+}
+
+.alp-info-list li strong {
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+.alp-info-list li::before {
+    content: '🛶';
+    position: absolute;
+    left: 0;
+    font-size: 11px;
+    top: 2px;
+}
+
+/* ── RESPONSIVE ── */
+@media (max-width: 1100px) {
+    .alp-route-item {
+        grid-template-columns: 40px 1fr 270px;
+    }
+    .alp-rest-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .alp-ingredientes-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+
+    .alp-intro,
+    .alp-routes,
+    .alp-section-title,
+    .alp-ingredientes-wrap,
+    .alp-historia-box,
+    .alp-claves-wrap,
+    .alp-rest-wrap,
+    .alp-info-box {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .alp-hero-content {
+        padding: 0 20px 12px;
+    }
+
+    .alp-hero-content h1 {
+        font-size: 36px;
+    }
+
+    .alp-hero-stats {
+        padding: 12px 20px 36px;
+        gap: 14px;
+    }
+
+    .alp-stat-num {
+        font-size: 16px;
+    }
+
+    .alp-historia-box {
+        flex-direction: column;
+        gap: 14px;
+    }
+
+    .alp-ingredientes-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .alp-route-item {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+
+    .alp-route-num {
+        display: none;
+    }
+
+    .alp-route-text {
+        padding-right: 0;
+    }
+
+    .alp-route-img {
+        height: 220px;
+        position: static;
+    }
+
+    .alp-claves-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .alp-rest-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .alp-info-list {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .alp-hero {
+        height: 460px;
+    }
+
+    .alp-hero-content h1 {
+        font-size: 30px;
+    }
+
+    .alp-ingredientes-grid {
+        grid-template-columns: 1fr;
+    }
+}

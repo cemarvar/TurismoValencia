@@ -1,0 +1,707 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
+
+.fid-page {
+    font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
+    color: #1a1a1a;
+    margin-top: 70px;
+}
+
+/* ── Hero ── */
+.fid-hero {
+    position: relative;
+    height: 520px;
+    background-image: url('/img/img-gastronomia/fideua/hero.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: #001a2a;
+}
+
+.fid-hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(0,10,20,0.90) 0%, rgba(0,10,20,0.06) 60%, transparent 100%);
+}
+
+.fid-hero-content {
+    position: relative;
+    z-index: 2;
+    padding: 0 48px 20px;
+    color: #fff;
+    max-width: 680px;
+}
+
+.fid-eyebrow {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #7ec8e3;
+    margin-bottom: 12px;
+}
+
+.fid-hero-content h1 {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.0;
+    margin-bottom: 14px;
+    letter-spacing: -0.02em;
+}
+
+.fid-hero-content p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.6;
+    color: rgba(255,255,255,0.88);
+    max-width: 560px;
+}
+
+/* Stats */
+.fid-hero-stats {
+    position: relative;
+    z-index: 2;
+    padding: 18px 48px 44px;
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+.fid-stat {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.fid-stat-num {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1;
+    color: #7ec8e3;
+}
+
+.fid-stat-label {
+    font-size: 11px;
+    font-weight: 300;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.7);
+    margin-top: 3px;
+}
+
+.fid-stat-sep {
+    width: 1px;
+    height: 34px;
+    background: rgba(255,255,255,0.25);
+}
+
+/* ── Historia box ── */
+.fid-historia-box {
+    margin: 0 48px;
+    background: #001a2a;
+    border-top: 3px solid #0077aa;
+    padding: 28px 32px;
+    display: flex;
+    gap: 24px;
+    align-items: flex-start;
+}
+
+.fid-historia-icono {
+    font-size: 32px;
+    flex-shrink: 0;
+}
+
+.fid-historia-titulo {
+    font-size: 15px;
+    font-weight: 700;
+    color: #7ec8e3;
+    margin-bottom: 10px;
+}
+
+.fid-historia-content p {
+    font-size: 14px;
+    font-weight: 300;
+    color: rgba(255,255,255,0.85);
+    line-height: 1.65;
+    margin: 0;
+}
+
+.fid-historia-content strong {
+    font-weight: 600;
+    color: #fff;
+}
+
+/* ── Diferencias ── */
+.fid-diferencias-wrap {
+    margin: 0 48px;
+    padding: 28px 32px;
+    background: #f0f7ff;
+    border: 1.5px solid #b0d4e8;
+}
+
+.fid-dif-titulo {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #0055aa;
+    margin-bottom: 20px;
+}
+
+.fid-dif-grid {
+    display: grid;
+    grid-template-columns: 1fr 60px 1fr;
+    gap: 0;
+    align-items: start;
+}
+
+.fid-dif-vs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 700;
+    color: #0077aa;
+    padding-top: 28px;
+}
+
+.fid-dif-label {
+    font-size: 14px;
+    font-weight: 700;
+    color: #0077aa;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+}
+
+.fid-dif-label--right {
+    text-align: right;
+}
+
+.fid-dif-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.fid-dif-list li {
+    font-size: 13px;
+    font-weight: 300;
+    color: #333;
+    padding-left: 14px;
+    position: relative;
+    line-height: 1.4;
+}
+
+.fid-dif-list li::before {
+    content: '·';
+    position: absolute;
+    left: 4px;
+    color: #0077aa;
+    font-weight: 700;
+}
+
+.fid-dif-list--right li {
+    padding-left: 0;
+    padding-right: 14px;
+    text-align: right;
+}
+
+.fid-dif-list--right li::before {
+    content: none;
+}
+
+.fid-dif-list--right li::after {
+    content: '·';
+    position: absolute;
+    right: 4px;
+    color: #777;
+    font-weight: 700;
+}
+
+/* ── Intro ── */
+.fid-intro {
+    max-width: 740px;
+    margin: 52px auto;
+    padding: 0 48px;
+}
+
+.fid-intro p {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.75;
+    color: #333;
+    margin-bottom: 18px;
+}
+
+.fid-intro strong {
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+.fid-intro em {
+    font-style: italic;
+    color: #0077aa;
+}
+
+/* ── Section title ── */
+.fid-section-title {
+    padding: 0 48px 32px;
+    border-bottom: 2px solid #0077aa;
+}
+
+.fid-section-title h2 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #1a1a1a;
+    letter-spacing: -0.01em;
+    margin-bottom: 6px;
+}
+
+.fid-section-title p {
+    font-size: 15px;
+    font-weight: 300;
+    color: #777;
+}
+
+/* ── Tipos ── */
+.fid-routes {
+    padding: 0 48px;
+}
+
+.fid-route-item {
+    display: grid;
+    grid-template-columns: 56px 1fr 340px;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 52px 0;
+    align-items: start;
+}
+
+.fid-route-num {
+    font-size: 13px;
+    font-weight: 600;
+    color: #bbb;
+    letter-spacing: 0.05em;
+    padding-top: 4px;
+}
+
+.fid-route-text {
+    padding-right: 48px;
+}
+
+.fid-route-text h2 {
+    font-size: 26px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 4px;
+    letter-spacing: -0.01em;
+    line-height: 1.15;
+}
+
+.fid-subtitulo {
+    font-size: 13px;
+    font-weight: 300;
+    font-style: italic;
+    color: #888;
+    margin-bottom: 16px;
+    line-height: 1.4;
+}
+
+.fid-desc {
+    font-size: 15px;
+    font-weight: 300;
+    color: #444;
+    line-height: 1.75;
+    margin-bottom: 20px;
+}
+
+/* Chips ingredientes */
+.fid-ing-wrap {
+    margin-bottom: 16px;
+}
+
+.fid-ing-titulo {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #999;
+    margin-bottom: 8px;
+}
+
+.fid-ing-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.fid-ing-chip {
+    font-size: 12px;
+    font-weight: 600;
+    color: #004470;
+    background: #e8f4fb;
+    border: 1px solid #7ec8e3;
+    padding: 3px 9px;
+    border-radius: 2px;
+}
+
+/* Tags */
+.fid-tags {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.fid-tag {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #0077aa;
+    border: 1px solid #7ec8e3;
+    background: #f0f7ff;
+    padding: 3px 9px;
+    border-radius: 2px;
+}
+
+/* Imagen */
+.fid-route-img {
+    border-radius: 2px;
+    overflow: hidden;
+    height: 280px;
+    position: sticky;
+    top: 90px;
+}
+
+.fid-route-img-inner {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #001a2a;
+}
+
+/* Imágenes */
+.img-tradicional { background-image: url('/img/img-gastronomia/fideua/tradicional.jpg'); }
+.img-senyoret    { background-image: url('/img/img-gastronomia/fideua/senyoret.jpg'); }
+.img-negra       { background-image: url('/img/img-gastronomia/fideua/negra.jpg'); }
+.img-huerta      { background-image: url('/img/img-gastronomia/fideua/huerta.jpg'); }
+
+/* ── Secretos ── */
+.fid-secretos-wrap {
+    margin: 52px 48px 0;
+    padding: 28px 36px;
+    border: 1.5px solid #e5e5e5;
+    background: #fafcff;
+}
+
+.fid-secretos-wrap h3 {
+    font-size: 17px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 20px;
+    letter-spacing: -0.01em;
+}
+
+.fid-secretos-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px 32px;
+}
+
+.fid-secreto-item {
+    display: flex;
+    gap: 14px;
+    align-items: flex-start;
+}
+
+.fid-secreto-num {
+    font-size: 24px;
+    font-weight: 700;
+    color: #7ec8e3;
+    line-height: 1;
+    flex-shrink: 0;
+    min-width: 32px;
+}
+
+.fid-secreto-titulo {
+    font-size: 14px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 3px;
+}
+
+.fid-secreto-desc {
+    font-size: 13px;
+    font-weight: 300;
+    color: #555;
+    line-height: 1.5;
+}
+
+/* ── Restaurantes ── */
+.fid-rest-wrap {
+    margin: 32px 48px 0;
+    padding-top: 0;
+}
+
+.fid-rest-wrap h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #1a1a1a;
+    letter-spacing: -0.01em;
+    margin-bottom: 20px;
+    padding-top: 32px;
+    border-top: 1.5px solid #e5e5e5;
+}
+
+.fid-rest-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1px;
+    background: #e5e5e5;
+    border: 1.5px solid #e5e5e5;
+    overflow: hidden;
+}
+
+.fid-rest-card {
+    background: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    transition: background 0.1s;
+}
+
+.fid-rest-card:hover {
+    background: #f0f7ff;
+}
+
+.fid-rest-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.fid-rest-nombre {
+    font-size: 14px;
+    font-weight: 700;
+    color: #0077aa;
+    line-height: 1.3;
+}
+
+.fid-rest-nota {
+    font-size: 12px;
+    font-weight: 700;
+    color: #eb9a00;
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+
+.fid-rest-meta {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.fid-rest-barrio {
+    font-size: 11px;
+    font-weight: 600;
+    color: #888;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+.fid-rest-precio {
+    font-size: 12px;
+    font-weight: 600;
+    color: #555;
+}
+
+.fid-rest-especialidad {
+    font-size: 12px;
+    font-weight: 600;
+    color: #004470;
+    background: #e8f4fb;
+    padding: 4px 8px;
+    border-left: 2px solid #0077aa;
+    line-height: 1.4;
+}
+
+.fid-rest-desc {
+    font-size: 13px;
+    font-weight: 300;
+    color: #555;
+    line-height: 1.55;
+    margin: 0;
+}
+
+/* ── Info box ── */
+.fid-info-box {
+    margin: 32px 48px 60px;
+    border: 1.5px solid #0077aa;
+    padding: 32px 36px;
+    background: #f0f7ff;
+}
+
+.fid-info-box h3 {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    color: #004470;
+}
+
+.fid-info-list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px 32px;
+}
+
+.fid-info-list li {
+    font-size: 14px;
+    font-weight: 300;
+    color: #444;
+    padding-left: 16px;
+    position: relative;
+    line-height: 1.55;
+}
+
+.fid-info-list li strong {
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+.fid-info-list li::before {
+    content: '⚓';
+    position: absolute;
+    left: 0;
+    font-size: 11px;
+    top: 2px;
+}
+
+/* ── RESPONSIVE ── */
+@media (max-width: 1100px) {
+    .fid-route-item {
+        grid-template-columns: 40px 1fr 270px;
+    }
+    .fid-rest-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+
+    .fid-intro,
+    .fid-routes,
+    .fid-section-title,
+    .fid-historia-box,
+    .fid-diferencias-wrap,
+    .fid-secretos-wrap,
+    .fid-rest-wrap,
+    .fid-info-box {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .fid-hero-content {
+        padding: 0 20px 12px;
+    }
+
+    .fid-hero-content h1 {
+        font-size: 36px;
+    }
+
+    .fid-hero-stats {
+        padding: 12px 20px 36px;
+        gap: 16px;
+    }
+
+    .fid-historia-box {
+        flex-direction: column;
+        gap: 14px;
+    }
+
+    .fid-dif-grid {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+
+    .fid-dif-vs {
+        padding-top: 0;
+        font-size: 14px;
+    }
+
+    .fid-dif-list--right li {
+        text-align: left;
+        padding-left: 14px;
+        padding-right: 0;
+    }
+
+    .fid-dif-list--right li::after {
+        content: none;
+    }
+
+    .fid-dif-list--right li::before {
+        content: '·';
+        position: absolute;
+        left: 4px;
+        color: #777;
+        font-weight: 700;
+    }
+
+    .fid-dif-label--right {
+        text-align: left;
+    }
+
+    .fid-route-item {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+
+    .fid-route-num {
+        display: none;
+    }
+
+    .fid-route-text {
+        padding-right: 0;
+    }
+
+    .fid-route-img {
+        height: 220px;
+        position: static;
+    }
+
+    .fid-secretos-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .fid-rest-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .fid-info-list {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .fid-hero {
+        height: 460px;
+    }
+
+    .fid-hero-content h1 {
+        font-size: 30px;
+    }
+}

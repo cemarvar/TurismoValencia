@@ -3,21 +3,21 @@ import Espacios from '../ESPACIOS/Espacios';
 
 export default function GridEspacios() {
     var elementos = [
-        { imagen: "/img/img-espacios/lonja.jpg", titulo: "Lonja de Seda" },
-        { imagen: "/img/img-espacios/catedral.jpg", titulo: "Catedral y Santo Cadiz" },
-        { imagen: "/img/img-espacios/barri_carmen.jpg", titulo: "Barrio del Carmen" },
-        { imagen: "/img/img-espacios/oceanografic.jpg", titulo: "Oceanografic" },
-        { imagen: "/img/img-espacios/mercado_central.jpg", titulo: "Mercado Central" },
-        { imagen: "/img/img-espacios/bioparc.jpg", titulo: "Bioparc" },
-        { imagen: "/img/img-espacios/c_a_c.jpg", titulo: "Ciudad de las Artes y las Ciencias" },
-        { imagen: "/img/img-espacios/marina.jpg", titulo: "La Marina" },
-        { imagen: "/img/img-espacios/jardi_turia.jpg  ", titulo: "Jardín del Turia" },
-        { imagen: "/img/img-espacios/m_b_a.jpg", titulo: "Museo de Bellas Artes" },
-        { imagen: "/img/img-espacios/ruzafa.jpg", titulo: "Ruzafa" },
-        { imagen: "/img/img-espacios/playas.jpg", titulo: "Playas" },
-        { imagen: "/img/img-espacios/albufera.jpg", titulo: "Albufera" },
-        { imagen: "/img/img-espacios/iglesia_nicolas.png", titulo: "Iglesia de san Nicolas" },
-        { imagen: "/img/img-espacios/mestalla.jpg", titulo: "Mestalla" }
+        { imagen: "/img/img-espacios/lonja.jpg",            titulo: "Lonja de Seda",                        ruta: "/LonjaSeda" },
+        { imagen: "/img/img-espacios/catedral.jpg",         titulo: "Catedral y Santo Cadiz",               ruta: "/CatedralCaliz"  },
+        { imagen: "/img/img-espacios/barri_carmen.jpg",     titulo: "Barrio del Carmen",                    ruta: "/BarrioCarmen"  },
+        { imagen: "/img/img-espacios/oceanografic.jpg",     titulo: "Oceanografic",                         ruta: "/Oceanografic"  },
+        { imagen: "/img/img-espacios/mercado_central.jpg",  titulo: "Mercado Central",                      ruta: "/MercadoCentral"  },
+        { imagen: "/img/img-espacios/bioparc.jpg",          titulo: "Bioparc",                              ruta: "/Bioparc"  },
+        { imagen: "/img/img-espacios/c_a_c.jpg",            titulo: "Ciudad de las Artes y las Ciencias",   ruta: "/CAC"  },
+        { imagen: "/img/img-espacios/marina.jpg",           titulo: "La Marina",                            ruta: "/LaMarina"  },
+        { imagen: "/img/img-espacios/jardi_turia.jpg  ",    titulo: "Jardín del Turia",                     ruta: "/JardinTuria"  },
+        { imagen: "/img/img-espacios/m_b_a.jpg",            titulo: "Museo de Bellas Artes",                ruta: "/MuseoBellasArtes"  },
+        { imagen: "/img/img-espacios/ruzafa.jpg",           titulo: "Ruzafa",                               ruta: "/Ruzafa"  },
+        { imagen: "/img/img-espacios/playas.jpg",           titulo: "Playas",                               ruta: "/Playes"  },
+        { imagen: "/img/img-espacios/albufera.jpg",         titulo: "Albufera",                             ruta: "/Albufera"  },
+        { imagen: "/img/img-espacios/iglesia_nicolas.png",  titulo: "Iglesia de san Nicolas",               ruta: "/IglesiaSanNicolas"  },
+        { imagen: "/img/img-espacios/mestalla.jpg",         titulo: "Mestalla",                             ruta: "/Mestalla"  }
     ];
 
     return (
@@ -33,7 +33,7 @@ export default function GridEspacios() {
             </div>
             <section className="grid-espacios">
                 {elementos.map((item, index) => (
-                    <Espacios key={index} imagen={item.imagen} titulo={item.titulo} />
+                    <Espacios key={index} imagen={item.imagen} titulo={item.titulo} ruta={item.ruta} />
                 ))}
             </section>
         </>

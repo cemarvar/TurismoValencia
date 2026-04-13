@@ -1,0 +1,526 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
+
+.fv-page {
+    font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
+    color: #1a1a1a;
+    margin-top: 70px;
+}
+
+/* ── Hero ── */
+.fv-hero {
+    position: relative;
+    height: 520px;
+    background-image: url('/img/img-eventos/festivalesverano/hero.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: #12003a;
+}
+
+.fv-hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(8,0,25,0.90) 0%, rgba(8,0,25,0.08) 58%, transparent 100%);
+}
+
+.fv-hero-content {
+    position: relative;
+    z-index: 2;
+    padding: 0 48px 20px;
+    color: #fff;
+    max-width: 700px;
+}
+
+.fv-eyebrow {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #c084fc;
+    margin-bottom: 12px;
+}
+
+.fv-hero-content h1 {
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 1.05;
+    margin-bottom: 14px;
+    letter-spacing: -0.02em;
+}
+
+.fv-hero-content p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.6;
+    color: rgba(255,255,255,0.88);
+    max-width: 560px;
+}
+
+/* Stats */
+.fv-hero-stats {
+    position: relative;
+    z-index: 2;
+    padding: 18px 48px 44px;
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+.fv-stat {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.fv-stat-num {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1;
+    color: #c084fc;
+}
+
+.fv-stat-label {
+    font-size: 11px;
+    font-weight: 300;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.7);
+    margin-top: 3px;
+}
+
+.fv-stat-sep {
+    width: 1px;
+    height: 34px;
+    background: rgba(255,255,255,0.25);
+}
+
+/* ── Géneros chips ── */
+.fv-generos-wrap {
+    margin: 0 48px;
+    padding: 24px 32px;
+    background: #f9f5ff;
+    border-top: 3px solid #7c3aed;
+    border-bottom: 1px solid #ddd6fe;
+}
+
+.fv-generos-titulo {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #5b21b6;
+    margin-bottom: 14px;
+}
+
+.fv-generos-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.fv-genero-chip {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background: #fff;
+    border: 1px solid #ddd6fe;
+    padding: 6px 12px;
+    font-size: 13px;
+    color: #5b21b6;
+    transition: background 0.12s;
+}
+
+.fv-genero-chip:hover {
+    background: #f3e8ff;
+}
+
+.fv-genero-icono {
+    font-size: 15px;
+    line-height: 1;
+}
+
+/* ── Intro ── */
+.fv-intro {
+    max-width: 740px;
+    margin: 52px auto;
+    padding: 0 48px;
+}
+
+.fv-intro p {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.75;
+    color: #333;
+    margin-bottom: 18px;
+}
+
+.fv-intro strong {
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+/* ── Section title ── */
+.fv-section-title {
+    padding: 0 48px 32px;
+    border-bottom: 2px solid #7c3aed;
+}
+
+.fv-section-title h2 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #1a1a1a;
+    letter-spacing: -0.01em;
+    margin-bottom: 6px;
+}
+
+.fv-section-title p {
+    font-size: 15px;
+    font-weight: 300;
+    color: #777;
+}
+
+/* ── Festivales ── */
+.fv-routes {
+    padding: 0 48px;
+}
+
+.fv-route-item {
+    display: grid;
+    grid-template-columns: 56px 1fr 340px;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 52px 0;
+    align-items: start;
+}
+
+.fv-route-num {
+    font-size: 13px;
+    font-weight: 600;
+    color: #bbb;
+    letter-spacing: 0.05em;
+    padding-top: 4px;
+}
+
+.fv-route-text {
+    padding-right: 48px;
+}
+
+/* Mes + género en la misma línea */
+.fv-mes-genero {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.fv-fecha-badge {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: #fff;
+    background: #7c3aed;
+    padding: 3px 10px;
+    border-radius: 2px;
+    white-space: nowrap;
+}
+
+.fv-genero-tag {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    color: #7c3aed;
+    text-transform: uppercase;
+}
+
+.fv-route-text h2 {
+    font-size: 26px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 6px;
+    letter-spacing: -0.01em;
+    line-height: 1.15;
+}
+
+.fv-lugar {
+    font-size: 13px;
+    font-weight: 600;
+    color: #666;
+    margin-bottom: 14px;
+}
+
+.fv-desc {
+    font-size: 15px;
+    font-weight: 300;
+    color: #444;
+    line-height: 1.75;
+    margin-bottom: 18px;
+}
+
+/* Caja de dato */
+.fv-dato-box {
+    font-size: 13px;
+    font-weight: 600;
+    color: #3b0764;
+    background: #f9f5ff;
+    border-left: 3px solid #7c3aed;
+    padding: 9px 13px;
+    margin-bottom: 14px;
+    display: flex;
+    gap: 8px;
+    align-items: flex-start;
+    line-height: 1.5;
+}
+
+.fv-dato-icon {
+    flex-shrink: 0;
+}
+
+/* Tags */
+.fv-tags {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.fv-tag {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #5b21b6;
+    border: 1px solid #ddd6fe;
+    background: #f5f3ff;
+    padding: 3px 9px;
+    border-radius: 2px;
+}
+
+/* Imagen */
+.fv-route-img {
+    border-radius: 2px;
+    overflow: hidden;
+    height: 280px;
+    position: sticky;
+    top: 90px;
+}
+
+.fv-route-img-inner {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #12003a;
+}
+
+/* Imágenes */
+.img-sansan   { background-image: url('/img/img-eventos/festivalesverano/sansan.jpg'); }
+.img-lesarts  { background-image: url('/img/img-eventos/festivalesverano/lesarts.jpg'); }
+.img-bigsound { background-image: url('/img/img-eventos/festivalesverano/bigsound.jpg'); }
+.img-fib      { background-image: url('/img/img-eventos/festivalesverano/fib.jpg'); }
+.img-zevra    { background-image: url('/img/img-eventos/festivalesverano/zevra.jpg'); }
+.img-arenal   { background-image: url('/img/img-eventos/festivalesverano/arenal.jpg'); }
+.img-medusa   { background-image: url('/img/img-eventos/festivalesverano/medusa.jpg'); }
+.img-rototom  { background-image: url('/img/img-eventos/festivalesverano/rototom.jpg'); }
+.img-visor    { background-image: url('/img/img-eventos/festivalesverano/visor.jpg'); }
+
+/* ── Tabla ── */
+.fv-info-practica {
+    margin: 52px 48px 0;
+    padding-top: 48px;
+    border-top: 1.5px solid #e5e5e5;
+}
+
+.fv-info-practica h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #1a1a1a;
+    letter-spacing: -0.01em;
+    margin-bottom: 20px;
+}
+
+.fv-tabla {
+    display: flex;
+    flex-direction: column;
+    border: 1.5px solid #e5e5e5;
+    overflow: hidden;
+}
+
+.fv-tabla-fila {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    border-bottom: 1px solid #e5e5e5;
+    min-height: 44px;
+}
+
+.fv-tabla-fila:last-child {
+    border-bottom: none;
+}
+
+.fv-tabla-fila:nth-child(even) {
+    background: #f9f5ff;
+}
+
+.fv-tabla-label {
+    padding: 12px 20px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #5b21b6;
+    border-right: 1px solid #e5e5e5;
+    display: flex;
+    align-items: center;
+}
+
+.fv-tabla-val {
+    padding: 12px 20px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #333;
+    line-height: 1.55;
+    display: flex;
+    align-items: center;
+}
+
+/* ── Info box ── */
+.fv-info-box {
+    margin: 32px 48px 60px;
+    border: 1.5px solid #7c3aed;
+    padding: 32px 36px;
+    background: #f9f5ff;
+}
+
+.fv-info-box h3 {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    color: #5b21b6;
+}
+
+.fv-info-list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px 32px;
+}
+
+.fv-info-list li {
+    font-size: 14px;
+    font-weight: 300;
+    color: #444;
+    padding-left: 16px;
+    position: relative;
+    line-height: 1.55;
+}
+
+.fv-info-list li strong {
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+.fv-info-list li::before {
+    content: '🎵';
+    position: absolute;
+    left: 0;
+    font-size: 11px;
+    top: 2px;
+}
+
+/* ── RESPONSIVE ── */
+@media (max-width: 1100px) {
+    .fv-route-item {
+        grid-template-columns: 40px 1fr 270px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .fv-intro,
+    .fv-routes,
+    .fv-section-title,
+    .fv-generos-wrap,
+    .fv-info-practica,
+    .fv-info-box {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .fv-hero-content {
+        padding: 0 20px 12px;
+    }
+
+    .fv-hero-content h1 {
+        font-size: 34px;
+    }
+
+    .fv-hero-stats {
+        padding: 12px 20px 36px;
+        gap: 18px;
+    }
+
+    .fv-stat-num {
+        font-size: 20px;
+    }
+
+    .fv-route-item {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+
+    .fv-route-num {
+        display: none;
+    }
+
+    .fv-route-text {
+        padding-right: 0;
+    }
+
+    .fv-route-img {
+        height: 220px;
+        position: static;
+    }
+
+    .fv-tabla-fila {
+        grid-template-columns: 140px 1fr;
+    }
+
+    .fv-info-list {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .fv-hero {
+        height: 460px;
+    }
+
+    .fv-hero-content h1 {
+        font-size: 28px;
+    }
+
+    .fv-tabla-fila {
+        grid-template-columns: 1fr;
+    }
+
+    .fv-tabla-label {
+        border-right: none;
+        border-bottom: 1px solid #e5e5e5;
+        padding-bottom: 6px;
+        padding-top: 14px;
+    }
+
+    .fv-tabla-val {
+        padding-top: 6px;
+        padding-bottom: 14px;
+    }
+}

@@ -1,0 +1,514 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
+
+.cen-page {
+    font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
+    color: #1a1a1a;
+    margin-top: 70px;
+}
+
+/* ── Hero ── */
+.cen-hero {
+    position: relative;
+    height: 560px;
+    background-image: url('/img/img-alojamientos/Centro/hero.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.cen-hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(10,5,0,0.84) 0%, rgba(10,5,0,0.10) 60%, transparent 100%);
+}
+
+.cen-hero-content {
+    position: relative;
+    z-index: 2;
+    padding: 0 48px 20px;
+    color: #fff;
+    max-width: 680px;
+}
+
+.cen-eyebrow {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #e8c060;
+    margin-bottom: 12px;
+}
+
+.cen-hero-content h1 {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.0;
+    margin-bottom: 14px;
+    letter-spacing: -0.02em;
+}
+
+.cen-hero-content p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.6;
+    color: rgba(255,255,255,0.88);
+    max-width: 540px;
+}
+
+/* Stats */
+.cen-hero-stats {
+    position: relative;
+    z-index: 2;
+    padding: 18px 48px 44px;
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+.cen-stat {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.cen-stat-num {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1;
+    color: #e8c060;
+}
+
+.cen-stat-label {
+    font-size: 11px;
+    font-weight: 300;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.7);
+    margin-top: 3px;
+}
+
+.cen-stat-sep {
+    width: 1px;
+    height: 34px;
+    background: rgba(255,255,255,0.25);
+}
+
+/* ── Intro box ── */
+.cen-intro-box {
+    margin: 0 48px;
+    background: #1a1510;
+    padding: 28px 32px;
+    display: flex;
+    gap: 24px;
+    align-items: flex-start;
+}
+
+.cen-intro-icono {
+    font-size: 32px;
+    flex-shrink: 0;
+}
+
+.cen-intro-titulo {
+    font-size: 15px;
+    font-weight: 700;
+    color: #e8c060;
+    margin-bottom: 10px;
+}
+
+.cen-intro-content p {
+    font-size: 14px;
+    font-weight: 300;
+    color: rgba(255,255,255,0.85);
+    line-height: 1.65;
+    margin: 0;
+}
+
+.cen-intro-content strong {
+    font-weight: 600;
+    color: #fff;
+}
+
+/* ── Intro ── */
+.cen-intro {
+    max-width: 740px;
+    margin: 52px auto;
+    padding: 0 48px;
+}
+
+.cen-intro p {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.75;
+    color: #333;
+    margin-bottom: 18px;
+}
+
+.cen-intro strong {
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+/* ── Section title ── */
+.cen-section-title {
+    padding: 0 48px 32px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.cen-section-title h2 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #1a1a1a;
+    letter-spacing: -0.01em;
+    margin-bottom: 6px;
+}
+
+.cen-section-title p {
+    font-size: 15px;
+    font-weight: 300;
+    color: #777;
+}
+
+/* ── Hoteles ── */
+.cen-routes {
+    padding: 0 48px;
+}
+
+.cen-route-item {
+    display: grid;
+    grid-template-columns: 56px 1fr 340px;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 52px 0;
+    align-items: start;
+}
+
+.cen-route-num {
+    font-size: 13px;
+    font-weight: 600;
+    color: #bbb;
+    letter-spacing: 0.05em;
+    padding-top: 4px;
+}
+
+.cen-route-text {
+    padding-right: 48px;
+}
+
+.cen-tipo {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #8a6a20;
+    margin-bottom: 6px;
+}
+
+.cen-route-text h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 4px;
+    letter-spacing: -0.01em;
+    line-height: 1.2;
+}
+
+.cen-subtitulo {
+    font-size: 13px;
+    font-weight: 300;
+    font-style: italic;
+    color: #888;
+    margin-bottom: 16px;
+    line-height: 1.4;
+}
+
+.cen-desc {
+    font-size: 15px;
+    font-weight: 300;
+    color: #444;
+    line-height: 1.75;
+    margin-bottom: 20px;
+}
+
+.cen-datos-titulo {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #999;
+    margin-bottom: 10px;
+}
+
+.cen-datos {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 16px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.cen-datos li {
+    font-size: 14px;
+    line-height: 1.5;
+    padding-left: 14px;
+    border-left: 2px solid #d4b870;
+    color: #444;
+}
+
+.cen-dato-label {
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+.cen-dato-val {
+    font-weight: 300;
+}
+
+/* Tags */
+.cen-tags {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.cen-tag {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #7a5010;
+    border: 1px solid #d4b870;
+    background: #fdf8ec;
+    padding: 3px 9px;
+    border-radius: 2px;
+}
+
+/* Imagen */
+.cen-route-img {
+    border-radius: 2px;
+    overflow: hidden;
+    height: 280px;
+    position: sticky;
+    top: 90px;
+}
+
+.cen-route-img-inner {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #1a1208;
+}
+
+/* Imágenes — rutas en /img/img-alojamientos/Centro/ */
+.img-melia     { background-image: url('/img/img-alojamientos/Centro/melia.jpg'); }
+.img-cabillers { background-image: url('/img/img-alojamientos/Centro/cabillers.jpg'); }
+.img-venecia   { background-image: url('/img/img-alojamientos/Centro/venecia.jpg'); }
+.img-sorolla   { background-image: url('/img/img-alojamientos/Centro/sorolla.jpg'); }
+
+/* ── Tabla información práctica ── */
+.cen-info-practica {
+    margin: 52px 48px 0;
+    padding-top: 48px;
+    border-top: 1.5px solid #e5e5e5;
+}
+
+.cen-info-practica h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #1a1a1a;
+    letter-spacing: -0.01em;
+    margin-bottom: 20px;
+}
+
+.cen-tabla {
+    display: flex;
+    flex-direction: column;
+    border: 1.5px solid #e5e5e5;
+    overflow: hidden;
+}
+
+.cen-tabla-fila {
+    display: grid;
+    grid-template-columns: 180px 1fr;
+    border-bottom: 1px solid #e5e5e5;
+    min-height: 44px;
+}
+
+.cen-tabla-fila:last-child {
+    border-bottom: none;
+}
+
+.cen-tabla-fila:nth-child(even) {
+    background: #fdf8ec;
+}
+
+.cen-tabla-label {
+    padding: 12px 20px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #7a5010;
+    border-right: 1px solid #e5e5e5;
+    display: flex;
+    align-items: center;
+}
+
+.cen-tabla-val {
+    padding: 12px 20px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #333;
+    line-height: 1.55;
+    display: flex;
+    align-items: center;
+}
+
+/* ── Info box ── */
+.cen-info-box {
+    margin: 32px 48px 60px;
+    border: 1.5px solid #8a6a20;
+    padding: 32px 36px;
+    background: #fdf8ec;
+}
+
+.cen-info-box h3 {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    color: #7a5010;
+}
+
+.cen-info-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px 32px;
+}
+
+.cen-info-list li {
+    font-size: 14px;
+    font-weight: 300;
+    color: #444;
+    padding-left: 16px;
+    position: relative;
+    line-height: 1.5;
+}
+
+.cen-info-list li strong {
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+.cen-info-list li::before {
+    content: '—';
+    position: absolute;
+    left: 0;
+    color: #8a6a20;
+    font-size: 12px;
+}
+
+/* ── RESPONSIVE ── */
+@media (max-width: 1100px) {
+    .cen-route-item {
+        grid-template-columns: 40px 1fr 270px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .cen-intro,
+    .cen-routes,
+    .cen-section-title,
+    .cen-intro-box,
+    .cen-info-practica,
+    .cen-info-box {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .cen-hero-content {
+        padding: 0 20px 12px;
+    }
+
+    .cen-hero-content h1 {
+        font-size: 36px;
+    }
+
+    .cen-hero-stats {
+        padding: 12px 20px 36px;
+        gap: 18px;
+    }
+
+    .cen-stat-num {
+        font-size: 18px;
+    }
+
+    .cen-intro-box {
+        flex-direction: column;
+        gap: 14px;
+    }
+
+    .cen-route-item {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+
+    .cen-route-num {
+        display: none;
+    }
+
+    .cen-route-text {
+        padding-right: 0;
+    }
+
+    .cen-route-img {
+        height: 220px;
+        position: static;
+    }
+
+    .cen-tabla-fila {
+        grid-template-columns: 140px 1fr;
+    }
+
+    .cen-info-list {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .cen-hero {
+        height: 480px;
+    }
+
+    .cen-hero-content h1 {
+        font-size: 30px;
+    }
+
+    .cen-tabla-fila {
+        grid-template-columns: 1fr;
+    }
+
+    .cen-tabla-label {
+        border-right: none;
+        border-bottom: 1px solid #e5e5e5;
+        padding-bottom: 6px;
+        padding-top: 14px;
+    }
+
+    .cen-tabla-val {
+        padding-top: 6px;
+        padding-bottom: 14px;
+    }
+}

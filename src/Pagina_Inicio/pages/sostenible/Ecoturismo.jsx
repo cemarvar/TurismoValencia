@@ -271,7 +271,6 @@ export default function Ecoturismo() {
                 ))}
               </div>
 
-              <a className="eco-link" href="#">Ver más →</a>
             </div>
 
             <div className="eco-route-img">

@@ -286,7 +286,6 @@ export default function Exposicion() {
                 ))}
               </div>
 
-              <a className="ex-link" href="#">Ver programación →</a>
             </div>
 
             <div className="ex-route-img">
