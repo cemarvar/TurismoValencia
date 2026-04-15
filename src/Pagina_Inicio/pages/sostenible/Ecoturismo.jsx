@@ -7,7 +7,6 @@ var actividades = [
     num: '01',
     nombre: 'Paseo en barca por la Albufera',
     categoria: 'agua',
-    icono: '🚣',
     ubicacion: 'Parque Natural de l\'Albufera · 10 km del centro',
     desc: 'La experiencia de ecoturismo más auténtica de Valencia: recorrer el lago de la Albufera en una barca albuferenca tradicional acompañado de guías nativos del parque. El Parque Natural de la Albufera es el humedal más grande de España, con más de 21.000 hectáreas de arrozales, dunas, pinares y el lago de agua dulce más extenso de la Península. Las empresas Albufera Nature y Albufera Parc ofrecen experiencias de ecoturismo responsable gestionadas por gente nativa del parque.',
     puntos: [
@@ -19,13 +18,12 @@ var actividades = [
     precio: 'Desde 8 € por persona · Pack barca + paella desde 26 €',
     impacto: 'Bajo impacto · Empresas de ecoturismo responsable gestionadas por nativos del parque',
     tags: [{ label: 'Agua' }, { label: 'Aves' }, { label: 'Tradicional' }, { label: 'Atardecer' }],
-    imgClass: 'img-albufera',
+    imgClass: 'img-albuferaeco',
   },
   {
     num: '02',
     nombre: 'Observación de aves en el Racó de l\'Olla',
     categoria: 'fauna',
-    icono: '🦢',
     ubicacion: 'Reserva Natural del Racó de l\'Olla · Entre la Devesa y la Albufera',
     desc: 'El Racó de l\'Olla es la reserva natural más importante del Parque Natural de la Albufera: 50 hectáreas de laguna interior y vegetación palustre donde se concentran las mayores poblaciones de aves acuáticas. Flamencos, garzas reales, patos colorados, cormoranes y hasta 300 especies distintas habitan o transitan este espacio a lo largo del año. El centro de interpretación, el observatorio y la torre-mirador permiten observar las aves sin perturbarlas.',
     puntos: [
@@ -37,13 +35,12 @@ var actividades = [
     precio: 'Gratuito · Acceso libre al centro de interpretación',
     impacto: 'Sin impacto · Observación pasiva sin interferencia con la fauna',
     tags: [{ label: 'Gratuito', type: 'free' }, { label: 'Aves' }, { label: '+300 especies' }, { label: 'Reserva natural' }],
-    imgClass: 'img-aves',
+    imgClass: 'img-aveseco',
   },
   {
     num: '03',
     nombre: 'Rutas en bici por la Huerta valenciana',
     categoria: 'tierra',
-    icono: '🚲',
     ubicacion: 'Anillo Verde Metropolitano · Huerta Norte y Sur',
     desc: 'La Huerta valenciana es el paisaje más antiguo y auténtico de Valencia: campos de naranjos, huertos, barracas tradicionales y acequias árabes que rodean la ciudad desde hace más de mil años. El Anillo Verde Metropolitano tiene más de 100 km de rutas ciclistas y peatonales señalizadas que permiten descubrir este territorio a cero emisiones. La ruta de la Huerta Norte lleva por campos de cultivo, barracas y alquerías históricas. La ruta de la Huerta Sur muestra el contraste entre el campo y el Parque Natural de la Albufera.',
     puntos: [
@@ -55,13 +52,12 @@ var actividades = [
     precio: 'Gratuito · Alquiler de bici desde 10 €/día',
     impacto: 'Sin emisiones · Apoya la economía local y el mantenimiento del paisaje agrícola',
     tags: [{ label: 'Gratuito', type: 'free' }, { label: 'Bici' }, { label: 'Huerta' }, { label: 'Km 0' }],
-    imgClass: 'img-huerta',
+    imgClass: 'img-huertaeco',
   },
   {
     num: '04',
     nombre: 'Tours a pie por el centro histórico',
     categoria: 'ciudad',
-    icono: '🚶',
     ubicacion: 'Casco histórico · Barrio del Carmen · La Seda',
     desc: 'Valencia es perfecta para el turismo sin emisiones: su centro histórico es compacto, accesible y está lleno de patrimonio a distancias caminables. Los tours a pie cubren rutas únicas como el legado de la Seda (declarada Patrimonio Cultural Inmaterial por la UNESCO), los misterios del Santo Cáliz, el street art del Barrio del Carmen, las Torres de Serranos y Quart y los Patrimonios de la Humanidad. Empresas de guías locales certificados ofrecen tours en grupos reducidos con enfoque histórico y cultural.',
     puntos: [
@@ -73,13 +69,12 @@ var actividades = [
     precio: 'Free tours desde donativo · Tours premium desde 12 €',
     impacto: 'Cero emisiones · Apoya a guías locales y el tejido cultural del centro histórico',
     tags: [{ label: 'Sin emisiones' }, { label: 'Guía local' }, { label: 'Patrimonio UNESCO' }],
-    imgClass: 'img-centro',
+    imgClass: 'img-centroeco',
   },
   {
     num: '05',
     nombre: 'Travesía marina en goleta · Cervantes Saavedra',
     categoria: 'agua',
-    icono: '⛵',
     ubicacion: 'Puerto de Valencia · Travesías al Mediterráneo',
     desc: 'El barco escuela Cervantes Saavedra, en colaboración con el Oceanogràfic de Valencia, organiza travesías marinas con contenido educativo y de concienciación medioambiental. La Travesía Planeta Azul lleva a los participantes por el Mediterráneo hacia Formentera y Cabrera aprendiendo sobre biología marina, historia y conservación de los océanos. Los fines de semana «Albufera y Oceanogràfic» combinan la visita al humedal con la experiencia de navegación a vela.',
     puntos: [
@@ -91,13 +86,12 @@ var actividades = [
     precio: 'Consultar tarifas en goletacervantes.es · Reserva obligatoria',
     impacto: 'Navegación a vela · Concienciación sobre conservación marina y biología oceánica',
     tags: [{ label: 'Vela' }, { label: 'Educativo' }, { label: 'Océano' }, { label: 'Oceanogràfic' }],
-    imgClass: 'img-goleta',
+    imgClass: 'img-goletaeco',
   },
   {
     num: '06',
     nombre: 'Ruta de los Árboles Monumentales',
     categoria: 'ciudad',
-    icono: '🌳',
     ubicacion: '5 rutas por la ciudad y alrededores',
     desc: 'Valencia cuenta con más de 500 árboles monumentales catalogados. Cinco rutas oficiales permiten conocer los ejemplares más singulares: árboles con 400 años de vida, encinas centenarias, eucaliptos gigantes, palmeras, moreras, higueras y especies exóticas como el laurel de la India, el ginkgo o el fósil viviente de China. Las rutas son autoguiadas, gratuitas y combinan el patrimonio natural con el patrimonio histórico de la ciudad.',
     puntos: [
@@ -109,13 +103,12 @@ var actividades = [
     precio: 'Gratuito · Rutas autoguiadas disponibles en la web de Visit Valencia',
     impacto: 'Cero impacto · Educación ambiental sobre biodiversidad urbana',
     tags: [{ label: 'Gratuito', type: 'free' }, { label: '+500 árboles' }, { label: 'Autoguiado' }],
-    imgClass: 'img-arboles',
+    imgClass: 'img-arboleseco',
   },
   {
     num: '07',
     nombre: 'Senderismo en parques naturales cercanos',
     categoria: 'tierra',
-    icono: '🥾',
     ubicacion: 'Sierra Calderona · Parque Natural del Turia · Hoces del Cabriel',
     desc: 'La provincia de Valencia tiene cuatro parques naturales a menos de una hora del centro, todos accesibles en transporte público o en coche. El Parque Natural del Turia (5.000 hectáreas de bosque mediterráneo y río) tiene rutas de senderismo junto al cauce con pozas de agua cristalina. La Sierra Calderona ofrece rutas con vistas al Mediterráneo. Las Hoces del Cabriel, con el río más limpio de España, son el secreto mejor guardado de la provincia.',
     puntos: [
@@ -127,13 +120,12 @@ var actividades = [
     precio: 'Gratuito · Barranquismo y kayak con empresa desde 25 €',
     impacto: 'Bajo impacto · Respetar los senderos señalizados y no abandonar residuos',
     tags: [{ label: 'Senderismo' }, { label: 'Gratuito', type: 'free' }, { label: 'Naturaleza' }, { label: 'Agua' }],
-    imgClass: 'img-senderismo',
+    imgClass: 'img-senderismoeco',
   },
   {
     num: '08',
     nombre: 'Playas naturales del Parque de la Albufera',
     categoria: 'agua',
-    icono: '🏖',
     ubicacion: 'El Saler · El Perellonet · Playa de la Devesa',
     desc: 'Al sur de la ciudad de Valencia, el Parque Natural de la Albufera protege kilómetros de playa virgen de dunas con acceso libre. La playa del Saler, a 10 km del centro, mantiene el sistema dunar original con vegetación mediterránea autóctona. La playa de la Devesa, dentro del parque, es una de las playas más largas y naturales del litoral mediterráneo. A diferencia de las playas urbanas, estas playas protegidas no tienen servicios permanentes para preservar el ecosistema.',
     puntos: [
@@ -145,7 +137,7 @@ var actividades = [
     precio: 'Gratuito · Bus desde Valencia en verano',
     impacto: 'Respetar dunas y vegetación · No acceder a zonas restringidas del parque',
     tags: [{ label: 'Gratuito', type: 'free' }, { label: 'Playa virgen' }, { label: 'Dunas' }, { label: 'Parque natural' }],
-    imgClass: 'img-playas',
+    imgClass: 'img-playaseco',
   },
 ];
 
@@ -200,17 +192,6 @@ export default function Ecoturismo() {
         </div>
       </div>
 
-      {/* Principios */}
-      <div className="eco-principios">
-        {principios.map(p => (
-          <div className="eco-principio" key={p.titulo}>
-            <span className="eco-principio-icono">{p.icono}</span>
-            <div className="eco-principio-titulo">{p.titulo}</div>
-            <p className="eco-principio-desc">{p.desc}</p>
-          </div>
-        ))}
-      </div>
-
       {/* Intro */}
       <div className="eco-intro">
         <p>Valencia fue nombrada Capital Verde Europea 2024, reconocimiento a su compromiso con la sostenibilidad urbana, la movilidad verde y la conservación de sus ecosistemas naturales. El Parque Natural de la Albufera, el mayor humedal de España, está a solo diez kilómetros del centro y acoge más de 300 especies de aves. La Huerta valenciana, protegida por el Ayuntamiento desde 2018, es uno de los paisajes agrícolas periurbanos más ricos de Europa.</p>
@@ -240,7 +221,7 @@ export default function Ecoturismo() {
               <div className="eco-meta-row">
                 <span className="eco-icono">{act.icono}</span>
                 <span className={`eco-cat-badge ${act.categoria}`}>{act.categoria}</span>
-                <span className="eco-ubicacion">📍 {act.ubicacion}</span>
+                <span className="eco-ubicacion"> {act.ubicacion}</span>
               </div>
               <h2>{act.nombre}</h2>
               <p className="eco-desc">{act.desc}</p>
@@ -256,7 +237,6 @@ export default function Ecoturismo() {
               </ul>
 
               <div className="eco-impacto">
-                <span className="eco-impacto-icon">🌱</span>
                 <span>{act.impacto}</span>
               </div>
 

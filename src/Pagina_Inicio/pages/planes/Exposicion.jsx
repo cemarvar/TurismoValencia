@@ -253,7 +253,7 @@ export default function Exposicion() {
             <div className="ex-route-text">
               <div className="ex-meta-row">
                 <span className={`ex-tipo-badge ${esp.tipoClass}`}>{esp.tipo}</span>
-                <span className="ex-ubicacion">📍 {esp.ubicacion}</span>
+                <span className="ex-ubicacion"> {esp.ubicacion}</span>
               </div>
               <h2>{esp.nombre}</h2>
               <div className="ex-subtitulo">{esp.subtitulo}</div>
@@ -271,11 +271,11 @@ export default function Exposicion() {
 
               <div className="ex-horarios-row">
                 <div className="ex-horario-dato">
-                  <span className="ex-h-label">🕐 Horario</span>
+                  <span className="ex-h-label"> Horario</span>
                   <span className="ex-h-val">{esp.horario}</span>
                 </div>
                 <div className="ex-horario-dato">
-                  <span className="ex-h-label">🎟 Entrada</span>
+                  <span className="ex-h-label"> Entrada</span>
                   <span className="ex-h-val">{esp.entrada}</span>
                 </div>
               </div>

@@ -170,21 +170,6 @@ var fiestas = [
   },
 ];
 
-var mesesTimeline = [
-  { mes: 'Ene', fiesta: 'S. Antonio · Reyes', color: '#4a90d9' },
-  { mes: 'Feb', fiesta: 'S. Vicente Mártir', color: '#7b68ee' },
-  { mes: 'Mar', fiesta: 'Fallas 🔥', color: '#c0392b', highlight: true },
-  { mes: 'Abr', fiesta: 'Semana Santa', color: '#6c3483' },
-  { mes: 'May', fiesta: 'Virgen · S. Vicent', color: '#27ae60' },
-  { mes: 'Jun', fiesta: 'Corpus Christi', color: '#d4ac0d' },
-  { mes: 'Jul', fiesta: 'Gran Fira 🌸', color: '#e67e22', highlight: true },
-  { mes: 'Ago', fiesta: '—', color: '#bbb' },
-  { mes: 'Sep', fiesta: '—', color: '#bbb' },
-  { mes: 'Oct', fiesta: '9 d\'Octubre', color: '#1a2a4a', highlight: true },
-  { mes: 'Nov', fiesta: 'Luces Navidad', color: '#2980b9' },
-  { mes: 'Dic', fiesta: 'Navidad 🎄', color: '#27ae60' },
-];
-
 export default function FiestasTradicionales() {
   const [filtroActivo, setFiltroActivo] = useState('Todas');
   const filtros = ['Todas', 'UNESCO', 'Religiosa', 'Popular'];
@@ -226,20 +211,6 @@ export default function FiestasTradicionales() {
         </div>
       </div>
 
-      {/* Timeline anual */}
-      <div className="ft-timeline">
-        <div className="ft-timeline-titulo">Calendario festivo</div>
-        <div className="ft-timeline-grid">
-          {mesesTimeline.map(m => (
-            <div key={m.mes} className={`ft-timeline-mes ${m.highlight ? 'highlight' : ''}`}
-              style={{ '--mes-color': m.color }}>
-              <div className="ft-timeline-mes-nombre">{m.mes}</div>
-              <div className="ft-timeline-mes-fiesta">{m.fiesta}</div>
-            </div>
-          ))}
-        </div>
-      </div>
-
       {/* Intro */}
       <div className="ft-intro">
         <p>El carácter extrovertido y bullicioso de los valencianos se manifiesta en un calendario festivo único: fiestas religiosas y profanas que se celebran mayoritariamente en la calle, donde se mezclan rituales, creatividad, pólvora, música y flores. Tres de sus tradiciones han merecido el reconocimiento de la UNESCO como Patrimonio Cultural Inmaterial de la Humanidad.</p>
@@ -268,7 +239,7 @@ export default function FiestasTradicionales() {
             <div className="ft-route-text">
               <div className="ft-meta-row">
                 <span className={`ft-tipo-badge ${fiesta.tipoClass}`}>{fiesta.tipo}</span>
-                <span className="ft-fecha">📅 {fiesta.fecha}</span>
+                <span className="ft-fecha"> {fiesta.fecha}</span>
               </div>
               <h2>{fiesta.nombre}</h2>
               <p className="ft-desc">{fiesta.desc}</p>

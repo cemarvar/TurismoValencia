@@ -41,7 +41,7 @@ var habitats = [
       { nombre: 'Flamencos', desc: 'Colonias de flamencos rosados en las lagunas del hábitat' },
       { nombre: 'Aves acuáticas', desc: 'Diversas especies de aves africanas ligadas al agua y los humedales' },
     ],
-    imgClass: 'img-humedales',
+    imgClass: 'img-humedalesbio',
     tags: [{ label: 'Hipopótamos' }, { label: 'Cocodrilos' }, { label: 'Bajo el agua' }, { label: 'Flamencos' }],
   },
   {
@@ -231,7 +231,7 @@ export default function Bioparc() {
           ))}
         </div>
         <div className="bp-direccion">
-          📍 Avenida Pío Baroja, 3 · 46015 Valencia · info@bioparcvalencia.es
+           Avenida Pío Baroja, 3 · 46015 Valencia · info@bioparcvalencia.es
         </div>
       </div>
 

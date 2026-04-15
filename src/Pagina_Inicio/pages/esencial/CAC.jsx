@@ -20,7 +20,7 @@ var recintos = [
     horario: 'Temporada alta 10:00–20:00 h · Temporada baja 10:00–18:00 h',
     recomendado: 'Todas las edades · Especial familias',
     tags: [{ label: 'Familia' }, { label: 'Naturaleza' }, { label: 'Ciencia' }, { label: '3–4 h' }],
-    imgClass: 'img-ogf',
+    imgClass: 'img-ogfcac',
   },
   {
     num: '02',
@@ -39,7 +39,7 @@ var recintos = [
     horario: '10:00–19:00 h · Consultar cartelera de sesiones',
     recomendado: 'A partir de 6 años · Adultos y familias',
     tags: [{ label: 'Cine IMAX' }, { label: 'Planetario' }, { label: '1 h' }, { label: 'Reserva sesión' }],
-    imgClass: 'img-hemisferic',
+    imgClass: 'img-hemisfericcac',
   },
   {
     num: '03',
@@ -58,7 +58,7 @@ var recintos = [
     horario: 'Temporada alta 10:00–21:00 h · Temporada baja 10:00–19:00 h',
     recomendado: 'Todas las edades · Especial niños y jóvenes',
     tags: [{ label: 'Interactivo' }, { label: 'Familia' }, { label: '2–3 h' }, { label: 'Talleres' }],
-    imgClass: 'img-mdlc',
+    imgClass: 'img-mdlccac',
   },
   {
     num: '04',
@@ -77,7 +77,7 @@ var recintos = [
     horario: 'Según programación · Visita arquitectónica: consultar',
     recomendado: 'Adultos · Amantes de la música y la arquitectura',
     tags: [{ label: 'Ópera' }, { label: 'Conciertos' }, { label: 'Arquitectura' }, { label: 'Temporada sept–jul' }],
-    imgClass: 'img-palau',
+    imgClass: 'img-palaucac',
   },
   {
     num: '05',
@@ -96,7 +96,7 @@ var recintos = [
     horario: 'Abierto durante el horario del complejo',
     recomendado: 'Todas las edades · Paseo y fotografía',
     tags: [{ label: 'Gratuito', type: 'free' }, { label: 'Esculturas' }, { label: 'Fotografía' }, { label: 'Nocturno verano' }],
-    imgClass: 'img-umbracle',
+    imgClass: 'img-umbraclecac',
   },
   {
     num: '06',
@@ -115,7 +115,7 @@ var recintos = [
     horario: 'Lun–Dom 8:00–00:00 h',
     recomendado: 'Todas las edades · Cultura y arte',
     tags: [{ label: 'Arte' }, { label: 'Exposiciones' }, { label: 'Familia' }, { label: 'Acceso libre' }],
-    imgClass: 'img-agora',
+    imgClass: 'img-agoracac',
   },
 ];
 
@@ -142,7 +142,7 @@ export default function CAC() {
     <div className="cac-page">
 
       {/* Hero */}
-      <div className="cac-hero">
+      <div className="CACcac-hero">
         <div className="cac-hero-overlay" />
         <div className="cac-hero-content">
           <div className="cac-eyebrow">Valencia · Arquitectura · Calatrava · Candela</div>
@@ -209,7 +209,7 @@ export default function CAC() {
               </div>
 
               <div className="cac-visita">
-                <span className="cac-visita-icon">🕐</span>
+                <span className="cac-visita-icon"></span>
                 <span>{r.horario}</span>
                 <span className="cac-visita-sep">·</span>
                 <span className="cac-visita-precio">{r.precio}</span>
@@ -263,7 +263,7 @@ export default function CAC() {
           ))}
         </div>
         <div className="cac-direccion">
-          📍 Av. del Professor López Piñero, 7 · 46013 Valencia · Tel. 96 197 46 86
+           Av. del Professor López Piñero, 7 · 46013 Valencia · Tel. 96 197 46 86
         </div>
       </div>
 

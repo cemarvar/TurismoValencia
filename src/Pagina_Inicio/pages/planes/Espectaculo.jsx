@@ -189,7 +189,7 @@ export default function Espectaculo() {
               </ul>
 
               <div className="esp-visita">
-                <span className="esp-visita-icon">🎭</span>
+                <span className="esp-visita-icon"></span>
                 <span>{v.horario}</span>
                 <span className="esp-visita-sep">·</span>
                 <span className="esp-visita-precio">{v.precio}</span>
@@ -205,7 +205,6 @@ export default function Espectaculo() {
 
             <div className="esp-route-img">
               <div className={`esp-route-img-inner ${v.imgClass}`} />
-              <div className="esp-web-overlay">{v.web}</div>
             </div>
           </div>
         ))}

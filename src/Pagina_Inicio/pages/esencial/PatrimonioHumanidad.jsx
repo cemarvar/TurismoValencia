@@ -42,7 +42,7 @@ var patrimoniosValencia = [
     curiosidad: 'El último domingo de febrero, la fallera mayor proclama el inicio oficial de las Fallas desde las Torres de Serranos en el acto conocido como La Cridà. Las mascletàs, explosiones de pólvora de carácter musical, retumban en la Plaza del Ayuntamiento cada mediodía de marzo.',
     visita: 'Del 15 al 19 de marzo · Entrada gratuita a la mayoría de actos · La Cremà es la noche del 19',
     tags: [{ label: 'Gratuito', type: 'free' }, { label: 'Marzo' }, { label: 'Pirotecnia' }, { label: 'UNESCO 2016' }],
-    imgClass: 'img-fallas',
+    imgClass: 'img-fallasph',
   },
   {
     num: '04',
@@ -129,7 +129,7 @@ export default function PatrimonioHumanidad() {
               </div>
 
               <div className="ph-visita">
-                <span className="ph-visita-icon">→</span>
+                <span className="ph-visita-icon"></span>
                 {p.visita}
               </div>
 
@@ -143,7 +143,6 @@ export default function PatrimonioHumanidad() {
 
             <div className="ph-route-img">
               <div className={`ph-route-img-inner ${p.imgClass}`} />
-              <div className="ph-ano-overlay">{p.ano}</div>
             </div>
           </div>
         ))}

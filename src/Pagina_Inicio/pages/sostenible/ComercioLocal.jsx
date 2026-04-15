@@ -17,7 +17,7 @@ var mercados = [
       { e: 'Carnes y embutidos', d: 'Longaniza, chistorra y los embutidos valencianos de elaboración propia' },
       { e: 'Especias y encurtidos', d: 'Aceitunas, pimientos en vinagre, ajos y hierbas aromáticas' },
     ],
-    imgClass: 'img-central',
+    imgClass: 'img-centralcom',
     tags: ['Arquitectura modernista', '300+ puestos', 'Km 0'],
   },
   {
@@ -34,7 +34,7 @@ var mercados = [
       { e: 'Hostelería', d: 'Cafeterías y restaurantes con terraza en los laterales del edificio histórico' },
       { e: 'Arquitectura BIC', d: 'Visita el edificio aunque no compres: es patrimonio de la ciudad' },
     ],
-    imgClass: 'img-colon',
+    imgClass: 'img-coloncom',
     tags: ['Modernismo', 'Gourmet', 'Bien de Interés Cultural'],
   },
   {
@@ -51,7 +51,7 @@ var mercados = [
       { e: 'Mercadillo de los lunes', d: 'Ropa, bisutería, plantas y alimentación en las calles de Ruzafa' },
       { e: 'Cocina de temporada', d: 'Productos de la huerta valenciana siguiendo el calendario estacional' },
     ],
-    imgClass: 'img-ruzafa',
+    imgClass: 'img-ruzafacom',
     tags: ['Orgánico', 'Contemporáneo', 'Multicultural'],
   },
   {
@@ -68,7 +68,7 @@ var mercados = [
       { e: 'Mercadillo de los jueves', d: 'Vintage, ropa, ajos tiernos y productos de segunda mano' },
       { e: 'Ambiente marinero auténtico', d: 'El espíritu del antiguo pueblo de pescadores vivo en cada puesto' },
     ],
-    imgClass: 'img-cabanyal',
+    imgClass: 'img-cabanyalcom',
     tags: ['Pescado fresco', 'Marinero', 'Mercadillo jueves'],
   },
   {
@@ -85,7 +85,7 @@ var mercados = [
       { e: 'Mercadillo de los sábados', d: 'Artesanía, productos alternativos y segunda mano en la plaza' },
       { e: 'Barrio del Carmen', d: 'En el epicentro bohemio de Valencia, junto al IVAM y el Centre del Carme' },
     ],
-    imgClass: 'img-sorell',
+    imgClass: 'img-sorellcom',
     tags: ['Artesanal', 'Barrio del Carmen', 'Alternativo'],
   },
   {
@@ -102,7 +102,7 @@ var mercados = [
       { e: 'Ambiente portuario', d: 'El barrio más marinero de Valencia, junto al Puerto y la Lonja de Pescadores' },
       { e: 'Mercadillo de los miércoles', d: 'Producto variado en las calles del Grao cada miércoles por la mañana' },
     ],
-    imgClass: 'img-grao',
+    imgClass: 'img-graocom',
     tags: ['Puerto', 'Marinero', 'Pescado del día'],
   },
 ];
@@ -111,44 +111,38 @@ var artesanias = [
   {
     nombre: 'Cerámica · Manises y Paterna',
     desc: 'Valencia tiene una tradición cerámica de más de 800 años. Los municipios de Manises y Paterna son los centros productores más importantes. Busca azulejos pintados a mano, vajillas de loza y figuras de cerámica decorativa con los motivos tradicionales valencianos.',
-    icono: '🏺',
     donde: 'Tiendas del centro histórico · Manises (10 km)',
-    imgClass: 'img-ceramica',
+    imgClass: 'img-ceramicacom',
   },
   {
     nombre: 'Seda · Ensedarte y artesanos',
     desc: 'La seda valenciana tiene raíces árabes y fue durante siglos la industria más importante de la ciudad. La Lonja de la Seda es Patrimonio de la Humanidad. Hoy, artesanos como Ensedarte recuperan la tradición con complementos de seda pintados a mano.',
-    icono: '🧣',
     donde: 'Barrio del Carmen · Plaza del Mercado',
-    imgClass: 'img-seda',
+    imgClass: 'img-sedacom',
   },
   {
     nombre: 'Abanicos · Vibenca y Carbonell',
     desc: 'El abanico valenciano es una artesanía única en el mundo con siglos de historia. Las casas Vibenca y Carbonell son las referencias de la artesanía artesana de abanico en Valencia: piezas pintadas a mano en seda o encaje sobre varillas de madera o nácar.',
-    icono: '🪭',
     donde: 'Centro histórico · Tiendas especializadas',
-    imgClass: 'img-abanicos',
+    imgClass: 'img-abanicoscom',
   },
   {
     nombre: 'Porcelana · Lladró',
     desc: 'Lladró es la marca de porcelana artística más reconocida de España y una de las más internacionalmente conocidas del mundo. Fundada en Valencia en 1953, sus figuras son coleccionables y piezas de arte. La tienda flagship está en la Calle Poeta Querol.',
-    icono: '🏛',
     donde: 'C/ Poeta Querol · Centro',
-    imgClass: 'img-lladro',
+    imgClass: 'img-lladrocom',
   },
   {
     nombre: 'Orfebrería · Peris Roca',
     desc: 'La joyería y orfebrería valenciana tiene una larga tradición artesanal. Peris Roca es una de las casas joyeras más antiguas de Valencia, con piezas de alta artesanía inspiradas en los motivos ornamentales del patrimonio histórico valenciano.',
-    icono: '💍',
     donde: 'Centro histórico · Joyerías especializadas',
-    imgClass: 'img-joyeria',
+    imgClass: 'img-joyeriacom',
   },
   {
     nombre: 'Productos de la huerta · Km 0',
     desc: 'Los mercados municipales son el mejor lugar para comprar turrones artesanos, naranjas de la huerta, aceite de oliva virgen extra, vinos de la Denominación de Origen Valencia y Utiel-Requena, y otros productos gastronómicos con denominación de origen.',
-    icono: '🍊',
     donde: 'Mercados municipales · Tiendas delicatessen',
-    imgClass: 'img-naranja',
+    imgClass: 'img-naranjacom',
   },
 ];
 
@@ -251,7 +245,7 @@ export default function ComercioLocal() {
             <div className="cl-route-text">
               <div className="cl-meta-row">
                 <span className="cl-barrio-badge">{merc.barrio}</span>
-                <span className="cl-ubicacion">📍 {merc.ubicacion}</span>
+                <span className="cl-ubicacion"> {merc.ubicacion}</span>
               </div>
               <h2>{merc.nombre}</h2>
               <div className="cl-subtitulo">{merc.subtitulo}</div>
@@ -268,7 +262,6 @@ export default function ComercioLocal() {
               </ul>
 
               <div className="cl-horario-row">
-                <span className="cl-horario-icon">🕐</span>
                 <span className="cl-horario">{merc.horario}</span>
               </div>
 

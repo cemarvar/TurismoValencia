@@ -228,7 +228,7 @@ export default function Naturaleza() {
                 <div className="nat-route-text">
                   <div className="nat-meta-row">
                     <span className={`nat-tipo-badge ${e.tipoClass}`}>{e.tipo}</span>
-                    <span className="nat-distancia">📍 {e.distancia}</span>
+                    <span className="nat-distancia"> {e.distancia}</span>
                   </div>
                   <h3>{e.nombre}</h3>
                   <p className="nat-desc">{e.desc}</p>
@@ -242,7 +242,7 @@ export default function Naturaleza() {
                     ))}
                   </ul>
                   <div className="nat-precio-row">
-                    <span className="nat-precio-icon">→</span>
+                    <span className="nat-precio-icon"></span>
                     <span className="nat-precio">{e.precio}</span>
                   </div>
                   <div className="nat-tags">
@@ -263,10 +263,7 @@ export default function Naturaleza() {
       {/* Parques naturales */}
       {(filtroActivo === 'Todos' || filtroActivo === 'Parques naturales') && (
         <>
-          <div className="nat-section-header nat-section-header--dark">
-            <h2>Parques naturales cercanos</h2>
-            <p>Cuatro parajes protegidos a menos de una hora de Valencia.</p>
-          </div>
+          
           <div className="nat-routes">
             {parquesNaturales.map(p => (
               <div className="nat-route-item" key={p.num}>
@@ -274,7 +271,7 @@ export default function Naturaleza() {
                 <div className="nat-route-text">
                   <div className="nat-meta-row">
                     <span className={`nat-tipo-badge ${p.tipoClass}`}>{p.tipo}</span>
-                    <span className="nat-distancia">📍 {p.distancia}</span>
+                    <span className="nat-distancia"> {p.distancia}</span>
                   </div>
                   <h3>{p.nombre}</h3>
                   <p className="nat-desc">{p.desc}</p>
@@ -288,7 +285,7 @@ export default function Naturaleza() {
                     ))}
                   </ul>
                   <div className="nat-precio-row">
-                    <span className="nat-precio-icon">→</span>
+                    <span className="nat-precio-icon"></span>
                     <span className="nat-precio">{p.precio}</span>
                   </div>
                   <div className="nat-tags">
@@ -306,29 +303,7 @@ export default function Naturaleza() {
         </>
       )}
 
-      {/* Planes al aire libre */}
-      {(filtroActivo === 'Todos' || filtroActivo === 'Aire libre') && (
-        <div className="nat-planes-section">
-          <div className="nat-section-header">
-            <h2>Más planes en la naturaleza</h2>
-            <p>Playas, senderismo, astroturismo y aventura cerca de Valencia.</p>
-          </div>
-          <div className="nat-planes-grid">
-            {planesAireLibre.map(p => (
-              <div className="nat-plan-card" key={p.nombre}>
-                <div className={`nat-plan-img ${p.imgClass}`} />
-                <div className="nat-plan-body">
-                  <div className="nat-plan-nombre">{p.nombre}</div>
-                  <p className="nat-plan-desc">{p.desc}</p>
-                  <div className="nat-plan-tags">
-                    {p.tags.map(t => <span key={t} className="nat-tag">{t}</span>)}
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      )}
+
 
       {/* Info box */}
       <div className="nat-info-box">

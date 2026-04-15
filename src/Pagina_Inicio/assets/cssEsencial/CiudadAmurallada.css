@@ -376,12 +376,16 @@
     display: flex;
     flex-direction: column;
     gap: 0;
+    border: 1px solid #000;
+    box-shadow: 0 0 0 3px #000; 
 }
 
 .cam-route-img {
     border-radius: 2px 2px 0 0;
     overflow: hidden;
     height: 260px;
+    border: 1px solid #000;
+    box-shadow: 0 0 0 3px #000; 
 }
 
 .cam-route-img-inner {
@@ -392,11 +396,11 @@
     background-size: cover;
 }
 
-.img-serranos {
+.img-serranosca {
     background-image: url('/img/img-esencial/CiudadAmurallada/torres-serrano.jpg');
 }
 
-.img-quart {
+.img-quartca {
     background-image: url('/img/img-esencial/CiudadAmurallada/torres-quart.jpg');
 }
 

@@ -114,7 +114,7 @@ export default function ValenciaTresDias() {
               </ul>
 
               <div className="vtd-consejo">
-                <span className="vtd-consejo-icon">→</span>
+                <span className="vtd-consejo-icon"></span>
                 {dia.consejo}
               </div>
 

@@ -227,7 +227,7 @@ export default function Deportes() {
             <div className="dep-route-text">
               <div className="dep-meta-row">
                 <span className={`dep-cat-badge ${dep.categoria}`}>{dep.nivel}</span>
-                <span className="dep-ubicacion">📍 {dep.ubicacion}</span>
+                <span className="dep-ubicacion"> {dep.ubicacion}</span>
               </div>
               <h2>{dep.nombre}</h2>
               <p className="dep-desc">{dep.desc}</p>

@@ -10,7 +10,7 @@
 .con-hero {
     position: relative;
     height: 520px;
-    background-image: url('public/img/img-sostenible/consejos.jpg');
+    background-image: url('/img/img-sostenible/Consejos/hero-consejos.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

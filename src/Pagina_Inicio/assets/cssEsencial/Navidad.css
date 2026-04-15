@@ -6,33 +6,6 @@
     margin-top: 70px;
 }
 
-/* ── Breadcrumb ── */
-.nv-breadcrumb {
-    padding: 14px 48px;
-    font-size: 12px;
-    color: #777;
-    border-bottom: 1px solid #e5e5e5;
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    letter-spacing: 0.02em;
-}
-
-.nv-breadcrumb a {
-    color: #777;
-    text-decoration: none;
-}
-
-.nv-breadcrumb a:hover {
-    color: #1a1a1a;
-    text-decoration: underline;
-}
-
-.nv-sep {
-    color: #bbb;
-    font-size: 10px;
-}
-
 /* ── Hero ── */
 .nv-hero {
     position: relative;
@@ -92,18 +65,6 @@
     max-width: 480px;
 }
 
-
-@keyframes snowfall {
-    0% {
-        transform: translateY(-20px) rotate(0deg);
-        opacity: 1;
-    }
-
-    100% {
-        transform: translateY(540px) rotate(360deg);
-        opacity: 0.2;
-    }
-}
 
 /* ── Intro ── */
 .nv-intro {
@@ -249,6 +210,8 @@
     border-radius: 2px;
     overflow: hidden;
     height: 240px;
+    border: 1px solid #000;
+    box-shadow: 0 0 0 3px #000; 
 }
 
 .nv-route-img-inner {
@@ -306,7 +269,7 @@
 
     background-size: cover;}
 
-.img-musica {
+.img-musicana {
     background-image: url('/img/img-esencial/Navidad/conci.jpeg');
 
     background-position: center;

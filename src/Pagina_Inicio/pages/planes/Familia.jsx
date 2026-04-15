@@ -242,14 +242,14 @@ export default function Familia() {
 
             <div className="fam-route-text">
               <div className="fam-meta-row">
-                <span className="fam-edades">👶 {plan.edades}</span>
+                <span className="fam-edades"> {plan.edades}</span>
                 <span className="fam-ubicacion">{plan.ubicacion}</span>
               </div>
               <h2>{plan.nombre}</h2>
               <p className="fam-desc">{plan.desc}</p>
 
               <div className="fam-destacado">
-                <span className="fam-destacado-icon">⭐</span>
+                <span className="fam-destacado-icon"></span>
                 <span>{plan.destacado}</span>
               </div>
 

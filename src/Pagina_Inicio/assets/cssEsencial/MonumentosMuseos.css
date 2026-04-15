@@ -270,6 +270,8 @@
     border-radius: 2px;
     overflow: hidden;
     height: 220px;
+    border: 1px solid #000;
+    box-shadow: 0 0 0 3px #000; 
 }
 
 .mm-route-img-inner {
@@ -281,12 +283,12 @@
 }
 
 /* Imágenes de monumentos */
-.img-lonja    { background-image: url('/img/img-esencial/MonumentosMuseos/lonja-seda.jpg'); }
-.img-catedral { background-image: url('/img/img-esencial/MonumentosMuseos/catedral.jpg'); }
-.img-sannicolas { background-image: url('/img/img-esencial/MonumentosMuseos/san-nicolas.jpg'); }
-.img-serranos { background-image: url('/img/img-esencial/MonumentosMuseos/torres-serrano.jpg'); }
-.img-mercado  { background-image: url('/img/img-esencial/MonumentosMuseos/mercado.jpg'); }
-.img-mcac      { background-image: url('/img/img-esencial/MonumentosMuseos/mcac.jpg'); }
+.img-lonjamm    { background-image: url('/img/img-esencial/MonumentosMuseos/lonja-seda.jpg'); }
+.img-catedralmm { background-image: url('/img/img-esencial/MonumentosMuseos/catedral.jpg'); }
+.img-sannicolasmm { background-image: url('/img/img-esencial/MonumentosMuseos/san-nicolas.jpg'); }
+.img-serranosmm { background-image: url('/img/img-esencial/MonumentosMuseos/torres-serrano.jpg'); }
+.img-mercadomm  { background-image: url('/img/img-esencial/MonumentosMuseos/mercado.jpg'); }
+.img-mcacmm      { background-image: url('/img/img-esencial/MonumentosMuseos/mcac.jpg'); }
 
 /* ── Sección museos ── */
 .mm-museos-section {

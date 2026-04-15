@@ -17,7 +17,6 @@ var consejos = [
     num: '01',
     categoria: 'planificacion',
     titulo: 'Organiza tu visita por barrios, no por atracciones',
-    icono: '🗺',
     desc: 'Valencia es una ciudad compacta y completamente llana: sus barrios más interesantes están a distancias caminables entre sí. Estructura tu itinerario por zonas geográficas —casco histórico, Jardín del Turia, Ciudad de las Artes, Ruzafa, Cabanyal— en lugar de saltar de atracción en atracción por toda la ciudad. Ahorrarás tiempo, dinero en transporte y reducirás emisiones.',
     detalles: [
       { d: 'Día 1', v: 'Casco histórico: Catedral, Lonja, Mercado Central y barrio del Carmen' },
@@ -31,7 +30,6 @@ var consejos = [
     num: '02',
     categoria: 'planificacion',
     titulo: 'Elige la mejor época para visitar Valencia',
-    icono: '📅',
     desc: 'Valencia tiene un clima mediterráneo suave todo el año, pero hay épocas más recomendables que otras según lo que busques. La primavera (marzo-mayo) y el otoño (septiembre-noviembre) son las temporadas ideales: temperaturas agradables, menos turistas y precios más ajustados. El verano es ideal para la playa pero puede ser muy caluroso para pasear. Si vienes en marzo, vive las Fallas, pero reserva con meses de antelación.',
     detalles: [
       { d: 'Primavera (mar–may)', v: 'Mejor época: 18–24 °C, Fallas en marzo, jardines en flor' },
@@ -46,7 +44,6 @@ var consejos = [
     num: '03',
     categoria: 'planificacion',
     titulo: 'Descarga las apps esenciales antes de llegar',
-    icono: '📱',
     desc: 'Con cuatro aplicaciones en el móvil podrás moverte por Valencia de forma totalmente autónoma, sin papel y sin imprimir nada. La app de la EMT Valencia calcula rutas de autobús en tiempo real. Valenbisi muestra la disponibilidad de bicicletas en cada estación. Metrovalencia informa de horarios y líneas. Y la app de Visit Valencia tiene guías descargables, mapas y agenda cultural actualizada.',
     detalles: [
       { d: 'EMT Valencia', v: 'Rutas, horarios y paradas de autobús en tiempo real' },
@@ -61,7 +58,6 @@ var consejos = [
     num: '04',
     categoria: 'movilidad',
     titulo: 'Usa el transporte público integrado · Tarjeta Móbilis',
-    icono: '🚌',
     desc: 'El sistema de transporte público de Valencia integra autobús EMT, metro Metrovalencia, tranvía y tren de cercanías en un único soporte: la Tarjeta Móbilis. Con un bono de 10 viajes (8,50 €) puedes combinar bus y metro en la zona A sin límite de transbordos. La Valencia Tourist Card incluye transporte ilimitado desde 15,30 € y es muy rentable para estancias de 2-3 días.',
     detalles: [
       { d: 'Bono 10 viajes', v: '8,50 € · Bus + Metro en zona A · Sin caducidad' },
@@ -76,7 +72,6 @@ var consejos = [
     num: '05',
     categoria: 'movilidad',
     titulo: 'Muévete en bicicleta por el Jardín del Turia',
-    icono: '🚲',
     desc: 'Valencia tiene más de 160 km de carril bici y una ciudad completamente llana que hace del ciclismo urbano una opción ideal para cualquier edad y condición física. El Jardín del Turia ofrece 9 km continuos de carril bici sin coches ni semáforos que conectan el Bioparc con la Ciudad de las Artes. Valenbisi tiene 276 estaciones: los primeros 30 minutos de cada trayecto son gratuitos con cualquier abono.',
     detalles: [
       { d: 'Valenbisi semanal', v: '13,30 € · Ilimitado 7 días · 30 min gratis por trayecto' },
@@ -91,7 +86,6 @@ var consejos = [
     num: '06',
     categoria: 'alojamiento',
     titulo: 'Alójate en el centro histórico o en tu barrio de interés',
-    icono: '🏨',
     desc: 'La elección del alojamiento define cuánto transporte necesitarás durante tu estancia. El centro histórico (Ciutat Vella y barrio del Carmen) permite recorrer la mayoría de atractivos culturales a pie. Ruzafa es la opción para quien busca ambiente nocturno y restaurantes de barrio. El Cabanyal, junto a las playas, para quien prioriza el mar. Busca hoteles pequeños y locales: el impacto económico en la ciudad es mucho mayor que en las grandes cadenas.',
     detalles: [
       { d: 'Centro histórico', v: 'Todo a pie: Catedral, Lonja, Carmen, Mercado Central' },
@@ -106,7 +100,6 @@ var consejos = [
     num: '07',
     categoria: 'gastronomia',
     titulo: 'Come de temporada y de proximidad · Producto Km 0',
-    icono: '🍊',
     desc: 'La gastronomía valenciana tiene a la huerta y el Mediterráneo como despensa directa. Comer de temporada y de proximidad no es solo más sostenible: también es más sabroso y económico. Los mercados municipales son el mejor lugar para comprar producto fresco. En los restaurantes, busca los que trabajan con producto de la huerta y las DO Valencia y Utiel-Requena en vinos. La paella de domingo en El Palmar, dentro de la Albufera, es la experiencia más auténtica y de mayor kilómetro 0 posible.',
     detalles: [
       { d: 'Mercados municipales', v: 'Producto fresco de la huerta directamente del productor' },
@@ -121,7 +114,6 @@ var consejos = [
     num: '08',
     categoria: 'gastronomia',
     titulo: 'Horarios de comidas valencianos · Aprende la cultura local',
-    icono: '🕐',
     desc: 'Los horarios de comida en Valencia son más tardíos que en el resto de Europa. El desayuno es ligero (café con leche y tostada). La comida principal es entre las 14:00 y las 16:00 h: es el momento donde la mayoría de restaurantes tienen menú del día entre 10–15 € con primero, segundo y postre. La cena empieza a las 21:00 h y los restaurantes no abren antes de las 20:30 h. Adaptarse a estos horarios te ahorrará comer en restaurantes turísticos.',
     detalles: [
       { d: 'Desayuno', v: '08:00–10:00 h · Café con leche, tostada con aceite o churros' },
@@ -136,7 +128,6 @@ var consejos = [
     num: '09',
     categoria: 'naturaleza',
     titulo: 'Respeta los espacios naturales protegidos',
-    icono: '🌿',
     desc: 'El Parque Natural de la Albufera, las playas del Saler y la Devesa, y los parques naturales del interior tienen normas de acceso que hay que respetar. No acceder a zonas restringidas de la Albufera, mantenerse en los senderos señalizados, no abandonar residuos en las playas naturales y no molestar a la fauna son los pilares del ecoturismo responsable. El Racó de l\'Olla tiene periodos de acceso restringido para proteger a las aves nidificantes.',
     detalles: [
       { d: 'Zonas restringidas', v: 'Respetar los límites señalizados en el Racó de l\'Olla y la Devesa' },
@@ -151,7 +142,6 @@ var consejos = [
     num: '10',
     categoria: 'compras',
     titulo: 'Compra artesanía local y recuerdos auténticos',
-    icono: '🛍',
     desc: 'Los recuerdos más sostenibles y con más historia son los hechos en Valencia: cerámica de Manises, abanicos artesanos de Vibenca o Carbonell, complementos de seda de Ensedarte, porcelana Lladró o piezas de joyería artesanal. Evita los recuerdos de producción industrial o masiva fabricados fuera de España. Comprar artesanía local apoya a los artesanos valencianos, mantiene vivas las tradiciones y deja un impacto económico real en la ciudad.',
     detalles: [
       { d: 'Cerámica', v: 'Manises y Paterna: centros productores a 10 km del centro' },
@@ -166,7 +156,6 @@ var consejos = [
     num: '11',
     categoria: 'naturaleza',
     titulo: 'Usa el agua y la energía de forma responsable',
-    icono: '💧',
     desc: 'Valencia es una ciudad mediterránea que sufre periódicamente de estrés hídrico. En tu alojamiento, no cambies las toallas cada día si no es necesario, evita baños de larga duración y apaga el aire acondicionado cuando salgas de la habitación. En los espacios naturales, el agua de la Albufera y de los ríos de la provincia es un recurso especialmente frágil que sostiene ecosistemas únicos.',
     detalles: [
       { d: 'Toallas en hotel', v: 'Reutiliza las toallas varios días: ahorra hasta 40 litros por lavado' },
@@ -181,7 +170,6 @@ var consejos = [
     num: '12',
     categoria: 'compras',
     titulo: 'Compra en los mercados municipales, no en los supermercados',
-    icono: '🥕',
     desc: 'Si te alojas en un apartamento o quieres picar algo fresco, los mercados municipales son infinitamente más sostenibles que los supermercados: el producto viene directo del productor o de la Lonja, sin packaging industrial, y el impacto económico queda completamente en la economía local. El Mercado Central, el de Ruzafa o el del Cabanyal están abiertos de lunes a sábado de 7:30 a 14:00 h.',
     detalles: [
       { d: 'Sin packaging industrial', v: 'Lleva bolsas reutilizables: los mercados venden sin plástico' },
@@ -194,20 +182,6 @@ var consejos = [
   },
 ];
 
-var mesesCalendario = [
-  { mes: 'Ene', temp: '13°', valoracion: 3, nota: 'Tranquilo · Frio templado' },
-  { mes: 'Feb', temp: '14°', valoracion: 3, nota: 'Tranquilo · Almendros en flor' },
-  { mes: 'Mar', temp: '17°', valoracion: 5, nota: '🔥 Fallas · Muy concurrido' },
-  { mes: 'Abr', temp: '19°', valoracion: 4, nota: 'Excelente · Semana Santa' },
-  { mes: 'May', temp: '22°', valoracion: 5, nota: 'Ideal · Virgen de los Desamparados' },
-  { mes: 'Jun', temp: '26°', valoracion: 4, nota: 'Muy bueno · Playa empieza' },
-  { mes: 'Jul', temp: '29°', valoracion: 3, nota: 'Gran Feria · Mucho calor' },
-  { mes: 'Ago', temp: '30°', valoracion: 2, nota: 'Muy concurrido · Calor extremo' },
-  { mes: 'Sep', temp: '26°', valoracion: 5, nota: 'Ideal · Playa y menos gente' },
-  { mes: 'Oct', temp: '21°', valoracion: 5, nota: 'Excelente · 9 d\'Octubre' },
-  { mes: 'Nov', temp: '16°', valoracion: 4, nota: 'Muy bueno · Tranquilo' },
-  { mes: 'Dic', temp: '13°', valoracion: 3, nota: 'Navidad · Maratón Valencia' },
-];
 
 export default function Consejos() {
   const [filtroActivo, setFiltroActivo] = useState('todos');
@@ -251,24 +225,6 @@ export default function Consejos() {
         <p>En esta guía encontrarás los <strong>consejos más prácticos</strong>, organizados por categorías, para que tu estancia sea cómoda, auténtica y respetuosa con el entorno y las personas que viven aquí.</p>
       </div>
 
-      {/* Calendario de mejor época */}
-      <div className="con-calendario-section">
-        <h2 className="con-calendario-titulo">Mejor época para visitar Valencia</h2>
-        <div className="con-calendario-grid">
-          {mesesCalendario.map(m => (
-            <div key={m.mes} className={`con-cal-mes valoracion-${m.valoracion}`}>
-              <div className="con-cal-nombre">{m.mes}</div>
-              <div className="con-cal-temp">{m.temp}</div>
-              <div className="con-cal-estrellas">
-                {Array.from({ length: 5 }).map((_, i) => (
-                  <span key={i} className={`con-estrella ${i < m.valoracion ? 'llena' : ''}`}>★</span>
-                ))}
-              </div>
-              <div className="con-cal-nota">{m.nota}</div>
-            </div>
-          ))}
-        </div>
-      </div>
 
       {/* Filtros */}
       <div className="con-filter-bar">
@@ -292,7 +248,6 @@ export default function Consejos() {
               <div className="con-consejo-num">{consejo.num}</div>
               <span className="con-consejo-icono">{consejo.icono}</span>
               <h2 className="con-consejo-titulo">{consejo.titulo}</h2>
-              <span className={`con-cat-badge ${consejo.categoria}`}>{consejo.categoria}</span>
             </div>
 
             <div className="con-consejo-body">
@@ -308,7 +263,6 @@ export default function Consejos() {
               </div>
 
               <div className="con-clave">
-                <span className="con-clave-icon">💡</span>
                 <span>{consejo.consejo_clave}</span>
               </div>
 

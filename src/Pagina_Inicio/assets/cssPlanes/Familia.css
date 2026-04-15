@@ -311,6 +311,8 @@
     overflow: hidden;
     height: 240px;
     top: 90px;
+    border: 1px solid #000;
+    box-shadow: 0 0 0 3px #000; 
 }
 
 .fam-route-img-inner {

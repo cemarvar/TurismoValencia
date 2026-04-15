@@ -7,10 +7,10 @@
 }
 
 /* ── Hero ── */
-.cac-hero {
+.CACcac-hero {
     position: relative;
     height: 560px;
-    background-image: url('/img/img-esencial/CAC/CAC.jpg');
+    background-image: url('/img/img-esencial/CAC/CACcac.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -240,7 +240,7 @@
     color: #333;
 }
 
-/* Visita / horario */
+/* horario */
 .cac-visita {
     font-size: 13px;
     color: #444;
@@ -313,6 +313,8 @@
     overflow: hidden;
     height: 280px;
     top: 90px;
+    border: 1px solid #000;
+    box-shadow: 0 0 0 3px #000; 
 }
 
 .cac-route-img-inner {
@@ -323,12 +325,12 @@
     background-size: cover;
 }
 
-.img-ogf { background-image: url('/img/img-esencial/CAC/ogf.jpg'); }
-.img-hemisferic   { background-image: url('/img/img-esencial/CAC/hemisferic.jpg'); }
-.img-mdlc        { background-image: url('/img/img-esencial/CAC/museu.jpg'); }
-.img-palau        { background-image: url('/img/img-esencial/CAC/palau.jpg'); }
-.img-umbracle     { background-image: url('/img/img-esencial/CAC/umbracle.jpg'); }
-.img-agora        { background-image: url('/img/img-esencial/CAC/agora.jpg'); }
+.img-ogfcac { background-image: url('/img/img-esencial/CAC/ogfcac.jpg'); }
+.img-hemisfericcac   { background-image: url('/img/img-esencial/CAC/hemisfericcac.jpg'); }
+.img-mdlccac        { background-image: url('/img/img-esencial/CAC/museucac.jpg'); }
+.img-palaucac        { background-image: url('/img/img-esencial/CAC/palaucac.jpg'); }
+.img-umbraclecac     { background-image: url('/img/img-esencial/CAC/umbraclecac.jpg'); }
+.img-agoracac        { background-image: url('/img/img-esencial/CAC/agoracac.jpg'); }
 
 /* ── Tabla de entradas ── */
 .cac-entradas-section {

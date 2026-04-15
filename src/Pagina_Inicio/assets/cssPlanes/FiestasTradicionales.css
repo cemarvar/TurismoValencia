@@ -97,62 +97,6 @@
     background: rgba(255,255,255,0.25);
 }
 
-/* ── Timeline anual ── */
-.ft-timeline {
-    padding: 40px 48px 36px;
-    background: #1a2a4a;
-}
-
-.ft-timeline-titulo {
-    font-size: 11px;
-    font-weight: 700;
-    letter-spacing: 0.14em;
-    text-transform: uppercase;
-    color: #f0c040;
-    margin-bottom: 20px;
-}
-
-.ft-timeline-grid {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    gap: 4px;
-}
-
-.ft-timeline-mes {
-    background: rgba(255,255,255,0.07);
-    border-top: 3px solid var(--mes-color, #555);
-    padding: 10px 8px;
-    border-radius: 0 0 2px 2px;
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    transition: background 0.15s;
-}
-
-.ft-timeline-mes.highlight {
-    background: rgba(255,255,255,0.13);
-}
-
-.ft-timeline-mes-nombre {
-    font-size: 11px;
-    font-weight: 700;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: rgba(255,255,255,0.6);
-}
-
-.ft-timeline-mes-fiesta {
-    font-size: 11px;
-    font-weight: 300;
-    color: rgba(255,255,255,0.85);
-    line-height: 1.35;
-}
-
-.ft-timeline-mes.highlight .ft-timeline-mes-fiesta {
-    font-weight: 600;
-    color: #fff;
-}
-
 /* ── Intro ── */
 .ft-intro {
     max-width: 740px;
@@ -380,12 +324,17 @@
     background: #1a2a4a;
     padding: 10px 16px;
     text-align: center;
+    border: 1px solid #000;
+    box-shadow: 0 0 0 3px #000; 
+    
 }
 
 .ft-route-img {
     overflow: hidden;
     height: 220px;
     border-radius: 0 0 2px 2px;
+    border: 1px solid #000;
+    box-shadow: 0 0 0 3px #000; 
 }
 
 .ft-route-img-inner {

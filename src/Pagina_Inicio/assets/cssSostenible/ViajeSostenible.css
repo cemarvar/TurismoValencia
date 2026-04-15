@@ -10,7 +10,7 @@
 .vs-hero {
     position: relative;
     height: 540px;
-    background-image: url('/img/img-sostenible/viaje_sostenible.jpg');
+    background-image: url('/img/img-sostenible/ViajeSostenible/hero-viaje-sostenible.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -359,8 +359,10 @@
     border-radius: 2px;
     overflow: hidden;
     height: 240px;
-    position: sticky;
     top: 90px;
+    border: 1px solid #000;
+    box-shadow: 0 0 0 3px #000; 
+
 }
 
 .vs-route-img-inner {
@@ -372,15 +374,15 @@
     background-color: #1a2a4a;
 }
 
-/* Imágenes — reutilizar o crear en img-sostenible */
-.img-fuentes    { background-image: url('/img/img-sostenible/fuentes.jpg'); }
-.img-wifi       { background-image: url('/img/img-sostenible/wifi.jpg'); }
-.img-bus        { background-image: url('/img/img-sostenible/muevete.jpg'); }
-.img-paradas    { background-image: url('/img/img-sostenible/viaje_responsable.jpg'); }
-.img-bikebarca  { background-image: url('/img/img-sostenible/ecoturismo.jpg'); }
-.img-pasos      { background-image: url('/img/img-sostenible/consejos.jpg'); }
-.img-mobiliario { background-image: url('/img/img-sostenible/comercio_local.jpg'); }
-.img-wave       { background-image: url('/img/img-sostenible/viaje_sostenible.jpg'); }
+/* Imágenes */
+.img-fuentesvs    { background-image: url('/img/img-sostenible/ViajeSostenible/fuentesvs.jpg'); }
+.img-wifivs       { background-image: url('/img/img-sostenible/ViajeSostenible/wifivs.png'); }
+.img-busvs        { background-image: url('/img/img-sostenible/ViajeSostenible/busvs.jpg'); }
+.img-paradasvs    { background-image: url('/img/img-sostenible/ViajeSostenible/paradasvs.jpg'); }
+.img-bikebarcavs  { background-image: url('/img/img-sostenible/ViajeSostenible/bikebarcavs.jpg'); }
+.img-pasosvs      { background-image: url('/img/img-sostenible/ViajeSostenible/pasosvs.jpg'); }
+.img-mobiliariovs { background-image: url('/img/img-sostenible/ViajeSostenible/mobiliariovs.jpg'); }
+.img-wavevs       { background-image: url('/img/img-sostenible/ViajeSostenible/wavevs.jpg'); }
 
 /* ── CTA ── */
 .vs-cta-section {

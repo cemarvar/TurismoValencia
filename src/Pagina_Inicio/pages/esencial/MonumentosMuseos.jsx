@@ -12,7 +12,7 @@ var monumentos = [
     horario: 'Todos los días 9:30–19:00 h',
     precio: 'Gratuito con Tourist Card',
     tags: [{ label: 'Gratuito', type: 'free' }, { label: 'UNESCO' }, { label: 'Siglo XV' }],
-    imgClass: 'img-lonja',
+    imgClass: 'img-lonjamm',
   },
   {
     num: '02',
@@ -23,7 +23,7 @@ var monumentos = [
     horario: 'Lun–Sáb 10:00–18:30 h · Dom 14:00–18:30 h',
     precio: 'Desde 9 €',
     tags: [{ label: 'Santo Cáliz' }, { label: 'Vistas' }, { label: 'Gótico-Barroco' }],
-    imgClass: 'img-catedral',
+    imgClass: 'img-catedralmm',
   },
   {
     num: '03',
@@ -34,7 +34,7 @@ var monumentos = [
     horario: 'Mar–Sáb 10:30–19:30 h · Dom 13:30–19:30 h',
     precio: '15 € · Reserva previa obligatoria',
     tags: [{ label: 'Reserva previa' }, { label: 'Barroco' }, { label: 'Arte' }],
-    imgClass: 'img-sannicolas',
+    imgClass: 'img-sannicolasmm',
   },
   {
     num: '04',
@@ -45,7 +45,7 @@ var monumentos = [
     horario: 'Mar–Sáb 10:00–19:00 h · Dom 10:00–14:00 h',
     precio: 'Gratuito',
     tags: [{ label: 'Gratuito', type: 'free' }, { label: 'Vistas' }, { label: 'Siglo XIV' }],
-    imgClass: 'img-serranos',
+    imgClass: 'img-serranosmm',
   },
   {
     num: '05',
@@ -56,7 +56,7 @@ var monumentos = [
     horario: 'Lun–Sáb 7:30–15:00 h',
     precio: 'Gratuito',
     tags: [{ label: 'Gratuito', type: 'free' }, { label: 'Modernismo' }, { label: 'Gastronomía' }],
-    imgClass: 'img-mercado',
+    imgClass: 'img-mercadomm',
   },
   {
     num: '06',
@@ -67,7 +67,7 @@ var monumentos = [
     horario: 'Abre todos los días del año',
     precio: 'Desde 10 € por espacio',
     tags: [{ label: 'Familia' }, { label: 'Arquitectura' }, { label: 'Ciencia' }],
-    imgClass: 'img-mcac',
+    imgClass: 'img-mcacmm',
   },
 ];
 
@@ -184,7 +184,7 @@ export default function MonumentosMuseos() {
               <div className="mm-ubicacion">{m.ubicacion}</div>
               <p>{m.desc}</p>
               <div className="mm-horario-row">
-                <span className="mm-horario-icon">🕐</span>
+                <span className="mm-horario-icon"></span>
                 <span className="mm-horario">{m.horario}</span>
                 <span className="mm-precio-sep">·</span>
                 <span className="mm-precio">{m.precio}</span>

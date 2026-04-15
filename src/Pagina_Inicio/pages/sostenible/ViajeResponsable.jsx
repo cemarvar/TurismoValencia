@@ -5,7 +5,6 @@ var compromisos = [
   {
     num: '01',
     area: 'Agua y energía',
-    icono: '💧',
     color: 'azul',
     titular: 'Usa el agua y la energía con responsabilidad',
     desc: 'En tu alojamiento, no cambies las toallas cada día si no es necesario. Evita los baños largos. Apaga el aire acondicionado cuando salgas de la habitación. En Valencia, el agua del grifo es completamente potable: no necesitas comprar agua embotellada. Las fuentes PUSDAR repartidas por toda la ciudad ofrecen agua filtrada y refrigerada de forma gratuita.',
@@ -19,7 +18,6 @@ var compromisos = [
   {
     num: '02',
     area: 'Residuos y plástico',
-    icono: '♻️',
     color: 'verde',
     titular: 'Minimiza los residuos y elimina el plástico',
     desc: 'Lleva siempre una bolsa reutilizable para las compras en mercados y tiendas. Evita las botellas de plástico de un solo uso aprovechando las fuentes de agua filtrada de la ciudad. En Valencia encontrarás contenedores de reciclaje bien diferenciados con los colores habituales en cada calle y plaza. El aceite de cocina usado tiene contenedores específicos repartidos por toda la ciudad.',
@@ -33,7 +31,6 @@ var compromisos = [
   {
     num: '03',
     area: 'Movilidad',
-    icono: '🚲',
     color: 'verde',
     titular: 'Muévete sin coche: a pie, en bici o en transporte público',
     desc: 'Valencia es completamente llana, con más de 160 km de carril bici y un centro histórico mayoritariamente peatonal. El sistema Valenbisi tiene 276 estaciones con 2.750 bicicletas disponibles las 24 horas. La red de autobuses EMT, el metro y el tranvía conectan todos los puntos de interés. La Tourist Card incluye transporte ilimitado desde 15,30 € y es la opción más inteligente para una estancia de 2-3 días.',
@@ -47,7 +44,6 @@ var compromisos = [
   {
     num: '04',
     area: 'Gastronomía local',
-    icono: '🍊',
     color: 'naranja',
     titular: 'Consume gastronomía autóctona y de proximidad',
     desc: 'La gastronomía valenciana está construida sobre la huerta propia y el Mediterráneo como despensa directa. Comer en restaurantes que trabajan con producto de temporada y de kilómetro 0 es la forma más sabrosa y sostenible de conocer la ciudad. Los mercados municipales son el mejor lugar para comprar alimento fresco sin packaging industrial. Busca el arroz DO Valencia, el vino de Utiel-Requena y la horchata de Alboraya.',
@@ -61,7 +57,6 @@ var compromisos = [
   {
     num: '05',
     area: 'Comercio local',
-    icono: '🛍',
     color: 'naranja',
     titular: 'Compra en el pequeño comercio y artesanía local',
     desc: 'Cada euro gastado en una tienda local, un mercado municipal o un artesano valenciano tiene un impacto económico en la ciudad varias veces mayor que el mismo euro gastado en una gran franquicia. La cerámica de Manises, los abanicos artesanos, la seda pintada a mano de Ensedarte o los productos de la huerta son recuerdos auténticos con historia. El Barrio del Carmen, el Mercado Central y la Plaza Redonda son los mejores puntos de compra responsable.',
@@ -75,7 +70,6 @@ var compromisos = [
   {
     num: '06',
     area: 'Naturaleza',
-    icono: '🌿',
     color: 'verde',
     titular: 'Disfruta de los espacios naturales con respeto',
     desc: 'El Parque Natural de la Albufera, las playas del Saler y la Devesa, y los parques naturales del interior de la provincia son ecosistemas frágiles que requieren un comportamiento consciente. No acceder a zonas restringidas, mantenerse en los senderos señalizados, no molestar a la fauna y no abandonar residuos son las normas básicas del ecoturismo responsable. Para llegar a estos espacios, usa el autobús o la bicicleta, no el coche.',
@@ -89,7 +83,6 @@ var compromisos = [
   {
     num: '07',
     area: 'Fauna marina',
-    icono: '🐢',
     color: 'azul',
     titular: 'Protege la fauna marina del Mediterráneo',
     desc: 'El Mediterráneo que baña Valencia es el hogar de la tortuga boba (Caretta caretta), el delfín mular, la posidonia oceánica y otras especies protegidas. Si en la playa o en el mar encuentras una tortuga boba u otra especie que parece necesitar ayuda, lo más eficaz es llamar al 112 para activar la Red de Varamientos. No toques ni manipules el animal: los expertos sabrán cómo ayudarle mejor.',
@@ -103,7 +96,6 @@ var compromisos = [
   {
     num: '08',
     area: 'Cultura y convivencia',
-    icono: '🤝',
     color: 'azul',
     titular: 'Respeta la cultura local y el descanso de los vecinos',
     desc: 'Los valencianos tienen sus propios horarios, costumbres y espacios. El descanso nocturno empieza pronto en los barrios residenciales: evita el ruido a partir de las 22 h en zonas no destinadas al ocio. Respeta los espacios sagrados y los rituales de las fiestas. Aprende algunas palabras en valenciano y en castellano: la actitud y el esfuerzo son siempre bienvenidos. Los mercados, los parques y el transporte público son espacios compartidos con los residentes.',
@@ -117,7 +109,6 @@ var compromisos = [
   {
     num: '09',
     area: 'Sin papel',
-    icono: '📱',
     color: 'verde',
     titular: 'Prescinde del papel y viaja en digital',
     desc: 'Visit Valencia pone a disposición de todos los viajeros ediciones online y descargables de todas sus guías, mapas y planos turísticos, sin necesidad de imprimir nada. Descarga los mapas en tu móvil antes de llegar para usarlos sin conexión. Guarda las entradas en digital. Usa las apps de transporte en lugar de los billetes físicos. Cada pequeña decisión sin papel suma.',
@@ -130,18 +121,6 @@ var compromisos = [
   },
 ];
 
-var manifiestoItems = [
-  { texto: 'Me muevo a pie, en bici o en transporte público', icono: '🚲' },
-  { texto: 'Llevo mi botella reutilizable y bolsa de tela', icono: '♻️' },
-  { texto: 'Como en restaurantes de barrio con producto local', icono: '🍽' },
-  { texto: 'Compro en mercados municipales y artesanos locales', icono: '🧺' },
-  { texto: 'Respeto la fauna y la flora de los espacios naturales', icono: '🌿' },
-  { texto: 'No abandono residuos en playas ni parques naturales', icono: '🏖' },
-  { texto: 'Reciclo en los contenedores de colores de la ciudad', icono: '🗑' },
-  { texto: 'Respeto el descanso y los horarios de los vecinos', icono: '🤝' },
-  { texto: 'Viajo en digital y evito el papel siempre que puedo', icono: '📱' },
-  { texto: 'Comparto mi experiencia con #VisitValencia', icono: '📸' },
-];
 
 export default function ViajeResponsable() {
   return (
@@ -168,19 +147,6 @@ export default function ViajeResponsable() {
         <p>Si te mueves de forma sostenible, consumes con consciencia y practicas el turismo responsable, ya estás contribuyendo activamente a la conservación de Valencia para las generaciones que vendrán. Estos nueve compromisos no te supondrán ningún esfuerzo, pero tendrán un impacto real en la ciudad, su naturaleza y sus vecinos.</p>
       </div>
 
-      {/* Manifiesto visual */}
-      <div className="vr-manifiesto-section">
-        <div className="vr-manifiesto-titulo">El manifiesto del viajero responsable</div>
-        <div className="vr-manifiesto-grid">
-          {manifiestoItems.map((item, i) => (
-            <div className="vr-manifiesto-item" key={i}>
-              <span className="vr-manifiesto-icono">{item.icono}</span>
-              <span className="vr-manifiesto-texto">{item.texto}</span>
-            </div>
-          ))}
-        </div>
-      </div>
-
       {/* Compromisos detallados */}
       <div className="vr-section-header">
         <h2>Los 9 compromisos en detalle</h2>
@@ -204,7 +170,6 @@ export default function ViajeResponsable() {
               <ul className="vr-acciones">
                 {c.acciones.map(a => (
                   <li key={a}>
-                    <span className="vr-check">✓</span>
                     <span>{a}</span>
                   </li>
                 ))}
@@ -217,7 +182,6 @@ export default function ViajeResponsable() {
 
       {/* CTA · Teléfono de emergencias fauna */}
       <div className="vr-emergencia-box">
-        <span className="vr-emergencia-icono">🐢</span>
         <div className="vr-emergencia-content">
           <div className="vr-emergencia-titulo">¿Encuentras fauna marina herida en la playa?</div>
           <p className="vr-emergencia-desc">Si ves una tortuga boba u otra especie que necesita ayuda en la costa valenciana, llama al <strong>112</strong> para activar la Red de Varamientos. No toques ni manipules el animal: los expertos sabrán cómo actuar.</p>

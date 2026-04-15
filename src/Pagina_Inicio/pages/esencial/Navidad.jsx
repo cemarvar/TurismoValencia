@@ -49,7 +49,7 @@ var planes = [
     titulo: 'Concierto de Navidad: Coral Infantil de Valencia',
     desc: 'La Coral Infantil de la Generalitat Valenciana ofrece su concierto anual de Navidad con villancicos tradicionales y piezas clásicas en el emblemático Palau de la Música.',
     tags: [{ label: '8 €' }, { label: 'Todas las edades' }, { label: 'Música' }, { label: '22 Dic' }],
-    imgClass: 'img-musica'
+    imgClass: 'img-musicana'
   },
 ];
 

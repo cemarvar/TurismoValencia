@@ -9,7 +9,7 @@ var planes = [
     titulo: 'El icono futurista de Valencia',
     desc: 'El gran complejo cultural diseñado por Santiago Calatrava en el antiguo cauce del Turia reúne el Oceanogràfic, el Museu de les Ciències y el Hemisfèric, con la pantalla de cine 3D más grande de España.',
     tags: [{ label: 'Desde 10 €' }, { label: 'Todas las edades' }, { label: 'Arquitectura' }, { label: 'Todo el año' }],
-    imgClass: 'img-cac'
+    imgClass: 'img-cacvi'
   },
   {
     num: '02',
@@ -17,7 +17,7 @@ var planes = [
     titulo: 'Plaza de la Virgen, Catedral y Miguelete',
     desc: 'El corazón monumental de Valencia. Junto a la Basílica de los Desamparados y la Catedral se eleva el Miguelete, la torre campanario gótica desde la que se obtienen las mejores vistas del centro histórico.',
     tags: [{ label: 'Gratuito', type: 'free' }, { label: 'Panorámicas' }, { label: 'Gótico' }, { label: 'Todo el año' }],
-    imgClass: 'img-catedral'
+    imgClass: 'img-catedralvi'
   },
   {
     num: '03',
@@ -25,7 +25,7 @@ var planes = [
     titulo: 'Iglesia de San Nicolás: la Capilla Sixtina valenciana',
     desc: 'Apodada la Capilla Sixtina valenciana, este templo gótico del siglo XIV deslumbra por sus bóvedas cubiertas de frescos barrocos del XVII. Casi 2.000 metros cuadrados de pintura que cortan la respiración.',
     tags: [{ label: '10 €' }, { label: 'Arte' }, { label: 'Barroco' }, { label: 'Reserva previa' }],
-    imgClass: 'img-sannicolas'
+    imgClass: 'img-sannicolasvi'
   },
   {
     num: '04',
@@ -33,7 +33,7 @@ var planes = [
     titulo: 'Lonja de la Seda: Patrimonio de la Humanidad',
     desc: 'Obra cumbre del gótico civil valenciano del siglo XV y declarada Patrimonio de la Humanidad por la UNESCO. Sus esbeltas columnas helicoidales y la luz que filtra por sus ventanales la convierten en uno de los rincones más bellos de la ciudad.',
     tags: [{ label: '2 €' }, { label: 'UNESCO' }, { label: 'Gótico civil' }, { label: 'Todo el año' }],
-    imgClass: 'img-lonja'
+    imgClass: 'img-lonjavi'
   },
   {
     num: '05',
@@ -41,7 +41,7 @@ var planes = [
     titulo: 'Mercado Central: un templo del modernismo y la gastronomía',
     desc: 'Uno de los mercados de abastos más grandes de Europa, con más de 250 puestos bajo una cúpula modernista de 8.000 m². Declarado Bien de Interés Cultural y escenario ideal para el tradicional esmorzaret valenciano.',
     tags: [{ label: 'Gratuito', type: 'free' }, { label: 'Gastronomía' }, { label: 'Modernismo' }, { label: 'Lun–Sáb' }],
-    imgClass: 'img-mercado'
+    imgClass: 'img-mercadovi'
   },
   {
     num: '06',
@@ -49,7 +49,7 @@ var planes = [
     titulo: 'Plaza Redonda y torre de Santa Catalina',
     desc: 'Una de las plazas más singulares de España: perfectamente circular y accesible desde cuatro calles distintas. Desde aquí se contempla la torre barroca de Santa Catalina, uno de los campanarios más fotografiados de Valencia.',
     tags: [{ label: 'Gratuito', type: 'free' }, { label: 'Fotogénico' }, { label: 'Barroco' }, { label: 'Todo el año' }],
-    imgClass: 'img-plazaredonda'
+    imgClass: 'img-plazaredondavi'
   },
   {
     num: '07',
@@ -57,7 +57,7 @@ var planes = [
     titulo: 'Barrio del Carmen y Torres de Serranos',
     desc: 'El barrio medieval más vibrante de Valencia: callejuelas con arte urbano, el IVAM, el Centre del Carme y el Portal de la Valldigna. En sus extremos se alzan las Torres de Serranos y de Quart, únicas puertas que quedan de la ciudad amurallada del siglo XV.',
     tags: [{ label: 'Gratuito', type: 'free' }, { label: 'Arte urbano' }, { label: 'Medieval' }, { label: 'Todo el año' }],
-    imgClass: 'img-carmen'
+    imgClass: 'img-carmenvi'
   },
   {
     num: '08',
@@ -65,7 +65,7 @@ var planes = [
     titulo: 'Jardín del Turia: 9 km de parque urbano',
     desc: 'El pulmón verde de Valencia discurre por el antiguo cauce del río durante nueve kilómetros, libre de coches. Puentes históricos, zonas deportivas, el Bioparc y el parque de Gulliver convierten este espacio en un paseo imprescindible a pie o en bici.',
     tags: [{ label: 'Gratuito', type: 'free' }, { label: 'Naturaleza' }, { label: 'Bici' }, { label: 'Todo el año' }],
-    imgClass: 'img-jturia'
+    imgClass: 'img-jturiavi'
   },
   {
     num: '09',
@@ -73,7 +73,7 @@ var planes = [
     titulo: 'El Cabanyal: el alma marinera de Valencia',
     desc: 'Barrio pesquero declarado Conjunto Histórico Protegido, con un modernismo popular único en sus fachadas de azulejos. Bohemio, gastronómico y auténtico: el contrapunto perfecto al centro histórico.',
     tags: [{ label: 'Gratuito', type: 'free' }, { label: 'Marinero' }, { label: 'Modernismo' }, { label: 'Todo el año' }],
-    imgClass: 'img-cabanyal'
+    imgClass: 'img-cabanyalvi'
   },
   {
     num: '10',
@@ -81,7 +81,7 @@ var planes = [
     titulo: 'Parque Natural de l\'Albufera: paella y atardecer sobre el lago',
     desc: 'Uno de los humedales más importantes de la Península Ibérica, a solo diez kilómetros del centro. Arrozales, dunas vírgenes, bosques de pinos y el gran lago donde descubrir el origen de la paella valenciana a bordo de una barca tradicional albuferenca.',
     tags: [{ label: 'Gratuito', type: 'free' }, { label: 'Naturaleza' }, { label: 'Gastronomía' }, { label: 'Todo el año' }],
-    imgClass: 'img-palbufera'
+    imgClass: 'img-palbuferavi'
   },
 ];
 

@@ -247,6 +247,8 @@
     overflow: hidden;
     height: 280px;
     top: 90px;
+    border: 1px solid #000;
+    box-shadow: 0 0 0 3px #000; 
 }
 
 .bp-route-img-inner {
@@ -259,7 +261,7 @@
 
 .img-sabana      { background-image: url('/img/img-esencial/Bioparc/sabana.jpg'); }
 .img-ecuatorial  { background-image: url('/img/img-esencial/Bioparc/ecuatorial.jpg'); }
-.img-humedales   { background-image: url('/img/img-esencial/Bioparc/humedales.jpg'); }
+.img-humedalesbio   { background-image: url('/img/img-esencial/Bioparc/humedalesbio.jpg'); }
 .img-madagascar  { background-image: url('/img/img-esencial/Bioparc/madagascar.jpg'); }
 
 /* ── Actividades ── */

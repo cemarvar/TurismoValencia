@@ -33,7 +33,7 @@ var torres = [
       { dato: 'Inspirada en la Puerta Real', desc: 'del Monasterio de Poblet, en Cataluña' },
     ],
     tags: [{ label: 'Gratuito', type: 'free' }, { label: 'Vistas panorámicas' }, { label: 'Siglo XIV' }, { label: 'Monumento Nacional' }],
-    imgClass: 'img-serranos',
+    imgClass: 'img-serranosca',
     info: 'Plaza de los Fueros, s/n · Entrada gratuita · Mar–Sáb 10:00–19:00 h · Dom 10:00–14:00 h'
   },
   {
@@ -67,7 +67,7 @@ var torres = [
       { dato: 'Modelo del Castelnuovo de Nápoles', desc: 'construido bajo el reinado de Alfonso V el Magnánimo' },
     ],
     tags: [{ label: 'Gratuito', type: 'free' }, { label: 'Historia bélica' }, { label: 'Siglo XV' }, { label: 'Monumento Nacional' }],
-    imgClass: 'img-quart',
+    imgClass: 'img-quartca',
     info: 'C/ Guillem de Castro, 90 · Entrada gratuita · Mar–Sáb 10:00–19:00 h · Dom 10:00–14:00 h'
   },
 ];
@@ -165,7 +165,7 @@ export default function CiudadAmurallada() {
 
               {/* Info práctica */}
               <div className="cam-info-practica">
-                <span className="cam-info-icon">📍</span>
+                <span className="cam-info-icon"></span>
                 {torre.info}
               </div>
 

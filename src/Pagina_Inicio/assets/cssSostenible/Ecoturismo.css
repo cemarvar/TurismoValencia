@@ -10,7 +10,7 @@
 .eco-hero {
     position: relative;
     height: 540px;
-    background-image: url('/img/img-sostenible/Ecoturismo/hero.jpg');
+    background-image: url('/img/img-sostenible/Ecoturismo/hero-ecoturismo.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -386,8 +386,9 @@
     border-radius: 2px;
     overflow: hidden;
     height: 270px;
-    position: sticky;
     top: 90px;
+    border: 1px solid #000;
+    box-shadow: 0 0 0 3px #000; 
 }
 
 .eco-route-img-inner {
@@ -399,14 +400,14 @@
 }
 
 /* Imágenes */
-.img-albufera   { background-image: url('/img/img-sostenible/Ecoturismo/albufera.jpg'); }
-.img-aves       { background-image: url('/img/img-sostenible/Ecoturismo/aves.jpg'); }
-.img-huerta     { background-image: url('/img/img-sostenible/Ecoturismo/huerta.jpg'); }
-.img-centro     { background-image: url('/img/img-sostenible/Ecoturismo/centro.jpg'); }
-.img-goleta     { background-image: url('/img/img-sostenible/Ecoturismo/goleta.jpg'); }
-.img-arboles    { background-image: url('/img/img-sostenible/Ecoturismo/arboles.jpg'); }
-.img-senderismo { background-image: url('/img/img-sostenible/Ecoturismo/senderismo.jpg'); }
-.img-playas     { background-image: url('/img/img-sostenible/Ecoturismo/playas.jpg'); }
+.img-albuferaeco   { background-image: url('/img/img-sostenible/Ecoturismo/albuferaeco.jpg'); }
+.img-aveseco       { background-image: url('/img/img-sostenible/Ecoturismo/aveseco.jpg'); }
+.img-huertaeco     { background-image: url('/img/img-sostenible/Ecoturismo/huertaeco.jpg'); }
+.img-centroeco     { background-image: url('/img/img-sostenible/Ecoturismo/centroeco.jpg'); }
+.img-goletaeco     { background-image: url('/img/img-sostenible/Ecoturismo/goletaeco.jpg'); }
+.img-arboleseco    { background-image: url('/img/img-sostenible/Ecoturismo/arboleseco.jpg'); }
+.img-senderismoeco { background-image: url('/img/img-sostenible/Ecoturismo/senderismoeco.jpg'); }
+.img-playaseco     { background-image: url('/img/img-sostenible/Ecoturismo/playaseco.jpg'); }
 
 /* ── Info box ── */
 .eco-info-box {

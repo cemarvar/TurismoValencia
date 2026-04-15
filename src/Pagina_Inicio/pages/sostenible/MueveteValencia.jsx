@@ -6,7 +6,6 @@ var medios = [
   {
     num: '01',
     nombre: 'EMT · Autobús urbano',
-    icono: '🚌',
     tipo: 'Transporte público',
     tipoClass: 'publico',
     cobertura: 'Toda la ciudad · Más de 60 líneas',
@@ -26,7 +25,6 @@ var medios = [
   {
     num: '02',
     nombre: 'Metrovalencia · Metro y tranvía',
-    icono: '🚇',
     tipo: 'Transporte público',
     tipoClass: 'publico',
     cobertura: '9 líneas · 156 estaciones · Área metropolitana',
@@ -46,7 +44,6 @@ var medios = [
   {
     num: '03',
     nombre: 'Valenbisi · Bicicleta pública',
-    icono: '🚲',
     tipo: 'Micromovilidad',
     tipoClass: 'bici',
     cobertura: '276 estaciones · 2.750 bicicletas · 24h / 365 días',
@@ -66,7 +63,6 @@ var medios = [
   {
     num: '04',
     nombre: 'Alquiler de bicicletas privado',
-    icono: '🚴',
     tipo: 'Micromovilidad',
     tipoClass: 'bici',
     cobertura: 'Centro · Jardín del Turia · Playas',
@@ -86,7 +82,6 @@ var medios = [
   {
     num: '05',
     nombre: 'Bus Turístico · The Red Bus',
-    icono: '🚍',
     tipo: 'Turístico',
     tipoClass: 'turistico',
     cobertura: '2 rutas · 17 paradas · Todo el centro y playas',
@@ -106,7 +101,6 @@ var medios = [
   {
     num: '06',
     nombre: 'Segway · Tours guiados',
-    icono: '🛴',
     tipo: 'Turístico',
     tipoClass: 'turistico',
     cobertura: 'Centro histórico · Jardín del Turia · Barrios',
@@ -126,7 +120,6 @@ var medios = [
   {
     num: '07',
     nombre: 'Patinetes eléctricos · Ottowheels',
-    icono: '⚡',
     tipo: 'Micromovilidad',
     tipoClass: 'electrico',
     cobertura: 'Centro · Turia · Barrios · Playas',
@@ -245,7 +238,7 @@ export default function MueveteValencia() {
               <div className="mv-meta-row">
                 <span className="mv-icono">{medio.icono}</span>
                 <span className={`mv-tipo-badge ${medio.tipoClass}`}>{medio.tipo}</span>
-                <span className="mv-cobertura">📍 {medio.cobertura}</span>
+                <span className="mv-cobertura"> {medio.cobertura}</span>
               </div>
               <h2>{medio.nombre}</h2>
               <p className="mv-desc">{medio.desc}</p>
@@ -261,7 +254,6 @@ export default function MueveteValencia() {
               </div>
 
               <div className="mv-consejo">
-                <span className="mv-consejo-icon">💡</span>
                 <span>{medio.consejo}</span>
               </div>
 

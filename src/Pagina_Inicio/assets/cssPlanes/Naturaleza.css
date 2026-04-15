@@ -59,44 +59,6 @@
     max-width: 520px;
 }
 
-/* Stats hero */
-.nat-hero-stats {
-    position: relative;
-    z-index: 2;
-    padding: 18px 48px 44px;
-    display: flex;
-    align-items: center;
-    gap: 28px;
-}
-
-.nat-stat {
-    display: flex;
-    flex-direction: column;
-    color: #fff;
-}
-
-.nat-stat-num {
-    font-size: 26px;
-    font-weight: 700;
-    line-height: 1;
-    color: #f0c040;
-}
-
-.nat-stat-label {
-    font-size: 11px;
-    font-weight: 300;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: rgba(255, 255, 255, 0.7);
-    margin-top: 3px;
-}
-
-.nat-stat-sep {
-    width: 1px;
-    height: 34px;
-    background: rgba(255, 255, 255, 0.25);
-}
-
 /* ── Intro ── */
 .nat-intro {
     max-width: 740px;
@@ -119,11 +81,10 @@
 
 /* ── Filtros ── */
 .nat-filter-bar {
-    padding: 0 48px 36px;
+    padding: 0 48px 6px;
     display: flex;
     gap: 8px;
     flex-wrap: wrap;
-    border-bottom: 1px solid #e5e5e5;
 }
 
 .nat-pill {
@@ -146,37 +107,6 @@
     background: #2d6a2d;
     color: #fff;
     border-color: #2d6a2d;
-}
-
-/* ── Section header ── */
-.nat-section-header {
-    padding: 48px 48px 28px;
-    border-bottom: 1px solid #e5e5e5;
-}
-
-.nat-section-header h2 {
-    font-size: 22px;
-    font-weight: 700;
-    color: #1a1a1a;
-    letter-spacing: -0.01em;
-    margin-bottom: 6px;
-}
-
-.nat-section-header p {
-    font-size: 15px;
-    font-weight: 300;
-    color: #777;
-}
-
-.nat-section-header--dark {
-    background: #f0f5f0;
-    border-top: 2px solid #2d6a2d;
-    border-bottom: 1px solid #c8ddc8;
-    margin-top: 16px;
-}
-
-.nat-section-header--dark h2 {
-    color: #1a3a1a;
 }
 
 /* ── Rutas ── */
@@ -353,6 +283,8 @@
     overflow: hidden;
     height: 270px;
     top: 90px;
+    border: 1px solid #000;
+    box-shadow: 0 0 0 3px #000; 
 }
 
 .nat-route-img-inner {
