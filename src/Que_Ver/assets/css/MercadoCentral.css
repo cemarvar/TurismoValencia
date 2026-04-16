@@ -10,7 +10,7 @@
 .mc-hero {
     position: relative;
     height: 540px;
-    background-image: url('/img/img-quever/MercadoCentral/hero.jpg');
+    background-image: url('/img/img-espacios/MercadoCentral/hero-mercado-central.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -112,14 +112,6 @@
     display: flex;
     gap: 12px;
     align-items: flex-start;
-}
-
-.mc-check {
-    color: #f0c040;
-    font-size: 18px;
-    font-weight: 700;
-    flex-shrink: 0;
-    margin-top: 1px;
 }
 
 .mc-porqué-titulo {
@@ -325,8 +317,9 @@
     border-radius: 2px;
     overflow: hidden;
     height: 270px;
-    position: sticky;
     top: 90px;
+    border: 1px solid #000;
+    box-shadow: 0 0 0 3px #000; 
 }
 
 .mc-route-img-inner {
@@ -339,11 +332,11 @@
 }
 
 /* Imágenes */
-.img-cupula      { background-image: url('/img/img-quever/MercadoCentral/cupula.jpg'); }
-.img-puestos     { background-image: url('/img/img-quever/MercadoCentral/puestos.jpg'); }
-.img-centralbar  { background-image: url('/img/img-quever/MercadoCentral/centralbar.jpg'); }
-.img-productos   { background-image: url('/img/img-quever/MercadoCentral/productos.jpg'); }
-.img-entorno     { background-image: url('/img/img-quever/MercadoCentral/entorno.jpg'); }
+.img-cupulamc      { background-image: url('/img/img-espacios/MercadoCentral/cupulamc.jpg'); }
+.img-puestosmc     { background-image: url('/img/img-espacios/MercadoCentral/puestosmc.jpg'); }
+.img-centralbarmc  { background-image: url('/img/img-espacios/MercadoCentral/centralbarmc.jpg'); }
+.img-productosmc   { background-image: url('/img/img-espacios/MercadoCentral/productosmc.jpg'); }
+.img-entornomc     { background-image: url('/img/img-espacios/MercadoCentral/entornomc.jpg'); }
 
 /* ── Tabla información práctica ── */
 .mc-info-practica {

@@ -14,7 +14,7 @@ var elementos = [
       { d: 'Cúpula central', v: '30 metros de altura · Hierro, cristal y cerámica · Coronada por la cotorra' },
       { d: 'Declaración', v: 'Bien de Interés Cultural · El mayor mercado modernista de Europa' },
     ],
-    imgClass: 'img-cupula',
+    imgClass: 'img-cupulamc',
   },
   {
     num: '02',
@@ -28,7 +28,7 @@ var elementos = [
       { d: 'Producto', v: 'De proximidad · Huerta valenciana · Denominaciones de Origen locales' },
       { d: 'Horario compra', v: 'Lunes a sábado 7:30–15:00 h · Cerrado domingos y festivos' },
     ],
-    imgClass: 'img-puestos',
+    imgClass: 'img-puestosmc',
   },
   {
     num: '03',
@@ -42,7 +42,7 @@ var elementos = [
       { d: 'Ingredientes', v: 'Comprados directamente a los vendedores del propio mercado' },
       { d: 'Recomendación', v: 'Ideal para el esmorzaret (desayuno valenciano) o un almuerzo ligero' },
     ],
-    imgClass: 'img-centralbar',
+    imgClass: 'img-centralbarmc',
   },
   {
     num: '04',
@@ -56,7 +56,7 @@ var elementos = [
       { d: 'Souvenirs gastronómicos', v: 'Azafrán, turrón, salazones, jamón, olivas, vinos DO Valencia' },
       { d: 'Bebidas', v: 'Horchata, Agua de Valencia, Mistela y vinos de la Comunitat' },
     ],
-    imgClass: 'img-productos',
+    imgClass: 'img-productosmc',
   },
   {
     num: '05',
@@ -70,24 +70,10 @@ var elementos = [
       { d: 'Barrios cercanos', v: 'Barrio del Carmen (5 min a pie) · Barrio de Ruzafa (10 min)' },
       { d: 'Acceso', v: 'Metro L1/L2 parada Xàtiva · Bus líneas 5, 7, 8, 27, 60, 70, 71, 81' },
     ],
-    imgClass: 'img-entorno',
+    imgClass: 'img-entornomc',
   },
 ];
 
-var secciones = [
-  { nombre: 'Aves y caza', icono: '🐔' },
-  { nombre: 'Carnicería', icono: '🥩' },
-  { nombre: 'Charcutería', icono: '🍖' },
-  { nombre: 'Especias', icono: '🌿' },
-  { nombre: 'Frutas', icono: '🍊' },
-  { nombre: 'Frutos secos', icono: '🥜' },
-  { nombre: 'Gourmet y ultramarinos', icono: '🫙' },
-  { nombre: 'Panadería y pastelería', icono: '🥐' },
-  { nombre: 'Pescados y mariscos', icono: '🐟' },
-  { nombre: 'Salazones y encurtidos', icono: '🫒' },
-  { nombre: 'Productos internacionales', icono: '🌍' },
-  { nombre: 'Varios no alimentación', icono: '🛍' },
-];
 
 var datosVisita = [
   { label: 'Dirección', val: 'Plaza del Mercado, s/n · 46001 Valencia · Centro histórico' },
@@ -133,21 +119,18 @@ export default function MercadoCentral() {
       {/* Por qué visitar */}
       <div className="mc-porqué">
         <div className="mc-porqué-item">
-          <span className="mc-check">✓</span>
           <div>
             <div className="mc-porqué-titulo">Arquitectura modernista única</div>
             <p className="mc-porqué-desc">Cúpula de 30 m, hierro forjado, azulejos y vidrieras policromas. El mercado modernista más espectacular de Europa.</p>
           </div>
         </div>
         <div className="mc-porqué-item">
-          <span className="mc-check">✓</span>
           <div>
             <div className="mc-porqué-titulo">Producto fresco y de proximidad</div>
             <p className="mc-porqué-desc">Más de 250 puestos con la mejor fruta, verdura, carne y pescado de la huerta valenciana y el Mediterráneo.</p>
           </div>
         </div>
         <div className="mc-porqué-item">
-          <span className="mc-check">✓</span>
           <div>
             <div className="mc-porqué-titulo">Central Bar de Ricard Camarena</div>
             <p className="mc-porqué-desc">Tapas y bocadillos de autor con ingredientes del propio mercado. El esmorzaret valenciano elevado a alta cocina.</p>
@@ -166,19 +149,6 @@ export default function MercadoCentral() {
       <div className="mc-intro">
         <p>En el mismo espacio donde se celebraron mercados ambulantes desde la primera expansión medieval de la ciudad, el Mercado Central de Valencia lleva funcionando de forma ininterrumpida desde su inauguración el 23 de enero de 1928. Su arquitectura modernista —proyectada para 959 puestos— fue concebida como un homenaje al potencial agrícola de la huerta valenciana, y hoy es considerada la "catedral de los sentidos": la luz que entra por las vidrieras, el susurro permanente y la explosión de colores y aromas hacen de cada visita una experiencia única.</p>
         <p>La entrada al mercado es <strong>completamente gratuita</strong>. Abre de lunes a sábado de 7:30 a 15:00 h y cierra los domingos y festivos. Para vivirlo en plenitud, llega entre semana a primera hora de la mañana.</p>
-      </div>
-
-      {/* Secciones del mercado */}
-      <div className="mc-secciones-wrap">
-        <div className="mc-secciones-titulo">Secciones del mercado</div>
-        <div className="mc-secciones-grid">
-          {secciones.map(s => (
-            <div className="mc-seccion-chip" key={s.nombre}>
-              <span className="mc-seccion-icono">{s.icono}</span>
-              <span className="mc-seccion-nombre">{s.nombre}</span>
-            </div>
-          ))}
-        </div>
       </div>
 
       {/* Elementos principales */}

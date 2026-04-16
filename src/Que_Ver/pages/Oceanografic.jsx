@@ -10,7 +10,7 @@ var habitats = [
     desc: 'El edificio Océanos es el más grande del Oceanogràfic y uno de los mayores del mundo, con 7 millones de litros de agua. Representa las regiones templadas del Pacífico y el Atlántico, conectadas por el famoso túnel submarino de 70 metros de longitud: el más largo de Europa. Caminar por él es lo más parecido a bucear sin mojarse: tiburones toro, tiburones martillo, tiburones nodriza, rayas mosaico y cientos de peces pasan sobre tu cabeza mientras las luces azules te envuelven.',
     especies: ['Tiburón toro', 'Tiburón martillo', 'Tiburón nodriza', 'Raya mosaico', 'Pez guitarra', 'Tiburón raya'],
     dato: 'Túnel submarino de 70 m · El más largo de Europa · 7 millones de litros',
-    imgClass: 'img-oceanos',
+    imgClass: 'img-oceanosocn',
     tags: [{ label: 'Imprescindible' }, { label: 'Tiburones' }, { label: '70 m de túnel' }],
   },
   {
@@ -21,7 +21,7 @@ var habitats = [
     desc: 'Una gran cúpula a modo de iglú acoge la zona del Ártico: acantilados rocosos y bloques de hielo recrean el hábitat de morsas y belugas. Las belugas —conocidas como "canarios del mar" por su sofisticado lenguaje de silbidos y gemidos— son las estrellas indiscutibles del Oceanogràfic. Plombir, Miranda y su cría Kylu forman la única familia de belugas al completo en Europa. Es un espacio hipnótico: silencio, luz fría y el momento en que una beluga pasa frente al cristal y te mira.',
     especies: ['Beluga (Delphinapterus leucas)', 'Morsa', 'Foca común'],
     dato: 'Única familia de belugas de Europa · Incluye la cría Kylu · Espacio interior climatizado',
-    imgClass: 'img-artico',
+    imgClass: 'img-articoocn',
     tags: [{ label: 'Belugas exclusivas' }, { label: 'Ártico' }, { label: 'Familia completa' }],
   },
   {
@@ -32,7 +32,7 @@ var habitats = [
     desc: 'El delfinario del Oceanogràfic es uno de los más grandes del mundo: una piscina de 26 millones de litros con gradas para más de 1.500 espectadores. Los delfines mulares protagonizan exhibiciones bioeducativas diarias que combinan acrobacias, saltos y juegos con sus cuidadores, con un enfoque de sensibilización medioambiental. Los espectáculos están incluidos en la entrada general. Se realizan varios pases al día: consulta los horarios al llegar o en recepción.',
     especies: ['Delfín mular (Tursiops truncatus)'],
     dato: 'Entrada incluida · 26 millones de litros · Varios pases diarios · Consultar horarios al llegar',
-    imgClass: 'img-delfinario',
+    imgClass: 'img-delfinarioocn',
     tags: [{ label: 'Incluido en entrada' }, { label: 'Delfines mulares' }, { label: 'Varios pases/día' }],
   },
   {
@@ -43,7 +43,7 @@ var habitats = [
     desc: 'El pabellón Antártico recrea un acantilado rocoso con áreas de puesta y cría donde vive una colonia de pingüinos Juanito. Las instalaciones reproducen fielmente las condiciones de temperatura y luz del entorno polar, permitiendo observar el comportamiento natural de estas aves en uno de los entornos más espectaculares del recinto. Conectado con el Ártico en el edificio polar, completa el recorrido por los ecosistemas de frío extremo.',
     especies: ['Pingüino juanito (Pygoscelis papua)', 'Foca de Weddell'],
     dato: 'Ecosistema polar recreado · Área de puesta y cría · Edificio polar junto al Ártico',
-    imgClass: 'img-antartico',
+    imgClass: 'img-antarticoocn',
     tags: [{ label: 'Pingüinos' }, { label: 'Polar' }, { label: 'Comportamiento natural' }],
   },
   {
@@ -54,7 +54,7 @@ var habitats = [
     desc: 'El edificio de Templados y Tropicales es una gran cúpula de cristal que representa los ecosistemas tropicales y subtropicales: arrecifes de coral, peces exóticos de colores, caballitos de mar y tiburones de arrecife. Los vivos colores de los peces payaso, peces ángel y peces loro crean un auténtico caleidoscopio submarino. El recorrido también invita a viajar desde las regiones templadas del Pacífico y el Atlántico hasta las cálidas aguas del Índico y el Caribe.',
     especies: ['Pez payaso', 'Pez cirujano azul', 'Pez ángel', 'Pez loro', 'Pez Napoleón', 'Caballito de mar'],
     dato: 'Cúpula de cristal · Arrecifes de coral recreados · Más de 50 especies tropicales',
-    imgClass: 'img-tropicales',
+    imgClass: 'img-tropicalesocn',
     tags: [{ label: 'Coral' }, { label: 'Tropical' }, { label: 'Colorido' }],
   },
   {
@@ -65,7 +65,7 @@ var habitats = [
     desc: 'El edificio Mediterráneo muestra la riqueza biológica del mar que baña Valencia mediante nueve acuarios con distintos formatos y cerca de 7.400 ejemplares de peces e invertebrados. Un recorrido por la fauna local que incluye desde caballitos de mar y meros hasta pulpos de roca, langostas, medusas comestibles y los coloridos moradores del fondo marino mediterráneo. El agua del Oceanogràfic se bombea directamente desde la playa de la Malvarrosa.',
     especies: ['Mero', 'Pulpo de roca', 'Langosta', 'Medusa comestible', 'Caballito de mar', 'Lubina'],
     dato: '9 acuarios · ~7.400 ejemplares · Agua bombeada desde la playa de la Malvarrosa',
-    imgClass: 'img-mediterraneo',
+    imgClass: 'img-mediterraneoocn',
     tags: [{ label: 'Local' }, { label: '7.400 ejemplares' }, { label: '9 acuarios' }],
   },
   {
@@ -76,7 +76,7 @@ var habitats = [
     desc: 'El hábitat Islas es un amplio espacio al aire libre que toma como referencia las islas situadas a lo largo de la costa sudamericana, caracterizadas por la presencia de grandes colonias de leones marinos de la Patagonia. Los lagos exteriores del recinto acogen además pelícanos, flamencos y cormoranes, creando un entorno natural vibrante visible desde las pasarelas peatonales que rodean el recinto. Es uno de los espacios más fotogénicos del Oceanogràfic en días soleados.',
     especies: ['León marino de la Patagonia', 'Pelícano', 'Flamenco', 'Cormorán'],
     dato: 'Al aire libre · Leones marinos de la Patagonia · Lagos exteriores con aves acuáticas',
-    imgClass: 'img-islas',
+    imgClass: 'img-islasocn',
     tags: [{ label: 'Al aire libre' }, { label: 'Leones marinos' }, { label: 'Aves acuáticas' }],
   },
   {
@@ -87,7 +87,7 @@ var habitats = [
     desc: 'El Aviario recrea manglares y zonas húmedas con aves acuáticas exóticas en un espacio al aire libre. El hábitat de las Medusas muestra las especies más espectaculares del planeta: medusas luminiscentes, huevo frito, de puntos blancos y comestibles, junto a anémonas y otros invertebrados del fondo marino. El Cocodrilario es un amplio espacio exterior con zona de anidamiento de cocodrilos del Nilo. Nota: el Aviario suele cerrar un poco antes por mantenimiento.',
     especies: ['Cocodrilo del Nilo', 'Medusa luminiscente', 'Medusa huevo frito', 'Anémona', 'Cangrejo gigante'],
     dato: 'Tres hábitats en uno · Aviario cierra antes · Medusas únicas en Europa',
-    imgClass: 'img-humedales',
+    imgClass: 'img-humedalesocn',
     tags: [{ label: 'Medusas' }, { label: 'Cocodrilos' }, { label: 'Aviario' }],
   },
 ];
@@ -97,37 +97,31 @@ var experiencias = [
     nombre: 'Backstage Tour',
     precio: '12 € · 75 min · Desde 6 años',
     desc: 'Accede a zonas técnicas: área de cuarentena, cocina de peces, sistema de filtrado. Podrás incluso caminar sobre el túnel de tiburones desde arriba.',
-    icono: '🎬',
   },
   {
     nombre: 'El Mar en tus Manos',
     precio: '7 € · 40 min · Desde 4 años',
     desc: 'Actividad sensorial con contacto directo con especies mediterráneas: erizos, estrellas de mar y visita al ARCA del Mar.',
-    icono: '🤿',
   },
   {
     nombre: 'Lago Vivo',
     precio: '7 € · 60 min · Todas las edades',
     desc: 'Paseo por el ecosistema de la Albufera, observando aves acuáticas y peces endémicos de los humedales valencianos.',
-    icono: '🦢',
   },
   {
     nombre: 'Visita guiada clásica',
     precio: '+10 € · 90 min · Todas las edades',
     desc: 'Recorrido de 90 minutos por los espacios más icónicos: Océanos, Ártico, Antártico y el Delfinario. Apta y accesible para todas las edades.',
-    icono: '🎧',
   },
   {
     nombre: 'ARCA del Mar',
     precio: '5 € · 30 min · Desde 4 años',
     desc: 'Recorrido guiado por el Área de Recuperación y Conservación de Animales del Mar: aprende cómo se cuidan y rehabilitan las tortugas marinas.',
-    icono: '🐢',
   },
   {
     nombre: 'Restaurante Submarino',
     precio: 'Menú desde ~60 € · Reserva obligatoria',
     desc: 'Cena o almuerzo con vistas directas al gran acuario central. Una de las experiencias gastronómicas más singulares de Valencia.',
-    icono: '🍽',
   },
 ];
 
@@ -205,7 +199,7 @@ export default function Oceanografic() {
               </div>
 
               <div className="ocn-dato-box">
-                <span className="ocn-dato-icon">→</span>
+                <span className="ocn-dato-icon"></span>
                 <span>{hab.dato}</span>
               </div>
 

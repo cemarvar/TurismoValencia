@@ -14,7 +14,7 @@ var lugares = [
       { d: 'Altura', v: '33 metros · Vistas panorámicas desde las almenas' },
       { d: 'Curiosidad', v: 'Sirvió de prisión para nobles entre los siglos XVI y XIX' },
     ],
-    imgClass: 'img-serranos',
+    imgClass: 'img-serranosbc',
     tags: [{ label: 'Gratuito', free: true }, { label: 'Vistas' }, { label: 'Siglo XIV' }],
   },
   {
@@ -29,7 +29,7 @@ var lugares = [
       { d: 'Altura', v: '34 metros · Un metro más que las de Serranos' },
       { d: 'Curiosidad', v: 'Las marcas de los cañonazos napoleónicos de 1808 se conservan en la fachada' },
     ],
-    imgClass: 'img-quart',
+    imgClass: 'img-quartbc',
     tags: [{ label: 'Gratuito', free: true }, { label: 'Historia bélica' }, { label: 'Siglo XV' }],
   },
   {
@@ -44,7 +44,7 @@ var lugares = [
       { d: 'Curiosidad', v: 'A pocos metros, Lamberto Palmart instaló la primera imprenta de España (1474)' },
       { d: 'Acceso', v: 'Libre · C/ de la Valldigna · Centro del barrio' },
     ],
-    imgClass: 'img-valldigna',
+    imgClass: 'img-valldignabc',
     tags: [{ label: 'Gratuito', free: true }, { label: 'Árabe' }, { label: 'Medieval' }],
   },
   {
@@ -59,7 +59,7 @@ var lugares = [
       { d: 'Entrada', v: 'Muchas exposiciones de acceso libre · Consultar programación' },
       { d: 'Ubicación', v: 'Plaza del Carmen · Corazón del barrio' },
     ],
-    imgClass: 'img-carme',
+    imgClass: 'img-carmebc',
     tags: [{ label: 'Arte contemporáneo' }, { label: 'Claustro gótico' }, { label: 'Exposiciones' }],
   },
   {
@@ -74,7 +74,7 @@ var lugares = [
       { d: 'Horario', v: 'Mar–Dom 10:00–19:00 h · Lunes cerrado' },
       { d: 'Ubicación', v: 'C/ de la Beneficencia, 2 · Junto al barrio del Carmen' },
     ],
-    imgClass: 'img-ivam',
+    imgClass: 'img-ivambc',
     tags: [{ label: 'Arte moderno' }, { label: 'Gratis viernes' }, { label: '+12.000 obras' }],
   },
   {
@@ -89,7 +89,7 @@ var lugares = [
       { d: 'Refugios antiaéreos', v: 'C/ Serrans, 25 y C/ Alta, 37 · Valencia, capital de la República' },
       { d: 'Acceso', v: 'Los restos de muralla son visibles en la calle · Refugios con visita guiada' },
     ],
-    imgClass: 'img-muralla',
+    imgClass: 'img-murallabc',
     tags: [{ label: 'Árabe s. XI' }, { label: 'Guerra Civil' }, { label: 'Historia' }],
   },
   {
@@ -104,7 +104,7 @@ var lugares = [
       { d: 'Más murales', v: 'C/ Baja, C/ Alta, Plaza del Tossal y alrededores del IVAM' },
       { d: 'Acceso', v: 'Completamente gratuito · La propuesta cambia cada temporada' },
     ],
-    imgClass: 'img-streetart',
+    imgClass: 'img-streetartbc',
     tags: [{ label: 'Gratuito', free: true }, { label: 'Street art' }, { label: 'Galería al aire libre' }],
   },
   {
@@ -119,7 +119,7 @@ var lugares = [
       { d: 'Agua de Valencia', v: 'Zumo de naranja + cava + vodka · Inventado en el Café de las Horas' },
       { d: 'Atzucacs', v: 'Busca los callejones sin salida árabes escondidos en el barrio' },
     ],
-    imgClass: 'img-plazas',
+    imgClass: 'img-plazasbc',
     tags: [{ label: 'Gastronomía' }, { label: 'Ocio nocturno' }, { label: 'Ambiente' }],
   },
 ];

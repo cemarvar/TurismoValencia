@@ -14,7 +14,7 @@ var elementos = [
       { d: 'Ejecución', v: 'Dionís Vidal · Artista valenciano discípulo de Palomino' },
       { d: 'Reconocimiento', v: '"Capilla Sixtina Valenciana" · Gianluigi Colalucci, 2012 · Dir. restauración Vaticano' },
     ],
-    imgClass: 'img-boveda',
+    imgClass: 'img-bovedaisn',
     tags: [{ label: 'Capilla Sixtina Valenciana' }, { label: 'Palomino' }, { label: 'Barroco' }],
   },
   {
@@ -29,7 +29,7 @@ var elementos = [
       { d: 'Fundación', v: 'Siglo XIII · Jaime I · Sobre solar de mezquita árabe · Donada a dominicos' },
       { d: 'Aula Capitular', v: 'Siglo XV · Bóveda nervada · Obras de Juanes, Espinosa, Orrente, March' },
     ],
-    imgClass: 'img-arquitectura',
+    imgClass: 'img-arquitecturaisn',
     tags: [{ label: 'Gótico valenciano' }, { label: 'Barroco' }, { label: 'Pérez Castiel' }],
   },
   {
@@ -44,7 +44,7 @@ var elementos = [
       { d: '"Lux ex Oriente"', v: 'Sala multimedia · Vidriera de luz · Atributos de San Nicolás' },
       { d: 'Precio', v: 'Entrada Experiencia inmersiva: 16 € general / 14 € reducida' },
     ],
-    imgClass: 'img-luz',
+    imgClass: 'img-luzisn',
     tags: [{ label: 'Inmersivo' }, { label: 'Videomapping' }, { label: 'Cada hora' }],
   },
   {
@@ -59,7 +59,7 @@ var elementos = [
       { d: 'Duración', v: '2012–2021 en varias fases · Nave, Capilla de la Comunión, Sacristía Barroca' },
       { d: 'Resultado', v: 'Los frescos lucen como en 1693 · Sistema de proyección que elimina distorsiones' },
     ],
-    imgClass: 'img-restauracion',
+    imgClass: 'img-restauracionisn',
     tags: [{ label: '2012–2021' }, { label: 'F. Hortensia Herrero' }, { label: 'Pionera en España' }],
   },
   {
@@ -74,7 +74,7 @@ var elementos = [
       { d: 'Órgano barroco', v: 'Altar mayor · Instrumento histórico en uso · Pieza patrimonial única' },
       { d: 'Sacristía Barroca', v: 'Estucos, dorados y cerámicas restauradas en 2021 · Trasagrario' },
     ],
-    imgClass: 'img-coleccion',
+    imgClass: 'img-coleccionisn',
     tags: [{ label: 'Joan de Joanes' }, { label: 'Aula Capitular' }, { label: 'Siglo de Oro' }],
   },
   {
@@ -89,7 +89,7 @@ var elementos = [
       { d: 'Fiesta patronal', v: '6 de diciembre · Celebración especial con la cofradía del Cristo del Fossar' },
       { d: 'Transmisión', v: 'Celebraciones en directo en YouTube @parroquiadesannicolasvalencia' },
     ],
-    imgClass: 'img-devocion',
+    imgClass: 'img-devocionisn',
     tags: [{ label: 'Cada lunes' }, { label: 'Devoción popular' }, { label: 'Parroquia viva' }],
   },
 ];
@@ -150,7 +150,6 @@ export default function IglesiaSanNicolas() {
       <div className="sn-porqué">
         {porque.map(p => (
           <div className="sn-porqué-item" key={p.titulo}>
-            <span className="sn-check">✓</span>
             <div>
               <div className="sn-porqué-titulo">{p.titulo}</div>
               <p className="sn-porqué-desc">{p.desc}</p>

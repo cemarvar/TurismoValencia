@@ -10,7 +10,7 @@
 .brc-hero {
     position: relative;
     height: 540px;
-    background-image: url('/img/img-quever/BarrioCarmen/hero.jpg');
+    background-image: url('/img/img-espacios/BarrioCarmen/hero-barrio-carmen.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -262,8 +262,9 @@
     border-radius: 2px;
     overflow: hidden;
     height: 270px;
-    position: sticky;
     top: 90px;
+    border: 1px solid #000;
+    box-shadow: 0 0 0 3px #000; 
 }
 
 .brc-route-img-inner {
@@ -276,14 +277,14 @@
 }
 
 /* Imágenes */
-.img-serranos  { background-image: url('/img/img-quever/BarrioCarmen/serranos.jpg'); }
-.img-quart     { background-image: url('/img/img-quever/BarrioCarmen/quart.jpg'); }
-.img-valldigna { background-image: url('/img/img-quever/BarrioCarmen/valldigna.jpg'); }
-.img-carme     { background-image: url('/img/img-quever/BarrioCarmen/carme.jpg'); }
-.img-ivam      { background-image: url('/img/img-quever/BarrioCarmen/ivam.jpg'); }
-.img-muralla   { background-image: url('/img/img-quever/BarrioCarmen/muralla.jpg'); }
-.img-streetart { background-image: url('/img/img-quever/BarrioCarmen/streetart.jpg'); }
-.img-plazas    { background-image: url('/img/img-quever/BarrioCarmen/plazas.jpg'); }
+.img-serranosbc  { background-image: url('/img/img-espacios/BarrioCarmen/serranosbc.jpeg'); }
+.img-quartbc     { background-image: url('/img/img-espacios/BarrioCarmen/quartbc.jpg'); }
+.img-valldignabc { background-image: url('/img/img-espacios/BarrioCarmen/valldignabc.jpg'); }
+.img-carmebc     { background-image: url('/img/img-espacios/BarrioCarmen/carmebc.jpg'); }
+.img-ivambc      { background-image: url('/img/img-espacios/BarrioCarmen/ivambc.jpg'); }
+.img-murallabc   { background-image: url('/img/img-espacios/BarrioCarmen/murallabc.jpg'); }
+.img-streetartbc { background-image: url('/img/img-espacios/BarrioCarmen/streetartbc.jpg'); }
+.img-plazasbc    { background-image: url('/img/img-espacios/BarrioCarmen/plazasbc.jpg'); }
 
 /* ── Tabla información práctica ── */
 .brc-info-practica {

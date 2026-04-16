@@ -10,7 +10,7 @@
 .ls-hero {
     position: relative;
     height: 540px;
-    background-image: url('/img/img-quever/LonjaSeda/hero.jpg');
+    background-image: url('/img/img-espacios/LonjaSeda/hero-lonja-seda.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -114,13 +114,7 @@
     align-items: flex-start;
 }
 
-.ls-check {
-    color: #f0c040;
-    font-size: 18px;
-    font-weight: 700;
-    flex-shrink: 0;
-    margin-top: 1px;
-}
+
 
 .ls-porqué-titulo {
     font-size: 13px;
@@ -269,8 +263,9 @@
     border-radius: 2px;
     overflow: hidden;
     height: 270px;
-    position: sticky;
     top: 90px;
+    border: 1px solid #000;
+    box-shadow: 0 0 0 3px #000; 
 }
 
 .ls-route-img-inner {
@@ -283,11 +278,11 @@
 }
 
 /* Imágenes */
-.img-salon    { background-image: url('/img/img-quever/LonjaSeda/salon.jpg'); }
-.img-capilla  { background-image: url('/img/img-quever/LonjaSeda/capilla.jpg'); }
-.img-torreon  { background-image: url('/img/img-quever/LonjaSeda/torreon.jpg'); }
-.img-consulado { background-image: url('/img/img-quever/LonjaSeda/consulado.jpg'); }
-.img-patio    { background-image: url('/img/img-quever/LonjaSeda/patio.jpg'); }
+.img-salonls    { background-image: url('/img/img-espacios/LonjaSeda/salonls.jpg'); }
+.img-capillals  { background-image: url('/img/img-espacios/LonjaSeda/capillals.jpg'); }
+.img-torreonls  { background-image: url('/img/img-espacios/LonjaSeda/torreonls.jpg'); }
+.img-consuladols { background-image: url('/img/img-espacios/LonjaSeda/consuladols.jpg'); }
+.img-patiols    { background-image: url('/img/img-espacios/LonjaSeda/patiols.jpg'); }
 
 /* ── Tabla información práctica ── */
 .ls-info-practica {

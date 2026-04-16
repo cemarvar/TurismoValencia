@@ -14,7 +14,7 @@ var experiencias = [
       { d: 'Precio municipal', v: '4–5 € · Sin reserva previa · Guiado por patrones locales' },
       { d: 'Excursión guiada', v: 'Barcas eléctricas · Guías bilingües · Desde visitalbufera.com' },
     ],
-    imgClass: 'img-barca',
+    imgClass: 'img-barcaaf',
     tags: [{ label: 'Imprescindible' }, { label: 'Barca eléctrica' }, { label: 'Guía local' }],
   },
   {
@@ -29,7 +29,7 @@ var experiencias = [
       { d: 'Reserva', v: 'Imprescindible reservar con antelación, especialmente los fines de semana' },
       { d: 'Dato', v: 'El único lugar de la Comunitat donde el sol se pone sobre el agua' },
     ],
-    imgClass: 'img-puestadesol',
+    imgClass: 'img-puestadesolaf',
     tags: [{ label: 'El espejo del sol' }, { label: 'Otoño' }, { label: 'Reserva previa' }],
   },
   {
@@ -44,7 +44,7 @@ var experiencias = [
       { d: 'Barracas', v: 'Casas tradicionales de techo de cañas · Algunas visitable · Patrimonio etnológico' },
       { d: 'Blasco Ibáñez', v: '"Cañas y Barro" (1902) · La novela valenciana más importante ambientada en la Albufera' },
     ],
-    imgClass: 'img-palmar',
+    imgClass: 'img-palmaraf',
     tags: [{ label: 'Paella' }, { label: 'All i pebre' }, { label: 'Barracas' }],
   },
   {
@@ -59,7 +59,7 @@ var experiencias = [
       { d: 'Observatorio', v: 'Racó de l\'Olla · Acceso libre · Torres de observación · Personal especializado' },
       { d: 'Protección', v: 'Zona Ramsar + ZEPA + Red Natura 2000 · Parque Natural desde 1986' },
     ],
-    imgClass: 'img-aves',
+    imgClass: 'img-avesaf',
     tags: [{ label: '+300 especies' }, { label: 'Zona Ramsar' }, { label: 'Racó de l\'Olla' }],
   },
   {
@@ -74,7 +74,7 @@ var experiencias = [
       { d: 'Tancats', v: 'La Pipa (40 ha) · L\'Illa · Visitable con reserva previa · Alta biodiversidad' },
       { d: 'Variedades', v: 'Arroz DO Valencia: Senia, Bomba y Albufera · Denominación de Origen protegida' },
     ],
-    imgClass: 'img-arrozales',
+    imgClass: 'img-arrozalesaf',
     tags: [{ label: 'DO Valencia' }, { label: 'Paisaje estacional' }, { label: 'Ecosistema único' }],
   },
   {
@@ -89,24 +89,9 @@ var experiencias = [
       { d: 'Alquiler bicis', v: 'visitalbufera.com · Bicis y e-bikes · Pack Bici + Barca disponible' },
       { d: 'Dunas', v: 'Malladas y miradores con vistas al lago y al Mediterráneo simultáneamente' },
     ],
-    imgClass: 'img-devesa',
+    imgClass: 'img-devesaaf',
     tags: [{ label: 'Bicicleta' }, { label: 'Devesa' }, { label: 'Dunas' }],
   },
-];
-
-var aves = [
-  { nombre: 'Flamenco', icono: '🦩' },
-  { nombre: 'Garza real', icono: '🦢' },
-  { nombre: 'Cormorán', icono: '🐦' },
-  { nombre: 'Ánade azul', icono: '🦆' },
-  { nombre: 'Garceta común', icono: '🕊' },
-  { nombre: 'Aguilucho lagunero', icono: '🦅' },
-  { nombre: 'Charrán', icono: '🌊' },
-  { nombre: 'Calamón', icono: '🐦' },
-  { nombre: 'Martinete', icono: '🦭' },
-  { nombre: 'Gaviota reidora', icono: '🐣' },
-  { nombre: 'Pato colorado', icono: '🦆' },
-  { nombre: 'Moritos', icono: '🦤' },
 ];
 
 var datosVisita = [
@@ -152,7 +137,7 @@ export default function Albufera() {
 
       {/* Historia box */}
       <div className="alb-historia-box">
-        <div className="alb-historia-icono">🌾</div>
+        <div className="alb-historia-icono"></div>
         <div className="alb-historia-content">
           <div className="alb-historia-titulo">El espejo del sol · La cuna de la paella</div>
           <p>La Albufera —del árabe <strong>al-buhayra</strong>, "pequeño mar"— tiene su origen hace unos 5.000 años, cuando una antigua bahía empezó a cerrarse por la acumulación de arena. En época romana ya era un lago reconocible; durante la dominación árabe se desarrolló el cultivo del arroz, y fue en estos arrozales donde los campesinos valencianos crearon la receta de la <strong>paella</strong>. El parque es propiedad de la ciudad de Valencia desde 1911 y fue declarado Parque Natural en 1986. Los árabes llamaban al lago <strong>"el espejo del sol"</strong> por sus legendarios atardeceres. El escritor Blasco Ibáñez lo inmortalizó en "Cañas y Barro" (1902), la novela valenciana más importante ambientada en este paisaje.</p>
@@ -163,19 +148,6 @@ export default function Albufera() {
       <div className="alb-intro">
         <p>La Albufera no es solo un lago: es el resultado de siglos de convivencia entre el ser humano y la naturaleza, donde el agua y el arroz se convierten en los grandes protagonistas del paisaje y de la cultura valenciana. Pescadores, agricultores y aves migratorias comparten este espacio único que cambia de color con las estaciones: verde en verano, dorado en otoño durante la cosecha, azul inundado en invierno cuando sirve de refugio a las aves.</p>
         <p>Es un destino para <strong>todo el año</strong>, aunque el otoño —con los arrozales maduros y la máxima concentración de avifauna— es el momento más especial. El acceso al parque es <strong>gratuito</strong>.</p>
-      </div>
-
-      {/* Aves chips */}
-      <div className="alb-aves-wrap">
-        <div className="alb-aves-titulo">Aves que puedes ver en la Albufera</div>
-        <div className="alb-aves-grid">
-          {aves.map(a => (
-            <div className="alb-ave-chip" key={a.nombre}>
-              <span className="alb-ave-icono">{a.icono}</span>
-              <span className="alb-ave-nombre">{a.nombre}</span>
-            </div>
-          ))}
-        </div>
       </div>
 
       {/* Experiencias */}

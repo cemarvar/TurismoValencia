@@ -14,7 +14,7 @@ var elementosCapilla = [
       { label: 'Donación', val: 'Alfonso V el Magnánimo lo donó a la Catedral en 1437' },
       { label: 'En la capilla', val: 'Desde 1916 · Protegido en urna acristalada sobre el retablo' },
     ],
-    imgClass: 'img-caliz',
+    imgClass: 'img-calizcc',
   },
   {
     num: '02',
@@ -28,7 +28,7 @@ var elementosCapilla = [
       { label: 'Uso histórico', val: 'Sala Capitular · Cortes del Reino · Clases de Teología' },
       { label: 'Consagración', val: 'Al culto del Santo Cáliz en 1916' },
     ],
-    imgClass: 'img-capilla',
+    imgClass: 'img-capillacc',
   },
   {
     num: '03',
@@ -42,7 +42,7 @@ var elementosCapilla = [
       { label: 'Clave central', val: 'Coronación de la Virgen tras la Asunción' },
       { label: 'Soporte', val: 'Ménsulas policromadas en los arranques de los nervios' },
     ],
-    imgClass: 'img-boveda',
+    imgClass: 'img-bovedacc',
   },
   {
     num: '04',
@@ -56,7 +56,7 @@ var elementosCapilla = [
       { label: 'Relieves', val: '12 escenas · AT (inferior) y NT (superior) en lectura tipológica' },
       { label: 'Importancia', val: 'Una de las primeras obras del Renacimiento en la Península Ibérica' },
     ],
-    imgClass: 'img-retablo',
+    imgClass: 'img-retablocc',
   },
   {
     num: '05',
@@ -69,7 +69,7 @@ var elementosCapilla = [
       { label: 'Fresco Nicolás Florentino', val: '"Adoración de los Reyes" · Pintura mural gótica' },
       { label: 'Fresco de la Adoración de los Pastores', val: 'Paolo de San Leocadio · 1472 · En el pasadizo de acceso' },
     ],
-    imgClass: 'img-cadenas',
+    imgClass: 'img-cadenascc',
   },
 ];
 
@@ -102,7 +102,7 @@ export default function CatedralCaliz() {
     <div className="cc-page">
 
       {/* Hero */}
-      <div className="cc-hero">
+      <div className="cccc-hero">
         <div className="cc-hero-overlay" />
         <div className="cc-hero-content">
           <div className="cc-eyebrow">Catedral de Valencia · Centro histórico · Año Jubilar 2025–2026</div>
@@ -135,7 +135,6 @@ export default function CatedralCaliz() {
 
       {/* Cómo acceder — destacado */}
       <div className="cc-acceso-box">
-        <div className="cc-acceso-icono">🚪</div>
         <div className="cc-acceso-content">
           <div className="cc-acceso-titulo">Cómo llegar a la Capilla del Santo Cáliz</div>
           <p>Entra por la <strong>Puerta de los Hierros</strong> (la fachada barroca que da a la Plaza de la Reina), compra tu entrada en la taquilla y dirígete a la <strong>primera capilla a la derecha</strong>. Un pasadizo gótico con sepulcros medievales y el fresco de la Adoración de los Pastores (1472, Paolo de San Leocadio) te conduce hasta la portalada gótica de piedra que da acceso a la capilla.</p>

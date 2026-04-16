@@ -7,10 +7,10 @@
 }
 
 /* ── Hero ── */
-.ruz-hero {
+.ruzrz-hero {
     position: relative;
     height: 540px;
-    background-image: url('/img/img-quever/Ruzafa/hero.jpg');
+    background-image: url('/img/img-espacios/Ruzafa/hero-Ruzafarzf.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -20,13 +20,13 @@
     justify-content: flex-end;
 }
 
-.ruz-hero-overlay {
+.ruzrz-hero-overlay {
     position: absolute;
     inset: 0;
     background: linear-gradient(to top, rgba(15,5,0,0.82) 0%, rgba(15,5,0,0.1) 58%, transparent 100%);
 }
 
-.ruz-hero-content {
+.ruzrz-hero-content {
     position: relative;
     z-index: 2;
     padding: 0 48px 20px;
@@ -346,8 +346,9 @@
     border-radius: 2px;
     overflow: hidden;
     height: 280px;
-    position: sticky;
     top: 90px;
+    border: 1px solid #000;
+    box-shadow: 0 0 0 3px #000; 
 }
 
 .ruz-route-img-inner {
@@ -360,21 +361,20 @@
 }
 
 /* Imágenes */
-.img-mercado    { background-image: url('/img/img-quever/Ruzafa/mercado.jpg'); }
-.img-gastronomia{ background-image: url('/img/img-quever/Ruzafa/gastronomia.jpg'); }
-.img-arte       { background-image: url('/img/img-quever/Ruzafa/arte.jpg'); }
-.img-parque     { background-image: url('/img/img-quever/Ruzafa/parque.jpg'); }
-.img-compras    { background-image: url('/img/img-quever/Ruzafa/compras.jpg'); }
-.img-fallas     { background-image: url('/img/img-quever/Ruzafa/fallas.jpg'); }
+.img-mercadorz    { background-image: url('/img/img-espacios/Ruzafa/mercadorz.jpg'); }
+.img-gastronomiarz { background-image: url('/img/img-espacios/Ruzafa/gastronomiarz.jpg'); }
+.img-arterz       { background-image: url('/img/img-espacios/Ruzafa/arterz.jpg'); }
+.img-parquerz     { background-image: url('/img/img-espacios/Ruzafa/parquerz.jpg'); }
+.img-comprasrz    { background-image: url('/img/img-espacios/Ruzafa/comprasrz.jpg'); }
+.img-fallasrz     { background-image: url('/img/img-espacios/Ruzafa/fallasrz.jpg'); }
 
 /* ── Tabla información práctica ── */
-.ruz-info-practica {
+.ruz-info-practicarz {
     margin: 52px 48px 0;
-    padding-top: 48px;
-    border-top: 1.5px solid #e5e5e5;
+    padding-top: 18px;
 }
 
-.ruz-info-practica h3 {
+.ruz-info-practicarz h3 {
     font-size: 18px;
     font-weight: 700;
     color: #1a1a1a;

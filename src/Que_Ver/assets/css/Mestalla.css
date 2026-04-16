@@ -10,7 +10,7 @@
 .mest-hero {
     position: relative;
     height: 560px;
-    background-image: url('/img/img-quever/Mestalla/hero.jpg');
+    background-image: url('/img/img-espacios/Mestalla/hero-Mestallamll.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -115,51 +115,6 @@
 .mest-intro strong {
     font-weight: 600;
     color: #1a1a1a;
-}
-
-/* ── Chips de palmarés ── */
-.mest-palmares-wrap {
-    margin: 0 48px 52px;
-    padding: 28px 32px;
-    background: #1a1a1a;
-    border-top: 3px solid #eb5a00;
-}
-
-.mest-palmares-titulo {
-    font-size: 12px;
-    font-weight: 700;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    color: #eb5a00;
-    margin-bottom: 16px;
-}
-
-.mest-palmares-grid {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-}
-
-.mest-titulo-chip {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    background: #2a2a2a;
-    border: 1px solid #444;
-    padding: 7px 12px;
-    font-size: 13px;
-    color: #fff;
-    transition: background 0.12s, border-color 0.12s;
-}
-
-.mest-titulo-chip:hover {
-    background: #333;
-    border-color: #eb5a00;
-}
-
-.mest-titulo-icono {
-    font-size: 15px;
-    line-height: 1;
 }
 
 /* ── Section title ── */
@@ -301,8 +256,9 @@
     border-radius: 2px;
     overflow: hidden;
     height: 280px;
-    position: sticky;
     top: 90px;
+    border: 1px solid #000;
+    box-shadow: 0 0 0 3px #000; 
 }
 
 .mest-route-img-inner {
@@ -315,18 +271,17 @@
 }
 
 /* Imágenes */
-.img-estadio   { background-image: url('/img/img-quever/Mestalla/estadio.jpg'); }
-.img-tour      { background-image: url('/img/img-quever/Mestalla/tour.jpg'); }
-.img-palmares  { background-image: url('/img/img-quever/Mestalla/palmares.jpg'); }
-.img-gradona   { background-image: url('/img/img-quever/Mestalla/gradona.jpg'); }
-.img-historia  { background-image: url('/img/img-quever/Mestalla/historia.jpg'); }
-.img-nouveau   { background-image: url('/img/img-quever/Mestalla/nouveau.jpg'); }
+.img-estadiomll   { background-image: url('/img/img-espacios/Mestalla/estadiomll.jpg'); }
+.img-tourmll      { background-image: url('/img/img-espacios/Mestalla/tourmll.jpg'); }
+.img-palmaresmll  { background-image: url('/img/img-espacios/Mestalla/palmaresmll.jpg'); }
+.img-gradonamll   { background-image: url('/img/img-espacios/Mestalla/gradonamll.jpg'); }
+.img-historiamll  { background-image: url('/img/img-espacios/Mestalla/historiamll.jpg'); }
+.img-nouveaumll   { background-image: url('/img/img-espacios/Mestalla/nouveaumll.jpg'); }
 
 /* ── Tabla información práctica ── */
 .mest-info-practica {
     margin: 52px 48px 0;
-    padding-top: 48px;
-    border-top: 1.5px solid #e5e5e5;
+    padding-top: 18px;
 }
 
 .mest-info-practica h3 {

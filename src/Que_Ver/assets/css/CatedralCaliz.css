@@ -7,10 +7,10 @@
 }
 
 /* ── Hero ── */
-.cc-hero {
+.cccc-hero {
     position: relative;
     height: 540px;
-    background-image: url('/img/img-quever/CatedralCaliz/hero.jpg');
+    background-image: url('/img/img-espacios/CatedralCaliz/hero-catedral-caliz.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -20,13 +20,13 @@
     justify-content: flex-end;
 }
 
-.cc-hero-overlay {
+.cccc-hero-overlay {
     position: absolute;
     inset: 0;
     background: linear-gradient(to top, rgba(0,0,0,0.78) 0%, rgba(0,0,0,0.12) 58%, transparent 100%);
 }
 
-.cc-hero-content {
+.cccc-hero-content {
     position: relative;
     z-index: 2;
     padding: 0 48px 20px;
@@ -34,16 +34,7 @@
     max-width: 680px;
 }
 
-.cc-eyebrow {
-    font-size: 11px;
-    font-weight: 600;
-    letter-spacing: 0.14em;
-    text-transform: uppercase;
-    color: #f0c040;
-    margin-bottom: 12px;
-}
-
-.cc-hero-content h1 {
+.cccc-hero-content h1 {
     font-size: 52px;
     font-weight: 700;
     line-height: 1.05;
@@ -51,7 +42,7 @@
     letter-spacing: -0.02em;
 }
 
-.cc-hero-content p {
+.cccc-hero-content p {
     font-size: 16px;
     font-weight: 300;
     line-height: 1.6;
@@ -60,7 +51,7 @@
 }
 
 /* Stats */
-.cc-hero-stats {
+.cccc-hero-stats {
     position: relative;
     z-index: 2;
     padding: 18px 48px 44px;
@@ -264,8 +255,9 @@
     border-radius: 2px;
     overflow: hidden;
     height: 280px;
-    position: sticky;
     top: 90px;
+    border: 1px solid #000;
+    box-shadow: 0 0 0 3px #000; 
 }
 
 .cc-route-img-inner {
@@ -278,11 +270,11 @@
 }
 
 /* Imágenes */
-.img-caliz     { background-image: url('/img/img-quever/CatedralCaliz/caliz.jpg'); }
-.img-capilla   { background-image: url('/img/img-quever/CatedralCaliz/capilla.jpg'); }
-.img-boveda    { background-image: url('/img/img-quever/CatedralCaliz/boveda.jpg'); }
-.img-retablo   { background-image: url('/img/img-quever/CatedralCaliz/retablo.jpg'); }
-.img-cadenas   { background-image: url('/img/img-quever/CatedralCaliz/cadenas.jpg'); }
+.img-calizcc     { background-image: url('/img/img-espacios/CatedralCaliz/calizcc.jpeg'); }
+.img-capillacc   { background-image: url('/img/img-espacios/CatedralCaliz/capillacc.JPG'); }
+.img-bovedacc    { background-image: url('/img/img-espacios/CatedralCaliz/bovedacc.JPG'); }
+.img-retablocc   { background-image: url('/img/img-espacios/CatedralCaliz/retablocc.jpg'); }
+.img-cadenascc   { background-image: url('/img/img-espacios/CatedralCaliz/cadenascc.jpg'); }
 
 /* ── Cronología ── */
 .cc-cronologia-section {

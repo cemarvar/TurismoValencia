@@ -10,7 +10,7 @@
 .lmv-hero {
     position: relative;
     height: 560px;
-    background-image: url('/img/img-quever/LaMarina/hero.jpg');
+    background-image: url('/img/img-espacios/LaMarina/hero-LaMarina.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -302,8 +302,10 @@
     border-radius: 2px;
     overflow: hidden;
     height: 280px;
-    position: sticky;
     top: 90px;
+    border: 1px solid #000;
+    box-shadow: 0 0 0 3px #000; 
+
 }
 
 .lmv-route-img-inner {
@@ -316,18 +318,16 @@
 }
 
 /* Imágenes */
-.img-velesevents  { background-image: url('/img/img-quever/LaMarina/velesevents.jpg'); }
-.img-tinglados    { background-image: url('/img/img-quever/LaMarina/tinglados.jpg'); }
-.img-reloj        { background-image: url('/img/img-quever/LaMarina/reloj.jpg'); }
-.img-nautica      { background-image: url('/img/img-quever/LaMarina/nautica.jpg'); }
-.img-gastronomia  { background-image: url('/img/img-quever/LaMarina/gastronomia.jpg'); }
-.img-copamerica   { background-image: url('/img/img-quever/LaMarina/copamerica.jpg'); }
+.img-veleseventslm  { background-image: url('/img/img-espacios/LaMarina/veleseventslm.jpg'); }
+.img-tingladoslm    { background-image: url('/img/img-espacios/LaMarina/tingladoslm.jpg'); }
+.img-relojlm        { background-image: url('/img/img-espacios/LaMarina/relojlm.jpg'); }
+.img-nauticalm      { background-image: url('/img/img-espacios/LaMarina/nauticalm.jpg'); }
+.img-gastronomialm  { background-image: url('/img/img-espacios/LaMarina/gastronomialm.jpg'); }
 
 /* ── Tabla información práctica ── */
 .lmv-info-practica {
     margin: 52px 48px 0;
-    padding-top: 48px;
-    border-top: 1.5px solid #e5e5e5;
+    padding-top: 18px;
 }
 
 .lmv-info-practica h3 {

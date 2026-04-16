@@ -14,7 +14,7 @@ var secciones = [
       { d: 'Tribuna norte', v: 'La más inclinada de cualquier estadio importante de Europa · Atmósfera única' },
       { d: 'Nombre', v: 'De la acequia de Mestalla · Entre 1969 y 1994 se llamó Estadio Luis Casanova' },
     ],
-    imgClass: 'img-estadio',
+    imgClass: 'img-estadiomll',
     tags: [{ label: 'Más antiguo de LaLiga' }, { label: '1923' }, { label: 'The Telegraph Top 2 Europa' }],
   },
   {
@@ -29,7 +29,7 @@ var secciones = [
       { d: 'Horario', v: 'Lun–Sáb 10:30–14:30 h y 15:30–18:30 h · Dom 10:30–14:30 h · Último tour 13:30 h' },
       { d: 'Días de partido', v: 'Solo visita matutina · Vestuarios cerrados · Consultar en valenciacf.com' },
     ],
-    imgClass: 'img-tour',
+    imgClass: 'img-tourmll',
     tags: [{ label: 'Tour ~1 hora' }, { label: 'Guiado' }, { label: 'Todos los días' }],
   },
   {
@@ -44,7 +44,7 @@ var secciones = [
       { d: 'Europa', v: '1 Recopa UEFA (1980) · 2 Supercopas de Europa (1980, 2004) · 13 Champions' },
       { d: 'Leyendas en Mestalla', v: 'Kempes, Maradona, Pelé · Han jugado en este césped' },
     ],
-    imgClass: 'img-palmares',
+    imgClass: 'img-palmaresmll',
     tags: [{ label: '6 Ligas' }, { label: '8 Copas' }, { label: 'Recopa UEFA' }],
   },
   {
@@ -59,7 +59,7 @@ var secciones = [
       { d: 'Afición', v: '"La más exigente de España con más ambiente" · The Telegraph' },
       { d: 'Partido recomendado', v: 'Partidos de LaLiga y Europa · Consultar agenda en visitvalencia.com' },
     ],
-    imgClass: 'img-gradona',
+    imgClass: 'img-gradonamll',
     tags: [{ label: 'La Gradona' }, { label: 'Ambiente único' }, { label: 'Fútbol en vivo' }],
   },
   {
@@ -74,7 +74,7 @@ var secciones = [
       { d: 'Finales Copa Rey', v: '10 finales · 1926, 1929, 1936, 1990, 1993, 1998, 2000, 2009, 2011, 2014' },
       { d: 'Liga Naciones', v: '2025 · Cuartos de final · Mestalla como sede de la selección española' },
     ],
-    imgClass: 'img-historia',
+    imgClass: 'img-historiamll',
     tags: [{ label: 'Mundial 1982' }, { label: 'JJ.OO. 1992' }, { label: 'Selección española' }],
   },
   {
@@ -89,24 +89,9 @@ var secciones = [
       { d: 'Obras', v: 'Iniciadas en 2007 · Paralizadas · Retomadas · Fecha de apertura pendiente' },
       { d: 'Mestalla actual', v: 'Sigue activo · La casa del Valencia CF hasta la apertura del Nou Mestalla' },
     ],
-    imgClass: 'img-nouveau',
+    imgClass: 'img-nouveaumll',
     tags: [{ label: 'Nou Mestalla' }, { label: '~70.000 aficionados' }, { label: 'Futuro' }],
   },
-];
-
-var titulos = [
-  { titulo: '6 Ligas', icono: '🏆' },
-  { titulo: '8 Copas del Rey', icono: '🏅' },
-  { titulo: '1 Recopa UEFA', icono: '⭐' },
-  { titulo: '2 Supercopas Europa', icono: '🌟' },
-  { titulo: '1 Copa Intertoto', icono: '🥇' },
-  { titulo: '10 Finales de Copa', icono: '🏟' },
-  { titulo: '13 Champions League', icono: '🔵' },
-  { titulo: '36 partidos Selección', icono: '🇪🇸' },
-  { titulo: 'Mundial 1982', icono: '⚽' },
-  { titulo: 'JJ.OO. Barcelona 92', icono: '🔥' },
-  { titulo: 'Top 2 Europa · Telegraph', icono: '📰' },
-  { titulo: 'El más antiguo de LaLiga', icono: '📅' },
 ];
 
 var datosVisita = [
@@ -154,19 +139,6 @@ export default function Mestalla() {
       <div className="mest-intro">
         <p>El Camp de Mestalla no es solo el estadio del Valencia CF: es un monumento vivo de la historia de Valencia, el estadio más veterano de la liga española de primera división desde 2020 y uno de los escenarios deportivos más emblemáticos de Europa. Por su césped han corrido Pelé, Maradona, Kempes y los mejores jugadores de la historia del fútbol. Ha sobrevivido a una guerra civil, a la Gran Riada de 1957 y a una pandemia. Ha acogido el Mundial 1982, los Juegos Olímpicos de 1992 y 10 finales de la Copa del Rey.</p>
         <p>Tanto si eres aficionado al fútbol como si no, el <strong>Tour Mestalla Forever</strong> es una de las visitas más recomendadas de Valencia: historia, emoción y arquitectura única en un estadio que lleva más de un siglo latiendo en el corazón de la ciudad.</p>
-      </div>
-
-      {/* Palmarés chips */}
-      <div className="mest-palmares-wrap">
-        <div className="mest-palmares-titulo">Palmarés y momentos históricos</div>
-        <div className="mest-palmares-grid">
-          {titulos.map(t => (
-            <div className="mest-titulo-chip" key={t.titulo}>
-              <span className="mest-titulo-icono">{t.icono}</span>
-              <span className="mest-titulo-nombre">{t.titulo}</span>
-            </div>
-          ))}
-        </div>
       </div>
 
       {/* Secciones */}

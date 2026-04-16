@@ -14,7 +14,7 @@ var playas = [
       { d: 'Servicios', v: 'Bandera Azul · Q de Calidad Turística · Duchas · Socorristas · Alquiler sombrillas' },
       { d: 'Acceso', v: 'Metro L4 parada Les Arenes · L6 Mediterrani · L8 Marina Reial · Bus 19, 95, 99' },
     ],
-    imgClass: 'img-cabanyal',
+    imgClass: 'img-cabanyalpl',
     tags: [{ label: 'Bandera Azul' }, { label: 'Sorolla' }, { label: 'Marina' }],
   },
   {
@@ -29,7 +29,7 @@ var playas = [
       { d: 'Cultura', v: 'Casa Museo Blasco Ibáñez en el extremo norte · Escritor valenciano más internacional' },
       { d: 'Servicios', v: 'Bandera Azul · Q de Calidad · Carril bici · Acceso adaptado · Socorristas' },
     ],
-    imgClass: 'img-malvarrosa',
+    imgClass: 'img-malvarrosapl',
     tags: [{ label: 'Bandera Azul' }, { label: 'Paella frente al mar' }, { label: 'Blasco Ibáñez' }],
   },
   {
@@ -44,7 +44,7 @@ var playas = [
       { d: 'Caballos', v: 'Jinetes pasean por la orilla al amanecer y al atardecer · Imagen de postal' },
       { d: 'Horchata', v: 'A 2 min: la mejor horchata de Valencia en la huerta de Alboraya' },
     ],
-    imgClass: 'img-patacona',
+    imgClass: 'img-pataconapl',
     tags: [{ label: 'Tranquila' }, { label: 'Horchata' }, { label: 'Alboraya' }],
   },
   {
@@ -59,7 +59,7 @@ var playas = [
       { d: 'Deporte', v: 'Windsurf y kitesurf favorito del litoral valenciano · Carril bici por las dunas' },
       { d: 'Acceso', v: '15 min en coche · Bus desde Valencia · Parking disponible junto a la playa' },
     ],
-    imgClass: 'img-saler',
+    imgClass: 'img-salerpl',
     tags: [{ label: 'Bandera Azul' }, { label: 'Parque Natural' }, { label: 'Windsurf' }],
   },
   {
@@ -74,7 +74,7 @@ var playas = [
       { d: 'Arbre del Gos', v: 'A continuación: 2,6 km vírgenes en el Parque Natural de la Albufera' },
       { d: 'Servicios', v: 'Bandera Azul · Socorristas · Duchas · Restaurantes locales' },
     ],
-    imgClass: 'img-pinedo',
+    imgClass: 'img-pinedopl',
     tags: [{ label: 'Tranquila' }, { label: 'Local' }, { label: 'Huerta' }],
   },
   {
@@ -89,24 +89,9 @@ var playas = [
       { d: 'Fauna', v: 'Docenas de especies de aves · Punto de observación de fauna' },
       { d: 'Acceso', v: '~20 min en coche · Carretera del Parque Natural de la Albufera · Parking' },
     ],
-    imgClass: 'img-devesa',
+    imgClass: 'img-devesapl',
     tags: [{ label: 'Bandera Azul' }, { label: 'Salvaje' }, { label: 'Aves' }],
   },
-];
-
-var servicios = [
-  { nombre: 'Bandera Azul', icono: '🚩' },
-  { nombre: 'Socorristas', icono: '🛟' },
-  { nombre: 'Cruz Roja', icono: '➕' },
-  { nombre: 'Duchas y baños', icono: '🚿' },
-  { nombre: 'Alquiler sombrillas', icono: '⛱' },
-  { nombre: 'Carril bici', icono: '🚴' },
-  { nombre: 'Acceso adaptado', icono: '♿' },
-  { nombre: 'Restaurantes', icono: '🍽' },
-  { nombre: 'Windsurf y kitesurf', icono: '🏄' },
-  { nombre: 'Voleibol playa', icono: '🏐' },
-  { nombre: 'Paddle surf', icono: '🛶' },
-  { nombre: 'Parking', icono: '🅿' },
 ];
 
 var datosVisita = [
@@ -154,19 +139,6 @@ export default function Playes() {
       <div className="playa-intro">
         <p>Valencia es una de las pocas grandes ciudades del mundo donde puedes ir a la playa en metro. Las playas del Cabanyal, la Malvarrosa y la Patacona forman un frente litoral continuo de más de tres kilómetros de arena dorada con paseo marítimo, restaurantes y todos los servicios, a apenas 20 minutos del centro histórico. Al sur, las playas naturales del Parque Natural de la Albufera —El Saler, Garrofera, la Devesa— ofrecen un cambio radical: dunas, pinares y kilómetros de costa casi virgen.</p>
         <p>Todas las playas de la ciudad cuentan con <strong>Bandera Azul</strong> que garantiza la calidad del agua y los servicios. Y gracias a los más de 300 días de sol al año del clima mediterráneo valenciano, son <strong>disfrutables durante todo el año</strong>.</p>
-      </div>
-
-      {/* Servicios chips */}
-      <div className="playa-servicios-wrap">
-        <div className="playa-servicios-titulo">Servicios disponibles en las playas de Valencia</div>
-        <div className="playa-servicios-grid">
-          {servicios.map(s => (
-            <div className="playa-servicio-chip" key={s.nombre}>
-              <span className="playa-servicio-icono">{s.icono}</span>
-              <span className="playa-servicio-nombre">{s.nombre}</span>
-            </div>
-          ))}
-        </div>
       </div>
 
       {/* Playas */}

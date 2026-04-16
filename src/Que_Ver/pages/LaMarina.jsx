@@ -14,7 +14,7 @@ var espacios = [
       { d: 'Nombre', v: 'Poema de Ausiàs March (s. XV) · "Velas y Vientos"' },
       { d: 'Usos', v: 'Restaurante La Sucursal · La Marítima · Bar Malabar · Sala Amstel Art · Eventos' },
     ],
-    imgClass: 'img-velesevents',
+    imgClass: 'img-veleseventslm',
     tags: [{ label: 'Arquitectura' }, { label: 'Gastronomía' }, { label: 'Pritzker' }],
   },
   {
@@ -29,7 +29,7 @@ var espacios = [
       { d: 'Usos actuales', v: 'Festivales, conciertos, exposiciones, ferias y eventos culturales' },
       { d: 'Centro Mundial', v: 'Sede del Centro Mundial de Valencia para la Alimentación Urbana Sostenible' },
     ],
-    imgClass: 'img-tinglados',
+    imgClass: 'img-tingladoslm',
     tags: [{ label: 'Patrimonio' }, { label: 'Innovación' }, { label: 'Eventos' }],
   },
   {
@@ -44,7 +44,7 @@ var espacios = [
       { d: 'Recorrido', v: 'Del gótico medieval al modernismo del s. XX y la vanguardia del XXI' },
       { d: 'Fotografía', v: 'La Torre del Reloj es uno de los puntos más fotogénicos de la Marina' },
     ],
-    imgClass: 'img-reloj',
+    imgClass: 'img-relojlm',
     tags: [{ label: 'Modernista' }, { label: 'Gótico civil' }, { label: 'Historia' }],
   },
   {
@@ -59,7 +59,7 @@ var espacios = [
       { d: 'Paseos en barco', v: 'Excursiones con comida, puesta de sol o fiesta a bordo' },
       { d: 'Buque escuela', v: 'Juan Sebastián de Elcano · Visitas y cursos de navegación de altura' },
     ],
-    imgClass: 'img-nautica',
+    imgClass: 'img-nauticalm',
     tags: [{ label: 'Náutica' }, { label: 'Vela' }, { label: 'Todas las edades' }],
   },
   {
@@ -74,39 +74,10 @@ var espacios = [
       { d: 'Tardeo', v: 'Copa + picoteo + música en directo · Especialmente popular en verano' },
       { d: 'Arroces', v: 'Varios restaurantes con arroces tradicionales valencianos y pescado de lonja' },
     ],
-    imgClass: 'img-gastronomia',
+    imgClass: 'img-gastronomialm',
     tags: [{ label: 'Gastronomía' }, { label: 'Tardeo' }, { label: 'Atardecer' }],
   },
-  {
-    num: '06',
-    nombre: 'Casa de la Copa · Historia de la Copa América',
-    tipo: 'Historia náutica · Exposición permanente',
-    subtitulo: '32ª y 33ª Copa América (2007 y 2010) · Primer Gran Premio de Fórmula 1 urbano',
-    desc: 'Valencia fue sede de las ediciones 32ª (2007) y 33ª (2010) de la Copa América, la competición náutica más antigua del mundo. Fue la primera vez que esta regata legendaria —celebrada ininterrumpidamente desde 1851— se disputó en Europa y en un país diferente al del defensor. La Marina Real Juan Carlos I acogió al mayor número de equipos en toda la historia de la competición, con equipos de los cinco continentes. La Casa de la Copa conserva la historia de esta etapa dorada de Valencia en el Mediterráneo. El circuito urbano de Fórmula 1 que discurría por las calles del puerto entre 2008 y 2012 es otro capítulo singular de esta época.',
-    datos: [
-      { d: '32ª Copa América', v: '2007 · Primera edición europea · Alinghi (Suiza) vs. Team New Zealand' },
-      { d: '33ª Copa América', v: '2010 · Segunda edición en Valencia · BMW Oracle Racing vence al Alinghi' },
-      { d: 'Fórmula 1', v: 'Gran Premio de Europa en circuito urbano · 2008–2012' },
-      { d: 'Casa de la Copa', v: 'Exposición permanente sobre la historia de la Copa América en Valencia' },
-    ],
-    imgClass: 'img-copamerica',
-    tags: [{ label: 'Copa América' }, { label: '2007' }, { label: 'Historia' }],
-  },
-];
-
-var actividades = [
-  { nombre: 'Vela', icono: '⛵' },
-  { nombre: 'Kayak', icono: '🚣' },
-  { nombre: 'Paddle surf', icono: '🏄' },
-  { nombre: 'Buceo', icono: '🤿' },
-  { nombre: 'Kite surf', icono: '🪁' },
-  { nombre: 'Remo', icono: '🛶' },
-  { nombre: 'SUP Yoga', icono: '🧘' },
-  { nombre: 'Moto acuática', icono: '💨' },
-  { nombre: 'Banana boat', icono: '🍌' },
-  { nombre: 'Paseo en barco', icono: '🚢' },
-  { nombre: 'Puesta de sol', icono: '🌅' },
-  { nombre: 'Pesca de altura', icono: '🎣' },
+  
 ];
 
 var datosVisita = [
@@ -154,19 +125,6 @@ export default function LaMarina() {
       <div className="lmv-intro">
         <p>La Marina de Valencia es el resultado de una transformación extraordinaria: un antiguo puerto comercial convertido en el mayor espacio de ocio, cultura y náutica frente al Mediterráneo en España. Todo comenzó cuando Valencia fue elegida sede de la 32ª Copa América de vela en 2007 —la primera vez que esta competición de más de 150 años se celebraba en Europa—, lo que impulsó una renovación total de la infraestructura portuaria.</p>
         <p>Hoy la Marina combina la arquitectura vanguardista del Veles e Vents con el patrimonio histórico de los Tinglados y el Edificio del Reloj, más de 15 restaurantes con vistas al mar, cerca de <strong>40 empresas de actividades náuticas</strong> y una agenda cultural que incluye festivales, conciertos y exposiciones durante todo el año. El acceso es completamente gratuito.</p>
-      </div>
-
-      {/* Actividades náuticas chips */}
-      <div className="lmv-actividades-wrap">
-        <div className="lmv-actividades-titulo">Actividades náuticas disponibles</div>
-        <div className="lmv-actividades-grid">
-          {actividades.map(a => (
-            <div className="lmv-actividad-chip" key={a.nombre}>
-              <span className="lmv-actividad-icono">{a.icono}</span>
-              <span className="lmv-actividad-nombre">{a.nombre}</span>
-            </div>
-          ))}
-        </div>
       </div>
 
       {/* Espacios */}

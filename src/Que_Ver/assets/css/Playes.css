@@ -10,7 +10,7 @@
 .playa-hero {
     position: relative;
     height: 560px;
-    background-image: url('/img/img-quever/Playes/hero.jpg');
+    background-image: url('/img/img-espacios/Playes/hero-playes.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -301,8 +301,9 @@
     border-radius: 2px;
     overflow: hidden;
     height: 280px;
-    position: sticky;
     top: 90px;
+    border: 1px solid #000;
+    box-shadow: 0 0 0 3px #000; 
 }
 
 .playa-route-img-inner {
@@ -315,18 +316,17 @@
 }
 
 /* Imágenes */
-.img-cabanyal   { background-image: url('/img/img-quever/Playes/cabanyal.jpg'); }
-.img-malvarrosa { background-image: url('/img/img-quever/Playes/malvarrosa.jpg'); }
-.img-patacona   { background-image: url('/img/img-quever/Playes/patacona.jpg'); }
-.img-saler      { background-image: url('/img/img-quever/Playes/saler.jpg'); }
-.img-pinedo     { background-image: url('/img/img-quever/Playes/pinedo.jpg'); }
-.img-devesa     { background-image: url('/img/img-quever/Playes/devesa.jpg'); }
+.img-cabanyalpl   { background-image: url('/img/img-espacios/Playes/cabanyalpl.jpg'); }
+.img-malvarrosapl { background-image: url('/img/img-espacios/Playes/malvarrosapl.jpg'); }
+.img-pataconapl   { background-image: url('/img/img-espacios/Playes/pataconapl.jpg'); }
+.img-salerpl      { background-image: url('/img/img-espacios/Playes/salerpl.jpg'); }
+.img-pinedopl     { background-image: url('/img/img-espacios/Playes/pinedopl.jpg'); }
+.img-devesapl     { background-image: url('/img/img-espacios/Playes/devesapl.jpg'); }
 
 /* ── Tabla información práctica ── */
 .playa-info-practica {
     margin: 52px 48px 0;
-    padding-top: 48px;
-    border-top: 1.5px solid #e5e5e5;
+    padding-top: 18px;
 }
 
 .playa-info-practica h3 {

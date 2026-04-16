@@ -14,7 +14,7 @@ var zonas = [
       { d: 'Barcas del lago', v: 'Alquiler de barcas con forma de cisne · Actividad familiar' },
       { d: 'Acceso', v: 'Metro L1 parada Nou d\'Octubre · Av. Pío Baroja' },
     ],
-    imgClass: 'img-cabecera',
+    imgClass: 'img-cabecerajt',
     tags: [{ label: 'Naturaleza' }, { label: 'Familia' }, { label: 'Bioparc' }],
   },
   {
@@ -29,7 +29,7 @@ var zonas = [
       { d: 'Bosque Urbano', v: 'Miles de pinos mediterráneos · Diseño de la Consellería de Agricultura' },
       { d: 'Torres de Serranos', v: 'Acceso directo desde la zona de Serranos · Plaza de los Fueros' },
     ],
-    imgClass: 'img-deportes',
+    imgClass: 'img-deportesjt',
     tags: [{ label: 'Running' }, { label: 'Deporte' }, { label: 'Familia' }],
   },
   {
@@ -44,7 +44,7 @@ var zonas = [
       { d: 'Jardines del Real', v: 'Viveros históricos · Árboles centenarios · Colección botánica' },
       { d: 'Puente Calatrava', v: 'Puente de la Exposición "la peineta" · 1995 · Santiago Calatrava' },
     ],
-    imgClass: 'img-musica',
+    imgClass: 'img-musicajt',
     tags: [{ label: 'Cultura' }, { label: 'Bofill' }, { label: 'Naranjos' }],
   },
   {
@@ -59,7 +59,7 @@ var zonas = [
       { d: 'Horario', v: '10:00–20:00 h aprox. · Más tarde en verano · Cerrado por mantenimiento ocasionalmente' },
       { d: 'Diseño', v: 'Rafael Rivera y Manolo Martín · Inspirado en la novela de Jonathan Swift (1726)' },
     ],
-    imgClass: 'img-gulliver',
+    imgClass: 'img-gulliverjt',
     tags: [{ label: 'Gratuito', free: true }, { label: 'Familia' }, { label: 'Niños' }],
   },
   {
@@ -74,7 +74,7 @@ var zonas = [
       { d: 'Umbracle', v: 'Jardín mediterráneo con esculturas · Acceso libre · Nexo verde CAC–Jardín' },
       { d: 'Acceso', v: 'Metro L5, L6, L7, L8 · Bus 15, 19, 35, 95 · A pie por el jardín: ~35 min desde centro' },
     ],
-    imgClass: 'img-cac',
+    imgClass: 'img-cacjt',
     tags: [{ label: 'Calatrava' }, { label: 'Arquitectura' }, { label: 'Vanguardia' }],
   },
   {
@@ -89,24 +89,9 @@ var zonas = [
       { d: 'Puente de las Flores', v: 'Cubierto de macetas en flor · El más romántico y fotogénico' },
       { d: 'Puente de Serranos', v: 'Recientemente peatonalizado · Junto a las Torres de Serranos' },
     ],
-    imgClass: 'img-puentes',
+    imgClass: 'img-puentesjt',
     tags: [{ label: '18 puentes' }, { label: 'Calatrava' }, { label: 'Patrimonio' }],
   },
-];
-
-var actividades = [
-  { nombre: 'Running', icono: '🏃' },
-  { nombre: 'Ciclismo', icono: '🚴' },
-  { nombre: 'Patinaje', icono: '🛼' },
-  { nombre: 'Fútbol', icono: '⚽' },
-  { nombre: 'Rugby', icono: '🏉' },
-  { nombre: 'Atletismo', icono: '🏟' },
-  { nombre: 'Skate', icono: '🛹' },
-  { nombre: 'Yoga al aire libre', icono: '🧘' },
-  { nombre: 'Picnic', icono: '🧺' },
-  { nombre: 'Senderismo urbano', icono: '🚶' },
-  { nombre: 'Conciertos', icono: '🎶' },
-  { nombre: 'Arte urbano', icono: '🎨' },
 ];
 
 var datosVisita = [
@@ -152,7 +137,7 @@ export default function JardinTuria() {
 
       {/* Historia — caja destacada */}
       <div className="jt-historia-box">
-        <div className="jt-historia-icono">🌊</div>
+        <div className="jt-historia-icono"></div>
         <div className="jt-historia-content">
           <div className="jt-historia-titulo">El río que se convirtió en parque</div>
           <p>El 14 de octubre de 1957, la Gran Riada de Valencia inundó el centro histórico de la ciudad y causó la muerte de alrededor de un centenar de personas. El Gobierno desvió el cauce del Turia al sur de la ciudad, dejando libre una franja de 9 km que atravesaba Valencia de oeste a este. Durante la década de 1970, los vecinos se movilizaron con el lema <strong>"El riu és nostre i el volem verd"</strong> (El río es nuestro y lo queremos verde). El plan especial de reconversión fue aprobado en 1984, y el parque se inauguró en 1986. Hoy es el parque urbano más grande de España y uno de los más visitados de Europa, con más de tres millones de visitantes anuales.</p>
@@ -163,19 +148,6 @@ export default function JardinTuria() {
       <div className="jt-intro">
         <p>El Jardín del Turia discurre por el antiguo cauce del río durante más de nueve kilómetros libre de coches, conectando el Parque de Cabecera y el Bioparc en el oeste con la Ciudad de las Artes y las Ciencias en el este. Diseñado en 18 tramos por diferentes urbanistas y paisajistas, cada sección tiene su propio carácter: bosques de pinos, campos deportivos, jardines de naranjos y palmeras, zonas infantiles y el skyline más icónico de Valencia de fondo.</p>
         <p>El acceso es <strong>completamente gratuito</strong> y el jardín nunca cierra. Es el gimnasio al aire libre, el lugar de encuentro y el pulmón verde de toda la ciudad. Una de las razones por las que Valencia fue nombrada <strong>Capital Verde Europea 2024</strong>.</p>
-      </div>
-
-      {/* Actividades chips */}
-      <div className="jt-actividades-wrap">
-        <div className="jt-actividades-titulo">Qué hacer en el Jardín del Turia</div>
-        <div className="jt-actividades-grid">
-          {actividades.map(a => (
-            <div className="jt-actividad-chip" key={a.nombre}>
-              <span className="jt-actividad-icono">{a.icono}</span>
-              <span className="jt-actividad-nombre">{a.nombre}</span>
-            </div>
-          ))}
-        </div>
       </div>
 
       {/* Zonas */}

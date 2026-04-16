@@ -10,7 +10,7 @@
 .sn-hero {
     position: relative;
     height: 540px;
-    background-image: url('/img/img-quever/IglesiaSanNicolas/hero.jpg');
+    background-image: url('/img/img-espacios/IglesiaSanNicolas/hero-IglesiaSanNicolasisn.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -112,14 +112,6 @@
     display: flex;
     gap: 12px;
     align-items: flex-start;
-}
-
-.sn-check {
-    color: #f0c040;
-    font-size: 18px;
-    font-weight: 700;
-    flex-shrink: 0;
-    margin-top: 1px;
 }
 
 .sn-porqué-titulo {
@@ -296,8 +288,9 @@
     border-radius: 2px;
     overflow: hidden;
     height: 270px;
-    position: sticky;
     top: 90px;
+    border: 1px solid #000;
+    box-shadow: 0 0 0 3px #000; 
 }
 
 .sn-route-img-inner {
@@ -310,18 +303,17 @@
 }
 
 /* Imágenes */
-.img-boveda       { background-image: url('/img/img-quever/IglesiaSanNicolas/boveda.jpg'); }
-.img-arquitectura { background-image: url('/img/img-quever/IglesiaSanNicolas/arquitectura.jpg'); }
-.img-luz          { background-image: url('/img/img-quever/IglesiaSanNicolas/luz.jpg'); }
-.img-restauracion { background-image: url('/img/img-quever/IglesiaSanNicolas/restauracion.jpg'); }
-.img-coleccion    { background-image: url('/img/img-quever/IglesiaSanNicolas/coleccion.jpg'); }
-.img-devocion     { background-image: url('/img/img-quever/IglesiaSanNicolas/devocion.jpg'); }
+.img-bovedaisn       { background-image: url('/img/img-espacios/IglesiaSanNicolas/bovedaisn.jpg'); }
+.img-arquitecturaisn { background-image: url('/img/img-espacios/IglesiaSanNicolas/arquitecturaisn.jpg'); }
+.img-luzisn          { background-image: url('/img/img-espacios/IglesiaSanNicolas/luzisn.jpg'); }
+.img-restauracionisn { background-image: url('/img/img-espacios/IglesiaSanNicolas/restauracionisn.jpg'); }
+.img-coleccionisn    { background-image: url('/img/img-espacios/IglesiaSanNicolas/coleccionisn.jpg'); }
+.img-devocionisn     { background-image: url('/img/img-espacios/IglesiaSanNicolas/devocionisn.jpg'); }
 
 /* ── Tabla información práctica ── */
 .sn-info-practica {
     margin: 52px 48px 0;
-    padding-top: 48px;
-    border-top: 1.5px solid #e5e5e5;
+    padding-top: 18px;
 }
 
 .sn-info-practica h3 {

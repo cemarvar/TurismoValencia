@@ -10,7 +10,7 @@ var colecciones = [
     desc: 'La colección de primitivos valencianos es la joya del museo y uno de los conjuntos de pintura gótica más importantes de España. Refleja la escuela de pintura internacional que floreció en Valencia durante el siglo XV, cuando la ciudad era un gran centro mercantil y cultural del Mediterráneo. Las obras maestras de Gonçal Peris Sarrià representan lo más destacado de este período. También se conserva el Retablo de Fray Bonifacio Ferrer, encargado al artista florentino Gherardo Starnina, una de las piezas más valiosas del museo por su detallismo excepcional.',
     artistas: ['Gonçal Peris Sarrià', 'Gherardo Starnina', 'Jacomart', 'Joan Reixach', 'Bartolomé Bermejo'],
     obra: 'Retablo de Fray Bonifacio Ferrer · Starnina · Detallismo florentino extraordinario',
-    imgClass: 'img-gotico',
+    imgClass: 'img-goticomba',
     tags: [{ label: 'Gótico valenciano' }, { label: 'Siglo XV' }, { label: 'Único en España' }],
   },
   {
@@ -21,7 +21,7 @@ var colecciones = [
     desc: 'En el siglo XVI, Valencia fue un importante centro mercantil y la principal puerta de entrada del Renacimiento italiano en España. Esta sala incluye el único retrato de Botticelli expuesto en España, así como obras de Il Pinturicchio —colaborador de Rafael en la Capilla Sixtina—, El Bosco y Joan de Joanes, el pintor valenciano más influyente del siglo XVI. También se conserva Andrea del Sarto y obras del manierista Luis de Morales. El conjunto refleja los intercambios culturales entre Valencia, Italia y los Países Bajos.',
     artistas: ['Joan de Joanes', 'Sandro Botticelli', 'Il Pinturicchio', 'El Bosco', 'Andrea del Sarto', 'Luis de Morales'],
     obra: 'Retrato de Botticelli · El único expuesto en España · Sala del Renacimiento',
-    imgClass: 'img-renacimiento',
+    imgClass: 'img-renacimientomba',
     tags: [{ label: 'Renacimiento' }, { label: 'Botticelli único en España' }, { label: 'S. XVI' }],
   },
   {
@@ -32,7 +32,7 @@ var colecciones = [
     desc: 'La sala del Barroco es la más internacional del museo. Destaca el Autorretrato de Diego Velázquez —uno de los dos únicos que se conocen, el otro es en Las Meninas— y San Juan Bautista de El Greco. De José de Ribera se conserva el espectacular San Sebastián atendido por Santa Irene y su criada. La colección flamenca incluye a Van Dyck con Don Francisco de Moncada, artista con muy escasa presencia en museos españoles. La pintura italiana barroca está representada por Luca Giordano, Giovanni Baglione y Matthias Stom.',
     artistas: ['Diego Velázquez', 'El Greco', 'José de Ribera', 'Bartolomé Esteban Murillo', 'Anthony van Dyck', 'Luca Giordano'],
     obra: 'Autorretrato de Velázquez · Solo se pintó a sí mismo aquí y en Las Meninas',
-    imgClass: 'img-barroco',
+    imgClass: 'img-barrocomba',
     tags: [{ label: 'Velázquez' }, { label: 'Siglo de Oro' }, { label: 'Escuela flamenca' }],
   },
   {
@@ -43,7 +43,7 @@ var colecciones = [
     desc: 'El museo conserva un conjunto notable de obras de Francisco de Goya, entre las que destaca el Retrato de doña Joaquina Candado. La primera planta del edificio antiguo alberga las pinturas relacionadas con la Real Academia de Bellas Artes de San Carlos —fundada en 1768— con bocetos de Ignacio Vergara y obras tempranas de Vicente López, uno de los grandes retratistas del tránsito entre el siglo XVIII y XIX. La "escuela valenciana de flores" con obras de Benito Espinos completa este período.',
     artistas: ['Francisco de Goya', 'Vicente López', 'Ignacio Vergara', 'Benito Espinos', 'Francisco Bayeu'],
     obra: 'Retrato de doña Joaquina Candado · Goya · Una de las mejores obras del período',
-    imgClass: 'img-goya',
+    imgClass: 'img-goyamba',
     tags: [{ label: 'Goya' }, { label: 'Academia de San Carlos' }, { label: 'Neoclasicismo' }],
   },
   {
@@ -54,7 +54,7 @@ var colecciones = [
     desc: 'El Museo de Bellas Artes de Valencia conserva la colección de Sorolla más completa fuera del Museo Sorolla de Madrid: siete salas distribuidas en dos plantas recorren toda su trayectoria. La Grupa Valenciana, que retrata a sus hijos en una fiesta campestre, es una de las obras más queridas. Ignacio Pinazo, fundador de la luminosa escuela valenciana del XIX, y José Benlliure, con su sensibilidad intimista, completan el gran capítulo de la pintura valenciana decimonónica. También destaca la colección de paisajistas españoles del XIX.',
     artistas: ['Joaquín Sorolla', 'Ignacio Pinazo', 'José Benlliure', 'Antonio Muñoz Degrain', 'Cecilio Plá'],
     obra: 'Grupa Valenciana · Sorolla · Retrata a sus hijos en una fiesta campestre valenciana',
-    imgClass: 'img-sorolla',
+    imgClass: 'img-sorollamba',
     tags: [{ label: '7 salas Sorolla' }, { label: 'Pintura valenciana' }, { label: 'Siglo XIX' }],
   },
   {
@@ -65,20 +65,9 @@ var colecciones = [
     desc: 'El edificio del museo es en sí mismo una obra de arte. Construido a partir de 1683 como Colegio Seminario de San Pío V por encargo del arzobispo Juan Tomás de Rocabertí, su arquitectura barroca fue proyectada por Juan Bautista Pérez Castiel —maestro de obras de la Catedral de Valencia—. La planta casi cuadrada se organiza alrededor de un claustro de triple arquería superpuesta en cuyos lados se abren cinco arcos. Dentro del museo se conserva también el Patio del Embajador Vich, uno de los patios renacentistas más importantes del siglo XVI, reconstruido aquí en 2006.',
     artistas: ['Juan Bautista Pérez Castiel (arquitecto)', 'Juan Tomás de Rocabertí (comitente)'],
     obra: 'Patio del Embajador Vich · Patio renacentista del s. XVI reconstruido en el museo en 2006',
-    imgClass: 'img-edificio',
+    imgClass: 'img-edificiomba',
     tags: [{ label: 'Arquitectura barroca' }, { label: '1683' }, { label: 'Patio renacentista' }],
   },
-];
-
-var obrasClave = [
-  { titulo: 'Autorretrato', autor: 'Diego Velázquez', dato: 'Uno de solo dos que pintó de sí mismo · El otro es en Las Meninas' },
-  { titulo: 'San Juan Bautista', autor: 'El Greco', dato: 'Obra del período toledano del pintor greco-español' },
-  { titulo: 'San Sebastián atendido por Santa Irene y su criada', autor: 'José de Ribera', dato: 'Tenebrismo napolitano de gran impacto visual' },
-  { titulo: 'Don Francisco de Moncada', autor: 'Anthony van Dyck', dato: 'Muy escasos lienzos de Van Dyck en museos españoles' },
-  { titulo: 'Retrato de doña Joaquina Candado', autor: 'Francisco de Goya', dato: 'Uno de los mejores retratos del período tardío de Goya' },
-  { titulo: 'Retablo de Fray Bonifacio Ferrer', autor: 'Gherardo Starnina', dato: 'Maestría florentina del siglo XV con detallismo extraordinario' },
-  { titulo: 'Retrato de Botticelli', autor: 'Sandro Botticelli', dato: 'El único retrato de Botticelli expuesto en España' },
-  { titulo: 'Grupa Valenciana', autor: 'Joaquín Sorolla', dato: 'Retrata a sus hijos en una fiesta campestre valenciana con luz mediterránea' },
 ];
 
 var datosVisita = [
@@ -128,20 +117,6 @@ export default function MuseoBellasArtes() {
         <p>Es la <strong>segunda pinacoteca más importante de España</strong> y la visita es completamente gratuita. Su colección recorre la historia del arte valenciano, español y europeo desde el siglo XIV hasta el XIX con obras de primerísima categoría.</p>
       </div>
 
-      {/* Obras clave */}
-      <div className="mba-obras-section">
-        <div className="mba-obras-titulo">Obras que no puedes perderte</div>
-        <div className="mba-obras-grid">
-          {obrasClave.map(o => (
-            <div className="mba-obra-card" key={o.titulo}>
-              <div className="mba-obra-titulo">{o.titulo}</div>
-              <div className="mba-obra-autor">{o.autor}</div>
-              <p className="mba-obra-dato">{o.dato}</p>
-            </div>
-          ))}
-        </div>
-      </div>
-
       {/* Colecciones */}
       <div className="mba-section-title">
         <h2>Las colecciones del museo</h2>
@@ -167,7 +142,7 @@ export default function MuseoBellasArtes() {
               </div>
 
               <div className="mba-obra-destac">
-                <span className="mba-obra-destac-icon">★</span>
+                <span className="mba-obra-destac-icon"></span>
                 <span>{col.obra}</span>
               </div>
 

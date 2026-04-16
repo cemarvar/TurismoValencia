@@ -13,7 +13,7 @@ var espacios = [
       { label: 'Taula de Canvis', val: 'Primer banco municipal de España · Hoy en el Palacio de Cervelló' },
       { label: 'Inscripción', val: 'Texto latino en el friso que exige honradez a los mercaderes' },
     ],
-    imgClass: 'img-salon',
+    imgClass: 'img-salonls',
   },
   {
     num: '02',
@@ -26,7 +26,7 @@ var espacios = [
       { label: 'Ventanas', val: 'Tracería gótica con dragones y figuras fantásticas' },
       { label: 'Puerta', val: 'Labrada con filigranas góticas y la imagen de Cristo Rey' },
     ],
-    imgClass: 'img-capilla',
+    imgClass: 'img-capillals',
   },
   {
     num: '03',
@@ -39,7 +39,7 @@ var espacios = [
       { label: 'Altura', val: 'Visible desde la fachada exterior del conjunto' },
       { label: 'Acceso', val: 'Solo en visitas especiales · Consultar calendario' },
     ],
-    imgClass: 'img-torreon',
+    imgClass: 'img-torreonls',
   },
   {
     num: '04',
@@ -52,7 +52,7 @@ var espacios = [
       { label: 'Artesonado', val: 'Dorado y policromado del siglo XV · Cada pieza es única' },
       { label: 'Procedencia', val: 'Antigua Casa de la Ciudad de Valencia' },
     ],
-    imgClass: 'img-consulado',
+    imgClass: 'img-consuladols',
   },
   {
     num: '05',
@@ -65,7 +65,7 @@ var espacios = [
       { label: 'Ambiente', val: 'El más tranquilo y fresco del monumento' },
       { label: 'Recomendación', val: 'Ideal para fotografiar la arquitectura exterior de las alas' },
     ],
-    imgClass: 'img-patio',
+    imgClass: 'img-patiols',
   },
 ];
 
@@ -121,7 +121,6 @@ export default function LonjaSeda() {
       <div className="ls-porqué">
         {porQueVisitar.map(p => (
           <div className="ls-porqué-item" key={p.titulo}>
-            <span className="ls-check">✓</span>
             <div>
               <div className="ls-porqué-titulo">{p.titulo}</div>
               <p className="ls-porqué-desc">{p.desc}</p>
@@ -185,7 +184,7 @@ export default function LonjaSeda() {
 
       {/* Audioguía */}
       <div className="ls-audioguia-box">
-        <div className="ls-audioguia-icono">🎧</div>
+        <div className="ls-audioguia-icono"></div>
         <div className="ls-audioguia-content">
           <div className="ls-audioguia-titulo">Audioguía y signoguía</div>
           <p>Puedes alquilar la audioguía en la taquilla por 2,25 € o descargarla en tu móvil. Disponible en <strong>11 idiomas</strong>: español, valenciano, inglés, alemán, francés, italiano, portugués, holandés, chino, japonés y ruso. La versión completa tiene 23 pistas y dura 60 minutos; la versión corta tiene 9 pistas con los puntos más destacados. La signoguía para personas con discapacidad auditiva es completamente gratuita, solicítala en taquilla.</p>

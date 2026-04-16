@@ -10,7 +10,7 @@
 .jt-hero {
     position: relative;
     height: 560px;
-    background-image: url('/img/img-quever/JardinTuria/hero.jpg');
+    background-image: url('/img/img-espacios/JardinTuria/hero-JardinTuria.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -343,8 +343,9 @@
     border-radius: 2px;
     overflow: hidden;
     height: 280px;
-    position: sticky;
     top: 90px;
+    border: 1px solid #000;
+    box-shadow: 0 0 0 3px #000; 
 }
 
 .jt-route-img-inner {
@@ -357,12 +358,12 @@
 }
 
 /* Imágenes */
-.img-cabecera  { background-image: url('/img/img-quever/JardinTuria/cabecera.jpg'); }
-.img-deportes  { background-image: url('/img/img-quever/JardinTuria/deportes.jpg'); }
-.img-musica    { background-image: url('/img/img-quever/JardinTuria/musica.jpg'); }
-.img-gulliver  { background-image: url('/img/img-quever/JardinTuria/gulliver.jpg'); }
-.img-cac       { background-image: url('/img/img-quever/JardinTuria/cac.jpg'); }
-.img-puentes   { background-image: url('/img/img-quever/JardinTuria/puentes.jpg'); }
+.img-cabecerajt  { background-image: url('/img/img-espacios/JardinTuria/cabecerajt.jpg'); }
+.img-deportesjt  { background-image: url('/img/img-espacios/JardinTuria/deportesjt.jpg'); }
+.img-musicajt    { background-image: url('/img/img-espacios/JardinTuria/musicajt.jpg'); }
+.img-gulliverjt  { background-image: url('/img/img-espacios/JardinTuria/gulliverjt.jpg'); }
+.img-cacjt       { background-image: url('/img/img-espacios/JardinTuria/cacjt.jpg'); }
+.img-puentesjt   { background-image: url('/img/img-espacios/JardinTuria/puentesjt.jpg'); }
 
 /* ── Tabla información práctica ── */
 .jt-info-practica {

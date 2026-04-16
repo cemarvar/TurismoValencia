@@ -14,7 +14,7 @@ var lugares = [
       { d: 'Mercadillo', v: 'Lunes y jueves: vintage, ropa de segunda mano y plantas al aire libre' },
       { d: 'Frente al mercado', v: 'Iglesia barroca de San Valero y San Vicente Mártir · s. XVII' },
     ],
-    imgClass: 'img-mercado',
+    imgClass: 'img-mercadorz',
     tags: [{ label: 'Mercado' }, { label: 'Vintage los lunes' }, { label: 'Esmorzaret' }],
   },
   {
@@ -29,7 +29,7 @@ var lugares = [
       { d: 'El Rus', v: 'El mejor bocadillo del barrio · Templo del esmorzaret valenciano' },
       { d: 'Ruzanuvol', v: 'Cerveza artesana italiana de barril sin pasteurizar · Piadinas' },
     ],
-    imgClass: 'img-gastronomia',
+    imgClass: 'img-gastronomiarz',
     tags: [{ label: 'Ricard Camarena' }, { label: 'Quique Dacosta' }, { label: 'Esmorzaret' }],
   },
   {
@@ -44,7 +44,7 @@ var lugares = [
       { d: 'Galerías', v: 'Espai Tactel, Color Elefante, Trentatres, Maika Sánchez, Imprevisual' },
       { d: 'Street art', v: 'Arte urbano en las calles del barrio · Especialmente junto al mercado' },
     ],
-    imgClass: 'img-arte',
+    imgClass: 'img-arterz',
     tags: [{ label: 'Arte contemporáneo' }, { label: 'Teatro' }, { label: 'Street art' }],
   },
   {
@@ -59,7 +59,7 @@ var lugares = [
       { d: 'Primera fase', v: '2018 · ~40% de la superficie total · Sobre las vías soterradas de RENFE' },
       { d: 'Horario', v: 'Abierto de 8:00 a 21:00 h · Rocódromo vertical · Acceso gratuito' },
     ],
-    imgClass: 'img-parque',
+    imgClass: 'img-parquerz',
     tags: [{ label: 'Gratuito', free: true }, { label: 'Paisajismo' }, { label: '2018' }],
   },
   {
@@ -74,7 +74,7 @@ var lugares = [
       { d: 'Utopik', v: 'Matías Perelló, 14 · Chocolate artesano sin aditivos · Bombones únicos' },
       { d: 'Gotham', v: 'Tienda de cómics · Referente en el barrio · Ambiente alternativo' },
     ],
-    imgClass: 'img-compras',
+    imgClass: 'img-comprasrz',
     tags: [{ label: 'Diseño local' }, { label: 'Chocolate' }, { label: 'Librería' }],
   },
   {
@@ -89,20 +89,9 @@ var lugares = [
       { d: 'La terra del ganxo', v: 'Apodo histórico del barrio · Trabajadores de la madera del Turia' },
       { d: 'Casales falleros', v: 'Mantienen la identidad del barrio con orgullo y tradición' },
     ],
-    imgClass: 'img-fallas',
+    imgClass: 'img-fallasrz',
     tags: [{ label: 'Fallas' }, { label: 'Premio iluminación' }, { label: 'Tradición' }],
   },
-];
-
-var calles = [
-  { nombre: 'Calle Cádiz', desc: 'Eje comercial y de ocio · Terrazas y bares' },
-  { nombre: 'Calle Cuba', desc: 'Premio iluminación Fallas · Ambiente y gastronomía' },
-  { nombre: 'Calle Sueca', desc: 'Corazón del barrio histórico · Compras y cafés' },
-  { nombre: 'Literato Azorín', desc: 'Premio iluminación Fallas · Restaurantes y bares' },
-  { nombre: 'Doctor Sumsi', desc: 'Galerías de arte · Imprevisual · Diseño' },
-  { nombre: 'Mestre Josep Serrano', desc: 'Canalla Bistró · Alta gastronomía casual' },
-  { nombre: 'Matías Perelló', desc: 'Utopik chocolates · Tiendas singulares' },
-  { nombre: 'Joaquín Costa', desc: 'Mercat Bar · Vida nocturna y tapas' },
 ];
 
 var datosVisita = [
@@ -121,7 +110,7 @@ export default function Ruzafa() {
     <div className="ruz-page">
 
       {/* Hero */}
-      <div className="ruz-hero">
+      <div className="ruzrz-hero">
         <div className="ruz-hero-overlay" />
         <div className="ruz-hero-content">
           <div className="ruz-eyebrow">Distrito del Ensanche · Del árabe Ruṣāfa, "jardín" · Barrio del Ensanche</div>
@@ -148,9 +137,9 @@ export default function Ruzafa() {
 
       {/* Historia box */}
       <div className="ruz-historia-box">
-        <div className="ruz-historia-icono">🌿</div>
+        <div className="ruz-historia-icono"></div>
         <div className="ruz-historia-content">
-          <div className="ruz-historia-titulo">Del jardín árabe al barrio más cool de Valencia</div>
+          <div className="ruz-historia-titulo">Del jardín árabe al barrio de Valencia</div>
           <p>En el siglo IX, el príncipe Abd Allah al-Balansi —"el valenciano"— mandó plantar un jardín de recreo a dos kilómetros de Valencia, imitando la residencia de su padre Abderramán I junto a Córdoba. Lo llamó al-Russafa: <strong>"jardín"</strong> en árabe. Durante siglos fue municipio independiente, conocido como <strong>"la terra del ganxo"</strong> por los trabajadores que recogían madera del Turia con ganchos. Integrado en Valencia en 1877, el barrio vivió décadas de marginalidad hasta que artistas, diseñadores y cocineros lo transformaron en el epicentro cultural más auténtico de la ciudad.</p>
         </div>
       </div>
@@ -159,19 +148,6 @@ export default function Ruzafa() {
       <div className="ruz-intro">
         <p>Ruzafa es hoy un barrio multicultural y creativo donde los vecinos de siempre conviven con una nueva generación de artistas, diseñadores y chefs. Los bares de toda la vida compiten con restaurantes de cocineros con estrella Michelin. Las galerías de arte contemporáneo se mezclan con tiendas de cómics y librerías-café. Y su Mercat de Russafa, con más de cien puestos de producto fresco, sigue siendo el corazón que late en el centro de todo.</p>
         <p>Es un barrio para perderse. <strong>No tiene horarios de visita</strong> — funciona a cualquier hora, desde el esmorzaret de las 10:00 h hasta la última copa de madrugada.</p>
-      </div>
-
-      {/* Calles del barrio */}
-      <div className="ruz-calles-wrap">
-        <div className="ruz-calles-titulo">Las calles del barrio</div>
-        <div className="ruz-calles-grid">
-          {calles.map(c => (
-            <div className="ruz-calle-chip" key={c.nombre}>
-              <div className="ruz-calle-nombre">{c.nombre}</div>
-              <div className="ruz-calle-desc">{c.desc}</div>
-            </div>
-          ))}
-        </div>
       </div>
 
       {/* Section title */}
@@ -217,7 +193,7 @@ export default function Ruzafa() {
       </div>
 
       {/* Tabla datos */}
-      <div className="ruz-info-practica">
+      <div className="ruz-info-practicarz">
         <h3>Información práctica · Barrio de Ruzafa</h3>
         <div className="ruz-tabla">
           {datosVisita.map(d => (

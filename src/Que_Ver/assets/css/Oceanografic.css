@@ -10,7 +10,7 @@
 .ocn-hero {
     position: relative;
     height: 560px;
-    background-image: url('/img/img-quever/Oceanografic/hero.jpg');
+    background-image: url('/img/img-espacios/Oceanografic/hero-oceanografic.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -275,6 +275,8 @@
     overflow: hidden;
     height: 280px;
     top: 90px;
+    border: 1px solid #000;
+    box-shadow: 0 0 0 3px #000; 
 }
 
 .ocn-route-img-inner {
@@ -287,14 +289,14 @@
 }
 
 /* Imágenes */
-.img-oceanos     { background-image: url('/img/img-quever/Oceanografic/oceanos.jpg'); }
-.img-artico      { background-image: url('/img/img-quever/Oceanografic/artico.jpg'); }
-.img-delfinario  { background-image: url('/img/img-quever/Oceanografic/delfinario.jpg'); }
-.img-antartico   { background-image: url('/img/img-quever/Oceanografic/antartico.jpg'); }
-.img-tropicales  { background-image: url('/img/img-quever/Oceanografic/tropicales.jpg'); }
-.img-mediterraneo { background-image: url('/img/img-quever/Oceanografic/mediterraneo.jpg'); }
-.img-islas       { background-image: url('/img/img-quever/Oceanografic/islas.jpg'); }
-.img-humedales   { background-image: url('/img/img-quever/Oceanografic/humedales.jpg'); }
+.img-oceanosocn     { background-image: url('/img/img-espacios/Oceanografic/oceanosocn.jpg'); }
+.img-articoocn      { background-image: url('/img/img-espacios/Oceanografic/articoocn.jpg'); }
+.img-delfinarioocn  { background-image: url('/img/img-espacios/Oceanografic/delfinarioocn.jpg'); }
+.img-antarticoocn   { background-image: url('/img/img-espacios/Oceanografic/antarticoocn.jpg'); }
+.img-tropicalesocn  { background-image: url('/img/img-espacios/Oceanografic/tropicalesocn.jpg'); }
+.img-mediterraneoocn { background-image: url('/img/img-espacios/Oceanografic/mediterraneoocn.jpg'); }
+.img-islasocn       { background-image: url('/img/img-espacios/Oceanografic/islasocn.jpg'); }
+.img-humedalesocn   { background-image: url('/img/img-espacios/Oceanografic/humedalesocn.jpg'); }
 
 /* ── Experiencias ── */
 .ocn-exp-section {
