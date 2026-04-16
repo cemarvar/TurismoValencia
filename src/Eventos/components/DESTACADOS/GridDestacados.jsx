@@ -8,7 +8,7 @@ export default function GridDestacados() {
         { imagen: "/img/img-eventos/deportes.jpg",              titulo: "Deportes",                   ruta: "/Deportes"  },
         { imagen: "/img/img-eventos/feria.jpeg",                titulo: "Gran Feria de Valencia",     ruta: "/GranFeria"  },
         { imagen: "/img/img-eventos/festivales.jpg",            titulo: "Festivales de Verano",       ruta: "/FestivalesVerano"  },
-    { imagen: "/img/img-eventos/corpus.jpg",                    titulo: "Corpus Christi",             ruta: "/GranFeria"  }
+    { imagen: "/img/img-eventos/corpus.jpg",                    titulo: "Corpus Christi",             ruta: "/CorpusChristi"  }
     ];
 
     return (

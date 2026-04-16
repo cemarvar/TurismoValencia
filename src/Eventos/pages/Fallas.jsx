@@ -9,7 +9,7 @@ var actos = [
     subtitulo: 'El pregón oficial · Inicio de las Fallas · Torres de Serranos',
     desc: 'La fiesta arranca oficialmente el último domingo de febrero con la Crida —llamamiento en valenciano—, el acto en el que las Falleras Mayores de Valencia, desde lo alto de las Torres de Serranos, animan a toda la ciudad y al mundo a sumarse a las Fallas. Es el pistoletazo oficial que da paso a semanas de pólvora, arte y celebración en la calle. La Crida es uno de los actos más emotivos para los falleros y falleras, que escuchan desde las calles del centro histórico el mensaje de sus máximas representantes.',
     dato: 'Torres de Serranos · Último domingo de febrero · Acceso libre',
-    imgClass: 'img-crida',
+    imgClass: 'img-cridafll',
     tags: [{ label: 'Gratuito', free: true }, { label: 'Centro histórico' }],
   },
   {
@@ -19,7 +19,7 @@ var actos = [
     subtitulo: '19 mascletàs · 120 decibelios · El ritual diario del fuego',
     desc: 'La mascletà es el ritual que marca el pulso de cada día durante los 19 días de Fallas. A las 14:00 h en punto, la Fallera Mayor sale al balcón del Ayuntamiento y pronuncia las palabras mágicas: "Senyor pirotècnic, pot començar la mascletà". Y entonces el suelo y el aire vibran simultáneamente durante diez minutos con cientos de kilos de pólvora que alcanzan los 120 decibelios. No es un espectáculo visual: es una experiencia física, sensorial, que se siente en el pecho. Una pirotecnia distinta cada día firma su mascletà, y la rivalidad entre ellas es parte de la leyenda. Truco imprescindible: mantén la boca entreabierta para amortiguar la presión.',
     dato: 'Plaza del Ayuntamiento · 14:00 h del 1 al 19 de marzo · Acceso libre · Llega 30 min antes',
-    imgClass: 'img-mascletà',
+    imgClass: 'img-mascletafll',
     tags: [{ label: 'Gratuito', free: true }, { label: '14:00 h' }, { label: '120 dB' }],
   },
   {
@@ -29,7 +29,7 @@ var actos = [
     subtitulo: 'El montaje mágico · Más de 400 monumentos en una sola noche',
     desc: 'La noche del 15 al 16 de marzo es una de las más mágicas de las Fallas. A las 23:59 h del día 15, la Nit de l\'Albà inaugura la Semana Fallera con todas las pirotecnias de la ciudad disparando simultáneamente —tradición recuperada en 2016—. A partir de ese momento, las 397 comisiones falleras trabajan sin descanso para que al amanecer del día 16 todos los monumentos estén plantados. Las fallas pueden alcanzar entre 14 y 20 metros de altura —el equivalente a un edificio de cinco plantas—. Al alba, el jurado recorre la ciudad y premia las mejores. Ver la ciudad transformada de madrugada, con los falleros todavía montando sus obras, es una experiencia única.',
     dato: 'Noche del 15 al 16 · A partir del 16 a las 9:00 h ya se pueden visitar todos los monumentos',
-    imgClass: 'img-plantà',
+    imgClass: 'img-plantafll',
     tags: [{ label: 'Noche del 15' }, { label: '+400 fallas' }, { label: 'Gratis' }],
   },
   {
@@ -39,7 +39,7 @@ var actos = [
     subtitulo: 'La única figura que se salva del fuego · Votación popular · Museo Fallero',
     desc: 'Cada comisión fallera aporta una figura —el ninot— a la Exposición del Ninot, celebrada en la Sala Arquerías del Museu de les Ciències (CAC). El público vota cuál merece salvarse de la cremà. El ganador, el ninot indultat, es la única figura de toda la fiesta que no arderá: pasa directamente al Museo Fallero, donde se conservan todos los indultats desde 1934. El veredicto popular del ninot infantil se lee el 14 de marzo y el de adultos el 15 de marzo. La exposición tiene entrada (3 €) y es una de las formas más accesibles de ver el nivel artístico de los monumentos falleros antes de que ardan.',
     dato: 'Exposición: CAC Museu de les Ciències · 3 € · Veredicto: 14–15 de marzo · Museo Fallero: gratuito lunes cerrado',
-    imgClass: 'img-ninot',
+    imgClass: 'img-ninotfll',
     tags: [{ label: 'Votación popular' }, { label: 'Desde 1934' }, { label: 'Museo Fallero' }],
   },
   {
@@ -49,7 +49,7 @@ var actos = [
     subtitulo: 'Plaza de la Virgen · Tapiz de 15 metros · El acto más emotivo de las Fallas',
     desc: 'Durante dos días consecutivos, el 17 y el 18 de marzo, miles de falleros y falleras recorren la ciudad ataviados con la indumentaria valenciana tradicional, desde sus barrios hasta la Plaza de la Virgen, para depositar flores a los pies de la Virgen de los Desamparados. Las flores, dispuestas por las comisiones según el diseño de ese año, van formando progresivamente un manto que al terminar alcanza 15 metros de altura sobre la imagen. El olor de las flores, la música de las bandas, el colorido de los trajes y la emoción de los falleros hacen de la Ofrenda el acto más sentido y universalmente reconocido de las Fallas. Se puede visitar el tapiz hasta el 20 de marzo.',
     dato: 'Plaza de la Virgen · 17 y 18 de marzo · Acceso libre · Tapiz de 15 m visitable hasta el 20',
-    imgClass: 'img-ofrenda',
+    imgClass: 'img-ofrendafll',
     tags: [{ label: 'Gratuito', free: true }, { label: 'Tapiz floral 15 m' }, { label: 'Acto más emotivo' }],
   },
   {
@@ -59,7 +59,7 @@ var actos = [
     subtitulo: 'Castillos de fuegos artificiales · Nit del Foc el 18 · +20 minutos de espectáculo',
     desc: 'Las noches de la Semana Fallera se iluminan con castillos de fuegos artificiales disparados desde el puente de Monteolivete, junto a la Ciudad de las Artes y las Ciencias. A las 23:59 h durante los días centrales, el cielo de Valencia se convierte en un lienzo de luz y color. El más esperado es la Nit del Foc —la noche del fuego— del 18 de marzo: más de 20 minutos de fuegos artificiales que atraen a cientos de miles de espectadores a lo largo del Jardín del Turia. Es el mayor espectáculo pirotécnico de toda la fiesta y uno de los más impresionantes de España.',
     dato: 'Jardín del Turia (Alameda) · 16–18 de marzo · 00:00 h · Nit del Foc: 18 de marzo · Acceso libre',
-    imgClass: 'img-foc',
+    imgClass: 'img-focfll',
     tags: [{ label: 'Gratuito', free: true }, { label: 'Nit del Foc el 18' }, { label: '+20 min' }],
   },
   {
@@ -69,7 +69,7 @@ var actos = [
     subtitulo: 'El gran final · Todo arde · Fallas infantiles 20:00 h · Fallas grandes 22:00 h',
     desc: 'La noche del 19 de marzo, día de San José, llega la cremà: el momento en que cada falla arde frente a los bomberos y los propios falleros que la construyeron durante meses. Es el acto más emocionante y paradójico de la fiesta: arte efímero que se consume en minutos ante la mirada de quienes más lo han trabajado. A las 20:00 h empiezan a arder las fallas infantiles; a las 22:00 h las grandes; a las 22:30 h el primer premio de Sección Especial; y a las 23:00 h la falla de la Plaza del Ayuntamiento, la última en arder, con los bomberos mojando la fachada del Ayuntamiento. La estrategia ideal: hacer la ruta de la cremà saltando de barrio en barrio.',
     dato: 'Infantiles: 20:00 h · Grandes: 22:00 h · 1er Premio SE: 22:30 h · Ayuntamiento: 23:00 h',
-    imgClass: 'img-cremà',
+    imgClass: 'img-cremafll',
     tags: [{ label: '19 de marzo' }, { label: 'La gran noche' }, { label: 'Arte efímero' }],
   },
 ];
@@ -119,7 +119,6 @@ export default function Fallas() {
 
       {/* Historia box */}
       <div className="fal-historia-box">
-        <div className="fal-historia-icono">🪵</div>
         <div className="fal-historia-content">
           <div className="fal-historia-titulo">Del paro de los carpinteros al Patrimonio de la Humanidad</div>
           <p>El origen de las Fallas se halla en una costumbre de los carpinteros valencianos: la víspera de San José —su patrón—, quemaban los <strong>"parots"</strong>, estructuras de madera de las que colgaban los candiles que les daban luz durante el invierno. Con la llegada de la primavera y los días más largos, ya no eran necesarios. La inventiva popular les fue dando forma humana, añadiendo harapos y trastos viejos, hasta convertirlos en los <strong>"ninots"</strong> de carácter satírico que conocemos hoy. Con el tiempo evolucionaron en monumentos de varios pisos y presupuestos millonarios. En noviembre de 2016, la UNESCO los inscribió en su <strong>Lista Representativa del Patrimonio Cultural Inmaterial de la Humanidad</strong>.</p>
@@ -150,7 +149,6 @@ export default function Fallas() {
               <p className="fal-desc">{acto.desc}</p>
 
               <div className="fal-dato-box">
-                <span className="fal-dato-icon">📍</span>
                 <span>{acto.dato}</span>
               </div>
 

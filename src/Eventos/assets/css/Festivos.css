@@ -10,7 +10,7 @@
 .fest-hero {
     position: relative;
     height: 480px;
-    background-image: url('/img/img-eventos/festivos/hero.jpg');
+    background-image: url('/img/img-eventos/festivos/hero-festivosft.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -177,75 +177,11 @@
     color: #1a1a1a;
 }
 
-/* ── Tradiciones ── */
-.fest-tradiciones-wrap {
-    margin: 0 48px 48px;
-    padding: 28px 32px;
-    background: #fffbf0;
-    border: 1.5px solid #e8d87a;
-}
-
-.fest-tradiciones-titulo {
-    font-size: 12px;
-    font-weight: 700;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    color: #7a6010;
-    margin-bottom: 20px;
-}
-
-.fest-tradiciones-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1px;
-    background: #e8d87a;
-    border: 1px solid #e8d87a;
-}
-
-.fest-tradicion-card {
-    background: #fff;
-    padding: 18px 16px;
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
-    transition: background 0.1s;
-}
-
-.fest-tradicion-card:hover {
-    background: #fffbf0;
-}
-
-.fest-tradicion-icono {
-    font-size: 24px;
-    line-height: 1;
-    margin-bottom: 4px;
-}
-
-.fest-tradicion-nombre {
-    font-size: 13px;
-    font-weight: 700;
-    color: #1a1a1a;
-    line-height: 1.3;
-}
-
-.fest-tradicion-fecha {
-    font-size: 11px;
-    font-weight: 600;
-    color: #eb5a00;
-    letter-spacing: 0.03em;
-}
-
-.fest-tradicion-desc {
-    font-size: 12px;
-    font-weight: 300;
-    color: #888;
-    margin-top: 2px;
-}
-
 /* ── Section title ── */
 .fest-section-title {
     padding: 0 48px 28px;
-    border-bottom: 2px solid #1a2a4a;
+    border-bottom: 2px solid #d3d3d3;
+;
 }
 
 .fest-section-title h2 {
@@ -293,13 +229,6 @@
     font-weight: 700;
     color: #1a1a1a;
     letter-spacing: -0.01em;
-}
-
-.fest-mes-count {
-    font-size: 12px;
-    font-weight: 300;
-    color: #aaa;
-    margin-left: auto;
 }
 
 /* Días del mes */
@@ -420,7 +349,6 @@
 }
 
 .fest-info-list li::before {
-    content: '→';
     position: absolute;
     left: 0;
     color: #eb5a00;

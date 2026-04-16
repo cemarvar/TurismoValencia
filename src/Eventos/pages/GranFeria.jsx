@@ -9,7 +9,7 @@ var actos = [
     subtitulo: 'La gran cita musical del verano · Pop, rock, flamenco, rap · Noche tras noche',
     desc: 'Los Conciertos de Viveros son el plato fuerte musical de la Gran Feria y uno de los festivales de verano al aire libre más populares de España. Durante casi todo el mes de julio, los Jardines del Real —conocidos popularmente como Viveros— se convierten en el escenario de artistas nacionales e internacionales de pop, rock, flamenco y rap. El aforo se llena noche tras noche con decenas de miles de personas bajo las estrellas, en uno de los entornos más bonitos de Valencia. Cada año el cartel sorprende con una mezcla de grandes referencias y nuevos talentos. El ambiente de los jardines iluminados, con los pinos centenarios de fondo y el calor del verano valenciano, hace de cada concierto una experiencia memorable.',
     dato: 'Jardines del Real (Viveros) · Del 1 al 25 de julio · Entrada de pago · Consultar cartel en granferiavalencia.com',
-    imgClass: 'img-viveros',
+    imgClass: 'img-viverosgf',
     tags: [{ label: 'Música en directo' }, { label: 'Jardines del Real' }, { label: 'Todo julio' }],
   },
   {
@@ -19,7 +19,7 @@ var actos = [
     subtitulo: 'Cada sábado una pirotecnia distinta · CAC, Puente de Monteolivete, Plaza del Ayuntamiento',
     desc: 'Todos los sábados del mes de julio, a las 23:59 h, el cielo de Valencia se ilumina con espectaculares castillos de fuegos artificiales disparados desde distintos puntos de la ciudad. Cada semana una pirotecnia diferente firma su espectáculo, creando una sana rivalidad que eleva la calidad de cada noche. Los mejores escenarios para verlos son el Jardín del Turia, el paseo de la Alameda y el puente de Monteolivete, con la Ciudad de las Artes y las Ciencias de fondo. El clímax llega con el castillo piromusical final —el "Mar d\'Estiu"— que clausura la Gran Feria con cientos de kilos de pólvora en un espectáculo de más de 20 minutos.',
     dato: 'Todos los sábados de julio · 23:59 h · Distintos puntos de la ciudad · Acceso libre',
-    imgClass: 'img-fuegos',
+    imgClass: 'img-fuegosgf',
     tags: [{ label: 'Gratuito', free: true }, { label: 'Cada sábado' }, { label: '23:59 h' }],
   },
   {
@@ -29,7 +29,7 @@ var actos = [
     subtitulo: '+120 años de historia · Conciertos gratuitos · Jam sessions · Artistas internacionales',
     desc: 'El Festival de Jazz de Valencia abre cada año la Gran Feria con uno de los eventos más queridos por los valencianos. Con más de 120 años de historia, reúne a los mejores intérpretes del jazz nacional e internacional en el Palau de la Música y en escenarios al aire libre por toda la ciudad. El concierto de apertura en los Jardines del Palau es especialmente esperado y habitualmente gratuito. Las míticas jam sessions en los bares y plazas del centro, donde los músicos improvisan hasta altas horas de la noche, son el alma más auténtica del festival y un planazo para las noches de principios de julio.',
     dato: 'Primera quincena de julio · Palau de la Música + escenarios urbanos · Conciertos desde 5–20 € y gratuitos',
-    imgClass: 'img-jazz',
+    imgClass: 'img-jazzgf',
     tags: [{ label: '+120 años' }, { label: 'Jazz' }, { label: 'Jam sessions' }],
   },
   {
@@ -39,7 +39,7 @@ var actos = [
     subtitulo: 'Más de un siglo de competición · Bandas de toda España y Europa',
     desc: 'El Certamen Internacional de Bandas de Música "Ciudad de Valencia" es uno de los concursos de bandas más prestigiosos y longevos de España, con más de un siglo de historia. Durante varios días de mediados de julio, el Palau de la Música acoge las actuaciones de las bandas participantes, divididas en distintas secciones, que compiten ante un jurado especializado. Muchas de ellas son bandas valencianas, tradición profundamente arraigada en la cultura musical de la Comunitat Valenciana. Tanto los conciertos en concurso como las actuaciones de bandas invitadas tienen un nivel musical excepcional y una entrada muy asequible.',
     dato: '15–19 de julio · Palau de la Música · Consultar programa en granferiavalencia.com',
-    imgClass: 'img-bandas',
+    imgClass: 'img-bandasgf',
     tags: [{ label: '+100 años de historia' }, { label: 'Palau de la Música' }, { label: 'Bandas valencianas' }],
   },
   {
@@ -49,7 +49,7 @@ var actos = [
     subtitulo: '+30 escenarios · Museos abiertos gratis · Espectáculo piromusical · Paella y cultura',
     desc: 'La Gran Nit de Juliol es la noche más transversal de la Gran Feria: una jornada en la que toda la ciudad se convierte en un enorme escenario de cultura gratuita. Más de 30 puntos repartidos por plazas, jardines y barrios acogen simultáneamente conciertos, espectáculos de circo, teatro, magia, danza y cuentacuentos. Los museos de Valencia abren sus puertas de noche y de forma gratuita, permitiendo visitas nocturnas con actividades especiales. La noche culmina con un gran espectáculo piromusical en el Puente de Monteolivete a las 00:30 h. El Parque Central, la Plaza de la Virgen, la Plaza del Ayuntamiento y los Jardines del Palau son los escenarios más animados.',
     dato: 'Un sábado de julio · Toda la ciudad · Museos gratis · Piromusical 00:30 h en Monteolivete',
-    imgClass: 'img-nit',
+    imgClass: 'img-nitgf',
     tags: [{ label: 'Gratuito', free: true }, { label: 'Museos nocturnos' }, { label: '+30 escenarios' }],
   },
   {
@@ -59,7 +59,7 @@ var actos = [
     subtitulo: 'Desde 1891 · 1.200.000 claveles · 30+ carrozas · El gran broche final de la feria',
     desc: 'La Batalla de Flores es el colofón espectacular de la Gran Feria y una de las tradiciones más queridas de Valencia desde 1891. El último domingo de julio, más de 30 carrozas decoradas con flores recorren el Paseo de la Alameda mientras sus tripulantes lanzan al público más de 1.200.000 claveles. Durante cerca de una hora, centenares de miles de flores surcan el aire en todas direcciones, hasta que al final la Alameda queda cubierta por una impresionante alfombra multicolor de pétalos. El olor a flor mezclado con el calor del verano valenciano es inconfundible. La Batalla de Flores es un acto visual y sensorial que no tiene comparación en ninguna otra fiesta española.',
     dato: 'Último domingo de julio · Paseo de la Alameda · 20:00 h · Acceso libre · Desde 1891',
-    imgClass: 'img-batallaflores',
+    imgClass: 'img-batallafloresgf',
     tags: [{ label: 'Gratuito', free: true }, { label: 'Desde 1891' }, { label: '1,2M claveles' }],
   },
   {
@@ -69,7 +69,7 @@ var actos = [
     subtitulo: 'Atracciones en el Turia · Espectáculos de magia · Moros y Cristianos · Visitas Albufera',
     desc: 'La Gran Feria llena todo julio con una programación paralela que va mucho más allá de los grandes eventos. La Feria de Atracciones se instala en el Jardín del Turia entre el Puente de las Flores y el de la Exposición, con noria, brazos giratorios y atracciones para todas las edades. Los espectáculos de magia familiar recorren mercados, plazas y calles. En el Cabanyal, la entrada de Moros y Cristianos recrea batallas históricas. De lunes a miércoles hay visitas guiadas gratuitas a la Albufera al atardecer. Y en los barrios y pedanías, cada jornada trae conciertos, cuentacuentos, circo y verbenas de barrio que son la Feria más auténtica.',
     dato: 'Jardines del Turia (entre Pte. Flores y Pte. Exposición) · Todo julio · Mayoría de actos gratuitos',
-    imgClass: 'img-atracciones',
+    imgClass: 'img-atraccionesgf',
     tags: [{ label: 'Familia' }, { label: 'Turia' }, { label: 'Albufera gratis' }],
   },
 ];
@@ -119,7 +119,6 @@ export default function GranFeria() {
 
       {/* Historia box */}
       <div className="gf-historia-box">
-        <div className="gf-historia-icono">🌺</div>
         <div className="gf-historia-content">
           <div className="gf-historia-titulo">Más de 150 años animando el verano valenciano</div>
           <p>En 1870, el Ayuntamiento de Valencia propuso crear una feria anual en julio para retener a los ciudadanos que abandonaban la ciudad en verano y atraer visitantes de fuera. El <strong>21 de julio de 1871</strong> se inauguró la primera Gran Feria con una vistosa cabalgata, pabellones, exposiciones de plantas y venta de productos locales. Con el tiempo, al coincidir con la recolección de las cosechas, se añadieron exposiciones agrícolas, ganaderas y concursos. En <strong>1891</strong> se incorporó la Batalla de Flores, que desde entonces cierra la feria cada último domingo de julio en el Paseo de la Alameda. Hoy la Gran Feria es un festival urbano de verano que combina la mejor programación cultural de la ciudad con el carácter mediterráneo más festivo de Valencia.</p>
@@ -150,7 +149,6 @@ export default function GranFeria() {
               <p className="gf-desc">{acto.desc}</p>
 
               <div className="gf-dato-box">
-                <span className="gf-dato-icon">📍</span>
                 <span>{acto.dato}</span>
               </div>
 

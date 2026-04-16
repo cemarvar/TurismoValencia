@@ -10,7 +10,7 @@
 .fv-hero {
     position: relative;
     height: 520px;
-    background-image: url('/img/img-eventos/festivalesverano/hero.jpg');
+    background-image: url('/img/img-eventos/festivalesverano/hero-festivalesveranofv.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -96,51 +96,6 @@
     width: 1px;
     height: 34px;
     background: rgba(255,255,255,0.25);
-}
-
-/* ── Géneros chips ── */
-.fv-generos-wrap {
-    margin: 0 48px;
-    padding: 24px 32px;
-    background: #f9f5ff;
-    border-top: 3px solid #7c3aed;
-    border-bottom: 1px solid #ddd6fe;
-}
-
-.fv-generos-titulo {
-    font-size: 11px;
-    font-weight: 700;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    color: #5b21b6;
-    margin-bottom: 14px;
-}
-
-.fv-generos-grid {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-}
-
-.fv-genero-chip {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    background: #fff;
-    border: 1px solid #ddd6fe;
-    padding: 6px 12px;
-    font-size: 13px;
-    color: #5b21b6;
-    transition: background 0.12s;
-}
-
-.fv-genero-chip:hover {
-    background: #f3e8ff;
-}
-
-.fv-genero-icono {
-    font-size: 15px;
-    line-height: 1;
 }
 
 /* ── Intro ── */
@@ -305,8 +260,10 @@
     border-radius: 2px;
     overflow: hidden;
     height: 280px;
-    position: sticky;
     top: 90px;
+    border: 1px solid #000;
+    box-shadow: 0 0 0 3px #000; 
+
 }
 
 .fv-route-img-inner {
@@ -319,21 +276,20 @@
 }
 
 /* Imágenes */
-.img-sansan   { background-image: url('/img/img-eventos/festivalesverano/sansan.jpg'); }
-.img-lesarts  { background-image: url('/img/img-eventos/festivalesverano/lesarts.jpg'); }
-.img-bigsound { background-image: url('/img/img-eventos/festivalesverano/bigsound.jpg'); }
-.img-fib      { background-image: url('/img/img-eventos/festivalesverano/fib.jpg'); }
-.img-zevra    { background-image: url('/img/img-eventos/festivalesverano/zevra.jpg'); }
-.img-arenal   { background-image: url('/img/img-eventos/festivalesverano/arenal.jpg'); }
-.img-medusa   { background-image: url('/img/img-eventos/festivalesverano/medusa.jpg'); }
-.img-rototom  { background-image: url('/img/img-eventos/festivalesverano/rototom.jpg'); }
-.img-visor    { background-image: url('/img/img-eventos/festivalesverano/visor.jpg'); }
+.img-sansanfv   { background-image: url('/img/img-eventos/festivalesverano/sansanfv.jpg'); }
+.img-lesartsfv  { background-image: url('/img/img-eventos/festivalesverano/lesartsfv.jpg'); }
+.img-bigsoundfv { background-image: url('/img/img-eventos/festivalesverano/bigsoundfv.jpg'); }
+.img-fibfv      { background-image: url('/img/img-eventos/festivalesverano/fibfv.jpg'); }
+.img-zevrafv    { background-image: url('/img/img-eventos/festivalesverano/zevrafv.jpg'); }
+.img-arenalfv   { background-image: url('/img/img-eventos/festivalesverano/arenalfv.jpg'); }
+.img-medusafv   { background-image: url('/img/img-eventos/festivalesverano/medusafv.jpg'); }
+.img-rototomfv  { background-image: url('/img/img-eventos/festivalesverano/rototomfv.jpg'); }
+.img-visorfv    { background-image: url('/img/img-eventos/festivalesverano/visorfv.jpg'); }
 
 /* ── Tabla ── */
 .fv-info-practica {
     margin: 52px 48px 0;
-    padding-top: 48px;
-    border-top: 1.5px solid #e5e5e5;
+    padding-top: 18px;
 }
 
 .fv-info-practica h3 {
@@ -427,7 +383,6 @@
 }
 
 .fv-info-list li::before {
-    content: '🎵';
     position: absolute;
     left: 0;
     font-size: 11px;

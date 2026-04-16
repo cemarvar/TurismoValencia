@@ -10,7 +10,7 @@
 .gf-hero {
     position: relative;
     height: 540px;
-    background-image: url('/img/img-eventos/granferia/hero.jpg');
+    background-image: url('/img/img-eventos/granferia/hero-granferiagf.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -107,11 +107,6 @@
     display: flex;
     gap: 24px;
     align-items: flex-start;
-}
-
-.gf-historia-icono {
-    font-size: 32px;
-    flex-shrink: 0;
 }
 
 .gf-historia-titulo {
@@ -254,10 +249,6 @@
     line-height: 1.5;
 }
 
-.gf-dato-icon {
-    flex-shrink: 0;
-}
-
 /* Tags */
 .gf-tags {
     display: flex;
@@ -289,8 +280,10 @@
     border-radius: 2px;
     overflow: hidden;
     height: 280px;
-    position: sticky;
     top: 90px;
+    border: 1px solid #000;
+    box-shadow: 0 0 0 3px #000; 
+
 }
 
 .gf-route-img-inner {
@@ -303,19 +296,18 @@
 }
 
 /* Imágenes */
-.img-viveros       { background-image: url('/img/img-eventos/granferia/viveros.jpg'); }
-.img-fuegos        { background-image: url('/img/img-eventos/granferia/fuegos.jpg'); }
-.img-jazz          { background-image: url('/img/img-eventos/granferia/jazz.jpg'); }
-.img-bandas        { background-image: url('/img/img-eventos/granferia/bandas.jpg'); }
-.img-nit           { background-image: url('/img/img-eventos/granferia/nit.jpg'); }
-.img-batallaflores { background-image: url('/img/img-eventos/granferia/batallaflores.jpg'); }
-.img-atracciones   { background-image: url('/img/img-eventos/granferia/atracciones.jpg'); }
+.img-viverosgf       { background-image: url('/img/img-eventos/granferia/viverosgf.jpg'); }
+.img-fuegosgf        { background-image: url('/img/img-eventos/granferia/fuegosgf.jpg'); }
+.img-jazzgf          { background-image: url('/img/img-eventos/granferia/jazzgf.jpg'); }
+.img-bandasgf        { background-image: url('/img/img-eventos/granferia/bandasgf.jpg'); }
+.img-nitgf           { background-image: url('/img/img-eventos/granferia/nitgf.jpg'); }
+.img-batallafloresgf { background-image: url('/img/img-eventos/granferia/batallafloresgf.jpg'); }
+.img-atraccionesgf   { background-image: url('/img/img-eventos/granferia/atraccionesgf.png'); }
 
 /* ── Tabla ── */
 .gf-info-practica {
     margin: 52px 48px 0;
-    padding-top: 48px;
-    border-top: 1.5px solid #e5e5e5;
+    padding-top: 18px;
 }
 
 .gf-info-practica h3 {
@@ -409,7 +401,6 @@
 }
 
 .gf-info-list li::before {
-    content: '🌺';
     position: absolute;
     left: 0;
     font-size: 11px;

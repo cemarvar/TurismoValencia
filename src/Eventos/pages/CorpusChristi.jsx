@@ -9,7 +9,7 @@ var actos = [
     subtitulo: '11 carros triunfales · Alameditas de Serranos → Plaza de la Virgen',
     desc: 'El viernes por la noche, los once carros triunfales conocidos como Rocas son trasladados solemnemente desde su custodia habitual en la Casa de las Rocas hasta la Plaza de la Virgen, donde permanecen expuestos hasta la procesión del domingo. Las Rocas son estructuras de madera con forma de barco antiguo que portan grupos escultóricos con episodios del Antiguo y Nuevo Testamento. Su origen se fecha entre 1373 y 1392, y las más antiguas de las actuales —"La Diablera"— datan del siglo XVI. Tiradas por caballos enjaezados especialmente para el acto, su desfile nocturno abre oficialmente los días grandes del Corpus. La más reciente es "El Santo Cáliz", que desfiló por primera vez en 2001 y fue bendecida por el Papa Juan Pablo II.',
     dato: 'Viernes · 20:00 h · Desde Alameditas de Serranos a Plaza de la Virgen · Acceso libre',
-    imgClass: 'img-rocas',
+    imgClass: 'img-rocascch',
     tags: [{ label: 'Gratuito', free: true }, { label: 'Viernes noche' }, { label: 'Siglo XIV–XX' }],
   },
   {
@@ -19,7 +19,7 @@ var actos = [
     subtitulo: 'Cantos tradicionales · Recorrido desde la Casa de las Rocas',
     desc: 'Tras el traslado de las Rocas, la noche del viernes se llena de música tradicional valenciana con la Nit d\'Albaes. Los cantores recorren el itinerario habitual partiendo desde la Casa de las Rocas, interpretando las albaes —cantos populares valencianos de carácter festivo y de madrugada. Es uno de los actos más íntimos y auténticos del Corpus, que permite vivir la fiesta con los sonidos más genuinos de la tradición musical valenciana.',
     dato: 'Viernes · 23:30 h · Desde la Casa de las Rocas · Recorrido por el centro histórico',
-    imgClass: 'img-albaes',
+    imgClass: 'img-albaescch',
     tags: [{ label: 'Gratuito', free: true }, { label: 'Noche del viernes' }, { label: 'Música tradicional' }],
   },
   {
@@ -29,7 +29,7 @@ var actos = [
     subtitulo: 'El momento más divertido del Corpus · Cubos de agua desde los balcones',
     desc: 'El sábado al mediodía, las calles de Cavallers y Avellanes se convierten en el escenario de uno de los momentos más populares y divertidos del Corpus: la Poalà. Los vecinos cuelgan pozales (cubos) en los balcones y, cuando pasan los "soldados del rey Herodes" de la Cabalgata del Convite, los reciben con cubos de agua. La broma tiene su réplica y los de abajo contraatacan. Es una tradición antigua de carácter festivo y de buen humor que combina la sátira popular con la celebración religiosa, y que cada año llena esas calles del barrio del Carmen de carcajadas, agua y espíritu de barrio.',
     dato: 'Sábado · 12:00 h · Calles Cavallers y Avellanes · Lleva ropa para mojarte',
-    imgClass: 'img-poala',
+    imgClass: 'img-poalacch',
     tags: [{ label: 'Gratuito', free: true }, { label: 'Sábado mediodía' }, { label: 'Tradición popular' }],
   },
   {
@@ -39,7 +39,7 @@ var actos = [
     subtitulo: 'Teatro medieval del siglo XV · Escenificado por niños · Pasajes bíblicos',
     desc: 'La tarde del sábado, la Plaza de la Virgen acoge la Representació dels Misteris: tres piezas de teatro breve que datan del siglo XV, escenificadas por niños, que narran pasajes bíblicos relacionados con los personajes que desfilarán al día siguiente en la Cabalgata del Convite y la Procesión. Es una de las tradiciones teatrales más antiguas de Valencia, superviviente del teatro religioso medieval que en el siglo XV llenaba las calles de la ciudad. Combinan el carácter didáctico con el espectáculo visual de los trajes históricos y la ambientación de la Plaza de la Virgen iluminada al atardecer.',
     dato: 'Sábado · 18:00 h · Plaza de la Virgen · Acceso libre · Representados por niños',
-    imgClass: 'img-misteris',
+    imgClass: 'img-misteriscch',
     tags: [{ label: 'Gratuito', free: true }, { label: 'Teatro medieval' }, { label: 'Siglo XV' }],
   },
   {
@@ -49,7 +49,7 @@ var actos = [
     subtitulo: 'El Capellà de les Roques · La Moma · 7 pecados capitales · Danzas tradicionales',
     desc: 'La Cabalgata del Convite es el gran espectáculo popular del Corpus. Desde la Plaza de Manises, el Capellà de les Roques —montado en un caballo con gualdrapa negra bordada en plata— encabeza la comitiva invitando al pueblo a la Procesión del Corpus, tal como hacían los jurados de Valencia desde 1516. Tras él desfilan las danzas más emblemáticas: La Moma i els Momos —la danza más antigua y específica del Corpus valenciano, en la que la Virtud (La Moma, vestida de blanco, y representada siempre por un hombre) derrota a los Siete Pecados Capitales (Els Momos, con traje negro y amarillo y antifaz)— junto a Els Arquets, Els Pastorets, Els Llauradors y Els Gegants i Nanos. Todo amenizado con música de dolçaina i tabalet.',
     dato: 'Domingo · 12:00 h · Sale de Plaza de Manises · Recorre Cavallers, Plaça Virgen, Avellanes · Acceso libre',
-    imgClass: 'img-moma',
+    imgClass: 'img-momacch',
     tags: [{ label: 'Gratuito', free: true }, { label: 'La Moma' }, { label: 'Danzas medievales' }],
   },
   {
@@ -59,7 +59,7 @@ var actos = [
     subtitulo: '11 carros triunfales tirados por caballos · Recorrido por el centro histórico',
     desc: 'La tarde del domingo, las once Rocas vuelven a recorrer las calles del centro histórico, esta vez precediendo la Solemne Procesión. Tiradas por caballos enjaezados, desfilan por las calles de Cavallers, Plaza del Tossal, Mercat, María Cristina, San Vicent, Plaza de la Reina, del Mar, Avellanes y suben hasta el Palau Arzobispal. Es el momento en que el público puede admirar de cerca estas monumentales carrozas medievales —algunas de varios metros de altura— en movimiento por las estrechas calles del centro histórico, una imagen sin igual en ninguna otra fiesta española.',
     dato: 'Domingo · 16:30 h · Sale de Calle Cavallers · Recorre el centro histórico · Acceso libre',
-    imgClass: 'img-pasrocas',
+    imgClass: 'img-pasrocascch',
     tags: [{ label: 'Gratuito', free: true }, { label: 'Caballos y carrozas' }, { label: 'Domingo tarde' }],
   },
   {
@@ -69,20 +69,9 @@ var actos = [
     subtitulo: 'El acto central · La Custodia · La Senyera · Personajes bíblicos · Banda Municipal',
     desc: 'La Solemne Procesión es el acto central y más majestuoso del Corpus. Parte de la Puerta de los Apóstoles de la Catedral a las 19:00 h del domingo y recorre el distrito de Ciutat Vella. Abre La Senyera de la ciudad flanqueada por Les Banderoles, portada por los tres Reyes de Armas con pelucas y barbas blancas. Tras ellos desfilan personajes del Antiguo y Nuevo Testamento, el Gremio de Carpinteros, danzas, los Gegants i Nanos, los once Misteris con sus figuras bíblicas (el Rey Herodes, San Cristóbal, la Tarasca, el Dragón de Sant Jordi...). El colofón es la Custodia —elemento primordial del Corpus— precedida por el Arzobispo de Valencia. Toda la procesión se ameniza con la Banda Sinfónica Municipal.',
     dato: 'Domingo · 19:00 h · Sale de la Puerta de los Apóstoles de la Catedral · Acceso libre',
-    imgClass: 'img-procesion',
+    imgClass: 'img-procesioncch',
     tags: [{ label: 'Gratuito', free: true }, { label: 'La Custodia' }, { label: 'Acto central' }],
   },
-];
-
-var personajes = [
-  { nombre: 'La Moma', desc: 'La Virtud · Vestida de blanco · Representada por un hombre', icono: '⚪' },
-  { nombre: 'Els Momos', desc: 'Los 7 Pecados Capitales · Traje negro y amarillo', icono: '👹' },
-  { nombre: 'El Capellà de les Roques', desc: 'A caballo · Gualdrapa negra bordada · Invita al pueblo', icono: '🐎' },
-  { nombre: 'La Tarasca', desc: 'Símbolo de Santa Marta · La monstrua apaciguada', icono: '🐉' },
-  { nombre: 'El Dragón de Sant Jordi', desc: 'Figura medieval · Origen de las leyendas', icono: '🔴' },
-  { nombre: 'Els Gegants i Nanos', desc: '8 gigantes · 6 cabezudos · Danza de 1588', icono: '👑' },
-  { nombre: 'Les Àguiles', desc: 'Símbolo de San Juan Evangelista · 3 tamaños', icono: '🦅' },
-  { nombre: 'La Degolla', desc: 'La guardia de Herodes · Caramelos y bastonazos', icono: '🎭' },
 ];
 
 var datosUtiles = [
@@ -130,7 +119,7 @@ export default function CorpusChristi() {
 
       {/* Historia box */}
       <div className="cc-historia-box">
-        <div className="cc-historia-icono">✝</div>
+        <div className="cc-historia-icono"></div>
         <div className="cc-historia-content">
           <div className="cc-historia-titulo">La Festa Grossa · La fiesta más antigua y solemne de Valencia</div>
           <p>La festividad del Corpus Christi fue instituida en <strong>1263</strong> por el Papa Urbano IV mediante la bula <em>Transiturus Hoc Mundo</em>, inspirada en un hecho milagroso ocurrido en Bolsena (Italia) y otro en Luchente (Valencia), donde la Hostia Sagrada habría manado sangre. La primera procesión en Valencia se organizó en <strong>1355</strong> a instancias del obispo <strong>Hugo de Fenollet</strong> —el mismo que bautizó a San Vicente Ferrer—, y desde <strong>1372</strong> se ha celebrado ininterrumpidamente. Declarada <strong>Bien de Interés Cultural Inmaterial</strong> por la Generalitat Valenciana en 2010, el Corpus es considerado históricamente la <em>"Festa Grossa"</em> —la Fiesta Grande— de la ciudad, y una de las procesiones más antiguas de España.</p>
@@ -141,20 +130,6 @@ export default function CorpusChristi() {
       <div className="cc-intro">
         <p>El Corpus de Valencia no es solo una procesión religiosa: es un espectáculo cultural total que combina teatro medieval, danzas ancestrales, carrozas históricas y una buena dosis de humor popular. Más allá del sentido católico de la fiesta, el Corpus es una muestra viva de la convivencia entre el espíritu festivo, simbólico, metafórico y religioso de la sociedad valenciana.</p>
         <p>Todos sus actos tienen lugar en el <strong>centro histórico de Valencia</strong> —Catedral, Plaza de la Virgen, Plaza de Manises, calles Cavallers y Avellanes— y son de <strong>acceso libre y gratuito</strong>. La Asociación Amics del Corpus de la Ciudad de València ha sido fundamental en la recuperación y mantenimiento de esta tradición centenaria.</p>
-      </div>
-
-      {/* Personajes */}
-      <div className="cc-personajes-wrap">
-        <div className="cc-personajes-titulo">Personajes del Corpus Christi de Valencia</div>
-        <div className="cc-personajes-grid">
-          {personajes.map(p => (
-            <div className="cc-personaje-card" key={p.nombre}>
-              <span className="cc-personaje-icono">{p.icono}</span>
-              <div className="cc-personaje-nombre">{p.nombre}</div>
-              <div className="cc-personaje-desc">{p.desc}</div>
-            </div>
-          ))}
-        </div>
       </div>
 
       {/* Section title */}
@@ -176,7 +151,7 @@ export default function CorpusChristi() {
               <p className="cc-desc">{acto.desc}</p>
 
               <div className="cc-dato-box">
-                <span className="cc-dato-icon">📍</span>
+                <span className="cc-dato-icon"></span>
                 <span>{acto.dato}</span>
               </div>
 
@@ -195,7 +170,7 @@ export default function CorpusChristi() {
       </div>
 
       {/* Tabla datos */}
-      <div className="cc-info-practica">
+      <div className="cc-info-practicach">
         <h3>Datos útiles · Corpus Christi de Valencia</h3>
         <div className="cc-tabla">
           {datosUtiles.map(d => (

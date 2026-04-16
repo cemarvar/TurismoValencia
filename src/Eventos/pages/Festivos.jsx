@@ -13,7 +13,6 @@ var festivos2026 = [
         nombre: 'Año Nuevo',
         tipo: 'nacional',
         desc: 'Inicio del año. La Plaza del Ayuntamiento acoge las campanadas de la víspera y los primeros eventos del año.',
-        icono: '🎆',
       },
       {
         fecha: '6 ene',
@@ -21,7 +20,6 @@ var festivos2026 = [
         nombre: 'Epifanía del Señor · Reyes Magos',
         tipo: 'nacional',
         desc: 'Cabalgata de los Reyes Magos por el centro de Valencia la víspera. La ilusión de los más pequeños en la noche más mágica del invierno.',
-        icono: '👑',
       },
       {
         fecha: '22 ene',
@@ -29,7 +27,6 @@ var festivos2026 = [
         nombre: 'San Vicente Mártir',
         tipo: 'local',
         desc: 'Festivo local exclusivo de la ciudad de Valencia. Patrón de la ciudad, mártir valenciano del siglo IV. Se celebra con actos religiosos y la recreación del bautizo de San Vicente Ferrer.',
-        icono: '⛪',
       },
     ],
   },
@@ -43,7 +40,6 @@ var festivos2026 = [
         nombre: 'San José · Las Fallas',
         tipo: 'nacional',
         desc: 'La noche más esperada del año. La "cremà" quema todas las fallas en una espectacular muestra de fuego y pirotecnia. El día grande de la mayor fiesta de Valencia, Patrimonio Inmaterial de la Humanidad.',
-        icono: '🔥',
       },
     ],
   },
@@ -57,7 +53,6 @@ var festivos2026 = [
         nombre: 'Viernes Santo',
         tipo: 'nacional',
         desc: 'Semana Santa Marinera en los Poblados Marítimos, con procesiones únicas de cofradías de granaderos al estilo napoleónico. Una de las Semanas Santas más singulares de España.',
-        icono: '✝',
       },
       {
         fecha: '6 abr',
@@ -65,7 +60,6 @@ var festivos2026 = [
         nombre: 'Lunes de Pascua',
         tipo: 'autonomico',
         desc: 'Festivo autonómico de la Comunitat Valenciana. Junto con el Viernes Santo, crea un puente de cuatro días en Semana Santa.',
-        icono: '🐣',
       },
       {
         fecha: '28 abr',
@@ -73,7 +67,6 @@ var festivos2026 = [
         nombre: 'San Vicente Ferrer',
         tipo: 'local',
         desc: 'Festivo local de la ciudad de Valencia y patrón de la Comunitat Valenciana. Se representan los "miracles" de San Vicente, obras teatrales callejeras que recrean milagros del santo en plazas y barrios.',
-        icono: '🎭',
       },
     ],
   },
@@ -87,7 +80,6 @@ var festivos2026 = [
         nombre: 'Día del Trabajo',
         tipo: 'nacional',
         desc: 'Festivo nacional. En Valencia coincide con la proximidad de la festividad de la Virgen de los Desamparados, patrona de la ciudad.',
-        icono: '✊',
       },
       {
         fecha: '10 may',
@@ -95,7 +87,6 @@ var festivos2026 = [
         nombre: 'Virgen de los Desamparados',
         tipo: 'referencia',
         desc: 'Patrona de Valencia y de la Comunitat. El segundo domingo de mayo, la Plaza de la Virgen se llena de flores y danzas. El traslado de la imagen desde la Basílica a la Catedral es uno de los momentos más emotivos del año.',
-        icono: '🌸',
       },
     ],
   },
@@ -109,7 +100,6 @@ var festivos2026 = [
         nombre: 'Fogueres de Sant Joan',
         tipo: 'autonomico',
         desc: 'Festivo autonómico de la Comunitat Valenciana. Las hogueras de San Juan llenan las playas valencianas en la noche más corta del año. Tradición milenaria que celebra el solsticio de verano con fuego y pólvora.',
-        icono: '🌊',
       },
     ],
   },
@@ -123,7 +113,6 @@ var festivos2026 = [
         nombre: 'Asunción de la Virgen',
         tipo: 'nacional',
         desc: 'Festivo nacional en pleno verano. Valencia disfruta de su máxima actividad turística y los festivales de verano están en su apogeo.',
-        icono: '☀',
       },
     ],
   },
@@ -137,7 +126,6 @@ var festivos2026 = [
         nombre: 'Día de la Comunitat Valenciana',
         tipo: 'autonomico',
         desc: 'La gran festividad valenciana. Conmemora la entrada del Rey Jaume I en Valencia en 1238. La Senyera desfila en procesión cívica desde el Ayuntamiento hasta el Parterre. Entrada de Moros y Cristianos y bailes regionales.',
-        icono: '🏴',
       },
       {
         fecha: '12 oct',
@@ -145,7 +133,6 @@ var festivos2026 = [
         nombre: 'Fiesta Nacional de España',
         tipo: 'nacional',
         desc: 'Día de la Hispanidad. En 2026 cae en lunes, creando un puente largo junto al 9 de octubre.',
-        icono: '🇪🇸',
       },
     ],
   },
@@ -159,7 +146,6 @@ var festivos2026 = [
         nombre: 'Todos los Santos',
         tipo: 'nacional',
         desc: 'Festividad de recogimiento y homenaje a los difuntos. Los cementerios de Valencia acogen miles de visitantes con flores.',
-        icono: '🕯',
       },
       {
         fecha: '2 nov',
@@ -167,7 +153,6 @@ var festivos2026 = [
         nombre: 'Día de los Difuntos',
         tipo: 'autonomico',
         desc: 'Festivo autonómico de la Comunitat Valenciana, recuperable. Complementa el día de Todos los Santos.',
-        icono: '🌹',
       },
     ],
   },
@@ -181,7 +166,6 @@ var festivos2026 = [
         nombre: 'Día de la Constitución Española',
         tipo: 'nacional',
         desc: 'Conmemoración de la Constitución de 1978. Festivo nacional.',
-        icono: '📜',
       },
       {
         fecha: '8 dic',
@@ -189,7 +173,6 @@ var festivos2026 = [
         nombre: 'Inmaculada Concepción',
         tipo: 'nacional',
         desc: 'Festividad religiosa. En Valencia se vive ya el ambiente navideño con los encendidos de luces y los primeros belenes.',
-        icono: '⭐',
       },
       {
         fecha: '25 dic',
@@ -197,21 +180,9 @@ var festivos2026 = [
         nombre: 'Navidad',
         tipo: 'nacional',
         desc: 'La gran fiesta familiar del invierno. Valencia celebra la Navidad con belenes artísticos, la feria Expojove y el ambiente único de la Plaza del Ayuntamiento iluminada.',
-        icono: '🎄',
       },
     ],
   },
-];
-
-var tradiciones = [
-  { nombre: 'Las Fallas', fecha: '1–19 marzo', icono: '🔥', desc: 'Patrimonio Inmaterial UNESCO' },
-  { nombre: 'Semana Santa Marinera', fecha: 'Semana Santa', icono: '⛵', desc: 'Poblados Marítimos' },
-  { nombre: 'Virgen dels Desamparats', fecha: '2.º domingo mayo', icono: '🌸', desc: 'Patrona de Valencia' },
-  { nombre: 'Corpus Christi', fecha: '64 días tras Pascua', icono: '🌺', desc: 'Procesión y alfombras' },
-  { nombre: '9 d\'Octubre', fecha: '9 octubre', icono: '🏴', desc: 'Día de la Comunitat' },
-  { nombre: 'Gran Fira de Juliol', fecha: 'Todo julio', icono: '🎆', desc: 'Desde 1871' },
-  { nombre: 'San Vicente Ferrer', fecha: 'Lunes de Pascua', icono: '🎭', desc: 'Miracles callejeros' },
-  { nombre: 'Navidad', fecha: 'Dic–ene', icono: '🎄', desc: 'Belenes y Cabalgata' },
 ];
 
 var tipoBadge = {
@@ -272,21 +243,6 @@ export default function Festivos() {
         <p>En 2026, Valencia disfruta de <strong>14 días festivos oficiales</strong>: 8 nacionales comunes a toda España, 4 autonómicos propios de la Comunitat Valenciana y 2 festivos locales exclusivos de la ciudad de Valencia —San Vicente Mártir (22 de enero) y San Vicente Ferrer (28 de abril)—. El año viene marcado por dos puentes especialmente generosos: <strong>Semana Santa</strong> (Viernes Santo + Lunes de Pascua = 4 días) y <strong>principios de octubre</strong> (9 d'Octubre + 12 de octubre en lunes).</p>
       </div>
 
-      {/* Tradiciones y festividades del año */}
-      <div className="fest-tradiciones-wrap">
-        <div className="fest-tradiciones-titulo">Principales tradiciones y festividades del año en Valencia</div>
-        <div className="fest-tradiciones-grid">
-          {tradiciones.map(t => (
-            <div className="fest-tradicion-card" key={t.nombre}>
-              <span className="fest-tradicion-icono">{t.icono}</span>
-              <div className="fest-tradicion-nombre">{t.nombre}</div>
-              <div className="fest-tradicion-fecha">{t.fecha}</div>
-              <div className="fest-tradicion-desc">{t.desc}</div>
-            </div>
-          ))}
-        </div>
-      </div>
-
       {/* Calendario mes a mes */}
       <div className="fest-section-title">
         <h2>Calendario festivo 2026 · Mes a mes</h2>
@@ -299,7 +255,6 @@ export default function Festivos() {
             <div className="fest-mes-header">
               <span className="fest-mes-num">{mes.num}</span>
               <span className="fest-mes-nombre">{mes.mes}</span>
-              <span className="fest-mes-count">{mes.dias.length} festivo{mes.dias.length > 1 ? 's' : ''}</span>
             </div>
 
             <div className="fest-dias">
@@ -324,7 +279,7 @@ export default function Festivos() {
 
       {/* Info box puentes */}
       <div className="fest-info-box">
-        <h3>🌉 Puentes destacados de 2026 en Valencia</h3>
+        <h3> Puentes destacados de 2026 en Valencia</h3>
         <ul className="fest-info-list">
           <li><strong>Semana Santa (3–6 abr):</strong> Viernes Santo + Lunes de Pascua = 4 días consecutivos de puente</li>
           <li><strong>San Vicente Ferrer (25–28 abr):</strong> Festivo local el martes, posible puente largo de fin de semana</li>

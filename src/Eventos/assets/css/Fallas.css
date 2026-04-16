@@ -10,7 +10,7 @@
 .fal-hero {
     position: relative;
     height: 560px;
-    background-image: url('/img/img-eventos/fallas/hero.jpg');
+    background-image: url('/img/img-eventos/fallas/hero-fallasfll.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -109,10 +109,6 @@
     align-items: flex-start;
 }
 
-.fal-historia-icono {
-    font-size: 32px;
-    flex-shrink: 0;
-}
 
 .fal-historia-titulo {
     font-size: 15px;
@@ -254,10 +250,6 @@
     line-height: 1.5;
 }
 
-.fal-dato-icon {
-    flex-shrink: 0;
-}
-
 /* Tags */
 .fal-tags {
     display: flex;
@@ -289,8 +281,10 @@
     border-radius: 2px;
     overflow: hidden;
     height: 280px;
-    position: sticky;
     top: 90px;
+    border: 1px solid #000;
+    box-shadow: 0 0 0 3px #000; 
+    
 }
 
 .fal-route-img-inner {
@@ -303,19 +297,18 @@
 }
 
 /* Imágenes */
-.img-crida   { background-image: url('/img/img-eventos/fallas/crida.jpg'); }
-.img-mascletà { background-image: url('/img/img-eventos/fallas/mascletà.jpg'); }
-.img-plantà  { background-image: url('/img/img-eventos/fallas/plantà.jpg'); }
-.img-ninot   { background-image: url('/img/img-eventos/fallas/ninot.jpg'); }
-.img-ofrenda { background-image: url('/img/img-eventos/fallas/ofrenda.jpg'); }
-.img-foc     { background-image: url('/img/img-eventos/fallas/foc.jpg'); }
-.img-cremà   { background-image: url('/img/img-eventos/fallas/cremà.jpg'); }
+.img-cridafll   { background-image: url('/img/img-eventos/fallas/cridafll.jpg'); }
+.img-mascletafll { background-image: url('/img/img-eventos/fallas/mascletafll.jpg'); }
+.img-plantafll  { background-image: url('/img/img-eventos/fallas/plantafll.jpg'); }
+.img-ninotfll   { background-image: url('/img/img-eventos/fallas/ninotfll.jpg'); }
+.img-ofrendafll { background-image: url('/img/img-eventos/fallas/ofrendafll.jpg'); }
+.img-focfll     { background-image: url('/img/img-eventos/fallas/focfll.jpg'); }
+.img-cremafll   { background-image: url('/img/img-eventos/fallas/cremafll.jpg'); }
 
 /* ── Tabla datos útiles ── */
 .fal-info-practica {
     margin: 52px 48px 0;
-    padding-top: 48px;
-    border-top: 1.5px solid #e5e5e5;
+    padding-top: 18px;
 }
 
 .fal-info-practica h3 {
@@ -409,7 +402,6 @@
 }
 
 .fal-info-list li::before {
-    content: '🔥';
     position: absolute;
     left: 0;
     font-size: 11px;
