@@ -10,7 +10,7 @@
 .fid-hero {
     position: relative;
     height: 520px;
-    background-image: url('/img/img-gastronomia/fideua/hero.jpg');
+    background-image: url('/img/img-gastronomia/fideua/hero-fideuafdu.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -109,11 +109,6 @@
     align-items: flex-start;
 }
 
-.fid-historia-icono {
-    font-size: 32px;
-    flex-shrink: 0;
-}
-
 .fid-historia-titulo {
     font-size: 15px;
     font-weight: 700;
@@ -132,97 +127,6 @@
 .fid-historia-content strong {
     font-weight: 600;
     color: #fff;
-}
-
-/* ── Diferencias ── */
-.fid-diferencias-wrap {
-    margin: 0 48px;
-    padding: 28px 32px;
-    background: #f0f7ff;
-    border: 1.5px solid #b0d4e8;
-}
-
-.fid-dif-titulo {
-    font-size: 12px;
-    font-weight: 700;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    color: #0055aa;
-    margin-bottom: 20px;
-}
-
-.fid-dif-grid {
-    display: grid;
-    grid-template-columns: 1fr 60px 1fr;
-    gap: 0;
-    align-items: start;
-}
-
-.fid-dif-vs {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 18px;
-    font-weight: 700;
-    color: #0077aa;
-    padding-top: 28px;
-}
-
-.fid-dif-label {
-    font-size: 14px;
-    font-weight: 700;
-    color: #0077aa;
-    margin-bottom: 10px;
-    text-transform: uppercase;
-    letter-spacing: 0.06em;
-}
-
-.fid-dif-label--right {
-    text-align: right;
-}
-
-.fid-dif-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    gap: 7px;
-}
-
-.fid-dif-list li {
-    font-size: 13px;
-    font-weight: 300;
-    color: #333;
-    padding-left: 14px;
-    position: relative;
-    line-height: 1.4;
-}
-
-.fid-dif-list li::before {
-    content: '·';
-    position: absolute;
-    left: 4px;
-    color: #0077aa;
-    font-weight: 700;
-}
-
-.fid-dif-list--right li {
-    padding-left: 0;
-    padding-right: 14px;
-    text-align: right;
-}
-
-.fid-dif-list--right li::before {
-    content: none;
-}
-
-.fid-dif-list--right li::after {
-    content: '·';
-    position: absolute;
-    right: 4px;
-    color: #777;
-    font-weight: 700;
 }
 
 /* ── Intro ── */
@@ -375,8 +279,10 @@
     border-radius: 2px;
     overflow: hidden;
     height: 280px;
-    position: sticky;
     top: 90px;
+    border: 1px solid #000;
+    box-shadow: 0 0 0 3px #000; 
+
 }
 
 .fid-route-img-inner {
@@ -389,10 +295,10 @@
 }
 
 /* Imágenes */
-.img-tradicional { background-image: url('/img/img-gastronomia/fideua/tradicional.jpg'); }
-.img-senyoret    { background-image: url('/img/img-gastronomia/fideua/senyoret.jpg'); }
-.img-negra       { background-image: url('/img/img-gastronomia/fideua/negra.jpg'); }
-.img-huerta      { background-image: url('/img/img-gastronomia/fideua/huerta.jpg'); }
+.img-tradicionalfdu { background-image: url('/img/img-gastronomia/fideua/tradicionalfdu.jpg'); }
+.img-senyoretfdu    { background-image: url('/img/img-gastronomia/fideua/senyoretfdu.jpg'); }
+.img-negrafdu       { background-image: url('/img/img-gastronomia/fideua/negrafdu.jpg'); }
+.img-huertafdu      { background-image: url('/img/img-gastronomia/fideua/huertafdu.jpg'); }
 
 /* ── Secretos ── */
 .fid-secretos-wrap {
@@ -582,7 +488,6 @@
 }
 
 .fid-info-list li::before {
-    content: '⚓';
     position: absolute;
     left: 0;
     font-size: 11px;

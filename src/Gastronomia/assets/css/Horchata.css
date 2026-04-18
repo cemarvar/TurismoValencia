@@ -10,7 +10,7 @@
 .hor-hero {
     position: relative;
     height: 520px;
-    background-image: url('/img/img-gastronomia/horchata/hero.jpg');
+    background-image: url('/img/img-gastronomia/horchata/hero-horchatahc.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -109,11 +109,6 @@
     align-items: flex-start;
 }
 
-.hor-historia-icono {
-    font-size: 32px;
-    flex-shrink: 0;
-}
-
 .hor-historia-titulo {
     font-size: 15px;
     font-weight: 700;
@@ -137,50 +132,6 @@
 .hor-historia-content em {
     font-style: italic;
     color: #d4b86a;
-}
-
-/* ── Propiedades ── */
-.hor-props-wrap {
-    margin: 0 48px 52px;
-    padding: 28px 32px;
-    background: #fdfcf5;
-    border: 1.5px solid #d4b86a;
-}
-
-.hor-props-titulo {
-    font-size: 12px;
-    font-weight: 700;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    color: #6a5010;
-    margin-bottom: 18px;
-}
-
-.hor-props-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 12px 24px;
-}
-
-.hor-prop-card {
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
-    padding: 12px 0;
-    border-bottom: 1px solid #e8d87a;
-}
-
-.hor-prop-nombre {
-    font-size: 14px;
-    font-weight: 700;
-    color: #1a1a1a;
-}
-
-.hor-prop-desc {
-    font-size: 12px;
-    font-weight: 300;
-    color: #777;
-    line-height: 1.4;
 }
 
 /* ── Intro ── */
@@ -289,10 +240,6 @@
     line-height: 1.5;
 }
 
-.hor-dato-icon {
-    flex-shrink: 0;
-}
-
 /* Tags */
 .hor-tags {
     display: flex;
@@ -317,8 +264,9 @@
     border-radius: 2px;
     overflow: hidden;
     height: 270px;
-    position: sticky;
     top: 90px;
+    border: 1px solid #000;
+    box-shadow: 0 0 0 3px #000; 
 }
 
 .hor-route-img-inner {
@@ -331,11 +279,11 @@
 }
 
 /* Imágenes */
-.img-hor-vaso      { background-image: url('/img/img-gastronomia/horchata/vaso.jpg'); }
-.img-hor-historia  { background-image: url('/img/img-gastronomia/horchata/historia.jpg'); }
-.img-hor-chufa     { background-image: url('/img/img-gastronomia/horchata/chufa.jpg'); }
-.img-hor-fartons   { background-image: url('/img/img-gastronomia/horchata/fartons.jpg'); }
-.img-hor-granizada { background-image: url('/img/img-gastronomia/horchata/granizada.jpg'); }
+.img-hor-vasoch      { background-image: url('/img/img-gastronomia/horchata/vasoch.jpg'); }
+.img-hor-historiach  { background-image: url('/img/img-gastronomia/horchata/historiach.jpg'); }
+.img-hor-chufach     { background-image: url('/img/img-gastronomia/horchata/chufach.jpg'); }
+.img-hor-fartonsch   { background-image: url('/img/img-gastronomia/horchata/fartonsch.jpg'); }
+.img-hor-granizadach { background-image: url('/img/img-gastronomia/horchata/granizadach.jpg'); }
 
 /* ── Horchaterías ── */
 .hor-rest-wrap {
@@ -444,7 +392,6 @@
 }
 
 .hor-info-list li::before {
-    content: '🥛';
     position: absolute;
     left: 0;
     font-size: 11px;

@@ -8,7 +8,7 @@ var secciones = [
     subtitulo: 'Del puchero al horno del panadero · Cocina de aprovechamiento medieval',
     desc: 'El arroz al horno —arròs al forn en valenciano— es uno de los platos más auténticos y desconocidos de la cocina valenciana. Durante la Valencia medieval ya existía una receta llamada "arròs en cassola al forn", y se sabe que los árabes lo elaboraban al menos desde el siglo XVI. Pero su historia más cercana y entrañable viene de la cocina de aprovechamiento: al día siguiente de cocinar el puchero valenciano (el cocido local), el caldo sobrante, rico en colágeno, junto con los garbanzos, carnes y embutidos no consumidos, se convertía en la base del arroz al horno. El nombre popular "arròs passejat" —arroz paseado— describe a la perfección otra tradición: como las casas no tenían horno propio, las mujeres preparaban la cazuela de barro en casa y la "paseaban" por las calles hasta el horno del panadero, que la cocinaba aprovechando el calor residual tras cocer el pan. Una costumbre que todavía pervive en algunos pueblos de la Comunitat.',
     dato: 'Plato del sur de Valencia · Especialmente típico entre Xàtiva y el norte de Alicante · Cocinado en cazuela de barro al horno',
-    imgClass: 'img-historia',
+    imgClass: 'img-historiaah',
     tags: [{ label: 'Arròs passejat' }, { label: 'Medieval' }, { label: 'Aprovechamiento' }],
   },
   {
@@ -17,7 +17,7 @@ var secciones = [
     subtitulo: 'Gorgues · Barro poroso · Calor uniforme · La costra dorada',
     desc: 'En el arroz al horno, el recipiente no es opcional: es parte esencial del plato. La cazuela de barro valenciana —conocida como gorgues— es un material poroso que retiene el calor de manera uniforme y permite una evaporación lenta, muy diferente al rápido calor de la paella metálica. Esta cocción suave y continua es la que produce la característica costra dorada y crujiente en la superficie —las patatas y la piel de las morcillas se tuestan uniformemente— mientras el interior queda eixut (seco), suelto y perfectamente impregnado del colágeno y los aromas del caldo del puchero. Además, el barro mantiene la temperatura mucho tiempo después de salir del horno, lo que permite un reposo natural que termina de perfeccionar el punto del arroz. En cazuela de metal o de otro material, el resultado nunca será el mismo.',
     dato: 'Cazuela de barro (gorgues) · 220°C durante 20–25 min · Arroz seco (eixut) · Costra dorada en la superficie',
-    imgClass: 'img-cazuela',
+    imgClass: 'img-cazuelaah',
     tags: [{ label: 'Cazuela de barro' }, { label: 'Costra dorada' }, { label: 'Eixut' }],
   },
   {
@@ -26,7 +26,7 @@ var secciones = [
     subtitulo: 'Garbanzos · Morcilla de cebolla · Costilla · Panceta · Cabeza de ajos',
     desc: 'La receta base del arroz al horno es un catálogo de los productos del cerdo y la huerta valenciana. Los garbanzos —herencia directa del puchero— aportan textura terrosa que contrasta con la elasticidad del arroz. La morcilla de cebolla es el embutido estrella: su rotura controlada durante el horneado tiñe y aromatiza el arroz de forma inconfundible. La costilla de cerdo y la panceta entregan grasa y potencia al caldo. Las rodajas de patata absorben el exceso de caldo y se doran por arriba. El tomate, también en rodajas sobre la superficie, aporta frescura y humedad. Y la cabeza de ajos entera, presidiendo el centro de la cazuela, es el elemento más visual y aromático: al finalizar la cocción los ajos quedan cremosos y dulces, y la tradición dicta que quien reparte el arroz los ofrece a los comensales como manjar. El caldo del puchero —nunca agua— es el ingrediente que distingue un arroz mediocre de uno memorable.',
     dato: 'Proporción: 2 partes de caldo caliente por 1 de arroz · Arroz de grano redondo DO Valencia (bomba, senia, albufera)',
-    imgClass: 'img-ingredientes',
+    imgClass: 'img-ingredientesah',
     tags: [{ label: 'Garbanzos' }, { label: 'Morcilla de cebolla' }, { label: 'Caldo de puchero' }],
   },
   {
@@ -35,20 +35,9 @@ var secciones = [
     subtitulo: 'Arroz con costra · Con manitas · Vegetal · De bogavante · Regional y de temporada',
     desc: 'La receta tradicional admite variaciones tan apreciadas como la original. El arroz con costra —especialmente típico en Alicante— lleva un huevo batido que se vierte al final y se gratina, creando una capa dorada y esponjosa en la superficie que es todo un espectáculo. El arroz al horno con manitas de cerdo, que prepara por encargo la arrocería Casa Chaparro en Riba-Roja del Turia, añade una textura gelatinosa y melosa al caldo que lo convierte en una variante extraordinariamente sabrosa. Las versiones más modernas incluyen la de bogavante (en restaurantes de cocina de autor), la de conejo y pollo (alternativa a las carnes de cerdo) y la versión vegetariana con verduras de temporada, alcachofas, habas y setas. El restaurante La Riuà de Valencia elabora hasta 6 tipos distintos de arroz al horno, incluyendo el de coca y el grava.',
     dato: 'Arroz con costra: típico de Alicante · Con manitas: meloso y gelatinoso · Con costra de huevo batido al gratinar',
-    imgClass: 'img-variantes',
+    imgClass: 'img-variantesah',
     tags: [{ label: 'Arroz con costra' }, { label: 'Con manitas' }, { label: '6 variantes en La Riuà' }],
   },
-];
-
-var ingredientes = [
-  { nombre: 'Arroz DO Valencia', icono: '🌾', desc: 'Bomba, Senia o Albufera · Grano redondo · Absorbe el caldo sin deshacerse' },
-  { nombre: 'Caldo de puchero', icono: '🍲', desc: 'Nunca agua · Rico en colágeno · Concentrado y lleno de matices' },
-  { nombre: 'Garbanzos cocidos', icono: '🫘', desc: 'Textura terrosa · Herencia directa del cocido valenciano' },
-  { nombre: 'Morcilla de cebolla', icono: '⚫', desc: 'El embutido estrella · Tiñe y aromatiza el arroz durante el horneado' },
-  { nombre: 'Costilla de cerdo', icono: '🥩', desc: 'Dorada en aceite antes de hornear · Potencia y sabor al conjunto' },
-  { nombre: 'Panceta', icono: '🥓', desc: 'Grasa natural que impregna el arroz durante la cocción en el horno' },
-  { nombre: 'Cabeza de ajos', icono: '🧄', desc: 'Entera en el centro · Al final queda cremosa y dulce · La tradición la ofrece como manjar' },
-  { nombre: 'Patata y tomate', icono: '🍅', desc: 'En rodajas sobre el arroz · Se doran por arriba · Regulan la humedad' },
 ];
 
 var restaurantes = [
@@ -143,24 +132,9 @@ export default function ArrozHorno() {
 
       {/* Historia box */}
       <div className="ah-historia-box">
-        <div className="ah-historia-icono">🏺</div>
         <div className="ah-historia-content">
           <div className="ah-historia-titulo">El arroz paseado · La cocina que viajaba hasta el panadero</div>
           <p>Mientras la paella nació al aire libre y en el campo, el arroz al horno nació en las cocinas de los hogares valencianos y en el horno comunal del barrio. <strong>Arròs passejat</strong> —arroz paseado— era el nombre popular, porque las mujeres preparaban la cazuela con todos los ingredientes y la llevaban caminando hasta el horno del panadero, que aprovechaba el calor residual tras cocer el pan para terminar la cocción. A cambio, el panadero cobraba una pequeña cantidad o una porción del arroz, creando un vínculo social único alrededor de este plato. Su ADN es el <strong>puchero valenciano</strong>: el caldo sobrante, los garbanzos y las carnes del cocido del día anterior se reutilizaban al día siguiente en el arroz al horno. No era solo economía doméstica: era inteligencia culinaria. Una costumbre que todavía pervive en algunos pueblos de la Comunitat, especialmente en la zona sur de Valencia, donde <strong>Xàtiva</strong> es considerada la capital del plato.</p>
-        </div>
-      </div>
-
-      {/* Ingredientes */}
-      <div className="ah-ingredientes-wrap">
-        <div className="ah-ingredientes-titulo">Los ingredientes del arròs al forn</div>
-        <div className="ah-ingredientes-grid">
-          {ingredientes.map(i => (
-            <div className="ah-ing-card" key={i.nombre}>
-              <span className="ah-ing-icono">{i.icono}</span>
-              <div className="ah-ing-nombre">{i.nombre}</div>
-              <div className="ah-ing-desc">{i.desc}</div>
-            </div>
-          ))}
         </div>
       </div>
 
@@ -187,7 +161,6 @@ export default function ArrozHorno() {
               <p className="ah-desc">{s.desc}</p>
 
               <div className="ah-dato-box">
-                <span className="ah-dato-icon">🍶</span>
                 <span>{s.dato}</span>
               </div>
 
@@ -234,7 +207,7 @@ export default function ArrozHorno() {
               </div>
               <div className="ah-rest-especialidad">{r.especialidad}</div>
               <p className="ah-rest-desc">{r.desc}</p>
-              <div className="ah-rest-dir">📍 {r.direccion}</div>
+              <div className="ah-rest-dir"> {r.direccion}</div>
             </div>
           ))}
         </div>

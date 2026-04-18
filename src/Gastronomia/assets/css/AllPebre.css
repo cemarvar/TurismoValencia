@@ -10,7 +10,7 @@
 .alp-hero {
     position: relative;
     height: 520px;
-    background-image: url('/img/img-gastronomia/allpebre/hero.jpg');
+    background-image: url('/img/img-gastronomia/allpebre/hero-allpebreap.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -109,11 +109,6 @@
     align-items: flex-start;
 }
 
-.alp-historia-icono {
-    font-size: 32px;
-    flex-shrink: 0;
-}
-
 .alp-historia-titulo {
     font-size: 15px;
     font-weight: 700;
@@ -137,64 +132,6 @@
 .alp-historia-content em {
     font-style: italic;
     color: #8fbc6a;
-}
-
-/* ── Ingredientes ── */
-.alp-ingredientes-wrap {
-    margin: 0 48px 52px;
-    padding: 28px 32px;
-    background: #f4f8f0;
-    border: 1.5px solid #8fbc6a;
-}
-
-.alp-ingredientes-titulo {
-    font-size: 12px;
-    font-weight: 700;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    color: #2e5010;
-    margin-bottom: 18px;
-}
-
-.alp-ingredientes-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1px;
-    background: #8fbc6a;
-    border: 1px solid #8fbc6a;
-}
-
-.alp-ing-card {
-    background: #fff;
-    padding: 16px 14px;
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
-    transition: background 0.1s;
-}
-
-.alp-ing-card:hover {
-    background: #f4f8f0;
-}
-
-.alp-ing-icono {
-    font-size: 22px;
-    line-height: 1;
-    margin-bottom: 4px;
-}
-
-.alp-ing-nombre {
-    font-size: 13px;
-    font-weight: 700;
-    color: #1a1a1a;
-    line-height: 1.3;
-}
-
-.alp-ing-desc {
-    font-size: 12px;
-    font-weight: 300;
-    color: #777;
-    line-height: 1.4;
 }
 
 /* ── Intro ── */
@@ -303,10 +240,6 @@
     line-height: 1.5;
 }
 
-.alp-dato-icon {
-    flex-shrink: 0;
-}
-
 /* Tags */
 .alp-tags {
     display: flex;
@@ -331,8 +264,9 @@
     border-radius: 2px;
     overflow: hidden;
     height: 270px;
-    position: sticky;
     top: 90px;
+    border: 1px solid #000;
+    box-shadow: 0 0 0 3px #000; 
 }
 
 .alp-route-img-inner {
@@ -345,11 +279,11 @@
 }
 
 /* Imágenes */
-.img-alp-plato    { background-image: url('/img/img-gastronomia/allpebre/plato.jpg'); }
-.img-alp-anguila  { background-image: url('/img/img-gastronomia/allpebre/anguila.jpg'); }
-.img-alp-mortero  { background-image: url('/img/img-gastronomia/allpebre/mortero.jpg'); }
-.img-alp-suc      { background-image: url('/img/img-gastronomia/allpebre/suc.jpg'); }
-.img-alp-variantes { background-image: url('/img/img-gastronomia/allpebre/variantes.jpg'); }
+.img-alp-platoap    { background-image: url('/img/img-gastronomia/allpebre/platoap.jpg'); }
+.img-alp-anguilaap  { background-image: url('/img/img-gastronomia/allpebre/anguilaap.jpg'); }
+.img-alp-morteroap  { background-image: url('/img/img-gastronomia/allpebre/morteroap.jpg'); }
+.img-alp-sucap      { background-image: url('/img/img-gastronomia/allpebre/sucap.JPG'); }
+.img-alp-variantesap { background-image: url('/img/img-gastronomia/allpebre/variantesap.jpg'); }
 
 /* ── Claves ── */
 .alp-claves-wrap {
@@ -500,7 +434,6 @@
 }
 
 .alp-info-list li::before {
-    content: '🛶';
     position: absolute;
     left: 0;
     font-size: 11px;

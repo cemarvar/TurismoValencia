@@ -8,7 +8,7 @@ var secciones = [
     subtitulo: 'Todo el marisco pelado · Sin mancharse las manos · El lujo de comer con comodidad',
     desc: 'El arroz del senyoret —literalmente "del señorito"— es uno de los arroces más elegantes y cómodos de la cocina valenciana. Su seña de identidad es tan sencilla como irresistible: todo el marisco y el pescado llega al plato ya pelado, limpio y a punto, sin cáscaras, sin espinas, sin trabajo. Gambas peladas, calamares troceados, sepia limpia, rape sin espina, mejillones sin concha. El comensal solo necesita la cuchara. Es un arroz seco tipo paella, cocinado en la misma sartén y con la misma técnica, pero donde la comodidad es el lujo. El fumet de marisco —elaborado con las cabezas y cáscaras del propio marisco— concentra todo el sabor del Mediterráneo, y la salmorreta alicantina —ajo, ñora, tomate y perejil— añade el toque de profundidad aromática que distingue este arroz de cualquier otro plato de marisco.',
     dato: 'Arroz seco tipo paella · Todo pelado y limpio · Fumet de marisco casero · Salmorreta alicantina opcional',
-    imgClass: 'img-sen-plato',
+    imgClass: 'img-sen-platoasy',
     tags: [{ label: 'Arròs del senyoret' }, { label: 'Sin mancharse' }, { label: 'Costa valenciana' }],
   },
   {
@@ -17,7 +17,7 @@ var secciones = [
     subtitulo: 'Hacia 1950 · Playa de la Malvarrosa · Joaquín Sorolla · Las casas pudientes de Alicante',
     desc: 'El origen del arroz del senyoret tiene dos versiones igualmente posibles. La más popular cuenta que, hacia 1950, un joven de buena familia conocido como "el Senyoret" frecuentaba un restaurante de la playa de la Malvarrosa en Valencia y siempre pedía el arroz con marisco sin piel ni espinas. Los cocineros adaptaron la receta a su gusto y la llamaron con su apodo. La segunda versión apunta al pintor valenciano Joaquín Sorolla, muy vinculado a Jávea: según esta historia, Sorolla pidió un día en una arrocería que le pelaran las cigalas y se las pusieran encima del arroz. Los cocineros dieron un paso más y pelaron todo el marisco directamente. Hay también una tercera versión más antigua: el plato se elaboraba en las casas adineradas de Alicante y la servidumbre presentaba el arroz con todos los ingredientes pelados para que el señorito de la casa no tuviera que ensuciarse las manos ni abandonar la cuchara en ningún momento.',
     dato: 'Versión 1: El Senyoret de la Malvarrosa, c.1950 · Versión 2: Joaquín Sorolla en Jávea · Versión 3: casas pudientes de Alicante',
-    imgClass: 'img-sen-historia',
+    imgClass: 'img-sen-historiaasy',
     tags: [{ label: 'Malvarrosa 1950' }, { label: 'Joaquín Sorolla' }, { label: 'Origen alicantino' }],
   },
   {
@@ -26,7 +26,7 @@ var secciones = [
     subtitulo: 'Ñora seca · Ajo · Tomate · Perejil · La base aromática de los arroces alicantinos',
     desc: 'El ingrediente diferencial del arroz del senyoret respecto a otras paellas de marisco es la salmorreta: una pasta espesa de color oscuro que se prepara friendo ñoras secas —un tipo de pimiento pequeño y redondo, seco— con ajo, tomate rallado y perejil, y luego triturando todo hasta obtener un paté concentrado. Esta salsa es la base aromática de los grandes arroces alicantinos —el arroz a banda, el arroz del senyoret, el arroz con gambas y salmorreta— y le da al caldo una profundidad y un color únicos. La ñora, en particular, aporta un sabor levemente dulce y ahumado que no tiene sustituto. La salmorreta se añade a la paella junto con la sepia y el calamar antes de incorporar el fumet, y en ese momento impregna todo el aceite y los ingredientes con su aroma característico.',
     dato: 'Salmorreta: ñora seca + ajo + tomate rallado + perejil · Freír en aceite · Triturar en mortero · Típica de los arroces alicantinos',
-    imgClass: 'img-sen-salmorreta',
+    imgClass: 'img-sen-salmorretaasy',
     tags: [{ label: 'Salmorreta' }, { label: 'Ñora seca' }, { label: 'Arroces alicantinos' }],
   },
   {
@@ -35,7 +35,7 @@ var secciones = [
     subtitulo: 'Confundidos a menudo · El arroz a banda no tiene tropezones · El senyoret sí los tiene · Dos platos distintos',
     desc: 'El arroz del senyoret y el arroz a banda se confunden frecuentemente, pero son platos distintos aunque emparentados. El arroz a banda es en su origen un plato marinero de las barcas pesqueras: se servía en dos tiempos —primero el pescado y la verdura cocidos con el caldo, y luego el arroz cocido en ese caldo "a banda" (aparte, en valenciano)—, sin tropezones. Solo arroz, fumet concentrado de morralla y alioli. El senyoret, en cambio, es un arroz con tropezones: gambas, calamares, sepia y pescado pelados y limpios que se integran en el arroz durante la cocción. La clave del senyoret está en que esos tropezones no llevan cáscara ni espina. Hoy en día, muchos restaurantes dan el mismo nombre a ambos platos, lo que ha creado cierta confusión. La diferencia real: si tiene tropezones pelados, es senyoret; si es solo arroz con caldo sin nada, es a banda.',
     dato: 'Arroz a banda: sin tropezones, solo arroz y fumet · Senyoret: con marisco y pescado pelado integrado en el arroz',
-    imgClass: 'img-sen-diferencia',
+    imgClass: 'img-sen-diferenciaasy',
     tags: [{ label: 'Vs Arroz a banda' }, { label: 'Con tropezones' }, { label: 'Misma técnica' }],
   },
   {
@@ -44,20 +44,9 @@ var secciones = [
     subtitulo: 'Caldo de morralla y cabezas de marisco · El lienzo de sabor · Siempre caliente',
     desc: 'Como en todos los grandes arroces de marisco valencianos, la clave del senyoret está en el fumet. El fumet del senyoret se elabora con las cabezas y cáscaras de las gambas, espinas de rape u otros pescados blancos, galeras, cangrejos y morralla (peces de roca pequeños). Todo se sofríe primero en aceite, se añade un poco de tomate, cebolla y puerro, se moja con agua y se deja cocer a fuego suave entre 20 y 30 minutos. El resultado es un caldo oscuro, yodado, concentrado y lleno de sabor marino. La clave: el fumet debe estar caliente cuando se añade al arroz —el caldo frío rompe la cocción. La proporción habitual es 2,5 partes de fumet por 1 de arroz. Al añadirlo se incorporan también el azafrán y el azafrán tostado. El fumet que sobra de pelar el marisco para el senyoret es exactamente el mejor fumet posible: nada se desperdicia.',
     dato: 'Fumet: cabezas de gamba + morralla + galeras · Cocción 20–30 min · Siempre caliente · Proporción: 2,5 partes fumet : 1 arroz',
-    imgClass: 'img-sen-fumet',
+    imgClass: 'img-sen-fumetasy',
     tags: [{ label: 'Fumet casero' }, { label: 'Morralla' }, { label: 'Cabezas de gamba' }],
   },
-];
-
-var ingredientes = [
-  { nombre: 'Arroz DO Valencia', icono: '🌾', desc: 'Bomba, Senia o J. Sendra · Grano redondo · Absorbe el fumet sin romperse' },
-  { nombre: 'Gambas peladas', icono: '🦐', desc: 'Sin cáscara · Colas reservadas · Cabezas para el fumet' },
-  { nombre: 'Calamares y sepia', icono: '🦑', desc: 'Ya limpios y troceados · Se saltean en aceite con la salmorreta' },
-  { nombre: 'Rape sin espinas', icono: '🐟', desc: 'En tacos medianos · Pescado de carne firme · Se añade al final' },
-  { nombre: 'Fumet de marisco', icono: '🍲', desc: 'Con las cabezas y cáscaras del propio marisco · Siempre caliente' },
-  { nombre: 'Salmorreta', icono: '🫑', desc: 'Ñora + ajo + tomate + perejil · Pasta espesa y oscura · Sofrito alicantino' },
-  { nombre: 'Azafrán natural', icono: '🌸', desc: 'Hebras tostadas · Da el color dorado y el aroma definitivo' },
-  { nombre: 'Aceite de oliva virgen extra', icono: '🫒', desc: 'Para el sofrito y la salmorreta · Base de todo el plato' },
 ];
 
 var claves = [
@@ -73,22 +62,18 @@ var restaurantes = [
   {
     zona: 'Playa de la Malvarrosa',
     desc: 'La cuna del mito. Los restaurantes del paseo marítimo de la Malvarrosa y el Cabanyal sirven el arroz del senyoret en su contexto original: frente al mar, con brisa mediterránea.',
-    icono: '🏖',
   },
   {
     zona: 'Centro de Valencia',
     desc: 'Múltiples arrocerías del centro histórico y el Eixample elaboran versiones de autor del senyoret con gamba roja, cigala pelada o bogavante. El Mercado Central y sus alrededores son el epicentro.',
-    icono: '🏛',
   },
   {
     zona: 'Costa alicantina · Jávea · Altea',
     desc: 'El territorio más ligado al senyoret. Los restaurantes de la costa norte de Alicante lo tienen como plato estrella. En Jávea, la conexión con Sorolla y la tradición marinera hace la experiencia más auténtica.',
-    icono: '⚓',
   },
   {
     zona: 'Restaurantes de autor en Valencia',
     desc: 'Los chefs de los restaurantes de referencia de Valencia hacen versiones del senyoret con ingredientes de temporada de la lonja: galera, coquina, langostino rojo y pescado del día.',
-    icono: '⭐',
   },
 ];
 
@@ -124,24 +109,9 @@ export default function ArrozSenyoret() {
 
       {/* Historia box */}
       <div className="sen-historia-box">
-        <div className="sen-historia-icono">🎨</div>
         <div className="sen-historia-content">
           <div className="sen-historia-titulo">El señorito que no quería mancharse · La leyenda de Sorolla y la Malvarrosa</div>
           <p>El nombre lo dice todo: <em>senyoret</em> —señorito en valenciano— era el término que designaba a los jóvenes de clase alta que no estaban dispuestos a mancharse los dedos pelando marisco en la mesa. Hacia <strong>1950</strong>, un habitual de un restaurante de la playa de la Malvarrosa en Valencia siempre pedía el arroz con marisco ya pelado, y el plato acabó llevando su apodo. Otra versión apunta al pintor valenciano <strong>Joaquín Sorolla</strong>: muy vinculado a Jávea, se dice que pidió un día que le pelaran las cigalas y las pusieran encima del arroz, y que los cocineros llevaron la idea más lejos y pelaron todo el marisco directamente. Una tercera versión lo sitúa en las <strong>casas pudientes de Alicante</strong>, donde la servidumbre preparaba el arroz con todos los ingredientes limpios para que el señorito de la casa no abandonara la cuchara. Tres historias, un mismo concepto: el lujo de comer sin trabajo.</p>
-        </div>
-      </div>
-
-      {/* Ingredientes */}
-      <div className="sen-ingredientes-wrap">
-        <div className="sen-ingredientes-titulo">Los ingredientes del arroz del senyoret</div>
-        <div className="sen-ingredientes-grid">
-          {ingredientes.map(i => (
-            <div className="sen-ing-card" key={i.nombre}>
-              <span className="sen-ing-icono">{i.icono}</span>
-              <div className="sen-ing-nombre">{i.nombre}</div>
-              <div className="sen-ing-desc">{i.desc}</div>
-            </div>
-          ))}
         </div>
       </div>
 
@@ -169,7 +139,6 @@ export default function ArrozSenyoret() {
               <p className="sen-desc">{s.desc}</p>
 
               <div className="sen-dato-box">
-                <span className="sen-dato-icon">🦐</span>
                 <span>{s.dato}</span>
               </div>
 

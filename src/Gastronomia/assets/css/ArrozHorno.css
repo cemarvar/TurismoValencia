@@ -10,7 +10,7 @@
 .ah-hero {
     position: relative;
     height: 520px;
-    background-image: url('/img/img-gastronomia/arrozhorno/hero.jpg');
+    background-image: url('/img/img-gastronomia/arrozhorno/hero-arrozhornoah.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -109,11 +109,6 @@
     align-items: flex-start;
 }
 
-.ah-historia-icono {
-    font-size: 32px;
-    flex-shrink: 0;
-}
-
 .ah-historia-titulo {
     font-size: 15px;
     font-weight: 700;
@@ -132,64 +127,6 @@
 .ah-historia-content strong {
     font-weight: 600;
     color: #fff;
-}
-
-/* ── Ingredientes ── */
-.ah-ingredientes-wrap {
-    margin: 0 48px 52px;
-    padding: 28px 32px;
-    background: #fdf5f0;
-    border: 1.5px solid #d4846a;
-}
-
-.ah-ingredientes-titulo {
-    font-size: 12px;
-    font-weight: 700;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    color: #7a3a1a;
-    margin-bottom: 18px;
-}
-
-.ah-ingredientes-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1px;
-    background: #d4846a;
-    border: 1px solid #d4846a;
-}
-
-.ah-ing-card {
-    background: #fff;
-    padding: 16px 14px;
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
-    transition: background 0.1s;
-}
-
-.ah-ing-card:hover {
-    background: #fdf5f0;
-}
-
-.ah-ing-icono {
-    font-size: 22px;
-    line-height: 1;
-    margin-bottom: 4px;
-}
-
-.ah-ing-nombre {
-    font-size: 13px;
-    font-weight: 700;
-    color: #1a1a1a;
-    line-height: 1.3;
-}
-
-.ah-ing-desc {
-    font-size: 12px;
-    font-weight: 300;
-    color: #777;
-    line-height: 1.4;
 }
 
 /* ── Intro ── */
@@ -298,10 +235,6 @@
     line-height: 1.5;
 }
 
-.ah-dato-icon {
-    flex-shrink: 0;
-}
-
 /* Tags */
 .ah-tags {
     display: flex;
@@ -326,8 +259,9 @@
     border-radius: 2px;
     overflow: hidden;
     height: 270px;
-    position: sticky;
     top: 90px;
+    border: 1px solid #000;
+    box-shadow: 0 0 0 3px #000; 
 }
 
 .ah-route-img-inner {
@@ -340,10 +274,10 @@
 }
 
 /* Imágenes */
-.img-historia     { background-image: url('/img/img-gastronomia/arrozhorno/historia.jpg'); }
-.img-cazuela      { background-image: url('/img/img-gastronomia/arrozhorno/cazuela.jpg'); }
-.img-ingredientes { background-image: url('/img/img-gastronomia/arrozhorno/ingredientes.jpg'); }
-.img-variantes    { background-image: url('/img/img-gastronomia/arrozhorno/variantes.jpg'); }
+.img-historiaah     { background-image: url('/img/img-gastronomia/arrozhorno/historiaah.JPG'); }
+.img-cazuelaah      { background-image: url('/img/img-gastronomia/arrozhorno/cazuelaah.png'); }
+.img-ingredientesah { background-image: url('/img/img-gastronomia/arrozhorno/ingredientesah.jpg'); }
+.img-variantesah    { background-image: url('/img/img-gastronomia/arrozhorno/variantesah.png'); }
 
 /* ── Claves ── */
 .ah-claves-wrap {
@@ -524,7 +458,6 @@
 }
 
 .ah-info-list li::before {
-    content: '🏺';
     position: absolute;
     left: 0;
     font-size: 11px;

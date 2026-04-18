@@ -10,7 +10,7 @@
 .bun-hero {
     position: relative;
     height: 520px;
-    background-image: url('/img/img-gastronomia/buenuelo/hero.jpg');
+    background-image: url('/img/img-gastronomia/buenuelo/hero-buenuelobl.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -109,11 +109,6 @@
     align-items: flex-start;
 }
 
-.bun-historia-icono {
-    font-size: 32px;
-    flex-shrink: 0;
-}
-
 .bun-historia-titulo {
     font-size: 15px;
     font-weight: 700;
@@ -137,64 +132,6 @@
 .bun-historia-content em {
     font-style: italic;
     color: #f5a033;
-}
-
-/* ── Ingredientes ── */
-.bun-ingredientes-wrap {
-    margin: 0 48px 52px;
-    padding: 28px 32px;
-    background: #fff8ee;
-    border: 1.5px solid #f5a033;
-}
-
-.bun-ingredientes-titulo {
-    font-size: 12px;
-    font-weight: 700;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    color: #8a4a00;
-    margin-bottom: 18px;
-}
-
-.bun-ingredientes-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1px;
-    background: #f5a033;
-    border: 1px solid #f5a033;
-}
-
-.bun-ing-card {
-    background: #fff;
-    padding: 16px 14px;
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
-    transition: background 0.1s;
-}
-
-.bun-ing-card:hover {
-    background: #fff8ee;
-}
-
-.bun-ing-icono {
-    font-size: 22px;
-    line-height: 1;
-    margin-bottom: 4px;
-}
-
-.bun-ing-nombre {
-    font-size: 13px;
-    font-weight: 700;
-    color: #1a1a1a;
-    line-height: 1.3;
-}
-
-.bun-ing-desc {
-    font-size: 12px;
-    font-weight: 300;
-    color: #777;
-    line-height: 1.4;
 }
 
 /* ── Intro ── */
@@ -303,10 +240,6 @@
     line-height: 1.5;
 }
 
-.bun-dato-icon {
-    flex-shrink: 0;
-}
-
 /* Tags */
 .bun-tags {
     display: flex;
@@ -331,8 +264,9 @@
     border-radius: 2px;
     overflow: hidden;
     height: 270px;
-    position: sticky;
     top: 90px;
+    border: 1px solid #000;
+    box-shadow: 0 0 0 3px #000; 
 }
 
 .bun-route-img-inner {
@@ -345,11 +279,11 @@
 }
 
 /* Imágenes */
-.img-bun-plato    { background-image: url('/img/img-gastronomia/buenuelo/plato.jpg'); }
-.img-bun-historia { background-image: url('/img/img-gastronomia/buenuelo/historia.jpg'); }
-.img-bun-masa     { background-image: url('/img/img-gastronomia/buenuelo/masa.jpg'); }
-.img-bun-foraet   { background-image: url('/img/img-gastronomia/buenuelo/foraet.jpg'); }
-.img-bun-variantes { background-image: url('/img/img-gastronomia/buenuelo/variantes.jpg'); }
+.img-bun-platobl    { background-image: url('/img/img-gastronomia/buenuelo/platobl.jpg'); }
+.img-bun-historiabl { background-image: url('/img/img-gastronomia/buenuelo/historiabl.jpg'); }
+.img-bun-masabl     { background-image: url('/img/img-gastronomia/buenuelo/masabl.jpg'); }
+.img-bun-foraetbl   { background-image: url('/img/img-gastronomia/buenuelo/foraetbl.jpg'); }
+.img-bun-variantesbl { background-image: url('/img/img-gastronomia/buenuelo/variantesbl.jpg'); }
 
 /* ── Claves ── */
 .bun-claves-wrap {
@@ -500,7 +434,6 @@
 }
 
 .bun-info-list li::before {
-    content: '🎃';
     position: absolute;
     left: 0;
     font-size: 11px;

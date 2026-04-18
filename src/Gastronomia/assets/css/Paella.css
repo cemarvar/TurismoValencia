@@ -10,7 +10,7 @@
 .pa-hero {
     position: relative;
     height: 520px;
-    background-image: url('/img/img-gastronomia/paella/hero.jpg');
+    background-image: url('/img/img-gastronomia/paella/hero-paellapll.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -109,11 +109,6 @@
     align-items: flex-start;
 }
 
-.pa-historia-icono {
-    font-size: 36px;
-    flex-shrink: 0;
-}
-
 .pa-historia-titulo {
     font-size: 15px;
     font-weight: 700;
@@ -137,64 +132,6 @@
 .pa-historia-content em {
     font-style: italic;
     color: #f0c040;
-}
-
-/* ── Ingredientes grid ── */
-.pa-ingredientes-wrap {
-    margin: 0 48px 52px;
-    padding: 28px 32px;
-    background: #fff8f0;
-    border: 1.5px solid #f0c040;
-}
-
-.pa-ingredientes-titulo {
-    font-size: 12px;
-    font-weight: 700;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    color: #7a4000;
-    margin-bottom: 18px;
-}
-
-.pa-ingredientes-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1px;
-    background: #f0c040;
-    border: 1px solid #f0c040;
-}
-
-.pa-ing-card {
-    background: #fff;
-    padding: 16px 14px;
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
-    transition: background 0.1s;
-}
-
-.pa-ing-card:hover {
-    background: #fff8f0;
-}
-
-.pa-ing-icono {
-    font-size: 22px;
-    line-height: 1;
-    margin-bottom: 4px;
-}
-
-.pa-ing-nombre {
-    font-size: 13px;
-    font-weight: 700;
-    color: #1a1a1a;
-    line-height: 1.3;
-}
-
-.pa-ing-desc {
-    font-size: 12px;
-    font-weight: 300;
-    color: #777;
-    line-height: 1.4;
 }
 
 /* ── Intro ── */
@@ -358,8 +295,9 @@
     border-radius: 2px;
     overflow: hidden;
     height: 280px;
-    position: sticky;
     top: 90px;
+    border: 1px solid #000;
+    box-shadow: 0 0 0 3px #000; 
 }
 
 .pa-route-img-inner {
@@ -372,17 +310,16 @@
 }
 
 /* Imágenes */
-.img-valenciana { background-image: url('/img/img-gastronomia/paella/valenciana.jpg'); }
-.img-marisco    { background-image: url('/img/img-gastronomia/paella/marisco.jpg'); }
-.img-senyoret   { background-image: url('/img/img-gastronomia/paella/senyoret.jpg'); }
-.img-banda      { background-image: url('/img/img-gastronomia/paella/banda.jpg'); }
+.img-valencianapll { background-image: url('/img/img-gastronomia/paella/valencianapll.jpg'); }
+.img-mariscopll    { background-image: url('/img/img-gastronomia/paella/mariscopll.jpg'); }
+.img-senyoretpll   { background-image: url('/img/img-gastronomia/paella/senyoretpll.jpg'); }
+.img-bandapll      { background-image: url('/img/img-gastronomia/paella/bandapll.jpg'); }
 
 /* ── Zonas ── */
 .pa-zonas-wrap {
     margin: 52px 48px 0;
     padding: 28px 32px;
     background: #fff8f0;
-    border-top: 2px solid #eb5a00;
 }
 
 .pa-zonas-titulo {
@@ -404,11 +341,6 @@
     display: flex;
     flex-direction: column;
     gap: 6px;
-}
-
-.pa-zona-icono {
-    font-size: 26px;
-    line-height: 1;
 }
 
 .pa-zona-nombre {
@@ -513,7 +445,6 @@
 }
 
 .pa-info-list li::before {
-    content: '🥘';
     position: absolute;
     left: 0;
     font-size: 11px;

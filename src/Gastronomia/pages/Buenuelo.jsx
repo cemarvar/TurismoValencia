@@ -8,7 +8,7 @@ var secciones = [
     subtitulo: 'Buñuelo de calabaza · Agujero central · Cono de papel · Con chocolate caliente',
     desc: 'El buñuelo de calabaza —bunyol de carabassa en valenciano— es el postre más fallero de la gastronomía valenciana. Imposible imaginar unas Fallas sin el olor a aceite caliente, sin los conos de cartón llenos de buñuelos recién fritos y sin el chocolate espeso que los acompaña. Son esponjosos por dentro, ligeramente crujientes por fuera, dulces y anaranjados gracias a la calabaza de la huerta valenciana. Su forma de rosquilla con agujero en el centro es característica e inconfundible: ese "foraet" (agujero) nace de la forma en que el buñolero coge la masa con los dedos untados en aceite y la deja caer al aceite caliente. Se comen recién hechos, rebozados en azúcar, en un cono de papel, mientras la ciudad arde en Fallas. Pero también los 365 días del año en las buñolerías y chocolaterías con más historia de Valencia.',
     dato: 'Temporada principal: Fallas (1–19 marzo) · También: Todos los Santos, Navidades y todo el año en buñolerías',
-    imgClass: 'img-bun-plato',
+    imgClass: 'img-bun-platobl',
     tags: [{ label: 'Bunyol de carabassa' }, { label: 'Fallas' }, { label: 'Con chocolate' }],
   },
   {
@@ -17,7 +17,7 @@ var secciones = [
     subtitulo: 'Siglo XIX · Gremio de carpinteros · Bidones de hierro · Buñuelos de viento',
     desc: 'La historia del buñuelo de calabaza comienza en el siglo XIX, cuando el gremio de carpinteros de Valencia obtuvo permiso del Ayuntamiento para sacar sus sobrantes de madera a la calle y quemarlos en hogueras el día de San José. Fue el origen de las Fallas. Alrededor de aquellas primeras hogueras, las mujeres de los carpinteros —las primeras buñoleras, descritas como "repeinadas, muy aseadas y con impolutos delantales blancos"— colocaban bidones de hierro a modo de fogón, calentaban aceite con leña y preparaban buñuelos de viento para los asistentes. Aquellos primeros buñuelos seguían una antigua receta simple: harina, agua, levadura y sal, fritos en aceite. Los vecinos los tomaban con anís o aguardiente, no con chocolate. Años después, los campesinos de la huerta empezaron a incorporar la calabaza de temporada —que aguanta meses almacenada— para dar al buñuelo un toque más dulce. Así nació el bunyol de carabassa que hoy conocemos.',
     dato: 'Origen: siglo XIX · Primera buñolera: gremio de carpinteros de Valencia · Primero con anís, después con chocolate',
-    imgClass: 'img-bun-historia',
+    imgClass: 'img-bun-historiabl',
     tags: [{ label: 'Siglo XIX' }, { label: 'Las buñoleras' }, { label: 'Origen fallero' }],
   },
   {
@@ -26,7 +26,7 @@ var secciones = [
     subtitulo: 'Calabaza cocida · Levadura de panadero · Ralladura de naranja · Agua de azahar · Aceite de freír',
     desc: 'La masa de los buñuelos de calabaza valencianos es sencilla pero aromática. La calabaza se cuece hasta que queda tierna, se escurre y se aplasta con un tenedor hasta obtener una masa suave. A esa pasta se le añaden el azúcar, el agua de azahar y la ralladura de naranja —los aromas más valencianos que existen—, la levadura fresca disuelta en el agua de la cocción (que conserva sus nutrientes), y finalmente la harina tamizada. La masa resultante debe reposar unos 15 minutos para que la levadura haga su trabajo. Para freír, los dedos se untan en aceite para que la masa no se pegue, se coge una porción, se forma una bola y se hace el agujero central con el pulgar antes de dejarla caer en el aceite muy caliente. Se doran por ambos lados, se escurren y se rebozan en azúcar al momento. Se sirven calientes, en cono de papel.',
     dato: 'Para 7 unidades: 200 g calabaza · 225 g harina · 12 g levadura fresca · agua de azahar · ralladura naranja · azúcar',
-    imgClass: 'img-bun-masa',
+    imgClass: 'img-bun-masabl',
     tags: [{ label: 'Agua de azahar' }, { label: 'Levadura fresca' }, { label: 'Ralladura de naranja' }],
   },
   {
@@ -35,7 +35,7 @@ var secciones = [
     subtitulo: 'La forma característica · Dedos untados en aceite · La técnica del buñolero',
     desc: 'El agujero central —el "foraet"— es la seña de identidad del buñuelo valenciano. No es solo un detalle estético: tiene su razón técnica. Al hundir el pulgar en el centro de la masa antes de sumergirla en el aceite, la fritura es más uniforme y el interior queda más esponjoso. La técnica parece simple pero tiene su arte: los dedos deben estar bien untados en aceite para que la masa no se pegue, la bola debe tener el tamaño justo para que la cocción sea correcta, y el agujero debe hacerse con decisión para que mantenga la forma durante la fritura. El aceite debe estar muy caliente pero no quemante —si humea, el buñuelo se dora por fuera antes de cocinarse por dentro. Este gesto —masa en la mano, agujero, aceite— es lo que convierte al buñolero en artesano. En los puestos callejeros durante las Fallas, los buñoleros hacen cientos por hora con una destreza que solo da la práctica.',
     dato: 'Aceite muy caliente · Dedos untados · Agujero central con el pulgar · Dorar por ambos lados · Rebozan en azúcar caliente',
-    imgClass: 'img-bun-foraet',
+    imgClass: 'img-bun-foraetbl',
     tags: [{ label: 'El foraet' }, { label: 'Técnica artesana' }, { label: 'Arte del buñolero' }],
   },
   {
@@ -44,20 +44,9 @@ var secciones = [
     subtitulo: 'Naranja · Boniato · Higo · Horchata · Vainilla · Buñuelos de viento clásicos',
     desc: 'La receta de calabaza es la estrella, pero el mundo de los buñuelos valencianos tiene muchas variantes. Los buñuelos de naranja aprovechan el ácido cítrico de la fruta —que repele el aceite— para conseguir un buñuelo más ligero. Los de boniato son una alternativa de otoño con un sabor más dulce y terroso. Los de higo son los más aromáticos. Los de horchata son la innovación más valenciana posible: la leche de chufa en la masa. Y los buñuelos de viento clásicos —sin calabaza— son los originales del siglo XIX: harina, agua, levadura y sal, crujientes y ligeros, con una tradición romana que llega hasta nuestros días. Las versiones más modernas incluyen coberturas de chocolate blanco o negro. También hay recetas que añaden canela, vainilla, cardamomo o clavos de olor para personalizar el dulce.',
     dato: 'Variantes: naranja · boniato · higo · horchata · vainilla · viento clásico · Nuevas: con cobertura de chocolate',
-    imgClass: 'img-bun-variantes',
+    imgClass: 'img-bun-variantesbl',
     tags: [{ label: 'Buñuelo de naranja' }, { label: 'De boniato' }, { label: 'De viento clásico' }],
   },
-];
-
-var ingredientes = [
-  { nombre: 'Calabaza de la huerta', icono: '🎃', desc: '200 g · Cocida y aplastada · Preferiblemente de Vilamarxant' },
-  { nombre: 'Harina de trigo', icono: '🌾', desc: '225 g · Tamizada sobre la masa · Gluten que da estructura' },
-  { nombre: 'Levadura fresca de panadero', icono: '🧫', desc: '12 g · Disuelta en el agua de cocción de la calabaza' },
-  { nombre: 'Agua de azahar', icono: '🌸', desc: '1 cucharada · El aroma más valenciano · Imprescindible' },
-  { nombre: 'Ralladura de naranja', icono: '🍊', desc: '1 naranja · El toque cítrico que define el sabor del buñuelo' },
-  { nombre: 'Azúcar', icono: '🍬', desc: 'Para la masa (10 g) + para rebozar caliente al sacar del aceite' },
-  { nombre: 'Aceite de freír', icono: '🫒', desc: 'Abundante · Muy caliente · Y para untarse los dedos al dar forma' },
-  { nombre: 'Chocolate caliente', icono: '🍫', desc: 'El acompañamiento obligatorio · Espeso · El contraste perfecto' },
 ];
 
 var bunolerías = [
@@ -134,24 +123,9 @@ export default function Buenuelo() {
 
       {/* Historia box */}
       <div className="bun-historia-box">
-        <div className="bun-historia-icono">🔥</div>
         <div className="bun-historia-content">
           <div className="bun-historia-titulo">De las hogueras del gremio a los puestos callejeros de las Fallas</div>
           <p>La historia del buñuelo valenciano arranca en el siglo XIX, cuando el gremio de carpinteros de Valencia empezó a quemar sus sobrantes de madera el día de San José —el germen de las Fallas. Alrededor de aquellas primeras hogueras, las <strong>buñoleras</strong> —las mujeres del gremio— sacaban grandes bidones de hierro y preparaban buñuelos de viento con una receta romana básica: harina, agua, levadura y sal. Los vecinos los tomaban con <em>anís o aguardiente</em>, no con chocolate. Con el tiempo, los campesinos de la huerta incorporaron la <strong>calabaza de temporada</strong> —que aguanta meses sin estropearse— para dar al buñuelo más dulzura y color. Los bidones de hierro se convirtieron en puestos callejeros con cocinas de gas. El anís se sustituyó por chocolate caliente. Y el bunyol de carabassa se convirtió en el símbolo gastronómico más reconocible de las Fallas, Patrimonio Inmaterial de la Humanidad desde 2017.</p>
-        </div>
-      </div>
-
-      {/* Ingredientes */}
-      <div className="bun-ingredientes-wrap">
-        <div className="bun-ingredientes-titulo">Los ingredientes del buñuelo de calabaza</div>
-        <div className="bun-ingredientes-grid">
-          {ingredientes.map(i => (
-            <div className="bun-ing-card" key={i.nombre}>
-              <span className="bun-ing-icono">{i.icono}</span>
-              <div className="bun-ing-nombre">{i.nombre}</div>
-              <div className="bun-ing-desc">{i.desc}</div>
-            </div>
-          ))}
         </div>
       </div>
 
@@ -179,7 +153,6 @@ export default function Buenuelo() {
               <p className="bun-desc">{s.desc}</p>
 
               <div className="bun-dato-box">
-                <span className="bun-dato-icon">🎃</span>
                 <span>{s.dato}</span>
               </div>
 
@@ -220,7 +193,7 @@ export default function Buenuelo() {
           {bunolerías.map(b => (
             <div className="bun-rest-card" key={b.nombre}>
               <div className="bun-rest-nombre">{b.nombre}</div>
-              <div className="bun-rest-dir">📍 {b.dir}</div>
+              <div className="bun-rest-dir"> {b.dir}</div>
               <p className="bun-rest-desc">{b.desc}</p>
             </div>
           ))}
