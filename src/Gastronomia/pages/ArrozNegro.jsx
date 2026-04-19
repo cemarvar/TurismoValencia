@@ -88,14 +88,6 @@ export default function ArrozNegro() {
         </div>
       </div>
 
-      {/* Historia box */}
-      <div className="an-historia-box">
-        <div className="an-historia-content">
-          <div className="an-historia-titulo">Nacido entre pescadores · El color que viene del mar</div>
-          <p>El arroz negro tiene su origen en las cocinas de los pescadores mediterráneos. Desde el siglo XVII hay constancia del uso de la tinta de calamar para dar sabor y color a los platos de pescado en la costa levantina. Los pescadores cocinaban el arroz con los cefalópodos frescos del día —sepia, calamar, chipirón— y el caldo de morralla (peces de roca pequeños) que había sobrado de la pesca. La tinta, que la sepia lanza para escapar de sus depredadores, pasó de ser un elemento incómodo a convertirse en el ingrediente definitorio de un plato único. En Venecia también existe el <strong>riso al nero di sepia</strong>, lo que habla de la conectividad gastronómica del Mediterráneo. Hoy el arroz negro se elabora en toda la costa valenciana —Valencia, Castellón, Alicante— y cada cocinero defiende su versión con el mismo entusiasmo con el que los valencianos defienden la paella.</p>
-        </div>
-      </div>
-
       {/* Intro */}
       <div className="an-intro">
         <p>El arroz negro es el arroz más dramático de Valencia. No el más complicado —la técnica es exactamente la misma que la paella de marisco— sino el más sorprendente para el comensal que lo ve por primera vez. Un arroz completamente negro en el plato, humeante, con el aroma concentrado del mar, y encima una cucharada de alioli blanco y cremoso. El contraste visual es implacable.</p>

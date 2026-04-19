@@ -109,6 +109,37 @@
     border-color: #2d6a2d;
 }
 
+/* ── Section header ── */
+.nat-section-header {
+    padding: 48px 48px 28px;
+    border-bottom: 1px solid #e5e5e5;
+}
+ 
+.nat-section-header h2 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #1a1a1a;
+    letter-spacing: -0.01em;
+    margin-bottom: 6px;
+}
+ 
+.nat-section-header p {
+    font-size: 15px;
+    font-weight: 300;
+    color: #777;
+}
+ 
+.nat-section-header--dark {
+    background: #f0f5f0;
+    border-top: 2px solid #2d6a2d;
+    border-bottom: 1px solid #c8ddc8;
+    margin-top: 16px;
+}
+ 
+.nat-section-header--dark h2 {
+    color: #1a3a1a;
+}
+
 /* ── Rutas ── */
 .nat-routes {
     padding: 0 48px;
@@ -411,14 +442,6 @@
 .nat-info-list li strong {
     font-weight: 600;
     color: #1a1a1a;
-}
-
-.nat-info-list li::before {
-    content: '—';
-    position: absolute;
-    left: 0;
-    color: #2d6a2d;
-    font-size: 12px;
 }
 
 /* ── RESPONSIVE ── */

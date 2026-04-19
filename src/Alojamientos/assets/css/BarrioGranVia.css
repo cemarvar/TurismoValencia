@@ -97,36 +97,6 @@
     background: rgba(255,255,255,0.25);
 }
 
-/* ── Intro box ── */
-.grv-intro-box {
-    margin: 0 48px;
-    background: #051408;
-    padding: 28px 32px;
-    display: flex;
-    gap: 24px;
-    align-items: flex-start;
-}
-
-.grv-intro-titulo {
-    font-size: 15px;
-    font-weight: 700;
-    color: #70c890;
-    margin-bottom: 10px;
-}
-
-.grv-intro-content p {
-    font-size: 14px;
-    font-weight: 300;
-    color: rgba(255,255,255,0.85);
-    line-height: 1.65;
-    margin: 0;
-}
-
-.grv-intro-content strong {
-    font-weight: 600;
-    color: #fff;
-}
-
 /* ── Intro ── */
 .grv-intro {
     max-width: 740px;
@@ -400,13 +370,6 @@
 .grv-info-list li strong {
     font-weight: 600;
     color: #1a1a1a;
-}
-
-.grv-info-list li::before {
-    position: absolute;
-    left: 0;
-    color: #1a6638;
-    font-size: 12px;
 }
 
 /* ── RESPONSIVE ── */

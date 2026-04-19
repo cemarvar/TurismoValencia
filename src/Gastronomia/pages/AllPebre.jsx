@@ -121,14 +121,6 @@ export default function AllPebre() {
         </div>
       </div>
 
-      {/* Historia box */}
-      <div className="alp-historia-box">
-        <div className="alp-historia-content">
-          <div className="alp-historia-titulo">Nacido en el embarcadero · La comida del pescador al atardecer</div>
-          <p>El all i pebre nació en las orillas de la <strong>Albufera de Valencia</strong>, concretamente en el puerto de <strong>Catarroja</strong>, aunque El Palmar disputa ese honor con orgullo. En una época en la que la captura de anguila en el lago era abundante, los pescadores empezaron a cocinarla en sus hogares con los ingredientes más accesibles: ajo, pimentón, guindilla, aceite y agua. Corrían tiempos difíciles y las familias se abastecían de lo que la tierra y el lago les ofrecían. Así nació la llamada <em>"humilde cocina del pescador"</em>. La imagen de los trabajadores al final de su jornada, sentados a la mesa, mojando el caldo rojo con pan y bebiendo vino mientras charlaban, es la imagen que mejor define este plato. Una costumbre que todavía pervive en las tabernas del embarcadero de Catarroja. El plato es tan querido que <strong>Catarroja tiene registrada la marca</strong> del all i pebre y celebra desde hace décadas un concurso anual que convoca a vecinos y cocineros de toda la comarca.</p>
-        </div>
-      </div>
-
       {/* Intro */}
       <div className="alp-intro">
         <p>El all i pebre es el plato más "de aquí" de toda la gastronomía valenciana. Mientras la paella se puede hacer en cualquier parte del mundo con los ingredientes correctos, el all i pebre pertenece a un territorio concreto: la Albufera, sus pescadores, sus acequias, sus anguilas. Es un plato de identidad, de memoria y de lugar. Potente por la presencia del ajo y el pimentón, y llamativo por recurrir a la anguila —un animal que se da en las desembocaduras de los ríos levantinos y en el lago de la Albufera— el all i pebre es uno de los guisos más afamados de la cocina valenciana.</p>

@@ -97,36 +97,6 @@
     background: rgba(255,255,255,0.25);
 }
 
-/* ── Intro box ── */
-.plm-intro-box {
-    margin: 0 48px;
-    background: #000d1e;
-    padding: 28px 32px;
-    display: flex;
-    gap: 24px;
-    align-items: flex-start;
-}
-
-.plm-intro-titulo {
-    font-size: 15px;
-    font-weight: 700;
-    color: #50c8f0;
-    margin-bottom: 10px;
-}
-
-.plm-intro-content p {
-    font-size: 14px;
-    font-weight: 300;
-    color: rgba(255,255,255,0.85);
-    line-height: 1.65;
-    margin: 0;
-}
-
-.plm-intro-content strong {
-    font-weight: 600;
-    color: #fff;
-}
-
 /* ── Intro ── */
 .plm-intro {
     max-width: 740px;
@@ -401,13 +371,6 @@
 .plm-info-list li strong {
     font-weight: 600;
     color: #1a1a1a;
-}
-
-.plm-info-list li::before {
-    position: absolute;
-    left: 0;
-    color: #0a6090;
-    font-size: 12px;
 }
 
 /* ── RESPONSIVE ── */

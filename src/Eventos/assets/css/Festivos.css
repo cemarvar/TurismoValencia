@@ -348,13 +348,6 @@
     color: #1a2a4a;
 }
 
-.fest-info-list li::before {
-    position: absolute;
-    left: 0;
-    color: #eb5a00;
-    font-size: 12px;
-}
-
 /* ── RESPONSIVE ── */
 @media (max-width: 1100px) {
     .fest-tradiciones-grid {

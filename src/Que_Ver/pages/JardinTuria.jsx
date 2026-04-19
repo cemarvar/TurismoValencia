@@ -135,15 +135,6 @@ export default function JardinTuria() {
         </div>
       </div>
 
-      {/* Historia — caja destacada */}
-      <div className="jt-historia-box">
-        <div className="jt-historia-icono"></div>
-        <div className="jt-historia-content">
-          <div className="jt-historia-titulo">El río que se convirtió en parque</div>
-          <p>El 14 de octubre de 1957, la Gran Riada de Valencia inundó el centro histórico de la ciudad y causó la muerte de alrededor de un centenar de personas. El Gobierno desvió el cauce del Turia al sur de la ciudad, dejando libre una franja de 9 km que atravesaba Valencia de oeste a este. Durante la década de 1970, los vecinos se movilizaron con el lema <strong>"El riu és nostre i el volem verd"</strong> (El río es nuestro y lo queremos verde). El plan especial de reconversión fue aprobado en 1984, y el parque se inauguró en 1986. Hoy es el parque urbano más grande de España y uno de los más visitados de Europa, con más de tres millones de visitantes anuales.</p>
-        </div>
-      </div>
-
       {/* Intro */}
       <div className="jt-intro">
         <p>El Jardín del Turia discurre por el antiguo cauce del río durante más de nueve kilómetros libre de coches, conectando el Parque de Cabecera y el Bioparc en el oeste con la Ciudad de las Artes y las Ciencias en el este. Diseñado en 18 tramos por diferentes urbanistas y paisajistas, cada sección tiene su propio carácter: bosques de pinos, campos deportivos, jardines de naranjos y palmeras, zonas infantiles y el skyline más icónico de Valencia de fondo.</p>

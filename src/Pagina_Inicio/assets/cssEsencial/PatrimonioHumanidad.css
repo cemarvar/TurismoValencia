@@ -362,8 +362,7 @@
 /* ── Sección Comunitat ── */
 .ph-comunitat {
     margin: 56px 48px;
-    padding-top: 48px;
-    border-top: 1.5px solid #e5e5e5;
+    padding-top: 18px;
 }
 
 .ph-comunitat-header {
@@ -456,14 +455,6 @@
     padding-left: 16px;
     position: relative;
     line-height: 1.5;
-}
-
-.ph-info-list li::before {
-    content: '—';
-    position: absolute;
-    left: 0;
-    color: #999;
-    font-size: 12px;
 }
 
 /* ── RESPONSIVE ── */

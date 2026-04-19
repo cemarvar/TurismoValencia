@@ -90,14 +90,6 @@ export default function ZonaPlayaPaseoMaritimo() {
         </div>
       </div>
 
-      {/* Intro box */}
-      <div className="plm-intro-box">
-        <div className="plm-intro-content">
-          <div className="plm-intro-titulo">La Playa de las Arenas · La Malvarrosa · El Paseo Marítimo</div>
-          <p>Valencia tiene playa, y su paseo marítimo es uno de los más animados del Mediterráneo. La <strong>Playa de las Arenas</strong> —junto al histórico Puerto de la Copa América— y la <strong>Playa de la Malvarrosa</strong> forman una franja de arena fina de más de 3 km que en verano se convierte en el segundo salón de Valencia. El <strong>Paseo Neptuno y el Paseo Marítimo</strong> están flanqueados por los mejores restaurantes de paella y arroces de la ciudad, terrazas y locales de ocio nocturno. Esta zona fue el escenario favorito del pintor <strong>Joaquín Sorolla</strong>, que inmortalizó su luz y sus bañistas en decenas de cuadros. Hoy es también el punto de partida del carril bici costero que llega hasta la Ciudad de las Artes y las Ciencias.</p>
-        </div>
-      </div>
-
       {/* Intro */}
       <div className="plm-intro">
         <p>Los alojamientos del Paseo Marítimo cubren un rango extraordinariamente amplio: el <strong>gran resort 5 estrellas Gran Lujo</strong> con balneario centenario y spa histórico, el <strong>hotel boutique con el alma del Mediterráneo</strong> inspirado en Sorolla, y el <strong>clásico familiar en primera línea</strong> con más de cien años de historia en la Playa de las Arenas.</p>

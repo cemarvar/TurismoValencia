@@ -123,14 +123,6 @@ export default function Excursiones() {
         </div>
       </div>
 
-      {/* Intro box */}
-      <div className="exc-intro-box">
-        <div className="exc-intro-content">
-          <div className="exc-intro-titulo">La provincia de Valencia te espera · No te pierdas los alrededores</div>
-          <p>Valencia es el punto de partida perfecto para descubrir una de las provincias con más variedad de paisajes de España. A menos de 2 horas en coche se encuentran <strong>cuevas prehistóricas</strong> con el río subterráneo navegable más largo de Europa, <strong>aguas termales naturales</strong> en plena montaña, ciudades fundadas por el Imperio Romano, castillos medievales filmados por Hollywood y <strong>bodegas con denominación de origen</strong> propia. Todas las excursiones incluyen <strong>transporte de ida y vuelta</strong> desde Valencia, guía oficial y entradas; solo tienes que aparecer en el punto de salida.</p>
-        </div>
-      </div>
-
       {/* Section title */}
       <div className="exc-section-title">
         <h2>Todas las excursiones desde Valencia</h2>

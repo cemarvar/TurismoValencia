@@ -340,8 +340,7 @@
 /* ── Consejos ── */
 .fam-consejos-section {
     margin-top: 52px;
-    padding-top: 48px;
-    border-top: 2px solid #1a2a4a;
+    padding-top: 18px;
 }
 
 .fam-section-title {
@@ -423,14 +422,6 @@
 .fam-info-list li strong {
     font-weight: 600;
     color: #1a1a1a;
-}
-
-.fam-info-list li::before {
-    content: '—';
-    position: absolute;
-    left: 0;
-    color: #999;
-    font-size: 12px;
 }
 
 /* ── RESPONSIVE ── */

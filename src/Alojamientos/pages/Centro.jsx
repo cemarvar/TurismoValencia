@@ -105,14 +105,6 @@ export default function Centro() {
         </div>
       </div>
 
-      {/* Intro box */}
-      <div className="cen-intro-box">
-        <div className="cen-intro-content">
-          <div className="cen-intro-titulo">El centro neurálgico · A pie de todo</div>
-          <p>La Plaza del Ayuntamiento es el corazón de Valencia: el punto de encuentro histórico, comercial y festivo de la ciudad. Alojarse aquí significa tener el <strong>Mercado Central</strong>, la <strong>Lonja de la Seda</strong> (Patrimonio de la Humanidad), la <strong>Catedral</strong> y las mejores calles de tapas a menos de 10 minutos a pie. El transporte público —metro Xàtiva, tren Valencia-Norte y múltiples autobuses— permite llegar fácilmente a la Ciudad de las Artes y las Ciencias o a las playas. Durante las <strong>Fallas de marzo</strong>, este barrio es el epicentro de la celebración: la mascletà diaria se dispara en la misma plaza y las fallas más grandes del centro se plantan a un paso.</p>
-        </div>
-      </div>
-
       {/* Intro */}
       <div className="cen-intro">
         <p>La oferta de alojamiento en el Centro cubre todos los perfiles: desde el <strong>hotel boutique de lujo</strong> con rooftop junto a la Catedral hasta el <strong>hostal clásico reformado</strong> en la misma plaza principal, pasando por un hotel de cadena internacional con vistas históricas y un moderno tres estrellas en zona peatonal. Los cuatro comparten la ventaja más valiosa de Valencia: estar <strong>a pie de todo</strong>.</p>

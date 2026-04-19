@@ -97,42 +97,6 @@
     background: rgba(255,255,255,0.25);
 }
 
-/* ── Intro box ── */
-.ch-intro-box {
-    margin: 0 48px;
-    background: #12090000;
-    background: #120900;
-    padding: 28px 32px;
-    display: flex;
-    gap: 24px;
-    align-items: flex-start;
-}
-
-.ch-intro-titulo {
-    font-size: 15px;
-    font-weight: 700;
-    color: #d4a84a;
-    margin-bottom: 10px;
-}
-
-.ch-intro-content p {
-    font-size: 14px;
-    font-weight: 300;
-    color: rgba(255,255,255,0.85);
-    line-height: 1.65;
-    margin: 0;
-}
-
-.ch-intro-content strong {
-    font-weight: 600;
-    color: #fff;
-}
-
-.ch-intro-content em {
-    font-style: italic;
-    color: rgba(255,255,255,0.75);
-}
-
 /* ── Section title ── */
 .ch-section-title {
     padding: 30px 48px 32px;
@@ -586,13 +550,6 @@
 .ch-info-list li strong {
     font-weight: 600;
     color: #1a1a1a;
-}
-
-.ch-info-list li::before {
-    position: absolute;
-    left: 0;
-    color: #a06a00;
-    font-size: 12px;
 }
 
 /* ── RESPONSIVE ── */

@@ -146,14 +146,6 @@ export default function CienciasArtes() {
         </div>
       </div>
 
-      {/* Intro box */}
-      <div className="ca-intro-box">
-        <div className="ca-intro-content">
-          <div className="ca-intro-titulo">Calatrava · Candela · La Valencia del siglo XXI</div>
-          <p>La <strong>Ciutat de les Arts i les Ciències</strong> ofrece visitas guiadas oficiales que van mucho más allá de lo que cualquier visitante puede descubrir por su cuenta. El CAC dispone de guías especializados en arquitectura, ciencia y arte que abren el acceso a <strong>zonas restringidas al público</strong>, desvelan los secretos estructurales de los edificios de <strong>Santiago Calatrava</strong> y <strong>Félix Candela</strong> y guían por las exposiciones más complejas con actividades dinámicas y participativas. Las visitas van desde los 3,50 € adicionales sobre la entrada al Museu hasta los 65 € por la visita arquitectónica completa con acceso a áreas exclusivas. La programación está <strong>sujeta a cambios</strong>; se recomienda confirmar siempre en taquillas o en el 96 197 46 86.</p>
-        </div>
-      </div>
-
       {/* Section title */}
       <div className="ca-section-title">
         <h2>Visitas guiadas oficiales del CAC</h2>

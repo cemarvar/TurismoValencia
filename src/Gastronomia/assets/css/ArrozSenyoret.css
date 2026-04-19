@@ -98,42 +98,6 @@
     background: rgba(255,255,255,0.22);
 }
 
-/* ── Historia box ── */
-.sen-historia-box {
-    margin: 0 48px;
-    background: #001020;
-    border-top: 3px solid #3a6a9a;
-    padding: 28px 32px;
-    display: flex;
-    gap: 24px;
-    align-items: flex-start;
-}
-
-.sen-historia-titulo {
-    font-size: 15px;
-    font-weight: 700;
-    color: #c8a860;
-    margin-bottom: 10px;
-}
-
-.sen-historia-content p {
-    font-size: 14px;
-    font-weight: 300;
-    color: rgba(255,255,255,0.84);
-    line-height: 1.65;
-    margin: 0;
-}
-
-.sen-historia-content strong {
-    font-weight: 600;
-    color: #fff;
-}
-
-.sen-historia-content em {
-    font-style: italic;
-    color: #c8a860;
-}
-
 /* ── Intro ── */
 .sen-intro {
     max-width: 740px;
@@ -349,7 +313,6 @@
     letter-spacing: -0.01em;
     margin-bottom: 20px;
     padding-top: 32px;
-    border-top: 1.5px solid #e5e5e5;
 }
 
 .sen-rest-grid {
@@ -430,13 +393,6 @@
 .sen-info-list li strong {
     font-weight: 600;
     color: #1a1a1a;
-}
-
-.sen-info-list li::before {
-    position: absolute;
-    left: 0;
-    font-size: 11px;
-    top: 2px;
 }
 
 /* ── RESPONSIVE ── */

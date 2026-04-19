@@ -117,15 +117,6 @@ export default function CorpusChristi() {
         </div>
       </div>
 
-      {/* Historia box */}
-      <div className="cc-historia-box">
-        <div className="cc-historia-icono"></div>
-        <div className="cc-historia-content">
-          <div className="cc-historia-titulo">La Festa Grossa · La fiesta más antigua y solemne de Valencia</div>
-          <p>La festividad del Corpus Christi fue instituida en <strong>1263</strong> por el Papa Urbano IV mediante la bula <em>Transiturus Hoc Mundo</em>, inspirada en un hecho milagroso ocurrido en Bolsena (Italia) y otro en Luchente (Valencia), donde la Hostia Sagrada habría manado sangre. La primera procesión en Valencia se organizó en <strong>1355</strong> a instancias del obispo <strong>Hugo de Fenollet</strong> —el mismo que bautizó a San Vicente Ferrer—, y desde <strong>1372</strong> se ha celebrado ininterrumpidamente. Declarada <strong>Bien de Interés Cultural Inmaterial</strong> por la Generalitat Valenciana en 2010, el Corpus es considerado históricamente la <em>"Festa Grossa"</em> —la Fiesta Grande— de la ciudad, y una de las procesiones más antiguas de España.</p>
-        </div>
-      </div>
-
       {/* Intro */}
       <div className="cc-intro">
         <p>El Corpus de Valencia no es solo una procesión religiosa: es un espectáculo cultural total que combina teatro medieval, danzas ancestrales, carrozas históricas y una buena dosis de humor popular. Más allá del sentido católico de la fiesta, el Corpus es una muestra viva de la convivencia entre el espíritu festivo, simbólico, metafórico y religioso de la sociedad valenciana.</p>

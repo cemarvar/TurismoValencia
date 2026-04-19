@@ -123,7 +123,6 @@
 /* ── Títulos de sección ── */
 .mm-section-title {
     padding: 0 48px 32px;
-    border-bottom: 1px solid #e5e5e5;
     margin-bottom: 0;
 }
 
@@ -433,14 +432,6 @@
 .mm-info-list li strong {
     font-weight: 600;
     color: #1a1a1a;
-}
-
-.mm-info-list li::before {
-    content: '—';
-    position: absolute;
-    left: 0;
-    color: #999;
-    font-size: 12px;
 }
 
 /* ── RESPONSIVE ── */

@@ -130,14 +130,6 @@ export default function ArrozHorno() {
         </div>
       </div>
 
-      {/* Historia box */}
-      <div className="ah-historia-box">
-        <div className="ah-historia-content">
-          <div className="ah-historia-titulo">El arroz paseado · La cocina que viajaba hasta el panadero</div>
-          <p>Mientras la paella nació al aire libre y en el campo, el arroz al horno nació en las cocinas de los hogares valencianos y en el horno comunal del barrio. <strong>Arròs passejat</strong> —arroz paseado— era el nombre popular, porque las mujeres preparaban la cazuela con todos los ingredientes y la llevaban caminando hasta el horno del panadero, que aprovechaba el calor residual tras cocer el pan para terminar la cocción. A cambio, el panadero cobraba una pequeña cantidad o una porción del arroz, creando un vínculo social único alrededor de este plato. Su ADN es el <strong>puchero valenciano</strong>: el caldo sobrante, los garbanzos y las carnes del cocido del día anterior se reutilizaban al día siguiente en el arroz al horno. No era solo economía doméstica: era inteligencia culinaria. Una costumbre que todavía pervive en algunos pueblos de la Comunitat, especialmente en la zona sur de Valencia, donde <strong>Xàtiva</strong> es considerada la capital del plato.</p>
-        </div>
-      </div>
-
       {/* Intro */}
       <div className="ah-intro">
         <p>El arroz al horno es el gran desconocido de la cocina valenciana fuera de la Comunitat. Mientras la paella ha conquistado el mundo, el arròs al forn ha permanecido como un secreto celosamente guardado por los valencianos: el plato de domingo, de familia, de invierno, de "el de toda la vida". La razón de este carácter tan local está en su propia naturaleza: es un plato contundente, de sabores profundos y cocción lenta, muy alejado de la imagen ligera y solar que proyecta la paella.</p>

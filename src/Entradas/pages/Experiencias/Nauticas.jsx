@@ -158,14 +158,6 @@ export default function Nauticas() {
         </div>
       </div>
 
-      {/* Intro box */}
-      <div className="nau-intro-box">
-        <div className="nau-intro-content">
-          <div className="nau-intro-titulo">La Marina de València · El mar a un paso del centro</div>
-          <p>La <strong>Marina de València</strong> es el punto de partida de todas las actividades náuticas de la ciudad. Situada junto a las playas del Cabanyal y Las Arenas, a apenas 20 minutos en metro desde el centro histórico, es uno de los puertos deportivos más activos del Mediterráneo occidental. Desde aquí parten excursiones en velero, paseos en catamarán al atardecer, clases de paddle surf y windsurf, y todo tipo de deportes acuáticos con el <strong>Mediterráneo valenciano</strong> como escenario. Visit València ofrece una selección de las mejores actividades náuticas, todas con <strong>10% de descuento</strong> para los titulares de la Valencia Tourist Card.</p>
-        </div>
-      </div>
-
       {/* Section title deportes */}
       <div className="nau-section-title">
         <h2>Deportes acuáticos</h2>

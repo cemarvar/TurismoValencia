@@ -105,14 +105,6 @@ export default function CiudadArtesCienciasAloj() {
         </div>
       </div>
 
-      {/* Intro box */}
-      <div className="cacaloj-intro-box">
-        <div className="cacaloj-intro-content">
-          <div className="cacaloj-intro-titulo">La Valencia más moderna · Calatrava y Candela</div>
-          <p>La Ciudad de las Artes y las Ciencias es el gran símbolo de la Valencia contemporánea. Diseñada por <strong>Santiago Calatrava</strong> y <strong>Félix Candela</strong>, este complejo futurista concentra en 350.000 m² algunos de los edificios más fotografiados del mundo: el <strong>L'Oceanogràfic</strong> (el acuario más grande de Europa, con el túnel submarino más largo del continente), el <strong>L'Hemisfèric</strong> con su cine IMAX, el <strong>Museu de les Ciències Príncep Felip</strong> y el imponente <strong>Palau de les Arts Reina Sofía</strong>. Alojarse aquí es vivir en primera fila el espectáculo arquitectónico. El <strong>Jardín del Turia</strong> —9 km de parque urbano en el antiguo cauce del río— conecta toda esta zona con el centro histórico a pie o en bicicleta.</p>
-        </div>
-      </div>
-
       {/* Intro */}
       <div className="cacaloj-intro">
         <p>Los hoteles de la zona de la Ciudad de las Artes y las Ciencias cubren todos los perfiles: desde el <strong>hotel de diseño con spa premium</strong> y jardín privado hasta el <strong>dúo de hoteles integrado en un centro comercial</strong> con acceso directo al Oceanogràfic, pasando por una torre clásica frente al Turia y el establecimiento con las mejores vistas directas al skyline de Calatrava.</p>

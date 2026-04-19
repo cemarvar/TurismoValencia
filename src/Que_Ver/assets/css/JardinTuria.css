@@ -97,41 +97,6 @@
     background: rgba(255,255,255,0.25);
 }
 
-/* ── Caja historia ── */
-.jt-historia-box {
-    margin: 0 48px;
-    background: #1a2a4a;
-    padding: 28px 32px;
-    display: flex;
-    gap: 24px;
-    align-items: flex-start;
-}
-
-.jt-historia-icono {
-    font-size: 32px;
-    flex-shrink: 0;
-}
-
-.jt-historia-titulo {
-    font-size: 15px;
-    font-weight: 700;
-    color: #a8d5a2;
-    margin-bottom: 10px;
-}
-
-.jt-historia-content p {
-    font-size: 14px;
-    font-weight: 300;
-    color: rgba(255,255,255,0.85);
-    line-height: 1.65;
-    margin: 0;
-}
-
-.jt-historia-content strong {
-    font-weight: 600;
-    color: #fff;
-}
-
 /* ── Intro ── */
 .jt-intro {
     max-width: 740px;
@@ -368,8 +333,7 @@
 /* ── Tabla información práctica ── */
 .jt-info-practica {
     margin: 52px 48px 0;
-    padding-top: 48px;
-    border-top: 1.5px solid #e5e5e5;
+    padding-top: 18px;
 }
 
 .jt-info-practica h3 {
@@ -460,14 +424,6 @@
 .jt-info-list li strong {
     font-weight: 600;
     color: #1a1a1a;
-}
-
-.jt-info-list li::before {
-    content: '—';
-    position: absolute;
-    left: 0;
-    color: #a5d6a7;
-    font-size: 12px;
 }
 
 /* ── RESPONSIVE ── */

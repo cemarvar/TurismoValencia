@@ -117,14 +117,6 @@ export default function Fallas() {
         </div>
       </div>
 
-      {/* Historia box */}
-      <div className="fal-historia-box">
-        <div className="fal-historia-content">
-          <div className="fal-historia-titulo">Del paro de los carpinteros al Patrimonio de la Humanidad</div>
-          <p>El origen de las Fallas se halla en una costumbre de los carpinteros valencianos: la víspera de San José —su patrón—, quemaban los <strong>"parots"</strong>, estructuras de madera de las que colgaban los candiles que les daban luz durante el invierno. Con la llegada de la primavera y los días más largos, ya no eran necesarios. La inventiva popular les fue dando forma humana, añadiendo harapos y trastos viejos, hasta convertirlos en los <strong>"ninots"</strong> de carácter satírico que conocemos hoy. Con el tiempo evolucionaron en monumentos de varios pisos y presupuestos millonarios. En noviembre de 2016, la UNESCO los inscribió en su <strong>Lista Representativa del Patrimonio Cultural Inmaterial de la Humanidad</strong>.</p>
-        </div>
-      </div>
-
       {/* Intro */}
       <div className="fal-intro">
         <p>Las Fallas son, ante todo, una fiesta de barrio que escala hasta convertirse en un espectáculo global. Cada comisión fallera —una asociación de vecinos de toda la vida— trabaja durante todo el año para plantar su monumento en la calle, organizar actos en su local y representar su barrio en la fiesta. Esa estructura popular, de base ciudadana, es lo que hace de las Fallas algo genuinamente distinto a cualquier otra celebración del mundo.</p>

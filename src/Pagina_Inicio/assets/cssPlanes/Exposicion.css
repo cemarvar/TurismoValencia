@@ -388,8 +388,7 @@
 /* ── Exposiciones especiales ── */
 .ex-especiales-section {
     padding-top: 52px;
-    margin-top: 52px;
-    border-top: 2px solid #1a2a4a;
+    margin-top: 12px;
 }
 
 .ex-section-title {
@@ -513,14 +512,6 @@
 .ex-info-list li strong {
     font-weight: 600;
     color: #1a1a1a;
-}
-
-.ex-info-list li::before {
-    content: '—';
-    position: absolute;
-    left: 0;
-    color: #999;
-    font-size: 12px;
 }
 
 /* ── RESPONSIVE ── */

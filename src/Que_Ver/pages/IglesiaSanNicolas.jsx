@@ -94,13 +94,6 @@ var elementos = [
   },
 ];
 
-var porque = [
-  { titulo: 'Capilla Sixtina Valenciana', desc: 'Reconocida por el director de restauración de la Sixtina del Vaticano, Gianluigi Colalucci, en 2012.' },
-  { titulo: '~2.000 m² de frescos', desc: 'La bóveda barroca más espectacular de Valencia, diseñada por Palomino y ejecutada por Dionís Vidal.' },
-  { titulo: 'Gótico + Barroco', desc: 'El mejor ejemplo de convivencia de dos estilos en un mismo espacio, único en España.' },
-  { titulo: '"La Luz de San Nicolás"', desc: 'Videomapping y experiencia inmersiva pionera sobre la bóveda, cada hora a partir de las 11:00 h.' },
-];
-
 var datosVisita = [
   { label: 'Dirección', val: 'C/ Caballeros, 35 · 46001 Valencia · Barrio del Carmen · A 5 min de la Catedral' },
   { label: 'Horario mar–vie', val: '10:30–19:00 h (invierno: 19:30 h · verano: 21:00 h)' },
@@ -144,18 +137,6 @@ export default function IglesiaSanNicolas() {
             <span className="sn-stat-label">reconocida Sixtina Valenciana</span>
           </div>
         </div>
-      </div>
-
-      {/* Por qué visitar */}
-      <div className="sn-porqué">
-        {porque.map(p => (
-          <div className="sn-porqué-item" key={p.titulo}>
-            <div>
-              <div className="sn-porqué-titulo">{p.titulo}</div>
-              <p className="sn-porqué-desc">{p.desc}</p>
-            </div>
-          </div>
-        ))}
       </div>
 
       {/* Intro */}

@@ -279,8 +279,7 @@
 /* ── Cronología ── */
 .cc-cronologia-section {
     margin: 52px 48px 0;
-    padding-top: 48px;
-    border-top: 1.5px solid #e5e5e5;
+    padding-top: 18px;
 }
 
 .cc-cronologia-section h3 {
@@ -360,8 +359,7 @@
 /* ── Tabla información práctica ── */
 .cc-info-practica {
     margin: 52px 48px 0;
-    padding-top: 48px;
-    border-top: 1.5px solid #e5e5e5;
+    padding-top:18px;
 }
 
 .cc-info-practica h3 {
@@ -452,14 +450,6 @@
 .cc-info-list li strong {
     font-weight: 600;
     color: #1a1a1a;
-}
-
-.cc-info-list li::before {
-    content: '—';
-    position: absolute;
-    left: 0;
-    color: #999;
-    font-size: 12px;
 }
 
 /* ── RESPONSIVE ── */

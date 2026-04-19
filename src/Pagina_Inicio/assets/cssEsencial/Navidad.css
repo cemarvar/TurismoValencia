@@ -310,16 +310,6 @@
     position: relative;
 }
 
-.nv-info-list li::before {
-    content: '—';
-    position: absolute;
-    left: 0;
-    color: #999;
-    font-size: 12px;
-}
-
-
-
 /* ── RESPONSIVE ── */
 @media (max-width: 1024px) {
     .nv-route-item {

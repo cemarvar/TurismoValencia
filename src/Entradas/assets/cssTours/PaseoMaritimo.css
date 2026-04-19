@@ -96,36 +96,6 @@
     background: rgba(255,255,255,0.22);
 }
 
-/* ── Intro box ── */
-.pm-intro-box {
-    margin: 0 48px;
-    background: #001626;
-    padding: 28px 32px;
-    display: flex;
-    gap: 24px;
-    align-items: flex-start;
-}
-
-.pm-intro-titulo {
-    font-size: 15px;
-    font-weight: 700;
-    color: #5ec8f0;
-    margin-bottom: 10px;
-}
-
-.pm-intro-content p {
-    font-size: 14px;
-    font-weight: 300;
-    color: rgba(255,255,255,0.85);
-    line-height: 1.7;
-    margin: 0;
-}
-
-.pm-intro-content strong {
-    font-weight: 600;
-    color: #fff;
-}
-
 /* ── Section title ── */
 .pm-section-title {
     padding: 52px 48px 32px;
@@ -342,8 +312,7 @@
 /* ── Gastronomía ── */
 .pm-gastro-section {
     margin: 40px 48px 0;
-    padding-top: 40px;
-    border-top: 1.5px solid #e5e5e5;
+    padding-top: 20px;
 }
 
 .pm-gastro-section h3 {
@@ -393,8 +362,7 @@
 /* ── Tabla info práctica ── */
 .pm-info-practica {
     margin: 40px 48px 0;
-    padding-top: 40px;
-    border-top: 1.5px solid #e5e5e5;
+    padding-top: 20px;
 }
 
 .pm-info-practica h3 {
@@ -481,13 +449,6 @@
 .pm-info-list li strong {
     font-weight: 600;
     color: #1a1a1a;
-}
-
-.pm-info-list li::before {
-    position: absolute;
-    left: 0;
-    color: #0060a0;
-    font-size: 12px;
 }
 
 /* ── RESPONSIVE ── */

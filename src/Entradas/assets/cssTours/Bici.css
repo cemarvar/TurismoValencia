@@ -96,36 +96,6 @@
     background: rgba(255,255,255,0.22);
 }
 
-/* ── Intro box ── */
-.bici-intro-box {
-    margin: 0 48px;
-    background: #021404;
-    padding: 28px 32px;
-    display: flex;
-    gap: 24px;
-    align-items: flex-start;
-}
-
-.bici-intro-titulo {
-    font-size: 15px;
-    font-weight: 700;
-    color: #6dcc7a;
-    margin-bottom: 10px;
-}
-
-.bici-intro-content p {
-    font-size: 14px;
-    font-weight: 300;
-    color: rgba(255,255,255,0.84);
-    line-height: 1.65;
-    margin: 0;
-}
-
-.bici-intro-content strong {
-    font-weight: 600;
-    color: #fff;
-}
-
 /* ── Section titles ── */
 .bici-section-title {
     padding: 48px 48px 32px;
@@ -400,13 +370,6 @@
 .bici-info-list li strong {
     font-weight: 600;
     color: #1a1a1a;
-}
-
-.bici-info-list li::before {
-    position: absolute;
-    left: 0;
-    color: #2a7a36;
-    font-size: 12px;
 }
 
 /* ── RESPONSIVE ── */

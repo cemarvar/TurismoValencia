@@ -117,14 +117,6 @@ export default function GranFeria() {
         </div>
       </div>
 
-      {/* Historia box */}
-      <div className="gf-historia-box">
-        <div className="gf-historia-content">
-          <div className="gf-historia-titulo">Más de 150 años animando el verano valenciano</div>
-          <p>En 1870, el Ayuntamiento de Valencia propuso crear una feria anual en julio para retener a los ciudadanos que abandonaban la ciudad en verano y atraer visitantes de fuera. El <strong>21 de julio de 1871</strong> se inauguró la primera Gran Feria con una vistosa cabalgata, pabellones, exposiciones de plantas y venta de productos locales. Con el tiempo, al coincidir con la recolección de las cosechas, se añadieron exposiciones agrícolas, ganaderas y concursos. En <strong>1891</strong> se incorporó la Batalla de Flores, que desde entonces cierra la feria cada último domingo de julio en el Paseo de la Alameda. Hoy la Gran Feria es un festival urbano de verano que combina la mejor programación cultural de la ciudad con el carácter mediterráneo más festivo de Valencia.</p>
-        </div>
-      </div>
-
       {/* Intro */}
       <div className="gf-intro">
         <p>La Gran Feria de Julio es la fiesta del verano valenciano: un mes entero de actividades que llenan plazas, jardines, teatros y playas con conciertos, espectáculos, fuegos artificiales y tradiciones. A diferencia de las Fallas —concentradas en 19 días de marzo— la Gran Feria se despliega con un ritmo más sostenido, con grandes noches que se alternan con programación de barrio en barrio.</p>

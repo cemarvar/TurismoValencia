@@ -98,48 +98,6 @@
     background: rgba(255,255,255,0.25);
 }
 
-/* ── Historia box ── */
-.cc-historia-box {
-    margin: 0 48px;
-    background: #1a1400;
-    border-top: 3px solid #c8960a;
-    padding: 28px 32px;
-    display: flex;
-    gap: 24px;
-    align-items: flex-start;
-}
-
-.cc-historia-icono {
-    font-size: 32px;
-    flex-shrink: 0;
-    color: #f0c040;
-}
-
-.cc-historia-titulo {
-    font-size: 15px;
-    font-weight: 700;
-    color: #f0c040;
-    margin-bottom: 10px;
-}
-
-.cc-historia-content p {
-    font-size: 14px;
-    font-weight: 300;
-    color: rgba(255,255,255,0.85);
-    line-height: 1.65;
-    margin: 0;
-}
-
-.cc-historia-content strong {
-    font-weight: 600;
-    color: #fff;
-}
-
-.cc-historia-content em {
-    font-style: italic;
-    color: #f0c040;
-}
-
 /* ── Intro ── */
 .cc-intro {
     max-width: 740px;
@@ -412,14 +370,6 @@
 .cc-info-list li strong {
     font-weight: 600;
     color: #1a1a1a;
-}
-
-.cc-info-list li::before {
-    position: absolute;
-    left: 0;
-    color: #c8960a;
-    font-size: 10px;
-    top: 3px;
 }
 
 /* ── RESPONSIVE ── */

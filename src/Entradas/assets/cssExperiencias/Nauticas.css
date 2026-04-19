@@ -96,36 +96,6 @@
     background: rgba(255,255,255,0.22);
 }
 
-/* ── Intro box ── */
-.nau-intro-box {
-    margin: 0 48px;
-    background: #000c24;
-    padding: 28px 32px;
-    display: flex;
-    gap: 24px;
-    align-items: flex-start;
-}
-
-.nau-intro-titulo {
-    font-size: 15px;
-    font-weight: 700;
-    color: #4dc8f0;
-    margin-bottom: 10px;
-}
-
-.nau-intro-content p {
-    font-size: 14px;
-    font-weight: 300;
-    color: rgba(255,255,255,0.84);
-    line-height: 1.65;
-    margin: 0;
-}
-
-.nau-intro-content strong {
-    font-weight: 600;
-    color: #fff;
-}
-
 /* ── Section titles ── */
 .nau-section-title {
     padding: 52px 48px 32px;
@@ -400,13 +370,6 @@
 .nau-info-list li strong {
     font-weight: 600;
     color: #1a1a1a;
-}
-
-.nau-info-list li::before {
-    position: absolute;
-    left: 0;
-    color: #0068a0;
-    font-size: 12px;
 }
 
 /* ── RESPONSIVE ── */

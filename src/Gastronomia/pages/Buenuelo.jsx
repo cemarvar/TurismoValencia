@@ -121,14 +121,6 @@ export default function Buenuelo() {
         </div>
       </div>
 
-      {/* Historia box */}
-      <div className="bun-historia-box">
-        <div className="bun-historia-content">
-          <div className="bun-historia-titulo">De las hogueras del gremio a los puestos callejeros de las Fallas</div>
-          <p>La historia del buñuelo valenciano arranca en el siglo XIX, cuando el gremio de carpinteros de Valencia empezó a quemar sus sobrantes de madera el día de San José —el germen de las Fallas. Alrededor de aquellas primeras hogueras, las <strong>buñoleras</strong> —las mujeres del gremio— sacaban grandes bidones de hierro y preparaban buñuelos de viento con una receta romana básica: harina, agua, levadura y sal. Los vecinos los tomaban con <em>anís o aguardiente</em>, no con chocolate. Con el tiempo, los campesinos de la huerta incorporaron la <strong>calabaza de temporada</strong> —que aguanta meses sin estropearse— para dar al buñuelo más dulzura y color. Los bidones de hierro se convirtieron en puestos callejeros con cocinas de gas. El anís se sustituyó por chocolate caliente. Y el bunyol de carabassa se convirtió en el símbolo gastronómico más reconocible de las Fallas, Patrimonio Inmaterial de la Humanidad desde 2017.</p>
-        </div>
-      </div>
-
       {/* Intro */}
       <div className="bun-intro">
         <p>El buñuelo de calabaza es el único dulce que Valencia ha convertido en símbolo de toda una fiesta. Durante las Fallas —del 1 al 19 de marzo— la ciudad entera huele a aceite caliente y calabaza frita. Los puestos de buñuelos se convierten en puntos de encuentro, en paradas obligadas, en el pretexto perfecto para quedarse charlando al lado de la hoguera con un cono en la mano y una taza de chocolate caliente en la otra.</p>

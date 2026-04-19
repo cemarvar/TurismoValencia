@@ -151,14 +151,6 @@ export default function PrivadoGrupo() {
         </div>
       </div>
 
-      {/* Intro box */}
-      <div className="pg-intro-box">
-        <div className="pg-intro-content">
-          <div className="pg-intro-titulo">Guías oficiales de turismo · Calidad y profesionalidad garantizadas</div>
-          <p>¿Buscas una experiencia personalizada para tu grupo? Tanto si sois numerosos como si queréis un recorrido completamente a medida, Visit València ofrece una selección de <strong>las mejores empresas de visitas guiadas con guías oficiales</strong> de la Comunitat Valenciana. Todos los operadores están <strong>certificados y titulados</strong> como guías oficiales de turismo, lo que garantiza calidad, profesionalidad y un conocimiento profundo de la ciudad. Puedes adaptar el tour a vuestras necesidades en cuanto a <strong>temática, itinerario, horario, idioma y número de personas</strong>. Desde tours de arquitectura con arquitectos como guías hasta excursiones con transporte privado por los alrededores de Valencia.</p>
-        </div>
-      </div>
-
       {/* Section title operadores destacados */}
       <div className="pg-section-title">
         <h2>Operadores destacados</h2>

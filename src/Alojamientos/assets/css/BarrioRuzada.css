@@ -97,36 +97,6 @@
     background: rgba(255,255,255,0.25);
 }
 
-/* ── Intro box ── */
-.ruzloj-intro-box {
-    margin: 0 48px;
-    background: #1a0a00;
-    padding: 28px 32px;
-    display: flex;
-    gap: 24px;
-    align-items: flex-start;
-}
-
-.ruzloj-intro-titulo {
-    font-size: 15px;
-    font-weight: 700;
-    color: #e8804a;
-    margin-bottom: 10px;
-}
-
-.ruzloj-intro-content p {
-    font-size: 14px;
-    font-weight: 300;
-    color: rgba(255,255,255,0.85);
-    line-height: 1.65;
-    margin: 0;
-}
-
-.ruzloj-intro-content strong {
-    font-weight: 600;
-    color: #fff;
-}
-
 /* ── Intro ── */
 .ruzloj-intro {
     max-width: 740px;
@@ -401,13 +371,6 @@
 .ruzloj-info-list li strong {
     font-weight: 600;
     color: #1a1a1a;
-}
-
-.ruzloj-info-list li::before {
-    position: absolute;
-    left: 0;
-    color: #b85820;
-    font-size: 12px;
 }
 
 /* ── RESPONSIVE ── */

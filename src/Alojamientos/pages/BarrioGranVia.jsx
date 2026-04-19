@@ -75,14 +75,6 @@ export default function BarrioGranVia() {
         </div>
       </div>
 
-      {/* Intro box */}
-      <div className="grv-intro-box">
-        <div className="grv-intro-content">
-          <div className="grv-intro-titulo">L'Eixample · El barrio de las grandes avenidas</div>
-          <p>El barrio de la Gran Vía —conocido como L'Eixample o Ensanche— es la Valencia elegante y burguesa del siglo XX. Sus <strong>amplias avenidas flanqueadas por edificios modernistas y eclécticos</strong> contrastan con la ciudad histórica y ofrecen una experiencia de barrio tranquilo y señorial. La <strong>Gran Vía Marqués del Turia</strong> es el eje principal: un paseo bordeado de tiendas de diseño, restaurantes de nivel y terrazas que une la Plaza de Cánovas con el Jardín del Turia. Este barrio es también el punto de conexión perfecto entre el <strong>centro histórico</strong> (a 10–15 min a pie), el <strong>barrio de Ruzafa</strong> (a 5 min) y la <strong>Ciudad de las Artes y las Ciencias</strong> (a 1,5 km en bici por el Jardín del Turia).</p>
-        </div>
-      </div>
-
       {/* Intro */}
       <div className="grv-intro">
         <p>Los alojamientos de la Gran Vía reflejan la diversidad del barrio: un <strong>B&B boutique en un edificio centenario</strong> con mosaicos de cerámica valenciana y jardín interior, y un <strong>hotel de 4 estrellas con 50 años de historia</strong> en la propia Gran Vía Marqués del Turia, con vistas directas al paseo arbolado.</p>

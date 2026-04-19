@@ -400,13 +400,6 @@
     color: #1a1a1a;
 }
 
-.ag-info-list li::before {
-    position: absolute;
-    left: 0;
-    color: #c04800;
-    font-size: 12px;
-}
-
 /* ── RESPONSIVE ── */
 @media (max-width: 1100px) {
     .ag-route-item {

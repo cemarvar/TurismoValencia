@@ -114,8 +114,7 @@
 
 /* ── Calendario semanal de mercadillos ── */
 .cl-calendario-section {
-    padding: 0 48px 40px;
-    border-bottom: 1px solid #e5e5e5;
+    padding: 0 48px 20px;
 }
 
 .cl-calendario-titulo {
@@ -388,8 +387,7 @@
 /* ── Artesanía ── */
 .cl-artesania-section {
     padding-top: 52px;
-    margin-top: 52px;
-    border-top: 2px solid #1a2a4a;
+    margin-top: 12px;
 }
 
 .cl-section-title {
@@ -530,14 +528,6 @@
 .cl-info-list li strong {
     font-weight: 600;
     color: #1a1a1a;
-}
-
-.cl-info-list li::before {
-    content: '—';
-    position: absolute;
-    left: 0;
-    color: #999;
-    font-size: 12px;
 }
 
 /* ── RESPONSIVE ── */

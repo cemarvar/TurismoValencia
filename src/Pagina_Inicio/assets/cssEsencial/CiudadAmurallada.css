@@ -474,14 +474,6 @@
     color: #1a1a1a;
 }
 
-.cam-info-list li::before {
-    content: '—';
-    position: absolute;
-    left: 0;
-    color: #999;
-    font-size: 12px;
-}
-
 /* ── RESPONSIVE ── */
 @media (max-width: 1100px) {
     .cam-route-item {

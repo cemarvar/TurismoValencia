@@ -126,14 +126,6 @@ export default function ActividadesGastronomicas() {
         </div>
       </div>
 
-      {/* Intro box */}
-      <div className="ag-intro-box">
-        <div className="ag-intro-content">
-          <div className="ag-intro-titulo">La gastronomía valenciana · Más que comer, vivir</div>
-          <p>Valencia es mucho más que la cuna de la paella. Es una ciudad donde la gastronomía forma parte de la identidad cultural, la celebración y la vida cotidiana. Las <strong>actividades gastronómicas</strong> de Visit València permiten ir más allá de sentarse en un restaurante: <strong>cocinando tú mismo</strong> la paella auténtica, <strong>viendo cómo nació</strong> el plato en su entorno natural —los arrozales de la Albufera—, disfrutando de una <strong>cena con flamenco</strong> en directo o explorando las <strong>bodegas de Utiel-Requena</strong> con cata y maridaje. Cinco experiencias que convierten el sabor en memoria.</p>
-        </div>
-      </div>
-
       {/* Section title ciudad */}
       <div className="ag-section-title">
         <h2>En Valencia ciudad</h2>

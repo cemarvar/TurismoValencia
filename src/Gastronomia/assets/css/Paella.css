@@ -98,42 +98,6 @@
     background: rgba(255,255,255,0.25);
 }
 
-/* ── Historia box ── */
-.pa-historia-box {
-    margin: 0 48px;
-    background: #1a0800;
-    border-top: 3px solid #eb5a00;
-    padding: 28px 32px;
-    display: flex;
-    gap: 24px;
-    align-items: flex-start;
-}
-
-.pa-historia-titulo {
-    font-size: 15px;
-    font-weight: 700;
-    color: #f0c040;
-    margin-bottom: 10px;
-}
-
-.pa-historia-content p {
-    font-size: 14px;
-    font-weight: 300;
-    color: rgba(255,255,255,0.85);
-    line-height: 1.65;
-    margin: 0;
-}
-
-.pa-historia-content strong {
-    font-weight: 600;
-    color: #fff;
-}
-
-.pa-historia-content em {
-    font-style: italic;
-    color: #f0c040;
-}
-
 /* ── Intro ── */
 .pa-intro {
     max-width: 740px;
@@ -442,13 +406,6 @@
 .pa-info-list li strong {
     font-weight: 600;
     color: #1a1a1a;
-}
-
-.pa-info-list li::before {
-    position: absolute;
-    left: 0;
-    font-size: 11px;
-    top: 2px;
 }
 
 /* ── RESPONSIVE ── */

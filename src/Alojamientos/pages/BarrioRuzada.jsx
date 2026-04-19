@@ -90,14 +90,6 @@ export default function BarrioRuzada() {
         </div>
       </div>
 
-      {/* Intro box */}
-      <div className="ruzloj-intro-box">
-        <div className="ruzloj-intro-content">
-          <div className="ruzloj-intro-titulo">De barrio obrero a capital creativa · El Ruzafa de hoy</div>
-          <p>Ruzafa ha protagonizado una de las transformaciones urbanas más llamativas de España. Lo que fue un barrio popular y marginal se ha convertido en el epicentro del Valencia más contemporáneo: el lugar donde conviven el vecino de toda la vida con el artista, el turista con el local, la tienda de ultramarinos con la galería de arte. Sus <strong>fachadas modernistas y azulejos tradicionales</strong> contrastan con murales callejeros y locales de diseño. El <strong>Mercat de Russafa</strong> —con productos locales y exóticos— es el alma del barrio. Por la noche, las terrazas de las calles Cádiz, Dénia y Sueca se convierten en uno de los escenarios más animados de Valencia. Todo esto a 10–15 minutos a pie del centro histórico y a 10 minutos del AVE.</p>
-        </div>
-      </div>
-
       {/* Intro */}
       <div className="ruzloj-intro">
         <p>La oferta de alojamiento en Ruzafa refleja perfectamente la personalidad del barrio: no hay grandes cadenas hoteleras. En su lugar, encontrarás el <strong>único hotel boutique del barrio</strong> en un edificio del siglo XIX, un <strong>B&B íntimo de 6 habitaciones</strong> con terraza y desayuno casero, y una colección de <strong>apartamentos con cocina</strong> en el edificio más emblemático de SingularStays.</p>

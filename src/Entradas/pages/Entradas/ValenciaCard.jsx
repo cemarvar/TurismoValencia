@@ -123,14 +123,6 @@ export default function ValenciaCard() {
         </div>
       </div>
 
-      {/* Intro box */}
-      <div className="vtc-intro-box">
-        <div className="vtc-intro-content">
-          <div className="vtc-intro-titulo">La tarjeta oficial de turismo de Valencia · Entra gratis, viaja gratis</div>
-          <p>La <strong>Valencia Tourist Card</strong> es la tarjeta turística oficial de Valencia, emitida por Visit València. Con una sola tarjeta tienes acceso gratuito a todos los <strong>museos y monumentos municipales</strong>, transporte urbano ilimitado (en las modalidades de 24, 48 y 72 horas), una <strong>tapa con consumición</strong> de regalo y descuentos de hasta el 50% en los principales atractivos de la ciudad: la <strong>Ciudad de las Artes y las Ciencias</strong>, el <strong>Oceanogràfic</strong>, el <strong>Bioparc</strong>, el <strong>Bus Turístico</strong>, el Palacio del Marqués de Dos Aguas y cientos de restaurantes, spas y tiendas. La tarjeta de <strong>7 días</strong> añade además la entrada gratuita a la <strong>Catedral</strong> y al <strong>IVAM</strong>.</p>
-        </div>
-      </div>
-
       {/* Section title */}
       <div className="vtc-section-title">
         <h2>Modalidades de la Valencia Tourist Card</h2>

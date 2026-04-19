@@ -118,14 +118,6 @@ export default function PaseoMaritimo() {
         </div>
       </div>
 
-      {/* Intro box */}
-      <div className="pm-intro-box">
-        <div className="pm-intro-content">
-          <div className="pm-intro-titulo">El paseo que une Valencia con el Mediterráneo</div>
-          <p>El <strong>Paseo Marítimo de Valencia</strong> discurre junto a las playas de <strong>Las Arenas</strong> (Cabanyal) y <strong>La Malvarrosa</strong>, mientras el <strong>Paseo Neptuno</strong> se extiende frente al puerto y la zona de restaurantes, abarcando entre ambos casi 50.000 m² de superficie de vegetación. Las alineaciones de palmeras y los macizos de geranios malvarrosa, lavándulas, gazanias y adelfas dan la perspectiva característica del paseo. Un <strong>carril bici continuo</strong> recorre su longitud completa, conectando el Jardín del Turia con el mar. El paseo une a Valencia con el Mediterráneo y es <strong>uno de los jardines más visitados de la ciudad</strong>: tanto en verano para disfrutar de la playa como el resto del año para pasear junto al mar, la afluencia de público es constante.</p>
-        </div>
-      </div>
-
       {/* Section title playas */}
       <div className="pm-section-title">
         <h2>Las tres playas del Paseo Marítimo</h2>

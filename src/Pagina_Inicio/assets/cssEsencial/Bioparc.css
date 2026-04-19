@@ -120,7 +120,6 @@
 /* ── Título de sección ── */
 .bp-section-title {
     padding: 0 48px 32px;
-    border-bottom: 1px solid #e5e5e5;
 }
 
 .bp-section-title h2 {
@@ -267,8 +266,7 @@
 /* ── Actividades ── */
 .bp-actividades-section {
     padding-top: 52px;
-    margin-top: 52px;
-    border-top: 2px solid #1a2a4a;
+    margin-top: 12px;
 }
 
 .bp-actividades-grid {
@@ -343,8 +341,7 @@
 /* ── Entradas ── */
 .bp-entradas-section {
     margin: 52px 48px 0;
-    padding-top: 48px;
-    border-top: 1.5px solid #e5e5e5;
+    padding-top: 18px;
 }
 
 .bp-entradas-section h3 {
@@ -449,8 +446,7 @@
 /* ── Cómo llegar ── */
 .bp-llegar-section {
     margin: 48px 48px 0;
-    padding-top: 48px;
-    border-top: 1.5px solid #e5e5e5;
+    padding-top: 18px;
 }
 
 .bp-llegar-section h3 {
@@ -539,13 +535,6 @@
     color: #1a1a1a;
 }
 
-.bp-info-list li::before {
-    content: '—';
-    position: absolute;
-    left: 0;
-    color: #999;
-    font-size: 12px;
-}
 
 /* ── RESPONSIVE ── */
 @media (max-width: 1100px) {

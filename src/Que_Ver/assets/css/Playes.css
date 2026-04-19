@@ -419,14 +419,6 @@
     color: #1a1a1a;
 }
 
-.playa-info-list li::before {
-    content: '—';
-    position: absolute;
-    left: 0;
-    color: #0077aa;
-    font-size: 12px;
-}
-
 /* ── RESPONSIVE ── */
 @media (max-width: 1100px) {
     .playa-route-item {

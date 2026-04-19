@@ -301,8 +301,7 @@
 /* ── Experiencias ── */
 .ocn-exp-section {
     margin: 52px 0 0;
-    padding-top: 48px;
-    border-top: 2px solid #003d5c;
+    padding-top: 18px;
 }
 
 .ocn-exp-grid {
@@ -359,8 +358,7 @@
 /* ── Tabla información práctica ── */
 .ocn-info-practica {
     margin: 52px 48px 0;
-    padding-top: 48px;
-    border-top: 1.5px solid #e5e5e5;
+    padding-top: 18px;
 }
 
 .ocn-info-practica h3 {
@@ -451,14 +449,6 @@
 .ocn-info-list li strong {
     font-weight: 600;
     color: #1a1a1a;
-}
-
-.ocn-info-list li::before {
-    content: '—';
-    position: absolute;
-    left: 0;
-    color: #0077aa;
-    font-size: 12px;
 }
 
 /* ── RESPONSIVE ── */

@@ -382,13 +382,6 @@
     color: #1a1a1a;
 }
 
-.fv-info-list li::before {
-    position: absolute;
-    left: 0;
-    font-size: 11px;
-    top: 2px;
-}
-
 /* ── RESPONSIVE ── */
 @media (max-width: 1100px) {
     .fv-route-item {

@@ -119,8 +119,7 @@
 
 /* ── Tabla resumen de tarifas ── */
 .mv-tarifas-section {
-    padding: 0 48px 40px;
-    border-bottom: 1px solid #e5e5e5;
+    padding: 0 48px 20px;
 }
 
 .mv-tarifas-titulo {
@@ -427,14 +426,6 @@
 .mv-info-list li strong {
     font-weight: 600;
     color: #1a1a1a;
-}
-
-.mv-info-list li::before {
-    content: '—';
-    position: absolute;
-    left: 0;
-    color: #999;
-    font-size: 12px;
 }
 
 /* ── RESPONSIVE ── */

@@ -118,14 +118,6 @@ export default function Horchata() {
         </div>
       </div>
 
-      {/* Historia box */}
-      <div className="hor-historia-box">
-        <div className="hor-historia-content">
-          <div className="hor-historia-titulo">La leyenda del rey · "Açò no és llet, açò és or, xata!"</div>
-          <p>Cuenta la leyenda que el rey <strong>Jaume I</strong>, durante la Reconquista, encontró a una campesina junto al camino que le ofreció una bebida blanca hecha con chufa. Al probarla, exclamó: <em>"Açò no és llet, açò és or, xata!"</em> —"¡Esto no es leche, esto es oro, chata!"—. De <em>or</em> (oro) y <em>xata</em> (chata) nacería <strong>orxata</strong>. La historia es leyenda, pero lo real es que fueron los <strong>árabes</strong> quienes trajeron la chufa a la Península en el año 711 y la cultivaron en las tierras de Alboraya. La primera referencia escrita de la horchata valenciana es del botánico Antonio Cavanilles en 1795, y la primera receta con chufa data de 1824. El Papa Benedicto XVI la probó en su visita a Valencia en 2007 y quedó tan impresionado que le fue otorgado el título de <strong>"Horchatero de Honor"</strong> de la DO Chufa de Valencia.</p>
-        </div>
-      </div>
-
       {/* Intro */}
       <div className="hor-intro">
         <p>Valencia tiene una relación con la horchata que va mucho más allá de la gastronomía: es identidad. Cada valenciano tiene su horchatería favorita, cada horchatería tiene su receta propia de fartons, y el ritual del domingo por la tarde con un vaso de horchata granizada y la bandeja de fartons en el centro de la mesa es tan valenciano como la paella o las Fallas.</p>

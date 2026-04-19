@@ -160,14 +160,6 @@ export default function Bici() {
         </div>
       </div>
 
-      {/* Intro box */}
-      <div className="bici-intro-box">
-        <div className="bici-intro-content">
-          <div className="bici-intro-titulo">Valencia, capital española de la bicicleta</div>
-          <p>Valencia es la ciudad <strong>más "bike-friendly"</strong> de España. Su terreno completamente plano, sus casi <strong>200 kilómetros de carril bici</strong> y el espectacular <strong>Jardín del Turia</strong> —9 km de parque lineal trazado en el antiguo cauce del río— hacen que la bicicleta sea el medio de transporte más cómodo, rápido y agradable para recorrerla. Desde el centro histórico medieval hasta la Ciudad de las Artes y las Ciencias de Calatrava, desde el barrio de Ruzafa hasta la playa del Mediterráneo: todo está conectado en bici en menos de 30 minutos. Visit València ofrece una amplia oferta de <strong>alquileres y tours guiados</strong> para todos los gustos y niveles, incluyendo rutas hasta la <strong>Albufera</strong> con paseo en barca y degustación de horchata.</p>
-        </div>
-      </div>
-
       {/* Section title alquiler */}
       <div className="bici-section-title">
         <h2>Alquiler de bicicletas</h2>

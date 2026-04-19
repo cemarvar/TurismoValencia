@@ -130,14 +130,6 @@ export default function Fideua() {
         </div>
       </div>
 
-      {/* Historia box */}
-      <div className="fid-historia-box">
-        <div className="fid-historia-content">
-          <div className="fid-historia-titulo">Nació en una barca · El cocinero que engañó al patrón</div>
-          <p>La fideuà nació en el primer cuarto del siglo XX a bordo de la barca <strong>Santa Isabel</strong>, en el Grao de Gandia. El cocinero de a bordo, <strong>Gabriel Rodríguez Pastor</strong> —"Gabrielo"—, preparaba habitualmente arroz a banda para la tripulación. El problema: el patrón era tan aficionado al arroz que casi nunca les llegaba la ración al resto de marineros. La solución de Gabrielo fue astuta: sustituir el arroz por fideos, pensando que al patrón no le resultaría tan apetitoso. El resultado sorprendió a todos: el fideo absorbía el fumet de morralla con una intensidad diferente, con una textura propia y un sabor único. El plato se extendió por las tabernas del puerto y en <strong>1974</strong> Gandia celebró la primera edición del Concurso Internacional de Fideuà, hoy referente mundial. En 2015, el Ayuntamiento de Gandia declaró la fideuà como "plato típico local".</p>
-        </div>
-      </div>
-
       {/* Intro */}
       <div className="fid-intro">
         <p>La fideuà no es una paella con fideos: es un plato con identidad propia. La técnica es similar —sofrito, tostado, fumet, reposo— pero el fideo absorbe el caldo de manera diferente al arroz, creando una textura más densa y un sabor concentrado que es el sello de este plato marinero. La palabra <em>fideuà</em> viene del valenciano <em>fideuada</em>, "gran cantidad de fideos", y este a su vez del árabe hispano <em>fidaws</em>.</p>

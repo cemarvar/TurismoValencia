@@ -289,8 +289,7 @@
 /* ── Tabla información práctica ── */
 .brc-info-practica {
     margin: 52px 48px 0;
-    padding-top: 48px;
-    border-top: 1.5px solid #e5e5e5;
+    padding-top: 18px;
 }
 
 .brc-info-practica h3 {
@@ -381,14 +380,6 @@
 .brc-info-list li strong {
     font-weight: 600;
     color: #1a1a1a;
-}
-
-.brc-info-list li::before {
-    content: '—';
-    position: absolute;
-    left: 0;
-    color: #999;
-    font-size: 12px;
 }
 
 /* ── RESPONSIVE ── */

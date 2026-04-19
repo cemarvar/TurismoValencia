@@ -80,13 +80,6 @@ var datosVisita = [
   { label: 'Autobús', val: 'Líneas 4, 7, 27, 73, 81 y C1' },
 ];
 
-var porQueVisitar = [
-  { titulo: 'Patrimonio de la Humanidad', desc: 'Declarada por la UNESCO en 1996 como ejemplo excepcional del gótico civil europeo.' },
-  { titulo: 'Columnas helicoidales únicas', desc: 'Las ocho columnas en espiral del Salón Columnario no tienen precedente en la arquitectura gótica valenciana.' },
-  { titulo: 'Decoración escultórica', desc: 'Gárgolas, demonios, animales fantásticos y figuras humanas en posturas curiosas revelan la riqueza del gótico valenciano.' },
-  { titulo: 'Historia viva del comercio', desc: 'Fue escenario del florecimiento mercantil de Valencia en el siglo XV, cuando la ciudad era el mayor puerto comercial del Mediterráneo occidental.' },
-];
-
 export default function LonjaSeda() {
   return (
     <div className="ls-page">
@@ -115,18 +108,6 @@ export default function LonjaSeda() {
             <span className="ls-stat-label">Entrada</span>
           </div>
         </div>
-      </div>
-
-      {/* Por qué visitar */}
-      <div className="ls-porqué">
-        {porQueVisitar.map(p => (
-          <div className="ls-porqué-item" key={p.titulo}>
-            <div>
-              <div className="ls-porqué-titulo">{p.titulo}</div>
-              <p className="ls-porqué-desc">{p.desc}</p>
-            </div>
-          </div>
-        ))}
       </div>
 
       {/* Intro */}

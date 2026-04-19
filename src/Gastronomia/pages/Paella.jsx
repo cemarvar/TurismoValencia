@@ -90,14 +90,6 @@ export default function Paella() {
         </div>
       </div>
 
-      {/* Historia box */}
-      <div className="pa-historia-box">
-        <div className="pa-historia-content">
-          <div className="pa-historia-titulo">Un plato humilde que conquistó el mundo</div>
-          <p>La paella nació en el siglo XVIII en los pueblos de la <strong>Albufera de Valencia</strong>, donde los campesinos y jornaleros cocinaban al aire libre usando los ingredientes que tenían a mano: el arroz cultivado en el lago, los animales de corral —pollo y conejo— y las verduras de la huerta. Todo se cocinaba en una sartén ancha de hierro con dos asas —la <strong>"paella"</strong>, del latín <em>patella</em>— sobre fuego de leña. El boom del turismo de los años 60 la convirtió en fenómeno internacional. Declarada <strong>Bien de Interés Cultural</strong> por la Generalitat Valenciana en 2021, se busca desde hace años su reconocimiento por la UNESCO como Patrimonio Cultural Inmaterial de la Humanidad. El nombre del recipiente —<em>paella</em>, "sartén" en valenciano— acabó dando nombre al plato. No se llama paellera: se llama paella.</p>
-        </div>
-      </div>
-
       {/* Intro */}
       <div className="pa-intro">
         <p>En Valencia, una buena paella no se improvisa: es una ceremonia. El fuego de leña —preferiblemente de naranjo o algarrobo— el nivel perfecto de la sartén, el sofrito lento, el punto exacto de agua, el azafrán natural y la paciencia de no remover el arroz. Cada paso tiene su razón. El resultado, si todo sale bien, es un arroz seco, suelto y sabroso con el legendario <strong>socarrat</strong> en el fondo —esa capa dorada y ligeramente tostada que es la firma del buen paellero y que los valencianos disputan con cariño.</p>

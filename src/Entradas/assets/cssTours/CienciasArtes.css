@@ -96,36 +96,6 @@
     background: rgba(255,255,255,0.22);
 }
 
-/* ── Intro box ── */
-.ca-intro-box {
-    margin: 0 48px;
-    background: #00090f;
-    padding: 28px 32px;
-    display: flex;
-    gap: 24px;
-    align-items: flex-start;
-}
-
-.ca-intro-titulo {
-    font-size: 15px;
-    font-weight: 700;
-    color: #7ecfea;
-    margin-bottom: 10px;
-}
-
-.ca-intro-content p {
-    font-size: 14px;
-    font-weight: 300;
-    color: rgba(255,255,255,0.84);
-    line-height: 1.65;
-    margin: 0;
-}
-
-.ca-intro-content strong {
-    font-weight: 600;
-    color: #fff;
-}
-
 /* ── Section title ── */
 .ca-section-title {
     padding: 30px 48px 32px;
@@ -433,8 +403,7 @@
 /* ── Tabla info práctica ── */
 .ca-info-practica {
     margin: 40px 48px 0;
-    padding-top: 40px;
-    border-top: 1.5px solid #e5e5e5;
+    padding-top: 20px;
 }
 
 .ca-info-practica h3 {
@@ -521,13 +490,6 @@
 .ca-info-list li strong {
     font-weight: 600;
     color: #1a1a1a;
-}
-
-.ca-info-list li::before {
-    position: absolute;
-    left: 0;
-    color: #0a6888;
-    font-size: 12px;
 }
 
 /* ── RESPONSIVE ── */

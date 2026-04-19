@@ -137,14 +137,6 @@ export default function CentroHistorico() {
         </div>
       </div>
 
-      {/* Intro box */}
-      <div className="ch-intro-box">
-        <div className="ch-intro-content">
-          <div className="ch-intro-titulo">La Ciutat Vella · El corazón de Valencia</div>
-          <p>El centro histórico de Valencia —la <strong>Ciutat Vella</strong>— es uno de los cascos medievales mejor conservados del Mediterráneo. Fundada por los romanos en el año 138 a.C. como <em>Valentia Edetanorum</em>, la ciudad acumula capas de historia romana, visigoda, árabe, medieval y barroca visibles a cada paso. Sus joyas son la <strong>Catedral</strong> —que custodia el Santo Cáliz—, la <strong>Lonja de la Seda</strong> (Patrimonio de la Humanidad), la iglesia de <strong>San Nicolás</strong> —llamada la Capilla Sixtina valenciana—, el <strong>Mercado Central</strong> modernista y el laberíntico <strong>barrio del Carmen</strong>. Un guía oficial convierte un simple paseo en un viaje en el tiempo.</p>
-        </div>
-      </div>
-
       {/* Section title */}
       <div className="ch-section-title">
         <h2>Tours esenciales del Centro Histórico</h2>

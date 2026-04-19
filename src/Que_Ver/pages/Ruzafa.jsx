@@ -135,15 +135,6 @@ export default function Ruzafa() {
         </div>
       </div>
 
-      {/* Historia box */}
-      <div className="ruz-historia-box">
-        <div className="ruz-historia-icono"></div>
-        <div className="ruz-historia-content">
-          <div className="ruz-historia-titulo">Del jardín árabe al barrio de Valencia</div>
-          <p>En el siglo IX, el príncipe Abd Allah al-Balansi —"el valenciano"— mandó plantar un jardín de recreo a dos kilómetros de Valencia, imitando la residencia de su padre Abderramán I junto a Córdoba. Lo llamó al-Russafa: <strong>"jardín"</strong> en árabe. Durante siglos fue municipio independiente, conocido como <strong>"la terra del ganxo"</strong> por los trabajadores que recogían madera del Turia con ganchos. Integrado en Valencia en 1877, el barrio vivió décadas de marginalidad hasta que artistas, diseñadores y cocineros lo transformaron en el epicentro cultural más auténtico de la ciudad.</p>
-        </div>
-      </div>
-
       {/* Intro */}
       <div className="ruz-intro">
         <p>Ruzafa es hoy un barrio multicultural y creativo donde los vecinos de siempre conviven con una nueva generación de artistas, diseñadores y chefs. Los bares de toda la vida compiten con restaurantes de cocineros con estrella Michelin. Las galerías de arte contemporáneo se mezclan con tiendas de cómics y librerías-café. Y su Mercat de Russafa, con más de cien puestos de producto fresco, sigue siendo el corazón que late en el centro de todo.</p>

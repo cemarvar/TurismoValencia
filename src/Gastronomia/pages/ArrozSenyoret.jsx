@@ -107,14 +107,6 @@ export default function ArrozSenyoret() {
         </div>
       </div>
 
-      {/* Historia box */}
-      <div className="sen-historia-box">
-        <div className="sen-historia-content">
-          <div className="sen-historia-titulo">El señorito que no quería mancharse · La leyenda de Sorolla y la Malvarrosa</div>
-          <p>El nombre lo dice todo: <em>senyoret</em> —señorito en valenciano— era el término que designaba a los jóvenes de clase alta que no estaban dispuestos a mancharse los dedos pelando marisco en la mesa. Hacia <strong>1950</strong>, un habitual de un restaurante de la playa de la Malvarrosa en Valencia siempre pedía el arroz con marisco ya pelado, y el plato acabó llevando su apodo. Otra versión apunta al pintor valenciano <strong>Joaquín Sorolla</strong>: muy vinculado a Jávea, se dice que pidió un día que le pelaran las cigalas y las pusieran encima del arroz, y que los cocineros llevaron la idea más lejos y pelaron todo el marisco directamente. Una tercera versión lo sitúa en las <strong>casas pudientes de Alicante</strong>, donde la servidumbre preparaba el arroz con todos los ingredientes limpios para que el señorito de la casa no abandonara la cuchara. Tres historias, un mismo concepto: el lujo de comer sin trabajo.</p>
-        </div>
-      </div>
-
       {/* Intro */}
       <div className="sen-intro">
         <p>El arroz del senyoret es el arroz más "sin excusas" de la cocina valenciana. No hay cáscaras que separar, no hay espinas que sacar, no hay manos que lavar. Todo el marisco llega ya pelado y limpio directamente integrado en el grano de arroz. Es el arroz que se puede comer mirando al mar con una copa de vino blanco en la mano, sin interrupciones.</p>

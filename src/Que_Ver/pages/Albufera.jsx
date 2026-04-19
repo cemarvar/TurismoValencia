@@ -135,15 +135,6 @@ export default function Albufera() {
         </div>
       </div>
 
-      {/* Historia box */}
-      <div className="alb-historia-box">
-        <div className="alb-historia-icono"></div>
-        <div className="alb-historia-content">
-          <div className="alb-historia-titulo">El espejo del sol · La cuna de la paella</div>
-          <p>La Albufera —del árabe <strong>al-buhayra</strong>, "pequeño mar"— tiene su origen hace unos 5.000 años, cuando una antigua bahía empezó a cerrarse por la acumulación de arena. En época romana ya era un lago reconocible; durante la dominación árabe se desarrolló el cultivo del arroz, y fue en estos arrozales donde los campesinos valencianos crearon la receta de la <strong>paella</strong>. El parque es propiedad de la ciudad de Valencia desde 1911 y fue declarado Parque Natural en 1986. Los árabes llamaban al lago <strong>"el espejo del sol"</strong> por sus legendarios atardeceres. El escritor Blasco Ibáñez lo inmortalizó en "Cañas y Barro" (1902), la novela valenciana más importante ambientada en este paisaje.</p>
-        </div>
-      </div>
-
       {/* Intro */}
       <div className="alb-intro">
         <p>La Albufera no es solo un lago: es el resultado de siglos de convivencia entre el ser humano y la naturaleza, donde el agua y el arroz se convierten en los grandes protagonistas del paisaje y de la cultura valenciana. Pescadores, agricultores y aves migratorias comparten este espacio único que cambia de color con las estaciones: verde en verano, dorado en otoño durante la cosecha, azul inundado en invierno cuando sirve de refugio a las aves.</p>

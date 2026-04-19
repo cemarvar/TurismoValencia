@@ -116,35 +116,6 @@ export default function MercadoCentral() {
         </div>
       </div>
 
-      {/* Por qué visitar */}
-      <div className="mc-porqué">
-        <div className="mc-porqué-item">
-          <div>
-            <div className="mc-porqué-titulo">Arquitectura modernista única</div>
-            <p className="mc-porqué-desc">Cúpula de 30 m, hierro forjado, azulejos y vidrieras policromas. El mercado modernista más espectacular de Europa.</p>
-          </div>
-        </div>
-        <div className="mc-porqué-item">
-          <div>
-            <div className="mc-porqué-titulo">Producto fresco y de proximidad</div>
-            <p className="mc-porqué-desc">Más de 250 puestos con la mejor fruta, verdura, carne y pescado de la huerta valenciana y el Mediterráneo.</p>
-          </div>
-        </div>
-        <div className="mc-porqué-item">
-          <div>
-            <div className="mc-porqué-titulo">Central Bar de Ricard Camarena</div>
-            <p className="mc-porqué-desc">Tapas y bocadillos de autor con ingredientes del propio mercado. El esmorzaret valenciano elevado a alta cocina.</p>
-          </div>
-        </div>
-        <div className="mc-porqué-item">
-          <span className="mc-check">✓</span>
-          <div>
-            <div className="mc-porqué-titulo">Mil años de vida de mercado</div>
-            <p className="mc-porqué-desc">Frente a la Lonja de la Seda (UNESCO) y la Iglesia de los Santos Juanes. El corazón gastronómico de Valencia desde la Edad Media.</p>
-          </div>
-        </div>
-      </div>
-
       {/* Intro */}
       <div className="mc-intro">
         <p>En el mismo espacio donde se celebraron mercados ambulantes desde la primera expansión medieval de la ciudad, el Mercado Central de Valencia lleva funcionando de forma ininterrumpida desde su inauguración el 23 de enero de 1928. Su arquitectura modernista —proyectada para 959 puestos— fue concebida como un homenaje al potencial agrícola de la huerta valenciana, y hoy es considerada la "catedral de los sentidos": la luz que entra por las vidrieras, el susurro permanente y la explosión de colores y aromas hacen de cada visita una experiencia única.</p>

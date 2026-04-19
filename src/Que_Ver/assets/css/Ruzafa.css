@@ -97,41 +97,6 @@
     background: rgba(255,255,255,0.25);
 }
 
-/* ── Historia box ── */
-.ruz-historia-box {
-    margin: 0 48px;
-    background: #1a2a1a;
-    padding: 28px 32px;
-    display: flex;
-    gap: 24px;
-    align-items: flex-start;
-}
-
-.ruz-historia-icono {
-    font-size: 32px;
-    flex-shrink: 0;
-}
-
-.ruz-historia-titulo {
-    font-size: 15px;
-    font-weight: 700;
-    color: #a8d5a2;
-    margin-bottom: 10px;
-}
-
-.ruz-historia-content p {
-    font-size: 14px;
-    font-weight: 300;
-    color: rgba(255,255,255,0.85);
-    line-height: 1.65;
-    margin: 0;
-}
-
-.ruz-historia-content strong {
-    font-weight: 600;
-    color: #fff;
-}
-
 /* ── Intro ── */
 .ruz-intro {
     max-width: 740px;
@@ -462,14 +427,6 @@
 .ruz-info-list li strong {
     font-weight: 600;
     color: #1a1a1a;
-}
-
-.ruz-info-list li::before {
-    content: '—';
-    position: absolute;
-    left: 0;
-    color: #eb5a00;
-    font-size: 12px;
 }
 
 /* ── RESPONSIVE ── */

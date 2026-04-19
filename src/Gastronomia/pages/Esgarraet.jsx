@@ -88,14 +88,6 @@ export default function Esgarraet() {
         </div>
       </div>
 
-      {/* Historia box */}
-      <div className="esg-historia-box">
-        <div className="esg-historia-content">
-          <div className="esg-historia-titulo">Nacido en la huerta y en el mar · La cocina del aprovechamiento</div>
-          <p>El origen del esgarraet es incierto, como el de tantos platos que nacen de la necesidad y del ingenio. La teoría más extendida lo vincula a la <strong>Semana Santa Marinera</strong> de los Poblados Marítimos de Valencia —el Cabanyal, El Canyamelar— donde el bacalao en salazón era un alimento habitual durante la Cuaresma: barato, fácil de conservar y nutritivo. Los pescadores y los campesinos de la huerta lo mezclaban con pimientos —abundantes en las cosechas— para crear una tapa sencilla y sustanciosa con la que nutrir las jornadas de trabajo. La palabra <em>esgarraet</em> viene del valenciano <strong>"desgarrar"</strong> o "esgarrar", y describe el gesto fundamental del plato: desmenuzar con las manos, sin herramientas, el bacalao y el pimiento asado. Junto a la <strong>titaina</strong> y las albóndigas de bacalao, el esgarraet formaba parte del trío de tapas más valenciano de la Semana Santa.</p>
-        </div>
-      </div>
-
       {/* Intro */}
       <div className="esg-intro">
         <p>El esgarraet es el antípoda de la paella: mientras la paella requiere técnica, fuego, proporciones exactas y un recipiente específico, el esgarraet solo pide cuatro ingredientes buenos, las manos y tiempo. Es el plato que los valencianos preparan de un día para otro y sacan de la nevera cuando llega la visita, cuando hay que hacer un aperitivo rápido o cuando simplemente apetece algo frío, sabroso y redondo.</p>

@@ -97,36 +97,6 @@
     background: rgba(255,255,255,0.25);
 }
 
-/* ── Intro box ── */
-.bt-intro-box {
-    margin: 0 48px;
-    background: #1a0000;
-    padding: 28px 32px;
-    display: flex;
-    gap: 24px;
-    align-items: flex-start;
-}
-
-.bt-intro-titulo {
-    font-size: 15px;
-    font-weight: 700;
-    color: #ff5040;
-    margin-bottom: 10px;
-}
-
-.bt-intro-content p {
-    font-size: 14px;
-    font-weight: 300;
-    color: rgba(255,255,255,0.85);
-    line-height: 1.65;
-    margin: 0;
-}
-
-.bt-intro-content strong {
-    font-weight: 600;
-    color: #fff;
-}
-
 /* ── Section title ── */
 .bt-section-title {
     padding: 48px 48px 32px;
@@ -472,13 +442,6 @@
 .bt-info-list li strong {
     font-weight: 600;
     color: #1a1a1a;
-}
-
-.bt-info-list li::before {
-    position: absolute;
-    left: 0;
-    color: #cc1a08;
-    font-size: 12px;
 }
 
 /* ── RESPONSIVE ── */

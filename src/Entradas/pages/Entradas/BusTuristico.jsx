@@ -113,14 +113,6 @@ export default function BusTuristico() {
         </div>
       </div>
 
-      {/* Intro box */}
-      <div className="bt-intro-box">
-        <div className="bt-intro-content">
-          <div className="bt-intro-titulo">The Red Bus · Pioneros en turismo sostenible desde 1999</div>
-          <p>El <strong>València Bus Turístic</strong> —conocido como <strong>The Red Bus</strong>— es el autobús turístico oficial de Valencia, operado por Viajes Transvia Tours desde noviembre de 1999. Es el único autobús turístico de dos pisos <strong>100% eléctrico</strong> de la ciudad, con una flota nueva y renovada gracias al programa NextGenerationEU. Su sistema de audio propio permite ofrecer <strong>10 idiomas simultáneos</strong>. Con <strong>17 paradas</strong> estratégicas distribuidas por toda la ciudad —desde el centro histórico hasta la playa, pasando por la Ciudad de las Artes y las Ciencias, el Bioparc y el IVAM—, es la forma más cómoda y sostenible de descubrir Valencia por primera vez. Ten en cuenta que <strong>hay dos servicios de autobús turístico en Valencia</strong> (rojo y verde); tu billete solo es válido en el bus rojo.</p>
-        </div>
-      </div>
-
       {/* Section title modalidades */}
       <div className="bt-section-title">
         <h2>Modalidades del Bus Turístico</h2>
@@ -191,7 +183,7 @@ export default function BusTuristico() {
           rel="noopener noreferrer"
           className="bt-mapa-link"
         >
-          Ver mapa de paradas en Google Maps →
+          Ver mapa de paradas en Google Maps 
         </a>
       </div>
 
