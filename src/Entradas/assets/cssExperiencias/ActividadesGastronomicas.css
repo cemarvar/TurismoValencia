@@ -10,7 +10,7 @@
 .ag-hero {
     position: relative;
     height: 560px;
-    background-image: url('/img/img-experiencias/ActividadesGastronomicas/hero.jpg');
+    background-image: url('/img/img-experiencias/ActividadesGastronomicas/hero-actividadesgastronomicas.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -104,11 +104,6 @@
     display: flex;
     gap: 24px;
     align-items: flex-start;
-}
-
-.ag-intro-icono {
-    font-size: 30px;
-    flex-shrink: 0;
 }
 
 .ag-intro-titulo {
@@ -293,8 +288,9 @@
     border-radius: 2px;
     overflow: hidden;
     height: 300px;
-    position: sticky;
     top: 90px;
+    border: 1px solid #000;
+    box-shadow: 0 0 0 3px #000; 
 }
 
 .ag-route-img-inner {
@@ -306,17 +302,16 @@
     background-color: #140600;
 }
 
-.img-ag-flamenco    { background-image: url('/img/img-experiencias/ActividadesGastronomicas/flamenco.jpg'); }
-.img-ag-paella      { background-image: url('/img/img-experiencias/ActividadesGastronomicas/paella.jpg'); }
-.img-ag-albufera    { background-image: url('/img/img-experiencias/ActividadesGastronomicas/albufera.jpg'); }
-.img-ag-bus-albufera{ background-image: url('/img/img-experiencias/ActividadesGastronomicas/bus-albufera.jpg'); }
-.img-ag-requena     { background-image: url('/img/img-experiencias/ActividadesGastronomicas/requena.jpg'); }
+.img-ag-flamenco    { background-image: url('/img/img-experiencias/ActividadesGastronomicas/flamencoag.jpg'); }
+.img-ag-paella      { background-image: url('/img/img-experiencias/ActividadesGastronomicas/paellaag.jpg'); }
+.img-ag-albufera    { background-image: url('/img/img-experiencias/ActividadesGastronomicas/albuferaag.jpg'); }
+.img-ag-bus-albufera{ background-image: url('/img/img-experiencias/ActividadesGastronomicas/busalbuferaag.jpg'); }
+.img-ag-requena     { background-image: url('/img/img-experiencias/ActividadesGastronomicas/requenaag.jpg'); }
 
 /* ── Tabla info útil ── */
 .ag-info-practica {
     margin: 52px 48px 0;
-    padding-top: 48px;
-    border-top: 1.5px solid #e5e5e5;
+    padding-top: 18px;
 }
 
 .ag-info-practica h3 {
@@ -406,7 +401,6 @@
 }
 
 .ag-info-list li::before {
-    content: '—';
     position: absolute;
     left: 0;
     color: #c04800;

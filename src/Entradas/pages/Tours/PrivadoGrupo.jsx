@@ -121,15 +121,6 @@ var masOperadores = [
   },
 ];
 
-var ventajas = [
-  { icono: '🧭', titulo: 'Itinerario a medida', desc: 'Tú decides la temática, el ritmo, los puntos de interés y la duración. El guía se adapta completamente a tus necesidades.' },
-  { icono: '🔑', titulo: 'Acceso exclusivo', desc: 'Los tours privados permiten acceder a lugares y horarios que los tours grupales no pueden ofrecer, como aperturas especiales o zonas restringidas.' },
-  { icono: '🌐', titulo: 'Tu idioma', desc: 'Los operadores de la red de Visit València ofrecen guías en más de 10 idiomas: español, inglés, francés, alemán, italiano, neerlandés, valenciano y más.' },
-  { icono: '👨‍👩‍👧', titulo: 'Ideal para grupos', desc: 'Familias, grupos de amigos, viajes de empresa, despedidas, congresos o excursiones escolares: el tour privado funciona para cualquier tipo de grupo.' },
-  { icono: '⭐', titulo: 'Guías oficiales', desc: 'Todos los operadores de la selección de Visit València son guías oficiales de turismo de la Comunidad Valenciana con titulación acreditada.' },
-  { icono: '🚌', titulo: 'Transporte incluido', desc: 'Varios operadores incluyen transporte privado para excursiones por los alrededores, con opciones desde monovolumen hasta autobús VIP con logo de empresa.' },
-];
-
 export default function PrivadoGrupo() {
   return (
     <div className="pg-page">
@@ -162,26 +153,9 @@ export default function PrivadoGrupo() {
 
       {/* Intro box */}
       <div className="pg-intro-box">
-        <div className="pg-intro-icono">🏅</div>
         <div className="pg-intro-content">
           <div className="pg-intro-titulo">Guías oficiales de turismo · Calidad y profesionalidad garantizadas</div>
           <p>¿Buscas una experiencia personalizada para tu grupo? Tanto si sois numerosos como si queréis un recorrido completamente a medida, Visit València ofrece una selección de <strong>las mejores empresas de visitas guiadas con guías oficiales</strong> de la Comunitat Valenciana. Todos los operadores están <strong>certificados y titulados</strong> como guías oficiales de turismo, lo que garantiza calidad, profesionalidad y un conocimiento profundo de la ciudad. Puedes adaptar el tour a vuestras necesidades en cuanto a <strong>temática, itinerario, horario, idioma y número de personas</strong>. Desde tours de arquitectura con arquitectos como guías hasta excursiones con transporte privado por los alrededores de Valencia.</p>
-        </div>
-      </div>
-
-      {/* Ventajas chips */}
-      <div className="pg-ventajas-wrap">
-        <div className="pg-ventajas-titulo">Por qué elegir un tour privado con guía oficial</div>
-        <div className="pg-ventajas-grid">
-          {ventajas.map(v => (
-            <div className="pg-ventaja-chip" key={v.titulo}>
-              <span className="pg-ventaja-icono">{v.icono}</span>
-              <div>
-                <span className="pg-ventaja-titulo">{v.titulo}</span>
-                <span className="pg-ventaja-desc">{v.desc}</span>
-              </div>
-            </div>
-          ))}
         </div>
       </div>
 

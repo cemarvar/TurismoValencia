@@ -10,7 +10,7 @@
 .exc-hero {
     position: relative;
     height: 560px;
-    background-image: url('/img/img-experiencias/Excursiones/hero.jpg');
+    background-image: url('/img/img-experiencias/Excursiones/hero-excursionesexc.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -106,11 +106,6 @@
     align-items: flex-start;
 }
 
-.exc-intro-icono {
-    font-size: 30px;
-    flex-shrink: 0;
-}
-
 .exc-intro-titulo {
     font-size: 15px;
     font-weight: 700;
@@ -131,69 +126,9 @@
     color: #fff;
 }
 
-/* ── Chips destinos ── */
-.exc-destinos-wrap {
-    margin: 0 48px 48px;
-    padding: 28px 32px;
-    background: #f0f8ee;
-    border: 1.5px solid #8ed07a;
-}
-
-.exc-destinos-titulo {
-    font-size: 12px;
-    font-weight: 700;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    color: #2a6018;
-    margin-bottom: 16px;
-}
-
-.exc-destinos-grid {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 8px;
-}
-
-.exc-destino-chip {
-    display: flex;
-    align-items: flex-start;
-    gap: 10px;
-    background: #fff;
-    border: 1px solid #b8e0a8;
-    padding: 10px 12px;
-    transition: background 0.12s;
-}
-
-.exc-destino-chip:hover {
-    background: #f0f8ee;
-}
-
-.exc-destino-icono {
-    font-size: 20px;
-    flex-shrink: 0;
-    line-height: 1.3;
-}
-
-.exc-destino-nombre {
-    display: block;
-    font-size: 13px;
-    font-weight: 700;
-    color: #1a1a1a;
-    line-height: 1.3;
-    margin-bottom: 2px;
-}
-
-.exc-destino-detalle {
-    display: block;
-    font-size: 11px;
-    font-weight: 300;
-    color: #777;
-    line-height: 1.3;
-}
-
 /* ── Section title ── */
 .exc-section-title {
-    padding: 0 48px 32px;
+    padding: 30px 48px 32px;
     border-bottom: 1px solid #e5e5e5;
 }
 
@@ -349,8 +284,9 @@
     border-radius: 2px;
     overflow: hidden;
     height: 300px;
-    position: sticky;
     top: 90px;
+    border: 1px solid #000;
+    box-shadow: 0 0 0 3px #000; 
 }
 
 .exc-route-img-inner {
@@ -362,17 +298,16 @@
     background-color: #040e04;
 }
 
-.img-exc-cuevas     { background-image: url('/img/img-experiencias/Excursiones/cuevas.jpg'); }
-.img-exc-montanejos { background-image: url('/img/img-experiencias/Excursiones/montanejos.jpg'); }
-.img-exc-sagunto    { background-image: url('/img/img-experiencias/Excursiones/sagunto.jpg'); }
-.img-exc-peniscola  { background-image: url('/img/img-experiencias/Excursiones/peniscola.jpg'); }
-.img-exc-requena    { background-image: url('/img/img-experiencias/Excursiones/requena.jpg'); }
+.img-exc-cuevas     { background-image: url('/img/img-experiencias/Excursiones/cuevasexc.jpg'); }
+.img-exc-montanejos { background-image: url('/img/img-experiencias/Excursiones/montanejosexc.jpg'); }
+.img-exc-sagunto    { background-image: url('/img/img-experiencias/Excursiones/saguntoexc.jpg'); }
+.img-exc-peniscola  { background-image: url('/img/img-experiencias/Excursiones/peniscolaexc.jpg'); }
+.img-exc-requena    { background-image: url('/img/img-experiencias/Excursiones/requenaexc.jpg'); }
 
 /* ── Tabla info útil ── */
 .exc-info-practica {
     margin: 52px 48px 0;
-    padding-top: 48px;
-    border-top: 1.5px solid #e5e5e5;
+    padding-top: 18px;
 }
 
 .exc-info-practica h3 {
@@ -462,7 +397,6 @@
 }
 
 .exc-info-list li::before {
-    content: '—';
     position: absolute;
     left: 0;
     color: #2a7a18;

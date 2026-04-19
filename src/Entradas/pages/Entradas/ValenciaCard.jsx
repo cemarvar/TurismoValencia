@@ -20,7 +20,7 @@ var modalidades = [
     ],
     precio: 'Desde 15,30 € (precio web) · PVP: 17,00 € · 10% dto. exclusivo web',
     duracion: '24 h / 48 h / 72 h desde el primer uso',
-    imgClass: 'img-vtc-247272',
+    imgClass: 'img-vtcvc',
     tags: [{ label: 'Transporte incluido' }, { label: 'La más completa' }, { label: 'Tapa gratis' }],
     url: 'https://www.visitvalencia.com/shop/valencia-tourist-card/valencia-tourist-card',
   },
@@ -41,7 +41,7 @@ var modalidades = [
     ],
     precio: 'Desde 13,50 € (precio web) · PVP: 15,00 € · 10% dto. exclusivo web',
     duracion: '7 días continuos desde el primer uso',
-    imgClass: 'img-vtc-7dias',
+    imgClass: 'img-vtc-7diasvc',
     tags: [{ label: '7 días' }, { label: 'Catedral + IVAM' }, { label: 'Estancias largas' }],
     url: 'https://www.visitvalencia.com/shop/valencia-tourist-card/valencia-discount-card',
   },
@@ -68,23 +68,6 @@ var packs = [
     precio: 'Desde 37,00 €',
     url: 'https://www.visitvalencia.com/shop/entradas-turisticas/entradas-conjuntas/oferta-autobus-turistico-y-valencia-card-7-dias',
   },
-];
-
-var museos = [
-  { nombre: 'Lonja de la Seda', icono: '🏛️' },
-  { nombre: 'Torres de Serranos', icono: '🗼' },
-  { nombre: 'Torres de Quart', icono: '🗼' },
-  { nombre: 'Palacio Museo de Cervelló', icono: '🏰' },
-  { nombre: 'Museo Arqueológico de la Almoina', icono: '⛏️' },
-  { nombre: 'Museo Fallero', icono: '🔥' },
-  { nombre: 'Museo de la Ciudad', icono: '🏙️' },
-  { nombre: 'Museo del Arroz', icono: '🌾' },
-  { nombre: 'Cárcel de San Vicente Mártir', icono: '⛪' },
-  { nombre: 'Museo Benlliure', icono: '🎨' },
-  { nombre: 'Museo de Historia', icono: '📜' },
-  { nombre: 'Museo de Ciencias Naturales', icono: '🦎' },
-  { nombre: 'Museo Blasco Ibáñez', icono: '📚' },
-  { nombre: 'Museo Concha Piquer', icono: '🎭' },
 ];
 
 var faqs = [
@@ -142,23 +125,9 @@ export default function ValenciaCard() {
 
       {/* Intro box */}
       <div className="vtc-intro-box">
-        <div className="vtc-intro-icono">🎫</div>
         <div className="vtc-intro-content">
           <div className="vtc-intro-titulo">La tarjeta oficial de turismo de Valencia · Entra gratis, viaja gratis</div>
           <p>La <strong>Valencia Tourist Card</strong> es la tarjeta turística oficial de Valencia, emitida por Visit València. Con una sola tarjeta tienes acceso gratuito a todos los <strong>museos y monumentos municipales</strong>, transporte urbano ilimitado (en las modalidades de 24, 48 y 72 horas), una <strong>tapa con consumición</strong> de regalo y descuentos de hasta el 50% en los principales atractivos de la ciudad: la <strong>Ciudad de las Artes y las Ciencias</strong>, el <strong>Oceanogràfic</strong>, el <strong>Bioparc</strong>, el <strong>Bus Turístico</strong>, el Palacio del Marqués de Dos Aguas y cientos de restaurantes, spas y tiendas. La tarjeta de <strong>7 días</strong> añade además la entrada gratuita a la <strong>Catedral</strong> y al <strong>IVAM</strong>.</p>
-        </div>
-      </div>
-
-      {/* Museos chips */}
-      <div className="vtc-museos-wrap">
-        <div className="vtc-museos-titulo">14 Museos y Monumentos incluidos — entrada gratuita en todas las modalidades</div>
-        <div className="vtc-museos-grid">
-          {museos.map(m => (
-            <div className="vtc-museo-chip" key={m.nombre}>
-              <span className="vtc-museo-icono">{m.icono}</span>
-              <span className="vtc-museo-nombre">{m.nombre}</span>
-            </div>
-          ))}
         </div>
       </div>
 

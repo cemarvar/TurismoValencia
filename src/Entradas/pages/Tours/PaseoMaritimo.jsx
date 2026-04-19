@@ -50,12 +50,12 @@ var playas = [
 ];
 
 var actividades = [
-  { icono: '🏄', nombre: 'Deportes náuticos', desc: 'Paddle surf, windsurf, kayak, motos de agua y vela en el canal náutico balizado de La Malvarrosa y La Marina de València.' },
-  { icono: '🏐', nombre: 'Vóley playa', desc: '32 pistas de vóley playa en La Malvarrosa. Club municipal con escuela, torneos y partidos recreativos para todos los niveles todo el año.' },
-  { icono: '🧘', nombre: 'Yoga y fitness', desc: 'Clases gratuitas en verano en la arena: yoga, pilates, taichí, fitness latino, GAP y cross training, con monitores profesionales del programa "Deporte y Salud".' },
-  { icono: '🚴', nombre: 'Carril bici', desc: 'Carril bici a lo largo de todo el Paseo Marítimo, conectado con el Jardín del Turia. Desde el centro al mar en bici en menos de 30 minutos.' },
-  { icono: '🤿', nombre: 'Buceo y snorkel', desc: 'El primer arrecife subacuático artificial de España está junto a La Malvarrosa. Exploración del fondo marino a pocos metros de la costa.' },
-  { icono: '🛶', nombre: 'Náutica en La Marina', desc: 'La Marina de València ofrece actividades náuticas de recreo, escuelas de vela y alquiler de embarcaciones junto a la playa del Cabanyal.' },
+  {  nombre: 'Deportes náuticos', desc: 'Paddle surf, windsurf, kayak, motos de agua y vela en el canal náutico balizado de La Malvarrosa y La Marina de València.' },
+  {  nombre: 'Vóley playa', desc: '32 pistas de vóley playa en La Malvarrosa. Club municipal con escuela, torneos y partidos recreativos para todos los niveles todo el año.' },
+  {  nombre: 'Yoga y fitness', desc: 'Clases gratuitas en verano en la arena: yoga, pilates, taichí, fitness latino, GAP y cross training, con monitores profesionales del programa "Deporte y Salud".' },
+  {  nombre: 'Carril bici', desc: 'Carril bici a lo largo de todo el Paseo Marítimo, conectado con el Jardín del Turia. Desde el centro al mar en bici en menos de 30 minutos.' },
+  {  nombre: 'Buceo y snorkel', desc: 'El primer arrecife subacuático artificial de España está junto a La Malvarrosa. Exploración del fondo marino a pocos metros de la costa.' },
+  {  nombre: 'Náutica en La Marina', desc: 'La Marina de València ofrece actividades náuticas de recreo, escuelas de vela y alquiler de embarcaciones junto a la playa del Cabanyal.' },
 ];
 
 var gastronomia = [
@@ -120,7 +120,6 @@ export default function PaseoMaritimo() {
 
       {/* Intro box */}
       <div className="pm-intro-box">
-        <div className="pm-intro-icono">🌊</div>
         <div className="pm-intro-content">
           <div className="pm-intro-titulo">El paseo que une Valencia con el Mediterráneo</div>
           <p>El <strong>Paseo Marítimo de Valencia</strong> discurre junto a las playas de <strong>Las Arenas</strong> (Cabanyal) y <strong>La Malvarrosa</strong>, mientras el <strong>Paseo Neptuno</strong> se extiende frente al puerto y la zona de restaurantes, abarcando entre ambos casi 50.000 m² de superficie de vegetación. Las alineaciones de palmeras y los macizos de geranios malvarrosa, lavándulas, gazanias y adelfas dan la perspectiva característica del paseo. Un <strong>carril bici continuo</strong> recorre su longitud completa, conectando el Jardín del Turia con el mar. El paseo une a Valencia con el Mediterráneo y es <strong>uno de los jardines más visitados de la ciudad</strong>: tanto en verano para disfrutar de la playa como el resto del año para pasear junto al mar, la afluencia de público es constante.</p>

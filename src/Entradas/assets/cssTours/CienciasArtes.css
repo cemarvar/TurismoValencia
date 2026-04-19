@@ -10,7 +10,7 @@
 .ca-hero {
     position: relative;
     height: 560px;
-    background-image: url('/img/img-tours/CienciasArtes/hero.jpg');
+    background-image: url('/img/img-tours/CienciasArtes/hero-cienciasartescat.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -106,11 +106,6 @@
     align-items: flex-start;
 }
 
-.ca-intro-icono {
-    font-size: 30px;
-    flex-shrink: 0;
-}
-
 .ca-intro-titulo {
     font-size: 15px;
     font-weight: 700;
@@ -131,69 +126,9 @@
     color: #fff;
 }
 
-/* ── Recintos chips ── */
-.ca-recintos-wrap {
-    margin: 0 48px 48px;
-    padding: 28px 32px;
-    background: #eaf6fb;
-    border: 1.5px solid #7ecfea;
-}
-
-.ca-recintos-titulo {
-    font-size: 12px;
-    font-weight: 700;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    color: #0a5570;
-    margin-bottom: 16px;
-}
-
-.ca-recintos-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 8px;
-}
-
-.ca-recinto-chip {
-    display: flex;
-    align-items: flex-start;
-    gap: 10px;
-    background: #fff;
-    border: 1px solid #b0e0f0;
-    padding: 10px 14px;
-    transition: background 0.12s;
-}
-
-.ca-recinto-chip:hover {
-    background: #eaf6fb;
-}
-
-.ca-recinto-icono {
-    font-size: 20px;
-    flex-shrink: 0;
-    line-height: 1.3;
-}
-
-.ca-recinto-nombre {
-    display: block;
-    font-size: 13px;
-    font-weight: 600;
-    color: #1a1a1a;
-    line-height: 1.3;
-    margin-bottom: 2px;
-}
-
-.ca-recinto-detalle {
-    display: block;
-    font-size: 11px;
-    font-weight: 300;
-    color: #888;
-    line-height: 1.3;
-}
-
 /* ── Section title ── */
 .ca-section-title {
-    padding: 0 48px 32px;
+    padding: 30px 48px 32px;
     border-bottom: 1px solid #e5e5e5;
 }
 
@@ -376,6 +311,8 @@
     overflow: hidden;
     height: 300px;
     top: 90px;
+    border: 1px solid #000;
+    box-shadow: 0 0 0 3px #000; 
 }
 
 .ca-route-img-inner {
@@ -387,16 +324,15 @@
     background-color: #00090f;
 }
 
-.img-ca-arquitectonica { background-image: url('/img/img-tours/CienciasArtes/arquitectonica.jpg'); }
-.img-ca-museu          { background-image: url('/img/img-tours/CienciasArtes/museu.jpg'); }
-.img-ca-marte          { background-image: url('/img/img-tours/CienciasArtes/marte.jpg'); }
-.img-ca-leonardo       { background-image: url('/img/img-tours/CienciasArtes/leonardo.jpg'); }
+.img-ca-arquitectonicacat { background-image: url('/img/img-tours/CienciasArtes/arquitectonicacat.jpg'); }
+.img-ca-museucat          { background-image: url('/img/img-tours/CienciasArtes/museucat.jpg'); }
+.img-ca-martecat          { background-image: url('/img/img-tours/CienciasArtes/martecat.jpg'); }
+.img-ca-leonardocat       { background-image: url('/img/img-tours/CienciasArtes/leonardocat.jpg'); }
 
 /* ── La Ciencia a Escena ── */
 .ca-escena-section {
     margin: 52px 48px 0;
-    padding-top: 48px;
-    border-top: 1.5px solid #e5e5e5;
+    padding-top: 18px;
 }
 
 .ca-escena-section h3 {
@@ -461,11 +397,6 @@
     display: flex;
     gap: 22px;
     align-items: flex-start;
-}
-
-.ca-simulador-icono {
-    font-size: 28px;
-    flex-shrink: 0;
 }
 
 .ca-simulador-titulo {
@@ -593,7 +524,6 @@
 }
 
 .ca-info-list li::before {
-    content: '—';
     position: absolute;
     left: 0;
     color: #0a6888;

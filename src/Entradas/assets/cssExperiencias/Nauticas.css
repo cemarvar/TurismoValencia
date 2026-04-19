@@ -10,7 +10,7 @@
 .nau-hero {
     position: relative;
     height: 560px;
-    background-image: url('/img/img-experiencias/Nauticas/hero.jpg');
+    background-image: url('/img/img-experiencias/Nauticas/hero-nauticasnt.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -104,11 +104,6 @@
     display: flex;
     gap: 24px;
     align-items: flex-start;
-}
-
-.nau-intro-icono {
-    font-size: 30px;
-    flex-shrink: 0;
 }
 
 .nau-intro-titulo {
@@ -293,8 +288,9 @@
     border-radius: 2px;
     overflow: hidden;
     height: 300px;
-    position: sticky;
     top: 90px;
+    border: 1px solid #000;
+    box-shadow: 0 0 0 3px #000; 
 }
 
 .nau-route-img-inner {
@@ -306,19 +302,18 @@
     background-color: #000c24;
 }
 
-.img-nau-paddle  { background-image: url('/img/img-experiencias/Nauticas/paddle.jpg'); }
-.img-nau-windsurf{ background-image: url('/img/img-experiencias/Nauticas/windsurf.jpg'); }
-.img-nau-banana  { background-image: url('/img/img-experiencias/Nauticas/banana.jpg'); }
-.img-nau-vela    { background-image: url('/img/img-experiencias/Nauticas/vela.jpg'); }
-.img-nau-sunset1 { background-image: url('/img/img-experiencias/Nauticas/sunset1.jpg'); }
-.img-nau-sunset2 { background-image: url('/img/img-experiencias/Nauticas/sunset2.jpg'); }
-.img-nau-crucero { background-image: url('/img/img-experiencias/Nauticas/crucero.jpg'); }
+.img-nau-paddle  { background-image: url('/img/img-experiencias/Nauticas/paddlenau.jpg'); }
+.img-nau-windsurf{ background-image: url('/img/img-experiencias/Nauticas/windsurfnau.png'); }
+.img-nau-banana  { background-image: url('/img/img-experiencias/Nauticas/banananau.jpg'); }
+.img-nau-vela    { background-image: url('/img/img-experiencias/Nauticas/velanau.jpg'); }
+.img-nau-sunset1 { background-image: url('/img/img-experiencias/Nauticas/sunset1nau.jpg'); }
+.img-nau-sunset2 { background-image: url('/img/img-experiencias/Nauticas/sunset2nau.jpg'); }
+.img-nau-crucero { background-image: url('/img/img-experiencias/Nauticas/cruceronau.jpg'); }
 
 /* ── Tabla info útil ── */
 .nau-info-practica {
     margin: 52px 48px 0;
-    padding-top: 48px;
-    border-top: 1.5px solid #e5e5e5;
+    padding-top: 18px;
 }
 
 .nau-info-practica h3 {
@@ -408,7 +403,6 @@
 }
 
 .nau-info-list li::before {
-    content: '—';
     position: absolute;
     left: 0;
     color: #0068a0;

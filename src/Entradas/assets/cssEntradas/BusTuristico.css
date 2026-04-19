@@ -10,7 +10,7 @@
 .bt-hero {
     position: relative;
     height: 560px;
-    background-image: url('/img/img-entradas/BusTuristico/hero.jpg');
+    background-image: url('/img/img-entradas/BusTuristico/hero-busturisticobt.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -105,11 +105,6 @@
     display: flex;
     gap: 24px;
     align-items: flex-start;
-}
-
-.bt-intro-icono {
-    font-size: 32px;
-    flex-shrink: 0;
 }
 
 .bt-intro-titulo {
@@ -290,8 +285,9 @@
     border-radius: 2px;
     overflow: hidden;
     height: 300px;
-    position: sticky;
     top: 90px;
+    border: 1px solid #000;
+    box-shadow: 0 0 0 3px #000; 
 }
 
 .bt-route-img-inner {
@@ -303,15 +299,14 @@
     background-color: #1a0000;
 }
 
-.img-bt-24h     { background-image: url('/img/img-entradas/BusTuristico/bus24h.jpg'); }
-.img-bt-48h     { background-image: url('/img/img-entradas/BusTuristico/bus48h.jpg'); }
-.img-bt-albufera { background-image: url('/img/img-entradas/BusTuristico/albufera.jpg'); }
+.img-bt-24hbt     { background-image: url('/img/img-entradas/BusTuristico/bus24hbt.jpg'); }
+.img-bt-48hbt     { background-image: url('/img/img-entradas/BusTuristico/bus48hbt.jpg'); }
+.img-bt-albuferabt { background-image: url('/img/img-entradas/BusTuristico/albuferabt.jpg'); }
 
 /* ── Paradas ── */
 .bt-paradas-section {
     margin: 52px 48px 0;
-    padding-top: 48px;
-    border-top: 1.5px solid #e5e5e5;
+    padding-top: 18px;
 }
 
 .bt-paradas-section h3 {
@@ -385,8 +380,7 @@
 /* ── Tabla info práctica ── */
 .bt-info-practica {
     margin: 40px 48px 0;
-    padding-top: 40px;
-    border-top: 1.5px solid #e5e5e5;
+    padding-top: 20px;
 }
 
 .bt-info-practica h3 {
@@ -481,7 +475,6 @@
 }
 
 .bt-info-list li::before {
-    content: '—';
     position: absolute;
     left: 0;
     color: #cc1a08;

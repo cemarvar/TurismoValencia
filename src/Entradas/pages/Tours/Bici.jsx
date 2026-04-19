@@ -56,7 +56,7 @@ var toursGuiados = [
   {
     num: '04',
     nombre: 'Valencia Open Bike Tour',
-    tipo: 'Tour guiado · 3 horas · Todos los días 10:00 h · Inglés y Neerlandés · 5/5 ★',
+    tipo: 'Tour guiado · 3 horas · Todos los días 10:00 h · Inglés y Neerlandés · 5/5 ',
     subtitulo: 'Guía en inglés y neerlandés · Todos los días · Bici incluida · 10% dto. VTC',
     desc: 'El tour en bicicleta más valorado de Valencia con una puntuación perfecta de 5/5. Un guía experto conduce el recorrido durante 3 horas por los rincones más emblemáticos y los barrios más auténticos de la ciudad. El Valencia Open Bike Tour recorre el centro histórico, el Jardín del Turia —el parque lineal más largo de España, trazado en el antiguo cauce del río—, el barrio de Ruzafa, la Ciudad de las Artes y las Ciencias y el Paseo Marítimo con vistas al Mediterráneo. El tour ofrece una perspectiva completa de Valencia: la ciudad medieval, la ciudad modernista, la ciudad vanguardista y la ciudad costera, todo en un mismo recorrido de tres horas que se adapta al ritmo del grupo.',
     datos: [
@@ -66,7 +66,7 @@ var toursGuiados = [
       { d: 'Recorrido', v: 'Centro histórico · Jardín del Turia · Ruzafa · CAC · Paseo Marítimo' },
     ],
     imgClass: 'img-bici-open-tour',
-    tags: [{ label: '5/5 ★' }, { label: 'Todos los días' }, { label: 'Ciudad completa' }],
+    tags: [{ label: '5/5 ' }, { label: 'Todos los días' }, { label: 'Ciudad completa' }],
     url: 'https://www.visitvalencia.com/shop/visitas-guiadas/visitas-guiadas-sobre-ruedas/open-bike-tour',
   },
   {
@@ -88,7 +88,7 @@ var toursGuiados = [
   {
     num: '06',
     nombre: 'Ruta guiada en bici a la Albufera con horchata y fartons',
-    tipo: 'Ruta guiada · 4h 30 min · Martes y Jueves 09:30 h · Español e Inglés · 5/5 ★',
+    tipo: 'Ruta guiada · 4h 30 min · Martes y Jueves 09:30 h · Español e Inglés · 5/5 ',
     subtitulo: 'Ciclorruta hasta la Albufera · Horchata y fartons · Guía · 10% dto. VTC · Puntuación 5/5',
     desc: 'La ruta más completa en bicicleta desde Valencia: 4 horas y media que llevan al ciclista desde el corazón de la ciudad hasta el Parque Natural de la Albufera, con parada para degustar horchata de chufa y fartons en el camino. La ruta discurre por los carriles bici del Jardín del Turia y los caminos que rodean el lago, con vistas a los arrozales y la rica avifauna del parque natural. El guía explica a lo largo del recorrido la historia del lago, el cultivo del arroz y la relación entre la Albufera y la paella valenciana. Disponible los martes y jueves con salida a las 09:30 h. Terreno completamente llano y apto para todos los niveles.',
     datos: [
@@ -98,7 +98,7 @@ var toursGuiados = [
       { d: 'Nivel', v: 'Terreno llano · Apto para todos los niveles · Sin desniveles significativos' },
     ],
     imgClass: 'img-bici-albufera-ruta',
-    tags: [{ label: '5/5 ★' }, { label: 'Albufera' }, { label: 'Horchata incluida' }],
+    tags: [{ label: '5/5 ' }, { label: 'Albufera' }, { label: 'Horchata incluida' }],
     url: 'https://www.visitvalencia.com/shop/visitas-guiadas/visitas-guiadas-sobre-ruedas/vive-la-albufera-en-bici',
   },
   {
@@ -162,7 +162,6 @@ export default function Bici() {
 
       {/* Intro box */}
       <div className="bici-intro-box">
-        <div className="bici-intro-icono">🚲</div>
         <div className="bici-intro-content">
           <div className="bici-intro-titulo">Valencia, capital española de la bicicleta</div>
           <p>Valencia es la ciudad <strong>más "bike-friendly"</strong> de España. Su terreno completamente plano, sus casi <strong>200 kilómetros de carril bici</strong> y el espectacular <strong>Jardín del Turia</strong> —9 km de parque lineal trazado en el antiguo cauce del río— hacen que la bicicleta sea el medio de transporte más cómodo, rápido y agradable para recorrerla. Desde el centro histórico medieval hasta la Ciudad de las Artes y las Ciencias de Calatrava, desde el barrio de Ruzafa hasta la playa del Mediterráneo: todo está conectado en bici en menos de 30 minutos. Visit València ofrece una amplia oferta de <strong>alquileres y tours guiados</strong> para todos los gustos y niveles, incluyendo rutas hasta la <strong>Albufera</strong> con paseo en barca y degustación de horchata.</p>

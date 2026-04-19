@@ -14,7 +14,7 @@ var modalidades = [
       { d: 'Validez', v: '24 horas desde el primer uso · Todos los días del año' },
       { d: 'Parada principal', v: 'Calle Pintor Sorolla, 2 · 46002 Valencia · Primera salida diaria desde aquí' },
     ],
-    imgClass: 'img-bt-24h',
+    imgClass: 'img-bt-24hbt',
     tags: [{ label: 'Más popular' }, { label: '24 horas' }, { label: 'Hop-on Hop-off' }],
     url: 'https://www.visitvalencia.com/shop/valencia-autobus-turistico/bus-turistico-valencia',
   },
@@ -30,7 +30,7 @@ var modalidades = [
       { d: 'Validez', v: '48 horas desde el primer uso · Todos los días del año' },
       { d: 'Consejo', v: 'Día 1: CAC + Oceanogràfic + playa · Día 2: Centro histórico + Bioparc + IVAM' },
     ],
-    imgClass: 'img-bt-48h',
+    imgClass: 'img-bt-48hbt',
     tags: [{ label: '48 horas' }, { label: 'Mejor relación calidad/precio' }, { label: 'Sin prisas' }],
     url: 'https://www.visitvalencia.com/shop/valencia-autobus-turistico/bus-turistico-valencia',
   },
@@ -46,7 +46,7 @@ var modalidades = [
       { d: 'Incluye', v: 'Transporte · Paseo en barca tradicional · Guía · Vistas al atardecer sobre el lago' },
       { d: 'Reserva', v: 'Online en theredbusvalencia.com · Seleccionar fecha y hora en el momento de la compra' },
     ],
-    imgClass: 'img-bt-albufera',
+    imgClass: 'img-bt-albuferabt',
     tags: [{ label: 'Albufera' }, { label: 'Paseo en barca' }, { label: 'Atardecer' }],
     url: 'https://theredbusvalencia.com/excursiones/albufera-bus-turistic/',
   },
@@ -115,7 +115,6 @@ export default function BusTuristico() {
 
       {/* Intro box */}
       <div className="bt-intro-box">
-        <div className="bt-intro-icono">🚌</div>
         <div className="bt-intro-content">
           <div className="bt-intro-titulo">The Red Bus · Pioneros en turismo sostenible desde 1999</div>
           <p>El <strong>València Bus Turístic</strong> —conocido como <strong>The Red Bus</strong>— es el autobús turístico oficial de Valencia, operado por Viajes Transvia Tours desde noviembre de 1999. Es el único autobús turístico de dos pisos <strong>100% eléctrico</strong> de la ciudad, con una flota nueva y renovada gracias al programa NextGenerationEU. Su sistema de audio propio permite ofrecer <strong>10 idiomas simultáneos</strong>. Con <strong>17 paradas</strong> estratégicas distribuidas por toda la ciudad —desde el centro histórico hasta la playa, pasando por la Ciudad de las Artes y las Ciencias, el Bioparc y el IVAM—, es la forma más cómoda y sostenible de descubrir Valencia por primera vez. Ten en cuenta que <strong>hay dos servicios de autobús turístico en Valencia</strong> (rojo y verde); tu billete solo es válido en el bus rojo.</p>

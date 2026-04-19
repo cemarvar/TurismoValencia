@@ -15,7 +15,7 @@ var excursiones = [
       { d: 'Incluye', v: 'Transporte ida y vuelta · Guía · Entrada a las cuevas · Paseo en barca subterránea' },
     ],
     imgClass: 'img-exc-cuevas',
-    tags: [{ label: '5/5 ★' }, { label: 'Todos los días' }, { label: 'Transporte incluido' }],
+    tags: [{ label: '5/5 ' }, { label: 'Todos los días' }, { label: 'Transporte incluido' }],
     url: 'https://www.visitvalencia.com/shop/visitas-guiadas/excursiones-fuera-de-valencia/excursion-cuevas-san-jose',
   },
   {
@@ -125,32 +125,9 @@ export default function Excursiones() {
 
       {/* Intro box */}
       <div className="exc-intro-box">
-        <div className="exc-intro-icono">🗺️</div>
         <div className="exc-intro-content">
           <div className="exc-intro-titulo">La provincia de Valencia te espera · No te pierdas los alrededores</div>
           <p>Valencia es el punto de partida perfecto para descubrir una de las provincias con más variedad de paisajes de España. A menos de 2 horas en coche se encuentran <strong>cuevas prehistóricas</strong> con el río subterráneo navegable más largo de Europa, <strong>aguas termales naturales</strong> en plena montaña, ciudades fundadas por el Imperio Romano, castillos medievales filmados por Hollywood y <strong>bodegas con denominación de origen</strong> propia. Todas las excursiones incluyen <strong>transporte de ida y vuelta</strong> desde Valencia, guía oficial y entradas; solo tienes que aparecer en el punto de salida.</p>
-        </div>
-      </div>
-
-      {/* Chips destinos */}
-      <div className="exc-destinos-wrap">
-        <div className="exc-destinos-titulo">Destinos disponibles desde Valencia</div>
-        <div className="exc-destinos-grid">
-          {[
-            { nombre: 'Cuevas de San José', detalle: '~60 km · Castellón · Río subterráneo navegable', icono: '🕳️' },
-            { nombre: 'Montanejos', detalle: '~90 km · Castellón · Aguas termales y cascadas', icono: '💧' },
-            { nombre: 'Sagunto', detalle: '~28 km · Valencia · Teatro Romano y Castillo árabe', icono: '🏛️' },
-            { nombre: 'Peñíscola', detalle: '~140 km · Castellón · Castillo medieval · Juego de Tronos', icono: '🏰' },
-            { nombre: 'Utiel-Requena', detalle: '~70 km · Valencia · Bodegas · D.O. Utiel-Requena', icono: '🍷' },
-          ].map(d => (
-            <div className="exc-destino-chip" key={d.nombre}>
-              <span className="exc-destino-icono">{d.icono}</span>
-              <div>
-                <span className="exc-destino-nombre">{d.nombre}</span>
-                <span className="exc-destino-detalle">{d.detalle}</span>
-              </div>
-            </div>
-          ))}
         </div>
       </div>
 

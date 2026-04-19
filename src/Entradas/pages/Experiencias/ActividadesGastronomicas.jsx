@@ -15,14 +15,14 @@ var enLaCiudad = [
       { d: 'Ideal para', v: 'Parejas · Celebraciones · Grupos · Noche especial en Valencia' },
     ],
     imgClass: 'img-ag-flamenco',
-    tags: [{ label: '4,8/5 ★' }, { label: 'Cena incluida' }, { label: 'Mi–Do' }],
+    tags: [{ label: '4,8/5 ' }, { label: 'Cena incluida' }, { label: 'Mi–Do' }],
     url: 'https://www.visitvalencia.com/shop/gastronomia/cena-con-espectaculo-flamenco-valencia',
   },
   {
     num: '02',
     nombre: 'Vive la Paella Experience: aprende a cocinar a nuestra manera',
     tipo: 'Taller de cocina · 2h 30 min · 11:00 h · Paella valenciana auténtica · 5/5',
-    subtitulo: 'Cocina la paella tú mismo · Ingredientes locales · Degustación incluida · 10% dto. VTC · 5/5 ★',
+    subtitulo: 'Cocina la paella tú mismo · Ingredientes locales · Degustación incluida · 10% dto. VTC · 5/5 ',
     desc: 'Aprende a preparar la paella valenciana auténtica de la mano de chefs locales en un taller interactivo y participativo de 2 horas y 30 minutos. La Paella Experience comienza a las 11:00 h con la selección de los ingredientes y la explicación de la historia y los secretos del plato más famoso de España: el arroz, la carne, las verduras, el azafrán y el sofrito que marcan la diferencia entre una paella mediocre y una extraordinaria. Cada participante cocina su propia paella y la degusta al finalizar el taller. Una experiencia que permite llevarse a casa no solo el sabor, sino también la técnica y el conocimiento para reproducirla.',
     datos: [
       { d: 'Precio', v: 'Desde 62,00 € · 10% de descuento con Valencia Tourist Card · Incluye degustación' },
@@ -31,7 +31,7 @@ var enLaCiudad = [
       { d: 'Ideal para', v: 'Todos los niveles · Familias · Parejas · Grupos · Amantes de la gastronomía' },
     ],
     imgClass: 'img-ag-paella',
-    tags: [{ label: '5/5 ★' }, { label: 'Tú cocinas' }, { label: '10% dto. VTC' }],
+    tags: [{ label: '5/5 ' }, { label: 'Tú cocinas' }, { label: '10% dto. VTC' }],
     url: 'https://www.visitvalencia.com/shop/gastronomia/paella-experience',
   },
 ];
@@ -50,7 +50,7 @@ var fueraCiudad = [
       { d: 'Guía', v: 'En español · Información sobre el Parque Natural y los arrozales durante el paseo' },
     ],
     imgClass: 'img-ag-albufera',
-    tags: [{ label: '4,9/5 ★' }, { label: 'Todos los días' }, { label: 'La más vendida' }],
+    tags: [{ label: '4,9/5 ' }, { label: 'Todos los días' }, { label: 'La más vendida' }],
     url: 'https://www.visitvalencia.com/shop/gastronomia/paella-valenciana/paseo-en-barca-albufera',
   },
   {
@@ -66,7 +66,7 @@ var fueraCiudad = [
       { d: 'Transporte', v: 'Bus turístico con recogida en Valencia · Audioguía en varios idiomas incluida' },
     ],
     imgClass: 'img-ag-bus-albufera',
-    tags: [{ label: '4,7/5 ★' }, { label: 'Todo incluido' }, { label: 'Lun–Sáb' }],
+    tags: [{ label: '4,7/5 ' }, { label: 'Todo incluido' }, { label: 'Lun–Sáb' }],
     url: 'https://www.visitvalencia.com/shop/valencia-autobus-turistico/autobus-a-la-albufera-paseo-en-barca-y-paella',
   },
   {
@@ -128,7 +128,6 @@ export default function ActividadesGastronomicas() {
 
       {/* Intro box */}
       <div className="ag-intro-box">
-        <div className="ag-intro-icono">🍽️</div>
         <div className="ag-intro-content">
           <div className="ag-intro-titulo">La gastronomía valenciana · Más que comer, vivir</div>
           <p>Valencia es mucho más que la cuna de la paella. Es una ciudad donde la gastronomía forma parte de la identidad cultural, la celebración y la vida cotidiana. Las <strong>actividades gastronómicas</strong> de Visit València permiten ir más allá de sentarse en un restaurante: <strong>cocinando tú mismo</strong> la paella auténtica, <strong>viendo cómo nació</strong> el plato en su entorno natural —los arrozales de la Albufera—, disfrutando de una <strong>cena con flamenco</strong> en directo o explorando las <strong>bodegas de Utiel-Requena</strong> con cata y maridaje. Cinco experiencias que convierten el sabor en memoria.</p>

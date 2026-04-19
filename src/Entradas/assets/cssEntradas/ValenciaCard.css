@@ -10,7 +10,7 @@
 .vtc-hero {
     position: relative;
     height: 560px;
-    background-image: url('/img/img-entradas/ValenciaCard/hero.jpg');
+    background-image: url('/img/img-entradas/ValenciaCard/hero-valenciavc.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -107,11 +107,6 @@
     align-items: flex-start;
 }
 
-.vtc-intro-icono {
-    font-size: 32px;
-    flex-shrink: 0;
-}
-
 .vtc-intro-titulo {
     font-size: 15px;
     font-weight: 700;
@@ -132,54 +127,9 @@
     color: #fff;
 }
 
-/* ── Chips de museos ── */
-.vtc-museos-wrap {
-    margin: 0 48px 52px;
-    padding: 28px 32px;
-    background: #fff8f0;
-    border: 1.5px solid #f0b870;
-}
-
-.vtc-museos-titulo {
-    font-size: 12px;
-    font-weight: 700;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    color: #8a4a00;
-    margin-bottom: 16px;
-}
-
-.vtc-museos-grid {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-}
-
-.vtc-museo-chip {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    background: #fff;
-    border: 1px solid #f0b870;
-    padding: 6px 12px;
-    border-radius: 2px;
-    font-size: 13px;
-    color: #6a3800;
-    transition: background 0.12s;
-}
-
-.vtc-museo-chip:hover {
-    background: #fff0dc;
-}
-
-.vtc-museo-icono {
-    font-size: 15px;
-    line-height: 1;
-}
-
 /* ── Section title ── */
 .vtc-section-title {
-    padding: 0 48px 32px;
+    padding: 30px 48px 32px;
     border-bottom: 1px solid #e5e5e5;
 }
 
@@ -362,8 +312,9 @@
     border-radius: 2px;
     overflow: hidden;
     height: 300px;
-    position: sticky;
     top: 90px;
+    border: 1px solid #000;
+    box-shadow: 0 0 0 3px #000; 
 }
 
 .vtc-route-img-inner {
@@ -375,14 +326,13 @@
     background-color: #1a0c00;
 }
 
-.img-vtc-247272 { background-image: url('/img/img-entradas/ValenciaCard/vtc-247272.jpg'); }
-.img-vtc-7dias  { background-image: url('/img/img-entradas/ValenciaCard/vtc-7dias.jpg'); }
+.img-vtcvc { background-image: url('/img/img-entradas/ValenciaCard/vtcvc.jpg'); }
+.img-vtc-7diasvc  { background-image: url('/img/img-entradas/ValenciaCard/vtc7diasvc.jpg'); }
 
 /* ── Packs con entradas ── */
 .vtc-packs-section {
     margin: 52px 48px 0;
-    padding-top: 48px;
-    border-top: 1.5px solid #e5e5e5;
+    padding-top: 18px;
 }
 
 .vtc-packs-section h3 {
@@ -443,8 +393,7 @@
 /* ── Tabla dónde comprar ── */
 .vtc-compra-box {
     margin: 40px 48px 0;
-    padding-top: 40px;
-    border-top: 1.5px solid #e5e5e5;
+    padding-top: 20px;
 }
 
 .vtc-compra-box h3 {
@@ -501,8 +450,7 @@
 /* ── FAQ ── */
 .vtc-faq-section {
     margin: 40px 48px 0;
-    padding-top: 40px;
-    border-top: 1.5px solid #e5e5e5;
+    padding-top: 20px;
 }
 
 .vtc-faq-section h3 {
@@ -588,7 +536,6 @@
 }
 
 .vtc-info-list li::before {
-    content: '—';
     position: absolute;
     left: 0;
     color: #c05a00;

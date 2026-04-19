@@ -10,7 +10,7 @@
 .pg-hero {
     position: relative;
     height: 560px;
-    background-image: url('/img/img-tours/PrivadoGrupo/hero.jpg');
+    background-image: url('/img/img-tours/PrivadoGrupo/hero-privadogrupo.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -106,11 +106,6 @@
     align-items: flex-start;
 }
 
-.pg-intro-icono {
-    font-size: 30px;
-    flex-shrink: 0;
-}
-
 .pg-intro-titulo {
     font-size: 15px;
     font-weight: 700;
@@ -131,69 +126,9 @@
     color: #fff;
 }
 
-/* ── Ventajas chips ── */
-.pg-ventajas-wrap {
-    margin: 0 48px 48px;
-    padding: 28px 32px;
-    background: #f8f5f0;
-    border: 1.5px solid #c8a96e;
-}
-
-.pg-ventajas-titulo {
-    font-size: 12px;
-    font-weight: 700;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    color: #6a4e1a;
-    margin-bottom: 18px;
-}
-
-.pg-ventajas-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 12px;
-}
-
-.pg-ventaja-chip {
-    display: flex;
-    align-items: flex-start;
-    gap: 12px;
-    background: #fff;
-    border: 1px solid #e0cfa8;
-    padding: 14px 16px;
-    transition: background 0.12s;
-}
-
-.pg-ventaja-chip:hover {
-    background: #f8f5f0;
-}
-
-.pg-ventaja-icono {
-    font-size: 20px;
-    flex-shrink: 0;
-    line-height: 1.3;
-}
-
-.pg-ventaja-titulo {
-    display: block;
-    font-size: 13px;
-    font-weight: 700;
-    color: #1a1a1a;
-    margin-bottom: 3px;
-    line-height: 1.3;
-}
-
-.pg-ventaja-desc {
-    display: block;
-    font-size: 12px;
-    font-weight: 300;
-    color: #666;
-    line-height: 1.4;
-}
-
 /* ── Section title ── */
 .pg-section-title {
-    padding: 0 48px 32px;
+    padding: 20px 48px 32px;
     border-bottom: 1px solid #e5e5e5;
 }
 
@@ -349,8 +284,9 @@
     border-radius: 2px;
     overflow: hidden;
     height: 300px;
-    position: sticky;
     top: 90px;
+    border: 1px solid #000;
+    box-shadow: 0 0 0 3px #000; 
 }
 
 .pg-route-img-inner {
@@ -362,16 +298,15 @@
     background-color: #08080a;
 }
 
-.img-pg-turiart       { background-image: url('/img/img-tours/PrivadoGrupo/turiart.jpg'); }
-.img-pg-guiding       { background-image: url('/img/img-tours/PrivadoGrupo/guiding.jpg'); }
-.img-pg-discovering   { background-image: url('/img/img-tours/PrivadoGrupo/discovering.jpg'); }
-.img-pg-valenciaandgo { background-image: url('/img/img-tours/PrivadoGrupo/valenciaandgo.jpg'); }
+.img-pg-turiart       { background-image: url('/img/img-tours/PrivadoGrupo/turiartpg.jpg'); }
+.img-pg-guiding       { background-image: url('/img/img-tours/PrivadoGrupo/guidingpg.jpg'); }
+.img-pg-discovering   { background-image: url('/img/img-tours/PrivadoGrupo/discoveringpg.jpg'); }
+.img-pg-valenciaandgo { background-image: url('/img/img-tours/PrivadoGrupo/valenciaandgopg.jpg'); }
 
 /* ── Todos los operadores ── */
 .pg-todos-section {
     margin: 52px 48px 0;
-    padding-top: 48px;
-    border-top: 1.5px solid #e5e5e5;
+    padding-top: 18px;
 }
 
 .pg-todos-section h3 {
@@ -473,7 +408,6 @@
 }
 
 .pg-info-list li::before {
-    content: '—';
     position: absolute;
     left: 0;
     color: #8a6620;

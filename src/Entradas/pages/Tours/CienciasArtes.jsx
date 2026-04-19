@@ -18,7 +18,7 @@ var visitasOficiales = [
       { d: 'Horario', v: 'Mañanas (10–13 h) o tardes (16–19 h) · Mínimo 2 personas · Sujeto a disponibilidad' },
       { d: 'Compra', v: 'En taquillas del Museu de les Ciències o tel. 96 197 46 86 · Av. Professor López Piñero, 7' },
     ],
-    imgClass: 'img-ca-arquitectonica',
+    imgClass: 'img-ca-arquitectonicacat',
     tags: [{ label: 'Zonas restringidas' }, { label: 'Calatrava + Candela' }, { label: '2 itinerarios' }],
     url: 'https://cac.es/tarifas/visitas-guiadas/',
   },
@@ -35,7 +35,7 @@ var visitasOficiales = [
       { d: 'Ideal para', v: 'Primera visita · Grupos con poco tiempo · Familias · Grupos escolares' },
       { d: 'Compra', v: 'Taquillas del Museu de les Ciències o tel. 96 197 46 86 · Programación sujeta a cambios' },
     ],
-    imgClass: 'img-ca-museu',
+    imgClass: 'img-ca-museucat',
     tags: [{ label: 'Personal CAC' }, { label: 'Ciencia interactiva' }, { label: 'Todas las edades' }],
     url: 'https://cac.es/tarifas/visitas-guiadas/',
   },
@@ -52,7 +52,7 @@ var visitasOficiales = [
       { d: 'También en planta 3', v: '"Gravedad Cero" · "La Luna al alcance de tus manos" · Maquetas espaciales' },
       { d: 'Compra', v: 'Taquillas del Museu · Tel. 96 197 46 86 · Programación sujeta a cambios' },
     ],
-    imgClass: 'img-ca-marte',
+    imgClass: 'img-ca-martecat',
     tags: [{ label: 'Exploración espacial' }, { label: 'Marte' }, { label: '3,50 € extra' }],
     url: 'https://cac.es/tarifas/visitas-guiadas/',
   },
@@ -69,7 +69,7 @@ var visitasOficiales = [
       { d: 'Contenido', v: 'Códices · Máquinas · Anatomía · Mona Lisa · Hombre de Vitruvio · OrganKits UV Murcia' },
       { d: 'Compra', v: 'Taquillas del Museu · Tel. 96 197 46 86 · Consultar disponibilidad de fechas' },
     ],
-    imgClass: 'img-ca-leonardo',
+    imgClass: 'img-ca-leonardocat',
     tags: [{ label: 'Inmersiva SENSORY4™' }, { label: 'VR flyover' }, { label: '3,50 € extra' }],
     url: 'https://cac.es/tarifas/visitas-guiadas/',
   },
@@ -116,15 +116,6 @@ var datosVisita = [
   { label: 'Audioguías', val: '1 € · Descargables en el móvil · Disponibles en varios idiomas' },
 ];
 
-var recintos = [
-  { nombre: 'Museu de les Ciències', icono: '🔬', detalle: 'Calatrava · 26.000 m² · Ciencia interactiva' },
-  { nombre: "L'Hemisfèric", icono: '👁️', detalle: 'IMAX Dome · 900 m² · Cine inmersivo' },
-  { nombre: "L'Oceanogràfic", icono: '🐋', detalle: 'Candela · +45.000 animales · Acuario Europa' },
-  { nombre: 'Palau de les Arts Reina Sofía', icono: '🎭', detalle: 'Ópera · 40.000 m² · 4 salas' },
-  { nombre: "L'Umbracle", icono: '🌿', detalle: '+50 especies · Paseo esculturas · Mirador' },
-  { nombre: "L'Àgora", icono: '⬡', detalle: 'Eventos · Exposiciones · Rodeado de agua' },
-];
-
 export default function CienciasArtes() {
   return (
     <div className="ca-page">
@@ -157,26 +148,9 @@ export default function CienciasArtes() {
 
       {/* Intro box */}
       <div className="ca-intro-box">
-        <div className="ca-intro-icono">🏛️</div>
         <div className="ca-intro-content">
           <div className="ca-intro-titulo">Calatrava · Candela · La Valencia del siglo XXI</div>
           <p>La <strong>Ciutat de les Arts i les Ciències</strong> ofrece visitas guiadas oficiales que van mucho más allá de lo que cualquier visitante puede descubrir por su cuenta. El CAC dispone de guías especializados en arquitectura, ciencia y arte que abren el acceso a <strong>zonas restringidas al público</strong>, desvelan los secretos estructurales de los edificios de <strong>Santiago Calatrava</strong> y <strong>Félix Candela</strong> y guían por las exposiciones más complejas con actividades dinámicas y participativas. Las visitas van desde los 3,50 € adicionales sobre la entrada al Museu hasta los 65 € por la visita arquitectónica completa con acceso a áreas exclusivas. La programación está <strong>sujeta a cambios</strong>; se recomienda confirmar siempre en taquillas o en el 96 197 46 86.</p>
-        </div>
-      </div>
-
-      {/* Chips de recintos */}
-      <div className="ca-recintos-wrap">
-        <div className="ca-recintos-titulo">Los 6 recintos de la Ciutat de les Arts i les Ciències</div>
-        <div className="ca-recintos-grid">
-          {recintos.map(r => (
-            <div className="ca-recinto-chip" key={r.nombre}>
-              <span className="ca-recinto-icono">{r.icono}</span>
-              <div>
-                <span className="ca-recinto-nombre">{r.nombre}</span>
-                <span className="ca-recinto-detalle">{r.detalle}</span>
-              </div>
-            </div>
-          ))}
         </div>
       </div>
 
@@ -252,7 +226,6 @@ export default function CienciasArtes() {
 
       {/* Simulador Espacial */}
       <div className="ca-simulador-box">
-        <div className="ca-simulador-icono">🚀</div>
         <div className="ca-simulador-content">
           <div className="ca-simulador-titulo">Simulador Espacial · {simulador.precio}</div>
           <p>{simulador.desc}</p>
