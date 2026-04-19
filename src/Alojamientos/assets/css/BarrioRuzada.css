@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
 
-.ruz-page {
+.ruzloj-page {
     font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
     color: #1a1a1a;
     margin-top: 70px;
 }
 
 /* ── Hero ── */
-.ruz-hero {
+.ruzloj-hero {
     position: relative;
     height: 560px;
-    background-image: url('/img/img-alojamientos/BarrioRuzafa/hero.jpg');
+    background-image: url('/img/img-alojamientos/BarrioRuzafa/hero-barrioruzafaaloj.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -20,13 +20,13 @@
     justify-content: flex-end;
 }
 
-.ruz-hero-overlay {
+.ruzloj-hero-overlay {
     position: absolute;
     inset: 0;
     background: linear-gradient(to top, rgba(20,5,0,0.86) 0%, rgba(20,5,0,0.10) 60%, transparent 100%);
 }
 
-.ruz-hero-content {
+.ruzloj-hero-content {
     position: relative;
     z-index: 2;
     padding: 0 48px 20px;
@@ -34,7 +34,7 @@
     max-width: 680px;
 }
 
-.ruz-eyebrow {
+.ruzloj-eyebrow {
     font-size: 11px;
     font-weight: 600;
     letter-spacing: 0.14em;
@@ -43,7 +43,7 @@
     margin-bottom: 12px;
 }
 
-.ruz-hero-content h1 {
+.ruzloj-hero-content h1 {
     font-size: 56px;
     font-weight: 700;
     line-height: 1.0;
@@ -51,7 +51,7 @@
     letter-spacing: -0.02em;
 }
 
-.ruz-hero-content p {
+.ruzloj-hero-content p {
     font-size: 16px;
     font-weight: 300;
     line-height: 1.6;
@@ -60,7 +60,7 @@
 }
 
 /* Stats */
-.ruz-hero-stats {
+.ruzloj-hero-stats {
     position: relative;
     z-index: 2;
     padding: 18px 48px 44px;
@@ -69,20 +69,20 @@
     gap: 28px;
 }
 
-.ruz-stat {
+.ruzloj-stat {
     display: flex;
     flex-direction: column;
     color: #fff;
 }
 
-.ruz-stat-num {
+.ruzloj-stat-num {
     font-size: 22px;
     font-weight: 700;
     line-height: 1;
     color: #e8804a;
 }
 
-.ruz-stat-label {
+.ruzloj-stat-label {
     font-size: 11px;
     font-weight: 300;
     letter-spacing: 0.06em;
@@ -91,14 +91,14 @@
     margin-top: 3px;
 }
 
-.ruz-stat-sep {
+.ruzloj-stat-sep {
     width: 1px;
     height: 34px;
     background: rgba(255,255,255,0.25);
 }
 
 /* ── Intro box ── */
-.ruz-intro-box {
+.ruzloj-intro-box {
     margin: 0 48px;
     background: #1a0a00;
     padding: 28px 32px;
@@ -107,19 +107,14 @@
     align-items: flex-start;
 }
 
-.ruz-intro-icono {
-    font-size: 32px;
-    flex-shrink: 0;
-}
-
-.ruz-intro-titulo {
+.ruzloj-intro-titulo {
     font-size: 15px;
     font-weight: 700;
     color: #e8804a;
     margin-bottom: 10px;
 }
 
-.ruz-intro-content p {
+.ruzloj-intro-content p {
     font-size: 14px;
     font-weight: 300;
     color: rgba(255,255,255,0.85);
@@ -127,19 +122,19 @@
     margin: 0;
 }
 
-.ruz-intro-content strong {
+.ruzloj-intro-content strong {
     font-weight: 600;
     color: #fff;
 }
 
 /* ── Intro ── */
-.ruz-intro {
+.ruzloj-intro {
     max-width: 740px;
     margin: 52px auto;
     padding: 0 48px;
 }
 
-.ruz-intro p {
+.ruzloj-intro p {
     font-size: 17px;
     font-weight: 300;
     line-height: 1.75;
@@ -147,18 +142,18 @@
     margin-bottom: 18px;
 }
 
-.ruz-intro strong {
+.ruzloj-intro strong {
     font-weight: 600;
     color: #1a1a1a;
 }
 
 /* ── Section title ── */
-.ruz-section-title {
+.ruzloj-section-title {
     padding: 0 48px 32px;
     border-bottom: 1px solid #e5e5e5;
 }
 
-.ruz-section-title h2 {
+.ruzloj-section-title h2 {
     font-size: 22px;
     font-weight: 700;
     color: #1a1a1a;
@@ -166,18 +161,18 @@
     margin-bottom: 6px;
 }
 
-.ruz-section-title p {
+.ruzloj-section-title p {
     font-size: 15px;
     font-weight: 300;
     color: #777;
 }
 
 /* ── Hoteles ── */
-.ruz-routes {
+.ruzloj-routes {
     padding: 0 48px;
 }
 
-.ruz-route-item {
+.ruzloj-route-item {
     display: grid;
     grid-template-columns: 56px 1fr 340px;
     border-bottom: 1px solid #e5e5e5;
@@ -185,7 +180,7 @@
     align-items: start;
 }
 
-.ruz-route-num {
+.ruzloj-route-num {
     font-size: 13px;
     font-weight: 600;
     color: #bbb;
@@ -193,11 +188,11 @@
     padding-top: 4px;
 }
 
-.ruz-route-text {
+.ruzloj-route-text {
     padding-right: 48px;
 }
 
-.ruz-tipo {
+.ruzloj-tipo {
     font-size: 11px;
     font-weight: 600;
     letter-spacing: 0.1em;
@@ -206,7 +201,7 @@
     margin-bottom: 6px;
 }
 
-.ruz-route-text h2 {
+.ruzloj-route-text h2 {
     font-size: 24px;
     font-weight: 700;
     color: #1a1a1a;
@@ -215,7 +210,7 @@
     line-height: 1.2;
 }
 
-.ruz-subtitulo {
+.ruzloj-subtitulo {
     font-size: 13px;
     font-weight: 300;
     font-style: italic;
@@ -224,7 +219,7 @@
     line-height: 1.4;
 }
 
-.ruz-desc {
+.ruzloj-desc {
     font-size: 15px;
     font-weight: 300;
     color: #444;
@@ -232,7 +227,7 @@
     margin-bottom: 20px;
 }
 
-.ruz-datos-titulo {
+.ruzloj-datos-titulo {
     font-size: 11px;
     font-weight: 700;
     letter-spacing: 0.1em;
@@ -241,7 +236,7 @@
     margin-bottom: 10px;
 }
 
-.ruz-datos {
+.ruzloj-datos {
     list-style: none;
     padding: 0;
     margin: 0 0 16px 0;
@@ -250,7 +245,7 @@
     gap: 8px;
 }
 
-.ruz-datos li {
+.ruzloj-datos li {
     font-size: 14px;
     line-height: 1.5;
     padding-left: 14px;
@@ -258,23 +253,23 @@
     color: #444;
 }
 
-.ruz-dato-label {
+.ruzloj-dato-label {
     font-weight: 600;
     color: #1a1a1a;
 }
 
-.ruz-dato-val {
+.ruzloj-dato-val {
     font-weight: 300;
 }
 
 /* Tags */
-.ruz-tags {
+.ruzloj-tags {
     display: flex;
     gap: 8px;
     flex-wrap: wrap;
 }
 
-.ruz-tag {
+.ruzloj-tag {
     font-size: 11px;
     font-weight: 600;
     letter-spacing: 0.05em;
@@ -287,14 +282,16 @@
 }
 
 /* Imagen */
-.ruz-route-img {
+.ruzloj-route-img {
     border-radius: 2px;
     overflow: hidden;
     height: 280px;
     top: 90px;
+    border: 1px solid #000;
+    box-shadow: 0 0 0 3px #000; 
 }
 
-.ruz-route-img-inner {
+.ruzloj-route-img-inner {
     width: 100%;
     height: 100%;
     background-position: center;
@@ -303,19 +300,18 @@
     background-color: #1a0a00;
 }
 
-/* Imágenes — rutas en /img/img-alojamientos/BarrioRuzafa/ */
-.img-petitpalace   { background-image: url('/img/img-alojamientos/BarrioRuzafa/petitpalace.jpg'); }
-.img-citygarden    { background-image: url('/img/img-alojamientos/BarrioRuzafa/citygarden.jpg'); }
-.img-singularstays { background-image: url('/img/img-alojamientos/BarrioRuzafa/singularstays.jpg'); }
+/* Imágenes */
+.img-petitpalacealoj   { background-image: url('/img/img-alojamientos/BarrioRuzafa/petitpalacealoj.jpg'); }
+.img-citygardenaloj    { background-image: url('/img/img-alojamientos/BarrioRuzafa/citygardenaloj.jpg'); }
+.img-singularstaysaloj { background-image: url('/img/img-alojamientos/BarrioRuzafa/singularstaysaloj.jpg'); }
 
 /* ── Tabla información práctica ── */
-.ruz-info-practica {
+.ruzloj-info-practica {
     margin: 52px 48px 0;
-    padding-top: 48px;
-    border-top: 1.5px solid #e5e5e5;
+    padding-top: 18px;
 }
 
-.ruz-info-practica h3 {
+.ruzloj-info-practica h3 {
     font-size: 18px;
     font-weight: 700;
     color: #1a1a1a;
@@ -323,29 +319,29 @@
     margin-bottom: 20px;
 }
 
-.ruz-tabla {
+.ruzloj-tabla {
     display: flex;
     flex-direction: column;
     border: 1.5px solid #e5e5e5;
     overflow: hidden;
 }
 
-.ruz-tabla-fila {
+.ruzloj-tabla-fila {
     display: grid;
     grid-template-columns: 180px 1fr;
     border-bottom: 1px solid #e5e5e5;
     min-height: 44px;
 }
 
-.ruz-tabla-fila:last-child {
+.ruzloj-tabla-fila:last-child {
     border-bottom: none;
 }
 
-.ruz-tabla-fila:nth-child(even) {
+.ruzloj-tabla-fila:nth-child(even) {
     background: #fdf2ec;
 }
 
-.ruz-tabla-label {
+.ruzloj-tabla-label {
     padding: 12px 20px;
     font-size: 12px;
     font-weight: 700;
@@ -357,7 +353,7 @@
     align-items: center;
 }
 
-.ruz-tabla-val {
+.ruzloj-tabla-val {
     padding: 12px 20px;
     font-size: 14px;
     font-weight: 300;
@@ -368,14 +364,14 @@
 }
 
 /* ── Info box ── */
-.ruz-info-box {
+.ruzloj-info-box {
     margin: 32px 48px 60px;
     border: 1.5px solid #b85820;
     padding: 32px 36px;
     background: #fdf2ec;
 }
 
-.ruz-info-box h3 {
+.ruzloj-info-box h3 {
     font-size: 16px;
     font-weight: 700;
     letter-spacing: 0.02em;
@@ -384,7 +380,7 @@
     color: #8a3010;
 }
 
-.ruz-info-list {
+.ruzloj-info-list {
     list-style: none;
     padding: 0;
     margin: 0;
@@ -393,7 +389,7 @@
     gap: 8px 32px;
 }
 
-.ruz-info-list li {
+.ruzloj-info-list li {
     font-size: 14px;
     font-weight: 300;
     color: #444;
@@ -402,13 +398,12 @@
     line-height: 1.5;
 }
 
-.ruz-info-list li strong {
+.ruzloj-info-list li strong {
     font-weight: 600;
     color: #1a1a1a;
 }
 
-.ruz-info-list li::before {
-    content: '—';
+.ruzloj-info-list li::before {
     position: absolute;
     left: 0;
     color: #b85820;
@@ -417,95 +412,95 @@
 
 /* ── RESPONSIVE ── */
 @media (max-width: 1100px) {
-    .ruz-route-item {
+    .ruzloj-route-item {
         grid-template-columns: 40px 1fr 270px;
     }
 }
 
 @media (max-width: 768px) {
 
-    .ruz-intro,
-    .ruz-routes,
-    .ruz-section-title,
-    .ruz-intro-box,
-    .ruz-info-practica,
-    .ruz-info-box {
+    .ruzloj-intro,
+    .ruzloj-routes,
+    .ruzloj-section-title,
+    .ruzloj-intro-box,
+    .ruzloj-info-practica,
+    .ruzloj-info-box {
         padding-left: 20px;
         padding-right: 20px;
         margin-left: 0;
         margin-right: 0;
     }
 
-    .ruz-hero-content {
+    .ruzloj-hero-content {
         padding: 0 20px 12px;
     }
 
-    .ruz-hero-content h1 {
+    .ruzloj-hero-content h1 {
         font-size: 36px;
     }
 
-    .ruz-hero-stats {
+    .ruzloj-hero-stats {
         padding: 12px 20px 36px;
         gap: 18px;
     }
 
-    .ruz-stat-num {
+    .ruzloj-stat-num {
         font-size: 18px;
     }
 
-    .ruz-intro-box {
+    .ruzloj-intro-box {
         flex-direction: column;
         gap: 14px;
     }
 
-    .ruz-route-item {
+    .ruzloj-route-item {
         grid-template-columns: 1fr;
         gap: 24px;
     }
 
-    .ruz-route-num {
+    .ruzloj-route-num {
         display: none;
     }
 
-    .ruz-route-text {
+    .ruzloj-route-text {
         padding-right: 0;
     }
 
-    .ruz-route-img {
+    .ruzloj-route-img {
         height: 220px;
         position: static;
     }
 
-    .ruz-tabla-fila {
+    .ruzloj-tabla-fila {
         grid-template-columns: 140px 1fr;
     }
 
-    .ruz-info-list {
+    .ruzloj-info-list {
         grid-template-columns: 1fr;
     }
 }
 
 @media (max-width: 480px) {
-    .ruz-hero {
+    .ruzloj-hero {
         height: 480px;
     }
 
-    .ruz-hero-content h1 {
+    .ruzloj-hero-content h1 {
         font-size: 30px;
     }
 
-    .ruz-tabla-fila {
+    .ruzloj-tabla-fila {
         grid-template-columns: 1fr;
     }
 
-    .ruz-tabla-label {
+    .ruzloj-tabla-label {
         border-right: none;
         border-bottom: 1px solid #e5e5e5;
         padding-bottom: 6px;
         padding-top: 14px;
     }
 
-    .ruz-tabla-val {
+    .ruzloj-tabla-val {
         padding-top: 6px;
         padding-bottom: 14px;
     }

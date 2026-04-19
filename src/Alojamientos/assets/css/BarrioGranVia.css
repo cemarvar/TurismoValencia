@@ -10,7 +10,7 @@
 .grv-hero {
     position: relative;
     height: 560px;
-    background-image: url('/img/img-alojamientos/BarrioGranVia/hero.jpg');
+    background-image: url('/img/img-alojamientos/BarrioGranVia/hero-barriogranviabgv.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -105,11 +105,6 @@
     display: flex;
     gap: 24px;
     align-items: flex-start;
-}
-
-.grv-intro-icono {
-    font-size: 32px;
-    flex-shrink: 0;
 }
 
 .grv-intro-titulo {
@@ -291,8 +286,9 @@
     border-radius: 2px;
     overflow: hidden;
     height: 280px;
-    position: sticky;
     top: 90px;
+    border: 1px solid #000;
+    box-shadow: 0 0 0 3px #000; 
 }
 
 .grv-route-img-inner {
@@ -304,15 +300,14 @@
     background-color: #051408;
 }
 
-/* Imágenes — rutas en /img/img-alojamientos/BarrioGranVia/ */
-.img-abcyou { background-image: url('/img/img-alojamientos/BarrioGranVia/abcyou.jpg'); }
-.img-dimar  { background-image: url('/img/img-alojamientos/BarrioGranVia/dimar.jpg'); }
+/* Imágenes */
+.img-abcyoubgv { background-image: url('/img/img-alojamientos/BarrioGranVia/abcyoubgv.jpg'); }
+.img-dimarbgv  { background-image: url('/img/img-alojamientos/BarrioGranVia/dimarbgv.jpg'); }
 
 /* ── Tabla información práctica ── */
 .grv-info-practica {
     margin: 52px 48px 0;
-    padding-top: 48px;
-    border-top: 1.5px solid #e5e5e5;
+    padding-top: 18px;
 }
 
 .grv-info-practica h3 {
@@ -408,7 +403,6 @@
 }
 
 .grv-info-list li::before {
-    content: '—';
     position: absolute;
     left: 0;
     color: #1a6638;

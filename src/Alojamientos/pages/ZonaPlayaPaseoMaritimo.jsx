@@ -14,7 +14,7 @@ var hoteles = [
       { d: 'Instalaciones', v: 'Restaurante mediterráneo con terraza · Bar · Bicicletas · Zona infantil · Sala eventos · Recep. 24h' },
       { d: 'Ubicación', v: 'Paseo Neptuno, 20–22 · Frente a la Playa de las Arenas · 500 m La Marina de València · Baños' },
     ],
-    imgClass: 'img-balandret',
+    imgClass: 'img-balandretaloj',
     tags: [{ label: 'Frente al mar' }, { label: 'Rest. mediterráneo' }, { label: 'Boutique' }],
   },
   {
@@ -29,8 +29,8 @@ var hoteles = [
       { d: 'Instalaciones', v: 'Spa · 2 piscinas ext. · Piscina cubierta · Rest. Brasserie Sorolla · Pádel · Club niños · 2.500 m² eventos' },
       { d: 'Ubicación', v: 'Playa de las Arenas · 3 min a pie Playa Malvarrosa · Metro + bus en puerta · CAC a 5 min en coche' },
     ],
-    imgClass: 'img-lasarenas',
-    tags: [{ label: '5★ Gran Lujo' }, { label: 'Balneario 1898' }, { label: 'Spa histórico' }],
+    imgClass: 'img-lasarenasaloj',
+    tags: [{ label: '5 Estrellas Gran Lujo' }, { label: 'Balneario 1898' }, { label: 'Spa histórico' }],
   },
   {
     num: '03',
@@ -44,7 +44,7 @@ var hoteles = [
       { d: 'Servicios', v: 'Restaurante-cafetería · Desayuno buffet · Bicicletas · Info turística · Recepción 24h · Consigna' },
       { d: 'Ubicación', v: 'Paseo Neptuno, 56 · 2 min tranvía (metro) · 100 m Puerto Copa América · 30 min a pie CAC' },
     ],
-    imgClass: 'img-solplaya',
+    imgClass: 'img-solplayaaloj',
     tags: [{ label: 'Primera línea' }, { label: 'Calidad-precio' }, { label: 'Historia 1916' }],
   },
 ];
@@ -79,7 +79,7 @@ export default function ZonaPlayaPaseoMaritimo() {
           </div>
           <div className="plm-stat-sep" />
           <div className="plm-stat">
-            <span className="plm-stat-num">2★ – 5★GL</span>
+            <span className="plm-stat-num">2 – 5 GL</span>
             <span className="plm-stat-label">Todas las categorías</span>
           </div>
           <div className="plm-stat-sep" />
@@ -92,7 +92,6 @@ export default function ZonaPlayaPaseoMaritimo() {
 
       {/* Intro box */}
       <div className="plm-intro-box">
-        <div className="plm-intro-icono">🌊</div>
         <div className="plm-intro-content">
           <div className="plm-intro-titulo">La Playa de las Arenas · La Malvarrosa · El Paseo Marítimo</div>
           <p>Valencia tiene playa, y su paseo marítimo es uno de los más animados del Mediterráneo. La <strong>Playa de las Arenas</strong> —junto al histórico Puerto de la Copa América— y la <strong>Playa de la Malvarrosa</strong> forman una franja de arena fina de más de 3 km que en verano se convierte en el segundo salón de Valencia. El <strong>Paseo Neptuno y el Paseo Marítimo</strong> están flanqueados por los mejores restaurantes de paella y arroces de la ciudad, terrazas y locales de ocio nocturno. Esta zona fue el escenario favorito del pintor <strong>Joaquín Sorolla</strong>, que inmortalizó su luz y sus bañistas en decenas de cuadros. Hoy es también el punto de partida del carril bici costero que llega hasta la Ciudad de las Artes y las Ciencias.</p>

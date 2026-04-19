@@ -14,7 +14,7 @@ var hoteles = [
       { d: 'Instalaciones', v: 'Terraza solárium en azotea · Gimnasio · Sauna · Restaurante · Bar Barecito · WiFi gratis' },
       { d: 'Ubicación', v: 'Plaza del Ayuntamiento, 4 · 5 min a pie de Valencia-Norte · 10 min a pie de la Catedral' },
     ],
-    imgClass: 'img-melia',
+    imgClass: 'img-meliacto',
     tags: [{ label: '4 Estrellas' }, { label: 'Vista Plaza' }, { label: 'Solárium' }],
   },
   {
@@ -29,7 +29,7 @@ var hoteles = [
       { d: 'Instalaciones', v: 'Rooftop con piscina · Hamacas con vistas · Habitaciones con terraza o balcón · Cocina americana' },
       { d: 'Estilo', v: 'Interiorismo contemporáneo y sobrio · Suites luminosas · Experiencia local auténtica' },
     ],
-    imgClass: 'img-cabillers',
+    imgClass: 'img-cabillerscto',
     tags: [{ label: '4 Estrellas' }, { label: 'Boutique' }, { label: 'Rooftop' }],
   },
   {
@@ -44,7 +44,7 @@ var hoteles = [
       { d: 'Servicios', v: 'Desayuno buffet · Sala TV común · Recepción 24h · Consigna de equipaje' },
       { d: 'Ubicación', v: 'Plaza del Ayuntamiento, 3 · 5 min a pie metro Xàtiva · 10 min a pie Catedral · 4 min tren' },
     ],
-    imgClass: 'img-venecia',
+    imgClass: 'img-veneciacto',
     tags: [{ label: 'Calidad-precio' }, { label: 'Vista Plaza' }, { label: 'Centro total' }],
   },
   {
@@ -59,7 +59,7 @@ var hoteles = [
       { d: 'Servicios', v: 'Desayuno buffet 7:30–11:00 · Recepción 24h · Alquiler bicicletas · Info turística · 2 salones' },
       { d: 'Ubicación', v: 'Convento Santa Clara, 5 · 50 m Plaza Ayuntamiento · 200 m metro Xàtiva · 200 m tren Norte' },
     ],
-    imgClass: 'img-sorolla',
+    imgClass: 'img-sorollacto',
     tags: [{ label: '3 Estrellas' }, { label: 'Zona peatonal' }, { label: 'Bienvenida con vino' }],
   },
 ];
@@ -94,7 +94,7 @@ export default function Centro() {
           </div>
           <div className="cen-stat-sep" />
           <div className="cen-stat">
-            <span className="cen-stat-num">2★ – 4★</span>
+            <span className="cen-stat-num">2 – 4 </span>
             <span className="cen-stat-label">Todas las categorías</span>
           </div>
           <div className="cen-stat-sep" />
@@ -107,7 +107,6 @@ export default function Centro() {
 
       {/* Intro box */}
       <div className="cen-intro-box">
-        <div className="cen-intro-icono">🏛️</div>
         <div className="cen-intro-content">
           <div className="cen-intro-titulo">El centro neurálgico · A pie de todo</div>
           <p>La Plaza del Ayuntamiento es el corazón de Valencia: el punto de encuentro histórico, comercial y festivo de la ciudad. Alojarse aquí significa tener el <strong>Mercado Central</strong>, la <strong>Lonja de la Seda</strong> (Patrimonio de la Humanidad), la <strong>Catedral</strong> y las mejores calles de tapas a menos de 10 minutos a pie. El transporte público —metro Xàtiva, tren Valencia-Norte y múltiples autobuses— permite llegar fácilmente a la Ciudad de las Artes y las Ciencias o a las playas. Durante las <strong>Fallas de marzo</strong>, este barrio es el epicentro de la celebración: la mascletà diaria se dispara en la misma plaza y las fallas más grandes del centro se plantan a un paso.</p>

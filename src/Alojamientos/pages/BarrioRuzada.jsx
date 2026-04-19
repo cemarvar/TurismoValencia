@@ -14,7 +14,7 @@ var hoteles = [
       { d: 'Servicios', v: 'Bicicletas gratis · Desayuno buffet · Recepción 24h · Check-out tardío dom/lun · Pet friendly gratis' },
       { d: 'Ubicación', v: 'Carrer de Sueca, 14 · 10 min a pie AVE Joaquín Sorolla · Junto al Mercat de Russafa' },
     ],
-    imgClass: 'img-petitpalace',
+    imgClass: 'img-petitpalacealoj',
     tags: [{ label: 'Solo hotel en Ruzafa' }, { label: 'Bicis gratis' }, { label: 'Pet friendly' }],
   },
   {
@@ -29,7 +29,7 @@ var hoteles = [
       { d: 'Servicios', v: 'Desayuno incluido en terraza (9–11h) · Café y té 24h · Zona común · Bicicletas disponibles en el barrio' },
       { d: 'Ubicación', v: 'Calle General Prim, 1 · Calle peatonal tranquila · 10 min a pie Plaza Ayuntamiento · Metro Bailén' },
     ],
-    imgClass: 'img-citygarden',
+    imgClass: 'img-citygardenaloj',
     tags: [{ label: 'B&B íntimo' }, { label: 'Terraza' }, { label: 'Desayuno incluido' }],
   },
   {
@@ -44,7 +44,7 @@ var hoteles = [
       { d: 'Servicios', v: 'Recepción lun–vie 10–18h · Auto check-in fuera de horario · Parking bicis + taller gratis' },
       { d: 'Ubicación', v: 'Barrio Ruzafa · 5 min a pie Estación del Nord · Metro Bailén · 15 min a pie Plaza Ayuntamiento' },
     ],
-    imgClass: 'img-singularstays',
+    imgClass: 'img-singularstaysaloj',
     tags: [{ label: 'Apartamento' }, { label: 'Hasta 4 personas' }, { label: 'Cocina equipada' }],
   },
 ];
@@ -62,108 +62,107 @@ var datosBarrio = [
 
 export default function BarrioRuzada() {
   return (
-    <div className="ruz-page">
+    <div className="ruzloj-page">
 
       {/* Hero */}
-      <div className="ruz-hero">
-        <div className="ruz-hero-overlay" />
-        <div className="ruz-hero-content">
-          <div className="ruz-eyebrow">Alojamientos · Barrio de Ruzafa · El SoHo de Valencia</div>
+      <div className="ruzloj-hero">
+        <div className="ruzloj-hero-overlay" />
+        <div className="ruzloj-hero-content">
+          <div className="ruzloj-eyebrow">Alojamientos · Barrio de Ruzafa · El SoHo de Valencia</div>
           <h1>Dormir en<br />Ruzafa</h1>
           <p>El barrio más creativo y cosmopolita de Valencia: galerías de arte, bares de diseño, cocina del mundo y la energía de un vecindario que no para. A 10 minutos a pie de todo.</p>
         </div>
-        <div className="ruz-hero-stats">
-          <div className="ruz-stat">
+        <div className="ruzloj-hero-stats">
+          <div className="ruzloj-stat">
             <span className="ruz-stat-num">3</span>
             <span className="ruz-stat-label">Alojamientos</span>
           </div>
-          <div className="ruz-stat-sep" />
-          <div className="ruz-stat">
-            <span className="ruz-stat-num">10 min</span>
-            <span className="ruz-stat-label">Al AVE y al centro</span>
+          <div className="ruzloj-stat-sep" />
+          <div className="ruzloj-stat">
+            <span className="ruzloj-stat-num">10 min</span>
+            <span className="ruzloj-stat-label">Al AVE y al centro</span>
           </div>
-          <div className="ruz-stat-sep" />
-          <div className="ruz-stat">
-            <span className="ruz-stat-num">SoHo VLC</span>
-            <span className="ruz-stat-label">Barrio creativo</span>
+          <div className="ruzloj-stat-sep" />
+          <div className="ruzloj-stat">
+            <span className="ruzloj-stat-num">SoHo VLC</span>
+            <span className="ruzloj-stat-label">Barrio creativo</span>
           </div>
         </div>
       </div>
 
       {/* Intro box */}
-      <div className="ruz-intro-box">
-        <div className="ruz-intro-icono">🎨</div>
-        <div className="ruz-intro-content">
-          <div className="ruz-intro-titulo">De barrio obrero a capital creativa · El Ruzafa de hoy</div>
+      <div className="ruzloj-intro-box">
+        <div className="ruzloj-intro-content">
+          <div className="ruzloj-intro-titulo">De barrio obrero a capital creativa · El Ruzafa de hoy</div>
           <p>Ruzafa ha protagonizado una de las transformaciones urbanas más llamativas de España. Lo que fue un barrio popular y marginal se ha convertido en el epicentro del Valencia más contemporáneo: el lugar donde conviven el vecino de toda la vida con el artista, el turista con el local, la tienda de ultramarinos con la galería de arte. Sus <strong>fachadas modernistas y azulejos tradicionales</strong> contrastan con murales callejeros y locales de diseño. El <strong>Mercat de Russafa</strong> —con productos locales y exóticos— es el alma del barrio. Por la noche, las terrazas de las calles Cádiz, Dénia y Sueca se convierten en uno de los escenarios más animados de Valencia. Todo esto a 10–15 minutos a pie del centro histórico y a 10 minutos del AVE.</p>
         </div>
       </div>
 
       {/* Intro */}
-      <div className="ruz-intro">
+      <div className="ruzloj-intro">
         <p>La oferta de alojamiento en Ruzafa refleja perfectamente la personalidad del barrio: no hay grandes cadenas hoteleras. En su lugar, encontrarás el <strong>único hotel boutique del barrio</strong> en un edificio del siglo XIX, un <strong>B&B íntimo de 6 habitaciones</strong> con terraza y desayuno casero, y una colección de <strong>apartamentos con cocina</strong> en el edificio más emblemático de SingularStays.</p>
         <p>Ruzafa es la elección ideal para viajeros que buscan <strong>vivir Valencia desde dentro</strong>: desayunar en la terraza de un B&B, ir al mercado a por fruta, descubrir una galería de arte al doblar la esquina y cenar en uno de los restaurantes más interesantes de la ciudad sin necesidad de coger el metro.</p>
       </div>
 
       {/* Section title */}
-      <div className="ruz-section-title">
+      <div className="ruzloj-section-title">
         <h2>Los alojamientos de Ruzafa</h2>
         <p>Tres opciones seleccionadas para distintos estilos de viaje en el barrio más vibrante de Valencia.</p>
       </div>
 
       {/* Hoteles */}
-      <div className="ruz-routes">
+      <div className="ruzloj-routes">
         {hoteles.map(hotel => (
-          <div className="ruz-route-item" key={hotel.num}>
-            <div className="ruz-route-num">{hotel.num}</div>
+          <div className="ruzloj-route-item" key={hotel.num}>
+            <div className="ruzloj-route-num">{hotel.num}</div>
 
-            <div className="ruz-route-text">
-              <div className="ruz-tipo">{hotel.tipo}</div>
+            <div className="ruzloj-route-text">
+              <div className="ruzloj-tipo">{hotel.tipo}</div>
               <h2>{hotel.nombre}</h2>
-              <div className="ruz-subtitulo">{hotel.subtitulo}</div>
-              <p className="ruz-desc">{hotel.desc}</p>
+              <div className="ruzloj-subtitulo">{hotel.subtitulo}</div>
+              <p className="ruzloj-desc">{hotel.desc}</p>
 
-              <div className="ruz-datos-titulo">Datos clave</div>
-              <ul className="ruz-datos">
+              <div className="ruzloj-datos-titulo">Datos clave</div>
+              <ul className="ruzloj-datos">
                 {hotel.datos.map(d => (
                   <li key={d.d}>
-                    <span className="ruz-dato-label">{d.d}:</span>
-                    <span className="ruz-dato-val"> {d.v}</span>
+                    <span className="ruzloj-dato-label">{d.d}:</span>
+                    <span className="ruzloj-dato-val"> {d.v}</span>
                   </li>
                 ))}
               </ul>
 
-              <div className="ruz-tags">
+              <div className="ruzloj-tags">
                 {hotel.tags.map(t => (
-                  <span key={t.label} className="ruz-tag">{t.label}</span>
+                  <span key={t.label} className="ruzloj-tag">{t.label}</span>
                 ))}
               </div>
             </div>
 
-            <div className="ruz-route-img">
-              <div className={`ruz-route-img-inner ${hotel.imgClass}`} />
+            <div className="ruzloj-route-img">
+              <div className={`ruzloj-route-img-inner ${hotel.imgClass}`} />
             </div>
           </div>
         ))}
       </div>
 
       {/* Tabla datos del barrio */}
-      <div className="ruz-info-practica">
+      <div className="ruzloj-info-practica">
         <h3>Información práctica · Alojarse en Ruzafa</h3>
-        <div className="ruz-tabla">
+        <div className="ruzloj-tabla">
           {datosBarrio.map(d => (
-            <div className="ruz-tabla-fila" key={d.label}>
-              <div className="ruz-tabla-label">{d.label}</div>
-              <div className="ruz-tabla-val">{d.val}</div>
+            <div className="ruzloj-tabla-fila" key={d.label}>
+              <div className="ruzloj-tabla-label">{d.label}</div>
+              <div className="ruzloj-tabla-val">{d.val}</div>
             </div>
           ))}
         </div>
       </div>
 
       {/* Info box consejos */}
-      <div className="ruz-info-box">
+      <div className="ruzloj-info-box">
         <h3>Consejos para alojarse en Ruzafa</h3>
-        <ul className="ruz-info-list">
+        <ul className="ruzloj-info-list">
           <li>El <strong>Petit Palace Ruzafa</strong> presta bicicletas gratis — la mejor forma de recorrer el Jardín del Turia y llegar a la Ciudad de las Artes en 20 minutos</li>
           <li>El <strong>City Garden B&B</strong> es perfecto para viajeros tranquilos que buscan ambiente íntimo: solo 6 habitaciones y desayuno en terraza. Reserva con antelación, se llena rápido</li>
           <li>Los <strong>SingularStays</strong> son ideales para grupos o familias que quieren cocinar y vivir como un local: tienes el Mercat de Russafa a 5 minutos</li>

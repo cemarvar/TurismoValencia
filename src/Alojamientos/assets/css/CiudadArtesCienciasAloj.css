@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
 
-.cac-page {
+.cacaloj-page {
     font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
     color: #1a1a1a;
     margin-top: 70px;
 }
 
 /* ── Hero ── */
-.cac-hero {
+.cacaloj-hero {
     position: relative;
     height: 560px;
-    background-image: url('/img/img-alojamientos/CiudadArtesCiencias/hero.jpg');
+    background-image: url('/img/img-alojamientos/CiudadArtesCiencias/hero-cacaloj.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -20,13 +20,13 @@
     justify-content: flex-end;
 }
 
-.cac-hero-overlay {
+.cacaloj-hero-overlay {
     position: absolute;
     inset: 0;
     background: linear-gradient(to top, rgba(0,10,25,0.86) 0%, rgba(0,10,25,0.12) 60%, transparent 100%);
 }
 
-.cac-hero-content {
+.cacaloj-hero-content {
     position: relative;
     z-index: 2;
     padding: 0 48px 20px;
@@ -34,7 +34,7 @@
     max-width: 680px;
 }
 
-.cac-eyebrow {
+.cacaloj-eyebrow {
     font-size: 11px;
     font-weight: 600;
     letter-spacing: 0.14em;
@@ -43,7 +43,7 @@
     margin-bottom: 12px;
 }
 
-.cac-hero-content h1 {
+.cacaloj-hero-content h1 {
     font-size: 56px;
     font-weight: 700;
     line-height: 1.0;
@@ -51,7 +51,7 @@
     letter-spacing: -0.02em;
 }
 
-.cac-hero-content p {
+.cacaloj-hero-content p {
     font-size: 16px;
     font-weight: 300;
     line-height: 1.6;
@@ -60,7 +60,7 @@
 }
 
 /* Stats */
-.cac-hero-stats {
+.cacaloj-hero-stats {
     position: relative;
     z-index: 2;
     padding: 18px 48px 44px;
@@ -69,20 +69,20 @@
     gap: 28px;
 }
 
-.cac-stat {
+.cacaloj-stat {
     display: flex;
     flex-direction: column;
     color: #fff;
 }
 
-.cac-stat-num {
+.cacaloj-stat-num {
     font-size: 22px;
     font-weight: 700;
     line-height: 1;
     color: #60c8e8;
 }
 
-.cac-stat-label {
+.cacaloj-stat-label {
     font-size: 11px;
     font-weight: 300;
     letter-spacing: 0.06em;
@@ -91,14 +91,14 @@
     margin-top: 3px;
 }
 
-.cac-stat-sep {
+.cacaloj-stat-sep {
     width: 1px;
     height: 34px;
     background: rgba(255,255,255,0.25);
 }
 
 /* ── Intro box ── */
-.cac-intro-box {
+.cacaloj-intro-box {
     margin: 0 48px;
     background: #040e1e;
     padding: 28px 32px;
@@ -107,19 +107,14 @@
     align-items: flex-start;
 }
 
-.cac-intro-icono {
-    font-size: 32px;
-    flex-shrink: 0;
-}
-
-.cac-intro-titulo {
+.cacaloj-intro-titulo {
     font-size: 15px;
     font-weight: 700;
     color: #60c8e8;
     margin-bottom: 10px;
 }
 
-.cac-intro-content p {
+.cacaloj-intro-content p {
     font-size: 14px;
     font-weight: 300;
     color: rgba(255,255,255,0.85);
@@ -127,19 +122,19 @@
     margin: 0;
 }
 
-.cac-intro-content strong {
+.cacaloj-intro-content strong {
     font-weight: 600;
     color: #fff;
 }
 
 /* ── Intro ── */
-.cac-intro {
+.cacaloj-intro {
     max-width: 740px;
     margin: 52px auto;
     padding: 0 48px;
 }
 
-.cac-intro p {
+.cacaloj-intro p {
     font-size: 17px;
     font-weight: 300;
     line-height: 1.75;
@@ -147,18 +142,18 @@
     margin-bottom: 18px;
 }
 
-.cac-intro strong {
+.cacaloj-intro strong {
     font-weight: 600;
     color: #1a1a1a;
 }
 
 /* ── Section title ── */
-.cac-section-title {
+.cacaloj-section-title {
     padding: 0 48px 32px;
     border-bottom: 1px solid #e5e5e5;
 }
 
-.cac-section-title h2 {
+.cacaloj-section-title h2 {
     font-size: 22px;
     font-weight: 700;
     color: #1a1a1a;
@@ -166,18 +161,18 @@
     margin-bottom: 6px;
 }
 
-.cac-section-title p {
+.cacaloj-section-title p {
     font-size: 15px;
     font-weight: 300;
     color: #777;
 }
 
 /* ── Hoteles ── */
-.cac-routes {
+.cacaloj-routes {
     padding: 0 48px;
 }
 
-.cac-route-item {
+.cacaloj-route-item {
     display: grid;
     grid-template-columns: 56px 1fr 340px;
     border-bottom: 1px solid #e5e5e5;
@@ -185,7 +180,7 @@
     align-items: start;
 }
 
-.cac-route-num {
+.cacaloj-route-num {
     font-size: 13px;
     font-weight: 600;
     color: #bbb;
@@ -193,11 +188,11 @@
     padding-top: 4px;
 }
 
-.cac-route-text {
+.cacaloj-route-text {
     padding-right: 48px;
 }
 
-.cac-tipo {
+.cacaloj-tipo {
     font-size: 11px;
     font-weight: 600;
     letter-spacing: 0.1em;
@@ -206,7 +201,7 @@
     margin-bottom: 6px;
 }
 
-.cac-route-text h2 {
+.cacaloj-route-text h2 {
     font-size: 24px;
     font-weight: 700;
     color: #1a1a1a;
@@ -215,7 +210,7 @@
     line-height: 1.2;
 }
 
-.cac-subtitulo {
+.cacaloj-subtitulo {
     font-size: 13px;
     font-weight: 300;
     font-style: italic;
@@ -224,7 +219,7 @@
     line-height: 1.4;
 }
 
-.cac-desc {
+.cacaloj-desc {
     font-size: 15px;
     font-weight: 300;
     color: #444;
@@ -232,7 +227,7 @@
     margin-bottom: 20px;
 }
 
-.cac-datos-titulo {
+.cacaloj-datos-titulo {
     font-size: 11px;
     font-weight: 700;
     letter-spacing: 0.1em;
@@ -241,7 +236,7 @@
     margin-bottom: 10px;
 }
 
-.cac-datos {
+.cacaloj-datos {
     list-style: none;
     padding: 0;
     margin: 0 0 16px 0;
@@ -250,7 +245,7 @@
     gap: 8px;
 }
 
-.cac-datos li {
+.cacaloj-datos li {
     font-size: 14px;
     line-height: 1.5;
     padding-left: 14px;
@@ -258,23 +253,23 @@
     color: #444;
 }
 
-.cac-dato-label {
+.cacaloj-dato-label {
     font-weight: 600;
     color: #1a1a1a;
 }
 
-.cac-dato-val {
+.cacaloj-dato-val {
     font-weight: 300;
 }
 
 /* Tags */
-.cac-tags {
+.cacaloj-tags {
     display: flex;
     gap: 8px;
     flex-wrap: wrap;
 }
 
-.cac-tag {
+.cacaloj-tag {
     font-size: 11px;
     font-weight: 600;
     letter-spacing: 0.05em;
@@ -287,14 +282,16 @@
 }
 
 /* Imagen */
-.cac-route-img {
+.cacaloj-route-img {
     border-radius: 2px;
     overflow: hidden;
     height: 280px;
     top: 90px;
+    border: 1px solid #000;
+    box-shadow: 0 0 0 3px #000; 
 }
 
-.cac-route-img-inner {
+.cacaloj-route-img-inner {
     width: 100%;
     height: 100%;
     background-position: center;
@@ -303,20 +300,19 @@
     background-color: #040e1e;
 }
 
-/* Imágenes — rutas en /img/img-alojamientos/CiudadArtesCiencias/ */
-.img-reydonjaime { background-image: url('/img/img-alojamientos/CiudadArtesCiencias/reydonjaime.jpg'); }
-.img-primus      { background-image: url('/img/img-alojamientos/CiudadArtesCiencias/primus.jpg'); }
-.img-ilunion     { background-image: url('/img/img-alojamientos/CiudadArtesCiencias/ilunion.jpg'); }
-.img-barcelo     { background-image: url('/img/img-alojamientos/CiudadArtesCiencias/barcelo.jpg'); }
+/* Imágenes  */
+.img-reydonjaimealoj { background-image: url('/img/img-alojamientos/CiudadArtesCiencias/reydonjaimealoj.jpg'); }
+.img-primusaloj      { background-image: url('/img/img-alojamientos/CiudadArtesCiencias/primusaloj.jpg'); }
+.img-ilunionaloj     { background-image: url('/img/img-alojamientos/CiudadArtesCiencias/ilunionaloj.jpg'); }
+.img-barceloaloj     { background-image: url('/img/img-alojamientos/CiudadArtesCiencias/barceloaloj.jpg'); }
 
 /* ── Tabla información práctica ── */
-.cac-info-practica {
+.cacaloj-info-practica {
     margin: 52px 48px 0;
-    padding-top: 48px;
-    border-top: 1.5px solid #e5e5e5;
+    padding-top: 18px;
 }
 
-.cac-info-practica h3 {
+.cacaloj-info-practica h3 {
     font-size: 18px;
     font-weight: 700;
     color: #1a1a1a;
@@ -324,29 +320,29 @@
     margin-bottom: 20px;
 }
 
-.cac-tabla {
+.cacaloj-tabla {
     display: flex;
     flex-direction: column;
     border: 1.5px solid #e5e5e5;
     overflow: hidden;
 }
 
-.cac-tabla-fila {
+.cacaloj-tabla-fila {
     display: grid;
     grid-template-columns: 180px 1fr;
     border-bottom: 1px solid #e5e5e5;
     min-height: 44px;
 }
 
-.cac-tabla-fila:last-child {
+.cacaloj-tabla-fila:last-child {
     border-bottom: none;
 }
 
-.cac-tabla-fila:nth-child(even) {
+.cacaloj-tabla-fila:nth-child(even) {
     background: #edf8fd;
 }
 
-.cac-tabla-label {
+.cacaloj-tabla-label {
     padding: 12px 20px;
     font-size: 12px;
     font-weight: 700;
@@ -358,7 +354,7 @@
     align-items: center;
 }
 
-.cac-tabla-val {
+.cacaloj-tabla-val {
     padding: 12px 20px;
     font-size: 14px;
     font-weight: 300;
@@ -369,14 +365,14 @@
 }
 
 /* ── Info box ── */
-.cac-info-box {
+.cacaloj-info-box {
     margin: 32px 48px 60px;
     border: 1.5px solid #1870a0;
     padding: 32px 36px;
     background: #edf8fd;
 }
 
-.cac-info-box h3 {
+.cacaloj-info-box h3 {
     font-size: 16px;
     font-weight: 700;
     letter-spacing: 0.02em;
@@ -385,7 +381,7 @@
     color: #10567a;
 }
 
-.cac-info-list {
+.cacaloj-info-list {
     list-style: none;
     padding: 0;
     margin: 0;
@@ -394,7 +390,7 @@
     gap: 8px 32px;
 }
 
-.cac-info-list li {
+.cacaloj-info-list li {
     font-size: 14px;
     font-weight: 300;
     color: #444;
@@ -403,13 +399,12 @@
     line-height: 1.5;
 }
 
-.cac-info-list li strong {
+.cacaloj-info-list li strong {
     font-weight: 600;
     color: #1a1a1a;
 }
 
-.cac-info-list li::before {
-    content: '—';
+.cacaloj-info-list li::before {
     position: absolute;
     left: 0;
     color: #1870a0;
@@ -418,95 +413,95 @@
 
 /* ── RESPONSIVE ── */
 @media (max-width: 1100px) {
-    .cac-route-item {
+    .cacaloj-route-item {
         grid-template-columns: 40px 1fr 270px;
     }
 }
 
 @media (max-width: 768px) {
 
-    .cac-intro,
-    .cac-routes,
-    .cac-section-title,
-    .cac-intro-box,
-    .cac-info-practica,
-    .cac-info-box {
+    .cacaloj-intro,
+    .cacaloj-routes,
+    .cacaloj-section-title,
+    .cacaloj-intro-box,
+    .cacaloj-info-practica,
+    .cacaloj-info-box {
         padding-left: 20px;
         padding-right: 20px;
         margin-left: 0;
         margin-right: 0;
     }
 
-    .cac-hero-content {
+    .cacaloj-hero-content {
         padding: 0 20px 12px;
     }
 
-    .cac-hero-content h1 {
+    .cacaloj-hero-content h1 {
         font-size: 36px;
     }
 
-    .cac-hero-stats {
+    .cacaloj-hero-stats {
         padding: 12px 20px 36px;
         gap: 18px;
     }
 
-    .cac-stat-num {
+    .cacaloj-stat-num {
         font-size: 18px;
     }
 
-    .cac-intro-box {
+    .cacaloj-intro-box {
         flex-direction: column;
         gap: 14px;
     }
 
-    .cac-route-item {
+    .cacaloj-route-item {
         grid-template-columns: 1fr;
         gap: 24px;
     }
 
-    .cac-route-num {
+    .cacaloj-route-num {
         display: none;
     }
 
-    .cac-route-text {
+    .cacaloj-route-text {
         padding-right: 0;
     }
 
-    .cac-route-img {
+    .cacaloj-route-img {
         height: 220px;
         position: static;
     }
 
-    .cac-tabla-fila {
+    .cacaloj-tabla-fila {
         grid-template-columns: 140px 1fr;
     }
 
-    .cac-info-list {
+    .cacaloj-info-list {
         grid-template-columns: 1fr;
     }
 }
 
 @media (max-width: 480px) {
-    .cac-hero {
+    .cacaloj-hero {
         height: 480px;
     }
 
-    .cac-hero-content h1 {
+    .cacaloj-hero-content h1 {
         font-size: 30px;
     }
 
-    .cac-tabla-fila {
+    .cacaloj-tabla-fila {
         grid-template-columns: 1fr;
     }
 
-    .cac-tabla-label {
+    .cacaloj-tabla-label {
         border-right: none;
         border-bottom: 1px solid #e5e5e5;
         padding-bottom: 6px;
         padding-top: 14px;
     }
 
-    .cac-tabla-val {
+    .cacaloj-tabla-val {
         padding-top: 6px;
         padding-bottom: 14px;
     }

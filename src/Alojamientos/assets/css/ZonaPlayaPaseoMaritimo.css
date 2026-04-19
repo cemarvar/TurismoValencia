@@ -10,7 +10,7 @@
 .plm-hero {
     position: relative;
     height: 560px;
-    background-image: url('/img/img-alojamientos/ZonaPlayaPaseoMaritimo/hero.jpg');
+    background-image: url('/img/img-alojamientos/ZonaPlayaPaseoMaritimo/hero-zpm.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -105,11 +105,6 @@
     display: flex;
     gap: 24px;
     align-items: flex-start;
-}
-
-.plm-intro-icono {
-    font-size: 32px;
-    flex-shrink: 0;
 }
 
 .plm-intro-titulo {
@@ -291,8 +286,9 @@
     border-radius: 2px;
     overflow: hidden;
     height: 280px;
-    position: sticky;
     top: 90px;
+    border: 1px solid #000;
+    box-shadow: 0 0 0 3px #000; 
 }
 
 .plm-route-img-inner {
@@ -304,16 +300,15 @@
     background-color: #000d1e;
 }
 
-/* Imágenes — rutas en /img/img-alojamientos/ZonaPlayaPaseoMaritimo/ */
-.img-balandret  { background-image: url('/img/img-alojamientos/ZonaPlayaPaseoMaritimo/balandret.jpg'); }
-.img-lasarenas  { background-image: url('/img/img-alojamientos/ZonaPlayaPaseoMaritimo/lasarenas.jpg'); }
-.img-solplaya   { background-image: url('/img/img-alojamientos/ZonaPlayaPaseoMaritimo/solplaya.jpg'); }
+/* Imágenes */
+.img-balandretaloj  { background-image: url('/img/img-alojamientos/ZonaPlayaPaseoMaritimo/balandretaloj.jpg'); }
+.img-lasarenasaloj  { background-image: url('/img/img-alojamientos/ZonaPlayaPaseoMaritimo/lasarenasaloj.jpg'); }
+.img-solplayaaloj   { background-image: url('/img/img-alojamientos/ZonaPlayaPaseoMaritimo/solplayaaloj.jpg'); }
 
 /* ── Tabla información práctica ── */
 .plm-info-practica {
     margin: 52px 48px 0;
-    padding-top: 48px;
-    border-top: 1.5px solid #e5e5e5;
+    padding-top: 18px;
 }
 
 .plm-info-practica h3 {
@@ -409,7 +404,6 @@
 }
 
 .plm-info-list li::before {
-    content: '—';
     position: absolute;
     left: 0;
     color: #0a6090;

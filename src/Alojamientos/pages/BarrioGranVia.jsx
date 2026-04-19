@@ -14,7 +14,7 @@ var hoteles = [
       { d: 'Servicios', v: 'Desayuno incluido (reserva directa) · Jardín interior · Bicicletas y patinetes · Info turística' },
       { d: 'Ubicación', v: 'C/ Taquígrafo Martí, 10 · 5 min a pie Estación del Nord · 10 min Plaza Ayuntamiento · Metro Colón' },
     ],
-    imgClass: 'img-abcyou',
+    imgClass: 'img-abcyoubgv',
     tags: [{ label: 'Edificio 1920' }, { label: 'Jardín interior' }, { label: 'Desayuno incluido' }],
   },
   {
@@ -29,7 +29,7 @@ var hoteles = [
       { d: 'Instalaciones', v: 'Rest. Salon Turia (desayuno buffet 7–10:30h) · Bar · Spa + masajes · Gimnasio · Sala eventos' },
       { d: 'Ubicación', v: 'Gran Vía Marqués del Turia, 80 · Junto al Jardín del Turia · 600 m metro Colón · 1,5 km CAC' },
     ],
-    imgClass: 'img-dimar',
+    imgClass: 'img-dimarbgv',
     tags: [{ label: '4 Estrellas' }, { label: '50 años en la Gran Vía' }, { label: 'Terraza a la Gran Vía' }],
   },
 ];
@@ -77,7 +77,6 @@ export default function BarrioGranVia() {
 
       {/* Intro box */}
       <div className="grv-intro-box">
-        <div className="grv-intro-icono">🌳</div>
         <div className="grv-intro-content">
           <div className="grv-intro-titulo">L'Eixample · El barrio de las grandes avenidas</div>
           <p>El barrio de la Gran Vía —conocido como L'Eixample o Ensanche— es la Valencia elegante y burguesa del siglo XX. Sus <strong>amplias avenidas flanqueadas por edificios modernistas y eclécticos</strong> contrastan con la ciudad histórica y ofrecen una experiencia de barrio tranquilo y señorial. La <strong>Gran Vía Marqués del Turia</strong> es el eje principal: un paseo bordeado de tiendas de diseño, restaurantes de nivel y terrazas que une la Plaza de Cánovas con el Jardín del Turia. Este barrio es también el punto de conexión perfecto entre el <strong>centro histórico</strong> (a 10–15 min a pie), el <strong>barrio de Ruzafa</strong> (a 5 min) y la <strong>Ciudad de las Artes y las Ciencias</strong> (a 1,5 km en bici por el Jardín del Turia).</p>

@@ -1,7 +1,7 @@
 import '../assets/css/BaratoExclusivo.css';
 import Footer from '../../Pagina_Inicio/FOOTER/Footer';
 
-/* ─── EXCLUSIVOS ─── */
+/* ─── Excluisivos ─── */
 var exclusivos = [
   {
     num: '01',
@@ -15,8 +15,8 @@ var exclusivos = [
       { d: 'Instalaciones', v: 'Spa · 2 piscinas ext. · Piscina cubierta · Rest. Brasserie Sorolla · Pádel · Club niños' },
       { d: 'Precio orientativo', v: '~200–380 €/noche · Playa de las Arenas · Metro + bus en puerta · CAC a 5 min en coche' },
     ],
-    imgClass: 'img-ex-lasarenas',
-    tags: [{ label: '5★ Gran Lujo' }, { label: 'El más lujoso' }, { label: 'Balneario 1898' }],
+    imgClass: 'img-ex-lasarenasbealoj',
+    tags: [{ label: '5 Estrellas Gran Lujo' }, { label: 'El más lujoso' }, { label: 'Balneario 1898' }],
   },
   {
     num: '02',
@@ -30,12 +30,12 @@ var exclusivos = [
       { d: 'Instalaciones', v: 'Spa 850 m² · Piscina cubierta · Sauna · Hammam · Gym · Rest. Rosmarino · Jardín tropical · Parking' },
       { d: 'Precio orientativo', v: '~200–400 €/noche · Amadeo de Saboya, 16 · 5 min metro Aragón · Junto al Jardín del Turia' },
     ],
-    imgClass: 'img-ex-westin',
-    tags: [{ label: '5★ Marriott Bonvoy' }, { label: 'Heavenly Bed®' }, { label: 'Edificio modernista' }],
+    imgClass: 'img-ex-westinbealoj',
+    tags: [{ label: '5 Estrellas Marriott Bonvoy' }, { label: 'Heavenly Bed®' }, { label: 'Edificio modernista' }],
   },
 ];
 
-/* ─── ECONÓMICOS ─── */
+/* ─── Economicos ─── */
 var baratos = [
   {
     num: '01',
@@ -49,7 +49,7 @@ var baratos = [
       { d: 'Servicios', v: 'Bar-cafetería 24h · Desayuno buffet · Parking de pago · Recepción 24h · Accesible' },
       { d: 'Precio orientativo', v: '~30–55 €/noche · Metro Rosas enfrente · 20 min al centro · Aeropuerto a pie' },
     ],
-    imgClass: 'img-bar-travelodge',
+    imgClass: 'img-bar-travelodgebealoj',
     tags: [{ label: 'Aeropuerto' }, { label: 'Más barato' }, { label: 'Metro en puerta' }],
   },
   {
@@ -64,7 +64,7 @@ var baratos = [
       { d: 'Servicios', v: 'WiFi · Bicicletas · Desayuno con descuento en cafetería vecina · Recepción 24h · Pet friendly' },
       { d: 'Precio orientativo', v: '~60–110 €/noche · C/ Samaniego, 20 · 5 min a pie Catedral · Junto al Jardín del Turia' },
     ],
-    imgClass: 'img-bar-adhoc',
+    imgClass: 'img-bar-adhocbealoj',
     tags: [{ label: 'Edificio s. XV' }, { label: 'Casco histórico' }, { label: 'Dúplex familiares' }],
   },
   {
@@ -79,7 +79,7 @@ var baratos = [
       { d: 'Servicios', v: 'Recepción · Desayuno disponible · Fácil acceso a transporte público · Zona de ocio cercana' },
       { d: 'Precio orientativo', v: '~60–100 €/noche · Bus y metro cercanos · CAC a pocos minutos · Playa a 20 min' },
     ],
-    imgClass: 'img-bar-villacarlos',
+    imgClass: 'img-bar-villacarlosbealoj',
     tags: [{ label: 'Zona CAC' }, { label: 'Familiar' }, { label: 'Calidad-precio' }],
   },
   {
@@ -94,7 +94,7 @@ var baratos = [
       { d: 'Servicios', v: 'Desayuno buffet · Sala TV · Recepción 24h · Consigna · 5 min metro Xàtiva' },
       { d: 'Precio orientativo', v: '~55–90 €/noche · Plaza del Ayuntamiento, 3 · 10 min a pie Catedral · 4 min tren' },
     ],
-    imgClass: 'img-bar-venecia',
+    imgClass: 'img-bar-veneciabealoj',
     tags: [{ label: 'Más céntrico' }, { label: 'Vista Plaza' }, { label: 'Calidad-precio' }],
   },
 ];
@@ -102,42 +102,33 @@ var baratos = [
 export default function BaratoExclusivo() {
   return (
     <div className="bex-page">
-
-      {/* ══════════════════════════════════════════
-          SECCIÓN 1 — EXCLUSIVOS
-      ══════════════════════════════════════════ */}
-      <div className="bex-hero bex-hero--exclusivo">
-        <div className="bex-hero-overlay" />
+      {/* Hero */}
+      <div className="bex-hero bex-hero--main">
+        <div className="bex-hero-overlay bex-hero-overlay--main" />
         <div className="bex-hero-content">
-          <div className="bex-eyebrow bex-eyebrow--exclusivo">Alojamientos Exclusivos · Los Mejores de Valencia</div>
-          <h1>Lo mejor<br />de Valencia</h1>
-          <p>Los dos hoteles más lujosos de la ciudad: el gran balneario histórico frente al mar y el palacio modernista con el mejor spa del centro.</p>
+          <div className="bex-eyebrow bex-eyebrow--main">Alojamientos · Valencia</div>
+          <h1>Dónde dormir<br />en Valencia</h1>
+          <p>Desde el lujo histórico frente al mar hasta las mejores opciones con precio ajustado. Hoteles exclusivos y económicos, todos bien ubicados.</p>
         </div>
         <div className="bex-hero-stats">
           <div className="bex-stat">
-            <span className="bex-stat-num bex-stat-num--exclusivo">5★ GL</span>
+            <span className="bex-stat-num bex-stat-num--main">6</span>
+            <span className="bex-stat-label">Hoteles seleccionados</span>
+          </div>
+          <div className="bex-stat-sep" />
+          <div className="bex-stat">
+            <span className="bex-stat-num bex-stat-num--main">Desde 30€</span>
+            <span className="bex-stat-label">Por noche</span>
+          </div>
+          <div className="bex-stat-sep" />
+          <div className="bex-stat">
+            <span className="bex-stat-num bex-stat-num--main">5 Estrellas GL</span>
             <span className="bex-stat-label">Categoría máxima</span>
-          </div>
-          <div className="bex-stat-sep" />
-          <div className="bex-stat">
-            <span className="bex-stat-num bex-stat-num--exclusivo">Desde 1898</span>
-            <span className="bex-stat-label">Historia hotelera</span>
-          </div>
-          <div className="bex-stat-sep" />
-          <div className="bex-stat">
-            <span className="bex-stat-num bex-stat-num--exclusivo">Spa</span>
-            <span className="bex-stat-label">En ambos hoteles</span>
           </div>
         </div>
       </div>
 
-      <div className="bex-section-intro bex-section-intro--exclusivo">
-        <div className="bex-intro-icono">✨</div>
-        <div className="bex-intro-content">
-          <div className="bex-intro-titulo bex-intro-titulo--exclusivo">El lujo de Valencia · Dos iconos únicos</div>
-          <p>Valencia tiene dos hoteles que están en una categoría aparte: el <strong>Las Arenas Balneario Resort</strong>, un balneario histórico de primera línea de playa reformado como resort 5 estrellas Gran Lujo, y <strong>The Westin Valencia</strong>, un palacio modernista en el corazón de la ciudad con uno de los spas más completos de España. Ambos ofrecen una experiencia que va mucho más allá del alojamiento.</p>
-        </div>
-      </div>
+      {/* Exclusivos */}
 
       <div className="bex-section-label bex-section-label--exclusivo">
         <span>Alojamientos exclusivos</span>
@@ -174,44 +165,9 @@ export default function BaratoExclusivo() {
         ))}
       </div>
 
-      {/* Divisor */}
-      <div className="bex-divisor" />
 
-      {/* ══════════════════════════════════════════
-          SECCIÓN 2 — ECONÓMICOS
-      ══════════════════════════════════════════ */}
-      <div className="bex-hero bex-hero--barato">
-        <div className="bex-hero-overlay bex-hero-overlay--barato" />
-        <div className="bex-hero-content">
-          <div className="bex-eyebrow bex-eyebrow--barato">Alojamiento Económico · Buen precio en Valencia</div>
-          <h1>Valencia<br />sin gastar<br />de más</h1>
-          <p>Cuatro opciones económicas seleccionadas: desde el hostal en la mismísima plaza principal hasta el hotel junto al aeropuerto y el edificio del siglo XV en el casco histórico.</p>
-        </div>
-        <div className="bex-hero-stats">
-          <div className="bex-stat">
-            <span className="bex-stat-num bex-stat-num--barato">Desde 30€</span>
-            <span className="bex-stat-label">Por noche</span>
-          </div>
-          <div className="bex-stat-sep" />
-          <div className="bex-stat">
-            <span className="bex-stat-num bex-stat-num--barato">4</span>
-            <span className="bex-stat-label">Opciones</span>
-          </div>
-          <div className="bex-stat-sep" />
-          <div className="bex-stat">
-            <span className="bex-stat-num bex-stat-num--barato">Céntricos</span>
-            <span className="bex-stat-label">Todos bien ubicados</span>
-          </div>
-        </div>
-      </div>
+      {/* Economicos */}
 
-      <div className="bex-section-intro bex-section-intro--barato">
-        <div className="bex-intro-icono">💶</div>
-        <div className="bex-intro-content">
-          <div className="bex-intro-titulo bex-intro-titulo--barato">Buen precio · Sin renunciar a la ubicación</div>
-          <p>Valencia tiene muy buenas opciones económicas en ubicaciones privilegiadas. Desde el hostal en la <strong>Plaza del Ayuntamiento</strong> hasta el hotel en un <strong>edificio del siglo XV</strong> en el Barrio del Carmen, pasando por la opción ideal para el <strong>aeropuerto</strong> y un hotel junto a la <strong>Ciudad de las Artes y las Ciencias</strong>. En todos los casos, la ciudad es perfectamente accesible a pie o en transporte público.</p>
-        </div>
-      </div>
 
       <div className="bex-section-label bex-section-label--barato">
         <span>Alojamiento económico</span>

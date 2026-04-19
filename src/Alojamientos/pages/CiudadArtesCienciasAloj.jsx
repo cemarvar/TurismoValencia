@@ -14,7 +14,7 @@ var hoteles = [
       { d: 'Eventos', v: '10 salones equipados · Hasta 250 personas · Ideal para congresos y convenciones' },
       { d: 'Ubicación', v: 'Frente al Jardín del Turia y Palau de la Música · Bus L19 en la puerta · 1 km de la CAC' },
     ],
-    imgClass: 'img-reydonjaime',
+    imgClass: 'img-reydonjaimealoj',
     tags: [{ label: '4 Estrellas' }, { label: 'Torre 14 plantas' }, { label: 'Piscina azotea' }],
   },
   {
@@ -29,13 +29,13 @@ var hoteles = [
       { d: 'Instalaciones', v: 'Jardín 2.000 m² · Piscina exterior · Terraza 200 m² · Rest. Menorca XXII · 8 salas eventos' },
       { d: 'Ubicación', v: 'Calle Menorca, 22 · 600 m de la CAC · Frente al CC Aqua · Bus a 75 m · Metro Ayora cerca' },
     ],
-    imgClass: 'img-primus',
-    tags: [{ label: '4★ Superior' }, { label: 'Spa 800 m²' }, { label: 'Diseño firma' }],
+    imgClass: 'img-primusaloj',
+    tags: [{ label: '4 Estrellas Superior' }, { label: 'Spa 800 m²' }, { label: 'Diseño firma' }],
   },
   {
     num: '03',
     nombre: 'ILUNION Aqua 3 · ILUNION Aqua 4',
-    tipo: 'Dúo de hoteles 3★ y 4★ · Centro Comercial Aqua Multiespacio',
+    tipo: 'Dúo de hoteles 3 Estrellas y 4 Estrellas · Centro Comercial Aqua Multiespacio',
     subtitulo: 'A 300 m del Oceanogràfic · Accesible y pet friendly · Restaurante compartido · Parking · Spa y cines en el mismo edificio',
     desc: 'Los hoteles ILUNION Aqua 3 y Aqua 4 son una propuesta única en Valencia: dos establecimientos hermanos —de 3 y 4 estrellas respectivamente— integrados en el centro comercial Aqua Multiespacio, a solo 300 metros del Oceanogràfic y de la Ciudad de las Artes y las Ciencias. El Aqua 3 ofrece 135 habitaciones dobles estándar modernas y funcionales, mientras el Aqua 4 tiene 163 habitaciones dobles con vistas al Oceanogràfic, 8 suites de 40 m² y habitaciones familiares triples, siendo especialmente recomendado para familias (niños menores de 8 años gratis). Ambos comparten restaurante —el Aqua 3 con menú de mercado; el Aqua 4 con el innovador concepto gastronómico Umániko—, y acceso directo al spa, gimnasio, multicine y tiendas del centro comercial. Toda la cadena ILUNION destaca por su accesibilidad universal y su política pet friendly.',
     datos: [
@@ -44,8 +44,8 @@ var hoteles = [
       { d: 'Destacado', v: 'Accesibilidad total · Pet friendly · Aqua 4: niños <8 años gratis · Suites familiares' },
       { d: 'Ubicación', v: '300 m del Oceanogràfic · CC Aqua Multiespacio · Metro + bus + tranvía en la puerta · V-15' },
     ],
-    imgClass: 'img-ilunion',
-    tags: [{ label: '3★ y 4★' }, { label: 'Pet friendly' }, { label: 'Accesible' }],
+    imgClass: 'img-ilunionaloj',
+    tags: [{ label: '3 Estrellas y 4 Estrellas' }, { label: 'Pet friendly' }, { label: 'Accesible' }],
   },
   {
     num: '04',
@@ -59,7 +59,7 @@ var hoteles = [
       { d: 'Instalaciones', v: 'Terraza planta 10 + piscina · Rest. Senyoret · Bar El Gotet · Gimnasio · Parking' },
       { d: 'Ubicación', v: 'Av. de França, 11 · Frente al Palau de les Arts · Bus L19 en puerta · 5 min playa' },
     ],
-    imgClass: 'img-barcelo',
+    imgClass: 'img-barceloaloj',
     tags: [{ label: '4 Estrellas' }, { label: 'Vistas Calatrava' }, { label: 'Terraza piscina' }],
   },
 ];
@@ -80,105 +80,104 @@ export default function CiudadArtesCienciasAloj() {
     <div className="cac-page">
 
       {/* Hero */}
-      <div className="cac-hero">
-        <div className="cac-hero-overlay" />
-        <div className="cac-hero-content">
-          <div className="cac-eyebrow">Alojamientos · Ciudad de las Artes y las Ciencias · Av. de França</div>
+      <div className="cacaloj-hero">
+        <div className="cacaloj-hero-overlay" />
+        <div className="cacaloj-hero-content">
+          <div className="cacaloj-eyebrow">Alojamientos · Ciudad de las Artes y las Ciencias · Av. de França</div>
           <h1>Dormir junto<br />a la Ciudad<br />de Calatrava</h1>
           <p>Cuatro hoteles frente a la obra arquitectónica más icónica de Valencia: el Oceanogràfic, el Palau de les Arts y el Museu de les Ciències a tu puerta.</p>
         </div>
-        <div className="cac-hero-stats">
-          <div className="cac-stat">
-            <span className="cac-stat-num">4</span>
-            <span className="cac-stat-label">Alojamientos</span>
+        <div className="cacaloj-hero-stats">
+          <div className="cacaloj-stat">
+            <span className="cacaloj-stat-num">4</span>
+            <span className="cacaloj-stat-label">Alojamientos</span>
           </div>
-          <div className="cac-stat-sep" />
-          <div className="cac-stat">
-            <span className="cac-stat-num">3★ – 4★</span>
+          <div className="cacaloj-stat-sep" />
+          <div className="cacaloj-stat">
+            <span className="cacaloj-stat-num">3 – 4</span>
             <span className="cac-stat-label">Todas las categorías</span>
           </div>
-          <div className="cac-stat-sep" />
-          <div className="cac-stat">
-            <span className="cac-stat-num">300 m</span>
-            <span className="cac-stat-label">Al Oceanogràfic</span>
+          <div className="cacaloj-stat-sep" />
+          <div className="cacaloj-stat">
+            <span className="cacaloj-stat-num">300 m</span>
+            <span className="cacaloj-stat-label">Al Oceanogràfic</span>
           </div>
         </div>
       </div>
 
       {/* Intro box */}
-      <div className="cac-intro-box">
-        <div className="cac-intro-icono">🏛️</div>
-        <div className="cac-intro-content">
-          <div className="cac-intro-titulo">La Valencia más moderna · Calatrava y Candela</div>
+      <div className="cacaloj-intro-box">
+        <div className="cacaloj-intro-content">
+          <div className="cacaloj-intro-titulo">La Valencia más moderna · Calatrava y Candela</div>
           <p>La Ciudad de las Artes y las Ciencias es el gran símbolo de la Valencia contemporánea. Diseñada por <strong>Santiago Calatrava</strong> y <strong>Félix Candela</strong>, este complejo futurista concentra en 350.000 m² algunos de los edificios más fotografiados del mundo: el <strong>L'Oceanogràfic</strong> (el acuario más grande de Europa, con el túnel submarino más largo del continente), el <strong>L'Hemisfèric</strong> con su cine IMAX, el <strong>Museu de les Ciències Príncep Felip</strong> y el imponente <strong>Palau de les Arts Reina Sofía</strong>. Alojarse aquí es vivir en primera fila el espectáculo arquitectónico. El <strong>Jardín del Turia</strong> —9 km de parque urbano en el antiguo cauce del río— conecta toda esta zona con el centro histórico a pie o en bicicleta.</p>
         </div>
       </div>
 
       {/* Intro */}
-      <div className="cac-intro">
+      <div className="cacaloj-intro">
         <p>Los hoteles de la zona de la Ciudad de las Artes y las Ciencias cubren todos los perfiles: desde el <strong>hotel de diseño con spa premium</strong> y jardín privado hasta el <strong>dúo de hoteles integrado en un centro comercial</strong> con acceso directo al Oceanogràfic, pasando por una torre clásica frente al Turia y el establecimiento con las mejores vistas directas al skyline de Calatrava.</p>
         <p>La <strong>línea de autobús 19</strong>, con parada frente a todos los hoteles, conecta en 10 minutos con el centro histórico y la Playa de la Malvarrosa. La zona dispone de amplia oferta de parking y conexión en metro, bus y tranvía.</p>
       </div>
 
       {/* Section title */}
-      <div className="cac-section-title">
+      <div className="cacaloj-section-title">
         <h2>Los alojamientos de la Ciudad de las Artes y las Ciencias</h2>
         <p>Cuatro opciones seleccionadas para distintos presupuestos, a pie del complejo de Calatrava.</p>
       </div>
 
       {/* Hoteles */}
-      <div className="cac-routes">
+      <div className="cacaloj-routes">
         {hoteles.map(hotel => (
-          <div className="cac-route-item" key={hotel.num}>
+          <div className="cacaloj-route-item" key={hotel.num}>
             <div className="cac-route-num">{hotel.num}</div>
 
-            <div className="cac-route-text">
-              <div className="cac-tipo">{hotel.tipo}</div>
+            <div className="cacaloj-route-text">
+              <div className="cacaloj-tipo">{hotel.tipo}</div>
               <h2>{hotel.nombre}</h2>
-              <div className="cac-subtitulo">{hotel.subtitulo}</div>
-              <p className="cac-desc">{hotel.desc}</p>
+              <div className="cacaloj-subtitulo">{hotel.subtitulo}</div>
+              <p className="cacaloj-desc">{hotel.desc}</p>
 
-              <div className="cac-datos-titulo">Datos clave</div>
-              <ul className="cac-datos">
+              <div className="cacaloj-datos-titulo">Datos clave</div>
+              <ul className="cacaloj-datos">
                 {hotel.datos.map(d => (
                   <li key={d.d}>
-                    <span className="cac-dato-label">{d.d}:</span>
-                    <span className="cac-dato-val"> {d.v}</span>
+                    <span className="cacaloj-dato-label">{d.d}:</span>
+                    <span className="cacaloj-dato-val"> {d.v}</span>
                   </li>
                 ))}
               </ul>
 
-              <div className="cac-tags">
+              <div className="cacaloj-tags">
                 {hotel.tags.map(t => (
-                  <span key={t.label} className="cac-tag">{t.label}</span>
+                  <span key={t.label} className="cacaloj-tag">{t.label}</span>
                 ))}
               </div>
             </div>
 
-            <div className="cac-route-img">
-              <div className={`cac-route-img-inner ${hotel.imgClass}`} />
+            <div className="cacaloj-route-img">
+              <div className={`cacaloj-route-img-inner ${hotel.imgClass}`} />
             </div>
           </div>
         ))}
       </div>
 
       {/* Tabla datos del barrio */}
-      <div className="cac-info-practica">
+      <div className="cacaloj-info-practica">
         <h3>Información práctica · Alojarse en la Ciudad de las Artes y las Ciencias</h3>
-        <div className="cac-tabla">
+        <div className="cacaloj-tabla">
           {datosBarrio.map(d => (
-            <div className="cac-tabla-fila" key={d.label}>
-              <div className="cac-tabla-label">{d.label}</div>
-              <div className="cac-tabla-val">{d.val}</div>
+            <div className="cacaloj-tabla-fila" key={d.label}>
+              <div className="cacaloj-tabla-label">{d.label}</div>
+              <div className="cacaloj-tabla-val">{d.val}</div>
             </div>
           ))}
         </div>
       </div>
 
       {/* Info box consejos */}
-      <div className="cac-info-box">
+      <div className="cacaloj-info-box">
         <h3>Consejos para alojarse en la Ciudad de las Artes y las Ciencias</h3>
-        <ul className="cac-info-list">
+        <ul className="cacaloj-info-list">
           <li>Para las <strong>mejores vistas a la CAC</strong>: pide habitación con vistas en el Barceló Valencia — la vista al Palau de les Arts desde la habitación es espectacular</li>
           <li>El <strong>Primus Valencia</strong> tiene el mejor spa de la zona (800 m²): 18 €/persona, mucho más barato si eres huésped del hotel</li>
           <li>Los <strong>ILUNION Aqua 3 y 4</strong> son ideales para familias con niños — acceso directo al Oceanogràfic y niños menores de 8 años gratis en el Aqua 4</li>

@@ -10,7 +10,7 @@
 .cen-hero {
     position: relative;
     height: 560px;
-    background-image: url('/img/img-alojamientos/Centro/hero.jpg');
+    background-image: url('/img/img-alojamientos/Centro/hero-centrocto.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -105,11 +105,6 @@
     display: flex;
     gap: 24px;
     align-items: flex-start;
-}
-
-.cen-intro-icono {
-    font-size: 32px;
-    flex-shrink: 0;
 }
 
 .cen-intro-titulo {
@@ -291,8 +286,9 @@
     border-radius: 2px;
     overflow: hidden;
     height: 280px;
-    position: sticky;
     top: 90px;
+    border: 1px solid #000;
+    box-shadow: 0 0 0 3px #000; 
 }
 
 .cen-route-img-inner {
@@ -304,17 +300,16 @@
     background-color: #1a1208;
 }
 
-/* Imágenes — rutas en /img/img-alojamientos/Centro/ */
-.img-melia     { background-image: url('/img/img-alojamientos/Centro/melia.jpg'); }
-.img-cabillers { background-image: url('/img/img-alojamientos/Centro/cabillers.jpg'); }
-.img-venecia   { background-image: url('/img/img-alojamientos/Centro/venecia.jpg'); }
-.img-sorolla   { background-image: url('/img/img-alojamientos/Centro/sorolla.jpg'); }
+/* Imágenes */
+.img-meliacto     { background-image: url('/img/img-alojamientos/Centro/meliacto.jpg'); }
+.img-cabillerscto { background-image: url('/img/img-alojamientos/Centro/cabillerscto.jpg'); }
+.img-veneciacto   { background-image: url('/img/img-alojamientos/Centro/veneciacto.jpg'); }
+.img-sorollacto   { background-image: url('/img/img-alojamientos/Centro/sorollacto.jpg'); }
 
 /* ── Tabla información práctica ── */
 .cen-info-practica {
     margin: 52px 48px 0;
-    padding-top: 48px;
-    border-top: 1.5px solid #e5e5e5;
+    padding-top: 18px;
 }
 
 .cen-info-practica h3 {
@@ -410,7 +405,6 @@
 }
 
 .cen-info-list li::before {
-    content: '—';
     position: absolute;
     left: 0;
     color: #8a6a20;
