@@ -4,7 +4,7 @@ import Culinaria from '../CULINARIA/Culinaria';
 export default function GridCulinaria() {
     var elementos = [
         { imagen: "/img/img-gastronomia/paella.jpg",            titulo: "Paella Valenciana",        ruta: "/Paella" },
-        { imagen: "/img/img-gastronomia/fideua.jpeg",           titulo: "Fideua",                   ruta: "/Fideua"},
+        { imagen: "/img/img-gastronomia/fideua.jpeg",           titulo: "Fideuà",                   ruta: "/Fideua"},
         { imagen: "/img/img-gastronomia/arroz-al-horno.jpg",    titulo: "Arroz al horno",           ruta: "/ArrozHorno" },
         { imagen: "/img/img-gastronomia/esgarraet.jpg",         titulo: "Esgarraet",                ruta: "/Esgarraet" },
         { imagen: "/img/img-gastronomia/Arroz-negro.jpg",       titulo: "Arroz Negro",              ruta: "/ArrozNegro" },

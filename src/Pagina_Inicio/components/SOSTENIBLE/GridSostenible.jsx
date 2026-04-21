@@ -4,7 +4,7 @@ import Sostenible from "../SOSTENIBLE/Sostenible";
 export default function GridSostenible() 
 {
     var elementos = [
-        { imagen: "/img/img-sostenible/muevete.jpg",            titulo: "Muevete por valencia ",        ruta: "/MueveteValencia"},
+        { imagen: "/img/img-sostenible/muevete.jpg",            titulo: "Muévete por valencia ",        ruta: "/MueveteValencia"},
         { imagen: "/img/img-sostenible/ecoturismo.jpg",         titulo: "Practica el ecoturismo",       ruta: "/Ecoturismo"},
         { imagen: "/img/img-sostenible/comercio_local.jpg",     titulo: "Compra en comercio local",     ruta: "/ComercioLocal"},
         { imagen: "/img/img-sostenible/consejos.jpg",           titulo: "Consejos para ir a tu aire",   ruta: "/Consejos" },

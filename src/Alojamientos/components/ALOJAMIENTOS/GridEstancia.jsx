@@ -8,7 +8,7 @@ export default function GridEstancia() {
         { imagen: "/img/img-alojamientos/ruzafa.jpg",           titulo: "Barrio Ruzafa",                            ruta: "/BarrioRuzada" },
         { imagen: "/img/img-alojamientos/gran-via.jpg",         titulo: "Barrio Gran Vía",                          ruta: "/BarrioGranVia" },
         { imagen: "/img/img-alojamientos/arenas.jpg",           titulo: "Zona de playa y Paseo Marítimo",           ruta: "/ZonaPlayaPaseoMaritimo" },
-        { imagen: "/img/img-alojamientos/alojamiento.jpg",      titulo: "Alojamiento Barato y Exclusivos",          ruta: "/BaratoExclusivo" }
+        { imagen: "/img/img-alojamientos/alojamiento.jpg",      titulo: "Alojamiento Barato y Exclusivo",          ruta: "/BaratoExclusivo" }
     ];
 
     return (

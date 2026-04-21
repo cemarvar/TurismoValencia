@@ -110,7 +110,7 @@ export default function Ruzafa() {
     <div className="ruz-page">
 
       {/* Hero */}
-      <div className="ruzrz-hero">
+      <div className="ruz-hero">
         <div className="ruz-hero-overlay" />
         <div className="ruz-hero-content">
           <div className="ruz-eyebrow">Distrito del Ensanche · Del árabe Ruṣāfa, "jardín" · Barrio del Ensanche</div>

@@ -16,7 +16,7 @@ export default function GridEspacios() {
         { imagen: "/img/img-espacios/ruzafa.jpg",           titulo: "Ruzafa",                               ruta: "/Ruzafa"  },
         { imagen: "/img/img-espacios/playas.jpg",           titulo: "Playas",                               ruta: "/Playes"  },
         { imagen: "/img/img-espacios/albufera.jpg",         titulo: "Albufera",                             ruta: "/Albufera"  },
-        { imagen: "/img/img-espacios/iglesia_nicolas.png",  titulo: "Iglesia de san Nicolas",               ruta: "/IglesiaSanNicolas"  },
+        { imagen: "/img/img-espacios/iglesia_nicolas.png",  titulo: "Iglesia de San Nicolás",               ruta: "/IglesiaSanNicolas"  },
         { imagen: "/img/img-espacios/mestalla.jpg",         titulo: "Mestalla",                             ruta: "/Mestalla"  }
     ];
 

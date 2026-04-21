@@ -4,10 +4,17 @@
 
 [functions]
   directory = "netlify/functions"
-  node_bundler = "esbuild"
+  node_bundler = "nft"
 
+# API → Netlify Function (debe ir antes del catch-all)
 [[redirects]]
   from = "/api/Conexion.php"
   to = "/.netlify/functions/api"
   status = 200
   force = true
+
+# React Router: cualquier ruta desconocida sirve el index.html
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

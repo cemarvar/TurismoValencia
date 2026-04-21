@@ -133,14 +133,6 @@ export default function CatedralCaliz() {
         <p>Desde el <strong>30 de octubre de 2025</strong> hasta el 29 de octubre de 2026, la Catedral de Valencia celebra el <strong>Tercer Año Jubilar del Santo Cáliz</strong>, con la posibilidad de obtener indulgencia plenaria para los peregrinos que cumplan las condiciones establecidas.</p>
       </div>
 
-      {/* Cómo acceder — destacado */}
-      <div className="cc-acceso-box">
-        <div className="cc-acceso-content">
-          <div className="cc-acceso-titulo">Cómo llegar a la Capilla del Santo Cáliz</div>
-          <p>Entra por la <strong>Puerta de los Hierros</strong> (la fachada barroca que da a la Plaza de la Reina), compra tu entrada en la taquilla y dirígete a la <strong>primera capilla a la derecha</strong>. Un pasadizo gótico con sepulcros medievales y el fresco de la Adoración de los Pastores (1472, Paolo de San Leocadio) te conduce hasta la portalada gótica de piedra que da acceso a la capilla.</p>
-        </div>
-      </div>
-
       {/* Elementos de la capilla */}
       <div className="cc-section-title">
         <h2>Qué ver en la Capilla del Santo Cáliz</h2>

@@ -4,7 +4,7 @@ import Planes from '../PLANES/Planes';
 export default function GridPlanes() 
 {
     var elementos = [
-        { imagen: "/img/img-planes/espectaculo.jpg",    titulo: "Espectaculo",           ruta: "/Espectaculo"},
+        { imagen: "/img/img-planes/espectaculo.jpg",    titulo: "Espectáculo",           ruta: "/Espectaculo"},
         { imagen: "/img/img-planes/familia.jpg",        titulo: "En familia" ,           ruta: "/Familia"},
         { imagen: "/img/img-planes/naturaleza.jpg",     titulo: "Naturaleza" ,           ruta: "/Naturaleza"},
         { imagen: "/img/img-planes/tradicionales.jpg",  titulo: "Fiestas Tradicionales", ruta: "/FiestasTradicionales"},
