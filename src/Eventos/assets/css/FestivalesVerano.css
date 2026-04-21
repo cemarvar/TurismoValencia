@@ -121,7 +121,7 @@
 /* ── Section title ── */
 .fv-section-title {
     padding: 0 48px 32px;
-    border-bottom: 2px solid #7c3aed;
+    border-bottom: 1px solid #e5e5e5;
 }
 
 .fv-section-title h2 {
@@ -189,7 +189,7 @@
     font-size: 11px;
     font-weight: 600;
     letter-spacing: 0.05em;
-    color: #7c3aed;
+    color: #000000;
     text-transform: uppercase;
 }
 
@@ -248,7 +248,7 @@
     font-weight: 600;
     letter-spacing: 0.05em;
     text-transform: uppercase;
-    color: #5b21b6;
+    color: #000000;
     border: 1px solid #ddd6fe;
     background: #f5f3ff;
     padding: 3px 9px;
@@ -349,7 +349,6 @@
     margin: 32px 48px 60px;
     border: 1.5px solid #7c3aed;
     padding: 32px 36px;
-    background: #f9f5ff;
 }
 
 .fv-info-box h3 {

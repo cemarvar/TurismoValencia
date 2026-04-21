@@ -35,6 +35,9 @@
             case 'getUsuarios':
                 getUsuarios();
                 break;
+            case 'getActividadesByCategoria':
+                getActividadesByCategoria();
+                break;
             default:
                 http_response_code(400);
                 echo json_encode(["error" => "Acción no reconocida"]);
@@ -138,6 +141,34 @@
             }
         }
         echo json_encode($reservas);
+    }
+
+    // Devuelve actividades filtradas por nombre de categoría 
+    function getActividadesByCategoria() {
+        global $mysqli;
+        if (!isset($_GET['categoria'])) {
+            http_response_code(400);
+            echo json_encode(["error" => "Falta el parámetro categoria"]);
+            return;
+        }
+        $categoria = $_GET['categoria'];
+        $stmt = $mysqli->prepare("
+            SELECT a.ID, a.Titulo, a.Descripcion, a.Precio, a.Duracion, a.Plazas_disponibles,
+                   c.Nombre AS Categoria,
+                   u.Nombre_lugar AS Ubicacion, u.Ciudad
+            FROM Actividad a
+            LEFT JOIN Categoria c ON a.ID_Categoria = c.ID
+            LEFT JOIN Ubicacion u ON a.ID_Ubicacion  = u.ID
+            WHERE c.Nombre = ?
+        ");
+        $stmt->bind_param("s", $categoria);
+        $stmt->execute();
+        $resultado = $stmt->get_result();
+        $actividades = [];
+        foreach ($resultado as $fila) {
+            $actividades[] = $fila;
+        }
+        echo json_encode($actividades);
     }
 
     // Devuelve todos los usuarios

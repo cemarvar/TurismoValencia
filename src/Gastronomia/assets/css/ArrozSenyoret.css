@@ -121,7 +121,7 @@
 /* ── Section title ── */
 .sen-section-title {
     padding: 0 48px 32px;
-    border-bottom: 2px solid #3a6a9a;
+    border-bottom: 1px solid #e5e5e5;
 }
 
 .sen-section-title h2 {
@@ -362,7 +362,6 @@
     margin: 32px 48px 60px;
     border: 1.5px solid #3a6a9a;
     padding: 32px 36px;
-    background: #f0f6ff;
 }
 
 .sen-info-box h3 {

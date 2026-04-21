@@ -1,7 +1,8 @@
+import { useState, useEffect } from 'react';
 import '../../assets/cssExperiencias/ActividadesGastronomicas.css';
 import Footer from '../../../Pagina_Inicio/FOOTER/Footer';
 
-var enLaCiudad = [
+var enLaCiudadEstaticas = [
   {
     num: '01',
     nombre: 'Cena con tablao flamenco en València',
@@ -36,7 +37,7 @@ var enLaCiudad = [
   },
 ];
 
-var fueraCiudad = [
+var fueraCiudadEstaticas = [
   {
     num: '03',
     nombre: 'Paseo en barca y paella en l\'Albufera',
@@ -97,6 +98,35 @@ var datosUtiles = [
 ];
 
 export default function ActividadesGastronomicas() {
+  const [actividadesDB, setActividadesDB] = useState([]);
+
+  useEffect(() => {
+    fetch('/api/Conexion.php?action=getActividadesByCategoria&categoria=Gastronomia')
+      .then(res => res.json())
+      .then(data => Array.isArray(data) && setActividadesDB(data))
+      .catch(() => {});
+  }, []);
+
+  const mapearActividad = (a, i) => ({
+    num: String(i + 1).padStart(2, '0'),
+    nombre: a.Titulo,
+    tipo: a.Duracion,
+    subtitulo: [a.Ubicacion, a.Ciudad].filter(Boolean).join(' · '),
+    desc: a.Descripcion,
+    datos: [
+      { d: 'Precio',   v: `${a.Precio} €` },
+      { d: 'Duración', v: a.Duracion },
+      { d: 'Destino',  v: [a.Ubicacion, a.Ciudad].filter(Boolean).join(' · ') },
+      { d: 'Plazas',   v: `${a.Plazas_disponibles} disponibles` },
+    ],
+    imgClass: '',
+    tags: [{ label: `${a.Precio} €` }, { label: a.Duracion }],
+    url: null,
+  });
+
+  const enLaCiudad = actividadesDB.length > 0 ? actividadesDB.map(mapearActividad) : enLaCiudadEstaticas;
+  const fueraCiudad = actividadesDB.length > 0 ? [] : fueraCiudadEstaticas;
+
   return (
     <div className="ag-page">
 
@@ -156,9 +186,11 @@ export default function ActividadesGastronomicas() {
                   <span key={t.label} className="ag-tag">{t.label}</span>
                 ))}
               </div>
-              <a href={act.url} target="_blank" rel="noopener noreferrer" className="ag-comprar-btn">
-                Reservar en visitvalencia.com →
-              </a>
+              {act.url && (
+                <a href={act.url} target="_blank" rel="noopener noreferrer" className="ag-comprar-btn">
+                  Reservar en visitvalencia.com →
+                </a>
+              )}
             </div>
             <div className="ag-route-img">
               <div className={`ag-route-img-inner ${act.imgClass}`} />
@@ -197,9 +229,11 @@ export default function ActividadesGastronomicas() {
                   <span key={t.label} className="ag-tag">{t.label}</span>
                 ))}
               </div>
-              <a href={act.url} target="_blank" rel="noopener noreferrer" className="ag-comprar-btn">
-                Reservar en visitvalencia.com →
-              </a>
+              {act.url && (
+                <a href={act.url} target="_blank" rel="noopener noreferrer" className="ag-comprar-btn">
+                  Reservar en visitvalencia.com →
+                </a>
+              )}
             </div>
             <div className="ag-route-img">
               <div className={`ag-route-img-inner ${act.imgClass}`} />

@@ -1,7 +1,8 @@
+import { useState, useEffect } from 'react';
 import '../../assets/cssExperiencias/Excursiones.css';
 import Footer from '../../../Pagina_Inicio/FOOTER/Footer';
 
-var excursiones = [
+var excursionesEstaticas = [
   {
     num: '01',
     nombre: 'Excursión a las Cuevas de San José',
@@ -94,6 +95,34 @@ var datosUtiles = [
 ];
 
 export default function Excursiones() {
+  const [excursionesDB, setExcursionesDB] = useState([]);
+
+  useEffect(() => {
+    fetch('/api/Conexion.php?action=getActividadesByCategoria&categoria=Naturaleza')
+      .then(res => res.json())
+      .then(data => Array.isArray(data) && setExcursionesDB(data))
+      .catch(() => {});
+  }, []);
+
+  const excursiones = excursionesDB.length > 0
+    ? excursionesDB.map((a, i) => ({
+        num: String(i + 1).padStart(2, '0'),
+        nombre: a.Titulo,
+        tipo: a.Duracion,
+        subtitulo: [a.Ubicacion, a.Ciudad].filter(Boolean).join(' · '),
+        desc: a.Descripcion,
+        datos: [
+          { d: 'Precio',   v: `${a.Precio} €` },
+          { d: 'Duración', v: a.Duracion },
+          { d: 'Destino',  v: [a.Ubicacion, a.Ciudad].filter(Boolean).join(' · ') },
+          { d: 'Plazas',   v: `${a.Plazas_disponibles} disponibles` },
+        ],
+        imgClass: '',
+        tags: [{ label: `${a.Precio} €` }, { label: a.Duracion }],
+        url: null,
+      }))
+    : excursionesEstaticas;
+
   return (
     <div className="exc-page">
 
@@ -156,14 +185,16 @@ export default function Excursiones() {
                 ))}
               </div>
 
-              <a
-                href={exc.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="exc-comprar-btn"
-              >
-                Reservar en visitvalencia.com →
-              </a>
+              {exc.url && (
+                <a
+                  href={exc.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="exc-comprar-btn"
+                >
+                  Reservar en visitvalencia.com →
+                </a>
+              )}
             </div>
 
             <div className="exc-route-img">

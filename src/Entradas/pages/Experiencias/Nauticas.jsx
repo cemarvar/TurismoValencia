@@ -1,7 +1,8 @@
+import { useState, useEffect } from 'react';
 import '../../assets/cssExperiencias/Nauticas.css';
 import Footer from '../../../Pagina_Inicio/FOOTER/Footer';
 
-var deportesAcuaticos = [
+var deportesAcuaticosEstaticos = [
   {
     num: '01',
     nombre: 'Bautismo de Paddle Surf',
@@ -52,7 +53,7 @@ var deportesAcuaticos = [
   },
 ];
 
-var paseosCatamaran = [
+var paseosCatamaranEstaticos = [
   {
     num: '04',
     nombre: 'Excursión a Vela por la costa de València',
@@ -129,6 +130,35 @@ var datosUtiles = [
 ];
 
 export default function Nauticas() {
+  const [actividadesDB, setActividadesDB] = useState([]);
+
+  useEffect(() => {
+    fetch('/api/Conexion.php?action=getActividadesByCategoria&categoria=Deportes')
+      .then(res => res.json())
+      .then(data => Array.isArray(data) && setActividadesDB(data))
+      .catch(() => {});
+  }, []);
+
+  const mapearActividad = (a, i) => ({
+    num: String(i + 1).padStart(2, '0'),
+    nombre: a.Titulo,
+    tipo: a.Duracion,
+    subtitulo: [a.Ubicacion, a.Ciudad].filter(Boolean).join(' · '),
+    desc: a.Descripcion,
+    datos: [
+      { d: 'Precio',   v: `${a.Precio} €` },
+      { d: 'Duración', v: a.Duracion },
+      { d: 'Lugar',    v: [a.Ubicacion, a.Ciudad].filter(Boolean).join(' · ') },
+      { d: 'Plazas',   v: `${a.Plazas_disponibles} disponibles` },
+    ],
+    imgClass: '',
+    tags: [{ label: `${a.Precio} €` }, { label: a.Duracion }],
+    url: null,
+  });
+
+  const deportesAcuaticos = actividadesDB.length > 0 ? actividadesDB.map(mapearActividad) : deportesAcuaticosEstaticos;
+  const paseosCatamaran = actividadesDB.length > 0 ? [] : paseosCatamaranEstaticos;
+
   return (
     <div className="nau-page">
 
@@ -188,9 +218,11 @@ export default function Nauticas() {
                   <span key={t.label} className="nau-tag">{t.label}</span>
                 ))}
               </div>
-              <a href={act.url} target="_blank" rel="noopener noreferrer" className="nau-comprar-btn">
-                Reservar en visitvalencia.com →
-              </a>
+              {act.url && (
+                <a href={act.url} target="_blank" rel="noopener noreferrer" className="nau-comprar-btn">
+                  Reservar en visitvalencia.com →
+                </a>
+              )}
             </div>
             <div className="nau-route-img">
               <div className={`nau-route-img-inner ${act.imgClass}`} />
@@ -229,9 +261,11 @@ export default function Nauticas() {
                   <span key={t.label} className="nau-tag">{t.label}</span>
                 ))}
               </div>
-              <a href={act.url} target="_blank" rel="noopener noreferrer" className="nau-comprar-btn">
-                Reservar en visitvalencia.com →
-              </a>
+              {act.url && (
+                <a href={act.url} target="_blank" rel="noopener noreferrer" className="nau-comprar-btn">
+                  Reservar en visitvalencia.com →
+                </a>
+              )}
             </div>
             <div className="nau-route-img">
               <div className={`nau-route-img-inner ${act.imgClass}`} />
