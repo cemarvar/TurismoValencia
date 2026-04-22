@@ -37,7 +37,7 @@ ul
 }
 
 
-/* ── Header ── */
+/* Header  */
 header {
     background-color: white;
     box-shadow: var(--shadow);
@@ -184,45 +184,117 @@ nav ul li span:hover {
     border-radius: 2px;
 }
 
+/* ── Burguer ── */
+.burger-menu {
+    display: none;
+    cursor: pointer;
+    background-color: #1a1a1a;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.burger-menu:hover {
+    background-color: #eb5a00;
+    transition: background-color 0.2s ease;
+}
+
 /* ── RESPONSIVE ── */
 @media (max-width: 1024px) {
     .header-container {
         padding: 15px 30px;
     }
-
     .title_eslogan {
         font-size: 2.5rem;
     }
-
     .tx1_esencial {
         font-size: 2.4rem;
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
     .header-container {
         padding: 12px 20px;
     }
 
+    .burger-menu {
+        display: flex;
+    }
+
+    nav {
+        position: fixed;
+        top: 76px;
+        left: 0;
+        width: 100%;
+        background-color: white;
+        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+        transform: translateY(-110%);
+        visibility: hidden;
+        transition: transform 0.3s ease-in-out, visibility 0.3s;
+        z-index: 99;
+        padding: 10px 0 20px;
+    }
+
+    nav.active {
+        transform: translateY(0);
+        visibility: visible;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 0;
+        width: 100%;
+    }
+
+    nav ul li {
+        width: 100%;
+        text-align: center;
+        border-bottom: 1px solid #f0f0f0;
+    }
+
+    nav ul li a,
+    nav ul li span {
+        display: block;
+        padding: 14px 0;
+        font-size: 17px;
+        border-radius: 0;
+    }
+
+    nav ul li:last-child {
+        border-bottom: none;
+        padding: 16px 0 4px;
+    }
+
+    .bt_header {
+        margin: 0 auto;
+        display: inline-flex;
+    }
+}
+
+@media (max-width: 768px) {
     .logo {
         font-size: 1.3rem;
     }
-
     .eslogan {
         height: 40vh;
         margin-top: 65px;
     }
-
     .title_eslogan {
         font-size: 2rem;
     }
-
     .tx1_esencial {
         font-size: 2rem;
     }
-
     .tx2_esencial {
         font-size: 1.1rem;
+    }
+
+    .video-container {
+        height: 70vh;
+        overflow: hidden;
     }
 }
 
@@ -230,25 +302,21 @@ nav ul li span:hover {
     .header-container {
         padding: 10px 16px;
     }
-
     .logo {
         font-size: 1.1rem;
     }
-
     .eslogan {
         height: 35vh;
     }
-
     .title_eslogan {
         font-size: 1.6rem;
     }
-
     .tx1_esencial {
         font-size: 1.7rem;
     }
-
     .tx2_esencial {
         font-size: 1rem;
     }
+    
 }
 
