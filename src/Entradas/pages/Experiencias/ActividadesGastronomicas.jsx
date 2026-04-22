@@ -119,7 +119,7 @@ export default function ActividadesGastronomicas() {
       { d: 'Destino',  v: [a.Ubicacion, a.Ciudad].filter(Boolean).join(' · ') },
       { d: 'Plazas',   v: `${a.Plazas_disponibles} disponibles` },
     ],
-    imgClass: '',
+    imgClass: a.Imagen || '',
     tags: [{ label: `${a.Precio} €` }, { label: a.Duracion }],
     url: null,
   });

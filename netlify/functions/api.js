@@ -33,7 +33,7 @@ export const handler = async (event) => {
 
       case 'getActividades': {
         const [rows] = await con.execute(`
-          SELECT a.ID, a.Titulo, a.Descripcion, a.Precio, a.Duracion, a.Plazas_disponibles,
+          SELECT a.ID, a.Titulo, a.Descripcion, a.Precio, a.Duracion, a.Plazas_disponibles, a.Imagen,
                  c.Nombre AS Categoria,
                  u.Nombre_lugar AS Ubicacion, u.Ciudad
           FROM Actividad a
@@ -90,7 +90,7 @@ export const handler = async (event) => {
       case 'getActividadesByCategoria': {
         if (!params.categoria) return err(400, 'Falta el parámetro categoria');
         const [rows] = await con.execute(`
-          SELECT a.ID, a.Titulo, a.Descripcion, a.Precio, a.Duracion, a.Plazas_disponibles,
+          SELECT a.ID, a.Titulo, a.Descripcion, a.Precio, a.Duracion, a.Plazas_disponibles, a.Imagen,
                  c.Nombre AS Categoria,
                  u.Nombre_lugar AS Ubicacion, u.Ciudad
           FROM Actividad a
