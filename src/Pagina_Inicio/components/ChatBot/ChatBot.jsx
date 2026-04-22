@@ -44,7 +44,7 @@ export default function ChatBot() {
       if (!res.ok) throw new Error(data.error || 'Error del servidor');
       setMessages(prev => [...prev, { role: 'bot', text: data.reply }]);
     } catch (err) {
-      setMessages(prev => [...prev, { role: 'error', text: 'Lo siento, hubo un error al conectar. Inténtalo de nuevo.' }]);
+      setMessages(prev => [...prev, { role: 'error', text: `Error: ${err.message}` }]);
     } finally {
       setLoading(false);
     }
