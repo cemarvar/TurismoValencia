@@ -13,6 +13,12 @@
   status = 200
   force = true
 
+[[redirects]]
+  from = "/api/chat"
+  to = "/.netlify/functions/chat"
+  status = 200
+  force = true
+
 # React Router: cualquier ruta desconocida sirve el index.html
 [[redirects]]
   from = "/*"

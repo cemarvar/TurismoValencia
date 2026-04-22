@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import ChatBot from './ChatBot/ChatBot';
 import Header from './HEADER/Header';
 import Ver from '../../Que_Ver/Ver';
 import Inicio from '../Inicio';
@@ -149,6 +150,7 @@ export default function App()
                     <Route path="/ActividadesGastronomicas" element={<ActividadesGastronomicas />} />
                     <Route path="/Nauticas" element={<Nauticas />} />
                 </Routes>
+            <ChatBot />
         </BrowserRouter>
     );
 }
