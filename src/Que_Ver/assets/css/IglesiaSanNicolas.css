@@ -388,12 +388,16 @@
     .sn-intro,
     .sn-routes,
     .sn-section-title,
-    .sn-info-practica,
-    .sn-info-box {
+    .sn-info-practica {
         padding-left: 20px;
         padding-right: 20px;
         margin-left: 0;
         margin-right: 0;
+    }
+
+    .sn-info-box {
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .sn-hero-content {

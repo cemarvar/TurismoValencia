@@ -416,12 +416,16 @@
     .alp-ingredientes-wrap,
     .alp-historia-box,
     .alp-claves-wrap,
-    .alp-rest-wrap,
-    .alp-info-box {
+    .alp-rest-wrap {
         padding-left: 20px;
         padding-right: 20px;
         margin-left: 0;
         margin-right: 0;
+    }
+
+    .alp-info-box {
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .alp-hero-content {

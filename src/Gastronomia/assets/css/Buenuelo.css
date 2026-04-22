@@ -416,12 +416,16 @@
     .bun-ingredientes-wrap,
     .bun-historia-box,
     .bun-claves-wrap,
-    .bun-rest-wrap,
-    .bun-info-box {
+    .bun-rest-wrap {
         padding-left: 20px;
         padding-right: 20px;
         margin-left: 0;
         margin-right: 0;
+    }
+
+    .bun-info-box {
+        padding-left: 20px;
+        padding-right: 20px; 
     }
 
     .bun-hero-content {

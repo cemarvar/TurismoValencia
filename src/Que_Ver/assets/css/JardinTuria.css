@@ -439,12 +439,16 @@
     .jt-section-title,
     .jt-actividades-wrap,
     .jt-historia-box,
-    .jt-info-practica,
-    .jt-info-box {
+    .jt-info-practica {
         padding-left: 20px;
         padding-right: 20px;
         margin-left: 0;
         margin-right: 0;
+    }
+
+    .jt-info-box {
+        padding-left: 20px;
+        padding-right: 20px;    
     }
 
     .jt-hero-content {

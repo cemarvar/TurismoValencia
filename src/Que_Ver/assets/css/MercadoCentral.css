@@ -417,12 +417,16 @@
     .mc-routes,
     .mc-section-title,
     .mc-secciones-wrap,
-    .mc-info-practica,
-    .mc-info-box {
+    .mc-info-practica {
         padding-left: 20px;
         padding-right: 20px;
         margin-left: 0;
         margin-right: 0;
+    }
+
+    .mc-info-box {
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .mc-hero-content {

@@ -431,12 +431,16 @@
     .playa-routes,
     .playa-section-title,
     .playa-servicios-wrap,
-    .playa-info-practica,
-    .playa-info-box {
+    .playa-info-practica {
         padding-left: 20px;
         padding-right: 20px;
         margin-left: 0;
         margin-right: 0;
+    }
+
+    .playa-info-box {
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .playa-hero-content {

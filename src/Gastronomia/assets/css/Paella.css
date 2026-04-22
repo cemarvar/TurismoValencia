@@ -428,12 +428,16 @@
     .pa-ingredientes-wrap,
     .pa-historia-box,
     .pa-zonas-wrap,
-    .pa-reglas-wrap,
-    .pa-info-box {
+    .pa-reglas-wrap {
         padding-left: 20px;
         padding-right: 20px;
         margin-left: 0;
         margin-right: 0;
+    }
+
+    .pa-info-box {
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .pa-hero-content {

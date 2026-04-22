@@ -373,12 +373,16 @@
     .hor-section-title,
     .hor-props-wrap,
     .hor-historia-box,
-    .hor-rest-wrap,
-    .hor-info-box {
+    .hor-rest-wrap {
         padding-left: 20px;
         padding-right: 20px;
         margin-left: 0;
         margin-right: 0;
+    }
+
+    .hor-info-box {
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .hor-hero-content {

@@ -398,12 +398,16 @@
     .ls-routes,
     .ls-section-title,
     .ls-info-practica,
-    .ls-audioguia-box,
-    .ls-info-box {
+    .ls-audioguia-box {
         padding-left: 20px;
         padding-right: 20px;
         margin-left: 0;
         margin-right: 0;
+    }
+
+    .ls-info-box{
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .ls-hero-content {

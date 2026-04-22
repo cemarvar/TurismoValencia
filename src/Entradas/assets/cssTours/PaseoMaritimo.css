@@ -466,12 +466,16 @@
     .pm-section-title,
     .pm-actividades-section,
     .pm-gastro-section,
-    .pm-info-practica,
-    .pm-info-box {
+    .pm-info-practica {
         padding-left: 20px;
         padding-right: 20px;
         margin-left: 0;
         margin-right: 0;
+    }
+
+    .pm-info-box {
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .pm-hero-content { padding: 0 20px 12px; }

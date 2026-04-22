@@ -394,12 +394,16 @@
     .fv-routes,
     .fv-section-title,
     .fv-generos-wrap,
-    .fv-info-practica,
-    .fv-info-box {
+    .fv-info-practica {
         padding-left: 20px;
         padding-right: 20px;
         margin-left: 0;
         margin-right: 0;
+    }
+
+    .fv-info-box {
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .fv-hero-content {

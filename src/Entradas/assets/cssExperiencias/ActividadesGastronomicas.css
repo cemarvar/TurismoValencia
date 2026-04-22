@@ -411,12 +411,16 @@
     .ag-intro-box,
     .ag-routes,
     .ag-section-title,
-    .ag-info-practica,
-    .ag-info-box {
+    .ag-info-practica {
         padding-left: 20px;
         padding-right: 20px;
         margin-left: 0;
         margin-right: 0;
+    }
+
+    .ag-info-box {
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .ag-hero-content { padding: 0 20px 12px; }

@@ -523,12 +523,16 @@
     .vtc-section-title,
     .vtc-packs-section,
     .vtc-compra-box,
-    .vtc-faq-section,
-    .vtc-info-box {
+    .vtc-faq-section {
         padding-left: 20px;
         padding-right: 20px;
         margin-left: 0;
         margin-right: 0;
+    }
+
+    .vtc-info-box {
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .vtc-hero-content {

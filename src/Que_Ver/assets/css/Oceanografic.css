@@ -466,13 +466,18 @@
     .ocn-intro,
     .ocn-routes,
     .ocn-section-title,
-    .ocn-info-practica,
-    .ocn-info-box {
+    .ocn-info-practica {
         padding-left: 20px;
         padding-right: 20px;
         margin-left: 0;
         margin-right: 0;
     }
+
+    .ocn-info-box {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
 
     .ocn-hero-content {
         padding: 0 20px 12px;

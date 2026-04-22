@@ -465,12 +465,16 @@
     .mba-routes,
     .mba-section-title,
     .mba-obras-section,
-    .mba-info-practica,
-    .mba-info-box {
+    .mba-info-practica {
         padding-left: 20px;
         padding-right: 20px;
         margin-left: 0;
         margin-right: 0;
+    }
+
+    .mba-info-box {
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .mba-hero-content {

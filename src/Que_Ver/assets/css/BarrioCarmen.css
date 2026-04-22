@@ -394,12 +394,16 @@
     .brc-intro,
     .brc-routes,
     .brc-section-title,
-    .brc-info-practica,
-    .brc-info-box {
+    .brc-info-practica {
         padding-left: 20px;
         padding-right: 20px;
         margin-left: 0;
         margin-right: 0;
+    }
+
+    .brc-info-box{
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .brc-hero-content {

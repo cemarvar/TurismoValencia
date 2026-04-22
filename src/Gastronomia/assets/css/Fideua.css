@@ -479,12 +479,16 @@
     .fid-historia-box,
     .fid-diferencias-wrap,
     .fid-secretos-wrap,
-    .fid-rest-wrap,
-    .fid-info-box {
+    .fid-rest-wrap {
         padding-left: 20px;
         padding-right: 20px;
         margin-left: 0;
         margin-right: 0;
+    }
+
+    .fid-info-box {
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .fid-hero-content {

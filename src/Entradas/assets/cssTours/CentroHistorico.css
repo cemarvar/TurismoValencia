@@ -571,12 +571,16 @@
     .ch-section-title,
     .ch-tematicos-section,
     .ch-iglesias-section,
-    .ch-discovering-box,
-    .ch-info-box {
+    .ch-discovering-box {
         padding-left: 20px;
         padding-right: 20px;
         margin-left: 0;
         margin-right: 0;
+    }
+
+    .ch-info-box {
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .ch-hero-content {

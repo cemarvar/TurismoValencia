@@ -384,12 +384,16 @@
     .grv-routes,
     .grv-section-title,
     .grv-intro-box,
-    .grv-info-practica,
-    .grv-info-box {
+    .grv-info-practica {
         padding-left: 20px;
         padding-right: 20px;
         margin-left: 0;
         margin-right: 0;
+    }
+
+    .grv-info-box {
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .grv-hero-content {

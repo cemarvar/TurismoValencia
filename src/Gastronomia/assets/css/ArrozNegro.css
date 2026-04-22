@@ -355,12 +355,16 @@
     .an-section-title,
     .an-ingredientes-wrap,
     .an-historia-box,
-    .an-secretos-wrap,
-    .an-info-box {
+    .an-secretos-wrap {
         padding-left: 20px;
         padding-right: 20px;
         margin-left: 0;
         margin-right: 0;
+    }
+
+    .an-info-box {
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .an-hero-content {

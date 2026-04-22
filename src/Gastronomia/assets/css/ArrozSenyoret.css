@@ -415,12 +415,16 @@
     .sen-ingredientes-wrap,
     .sen-historia-box,
     .sen-claves-wrap,
-    .sen-rest-wrap,
-    .sen-info-box {
+    .sen-rest-wrap {
         padding-left: 20px;
         padding-right: 20px;
         margin-left: 0;
         margin-right: 0;
+    }
+
+    .sen-info-box {
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .sen-hero-content {

@@ -381,12 +381,16 @@
     .gf-routes,
     .gf-section-title,
     .gf-historia-box,
-    .gf-info-practica,
-    .gf-info-box {
+    .gf-info-practica {
         padding-left: 20px;
         padding-right: 20px;
         margin-left: 0;
         margin-right: 0;
+    }
+
+    .gf-info-box {
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .gf-hero-content {

@@ -386,12 +386,16 @@
     .mest-routes,
     .mest-section-title,
     .mest-palmares-wrap,
-    .mest-info-practica,
-    .mest-info-box {
+    .mest-info-practica {
         padding-left: 20px;
         padding-right: 20px;
         margin-left: 0;
         margin-right: 0;
+    }
+
+    .mest-info-box {
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .mest-hero-content {

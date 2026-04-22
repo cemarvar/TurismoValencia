@@ -385,12 +385,16 @@
     .ruzloj-routes,
     .ruzloj-section-title,
     .ruzloj-intro-box,
-    .ruzloj-info-practica,
-    .ruzloj-info-box {
+    .ruzloj-info-practica {
         padding-left: 20px;
         padding-right: 20px;
         margin-left: 0;
         margin-right: 0;
+    }
+
+    .ruzloj-info-box {
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .ruzloj-hero-content {

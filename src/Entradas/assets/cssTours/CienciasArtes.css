@@ -508,12 +508,16 @@
     .ca-section-title,
     .ca-escena-section,
     .ca-simulador-box,
-    .ca-info-practica,
-    .ca-info-box {
+    .ca-info-practica {
         padding-left: 20px;
         padding-right: 20px;
         margin-left: 0;
         margin-right: 0;
+    }
+
+    .ca-info-box {
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .ca-hero-content { padding: 0 20px 12px; }

@@ -386,12 +386,16 @@
     .cen-routes,
     .cen-section-title,
     .cen-intro-box,
-    .cen-info-practica,
-    .cen-info-box {
+    .cen-info-practica {
         padding-left: 20px;
         padding-right: 20px;
         margin-left: 0;
         margin-right: 0;
+    }
+
+    .cen-info-box {
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .cen-hero-content {

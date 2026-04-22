@@ -460,12 +460,16 @@
     .bt-routes,
     .bt-section-title,
     .bt-paradas-section,
-    .bt-info-practica,
-    .bt-info-box {
+    .bt-info-practica {
         padding-left: 20px;
         padding-right: 20px;
         margin-left: 0;
         margin-right: 0;
+    }
+
+    .bt-info-box {
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .bt-hero-content {

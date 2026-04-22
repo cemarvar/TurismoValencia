@@ -381,12 +381,16 @@
     .fal-routes,
     .fal-section-title,
     .fal-historia-box,
-    .fal-info-practica,
-    .fal-info-box {
+    .fal-info-practica {
         padding-left: 20px;
         padding-right: 20px;
         margin-left: 0;
         margin-right: 0;
+    }
+
+    .fal-info-box {
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .fal-hero-content {

@@ -379,12 +379,16 @@
     .exc-destinos-wrap,
     .exc-routes,
     .exc-section-title,
-    .exc-info-practica,
-    .exc-info-box {
+    .exc-info-practica {
         padding-left: 20px;
         padding-right: 20px;
         margin-left: 0;
         margin-right: 0;
+    }
+
+    .exc-info-box {
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .exc-hero-content { padding: 0 20px 12px; }

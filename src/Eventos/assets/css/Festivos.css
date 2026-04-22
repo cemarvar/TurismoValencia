@@ -360,12 +360,16 @@
     .fest-calendar,
     .fest-section-title,
     .fest-tradiciones-wrap,
-    .fest-info-box,
     .fest-leyenda {
         padding-left: 20px;
         padding-right: 20px;
         margin-left: 0;
         margin-right: 0;
+    }
+
+    .fest-info-box {
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .fest-hero-content {

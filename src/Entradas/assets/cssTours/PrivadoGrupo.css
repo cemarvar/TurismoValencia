@@ -391,12 +391,16 @@
     .pg-ventajas-wrap,
     .pg-routes,
     .pg-section-title,
-    .pg-todos-section,
-    .pg-info-box {
+    .pg-todos-section {
         padding-left: 20px;
         padding-right: 20px;
         margin-left: 0;
         margin-right: 0;
+    }
+
+    .pg-info-box {
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .pg-hero-content { padding: 0 20px 12px; }

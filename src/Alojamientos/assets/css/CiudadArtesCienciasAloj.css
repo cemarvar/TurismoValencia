@@ -386,12 +386,16 @@
     .cacaloj-routes,
     .cacaloj-section-title,
     .cacaloj-intro-box,
-    .cacaloj-info-practica,
-    .cacaloj-info-box {
+    .cacaloj-info-practica {
         padding-left: 20px;
         padding-right: 20px;
         margin-left: 0;
         margin-right: 0;
+    }
+
+    .cacaloj-info-box {
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .cacaloj-hero-content {

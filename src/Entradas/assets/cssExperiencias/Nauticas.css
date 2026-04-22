@@ -383,12 +383,16 @@
     .nau-intro-box,
     .nau-routes,
     .nau-section-title,
-    .nau-info-practica,
-    .nau-info-box {
+    .nau-info-practica {
         padding-left: 20px;
         padding-right: 20px;
         margin-left: 0;
         margin-right: 0;
+    }
+
+    .nau-info-box {
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .nau-hero-content { padding: 0 20px 12px; }

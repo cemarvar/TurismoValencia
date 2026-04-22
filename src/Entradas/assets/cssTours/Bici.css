@@ -383,12 +383,16 @@
     .bici-intro-box,
     .bici-routes,
     .bici-section-title,
-    .bici-info-practica,
-    .bici-info-box {
+    .bici-info-practica {
         padding-left: 20px;
         padding-right: 20px;
         margin-left: 0;
         margin-right: 0;
+    }
+
+    .bici-info-box {
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .bici-hero-content { padding: 0 20px 12px; }
