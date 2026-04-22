@@ -44,6 +44,8 @@ export const handler = async (event) => {
   }
 
   const contents = [
+    { role: 'user', parts: [{ text: SYSTEM_PROMPT }] },
+    { role: 'model', parts: [{ text: 'Entendido. Soy ValBot, asistente de turismo de Valencia. ¿En qué puedo ayudarte?' }] },
     ...history.map(({ role, text }) => ({
       role: role === 'user' ? 'user' : 'model',
       parts: [{ text }],
@@ -52,14 +54,13 @@ export const handler = async (event) => {
   ];
 
   const geminiBody = {
-    system_instruction: { parts: [{ text: SYSTEM_PROMPT }] },
     contents,
     generationConfig: { maxOutputTokens: 400, temperature: 0.7 },
   };
 
   try {
     const response = await fetch(
-      `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`,
+      `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=${apiKey}`,
       {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
