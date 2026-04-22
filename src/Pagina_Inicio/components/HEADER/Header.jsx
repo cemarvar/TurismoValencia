@@ -21,14 +21,14 @@ export default function Header() {
 
                 <nav className={isMenuOpen ? 'active' : ''}>
                     <ul>
-                        <li><Link to="/Inicio">Inicio</Link></li>
-                        <li><Link to="/Que_Ver">Que ver</Link></li>
-                        <li><Link to="/Eventos">Eventos</Link></li>
-                        <li><Link to="/Gastronomia">Gastronomía</Link></li>
-                        <li><Link to="/Alojamientos">Alojamientos</Link></li>
-                        <li><span onClick={scrollToContacto} style={{ cursor: 'pointer' }}>Contacto</span></li>
+                        <li><Link to="/Inicio" onClick={() => setIsMenuOpen(false)}>Inicio</Link></li>
+                        <li><Link to="/Que_Ver" onClick={() => setIsMenuOpen(false)}>Que ver</Link></li>
+                        <li><Link to="/Eventos" onClick={() => setIsMenuOpen(false)}>Eventos</Link></li>
+                        <li><Link to="/Gastronomia" onClick={() => setIsMenuOpen(false)}>Gastronomía</Link></li>
+                        <li><Link to="/Alojamientos" onClick={() => setIsMenuOpen(false)}>Alojamientos</Link></li>
+                        <li><span onClick={() => { scrollToContacto(); setIsMenuOpen(false); }} style={{ cursor: 'pointer' }}>Contacto</span></li>
                         <li>
-                            <Link to="/Entradas" className="bt_header">
+                            <Link to="/Entradas" className="bt_header" onClick={() => setIsMenuOpen(false)}>
                                 TICKETS & TOURS
                             </Link>
                         </li>
