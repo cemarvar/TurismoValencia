@@ -3,15 +3,15 @@ import Culinaria from '../CULINARIA/Culinaria';
 
 export default function GridCulinaria() {
     var elementos = [
-        { imagen: "/img/img-gastronomia/paella.jpg",            titulo: "Paella Valenciana",        ruta: "/Paella" },
-        { imagen: "/img/img-gastronomia/fideua.jpeg",           titulo: "Fideuà",                   ruta: "/Fideua"},
-        { imagen: "/img/img-gastronomia/arroz-al-horno.jpg",    titulo: "Arroz al horno",           ruta: "/ArrozHorno" },
-        { imagen: "/img/img-gastronomia/esgarraet.jpg",         titulo: "Esgarraet",                ruta: "/Esgarraet" },
-        { imagen: "/img/img-gastronomia/Arroz-negro.jpg",       titulo: "Arroz Negro",              ruta: "/ArrozNegro" },
-        { imagen: "/img/img-gastronomia/allipebre.jpg",         titulo: "All i pebre",              ruta: "/AllPebre" },
-        { imagen: "/img/img-gastronomia/bunuelos.jpg",          titulo: "Buñuelo de Calabaza",      ruta: "/Buenuelo" },
-        { imagen: "/img/img-gastronomia/arroz-senyoret.jpg",    titulo: "Arroz del senyoret",       ruta: "/ArrozSenyoret" },
-        { imagen: "/img/img-gastronomia/horchata.jpg",          titulo: "Horchata",                 ruta: "/Horchata" }
+        { imagen: "/img/img-gastronomia/paella.webp",            titulo: "Paella Valenciana",        ruta: "/Paella" },
+        { imagen: "/img/img-gastronomia/fideua.webp",           titulo: "Fideuà",                   ruta: "/Fideua"},
+        { imagen: "/img/img-gastronomia/arroz-al-horno.webp",    titulo: "Arroz al horno",           ruta: "/ArrozHorno" },
+        { imagen: "/img/img-gastronomia/esgarraet.webp",         titulo: "Esgarraet",                ruta: "/Esgarraet" },
+        { imagen: "/img/img-gastronomia/Arroz-negro.webp",       titulo: "Arroz Negro",              ruta: "/ArrozNegro" },
+        { imagen: "/img/img-gastronomia/allipebre.webp",         titulo: "All i pebre",              ruta: "/AllPebre" },
+        { imagen: "/img/img-gastronomia/bunuelos.webp",          titulo: "Buñuelo de Calabaza",      ruta: "/Buenuelo" },
+        { imagen: "/img/img-gastronomia/arroz-senyoret.webp",    titulo: "Arroz del senyoret",       ruta: "/ArrozSenyoret" },
+        { imagen: "/img/img-gastronomia/horchata.webp",          titulo: "Horchata",                 ruta: "/Horchata" }
     ];
 
     return (

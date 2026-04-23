@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
-
+﻿
 .playa-page {
     font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
     color: #1a1a1a;
@@ -10,7 +9,7 @@
 .playa-hero {
     position: relative;
     height: 560px;
-    background-image: url('/img/img-espacios/Playes/hero-playes.jpg');
+    background-image: url('/img/img-espacios/Playes/hero-playes.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -316,12 +315,12 @@
 }
 
 /* Imágenes */
-.img-cabanyalpl   { background-image: url('/img/img-espacios/Playes/cabanyalpl.jpg'); }
-.img-malvarrosapl { background-image: url('/img/img-espacios/Playes/malvarrosapl.jpg'); }
-.img-pataconapl   { background-image: url('/img/img-espacios/Playes/pataconapl.jpg'); }
-.img-salerpl      { background-image: url('/img/img-espacios/Playes/salerpl.jpg'); }
-.img-pinedopl     { background-image: url('/img/img-espacios/Playes/pinedopl.jpg'); }
-.img-devesapl     { background-image: url('/img/img-espacios/Playes/devesapl.jpg'); }
+.img-cabanyalpl   { background-image: url('/img/img-espacios/Playes/cabanyalpl.webp'); }
+.img-malvarrosapl { background-image: url('/img/img-espacios/Playes/malvarrosapl.webp'); }
+.img-pataconapl   { background-image: url('/img/img-espacios/Playes/pataconapl.webp'); }
+.img-salerpl      { background-image: url('/img/img-espacios/Playes/salerpl.webp'); }
+.img-pinedopl     { background-image: url('/img/img-espacios/Playes/pinedopl.webp'); }
+.img-devesapl     { background-image: url('/img/img-espacios/Playes/devesapl.webp'); }
 
 /* ── Tabla información práctica ── */
 .playa-info-practica {

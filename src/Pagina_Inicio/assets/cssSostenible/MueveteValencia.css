@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
-
+﻿
 .mv-page {
     font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
     color: #1a1a1a;
@@ -10,7 +9,7 @@
 .mv-hero {
     position: relative;
     height: 520px;
-    background-image: url('/img/img-sostenible/MueveteValencia/hero-muevetevalencia.jpg');
+    background-image: url('/img/img-sostenible/MueveteValencia/hero-muevetevalencia.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -382,13 +381,13 @@
 }
 
 /* Imágenes */
-.img-emtmue          { background-image: url('/img/img-sostenible/MueveteValencia/emtmue.jpg'); }
-.img-metromue        { background-image: url('/img/img-sostenible/MueveteValencia/metromue.jpg'); }
-.img-valenbisimue    { background-image: url('/img/img-sostenible/MueveteValencia/valenbisimue.jpg'); }
-.img-bicimue         { background-image: url('/img/img-sostenible/MueveteValencia/bicimue.jpg'); }
-.img-busturisticomue { background-image: url('/img/img-sostenible/MueveteValencia/busturisticomue.jpg'); }
-.img-segwaymue       { background-image: url('/img/img-sostenible/MueveteValencia/segwaymue.jpg'); }
-.img-patinetemue     { background-image: url('/img/img-sostenible/MueveteValencia/patinetemue.jpg'); }
+.img-emtmue          { background-image: url('/img/img-sostenible/MueveteValencia/emtmue.webp'); }
+.img-metromue        { background-image: url('/img/img-sostenible/MueveteValencia/metromue.webp'); }
+.img-valenbisimue    { background-image: url('/img/img-sostenible/MueveteValencia/valenbisimue.webp'); }
+.img-bicimue         { background-image: url('/img/img-sostenible/MueveteValencia/bicimue.webp'); }
+.img-busturisticomue { background-image: url('/img/img-sostenible/MueveteValencia/busturisticomue.webp'); }
+.img-segwaymue       { background-image: url('/img/img-sostenible/MueveteValencia/segwaymue.webp'); }
+.img-patinetemue     { background-image: url('/img/img-sostenible/MueveteValencia/patinetemue.webp'); }
 
 /* ── Info box ── */
 .mv-info-box {

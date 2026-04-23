@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
-
+﻿
 .vs-page {
     font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
     color: #1a1a1a;
@@ -10,7 +9,7 @@
 .vs-hero {
     position: relative;
     height: 540px;
-    background-image: url('/img/img-sostenible/ViajeSostenible/hero-viaje-sostenible.jpg');
+    background-image: url('/img/img-sostenible/ViajeSostenible/hero-viaje-sostenible.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -375,14 +374,14 @@
 }
 
 /* Imágenes */
-.img-fuentesvs    { background-image: url('/img/img-sostenible/ViajeSostenible/fuentesvs.jpg'); }
-.img-wifivs       { background-image: url('/img/img-sostenible/ViajeSostenible/wifivs.png'); }
-.img-busvs        { background-image: url('/img/img-sostenible/ViajeSostenible/busvs.jpg'); }
-.img-paradasvs    { background-image: url('/img/img-sostenible/ViajeSostenible/paradasvs.jpg'); }
-.img-bikebarcavs  { background-image: url('/img/img-sostenible/ViajeSostenible/bikebarcavs.jpg'); }
-.img-pasosvs      { background-image: url('/img/img-sostenible/ViajeSostenible/pasosvs.jpg'); }
-.img-mobiliariovs { background-image: url('/img/img-sostenible/ViajeSostenible/mobiliariovs.jpg'); }
-.img-wavevs       { background-image: url('/img/img-sostenible/ViajeSostenible/wavevs.jpg'); }
+.img-fuentesvs    { background-image: url('/img/img-sostenible/ViajeSostenible/fuentesvs.webp'); }
+.img-wifivs       { background-image: url('/img/img-sostenible/ViajeSostenible/wifivs.webp'); }
+.img-busvs        { background-image: url('/img/img-sostenible/ViajeSostenible/busvs.webp'); }
+.img-paradasvs    { background-image: url('/img/img-sostenible/ViajeSostenible/paradasvs.webp'); }
+.img-bikebarcavs  { background-image: url('/img/img-sostenible/ViajeSostenible/bikebarcavs.webp'); }
+.img-pasosvs      { background-image: url('/img/img-sostenible/ViajeSostenible/pasosvs.webp'); }
+.img-mobiliariovs { background-image: url('/img/img-sostenible/ViajeSostenible/mobiliariovs.webp'); }
+.img-wavevs       { background-image: url('/img/img-sostenible/ViajeSostenible/wavevs.webp'); }
 
 /* ── CTA ── */
 .vs-cta-section {

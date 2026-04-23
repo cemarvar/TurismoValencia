@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
-
+﻿
 .vtd-page {
     font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
     color: #1a1a1a;
@@ -10,7 +9,7 @@
 .vtd-hero {
     position: relative;
     height: 520px;
-    background-image: url('/img/img-esencial/TresDias/vlc3.jpg');
+    background-image: url('/img/img-esencial/TresDias/vlc3.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -276,15 +275,15 @@
 }
 
 .img-dia1 {
-    background-image: url('/img/img-esencial/TresDias/dia1.jpg');
+    background-image: url('/img/img-esencial/TresDias/dia1.webp');
 }
 
 .img-dia2 {
-    background-image: url('/img/img-esencial/TresDias/dia2.jpg');
+    background-image: url('/img/img-esencial/TresDias/dia2.webp');
 }
 
 .img-dia3 {
-    background-image: url('/img/img-esencial/TresDias/dia3.jpg');
+    background-image: url('/img/img-esencial/TresDias/dia3.webp');
 }
 
 /* ── Info box ── */

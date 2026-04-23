@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
-
+﻿
 .sn-page {
     font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
     color: #1a1a1a;
@@ -10,7 +9,7 @@
 .sn-hero {
     position: relative;
     height: 540px;
-    background-image: url('/img/img-espacios/IglesiaSanNicolas/hero-IglesiaSanNicolasisn.jpg');
+    background-image: url('/img/img-espacios/IglesiaSanNicolas/hero-IglesiaSanNicolasisn.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -270,12 +269,12 @@
 }
 
 /* Imágenes */
-.img-bovedaisn       { background-image: url('/img/img-espacios/IglesiaSanNicolas/bovedaisn.jpg'); }
-.img-arquitecturaisn { background-image: url('/img/img-espacios/IglesiaSanNicolas/arquitecturaisn.jpg'); }
-.img-luzisn          { background-image: url('/img/img-espacios/IglesiaSanNicolas/luzisn.jpg'); }
-.img-restauracionisn { background-image: url('/img/img-espacios/IglesiaSanNicolas/restauracionisn.jpg'); }
-.img-coleccionisn    { background-image: url('/img/img-espacios/IglesiaSanNicolas/coleccionisn.jpg'); }
-.img-devocionisn     { background-image: url('/img/img-espacios/IglesiaSanNicolas/devocionisn.jpg'); }
+.img-bovedaisn       { background-image: url('/img/img-espacios/IglesiaSanNicolas/bovedaisn.webp'); }
+.img-arquitecturaisn { background-image: url('/img/img-espacios/IglesiaSanNicolas/arquitecturaisn.webp'); }
+.img-luzisn          { background-image: url('/img/img-espacios/IglesiaSanNicolas/luzisn.webp'); }
+.img-restauracionisn { background-image: url('/img/img-espacios/IglesiaSanNicolas/restauracionisn.webp'); }
+.img-coleccionisn    { background-image: url('/img/img-espacios/IglesiaSanNicolas/coleccionisn.webp'); }
+.img-devocionisn     { background-image: url('/img/img-espacios/IglesiaSanNicolas/devocionisn.webp'); }
 
 /* ── Tabla información práctica ── */
 .sn-info-practica {

@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
-
+﻿
 .fam-page {
     font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
     color: #1a1a1a;
@@ -10,7 +9,7 @@
 .fam-hero {
     position: relative;
     height: 520px;
-    background-image: url('/img/img-planes/Familia/fml.jpg');
+    background-image: url('/img/img-planes/Familia/fml.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -324,18 +323,18 @@
 }
 
 /* Imágenes */
-.img-ocgfamilia { background-image: url('/img/img-planes/Familia/ocgfml.jpg'); }
-.img-biofamilia      { background-image: url('/img/img-planes/Familia/biofml.jpg'); }
-.img-gulliver     { background-image: url('/img/img-planes/Familia/gulliver.jpg'); }
-.img-museufamilia        { background-image: url('/img/img-planes/Familia/museufml.jpg'); }
-.img-albufamilia     { background-image: url('/img/img-planes/Familia/albufml.jpg'); }
-.img-tufamilia        { background-image: url('/img/img-planes/Familia/tufml.jpg'); }
-.img-indfamilia      { background-image: url('/img/img-planes/Familia/indfml.jpeg'); }
-.img-iluzfamilia     { background-image: url('/img/img-planes/Familia/iluzionafml.jpeg'); }
-.img-fallerofamilia      { background-image: url('/img/img-planes/Familia/fallerofml.jpg'); }
-.img-ratoncitofamilia    { background-image: url('/img/img-planes/Familia/ratoncitofml.jpg'); }
-.img-playafamilia       { background-image: url('/img/img-planes/Familia/playafml.jpg'); }
-.img-busfamilia          { background-image: url('/img/img-planes/Familia/busfml.jpg'); }
+.img-ocgfamilia { background-image: url('/img/img-planes/Familia/ocgfml.webp'); }
+.img-biofamilia      { background-image: url('/img/img-planes/Familia/biofml.webp'); }
+.img-gulliver     { background-image: url('/img/img-planes/Familia/gulliver.webp'); }
+.img-museufamilia        { background-image: url('/img/img-planes/Familia/museufml.webp'); }
+.img-albufamilia     { background-image: url('/img/img-planes/Familia/albufml.webp'); }
+.img-tufamilia        { background-image: url('/img/img-planes/Familia/tufml.webp'); }
+.img-indfamilia      { background-image: url('/img/img-planes/Familia/indfml.webp'); }
+.img-iluzfamilia     { background-image: url('/img/img-planes/Familia/iluzionafml.webp'); }
+.img-fallerofamilia      { background-image: url('/img/img-planes/Familia/fallerofml.webp'); }
+.img-ratoncitofamilia    { background-image: url('/img/img-planes/Familia/ratoncitofml.webp'); }
+.img-playafamilia       { background-image: url('/img/img-planes/Familia/playafml.webp'); }
+.img-busfamilia          { background-image: url('/img/img-planes/Familia/busfml.webp'); }
 
 /* ── Consejos ── */
 .fam-consejos-section {

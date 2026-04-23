@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
-
+﻿
 .cc-page {
     font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
     color: #1a1a1a;
@@ -10,7 +9,7 @@
 .cccc-hero {
     position: relative;
     height: 540px;
-    background-image: url('/img/img-espacios/CatedralCaliz/hero-catedral-caliz.jpg');
+    background-image: url('/img/img-espacios/CatedralCaliz/hero-catedral-caliz.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -235,11 +234,11 @@
 }
 
 /* Imágenes */
-.img-calizcc     { background-image: url('/img/img-espacios/CatedralCaliz/calizcc.jpeg'); }
+.img-calizcc     { background-image: url('/img/img-espacios/CatedralCaliz/calizcc.webp'); }
 .img-capillacc   { background-image: url('/img/img-espacios/CatedralCaliz/capillacc.JPG'); }
 .img-bovedacc    { background-image: url('/img/img-espacios/CatedralCaliz/bovedacc.JPG'); }
-.img-retablocc   { background-image: url('/img/img-espacios/CatedralCaliz/retablocc.jpg'); }
-.img-cadenascc   { background-image: url('/img/img-espacios/CatedralCaliz/cadenascc.jpg'); }
+.img-retablocc   { background-image: url('/img/img-espacios/CatedralCaliz/retablocc.webp'); }
+.img-cadenascc   { background-image: url('/img/img-espacios/CatedralCaliz/cadenascc.webp'); }
 
 /* ── Cronología ── */
 .cc-cronologia-section {

@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
-
+﻿
 .cl-page {
     font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
     color: #1a1a1a;
@@ -10,7 +9,7 @@
 .cl-hero {
     position: relative;
     height: 520px;
-    background-image: url('/img/img-sostenible/ComercioLocal/hero-comercio-local.png');
+    background-image: url('/img/img-sostenible/ComercioLocal/hero-comercio-local.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -377,12 +376,12 @@
 }
 
 /* Imágenes mercados */
-.img-centralcom   { background-image: url('/img/img-sostenible/ComercioLocal/mercado-centralcom.jpg'); }
-.img-coloncom     { background-image: url('/img/img-sostenible/ComercioLocal/mercado-coloncom.jpg'); }
-.img-ruzafacom    { background-image: url('/img/img-sostenible/ComercioLocal/mercado-ruzafacom.jpg'); }
-.img-cabanyalcom  { background-image: url('/img/img-sostenible/ComercioLocal/mercado-cabanyalcom.jpg'); }
-.img-sorellcom    { background-image: url('/img/img-sostenible/ComercioLocal/mercado-sorellcom.jpg'); }
-.img-graocom      { background-image: url('/img/img-sostenible/ComercioLocal/mercado-graocom.jpg'); }
+.img-centralcom   { background-image: url('/img/img-sostenible/ComercioLocal/mercado-centralcom.webp'); }
+.img-coloncom     { background-image: url('/img/img-sostenible/ComercioLocal/mercado-coloncom.webp'); }
+.img-ruzafacom    { background-image: url('/img/img-sostenible/ComercioLocal/mercado-ruzafacom.webp'); }
+.img-cabanyalcom  { background-image: url('/img/img-sostenible/ComercioLocal/mercado-cabanyalcom.webp'); }
+.img-sorellcom    { background-image: url('/img/img-sostenible/ComercioLocal/mercado-sorellcom.webp'); }
+.img-graocom      { background-image: url('/img/img-sostenible/ComercioLocal/mercado-graocom.webp'); }
 
 /* ── Artesanía ── */
 .cl-artesania-section {
@@ -432,12 +431,12 @@
 }
 
 /* Imágenes artesanía */
-.img-ceramicacom  { background-image: url('/img/img-sostenible/ComercioLocal/ceramicacom.jpg'); }
-.img-sedacom      { background-image: url('/img/img-sostenible/ComercioLocal/sedacom.jpg'); }
-.img-abanicoscom  { background-image: url('/img/img-sostenible/ComercioLocal/abanicoscom.jpg'); }
-.img-lladrocom    { background-image: url('/img/img-sostenible/ComercioLocal/lladrocom.jpg'); }
-.img-joyeriacom   { background-image: url('/img/img-sostenible/ComercioLocal/joyeriacom.jpg'); }
-.img-naranjacom   { background-image: url('/img/img-sostenible/ComercioLocal/naranjacom.jpg'); }
+.img-ceramicacom  { background-image: url('/img/img-sostenible/ComercioLocal/ceramicacom.webp'); }
+.img-sedacom      { background-image: url('/img/img-sostenible/ComercioLocal/sedacom.webp'); }
+.img-abanicoscom  { background-image: url('/img/img-sostenible/ComercioLocal/abanicoscom.webp'); }
+.img-lladrocom    { background-image: url('/img/img-sostenible/ComercioLocal/lladrocom.webp'); }
+.img-joyeriacom   { background-image: url('/img/img-sostenible/ComercioLocal/joyeriacom.webp'); }
+.img-naranjacom   { background-image: url('/img/img-sostenible/ComercioLocal/naranjacom.webp'); }
 
 .cl-artesania-body {
     padding: 20px;

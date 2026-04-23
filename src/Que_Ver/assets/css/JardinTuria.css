@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
-
+﻿
 .jt-page {
     font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
     color: #1a1a1a;
@@ -10,7 +9,7 @@
 .jt-hero {
     position: relative;
     height: 560px;
-    background-image: url('/img/img-espacios/JardinTuria/hero-JardinTuria.jpg');
+    background-image: url('/img/img-espacios/JardinTuria/hero-JardinTuria.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -323,12 +322,12 @@
 }
 
 /* Imágenes */
-.img-cabecerajt  { background-image: url('/img/img-espacios/JardinTuria/cabecerajt.jpg'); }
-.img-deportesjt  { background-image: url('/img/img-espacios/JardinTuria/deportesjt.jpg'); }
-.img-musicajt    { background-image: url('/img/img-espacios/JardinTuria/musicajt.jpg'); }
-.img-gulliverjt  { background-image: url('/img/img-espacios/JardinTuria/gulliverjt.jpg'); }
-.img-cacjt       { background-image: url('/img/img-espacios/JardinTuria/cacjt.jpg'); }
-.img-puentesjt   { background-image: url('/img/img-espacios/JardinTuria/puentesjt.jpg'); }
+.img-cabecerajt  { background-image: url('/img/img-espacios/JardinTuria/cabecerajt.webp'); }
+.img-deportesjt  { background-image: url('/img/img-espacios/JardinTuria/deportesjt.webp'); }
+.img-musicajt    { background-image: url('/img/img-espacios/JardinTuria/musicajt.webp'); }
+.img-gulliverjt  { background-image: url('/img/img-espacios/JardinTuria/gulliverjt.webp'); }
+.img-cacjt       { background-image: url('/img/img-espacios/JardinTuria/cacjt.webp'); }
+.img-puentesjt   { background-image: url('/img/img-espacios/JardinTuria/puentesjt.webp'); }
 
 /* ── Tabla información práctica ── */
 .jt-info-practica {

@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
-
+﻿
 .ft-page {
     font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
     color: #1a1a1a;
@@ -10,7 +9,7 @@
 .ft-hero {
     position: relative;
     height: 540px;
-    background-image: url('/img/img-planes/FiestasTradicionales/FT.jpg');
+    background-image: url('/img/img-planes/FiestasTradicionales/FT.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -346,15 +345,15 @@
 }
 
 /* Imágenes */
-.img-FTreyes      { background-image: url('/img/img-planes/FiestasTradicionales/sanantonio.jpg'); }
-.img-FTsanvicente { background-image: url('/img/img-planes/FiestasTradicionales/vicente.jpg'); }
-.img-FTfallas     { background-image: url('/img/img-planes/FiestasTradicionales/fallas.jpg'); }
-.img-FTsemanasanta { background-image: url('/img/img-planes/FiestasTradicionales/santamaria.jpeg'); }
-.img-FTvirgen     { background-image: url('/img/img-planes/FiestasTradicionales/virgend.jpg'); }
-.img-FTcorpus     { background-image: url('/img/img-planes/FiestasTradicionales/corpus.jpg'); }
-.img-FTferia      { background-image: url('/img/img-planes/FiestasTradicionales/granferia.jpg'); }
-.img-FT9octubre   { background-image: url('/img/img-planes/FiestasTradicionales/nouoctubre.jpg'); }
-.img-FTnavidad    { background-image: url('/img/img-planes/FiestasTradicionales/navidadvalencia.jpg'); }
+.img-FTreyes      { background-image: url('/img/img-planes/FiestasTradicionales/sanantonio.webp'); }
+.img-FTsanvicente { background-image: url('/img/img-planes/FiestasTradicionales/vicente.webp'); }
+.img-FTfallas     { background-image: url('/img/img-planes/FiestasTradicionales/fallas.webp'); }
+.img-FTsemanasanta { background-image: url('/img/img-planes/FiestasTradicionales/santamaria.webp'); }
+.img-FTvirgen     { background-image: url('/img/img-planes/FiestasTradicionales/virgend.webp'); }
+.img-FTcorpus     { background-image: url('/img/img-planes/FiestasTradicionales/corpus.webp'); }
+.img-FTferia      { background-image: url('/img/img-planes/FiestasTradicionales/granferia.webp'); }
+.img-FT9octubre   { background-image: url('/img/img-planes/FiestasTradicionales/nouoctubre.webp'); }
+.img-FTnavidad    { background-image: url('/img/img-planes/FiestasTradicionales/navidadvalencia.webp'); }
 
 /* ── Info box ── */
 .ft-info-box {

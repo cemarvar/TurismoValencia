@@ -3,12 +3,12 @@ import Estancia from '..//ALOJAMIENTOS/Estancia';
 
 export default function GridEstancia() {
     var elementos = [
-        { imagen: "/img/img-alojamientos/centro.jpg",           titulo: "Centro",                                   ruta: "/Centro" },
-        { imagen: "/img/img-alojamientos/artes-ciencias.jpg",   titulo: "Ciudad de las Artes y las Ciencias",       ruta: "/CiudadArtesCienciasAloj" },
-        { imagen: "/img/img-alojamientos/ruzafa.jpg",           titulo: "Barrio Ruzafa",                            ruta: "/BarrioRuzada" },
-        { imagen: "/img/img-alojamientos/gran-via.jpg",         titulo: "Barrio Gran Vía",                          ruta: "/BarrioGranVia" },
-        { imagen: "/img/img-alojamientos/arenas.jpg",           titulo: "Zona de playa y Paseo Marítimo",           ruta: "/ZonaPlayaPaseoMaritimo" },
-        { imagen: "/img/img-alojamientos/alojamiento.jpg",      titulo: "Alojamiento Barato y Exclusivo",          ruta: "/BaratoExclusivo" }
+        { imagen: "/img/img-alojamientos/centro.webp",           titulo: "Centro",                                   ruta: "/Centro" },
+        { imagen: "/img/img-alojamientos/artes-ciencias.webp",   titulo: "Ciudad de las Artes y las Ciencias",       ruta: "/CiudadArtesCienciasAloj" },
+        { imagen: "/img/img-alojamientos/ruzafa.webp",           titulo: "Barrio Ruzafa",                            ruta: "/BarrioRuzada" },
+        { imagen: "/img/img-alojamientos/gran-via.webp",         titulo: "Barrio Gran Vía",                          ruta: "/BarrioGranVia" },
+        { imagen: "/img/img-alojamientos/arenas.webp",           titulo: "Zona de playa y Paseo Marítimo",           ruta: "/ZonaPlayaPaseoMaritimo" },
+        { imagen: "/img/img-alojamientos/alojamiento.webp",      titulo: "Alojamiento Barato y Exclusivo",          ruta: "/BaratoExclusivo" }
     ];
 
     return (

@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
-
+﻿
 .pg-page {
     font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
     color: #1a1a1a;
@@ -10,7 +9,7 @@
 .pg-hero {
     position: relative;
     height: 560px;
-    background-image: url('/img/img-tours/PrivadoGrupo/hero-privadogrupo.jpg');
+    background-image: url('/img/img-tours/PrivadoGrupo/hero-privadogrupo.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -268,10 +267,10 @@
     background-color: #08080a;
 }
 
-.img-pg-turiart       { background-image: url('/img/img-tours/PrivadoGrupo/turiartpg.jpg'); }
-.img-pg-guiding       { background-image: url('/img/img-tours/PrivadoGrupo/guidingpg.jpg'); }
-.img-pg-discovering   { background-image: url('/img/img-tours/PrivadoGrupo/discoveringpg.jpg'); }
-.img-pg-valenciaandgo { background-image: url('/img/img-tours/PrivadoGrupo/valenciaandgopg.jpg'); }
+.img-pg-turiart       { background-image: url('/img/img-tours/PrivadoGrupo/turiartpg.webp'); }
+.img-pg-guiding       { background-image: url('/img/img-tours/PrivadoGrupo/guidingpg.webp'); }
+.img-pg-discovering   { background-image: url('/img/img-tours/PrivadoGrupo/discoveringpg.webp'); }
+.img-pg-valenciaandgo { background-image: url('/img/img-tours/PrivadoGrupo/valenciaandgopg.webp'); }
 
 /* ── Todos los operadores ── */
 .pg-todos-section {

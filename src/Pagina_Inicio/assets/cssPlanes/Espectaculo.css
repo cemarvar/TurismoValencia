@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
-
+﻿
 .esp-page {
     font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
     color: #1a1a1a;
@@ -10,7 +9,7 @@
 .esp-hero {
     position: relative;
     height: 520px;
-    background-image: url('/img/img-planes/Espectaculo/teatre.jpg');
+    background-image: url('/img/img-planes/Espectaculo/teatre.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -314,11 +313,11 @@
 }
 
 /* Imágenes */
-.img-parf    { background-image: url('/img/img-planes/Espectaculo/parf.jpg'); }
-.img-palaumusica { background-image: url('/img/img-planes/Espectaculo/palaumusica.jpeg'); }
-.img-olympia    { background-image: url('/img/img-planes/Espectaculo/teatroolympia.jpg'); }
-.img-talia      { background-image: url('/img/img-planes/Espectaculo/talia.jpg'); }
-.img-russafa    { background-image: url('/img/img-planes/Espectaculo/salarussafa.jpg'); }
+.img-parf    { background-image: url('/img/img-planes/Espectaculo/parf.webp'); }
+.img-palaumusica { background-image: url('/img/img-planes/Espectaculo/palaumusica.webp'); }
+.img-olympia    { background-image: url('/img/img-planes/Espectaculo/teatroolympia.webp'); }
+.img-talia      { background-image: url('/img/img-planes/Espectaculo/talia.webp'); }
+.img-russafa    { background-image: url('/img/img-planes/Espectaculo/salarussafa.webp'); }
 
 /* ── Otras opciones ── */
 .esp-otras-section {
@@ -367,10 +366,10 @@
     background-color: #1a2a4a;
 }
 
-.img-candlelight { background-image: url('/img/img-planes/Espectaculo/candlelight.jpg'); }
-.img-roig      { background-image: url('/img/img-planes/Espectaculo/roig-arenae.jpeg'); }
-.img-marina      { background-image: url('/img/img-planes/Espectaculo/marina-concert.jpg'); }
-.img-lococclub   { background-image: url('/img/img-planes/Espectaculo/lococlub.jpg'); }
+.img-candlelight { background-image: url('/img/img-planes/Espectaculo/candlelight.webp'); }
+.img-roig      { background-image: url('/img/img-planes/Espectaculo/roig-arenae.webp'); }
+.img-marina      { background-image: url('/img/img-planes/Espectaculo/marina-concert.webp'); }
+.img-lococclub   { background-image: url('/img/img-planes/Espectaculo/lococlub.webp'); }
 
 .esp-otra-body {
     padding: 18px 20px;

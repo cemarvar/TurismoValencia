@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
-
+﻿
 .fid-page {
     font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
     color: #1a1a1a;
@@ -10,7 +9,7 @@
 .fid-hero {
     position: relative;
     height: 520px;
-    background-image: url('/img/img-gastronomia/fideua/hero-fideuafdu.jpg');
+    background-image: url('/img/img-gastronomia/fideua/hero-fideuafdu.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -264,10 +263,10 @@
 }
 
 /* Imágenes */
-.img-tradicionalfdu { background-image: url('/img/img-gastronomia/fideua/tradicionalfdu.jpg'); }
-.img-senyoretfdu    { background-image: url('/img/img-gastronomia/fideua/senyoretfdu.jpg'); }
-.img-negrafdu       { background-image: url('/img/img-gastronomia/fideua/negrafdu.jpg'); }
-.img-huertafdu      { background-image: url('/img/img-gastronomia/fideua/huertafdu.jpg'); }
+.img-tradicionalfdu { background-image: url('/img/img-gastronomia/fideua/tradicionalfdu.webp'); }
+.img-senyoretfdu    { background-image: url('/img/img-gastronomia/fideua/senyoretfdu.webp'); }
+.img-negrafdu       { background-image: url('/img/img-gastronomia/fideua/negrafdu.webp'); }
+.img-huertafdu      { background-image: url('/img/img-gastronomia/fideua/huertafdu.webp'); }
 
 /* ── Secretos ── */
 .fid-secretos-wrap {

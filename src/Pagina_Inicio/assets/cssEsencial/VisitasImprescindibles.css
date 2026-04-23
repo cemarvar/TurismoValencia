@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
-
+﻿
 .imprescindibles-page {
     font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
     color: #1a1a1a;
@@ -10,7 +9,7 @@
 .imp-hero {
     position: relative;
     height: 520px;
-    background-image: url('/img/img-esencial/VisitasImprescindibles/VisitasImprescindibles.jpg');
+    background-image: url('/img/img-esencial/VisitasImprescindibles/VisitasImprescindibles.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -216,43 +215,43 @@
 
 /* ── Imágenes de cada plan ── */
 .img-cacvi {
-    background-image: url('/img/img-esencial/VisitasImprescindibles/ctac.jpg');
+    background-image: url('/img/img-esencial/VisitasImprescindibles/ctac.webp');
 }
 
 .img-catedralvi {
-    background-image: url('/img/img-esencial/VisitasImprescindibles/catedral.jpg');
+    background-image: url('/img/img-esencial/VisitasImprescindibles/catedral.webp');
 }
 
 .img-sannicolasvi {
-    background-image: url('/img/img-esencial/VisitasImprescindibles/capilla.jpg');
+    background-image: url('/img/img-esencial/VisitasImprescindibles/capilla.webp');
 }
 
 .img-lonjavi {
-    background-image: url('/img/img-esencial/VisitasImprescindibles/lonjaseda.jpg');
+    background-image: url('/img/img-esencial/VisitasImprescindibles/lonjaseda.webp');
 }
 
 .img-mercadovi {
-    background-image: url('/img/img-esencial/VisitasImprescindibles/mercado.jpg');
+    background-image: url('/img/img-esencial/VisitasImprescindibles/mercado.webp');
 }
 
 .img-plazaredondavi {
-    background-image: url('/img/img-esencial/VisitasImprescindibles/redonda.jpg');
+    background-image: url('/img/img-esencial/VisitasImprescindibles/redonda.webp');
 }
 
 .img-carmenvi {
-    background-image: url('/img/img-esencial/VisitasImprescindibles/carmen.jpg');
+    background-image: url('/img/img-esencial/VisitasImprescindibles/carmen.webp');
 }
 
 .img-jturiavi {
-    background-image: url('/img/img-esencial/VisitasImprescindibles/turia.jpg');
+    background-image: url('/img/img-esencial/VisitasImprescindibles/turia.webp');
 }
 
 .img-cabanyalvi {
-    background-image: url('/img/img-esencial/VisitasImprescindibles/cabanyal.jpg');
+    background-image: url('/img/img-esencial/VisitasImprescindibles/cabanyal.webp');
 }
 
 .img-palbuferavi {
-    background-image: url('/img/img-esencial/VisitasImprescindibles/albufera.jpg');
+    background-image: url('/img/img-esencial/VisitasImprescindibles/albufera.webp');
 }
 
 /* ── Info box ── */

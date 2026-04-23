@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
-
+﻿
 .ag-page {
     font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
     color: #1a1a1a;
@@ -10,7 +9,7 @@
 .ag-hero {
     position: relative;
     height: 560px;
-    background-image: url('/img/img-experiencias/ActividadesGastronomicas/hero-actividadesgastronomicas.jpg');
+    background-image: url('/img/img-experiencias/ActividadesGastronomicas/hero-actividadesgastronomicas.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -302,11 +301,11 @@
     background-color: #140600;
 }
 
-.img-ag-flamenco    { background-image: url('/img/img-experiencias/ActividadesGastronomicas/flamencoag.jpg'); }
-.img-ag-paella      { background-image: url('/img/img-experiencias/ActividadesGastronomicas/paellaag.jpg'); }
-.img-ag-albufera    { background-image: url('/img/img-experiencias/ActividadesGastronomicas/albuferaag.jpg'); }
-.img-ag-bus-albufera{ background-image: url('/img/img-experiencias/ActividadesGastronomicas/busalbuferaag.jpg'); }
-.img-ag-requena     { background-image: url('/img/img-experiencias/ActividadesGastronomicas/requenaag.jpg'); }
+.img-ag-flamenco    { background-image: url('/img/img-experiencias/ActividadesGastronomicas/flamencoag.webp'); }
+.img-ag-paella      { background-image: url('/img/img-experiencias/ActividadesGastronomicas/paellaag.webp'); }
+.img-ag-albufera    { background-image: url('/img/img-experiencias/ActividadesGastronomicas/albuferaag.webp'); }
+.img-ag-bus-albufera{ background-image: url('/img/img-experiencias/ActividadesGastronomicas/busalbuferaag.webp'); }
+.img-ag-requena     { background-image: url('/img/img-experiencias/ActividadesGastronomicas/requenaag.webp'); }
 
 /* ── Tabla info útil ── */
 .ag-info-practica {

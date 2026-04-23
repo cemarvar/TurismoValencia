@@ -3,12 +3,12 @@ import Destacados from '../DESTACADOS/Destacados';
 
 export default function GridDestacados() {
     var elementos = [
-    { imagen: "/img/img-eventos/valencia-festivos.jpg",         titulo: "Festivos",                   ruta: "/Festivos"  },
-        { imagen: "/img/img-eventos/fallas.jpg",                titulo: "Fallas",                     ruta: "/Fallas"  },
-        { imagen: "/img/img-eventos/deportes.jpg",              titulo: "Deportes",                   ruta: "/Deportes"  },
-        { imagen: "/img/img-eventos/feria.jpeg",                titulo: "Gran Feria de Valencia",     ruta: "/GranFeria"  },
-        { imagen: "/img/img-eventos/festivales.jpg",            titulo: "Festivales de Verano",       ruta: "/FestivalesVerano"  },
-    { imagen: "/img/img-eventos/corpus.jpg",                    titulo: "Corpus Christi",             ruta: "/CorpusChristi"  }
+    { imagen: "/img/img-eventos/valencia-festivos.webp",         titulo: "Festivos",                   ruta: "/Festivos"  },
+        { imagen: "/img/img-eventos/fallas.webp",                titulo: "Fallas",                     ruta: "/Fallas"  },
+        { imagen: "/img/img-eventos/deportes.webp",              titulo: "Deportes",                   ruta: "/Deportes"  },
+        { imagen: "/img/img-eventos/feria.webp",                titulo: "Gran Feria de Valencia",     ruta: "/GranFeria"  },
+        { imagen: "/img/img-eventos/festivales.webp",            titulo: "Festivales de Verano",       ruta: "/FestivalesVerano"  },
+    { imagen: "/img/img-eventos/corpus.webp",                    titulo: "Corpus Christi",             ruta: "/CorpusChristi"  }
     ];
 
     return (

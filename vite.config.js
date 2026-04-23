@@ -8,5 +8,17 @@ export default defineConfig({
     proxy: {
       '/api': 'http://localhost'
     }
+  },
+  build: {
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          vendor: ['react', 'react-dom'],
+          router: ['react-router-dom', 'react-router-hash-link'],
+          maps: ['leaflet', 'react-leaflet'],
+          player: ['react-player'],
+        }
+      }
+    }
   }
 })

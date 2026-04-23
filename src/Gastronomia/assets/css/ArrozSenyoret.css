@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
-
+﻿
 .sen-page {
     font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
     color: #1a1a1a;
@@ -10,7 +9,7 @@
 .sen-hero {
     position: relative;
     height: 520px;
-    background-image: url('/img/img-gastronomia/arrozsenyoret/hero-arrozsenyoretasy.jpg');
+    background-image: url('/img/img-gastronomia/arrozsenyoret/hero-arrozsenyoretasy.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -244,11 +243,11 @@
 }
 
 /* Imágenes */
-.img-sen-platoasy      { background-image: url('/img/img-gastronomia/arrozsenyoret/platoasy.jpg'); }
-.img-sen-historiaasy   { background-image: url('/img/img-gastronomia/arrozsenyoret/historiaasy.jpg'); }
-.img-sen-salmorretaasy { background-image: url('/img/img-gastronomia/arrozsenyoret/salmorretaasy.jpg'); }
-.img-sen-diferenciaasy { background-image: url('/img/img-gastronomia/arrozsenyoret/diferenciaasy.jpg'); }
-.img-sen-fumetasy      { background-image: url('/img/img-gastronomia/arrozsenyoret/fumetasy.png'); }
+.img-sen-platoasy      { background-image: url('/img/img-gastronomia/arrozsenyoret/platoasy.webp'); }
+.img-sen-historiaasy   { background-image: url('/img/img-gastronomia/arrozsenyoret/historiaasy.webp'); }
+.img-sen-salmorretaasy { background-image: url('/img/img-gastronomia/arrozsenyoret/salmorretaasy.webp'); }
+.img-sen-diferenciaasy { background-image: url('/img/img-gastronomia/arrozsenyoret/diferenciaasy.webp'); }
+.img-sen-fumetasy      { background-image: url('/img/img-gastronomia/arrozsenyoret/fumetasy.webp'); }
 
 /* ── Claves ── */
 .sen-claves-wrap {

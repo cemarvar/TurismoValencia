@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
-
+﻿
 .ch-page {
     font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
     color: #1a1a1a;
@@ -10,7 +9,7 @@
 .ch-hero {
     position: relative;
     height: 560px;
-    background-image: url('/img/img-tours/CentroHistorico/hero-centrohistorico.jpg');
+    background-image: url('/img/img-tours/CentroHistorico/hero-centrohistorico.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -269,9 +268,9 @@
     background-color: #120900;
 }
 
-.img-ch-esencial { background-image: url('/img/img-tours/CentroHistorico/esencialch.jpg'); }
-.img-ch-lonja    { background-image: url('/img/img-tours/CentroHistorico/lonjach.jpg'); }
-.img-ch-arte     { background-image: url('/img/img-tours/CentroHistorico/artech.jpg'); }
+.img-ch-esencial { background-image: url('/img/img-tours/CentroHistorico/esencialch.webp'); }
+.img-ch-lonja    { background-image: url('/img/img-tours/CentroHistorico/lonjach.webp'); }
+.img-ch-arte     { background-image: url('/img/img-tours/CentroHistorico/artech.webp'); }
 
 /* ── Tours temáticos ── */
 .ch-tematicos-section {

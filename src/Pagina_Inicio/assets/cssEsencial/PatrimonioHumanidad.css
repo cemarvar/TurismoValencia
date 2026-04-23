@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
-
+﻿
 .ph-page {
     font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
     color: #1a1a1a;
@@ -10,7 +9,7 @@
 .ph-hero {
     position: relative;
     height: 520px;
-    background-image: url('/img/img-esencial/PatrimonioHumanidad/patrimonio-humanidad.jpg');
+    background-image: url('/img/img-esencial/PatrimonioHumanidad/patrimonio-humanidad.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -344,19 +343,19 @@
 
 /* Imágenes */
 .img-lonja {
-    background-image: url('/img/img-esencial/PatrimonioHumanidad/lonja-seda.jpg');
+    background-image: url('/img/img-esencial/PatrimonioHumanidad/lonja-seda.webp');
 }
 
 .img-tribunal {
-    background-image: url('/img/img-esencial/PatrimonioHumanidad/tribunal-aguas.jpg');
+    background-image: url('/img/img-esencial/PatrimonioHumanidad/tribunal-aguas.webp');
 }
 
 .img-fallasph {
-    background-image: url('/img/img-esencial/PatrimonioHumanidad/falles.jpg');
+    background-image: url('/img/img-esencial/PatrimonioHumanidad/falles.webp');
 }
 
 .img-campanas {
-    background-image: url('/img/img-esencial/PatrimonioHumanidad/campanas.jpg');
+    background-image: url('/img/img-esencial/PatrimonioHumanidad/campanas.webp');
 }
 
 /* ── Sección Comunitat ── */

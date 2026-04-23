@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
-
+﻿
 .exc-page {
     font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
     color: #1a1a1a;
@@ -10,7 +9,7 @@
 .exc-hero {
     position: relative;
     height: 560px;
-    background-image: url('/img/img-experiencias/Excursiones/hero-excursionesexc.jpg');
+    background-image: url('/img/img-experiencias/Excursiones/hero-excursionesexc.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -268,12 +267,12 @@
     background-color: #040e04;
 }
 
-.img-exc-cuevas     { background-image: url('/img/img-experiencias/Excursiones/cuevasexc.jpg'); }
-.img-exc-montanejos { background-image: url('/img/img-experiencias/Excursiones/montanejosexc.jpg'); }
-.img-exc-sagunto    { background-image: url('/img/img-experiencias/Excursiones/saguntoexc.jpg'); }
-.img-exc-peniscola  { background-image: url('/img/img-experiencias/Excursiones/peniscolaexc.jpg'); }
-.img-exc-requena    { background-image: url('/img/img-experiencias/Excursiones/requenaexc.jpg'); }
-.img-bioparc        { background-image: url('/img/img-esencial/Bioparc/encuentro-cuidadores.jpg'); }
+.img-exc-cuevas     { background-image: url('/img/img-experiencias/Excursiones/cuevasexc.webp'); }
+.img-exc-montanejos { background-image: url('/img/img-experiencias/Excursiones/montanejosexc.webp'); }
+.img-exc-sagunto    { background-image: url('/img/img-experiencias/Excursiones/saguntoexc.webp'); }
+.img-exc-peniscola  { background-image: url('/img/img-experiencias/Excursiones/peniscolaexc.webp'); }
+.img-exc-requena    { background-image: url('/img/img-experiencias/Excursiones/requenaexc.webp'); }
+.img-bioparc        { background-image: url('/img/img-esencial/Bioparc/encuentro-cuidadores.webp'); }
 
 /* ── Tabla info útil ── */
 .exc-info-practica {

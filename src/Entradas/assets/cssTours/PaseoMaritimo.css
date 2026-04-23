@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
-
+﻿
 .pm-page {
     font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
     color: #1a1a1a;
@@ -10,7 +9,7 @@
 .pm-hero {
     position: relative;
     height: 580px;
-    background-image: url('/img/img-tours/PaseoMaritimo/hero-paseomaritimo.jpg');
+    background-image: url('/img/img-tours/PaseoMaritimo/hero-paseomaritimo.webp');
     background-position: center 60%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -249,9 +248,9 @@
     background-color: #001626;
 }
 
-.img-pm-arenas     { background-image: url('/img/img-tours/PaseoMaritimo/arenaspm.jpg'); }
-.img-pm-malvarrosa { background-image: url('/img/img-tours/PaseoMaritimo/malvarrosapm.jpg'); }
-.img-pm-patacona   { background-image: url('/img/img-tours/PaseoMaritimo/pataconapm.jpg'); }
+.img-pm-arenas     { background-image: url('/img/img-tours/PaseoMaritimo/arenaspm.webp'); }
+.img-pm-malvarrosa { background-image: url('/img/img-tours/PaseoMaritimo/malvarrosapm.webp'); }
+.img-pm-patacona   { background-image: url('/img/img-tours/PaseoMaritimo/pataconapm.webp'); }
 
 /* ── Actividades ── */
 .pm-actividades-section {

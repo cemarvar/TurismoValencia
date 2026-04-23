@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
-
+﻿
 .bex-page {
     font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
     color: #1a1a1a;
@@ -21,7 +20,7 @@
 }
 
 .bex-hero--main {
-    background-image: url('/img/img-alojamientos/BaratoExclusivo/hero-baratoexclusivo.jpg');
+    background-image: url('/img/img-alojamientos/BaratoExclusivo/hero-baratoexclusivo.webp');
 }
 
 .bex-hero-overlay {
@@ -275,14 +274,14 @@
 }
 
 /* ── Imágenes exclusivos ── */
-.img-ex-lasarenasbealoj { background-image: url('/img/img-alojamientos/BaratoExclusivo/lasarenasbealoj.jpg'); }
-.img-ex-westinbealoj    { background-image: url('/img/img-alojamientos/BaratoExclusivo/westinbealoj.jpg'); }
+.img-ex-lasarenasbealoj { background-image: url('/img/img-alojamientos/BaratoExclusivo/lasarenasbealoj.webp'); }
+.img-ex-westinbealoj    { background-image: url('/img/img-alojamientos/BaratoExclusivo/westinbealoj.webp'); }
 
 /* ── Imágenes baratos ── */
-.img-bar-travelodgebealoj  { background-image: url('/img/img-alojamientos/BaratoExclusivo/travelodgebealoj.jpg'); }
-.img-bar-adhocbealoj       { background-image: url('/img/img-alojamientos/BaratoExclusivo/adhocbealoj.jpg'); }
-.img-bar-villacarlosbealoj { background-image: url('/img/img-alojamientos/BaratoExclusivo/villacarlosbealoj.jpg'); }
-.img-bar-veneciabealoj     { background-image: url('/img/img-alojamientos/BaratoExclusivo/veneciabealoj.jpg'); }
+.img-bar-travelodgebealoj  { background-image: url('/img/img-alojamientos/BaratoExclusivo/travelodgebealoj.webp'); }
+.img-bar-adhocbealoj       { background-image: url('/img/img-alojamientos/BaratoExclusivo/adhocbealoj.webp'); }
+.img-bar-villacarlosbealoj { background-image: url('/img/img-alojamientos/BaratoExclusivo/villacarlosbealoj.webp'); }
+.img-bar-veneciabealoj     { background-image: url('/img/img-alojamientos/BaratoExclusivo/veneciabealoj.webp'); }
 
 
 

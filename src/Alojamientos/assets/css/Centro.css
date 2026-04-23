@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
-
+﻿
 .cen-page {
     font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
     color: #1a1a1a;
@@ -10,7 +9,7 @@
 .cen-hero {
     position: relative;
     height: 560px;
-    background-image: url('/img/img-alojamientos/Centro/hero-centrocto.jpg');
+    background-image: url('/img/img-alojamientos/Centro/hero-centrocto.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -271,10 +270,10 @@
 }
 
 /* Imágenes */
-.img-meliacto     { background-image: url('/img/img-alojamientos/Centro/meliacto.jpg'); }
-.img-cabillerscto { background-image: url('/img/img-alojamientos/Centro/cabillerscto.jpg'); }
-.img-veneciacto   { background-image: url('/img/img-alojamientos/Centro/veneciacto.jpg'); }
-.img-sorollacto   { background-image: url('/img/img-alojamientos/Centro/sorollacto.jpg'); }
+.img-meliacto     { background-image: url('/img/img-alojamientos/Centro/meliacto.webp'); }
+.img-cabillerscto { background-image: url('/img/img-alojamientos/Centro/cabillerscto.webp'); }
+.img-veneciacto   { background-image: url('/img/img-alojamientos/Centro/veneciacto.webp'); }
+.img-sorollacto   { background-image: url('/img/img-alojamientos/Centro/sorollacto.webp'); }
 
 /* ── Tabla información práctica ── */
 .cen-info-practica {

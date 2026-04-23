@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
-
+﻿
 .ah-page {
     font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
     color: #1a1a1a;
@@ -10,7 +9,7 @@
 .ah-hero {
     position: relative;
     height: 520px;
-    background-image: url('/img/img-gastronomia/arrozhorno/hero-arrozhornoah.jpg');
+    background-image: url('/img/img-gastronomia/arrozhorno/hero-arrozhornoah.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -244,9 +243,9 @@
 
 /* Imágenes */
 .img-historiaah     { background-image: url('/img/img-gastronomia/arrozhorno/historiaah.JPG'); }
-.img-cazuelaah      { background-image: url('/img/img-gastronomia/arrozhorno/cazuelaah.png'); }
-.img-ingredientesah { background-image: url('/img/img-gastronomia/arrozhorno/ingredientesah.jpg'); }
-.img-variantesah    { background-image: url('/img/img-gastronomia/arrozhorno/variantesah.png'); }
+.img-cazuelaah      { background-image: url('/img/img-gastronomia/arrozhorno/cazuelaah.webp'); }
+.img-ingredientesah { background-image: url('/img/img-gastronomia/arrozhorno/ingredientesah.webp'); }
+.img-variantesah    { background-image: url('/img/img-gastronomia/arrozhorno/variantesah.webp'); }
 
 /* ── Claves ── */
 .ah-claves-wrap {

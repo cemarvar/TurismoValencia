@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
-
+﻿
 .fal-page {
     font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
     color: #1a1a1a;
@@ -10,7 +9,7 @@
 .fal-hero {
     position: relative;
     height: 560px;
-    background-image: url('/img/img-eventos/fallas/hero-fallasfll.jpg');
+    background-image: url('/img/img-eventos/fallas/hero-fallasfll.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -265,13 +264,13 @@
 }
 
 /* Imágenes */
-.img-cridafll   { background-image: url('/img/img-eventos/fallas/cridafll.jpg'); }
-.img-mascletafll { background-image: url('/img/img-eventos/fallas/mascletafll.jpg'); }
-.img-plantafll  { background-image: url('/img/img-eventos/fallas/plantafll.jpg'); }
-.img-ninotfll   { background-image: url('/img/img-eventos/fallas/ninotfll.jpg'); }
-.img-ofrendafll { background-image: url('/img/img-eventos/fallas/ofrendafll.jpg'); }
-.img-focfll     { background-image: url('/img/img-eventos/fallas/focfll.jpg'); }
-.img-cremafll   { background-image: url('/img/img-eventos/fallas/cremafll.jpg'); }
+.img-cridafll   { background-image: url('/img/img-eventos/fallas/cridafll.webp'); }
+.img-mascletafll { background-image: url('/img/img-eventos/fallas/mascletafll.webp'); }
+.img-plantafll  { background-image: url('/img/img-eventos/fallas/plantafll.webp'); }
+.img-ninotfll   { background-image: url('/img/img-eventos/fallas/ninotfll.webp'); }
+.img-ofrendafll { background-image: url('/img/img-eventos/fallas/ofrendafll.webp'); }
+.img-focfll     { background-image: url('/img/img-eventos/fallas/focfll.webp'); }
+.img-cremafll   { background-image: url('/img/img-eventos/fallas/cremafll.webp'); }
 
 /* ── Tabla datos útiles ── */
 .fal-info-practica {

@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
-
+﻿
 .eco-page {
     font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
     color: #1a1a1a;
@@ -10,7 +9,7 @@
 .eco-hero {
     position: relative;
     height: 540px;
-    background-image: url('/img/img-sostenible/Ecoturismo/hero-ecoturismo.jpg');
+    background-image: url('/img/img-sostenible/Ecoturismo/hero-ecoturismo.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -400,14 +399,14 @@
 }
 
 /* Imágenes */
-.img-albuferaeco   { background-image: url('/img/img-sostenible/Ecoturismo/albuferaeco.jpg'); }
-.img-aveseco       { background-image: url('/img/img-sostenible/Ecoturismo/aveseco.jpg'); }
-.img-huertaeco     { background-image: url('/img/img-sostenible/Ecoturismo/huertaeco.jpg'); }
-.img-centroeco     { background-image: url('/img/img-sostenible/Ecoturismo/centroeco.jpg'); }
-.img-goletaeco     { background-image: url('/img/img-sostenible/Ecoturismo/goletaeco.jpg'); }
-.img-arboleseco    { background-image: url('/img/img-sostenible/Ecoturismo/arboleseco.jpg'); }
-.img-senderismoeco { background-image: url('/img/img-sostenible/Ecoturismo/senderismoeco.jpg'); }
-.img-playaseco     { background-image: url('/img/img-sostenible/Ecoturismo/playaseco.jpg'); }
+.img-albuferaeco   { background-image: url('/img/img-sostenible/Ecoturismo/albuferaeco.webp'); }
+.img-aveseco       { background-image: url('/img/img-sostenible/Ecoturismo/aveseco.webp'); }
+.img-huertaeco     { background-image: url('/img/img-sostenible/Ecoturismo/huertaeco.webp'); }
+.img-centroeco     { background-image: url('/img/img-sostenible/Ecoturismo/centroeco.webp'); }
+.img-goletaeco     { background-image: url('/img/img-sostenible/Ecoturismo/goletaeco.webp'); }
+.img-arboleseco    { background-image: url('/img/img-sostenible/Ecoturismo/arboleseco.webp'); }
+.img-senderismoeco { background-image: url('/img/img-sostenible/Ecoturismo/senderismoeco.webp'); }
+.img-playaseco     { background-image: url('/img/img-sostenible/Ecoturismo/playaseco.webp'); }
 
 /* ── Info box ── */
 .eco-info-box {

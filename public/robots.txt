@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://turismovalenciaa.netlify.app/sitemap.xml

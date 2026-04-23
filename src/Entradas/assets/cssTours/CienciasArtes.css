@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
-
+﻿
 .ca-page {
     font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
     color: #1a1a1a;
@@ -10,7 +9,7 @@
 .ca-hero {
     position: relative;
     height: 560px;
-    background-image: url('/img/img-tours/CienciasArtes/hero-cienciasartescat.jpg');
+    background-image: url('/img/img-tours/CienciasArtes/hero-cienciasartescat.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -294,10 +293,10 @@
     background-color: #00090f;
 }
 
-.img-ca-arquitectonicacat { background-image: url('/img/img-tours/CienciasArtes/arquitectonicacat.jpg'); }
-.img-ca-museucat          { background-image: url('/img/img-tours/CienciasArtes/museucat.jpg'); }
-.img-ca-martecat          { background-image: url('/img/img-tours/CienciasArtes/martecat.jpg'); }
-.img-ca-leonardocat       { background-image: url('/img/img-tours/CienciasArtes/leonardocat.jpg'); }
+.img-ca-arquitectonicacat { background-image: url('/img/img-tours/CienciasArtes/arquitectonicacat.webp'); }
+.img-ca-museucat          { background-image: url('/img/img-tours/CienciasArtes/museucat.webp'); }
+.img-ca-martecat          { background-image: url('/img/img-tours/CienciasArtes/martecat.webp'); }
+.img-ca-leonardocat       { background-image: url('/img/img-tours/CienciasArtes/leonardocat.webp'); }
 
 /* ── La Ciencia a Escena ── */
 .ca-escena-section {

@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
-
+﻿
 .cam-page {
     font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
     color: #1a1a1a;
@@ -10,7 +9,7 @@
 .cam-hero {
     position: relative;
     height: 520px;
-    background-image: url('/img/img-esencial/CiudadAmurallada/torres.jpg');
+    background-image: url('/img/img-esencial/CiudadAmurallada/torres.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -397,11 +396,11 @@
 }
 
 .img-serranosca {
-    background-image: url('/img/img-esencial/CiudadAmurallada/torres-serrano.jpg');
+    background-image: url('/img/img-esencial/CiudadAmurallada/torres-serrano.webp');
 }
 
 .img-quartca {
-    background-image: url('/img/img-esencial/CiudadAmurallada/torres-quart.jpg');
+    background-image: url('/img/img-esencial/CiudadAmurallada/torres-quart.webp');
 }
 
 /* Ficha de datos técnicos */

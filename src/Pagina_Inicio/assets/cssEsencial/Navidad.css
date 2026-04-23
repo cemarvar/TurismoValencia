@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
-
+﻿
 .navidad-page {
     font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
     color: #1a1a1a;
@@ -10,7 +9,7 @@
 .nv-hero {
     position: relative;
     height: 520px;
-    background-image: url('/img/img-esencial/Navidad/nv.jpg');
+    background-image: url('/img/img-esencial/Navidad/nv.webp');
     overflow: hidden;
     display: flex;
     align-items: flex-end;
@@ -224,7 +223,7 @@
 }
 
 .img-navidad {
-    background-image: url('/img/img-esencial/Navidad/arbol.jpg');
+    background-image: url('/img/img-esencial/Navidad/arbol.webp');
 
     background-position: center;
 
@@ -234,7 +233,7 @@
 }
 
 .img-luces {
-    background-image: url('/img/img-esencial/Navidad/luces.jpg');
+    background-image: url('/img/img-esencial/Navidad/luces.webp');
 
     background-position: center;
 
@@ -243,7 +242,7 @@
     background-size: cover;}
 
 .img-museum {
-    background-image: url('/img/img-esencial/Navidad/belen.jpg');
+    background-image: url('/img/img-esencial/Navidad/belen.webp');
 
     background-position: center;
 
@@ -252,7 +251,7 @@
     background-size: cover;}
 
 .img-bionavidad {
-    background-image: url('/img/img-esencial/Navidad/bionavidad.jpg');
+    background-image: url('/img/img-esencial/Navidad/bionavidad.webp');
 
     background-position: center;
 
@@ -261,7 +260,7 @@
     background-size: cover;}
 
 .img-food {
-    background-image: url('/img/img-esencial/Navidad/turron.jpg');
+    background-image: url('/img/img-esencial/Navidad/turron.webp');
 
     background-position: center;
 
@@ -270,7 +269,7 @@
     background-size: cover;}
 
 .img-musicana {
-    background-image: url('/img/img-esencial/Navidad/conci.jpeg');
+    background-image: url('/img/img-esencial/Navidad/conci.webp');
 
     background-position: center;
 

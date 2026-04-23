@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
-
+﻿
 .ocn-page {
     font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
     color: #1a1a1a;
@@ -10,7 +9,7 @@
 .ocn-hero {
     position: relative;
     height: 560px;
-    background-image: url('/img/img-espacios/Oceanografic/hero-oceanografic.jpg');
+    background-image: url('/img/img-espacios/Oceanografic/hero-oceanografic.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -289,14 +288,14 @@
 }
 
 /* Imágenes */
-.img-oceanosocn     { background-image: url('/img/img-espacios/Oceanografic/oceanosocn.jpg'); }
-.img-articoocn      { background-image: url('/img/img-espacios/Oceanografic/articoocn.jpg'); }
-.img-delfinarioocn  { background-image: url('/img/img-espacios/Oceanografic/delfinarioocn.jpg'); }
-.img-antarticoocn   { background-image: url('/img/img-espacios/Oceanografic/antarticoocn.jpg'); }
-.img-tropicalesocn  { background-image: url('/img/img-espacios/Oceanografic/tropicalesocn.jpg'); }
-.img-mediterraneoocn { background-image: url('/img/img-espacios/Oceanografic/mediterraneoocn.jpg'); }
-.img-islasocn       { background-image: url('/img/img-espacios/Oceanografic/islasocn.jpg'); }
-.img-humedalesocn   { background-image: url('/img/img-espacios/Oceanografic/humedalesocn.jpg'); }
+.img-oceanosocn     { background-image: url('/img/img-espacios/Oceanografic/oceanosocn.webp'); }
+.img-articoocn      { background-image: url('/img/img-espacios/Oceanografic/articoocn.webp'); }
+.img-delfinarioocn  { background-image: url('/img/img-espacios/Oceanografic/delfinarioocn.webp'); }
+.img-antarticoocn   { background-image: url('/img/img-espacios/Oceanografic/antarticoocn.webp'); }
+.img-tropicalesocn  { background-image: url('/img/img-espacios/Oceanografic/tropicalesocn.webp'); }
+.img-mediterraneoocn { background-image: url('/img/img-espacios/Oceanografic/mediterraneoocn.webp'); }
+.img-islasocn       { background-image: url('/img/img-espacios/Oceanografic/islasocn.webp'); }
+.img-humedalesocn   { background-image: url('/img/img-espacios/Oceanografic/humedalesocn.webp'); }
 
 /* ── Experiencias ── */
 .ocn-exp-section {

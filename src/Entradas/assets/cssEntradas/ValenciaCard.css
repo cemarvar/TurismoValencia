@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
-
+﻿
 .vtc-page {
     font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
     color: #1a1a1a;
@@ -10,7 +9,7 @@
 .vtc-hero {
     position: relative;
     height: 560px;
-    background-image: url('/img/img-entradas/ValenciaCard/hero-valenciavc.jpg');
+    background-image: url('/img/img-entradas/ValenciaCard/hero-valenciavc.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -296,8 +295,8 @@
     background-color: #1a0c00;
 }
 
-.img-vtcvc { background-image: url('/img/img-entradas/ValenciaCard/vtcvc.jpg'); }
-.img-vtc-7diasvc  { background-image: url('/img/img-entradas/ValenciaCard/vtc7diasvc.jpg'); }
+.img-vtcvc { background-image: url('/img/img-entradas/ValenciaCard/vtcvc.webp'); }
+.img-vtc-7diasvc  { background-image: url('/img/img-entradas/ValenciaCard/vtc7diasvc.webp'); }
 
 /* ── Packs con entradas ── */
 .vtc-packs-section {

@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
-
+﻿
 .ls-page {
     font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
     color: #1a1a1a;
@@ -10,7 +9,7 @@
 .ls-hero {
     position: relative;
     height: 540px;
-    background-image: url('/img/img-espacios/LonjaSeda/hero-lonja-seda.jpg');
+    background-image: url('/img/img-espacios/LonjaSeda/hero-lonja-seda.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -243,11 +242,11 @@
 }
 
 /* Imágenes */
-.img-salonls    { background-image: url('/img/img-espacios/LonjaSeda/salonls.jpg'); }
-.img-capillals  { background-image: url('/img/img-espacios/LonjaSeda/capillals.jpg'); }
-.img-torreonls  { background-image: url('/img/img-espacios/LonjaSeda/torreonls.jpg'); }
-.img-consuladols { background-image: url('/img/img-espacios/LonjaSeda/consuladols.jpg'); }
-.img-patiols    { background-image: url('/img/img-espacios/LonjaSeda/patiols.jpg'); }
+.img-salonls    { background-image: url('/img/img-espacios/LonjaSeda/salonls.webp'); }
+.img-capillals  { background-image: url('/img/img-espacios/LonjaSeda/capillals.webp'); }
+.img-torreonls  { background-image: url('/img/img-espacios/LonjaSeda/torreonls.webp'); }
+.img-consuladols { background-image: url('/img/img-espacios/LonjaSeda/consuladols.webp'); }
+.img-patiols    { background-image: url('/img/img-espacios/LonjaSeda/patiols.webp'); }
 
 /* ── Tabla información práctica ── */
 .ls-info-practica {

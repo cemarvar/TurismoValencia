@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
-
+﻿
 .brc-page {
     font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
     color: #1a1a1a;
@@ -10,7 +9,7 @@
 .brc-hero {
     position: relative;
     height: 540px;
-    background-image: url('/img/img-espacios/BarrioCarmen/hero-barrio-carmen.jpg');
+    background-image: url('/img/img-espacios/BarrioCarmen/hero-barrio-carmen.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -277,14 +276,14 @@
 }
 
 /* Imágenes */
-.img-serranosbc  { background-image: url('/img/img-espacios/BarrioCarmen/serranosbc.jpeg'); }
-.img-quartbc     { background-image: url('/img/img-espacios/BarrioCarmen/quartbc.jpg'); }
-.img-valldignabc { background-image: url('/img/img-espacios/BarrioCarmen/valldignabc.jpg'); }
-.img-carmebc     { background-image: url('/img/img-espacios/BarrioCarmen/carmebc.jpg'); }
-.img-ivambc      { background-image: url('/img/img-espacios/BarrioCarmen/ivambc.jpg'); }
-.img-murallabc   { background-image: url('/img/img-espacios/BarrioCarmen/murallabc.jpg'); }
-.img-streetartbc { background-image: url('/img/img-espacios/BarrioCarmen/streetartbc.jpg'); }
-.img-plazasbc    { background-image: url('/img/img-espacios/BarrioCarmen/plazasbc.jpg'); }
+.img-serranosbc  { background-image: url('/img/img-espacios/BarrioCarmen/serranosbc.webp'); }
+.img-quartbc     { background-image: url('/img/img-espacios/BarrioCarmen/quartbc.webp'); }
+.img-valldignabc { background-image: url('/img/img-espacios/BarrioCarmen/valldignabc.webp'); }
+.img-carmebc     { background-image: url('/img/img-espacios/BarrioCarmen/carmebc.webp'); }
+.img-ivambc      { background-image: url('/img/img-espacios/BarrioCarmen/ivambc.webp'); }
+.img-murallabc   { background-image: url('/img/img-espacios/BarrioCarmen/murallabc.webp'); }
+.img-streetartbc { background-image: url('/img/img-espacios/BarrioCarmen/streetartbc.webp'); }
+.img-plazasbc    { background-image: url('/img/img-espacios/BarrioCarmen/plazasbc.webp'); }
 
 /* ── Tabla información práctica ── */
 .brc-info-practica {

@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
-
+﻿
 .bp-page {
     font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
     color: #1a1a1a;
@@ -10,7 +9,7 @@
 .bp-hero {
     position: relative;
     height: 560px;
-    background-image: url('/img/img-esencial/Bioparc/bpc.jpg');
+    background-image: url('/img/img-esencial/Bioparc/bpc.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -258,10 +257,10 @@
     background-size: cover;
 }
 
-.img-sabana      { background-image: url('/img/img-esencial/Bioparc/sabana.jpg'); }
-.img-ecuatorial  { background-image: url('/img/img-esencial/Bioparc/ecuatorial.jpg'); }
-.img-humedalesbio   { background-image: url('/img/img-esencial/Bioparc/humedalesbio.jpg'); }
-.img-madagascar  { background-image: url('/img/img-esencial/Bioparc/madagascar.jpg'); }
+.img-sabana      { background-image: url('/img/img-esencial/Bioparc/sabana.webp'); }
+.img-ecuatorial  { background-image: url('/img/img-esencial/Bioparc/ecuatorial.webp'); }
+.img-humedalesbio   { background-image: url('/img/img-esencial/Bioparc/humedalesbio.webp'); }
+.img-madagascar  { background-image: url('/img/img-esencial/Bioparc/madagascar.webp'); }
 
 /* ── Actividades ── */
 .bp-actividades-section {
@@ -292,10 +291,10 @@
     background-color: #1a2a4a;
 }
 
-.img-vr           { background-image: url('/img/img-esencial/Bioparc/bpcvr.jpg'); }
-.img-madagascar-act { background-image: url('/img/img-esencial/Bioparc/mdgvisitas.jpg'); }
-.img-cuidadores   { background-image: url('/img/img-esencial/Bioparc/encuentro-cuidadores.jpg'); }
-.img-talleres     { background-image: url('/img/img-esencial/Bioparc/talleres.jpg'); }
+.img-vr           { background-image: url('/img/img-esencial/Bioparc/bpcvr.webp'); }
+.img-madagascar-act { background-image: url('/img/img-esencial/Bioparc/mdgvisitas.webp'); }
+.img-cuidadores   { background-image: url('/img/img-esencial/Bioparc/encuentro-cuidadores.webp'); }
+.img-talleres     { background-image: url('/img/img-esencial/Bioparc/talleres.webp'); }
 
 .bp-actividad-body {
     padding: 20px;

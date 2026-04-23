@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
-
+﻿
 .esg-page {
     font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
     color: #1a1a1a;
@@ -10,7 +9,7 @@
 .esg-hero {
     position: relative;
     height: 500px;
-    background-image: url('/img/img-gastronomia/esgarraet/hero-esgarraetesg.jpg');
+    background-image: url('/img/img-gastronomia/esgarraet/hero-esgarraetesg.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -247,11 +246,11 @@
 }
 
 /* Imágenes */
-.img-platoesg     { background-image: url('/img/img-gastronomia/esgarraet/platoesg.jpg'); }
-.img-bacalaoesg   { background-image: url('/img/img-gastronomia/esgarraet/bacalaoesg.jpg'); }
-.img-tecnicaesg   { background-image: url('/img/img-gastronomia/esgarraet/tecnicaesg.jpg'); }
-.img-sucaresg     { background-image: url('/img/img-gastronomia/esgarraet/sucaresg.jpg'); }
-.img-variantesesg { background-image: url('/img/img-gastronomia/esgarraet/variantesesg.jpg'); }
+.img-platoesg     { background-image: url('/img/img-gastronomia/esgarraet/platoesg.webp'); }
+.img-bacalaoesg   { background-image: url('/img/img-gastronomia/esgarraet/bacalaoesg.webp'); }
+.img-tecnicaesg   { background-image: url('/img/img-gastronomia/esgarraet/tecnicaesg.webp'); }
+.img-sucaresg     { background-image: url('/img/img-gastronomia/esgarraet/sucaresg.webp'); }
+.img-variantesesg { background-image: url('/img/img-gastronomia/esgarraet/variantesesg.webp'); }
 
 /* ── Claves ── */
 .esg-claves-wrap {

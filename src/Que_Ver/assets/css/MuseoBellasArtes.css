@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
-
+﻿
 .mba-page {
     font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
     color: #1a1a1a;
@@ -10,7 +9,7 @@
 .mba-hero {
     position: relative;
     height: 540px;
-    background-image: url('/img/img-espacios/MuseoBellasArtes/hero-MuseoBellasArtesmba.jpg');
+    background-image: url('/img/img-espacios/MuseoBellasArtes/hero-MuseoBellasArtesmba.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -345,12 +344,12 @@
 }
 
 /* Imágenes */
-.img-goticomba       { background-image: url('/img/img-espacios/MuseoBellasArtes/goticomba.jpg'); }
-.img-renacimientomba { background-image: url('/img/img-espacios/MuseoBellasArtes/renacimientomba.jpg'); }
-.img-barrocomba      { background-image: url('/img/img-espacios/MuseoBellasArtes/barrocomba.jpg'); }
-.img-goyamba         { background-image: url('/img/img-espacios/MuseoBellasArtes/goyamba.jpg'); }
-.img-sorollamba      { background-image: url('/img/img-espacios/MuseoBellasArtes/sorollamba.jpg'); }
-.img-edificiomba     { background-image: url('/img/img-espacios/MuseoBellasArtes/edificiomba.jpg'); }
+.img-goticomba       { background-image: url('/img/img-espacios/MuseoBellasArtes/goticomba.webp'); }
+.img-renacimientomba { background-image: url('/img/img-espacios/MuseoBellasArtes/renacimientomba.webp'); }
+.img-barrocomba      { background-image: url('/img/img-espacios/MuseoBellasArtes/barrocomba.webp'); }
+.img-goyamba         { background-image: url('/img/img-espacios/MuseoBellasArtes/goyamba.webp'); }
+.img-sorollamba      { background-image: url('/img/img-espacios/MuseoBellasArtes/sorollamba.webp'); }
+.img-edificiomba     { background-image: url('/img/img-espacios/MuseoBellasArtes/edificiomba.webp'); }
 
 /* ── Tabla información práctica ── */
 .mba-info-practica {

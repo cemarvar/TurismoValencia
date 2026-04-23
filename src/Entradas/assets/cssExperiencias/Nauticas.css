@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
-
+﻿
 .nau-page {
     font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
     color: #1a1a1a;
@@ -10,7 +9,7 @@
 .nau-hero {
     position: relative;
     height: 560px;
-    background-image: url('/img/img-experiencias/Nauticas/hero-nauticasnt.jpg');
+    background-image: url('/img/img-experiencias/Nauticas/hero-nauticasnt.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -272,14 +271,14 @@
     background-color: #000c24;
 }
 
-.img-nau-paddle  { background-image: url('/img/img-experiencias/Nauticas/paddlenau.jpg'); }
-.img-nau-windsurf{ background-image: url('/img/img-experiencias/Nauticas/windsurfnau.png'); }
-.img-nau-banana  { background-image: url('/img/img-experiencias/Nauticas/banananau.jpg'); }
-.img-nau-vela    { background-image: url('/img/img-experiencias/Nauticas/velanau.jpg'); }
-.img-nau-sunset1 { background-image: url('/img/img-experiencias/Nauticas/sunset1nau.jpg'); }
-.img-nau-sunset2 { background-image: url('/img/img-experiencias/Nauticas/sunset2nau.jpg'); }
-.img-nau-crucero { background-image: url('/img/img-experiencias/Nauticas/cruceronau.jpg'); }
-.img-bicicleta   { background-image: url('/img/img-tours/Bici/albuferarutabic.jpg'); }
+.img-nau-paddle  { background-image: url('/img/img-experiencias/Nauticas/paddlenau.webp'); }
+.img-nau-windsurf{ background-image: url('/img/img-experiencias/Nauticas/windsurfnau.webp'); }
+.img-nau-banana  { background-image: url('/img/img-experiencias/Nauticas/banananau.webp'); }
+.img-nau-vela    { background-image: url('/img/img-experiencias/Nauticas/velanau.webp'); }
+.img-nau-sunset1 { background-image: url('/img/img-experiencias/Nauticas/sunset1nau.webp'); }
+.img-nau-sunset2 { background-image: url('/img/img-experiencias/Nauticas/sunset2nau.webp'); }
+.img-nau-crucero { background-image: url('/img/img-experiencias/Nauticas/cruceronau.webp'); }
+.img-bicicleta   { background-image: url('/img/img-tours/Bici/albuferarutabic.webp'); }
 
 /* ── Tabla info útil ── */
 .nau-info-practica {

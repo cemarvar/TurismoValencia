@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
-
+﻿
 .grv-page {
     font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
     color: #1a1a1a;
@@ -10,7 +9,7 @@
 .grv-hero {
     position: relative;
     height: 560px;
-    background-image: url('/img/img-alojamientos/BarrioGranVia/hero-barriogranviabgv.jpg');
+    background-image: url('/img/img-alojamientos/BarrioGranVia/hero-barriogranviabgv.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -271,8 +270,8 @@
 }
 
 /* Imágenes */
-.img-abcyoubgv { background-image: url('/img/img-alojamientos/BarrioGranVia/abcyoubgv.jpg'); }
-.img-dimarbgv  { background-image: url('/img/img-alojamientos/BarrioGranVia/dimarbgv.jpg'); }
+.img-abcyoubgv { background-image: url('/img/img-alojamientos/BarrioGranVia/abcyoubgv.webp'); }
+.img-dimarbgv  { background-image: url('/img/img-alojamientos/BarrioGranVia/dimarbgv.webp'); }
 
 /* ── Tabla información práctica ── */
 .grv-info-practica {

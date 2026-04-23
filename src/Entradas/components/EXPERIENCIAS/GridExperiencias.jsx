@@ -3,9 +3,9 @@ import Experiencias from '../EXPERIENCIAS/Experiencias';
 
 export default function GridExperiencias() {
     var elementos = [
-        { imagen: "/img/img-experiencias/excursiones.jpg",          titulo: "Excursiones",                    ruta: "/Excursiones" },
-        { imagen: "/img/img-experiencias/act-gastronomicas.jpg",    titulo: "Gastrónomicas",      ruta: "/ActividadesGastronomicas" },
-        { imagen: "/img/img-experiencias/nauticas.jpg",             titulo: "Náuticas",                       ruta: "/Nauticas" }
+        { imagen: "/img/img-experiencias/excursiones.webp",          titulo: "Excursiones",                    ruta: "/Excursiones" },
+        { imagen: "/img/img-experiencias/act-gastronomicas.webp",    titulo: "Gastrónomicas",      ruta: "/ActividadesGastronomicas" },
+        { imagen: "/img/img-experiencias/nauticas.webp",             titulo: "Náuticas",                       ruta: "/Nauticas" }
     ];
 
     return (

@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
-
+﻿
 .ex-page {
     font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
     color: #1a1a1a;
@@ -10,7 +9,7 @@
 .ex-hero {
     position: relative;
     height: 520px;
-    background-image: url('/img/img-planes/Exposicion/hero-exposicion.jpg');
+    background-image: url('/img/img-planes/Exposicion/hero-exposicion.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -376,14 +375,14 @@
 }
 
 /* Imágenes */
-.img-ivamexp       { background-image: url('/img/img-planes/Exposicion/ivamexp.jpg'); }
-.img-bbaaexp       { background-image: url('/img/img-planes/Exposicion/bbaaexp.jpg'); }
-.img-carmeexp      { background-image: url('/img/img-planes/Exposicion/carmeexp.jpg'); }
-.img-hortensiaexp  { background-image: url('/img/img-planes/Exposicion/hortensiaexp.jpg'); }
-.img-bancajaexp    { background-image: url('/img/img-planes/Exposicion/bancajaexp.jpg'); }
-.img-caixaforumexp { background-image: url('/img/img-planes/Exposicion/caixaforumexp.jpg'); }
-.img-muvimexp      { background-image: url('/img/img-planes/Exposicion/muvimexp.jpg'); }
-.img-ceramicaexp   { background-image: url('/img/img-planes/Exposicion/ceramicaexp.jpg'); }
+.img-ivamexp       { background-image: url('/img/img-planes/Exposicion/ivamexp.webp'); }
+.img-bbaaexp       { background-image: url('/img/img-planes/Exposicion/bbaaexp.webp'); }
+.img-carmeexp      { background-image: url('/img/img-planes/Exposicion/carmeexp.webp'); }
+.img-hortensiaexp  { background-image: url('/img/img-planes/Exposicion/hortensiaexp.webp'); }
+.img-bancajaexp    { background-image: url('/img/img-planes/Exposicion/bancajaexp.webp'); }
+.img-caixaforumexp { background-image: url('/img/img-planes/Exposicion/caixaforumexp.webp'); }
+.img-muvimexp      { background-image: url('/img/img-planes/Exposicion/muvimexp.webp'); }
+.img-ceramicaexp   { background-image: url('/img/img-planes/Exposicion/ceramicaexp.webp'); }
 
 /* ── Exposiciones especiales ── */
 .ex-especiales-section {
@@ -432,10 +431,10 @@
     background-color: #1a2a4a;
 }
 
-.img-titanicexp    { background-image: url('/img/img-planes/Exposicion/titanicexp.jpg'); }
-.img-rutaexp       { background-image: url('/img/img-planes/Exposicion/rutaexp.jpg'); }
-.img-leonardoexp   { background-image: url('/img/img-planes/Exposicion/leonardoexp.jpg'); }
-.img-ivam-tempexp  { background-image: url('/img/img-planes/Exposicion/ivam-tempexp.jpg'); }
+.img-titanicexp    { background-image: url('/img/img-planes/Exposicion/titanicexp.webp'); }
+.img-rutaexp       { background-image: url('/img/img-planes/Exposicion/rutaexp.webp'); }
+.img-leonardoexp   { background-image: url('/img/img-planes/Exposicion/leonardoexp.webp'); }
+.img-ivam-tempexp  { background-image: url('/img/img-planes/Exposicion/ivam-tempexp.webp'); }
 
 .ex-especial-body {
     padding: 18px 20px;

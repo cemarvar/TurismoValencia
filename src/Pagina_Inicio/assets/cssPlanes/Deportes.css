@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
-
+﻿
 .dep-page {
     font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
     color: #1a1a1a;
@@ -10,7 +9,7 @@
 .dep-hero {
     position: relative;
     height: 540px;
-    background-image: url('/img/img-planes/Deportes/hero-deporte.jpg');
+    background-image: url('/img/img-planes/Deportes/hero-deporte.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -354,14 +353,14 @@
 }
 
 /* Imágenes */
-.img-runningdep   { background-image: url('/img/img-planes/Deportes/runningdep.jpg'); }
-.img-ciclismodep  { background-image: url('/img/img-planes/Deportes/ciclismodep.jpg'); }
-.img-nauticadep   { background-image: url('/img/img-planes/Deportes/nauticadep.jpg'); }
-.img-surfdep      { background-image: url('/img/img-planes/Deportes/surfdep.jpg'); }
-.img-futboldep    { background-image: url('/img/img-planes/Deportes/futboldep.jpg'); }
-.img-basketdep   { background-image: url('/img/img-planes/Deportes/basketdep.jpg'); }
-.img-golfdep     { background-image: url('/img/img-planes/Deportes/golfdep.jpg'); }
-.img-triatlondep  { background-image: url('/img/img-planes/Deportes/triatlondep.jpg'); }
+.img-runningdep   { background-image: url('/img/img-planes/Deportes/runningdep.webp'); }
+.img-ciclismodep  { background-image: url('/img/img-planes/Deportes/ciclismodep.webp'); }
+.img-nauticadep   { background-image: url('/img/img-planes/Deportes/nauticadep.webp'); }
+.img-surfdep      { background-image: url('/img/img-planes/Deportes/surfdep.webp'); }
+.img-futboldep    { background-image: url('/img/img-planes/Deportes/futboldep.webp'); }
+.img-basketdep   { background-image: url('/img/img-planes/Deportes/basketdep.webp'); }
+.img-golfdep     { background-image: url('/img/img-planes/Deportes/golfdep.webp'); }
+.img-triatlondep  { background-image: url('/img/img-planes/Deportes/triatlondep.webp'); }
 
 /* ── Calendario de eventos ── */
 .dep-calendario-section {

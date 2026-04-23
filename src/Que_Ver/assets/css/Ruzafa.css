@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
-
+﻿
 .ruz-page {
     font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
     color: #1a1a1a;
@@ -10,7 +9,7 @@
 .ruz-hero {
     position: relative;
     height: 540px;
-    background-image: url('/img/img-espacios/Ruzafa/hero-Ruzafarzf.jpg');
+    background-image: url('/img/img-espacios/Ruzafa/hero-Ruzafarzf.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -326,12 +325,12 @@
 }
 
 /* Imágenes */
-.img-mercadorz    { background-image: url('/img/img-espacios/Ruzafa/mercadorz.jpg'); }
-.img-gastronomiarz { background-image: url('/img/img-espacios/Ruzafa/gastronomiarz.jpg'); }
-.img-arterz       { background-image: url('/img/img-espacios/Ruzafa/arterz.jpg'); }
-.img-parquerz     { background-image: url('/img/img-espacios/Ruzafa/parquerz.jpg'); }
-.img-comprasrz    { background-image: url('/img/img-espacios/Ruzafa/comprasrz.jpg'); }
-.img-fallasrz     { background-image: url('/img/img-espacios/Ruzafa/fallasrz.jpg'); }
+.img-mercadorz    { background-image: url('/img/img-espacios/Ruzafa/mercadorz.webp'); }
+.img-gastronomiarz { background-image: url('/img/img-espacios/Ruzafa/gastronomiarz.webp'); }
+.img-arterz       { background-image: url('/img/img-espacios/Ruzafa/arterz.webp'); }
+.img-parquerz     { background-image: url('/img/img-espacios/Ruzafa/parquerz.webp'); }
+.img-comprasrz    { background-image: url('/img/img-espacios/Ruzafa/comprasrz.webp'); }
+.img-fallasrz     { background-image: url('/img/img-espacios/Ruzafa/fallasrz.webp'); }
 
 /* ── Tabla información práctica ── */
 .ruz-info-practicarz {

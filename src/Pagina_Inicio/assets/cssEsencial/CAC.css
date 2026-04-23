@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
-
+﻿
 .cac-page {
     font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
     color: #1a1a1a;
@@ -10,7 +9,7 @@
 .CACcac-hero {
     position: relative;
     height: 560px;
-    background-image: url('/img/img-esencial/CAC/CACcac.jpg');
+    background-image: url('/img/img-esencial/CAC/CACcac.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -325,12 +324,12 @@
     background-size: cover;
 }
 
-.img-ogfcac { background-image: url('/img/img-esencial/CAC/ogfcac.jpg'); }
-.img-hemisfericcac   { background-image: url('/img/img-esencial/CAC/hemisfericcac.jpg'); }
-.img-mdlccac        { background-image: url('/img/img-esencial/CAC/museucac.jpg'); }
-.img-palaucac        { background-image: url('/img/img-esencial/CAC/palaucac.jpg'); }
-.img-umbraclecac     { background-image: url('/img/img-esencial/CAC/umbraclecac.jpg'); }
-.img-agoracac        { background-image: url('/img/img-esencial/CAC/agoracac.jpg'); }
+.img-ogfcac { background-image: url('/img/img-esencial/CAC/ogfcac.webp'); }
+.img-hemisfericcac   { background-image: url('/img/img-esencial/CAC/hemisfericcac.webp'); }
+.img-mdlccac        { background-image: url('/img/img-esencial/CAC/museucac.webp'); }
+.img-palaucac        { background-image: url('/img/img-esencial/CAC/palaucac.webp'); }
+.img-umbraclecac     { background-image: url('/img/img-esencial/CAC/umbraclecac.webp'); }
+.img-agoracac        { background-image: url('/img/img-esencial/CAC/agoracac.webp'); }
 
 /* ── Tabla de entradas ── */
 .cac-entradas-section {

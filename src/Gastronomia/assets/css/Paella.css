@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
-
+﻿
 .pa-page {
     font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
     color: #1a1a1a;
@@ -10,7 +9,7 @@
 .pa-hero {
     position: relative;
     height: 520px;
-    background-image: url('/img/img-gastronomia/paella/hero-paellapll.jpg');
+    background-image: url('/img/img-gastronomia/paella/hero-paellapll.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -274,10 +273,10 @@
 }
 
 /* Imágenes */
-.img-valencianapll { background-image: url('/img/img-gastronomia/paella/valencianapll.jpg'); }
-.img-mariscopll    { background-image: url('/img/img-gastronomia/paella/mariscopll.jpg'); }
-.img-senyoretpll   { background-image: url('/img/img-gastronomia/paella/senyoretpll.jpg'); }
-.img-bandapll      { background-image: url('/img/img-gastronomia/paella/bandapll.jpg'); }
+.img-valencianapll { background-image: url('/img/img-gastronomia/paella/valencianapll.webp'); }
+.img-mariscopll    { background-image: url('/img/img-gastronomia/paella/mariscopll.webp'); }
+.img-senyoretpll   { background-image: url('/img/img-gastronomia/paella/senyoretpll.webp'); }
+.img-bandapll      { background-image: url('/img/img-gastronomia/paella/bandapll.webp'); }
 
 /* ── Zonas ── */
 .pa-zonas-wrap {

@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
-
+﻿
 .fest-page {
     font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
     color: #1a1a1a;
@@ -10,7 +9,7 @@
 .fest-hero {
     position: relative;
     height: 480px;
-    background-image: url('/img/img-eventos/festivos/hero-festivosft.jpg');
+    background-image: url('/img/img-eventos/festivos/hero-festivosft.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

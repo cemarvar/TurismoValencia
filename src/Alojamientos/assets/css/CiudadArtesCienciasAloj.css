@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
-
+﻿
 .cacaloj-page {
     font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
     color: #1a1a1a;
@@ -10,7 +9,7 @@
 .cacaloj-hero {
     position: relative;
     height: 560px;
-    background-image: url('/img/img-alojamientos/CiudadArtesCiencias/hero-cacaloj.jpg');
+    background-image: url('/img/img-alojamientos/CiudadArtesCiencias/hero-cacaloj.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -271,10 +270,10 @@
 }
 
 /* Imágenes  */
-.img-reydonjaimealoj { background-image: url('/img/img-alojamientos/CiudadArtesCiencias/reydonjaimealoj.jpg'); }
-.img-primusaloj      { background-image: url('/img/img-alojamientos/CiudadArtesCiencias/primusaloj.jpg'); }
-.img-ilunionaloj     { background-image: url('/img/img-alojamientos/CiudadArtesCiencias/ilunionaloj.jpg'); }
-.img-barceloaloj     { background-image: url('/img/img-alojamientos/CiudadArtesCiencias/barceloaloj.jpg'); }
+.img-reydonjaimealoj { background-image: url('/img/img-alojamientos/CiudadArtesCiencias/reydonjaimealoj.webp'); }
+.img-primusaloj      { background-image: url('/img/img-alojamientos/CiudadArtesCiencias/primusaloj.webp'); }
+.img-ilunionaloj     { background-image: url('/img/img-alojamientos/CiudadArtesCiencias/ilunionaloj.webp'); }
+.img-barceloaloj     { background-image: url('/img/img-alojamientos/CiudadArtesCiencias/barceloaloj.webp'); }
 
 /* ── Tabla información práctica ── */
 .cacaloj-info-practica {

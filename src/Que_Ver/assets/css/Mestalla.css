@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
-
+﻿
 .mest-page {
     font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
     color: #1a1a1a;
@@ -10,7 +9,7 @@
 .mest-hero {
     position: relative;
     height: 560px;
-    background-image: url('/img/img-espacios/Mestalla/hero-Mestallamll.jpg');
+    background-image: url('/img/img-espacios/Mestalla/hero-Mestallamll.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -271,12 +270,12 @@
 }
 
 /* Imágenes */
-.img-estadiomll   { background-image: url('/img/img-espacios/Mestalla/estadiomll.jpg'); }
-.img-tourmll      { background-image: url('/img/img-espacios/Mestalla/tourmll.jpg'); }
-.img-palmaresmll  { background-image: url('/img/img-espacios/Mestalla/palmaresmll.jpg'); }
-.img-gradonamll   { background-image: url('/img/img-espacios/Mestalla/gradonamll.jpg'); }
-.img-historiamll  { background-image: url('/img/img-espacios/Mestalla/historiamll.jpg'); }
-.img-nouveaumll   { background-image: url('/img/img-espacios/Mestalla/nouveaumll.jpg'); }
+.img-estadiomll   { background-image: url('/img/img-espacios/Mestalla/estadiomll.webp'); }
+.img-tourmll      { background-image: url('/img/img-espacios/Mestalla/tourmll.webp'); }
+.img-palmaresmll  { background-image: url('/img/img-espacios/Mestalla/palmaresmll.webp'); }
+.img-gradonamll   { background-image: url('/img/img-espacios/Mestalla/gradonamll.webp'); }
+.img-historiamll  { background-image: url('/img/img-espacios/Mestalla/historiamll.webp'); }
+.img-nouveaumll   { background-image: url('/img/img-espacios/Mestalla/nouveaumll.webp'); }
 
 /* ── Tabla información práctica ── */
 .mest-info-practica {

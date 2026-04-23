@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
-
+﻿
 .ruzloj-page {
     font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
     color: #1a1a1a;
@@ -10,7 +9,7 @@
 .ruzloj-hero {
     position: relative;
     height: 560px;
-    background-image: url('/img/img-alojamientos/BarrioRuzafa/hero-barrioruzafaaloj.jpg');
+    background-image: url('/img/img-alojamientos/BarrioRuzafa/hero-barrioruzafaaloj.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -271,9 +270,9 @@
 }
 
 /* Imágenes */
-.img-petitpalacealoj   { background-image: url('/img/img-alojamientos/BarrioRuzafa/petitpalacealoj.jpg'); }
-.img-citygardenaloj    { background-image: url('/img/img-alojamientos/BarrioRuzafa/citygardenaloj.jpg'); }
-.img-singularstaysaloj { background-image: url('/img/img-alojamientos/BarrioRuzafa/singularstaysaloj.jpg'); }
+.img-petitpalacealoj   { background-image: url('/img/img-alojamientos/BarrioRuzafa/petitpalacealoj.webp'); }
+.img-citygardenaloj    { background-image: url('/img/img-alojamientos/BarrioRuzafa/citygardenaloj.webp'); }
+.img-singularstaysaloj { background-image: url('/img/img-alojamientos/BarrioRuzafa/singularstaysaloj.webp'); }
 
 /* ── Tabla información práctica ── */
 .ruzloj-info-practica {

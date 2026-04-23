@@ -4,12 +4,12 @@ import Planes from '../PLANES/Planes';
 export default function GridPlanes() 
 {
     var elementos = [
-        { imagen: "/img/img-planes/espectaculo.jpg",    titulo: "Espectáculo",           ruta: "/Espectaculo"},
-        { imagen: "/img/img-planes/familia.jpg",        titulo: "En familia" ,           ruta: "/Familia"},
-        { imagen: "/img/img-planes/naturaleza.jpg",     titulo: "Naturaleza" ,           ruta: "/Naturaleza"},
-        { imagen: "/img/img-planes/tradicionales.jpg",  titulo: "Fiestas Tradicionales", ruta: "/FiestasTradicionales"},
-        { imagen: "/img/img-planes/deporte.jpg",        titulo: "Deportes",              ruta: "/Deportes"},
-        { imagen: "/img/img-planes/expo.jpg",           titulo: "Exposición",            ruta: "/Exposicion"}
+        { imagen: "/img/img-planes/espectaculo.webp",    titulo: "Espectáculo",           ruta: "/Espectaculo"},
+        { imagen: "/img/img-planes/familia.webp",        titulo: "En familia" ,           ruta: "/Familia"},
+        { imagen: "/img/img-planes/naturaleza.webp",     titulo: "Naturaleza" ,           ruta: "/Naturaleza"},
+        { imagen: "/img/img-planes/tradicionales.webp",  titulo: "Fiestas Tradicionales", ruta: "/FiestasTradicionales"},
+        { imagen: "/img/img-planes/deporte.webp",        titulo: "Deportes",              ruta: "/Deportes"},
+        { imagen: "/img/img-planes/expo.webp",           titulo: "Exposición",            ruta: "/Exposicion"}
     ];
 
     return (

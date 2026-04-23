@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
-
+﻿
 .bici-page {
     font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
     color: #1a1a1a;
@@ -10,7 +9,7 @@
 .bici-hero {
     position: relative;
     height: 560px;
-    background-image: url('/img/img-tours/Bici/hero-bicibic.jpg');
+    background-image: url('/img/img-tours/Bici/hero-bicibic.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -272,13 +271,13 @@
     background-color: #021404;
 }
 
-.img-bici-alquiler        { background-image: url('/img/img-tours/Bici/alquilerbic.jpg'); }
-.img-bici-audioguia       { background-image: url('/img/img-tours/Bici/audioguiabic.jpg'); }
-.img-bici-albufera-barca  { background-image: url('/img/img-tours/Bici/albuferabarcabic.jpg'); }
-.img-bici-open-tour       { background-image: url('/img/img-tours/Bici/opentourbic.jpg'); }
-.img-bici-horchata        { background-image: url('/img/img-tours/Bici/horchatabic.jpg'); }
-.img-bici-albufera-ruta   { background-image: url('/img/img-tours/Bici/albuferarutabic.jpg'); }
-.img-bici-guiada          { background-image: url('/img/img-tours/Bici/guiadabic.jpg'); }
+.img-bici-alquiler        { background-image: url('/img/img-tours/Bici/alquilerbic.webp'); }
+.img-bici-audioguia       { background-image: url('/img/img-tours/Bici/audioguiabic.webp'); }
+.img-bici-albufera-barca  { background-image: url('/img/img-tours/Bici/albuferabarcabic.webp'); }
+.img-bici-open-tour       { background-image: url('/img/img-tours/Bici/opentourbic.webp'); }
+.img-bici-horchata        { background-image: url('/img/img-tours/Bici/horchatabic.webp'); }
+.img-bici-albufera-ruta   { background-image: url('/img/img-tours/Bici/albuferarutabic.webp'); }
+.img-bici-guiada          { background-image: url('/img/img-tours/Bici/guiadabic.webp'); }
 
 /* ── Tabla info práctica ── */
 .bici-info-practica {

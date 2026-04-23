@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
-
+﻿
 .gf-page {
     font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
     color: #1a1a1a;
@@ -10,7 +9,7 @@
 .gf-hero {
     position: relative;
     height: 540px;
-    background-image: url('/img/img-eventos/granferia/hero-granferiagf.jpg');
+    background-image: url('/img/img-eventos/granferia/hero-granferiagf.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -265,13 +264,13 @@
 }
 
 /* Imágenes */
-.img-viverosgf       { background-image: url('/img/img-eventos/granferia/viverosgf.jpg'); }
-.img-fuegosgf        { background-image: url('/img/img-eventos/granferia/fuegosgf.jpg'); }
-.img-jazzgf          { background-image: url('/img/img-eventos/granferia/jazzgf.jpg'); }
-.img-bandasgf        { background-image: url('/img/img-eventos/granferia/bandasgf.jpg'); }
-.img-nitgf           { background-image: url('/img/img-eventos/granferia/nitgf.jpg'); }
-.img-batallafloresgf { background-image: url('/img/img-eventos/granferia/batallafloresgf.jpg'); }
-.img-atraccionesgf   { background-image: url('/img/img-eventos/granferia/atraccionesgf.png'); }
+.img-viverosgf       { background-image: url('/img/img-eventos/granferia/viverosgf.webp'); }
+.img-fuegosgf        { background-image: url('/img/img-eventos/granferia/fuegosgf.webp'); }
+.img-jazzgf          { background-image: url('/img/img-eventos/granferia/jazzgf.webp'); }
+.img-bandasgf        { background-image: url('/img/img-eventos/granferia/bandasgf.webp'); }
+.img-nitgf           { background-image: url('/img/img-eventos/granferia/nitgf.webp'); }
+.img-batallafloresgf { background-image: url('/img/img-eventos/granferia/batallafloresgf.webp'); }
+.img-atraccionesgf   { background-image: url('/img/img-eventos/granferia/atraccionesgf.webp'); }
 
 /* ── Tabla ── */
 .gf-info-practica {

@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
-
+﻿
 .plm-page {
     font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
     color: #1a1a1a;
@@ -10,7 +9,7 @@
 .plm-hero {
     position: relative;
     height: 560px;
-    background-image: url('/img/img-alojamientos/ZonaPlayaPaseoMaritimo/hero-zpm.jpg');
+    background-image: url('/img/img-alojamientos/ZonaPlayaPaseoMaritimo/hero-zpm.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -271,9 +270,9 @@
 }
 
 /* Imágenes */
-.img-balandretaloj  { background-image: url('/img/img-alojamientos/ZonaPlayaPaseoMaritimo/balandretaloj.jpg'); }
-.img-lasarenasaloj  { background-image: url('/img/img-alojamientos/ZonaPlayaPaseoMaritimo/lasarenasaloj.jpg'); }
-.img-solplayaaloj   { background-image: url('/img/img-alojamientos/ZonaPlayaPaseoMaritimo/solplayaaloj.jpg'); }
+.img-balandretaloj  { background-image: url('/img/img-alojamientos/ZonaPlayaPaseoMaritimo/balandretaloj.webp'); }
+.img-lasarenasaloj  { background-image: url('/img/img-alojamientos/ZonaPlayaPaseoMaritimo/lasarenasaloj.webp'); }
+.img-solplayaaloj   { background-image: url('/img/img-alojamientos/ZonaPlayaPaseoMaritimo/solplayaaloj.webp'); }
 
 /* ── Tabla información práctica ── */
 .plm-info-practica {

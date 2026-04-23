@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
-
+﻿
 .alb-page {
     font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
     color: #1a1a1a;
@@ -10,7 +9,7 @@
 .alb-hero {
     position: relative;
     height: 560px;
-    background-image: url('/img/img-espacios/Albufera/hero-Albuferaaf.jpg');
+    background-image: url('/img/img-espacios/Albufera/hero-Albuferaaf.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -271,12 +270,12 @@
 }
 
 /* Imágenes */
-.img-barcaaf       { background-image: url('/img/img-espacios/Albufera/barcaaf.jpg'); }
-.img-puestadesolaf { background-image: url('/img/img-espacios/Albufera/puestadesolaf.jpg'); }
-.img-palmaraf      { background-image: url('/img/img-espacios/Albufera/palmaraf.jpg'); }
-.img-avesaf        { background-image: url('/img/img-espacios/Albufera/avesaf.jpg'); }
-.img-arrozalesaf   { background-image: url('/img/img-espacios/Albufera/arrozalesaf.jpg'); }
-.img-devesaaf      { background-image: url('/img/img-espacios/Albufera/devesaaf.jpg'); }
+.img-barcaaf       { background-image: url('/img/img-espacios/Albufera/barcaaf.webp'); }
+.img-puestadesolaf { background-image: url('/img/img-espacios/Albufera/puestadesolaf.webp'); }
+.img-palmaraf      { background-image: url('/img/img-espacios/Albufera/palmaraf.webp'); }
+.img-avesaf        { background-image: url('/img/img-espacios/Albufera/avesaf.webp'); }
+.img-arrozalesaf   { background-image: url('/img/img-espacios/Albufera/arrozalesaf.webp'); }
+.img-devesaaf      { background-image: url('/img/img-espacios/Albufera/devesaaf.webp'); }
 
 /* ── Tabla información práctica ── */
 .alb-info-practica {

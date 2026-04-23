@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
-
+﻿
 .nat-page {
     font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
     color: #1a1a1a;
@@ -10,7 +9,7 @@
 .nat-hero {
     position: relative;
     height: 560px;
-    background-image: url('/img/img-planes/Naturaleza/natu.jpg');
+    background-image: url('/img/img-planes/Naturaleza/natu.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -327,16 +326,16 @@
 }
 
 /* Imágenes espacios verdes */
-.img-natuturia      { background-image: url('/img/img-planes/Naturaleza/natuturia.jpg'); }
-.img-natuhuerta     { background-image: url('/img/img-planes/Naturaleza/natuhuerta.jpg'); }
-.img-natubotanico   { background-image: url('/img/img-planes/Naturaleza/natubotanic.jpg'); }
-.img-natuparques    { background-image: url('/img/img-planes/Naturaleza/natujardines.jpg'); }
+.img-natuturia      { background-image: url('/img/img-planes/Naturaleza/natuturia.webp'); }
+.img-natuhuerta     { background-image: url('/img/img-planes/Naturaleza/natuhuerta.webp'); }
+.img-natubotanico   { background-image: url('/img/img-planes/Naturaleza/natubotanic.webp'); }
+.img-natuparques    { background-image: url('/img/img-planes/Naturaleza/natujardines.webp'); }
 
 /* Imágenes parques naturales */
-.img-natualbufera    { background-image: url('/img/img-planes/Naturaleza/natualbufera.jpg'); }
-.img-natucalderona   { background-image: url('/img/img-planes/Naturaleza/natucalderona.jpg'); }
-.img-natuparqueturia { background-image: url('/img/img-planes/Naturaleza/natuparqueturia.jpg'); }
-.img-natucabriel     { background-image: url('/img/img-planes/Naturaleza/natucabriel.jpg'); }
+.img-natualbufera    { background-image: url('/img/img-planes/Naturaleza/natualbufera.webp'); }
+.img-natucalderona   { background-image: url('/img/img-planes/Naturaleza/natucalderona.webp'); }
+.img-natuparqueturia { background-image: url('/img/img-planes/Naturaleza/natuparqueturia.webp'); }
+.img-natucabriel     { background-image: url('/img/img-planes/Naturaleza/natucabriel.webp'); }
 
 /* ── Planes al aire libre ── */
 .nat-planes-section {
@@ -368,12 +367,12 @@
 }
 
 /* Imágenes planes */
-.img-natuplayas    { background-image: url('/img/img-planes/Naturaleza/natuplayas.jpg'); }
-.img-natubici      { background-image: url('/img/img-planes/Naturaleza/natubici.jpg'); }
-.img-natusenderismo { background-image: url('/img/img-planes/Naturaleza/natusenderismo.jpg'); }
-.img-natuastro     { background-image: url('/img/img-planes/Naturaleza/natuastro.jpg'); }
-.img-natuaventura  { background-image: url('/img/img-planes/Naturaleza/natuaventura.jpeg'); }
-.img-natubiosfera  { background-image: url('/img/img-planes/Naturaleza/natubiosfera.jpg'); }
+.img-natuplayas    { background-image: url('/img/img-planes/Naturaleza/natuplayas.webp'); }
+.img-natubici      { background-image: url('/img/img-planes/Naturaleza/natubici.webp'); }
+.img-natusenderismo { background-image: url('/img/img-planes/Naturaleza/natusenderismo.webp'); }
+.img-natuastro     { background-image: url('/img/img-planes/Naturaleza/natuastro.webp'); }
+.img-natuaventura  { background-image: url('/img/img-planes/Naturaleza/natuaventura.webp'); }
+.img-natubiosfera  { background-image: url('/img/img-planes/Naturaleza/natubiosfera.webp'); }
 
 .nat-plan-body {
     padding: 20px;

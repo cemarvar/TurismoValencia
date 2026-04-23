@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
-
+﻿
 .mc-page {
     font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
     color: #1a1a1a;
@@ -10,7 +9,7 @@
 .mc-hero {
     position: relative;
     height: 540px;
-    background-image: url('/img/img-espacios/MercadoCentral/hero-mercado-central.png');
+    background-image: url('/img/img-espacios/MercadoCentral/hero-mercado-central.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -299,11 +298,11 @@
 }
 
 /* Imágenes */
-.img-cupulamc      { background-image: url('/img/img-espacios/MercadoCentral/cupulamc.jpg'); }
-.img-puestosmc     { background-image: url('/img/img-espacios/MercadoCentral/puestosmc.jpg'); }
-.img-centralbarmc  { background-image: url('/img/img-espacios/MercadoCentral/centralbarmc.jpg'); }
-.img-productosmc   { background-image: url('/img/img-espacios/MercadoCentral/productosmc.jpg'); }
-.img-entornomc     { background-image: url('/img/img-espacios/MercadoCentral/entornomc.jpg'); }
+.img-cupulamc      { background-image: url('/img/img-espacios/MercadoCentral/cupulamc.webp'); }
+.img-puestosmc     { background-image: url('/img/img-espacios/MercadoCentral/puestosmc.webp'); }
+.img-centralbarmc  { background-image: url('/img/img-espacios/MercadoCentral/centralbarmc.webp'); }
+.img-productosmc   { background-image: url('/img/img-espacios/MercadoCentral/productosmc.webp'); }
+.img-entornomc     { background-image: url('/img/img-espacios/MercadoCentral/entornomc.webp'); }
 
 /* ── Tabla información práctica ── */
 .mc-info-practica {

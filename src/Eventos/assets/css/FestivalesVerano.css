@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
-
+﻿
 .fv-page {
     font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
     color: #1a1a1a;
@@ -10,7 +9,7 @@
 .fv-hero {
     position: relative;
     height: 520px;
-    background-image: url('/img/img-eventos/festivalesverano/hero-festivalesveranofv.jpg');
+    background-image: url('/img/img-eventos/festivalesverano/hero-festivalesveranofv.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -276,15 +275,15 @@
 }
 
 /* Imágenes */
-.img-sansanfv   { background-image: url('/img/img-eventos/festivalesverano/sansanfv.jpg'); }
-.img-lesartsfv  { background-image: url('/img/img-eventos/festivalesverano/lesartsfv.jpg'); }
-.img-bigsoundfv { background-image: url('/img/img-eventos/festivalesverano/bigsoundfv.jpg'); }
-.img-fibfv      { background-image: url('/img/img-eventos/festivalesverano/fibfv.jpg'); }
-.img-zevrafv    { background-image: url('/img/img-eventos/festivalesverano/zevrafv.jpg'); }
-.img-arenalfv   { background-image: url('/img/img-eventos/festivalesverano/arenalfv.jpg'); }
-.img-medusafv   { background-image: url('/img/img-eventos/festivalesverano/medusafv.jpg'); }
-.img-rototomfv  { background-image: url('/img/img-eventos/festivalesverano/rototomfv.jpg'); }
-.img-visorfv    { background-image: url('/img/img-eventos/festivalesverano/visorfv.jpg'); }
+.img-sansanfv   { background-image: url('/img/img-eventos/festivalesverano/sansanfv.webp'); }
+.img-lesartsfv  { background-image: url('/img/img-eventos/festivalesverano/lesartsfv.webp'); }
+.img-bigsoundfv { background-image: url('/img/img-eventos/festivalesverano/bigsoundfv.webp'); }
+.img-fibfv      { background-image: url('/img/img-eventos/festivalesverano/fibfv.webp'); }
+.img-zevrafv    { background-image: url('/img/img-eventos/festivalesverano/zevrafv.webp'); }
+.img-arenalfv   { background-image: url('/img/img-eventos/festivalesverano/arenalfv.webp'); }
+.img-medusafv   { background-image: url('/img/img-eventos/festivalesverano/medusafv.webp'); }
+.img-rototomfv  { background-image: url('/img/img-eventos/festivalesverano/rototomfv.webp'); }
+.img-visorfv    { background-image: url('/img/img-eventos/festivalesverano/visorfv.webp'); }
 
 /* ── Tabla ── */
 .fv-info-practica {

@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
-
+﻿
 .cc-page {
     font-family: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
     color: #1a1a1a;
@@ -10,7 +9,7 @@
 .cc-hero {
     position: relative;
     height: 520px;
-    background-image: url('/img/img-eventos/corpuschristi/hero-corpuschristicch.jpg');
+    background-image: url('/img/img-eventos/corpuschristi/hero-corpuschristicch.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -268,13 +267,13 @@
 }
 
 /* Imágenes */
-.img-rocascch     { background-image: url('/img/img-eventos/corpuschristi/rocascch.jpg'); }
-.img-albaescch    { background-image: url('/img/img-eventos/corpuschristi/albaescch.jpg'); }
-.img-poalacch     { background-image: url('/img/img-eventos/corpuschristi/poalacch.jpg'); }
-.img-misteriscch  { background-image: url('/img/img-eventos/corpuschristi/misteriscch.jpg'); }
-.img-momacch      { background-image: url('/img/img-eventos/corpuschristi/momacch.jpg'); }
-.img-pasrocascch  { background-image: url('/img/img-eventos/corpuschristi/pasrocascch.jpg'); }
-.img-procesioncch { background-image: url('/img/img-eventos/corpuschristi/procesioncch.jpg'); }
+.img-rocascch     { background-image: url('/img/img-eventos/corpuschristi/rocascch.webp'); }
+.img-albaescch    { background-image: url('/img/img-eventos/corpuschristi/albaescch.webp'); }
+.img-poalacch     { background-image: url('/img/img-eventos/corpuschristi/poalacch.webp'); }
+.img-misteriscch  { background-image: url('/img/img-eventos/corpuschristi/misteriscch.webp'); }
+.img-momacch      { background-image: url('/img/img-eventos/corpuschristi/momacch.webp'); }
+.img-pasrocascch  { background-image: url('/img/img-eventos/corpuschristi/pasrocascch.webp'); }
+.img-procesioncch { background-image: url('/img/img-eventos/corpuschristi/procesioncch.webp'); }
 
 /* ── Tabla ── */
 .cc-info-practicach {
