@@ -71,6 +71,8 @@ import PaseoMaritimo from '../../Entradas/pages/Tours/PaseoMaritimo';
 import Excursiones from '../../Entradas/pages/Experiencias/Excursiones';
 import ActividadesGastronomicas from '../../Entradas/pages/Experiencias/ActividadesGastronomicas';
 import Nauticas from '../../Entradas/pages/Experiencias/Nauticas';
+import PoliticaPrivacidad from '../pages/legal/PoliticaPrivacidad';
+import AvisoLegal from '../pages/legal/AvisoLegal';
 
 export default function App()
 {
@@ -149,6 +151,8 @@ export default function App()
                     <Route path="/Excursiones" element={<Excursiones />} />
                     <Route path="/ActividadesGastronomicas" element={<ActividadesGastronomicas />} />
                     <Route path="/Nauticas" element={<Nauticas />} />
+                    <Route path="/PoliticaPrivacidad" element={<PoliticaPrivacidad />} />
+                    <Route path="/AvisoLegal" element={<AvisoLegal />} />
                 </Routes>
             <ChatBot />
         </BrowserRouter>

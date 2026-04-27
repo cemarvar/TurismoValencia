@@ -1,6 +1,7 @@
 import "../assets/css/map.css";
 import "../assets/css/estilo_footer.css";
 import Map from './Map';
+import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCalendarDays, faPhone, faEnvelope, faLocationDot } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin, faFacebook, faSquareInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons';
@@ -41,10 +42,10 @@ export default function Footer() {
           <div className="footer-col">
             <h4 className="footer-col-title">Síguenos</h4>
             <ul className="footer-list footer-socials">
-              <li><FontAwesomeIcon icon={faLinkedin} /> LinkedIn</li>
-              <li><FontAwesomeIcon icon={faFacebook} /> Facebook</li>
-              <li><FontAwesomeIcon icon={faSquareInstagram} /> Instagram</li>
-              <li><FontAwesomeIcon icon={faTwitter} /> X</li>
+              <li><a href="https://es.linkedin.com/company/turismo-valencia" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} /> LinkedIn</a></li>
+              <li><a href="https://www.facebook.com/visitvalenciaSpain" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faFacebook} /> Facebook</a></li>
+              <li><a href="https://www.instagram.com/visit_valencia" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faSquareInstagram} /> Instagram</a></li>
+              <li><a href="https://x.com/valenciaturismo" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faTwitter} /> X</a></li>
             </ul>
           </div>
 
@@ -55,7 +56,7 @@ export default function Footer() {
           <span>© 2026 Valencia · Todos los derechos reservados</span>
         </div>
         <div className="footer-links">
-          <span>Política de privacidad</span> &nbsp;·&nbsp; <span>Aviso legal</span>
+          <Link to="/PoliticaPrivacidad">Política de privacidad</Link> &nbsp;·&nbsp; <Link to="/AvisoLegal">Aviso legal</Link>
         </div>
       </footer>
 
