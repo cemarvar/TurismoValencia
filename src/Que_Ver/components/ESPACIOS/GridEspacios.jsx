@@ -4,7 +4,7 @@ import Espacios from '../ESPACIOS/Espacios';
 export default function GridEspacios() {
     var elementos = [
         { imagen: "/img/img-espacios/lonja.webp",            titulo: "Lonja de Seda",                        ruta: "/LonjaSeda" },
-        { imagen: "/img/img-espacios/catedral.webp",         titulo: "Catedral y Santo Cadiz",               ruta: "/CatedralCaliz"  },
+        { imagen: "/img/img-espacios/catedral.webp",         titulo: "Catedral y Santo Cáliz",               ruta: "/CatedralCaliz"  },
         { imagen: "/img/img-espacios/barri_carmen.webp",     titulo: "Barrio del Carmen",                    ruta: "/BarrioCarmen"  },
         { imagen: "/img/img-espacios/oceanografic.webp",     titulo: "Oceanografic",                         ruta: "/Oceanografic"  },
         { imagen: "/img/img-espacios/mercado_central.webp",  titulo: "Mercado Central",                      ruta: "/MercadoCentral"  },
