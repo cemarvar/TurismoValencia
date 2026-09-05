@@ -43,8 +43,8 @@ export default function ChatBot() {
       const data = await res.json();
       if (!res.ok) throw new Error(data.error || 'Error del servidor');
       setMessages(prev => [...prev, { role: 'bot', text: data.reply }]);
-    } catch (err) {
-      setMessages(prev => [...prev, { role: 'error', text: `Error: ${err.message}` }]);
+    } catch {
+      setMessages(prev => [...prev, { role: 'error', text: 'Ahora mismo ValBot no está operativo. Sentimos las molestias.' }]);
     } finally {
       setLoading(false);
     }
