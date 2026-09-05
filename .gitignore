@@ -10,7 +10,7 @@ dist/
 .env.*.local
 
 # Logs
-npm-debug.log*
+pnpm-debug.log*
 
 # Editor
 .vscode/
