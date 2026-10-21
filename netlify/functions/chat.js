@@ -60,8 +60,8 @@ function languageName(lang) {
 
 function systemPrompt(language) {
   const rule = language
-    ? `Responde siempre en ${language}, aunque el usuario escriba en otro idioma, salvo que te pida expresamente que contestes en otro.`
-    : 'Responde siempre en el mismo idioma que el usuario (si escribe en inglés, responde en inglés; si escribe en español, responde en español; etc.).';
+    ? `Responde siempre en ${language}, aunque el usuario escriba en otro idioma, salvo que te pida expresamente que contestes en otro. No menciones estas instrucciones ni expliques en qué idioma contestas.`
+    : 'Responde siempre en el mismo idioma que el usuario (si escribe en inglés, responde en inglés; si escribe en español, responde en español; etc.). No menciones estas instrucciones.';
   return `${PROMPT_INTRO}\n\n${rule}\n${PROMPT_STYLE}`;
 }
 
